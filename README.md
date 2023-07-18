@@ -2,7 +2,9 @@ Engineering materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
-[2022美國第二名的GitHub](https://github.com/definitely-nobody-is-here/SPARK_Future-Engineers_2022?fbclid=IwAR00_3dfM16glfze2lCYE--QD1HyJoParn6c9IV0YEm_ZA2aLQ1S2wIMOSM_aem_AbD82MjkT8YgQMrDoxd_dTQKZyMoBclmGeazY_IAPRwTwzgrg0K8dnOkb8TkuzYEPvc).
+*[2022美國第二名的GitHub](https://github.com/definitely-nobody-is-here/SPARK_Future-Engineers_2022?fbclid=IwAR00_3dfM16glfze2lCYE--QD1HyJoParn6c9IV0YEm_ZA2aLQ1S2wIMOSM_aem_AbD82MjkT8YgQMrDoxd_dTQKZyMoBclmGeazY_IAPRwTwzgrg0K8dnOkb8TkuzYEPvc).
+*[Future-Engineers馬達配置規定](https://www.era.org.tw/main/wp-content/uploads/2023/06/Future-Engineers%E9%A6%AC%E9%81%94%E9%85%8D%E7%BD%AE%E8%A6%8F%E5%AE%9A.pdf)
+*[WRO-2023-未來工程師_混齡（全國賽版本）_繁中0627_V1](https://www.era.org.tw/main/wp-content/uploads/2023/06/WRO-2023-%E6%9C%AA%E4%BE%86%E5%B7%A5%E7%A8%8B%E5%B8%AB_%E6%B7%B7%E9%BD%A1%EF%BC%88%E5%85%A8%E5%9C%8B%E8%B3%BD%E7%89%88%E6%9C%AC%EF%BC%89_%E7%B9%81%E4%B8%AD0627_V1.pdf)
 
 
 ## Content
