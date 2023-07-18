@@ -11,13 +11,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
   ![隊員團照](t-photos/361805505_123532367463201_6761739400430320780_n.jpg "隊員團照")
 
-   <span style="color: Red"> kkk </span>
+ 
 ## Content
-- ### <span style="color: Red"> Hardware Overview </span>  
+- ### ${{\color{red} Hardware Overview }} $ 
   - Parts List
   - Assembly Instructions & Diagrams
   - Photos
-- ### Software Overview
+- ### ${{\color{red} Software Overview }} $ 
   - Operating System
   - Programming Language
   - IO
