@@ -13,7 +13,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 
 ## Content
-- ### ardware Overview
+- ### Hardware Overview
   - Parts List
   - Assembly Instructions & Diagrams
   - Photos
