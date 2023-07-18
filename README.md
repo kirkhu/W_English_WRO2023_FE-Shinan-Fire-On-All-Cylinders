@@ -43,14 +43,14 @@ This repository contains engineering materials of a self-driven vehicle's model 
 * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
 * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
-- ## ${{\color{red} The Hardware }}$ 
+ ## ${{\color{red} The Hardware }}$ 
   - ### Parts List
   - ### Assembly Instructions & Diagrams
   - ### Robot's Photos
 
 
 
-- ## ${{\color{red} The Softwarehe }} $ 
+ ## ${{\color{red} The Softwarehe }} $ 
   - ### Operating System
   - ### Programming Language
   - ### IO
