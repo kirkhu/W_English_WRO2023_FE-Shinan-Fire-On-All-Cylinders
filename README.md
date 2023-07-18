@@ -46,7 +46,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
  ## ${{\color{red} The Hardware }}$ 
    ### 。Parts List
-   ### Lidar of Introduction
+   ### 。Lidar of Introduction
    - 介紹光達
    - 比較超音波與光達的異差
    - 說明不同品牌光達遇到的問題
