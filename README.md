@@ -14,7 +14,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
  
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
-  - Parts List
+  - [Parts List](#Parts List)
   - Assembly Instructions & Diagrams
   - Robot's Photos
 - ### ${{\color{red} Software Overview }} $ 
@@ -34,20 +34,23 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 
 
-
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+> * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
+> * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
+> * `video` contains the video.md file with the link to a video where driving demonstration exists
+> * `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
+> * `src` contains code of control software for all components which were programmed to participate in the competition
+> * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
+> * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
  ## ${{\color{red} The Hardware }}$ 
-  - ### Parts List
-  - ### Assembly Instructions & Diagrams
-  - ### Robot's Photos
-
+   ### Parts List
+   ### Assembly Instructions & Diagrams
+   ### Robot's Photos
+| 姓名   | 年龄 |     工作 |
+| :----- | :--: | -------: |
+| 小可爱 |  18  | 吃可爱多 |
+| 小小勇敢 |  20  | 爬棵勇敢树 |
+| 小小小机智 |  22  | 看一本机智书 |
 
 
  ## ${{\color{red} The Softwarehe }} $ 
@@ -60,7 +63,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - #### Pillar Steering
     - #### Final Steering
     - #### PARK Control Panel
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+> This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
 
 ## How to prepare the repo based on the template
 
