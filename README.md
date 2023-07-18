@@ -33,16 +33,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
 
-
-
-
-> * `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-> * `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-> * `video` contains the video.md file with the link to a video where driving demonstration exists
-> * `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-> * `src` contains code of control software for all components which were programmed to participate in the competition
-> * `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-> * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
+> * t-photos包含 2 張團隊照片（一張是官方照片，一張是所有團隊成員的搞笑照片）
+> * v-photos包含 6 張車輛照片（從各個側面、從頂部和底部）
+> * video包含 video.md 文件，其中包含指向存在駕駛演示的視頻的鏈接
+> * schemes包含一張或多張 JPEG、PNG 或 PDF 形式的機電組件示意圖，說明車輛中使用的所有元件（電子元件和電機）以及它們如何相互連接。
+> * src包含所有被編程參加比賽的組件的控制軟件代碼
+> * models用於 3D 打印機、激光切割機和 CNC 機器生產車輛元件所使用的模型的文件。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
+> * other用於其他文件，可用於了解如何為比賽準備車輛。它可能包括如何連接到 SBC/SBM 並向其中上傳文件、數據集、硬件規格、通信協議描述等的文檔。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
 
  ## ${{\color{red} The Hardware }}$ 
    ### 。Parts List
