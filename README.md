@@ -14,7 +14,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
  
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
-  - [Parts List](#Parts List)
+  - [Parts List](#parts-list)
   - Assembly Instructions & Diagrams
   - Robot's Photos
 - ### ${{\color{red} Software Overview }} $ 
