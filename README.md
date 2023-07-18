@@ -15,10 +15,12 @@ This repository contains engineering materials of a self-driven vehicle's model 
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
   - [Parts List](#parts-list)
+  - Lidar of Introduction
   - Assembly Instructions & Diagrams
   - Robot's Photos
 - ### ${{\color{red} Software Overview }} $ 
   - Operating System
+  - ROS of Introduction
   - Programming Language
   - IO
   - Image Processing and Predictions
@@ -43,7 +45,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
 > * `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
  ## ${{\color{red} The Hardware }}$ 
-   ### Parts List
+   ### 。Parts List
+   ### Lidar of Introduction
+   - 介紹光達
+   - 比較超音波與光達的異差
+   - 說明不同品牌光達遇到的問題
    ### Assembly Instructions & Diagrams
    ### Robot's Photos
 | 姓名   | 年龄 |     工作 |
@@ -54,10 +60,10 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 
  ## ${{\color{red} The Softwarehe }} $ 
-  - ### Operating System
-  - ### Programming Language
-  - ### IO
-  - ### Image Processing and Predictions
+   ### 。Operating System
+   ### 。Programming Language
+   ### 。IO
+   ### 。Image Processing and Predictions
     - #### Image Preprocessing
     - #### Wall Steering
     - #### Pillar Steering
@@ -72,3 +78,4 @@ _Remove this section before the first commit to the repository_
 1. Clone this repo by using the `git clone` functionality.
 2. Remove `.git` directory
 3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+新增文章內容
