@@ -13,11 +13,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 
 ## Content
-### ardware Overview
+- ### ardware Overview
   - Parts List
   - Assembly Instructions & Diagrams
   - Photos
-### Software Overview
+- ### Software Overview
   - Operating System
   - Programming Language
   - IO
@@ -27,9 +27,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Pillar Steering
     - Final Steering
   - PARK Control Panel
-### Team Photos
-### Demonstration Video
-### LiPo Battery Safety Notice
+- ### Team Photos
+- ### Demonstration Video
+- ### LiPo Battery Safety Notice
 
 
 
