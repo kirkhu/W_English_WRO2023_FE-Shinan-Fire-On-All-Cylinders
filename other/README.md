@@ -2,7 +2,7 @@
 
 ## Team lntroduction
 
-**LIN,BO-SHENG**
+**ZHAO,ZHEN-BO**
 
 Taichung Industrial Senior High School
 
