@@ -6,7 +6,7 @@
 
 Taichung Industrial Senior High School
 
-<img src= "https://github.com/2008linchungpin/Future-engineers-Fire-On-All-Cylinders/blob/main/other/Diary%20photos/IMG_6410.JPG" width="300" height="400">
+<img src= "" width="300" height="400">
 
 **LI,DING-WEI**
 
