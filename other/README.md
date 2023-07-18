@@ -8,11 +8,11 @@ Taichung Industrial Senior High School
 
 <img src= "" width="300" height="400">
 
-**LI,DING-WEI**
+**HU,YUN-RUI**
 
 Ming-Dao High School
 
-<img src= "https://github.com/2008linchungpin/Future-engineers-Fire-On-All-Cylinders/blob/main/other/Diary%20photos/IMG_6403.JPG" width="300" height="400">
+<img src= "" width="300" height="400">
 
 **LIN,ZHONG-BIN**
 
