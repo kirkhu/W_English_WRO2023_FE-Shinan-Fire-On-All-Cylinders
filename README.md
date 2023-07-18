@@ -66,7 +66,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - #### Pillar Steering
     - #### Final Steering
     - #### PARK Control Panel
-> This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+> 這部分必須由參與者填寫有關代碼的技術說明：代碼由哪些模塊組成，它們與車輛的機電組件有何關係，以及構建/編譯/上傳代碼到車輛的過程是什麼控制器。
 
 ## How to prepare the repo based on the template
 
