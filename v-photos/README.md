@@ -1,4 +1,19 @@
-Vehicle's photos
-====
+# Vehicle's photos
 
-This directory must contain 6 photos of the vehicle (from every side, from top and bottom)
+## front view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/fornt_view.png)
+
+## right view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/Right_view.png)
+
+## left view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/Left_view.png)
+
+## bottom view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/bottom_view.png)
+
+## rear view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/rear_view.png)
+
+## top view
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/top_view.png)
