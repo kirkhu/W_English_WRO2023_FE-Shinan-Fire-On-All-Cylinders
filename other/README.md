@@ -4,7 +4,7 @@
 
 **ZHAO,ZHEN-BO**
 
-Taichung Shinan Junior High School
+Shinan Junior High School
 
 <img src= "" width="300" height="400">
 
