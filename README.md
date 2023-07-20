@@ -10,7 +10,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
 * [官方教程](https://markdown.com.cn/basic-syntax/headings.html)
 
   ![隊員團照](t-photos/361805505_123532367463201_6761739400430320780_n.jpg "隊員團照")
-
+* 使用VScode 上傳檔案到GITHUB方式
+  - 下載 VScode 並安裝 
+  - 下載 Git  並安裝
+  - 執行 Git bash 
+    > git config --global user.name "您的姓名"  
+    > git config --global user.email "您的Email"   
+  - 執行 VScode 點 
  
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
