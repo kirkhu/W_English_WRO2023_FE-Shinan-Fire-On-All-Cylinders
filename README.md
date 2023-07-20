@@ -16,7 +16,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - 執行 Git bash 
     > git config --global user.name "您的姓名"  
     > git config --global user.email "您的Email"   
-  - 執行 VScode 點 
+  - 執行 VScode 點 複製Git存放庫
+  - 選擇本地電腦資料夾位置
+  - 編輯後存檔、打說明、提交、同步變更
  
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
