@@ -1,6 +1,6 @@
 Team's photos
 ====
-The one to the left is Hu,Yun-Ruie in 11th grade.
+The one to the left is Hu,Yun-Rueiin 11th grade.
 
 The one in the meddle is JHAO,JHEN-BO in 10th grade.
 
