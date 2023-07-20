@@ -62,7 +62,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 | 小可爱 |  18  | 吃可爱多 |
 | 小小勇敢 |  20  | 爬棵勇敢树 |
 | 小小小机智 |  22  | 看一本机智书 |  
-
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/%E9%80%A3%E6%8E%A5%E5%9C%96.jpg)
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System
    ### 。Programming Language
