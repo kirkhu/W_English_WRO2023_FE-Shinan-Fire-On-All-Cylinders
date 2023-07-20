@@ -64,9 +64,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 | 小小小机智 |  22  | 看一本机智书 |  
 
  ## ${{\color{red} The Softwarehe }} $ 
-   ### 。Operating System
-       #### python  
-   
+   ### 。Operating System  
    ### 。Programming Language
    ### 。IO
    ### 。Image Processing and Predictions
