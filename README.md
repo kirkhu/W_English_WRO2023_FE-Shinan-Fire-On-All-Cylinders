@@ -41,7 +41,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - #### Final Steering
   - PARK Control Panel
 - ### ${{\color{red} Other }} $
-  - #### [Team Members](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
+  - #### [Team Members of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - #### [Demonstration Video](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)  
   - #### [LiPo Battery Safety Notice](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
   
