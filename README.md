@@ -40,7 +40,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Pillar Steering
     - Final Steering
   - PARK Control Panel
-    <img src="./v-photos/Left_view.png" alt="Image" > 
+<img src="./t-photos/funny_photo.jpg" alt="Image" > 
 - ### Team Photos  
 
 - ### Demonstration Video
