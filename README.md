@@ -40,12 +40,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Pillar Steering
     - Final Steering
   - PARK Control Panel
-
 - ### Team Photos  
-<img src="./t-photos/team_photo.jpg" width = "562" height = "456" alt="圖體照" align=center  /> 
+- <img src="./t-photos/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />
 - ### funny Photos  
-<img src="./t-photos/funny_photo.jpg" width = "562" height = "456" alt="圖體照" align=center  /> 
-- ### Demonstration Video
+- <img src="./t-photos/funny_photo.jpg" width = "562" height = "456" alt="圖體照" /> 
+- ### Demonstration Vide
 - ### LiPo Battery Safety Notice
 
 > * t-photos包含 2 張團隊照片（一張是官方照片，一張是所有團隊成員的搞笑照片）
