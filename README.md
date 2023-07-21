@@ -32,7 +32,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 - ### ${{\color{red} Software Overview }} $ 
   - [Operating System](#operating-system)
   - ROS of Introduction
-  - Programming LanguageFunny Photos 
+  - Programming Language
   - IO
   - Image Processing and Predictions
     - Image Preprocessing
