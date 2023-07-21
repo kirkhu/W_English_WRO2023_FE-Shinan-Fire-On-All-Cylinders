@@ -54,7 +54,7 @@ Rated Voltage: 11.1V
   
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="battery.png" width = "300" height = "300" alt="電池" align=center />   
+<img src="battery.png" width = "500" height = "300" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -64,7 +64,7 @@ Output Signal: Digital
   
 Usage:  
 Send an activation signal before initiating the program.  
-<img src="button.png" width = "300" height = "300" alt="按鈕" align=center />   
+<img src="button.png" width = "400" height = "300" alt="按鈕" align=center />   
 
 ### ADIO-DC36V5A Switching power adapter  
 Specifications:  
@@ -92,4 +92,4 @@ Interface: CSI (Camera Serial Interface)
   
 Usage:  
 Collecting images for image recognition.  
-<img src="raspi camera V2.png" width = "300" height = "300" alt="相機" align=center />   
+<img src="raspi camera V2.png" width = "350" height = "300" alt="相機" align=center />   
