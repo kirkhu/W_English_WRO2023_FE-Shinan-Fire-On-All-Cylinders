@@ -81,7 +81,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System
-   
+   我們使用 ros 系統讀取光達數值，再藉由 MQTT 傳輸至 raspberry pi 讀取。  
+   ros 我們使用的版本是 Noetic Ninjemys  
+   <img src="/src/ros_Noetic-Ninjemys.jpg" alt="Image">  
+   MQTT 相較於 http 因為只通訊一次，因此自然速度較快  
+   <img src="/src/MQTT.png" alt="Image" width = "400" height = "100" alt="MQTT" align=center />
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
    ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/python.png)  
