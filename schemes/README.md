@@ -11,7 +11,8 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
   
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/raspberry_pi_4.jpg =100x100)  
+ <img src="(https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/raspberry_pi_4.jpg)" width = "300" height = "200" alt="图片名称" align=center />
+
 
 ### GA25-370 DC reduction motor  
 Specifications:  
