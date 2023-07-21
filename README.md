@@ -41,7 +41,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Final Steering
   - PARK Control Panel
 - ### ${{\color{red} Other }} $ 
-  - <a href="./t-photos/README.md">Team Member</a>  
+  - <a href="/t-photos/README.md">Team Member</a>  
   https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md
   https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md
   - ### Team Photos  
