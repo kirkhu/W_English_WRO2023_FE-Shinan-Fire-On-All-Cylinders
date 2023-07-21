@@ -12,5 +12,5 @@ The one to the right is ZHAO,ZHEN-BO in 9th grade.
 
 Team member photo
 
-![358833961_1461129151357201_8986267467846817051_n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/4017b9c1-c183-4058-b34a-32d9e502364d =30%x)
+![358833961_1461129151357201_8986267467846817051_n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/4017b9c1-c183-4058-b34a-32d9e502364d =80%x)
 
