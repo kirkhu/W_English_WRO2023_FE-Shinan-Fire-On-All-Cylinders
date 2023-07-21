@@ -66,6 +66,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
      D100體積小，但是偵測頻率是2300，相比 ydlidar 的 x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
    ### Assembly Instructions & Diagrams
    ### Robot's Photos   
+   ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/Left_view.png) ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/Right_view.png)  
+   ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/front_view.png)  ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/rear_view.png)  
+  ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/top_view.png)  ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/bottom-view.png)  
 | 姓名   | 年龄 |     工作 |
 | :----- | :--: | -------: |
 | 小可爱 |  18  | 吃可爱多 |
