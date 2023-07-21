@@ -39,8 +39,8 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### Team Photos
   **Team Photo**  
-<img src="/t-photos/team%20photo.jpg" width = "300" height = "300" alt="图片名称" align=center /> 
-  ![image](t-photos/team%20photo.jpg)
+  <img src="/t-photos/team%20photo.jpg" width = "300" height = "300" alt="圖體照" align=center /> 
+
   
   **A Funny Photo**  
   ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/funny%20photo.jpg){width=200 height=100}
