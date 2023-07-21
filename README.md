@@ -48,9 +48,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 - ### Demonstration Vide
 - ### LiPo Battery Safety Notice
-  - 這裡說明鋰電池的危險及保養
+  - 這裡說明鋰電池的危險、如何保養及成分
   - 放電壓器及充放電的設備
-  
+
 > * t-photos包含 2 張團隊照片（一張是官方照片，一張是所有團隊成員的搞笑照片）
 > * v-photos包含 6 張車輛照片（從各個側面、從頂部和底部）
 > * video包含 video.md 文件，其中包含指向存在駕駛演示的視頻的鏈接
