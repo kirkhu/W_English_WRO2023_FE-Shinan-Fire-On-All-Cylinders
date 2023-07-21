@@ -22,7 +22,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - 選擇本地電腦資料夾位置
   - 編輯後存檔、打說明、提交、同步變更
 * 圖片改大小
-   > "<img src="./t-photos/team%20photo.jpg" width = "300" height = "300" alt="圖體照" align=center />"
+   > "<img src="./t-photos/team_photo.jpg" width = "300" height = "300" alt="圖體照" align=center />"
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
   - [Parts List](#parts-list)
@@ -42,11 +42,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### Team Photos
   **Team Photo**  
-  ![image](/t-photos/team%20photo.jpg)  
+  ![image](./t-photos/team%20photo.jpg)  
 
   
   **A Funny Photo**  
-  ![image](/t-photos/funny%20photo.jpg)  
+  ![image](./t-photos/funny%20photo.jpg)  
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
 
