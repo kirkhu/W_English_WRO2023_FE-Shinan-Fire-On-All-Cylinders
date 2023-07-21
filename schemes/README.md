@@ -74,7 +74,7 @@ Operating Frequency: 180Hz
   
 Usage:  
 Stabilizing the power supplied by lithium batteries.  
-<img src="ADIO-DC36V5A.png" width = "300" height = "300" alt="降壓板" align=center />   
+<img src="ADIO-DC36V5A.png" width = "500" height = "300" alt="降壓板" align=center />   
 
 ### TCS23725 RGB color sensor  
 Specifications:  
