@@ -53,8 +53,12 @@ This repository contains engineering materials of a self-driven vehicle's model 
    ### 。Parts List
    ### 。Lidar of Introduction
    - 介紹光達
+     D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。
+     使用三角測距技術，可以偵測周圍360度，最大偵測距離是8公尺，2300次偵測頻率
    - 比較超音波與光達的異差
+     超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率
    - 說明不同品牌光達遇到的問題
+     D100體積小，但是角度分辨率有一度，相比 ydlidar 的 x2 和 x4 的0.7度，還是比較多，因此
    ### Assembly Instructions & Diagrams
    ### Robot's Photos   
 | 姓名   | 年龄 |     工作 |
@@ -65,13 +69,12 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System
-   We choose Python as our Programming Language.  
+   ### 。Programming Language
+   我們選了 python 用於我們的程式開發上  
    ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/python.png)  
    
-   Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.  
-   It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its
-   comprehensive standard library.  
-   ### 。Programming Language
+  Python是一种高级、通用的编程语言。它的设计理念强调代码的可读性，使用了显著缩进。Python是动态类型且具有垃圾回收功能。  
+  它支持多种编程范式，包括结构化（特别是特別程序化）、面向对象和函数式编程。由于其全面的标准库，它通常被描述为一个 “ batteries included ” 的語言。
    ### 。IO
    ### 。Image Processing and Predictions
    ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image Preprocessing
