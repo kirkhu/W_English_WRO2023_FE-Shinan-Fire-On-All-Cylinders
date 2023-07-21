@@ -7,12 +7,12 @@
 
 ### Raspberry Pi 4  
 Specification:  
-With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it is 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
+With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
   
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
- <img src="raspberry_pi_4.jpg" width = "300" height = "300" alt="图片名称" align=center />  
- ![image](raspberry_pi_4.jpg =300*300)  
+ <img src="raspberry_pi_4.jpg" width = "300" height = "300" alt="樹梅派" align=center />  
+
 
 
 ### GA25-370 DC reduction motor  
@@ -23,7 +23,7 @@ Operating Voltage: 3 - 12V
   
 Usage:  
 Driving the car's rear wheels to control the vehicle's forward and backward movements.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor.png)  
+<img src="Motor.png" width = "300" height = "300" alt="馬達圖" align=center />  
 
 ### MG90S servo motor  
 Specifications:  
@@ -34,7 +34,7 @@ Operating Voltage: 4.8V - 7.2V
   
 Usage:  
 Control the steering mechanism to make the vehicle turn.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/MG90S.jpg)  
+<img src="MG90S.jpg" width = "300" height = "300" alt="伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specifications:  
@@ -44,7 +44,7 @@ Peak output current: 1.2A
   
 Usage:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/l293d.jpg)  
+<img src="l293d.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
 
 ### battery Lithium Polymer  
 Specifications:  
@@ -54,7 +54,7 @@ Rated Voltage: 11.1V
   
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/battery.png)  
+<img src="battery.png" width = "500" height = "300" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -64,7 +64,7 @@ Output Signal: Digital
   
 Usage:  
 Send an activation signal before initiating the program.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/button.png)  
+<img src="button.png" width = "400" height = "300" alt="按鈕" align=center />   
 
 ### ADIO-DC36V5A Switching power adapter  
 Specifications:  
@@ -74,7 +74,7 @@ Operating Frequency: 180Hz
   
 Usage:  
 Stabilizing the power supplied by lithium batteries.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/ADIO-DC36V5A.png)  
+<img src="ADIO-DC36V5A.png" width = "500" height = "300" alt="降壓板" align=center />   
 
 ### TCS23725 RGB color sensor  
 Specifications:  
@@ -83,7 +83,7 @@ Interface: I2C interface
   
 Usage:  
 Line recognition and counting the current number of revolutions.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/TCS34725.jpg)  
+<img src="TCS34725.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specifications:  
@@ -92,4 +92,4 @@ Interface: CSI (Camera Serial Interface)
   
 Usage:  
 Collecting images for image recognition.  
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/raspi%20camera%20V2.png)  
+<img src="raspi camera V2.png" width = "350" height = "300" alt="相機" align=center />   
