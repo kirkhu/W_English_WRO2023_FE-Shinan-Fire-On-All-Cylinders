@@ -1,1 +1,2 @@
-https://www.youtube.com/watch?v=J5yrJuZZ5P8
+https://youtu.be/CwvGDfQJ8cQ  
+[![線上讀書會 RxSwift 分享]](https://youtu.be/CwvGDfQJ8cQ)
