@@ -64,7 +64,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
 | 小小小机智 |  22  | 看一本机智书 |  
 
  ## ${{\color{red} The Softwarehe }} $ 
-   ### 。Operating System  
+   ### 。Operating System
+   We choose Python as our Programming Language.  
+   ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/python.png)  
+   
+   Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected.  
+   It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its
+   comprehensive standard library.  
    ### 。Programming Language
    ### 。IO
    ### 。Image Processing and Predictions
