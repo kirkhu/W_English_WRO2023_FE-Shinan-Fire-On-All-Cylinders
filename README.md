@@ -42,11 +42,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### Team Photos
 - Team Photo
-  <img src="./t-photos/team_photo.jpg" width = "400" height = "300" alt="圖體照" align=center />  
+  <img src="./t-photos/team_photo.jpg" width = "400" height = "300" alt="圖體照片" align=center />  
 
 
 - A Funny Photo   
-  <img src="./t-photos/funny_photo.jpg" width = "400" height = "350" alt="圖體照" align=center />  
+  <img src="./t-photos/funny_photo.jpg" width = "400" height = "350" alt="有趣的照片" align=center />  
  
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
