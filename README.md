@@ -22,7 +22,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - 選擇本地電腦資料夾位置
   - 編輯後存檔、打說明、提交、同步變更
 * 圖片改大小
-   > "<img src="/t-photos/team%20photo.jpg" width = "300" height = "300" alt="圖體照" align=center />"
+   > "<img src="./t-photos/team%20photo.jpg" width = "300" height = "300" alt="圖體照" align=center />"
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
   - [Parts List](#parts-list)
@@ -68,6 +68,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
      超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率  
    - 說明不同品牌光達遇到的問題  
      D100體積小，但是偵測頻率是2300，相比 ydlidar 的 x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
+     網址來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)
    ### Assembly Instructions & Diagrams
    ### Robot's Photos   
 |        |        |  
