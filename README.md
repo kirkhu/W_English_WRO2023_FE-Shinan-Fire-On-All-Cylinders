@@ -42,7 +42,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### ${{\color{red} Other }} $
   - #### [Team Members](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
-  - #### Demonstration Video
+  - #### [Demonstration Video](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)  
     - 資格賽
     - 任務賽
   - ### LiPo Battery Safety Notice(圖片檔放OTHER)
