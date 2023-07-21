@@ -43,8 +43,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
 - ### ${{\color{red} Other }} $
   - #### [Team Members](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - #### [Demonstration Video](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)  
-    - 資格賽
-    - 任務賽
   - ### [LiPo Battery Safety Notice](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
   
 > * t-photos包含 2 張團隊照片（一張是官方照片，一張是所有團隊成員的搞笑照片）
