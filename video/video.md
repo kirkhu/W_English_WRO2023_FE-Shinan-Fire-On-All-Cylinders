@@ -6,7 +6,8 @@
 
 ## Obstacle Challenge  
 [![2023WRO Future-Engineers_Obstacle Challenge](Obstacle_Challenge.jpg)](https://youtu.be/CwvGDfQJ8cQ "2023WRO Future-Engineers_Obstacle Challenge")
-[![xxxcx](https://res.cloudinary.com/marcomontalbano/image/upload/v1689922400/video_to_markdown/images/youtube--CwvGDfQJ8cQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/CwvGDfQJ8cQ "xxxcx")
+
+[![xxxcx](Obstacle_Challenge.jpg)](https://youtu.be/CwvGDfQJ8cQ "xxxcx")
 
 ## 測試  
 [![2023WRO Future-Engineers](https://img.youtube.com/vi/CwvGDfQJ8cQ/hqdefault.jpg)](https://youtu.be/CwvGDfQJ8cQ)
