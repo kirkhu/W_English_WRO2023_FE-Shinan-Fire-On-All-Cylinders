@@ -47,7 +47,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 <img src="./t-photos/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> 
 
 - ### Demonstration Vide
-- ### LiPo Battery Safety Notice
+- ### LiPo Battery Safety Notice(圖片檔放OTHER)
   - 這裡說明鋰電池的危險、如何保養及成分
   - 放電壓器及充放電的設備
 
