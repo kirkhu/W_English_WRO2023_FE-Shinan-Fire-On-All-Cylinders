@@ -41,12 +41,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Final Steering
   - PARK Control Panel
 - ### Team Photos
-   - #### Team Photo
-  <img src="./v-photos1/team_photo.jpg" alt="圖體照"  />  
-
-
-   - #### A Funny Photo   
-  <img src="./t-photos/funny_photo.jpg"  alt="圖體照"  />  
  
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
