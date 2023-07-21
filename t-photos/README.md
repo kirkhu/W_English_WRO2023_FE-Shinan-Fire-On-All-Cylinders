@@ -2,19 +2,19 @@
 Team's photos  
 ====
 - ### Team Photos  
-<img src="team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  
+<div align="center"><img src="team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>
 
 - ### Funny Photos  
-<img src="funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> 
+<div align="center"><img src="funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>
 
 - ### Hu,Yun-Rueiin
-<img src="Hu.jpg" width = "562" height = "456" alt="胡允瑞"  />  
+<div align="center"><img src="Hu.jpg" width = "562" height = "456" alt="胡允瑞"  />  </div>
 
 - ### LIN,JHONG-BIN
-<img src="lin.jpg" width = "562" height = "456" alt="林仲斌"  /> 
+<div align="center"><img src="lin.jpg" width = "562" height = "456" alt="林仲斌"  /> </div>
 
 - ### ZHAO,ZHEN-BO
-<img src="Bo.jpg" width = "562" height = "456" alt="趙振博"  /> 
+<div align="center"><img src="Bo.jpg" width = "562" height = "456" alt="趙振博"  /> </div>
 
 The one to the left is Hu,Yun-Rueiin 11th grade.
 
