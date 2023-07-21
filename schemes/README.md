@@ -2,7 +2,7 @@
 
 ## Components's Position  
 
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Component%20position.jpg)  
+![image](Component%20position.jpg)  
 ## Pin Configuration  
 
 ### Raspberry Pi 4  
