@@ -12,8 +12,8 @@ The one to the right is ZHAO,ZHEN-BO in 9th grade.
 
 member photo
 
-![358833961_1461129151357201_8986267467846817051_n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/4017b9c1-c183-4058-b34a-32d9e502364d)
-![357217261_6733974733336561_171558805497428065_n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/5c2abf44-f7f4-4d9a-a8cc-7e8320b608e5)
-![356957842_1395930647635268_6562579945728974324_n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/6dce5565-4f9b-47be-88fb-8217dfe89cbb)
+![lin n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/4017b9c1-c183-4058-b34a-32d9e502364d)
+![ Bo n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/5c2abf44-f7f4-4d9a-a8cc-7e8320b608e5)
+![Hu n](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/assets/107915065/6dce5565-4f9b-47be-88fb-8217dfe89cbb)
 
 
