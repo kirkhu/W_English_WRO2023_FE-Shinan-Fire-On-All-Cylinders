@@ -42,7 +42,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### Team Photos
   **Team Photo**  
-  <img src="./t-photos/team_photo.jpg" width = "400" height = "300" alt="圖體照" align=center />  
+  <img src="/t-photos/team_photo.jpg" width = "400" height = "300" alt="圖體照" align=center />  
 
 
   **A Funny Photo**  
