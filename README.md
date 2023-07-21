@@ -41,10 +41,10 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Final Steering
   - PARK Control Panel
 - ### [Team Member](./t-photos/README.md)
-- ### Team Photos  
+  - ### Team Photos  
 <img src="./t-photos/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  
 
-- ### Funny Photos  
+  - ### Funny Photos  
 <img src="./t-photos/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> 
 
 - ### Demonstration Vide
