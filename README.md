@@ -81,6 +81,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System  
+   #### System Platform Software Installation Process Diagram.
+   ![images](src/software_setup.png)  
+
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
    ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/python.png)  
