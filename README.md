@@ -28,11 +28,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - [Parts List](#parts-list)
   - Lidar of Introduction
   - Assembly Instructions & Diagrams
-  - Robot's Photos
+  - [Robot's Photos](./v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
   - [Operating System](#operating-system)
   - ROS of Introduction
-  - Programming Language
+  - Programming LanguageFunny Photos 
   - IO
   - Image Processing and Predictions
     - Image Preprocessing
