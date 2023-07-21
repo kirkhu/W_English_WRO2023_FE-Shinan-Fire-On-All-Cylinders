@@ -1,7 +1,7 @@
 # Vehicle's photos
 
 ### front view
-![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/fornt_view.png)
+![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/front_view.png)
 
 ### right view
 ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/Right_view.png)
