@@ -80,11 +80,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System
-   操作系統是 linux ，由於樹梅派是建立在 linux 系統上，因此操作系統是 linux  
-   ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/linux.png)   
-   
-   Linux 是一種自由軟體和開放原始碼軟體類UNIX作業系統，由林納斯·托瓦茲在1991年10月5日首次發布，任何個人和機構都可以自由地使用Linux的所有底層原始碼，以及自由地修改和再發布。  
-   最初這個核心的名稱為"Freax"，意思是自由（"free"）和奇異（"freak"）的結合字，並且附上"X"這個常用的字母，但最後改成 linux，用企鵝當商標的說法是:企鵝代表南極，南極是全世界共有的陸地。這也就代表Linux是所有人的，可以自由地適用。
    
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
