@@ -28,25 +28,24 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - #### [Parts List](#parts-list)
   - #### Lidar of Introduction
   - #### Assembly Instructions & Diagrams
-  - #### Assembly Instructions & Diagrams
-  - [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
+  - #### [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
-  - [Operating System](#operating-system)
-  - ROS of Introduction
-  - Programming Language
-  - IO
-  - Image Processing and Predictions
-    - Image Preprocessing
-    - Wall Steering
-    - Pillar Steering
-    - Final Steering
+  - #### [Operating System](#operating-system)
+  - #### ROS of Introduction
+  - #### Programming Language
+  - #### IO
+  - #### Image Processing and Predictions
+    - #### Image Preprocessing
+    - #### Wall Steering
+    - #### Pillar Steering
+    - #### Final Steering
   - PARK Control Panel
 - ### ${{\color{red} Other }} $
   - #### [Team Members](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - #### Demonstration Video
-  - 資格賽
-  - 任務賽
-- ### LiPo Battery Safety Notice(圖片檔放OTHER)
+    - 資格賽
+    - 任務賽
+  - ### LiPo Battery Safety Notice(圖片檔放OTHER)
   - 這裡說明鋰電池的危險、如何保養及成分
   - 放電壓器及充放電的設備
 
