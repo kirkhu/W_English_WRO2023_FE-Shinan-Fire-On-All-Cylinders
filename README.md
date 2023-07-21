@@ -42,11 +42,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - PARK Control Panel
 - ### Team Photos
   **Team Photo**  
-  ![image](./t-photos/team%20photo.jpg)  
+  ![image](/t-photos/team%20photo.jpg)  
 
   
   **A Funny Photo**  
-  ![image](./t-photos/funny%20photo.jpg)  
+  ![image](/t-photos/funny%20photo.jpg)  
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
 
@@ -84,17 +84,17 @@ This repository contains engineering materials of a self-driven vehicle's model 
    ### 。Operating System  
    #### System Platform Software Installation Process Diagram.
    ![images](src/software_setup.png)  
-   安裝 pi os時，選擇安裝Legacy    
-   安裝完之後打開終端機輸入  
+   - 安裝 pi os時，選擇安裝Legacy    
+   - 安裝完之後打開終端機輸入  
    > sudo raspi-config  
    
-   選擇Interface Options之後打開Camera、SSH和VNC然後退出    
+   - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
 
-   之後安裝opencv，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
+   - 安裝opencv，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
 
-   然後安裝ROS系統，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
+   - 安裝ROS系統，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
 
-   再來是安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
+   - 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
