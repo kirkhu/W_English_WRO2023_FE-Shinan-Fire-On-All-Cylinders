@@ -8,13 +8,13 @@ Team's photos
 <div align="center"><img src="funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>
 
 - ### Hu,Yun-Rueiin
-<div align="center"><img src="Hu.jpg" width = "100%"  alt="胡允瑞"  />  </div>
+<div align="center"><img src="Hu.jpg" width = "70%"  alt="胡允瑞"  />  </div>
 
 - ### LIN,JHONG-BIN
-<div align="center"><img src="lin.jpg" width = "100%"  alt="林仲斌"  /> </div>
+<div align="center"><img src="lin.jpg" width = "70%"  alt="林仲斌"  /> </div>
 
 - ### ZHAO,ZHEN-BO
-<div align="center"><img src="Bo.jpg" width = "100%"  alt="趙振博"  /> </div>
+<div align="center"><img src="Bo.jpg" width = "70%"  alt="趙振博"  /> </div>
 
 The one to the left is Hu,Yun-Rueiin 11th grade.
 
