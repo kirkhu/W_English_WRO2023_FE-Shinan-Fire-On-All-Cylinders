@@ -38,6 +38,11 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Final Steering
   - PARK Control Panel
 - ### Team Photos
+  Team Photo  
+  ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/team%20photo.jpg)  
+  
+  A Funny Photo  
+  ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/funny%20photo.jpg)  
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
 
@@ -52,13 +57,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
  ## ${{\color{red} The Hardware }}$ 
    ### 。Parts List
    ### 。Lidar of Introduction
-   - 介紹光達
-     D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。
-     使用三角測距技術，可以偵測周圍360度，最大偵測距離是8公尺，2300次偵測頻率
-   - 比較超音波與光達的異差
-     超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率
-   - 說明不同品牌光達遇到的問題
-     D100體積小，但是角度分辨率有一度，相比 ydlidar 的 x2 和 x4 的0.7度，還是比較多，因此
+   - 介紹光達  
+     D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
+     使用三角測距技術，可以偵測周圍360度，最大偵測距離是8公尺，2300次偵測頻率  
+   - 比較超音波與光達的異差  
+     超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率  
+   - 說明不同品牌光達遇到的問題  
+     D100體積小，但是偵測頻率是2300，相比 ydlidar 的 x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
    ### Assembly Instructions & Diagrams
    ### Robot's Photos   
 | 姓名   | 年龄 |     工作 |
