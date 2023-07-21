@@ -40,7 +40,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
     - Pillar Steering
     - Final Steering
   - PARK Control Panel
-- ### Team Photos
+- ### Team Photos  
   <img src="./v-photos/Left_view.png" alt="Image" /> 
 - ### Demonstration Video
 - ### LiPo Battery Safety Notice
