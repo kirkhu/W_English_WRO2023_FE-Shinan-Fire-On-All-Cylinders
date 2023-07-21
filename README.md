@@ -25,9 +25,10 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## Content
 - ### ${{\color{red} Hardware Overview }} $ 
-  - [Parts List](#parts-list)
-  - Lidar of Introduction
-  - Assembly Instructions & Diagrams
+  - #### [Parts List](#parts-list)
+  - #### Lidar of Introduction
+  - #### Assembly Instructions & Diagrams
+  - #### Assembly Instructions & Diagrams
   - [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
   - [Operating System](#operating-system)
