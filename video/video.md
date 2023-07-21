@@ -1,7 +1,7 @@
 
 ## 2023WRO WRO2023_Future-Engineers Fire On All Cylinders 
 
-## Fire-On-All-Cylinders_qualifying-round
+## Open Challenge
 [![2023WRO Future-Engineers_qualifying-round](Fire-On-All-Cylinders_qualifying-round.jpg)](https://youtu.be/Z78iSG1QYfs "2023WRO Future-Engineers_qualifying-round") 
 
 ## Obstacle Challenge
