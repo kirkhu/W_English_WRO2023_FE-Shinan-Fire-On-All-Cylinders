@@ -80,14 +80,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 | <img src="https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/top_view.png" alt="Image"> | <img src="https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/bottom-view.png" alt="Image"> |   
 
  ## ${{\color{red} The Softwarehe }} $ 
-   ### 。Operating System
-   我們使用 ros 系統讀取光達數值，再藉由 MQTT 傳輸至 raspberry pi 讀取。  
-   ros 我們使用的版本是 Noetic Ninjemys  
-   <img src="/src/ros_Noetic-Ninjemys.jpg" alt="Image">  
-   圖片來源:[robocademy](https://robocademy.com/2020/05/23/getting-started-with-new-ros-noetic-ninjemys/)  
-   MQTT 因為最少只需要通訊一次，因此通訊速度會比 HTTP 快  
-   <img src="/src/MQTT.png" alt="Image" width = "400" height = "100" alt="MQTT" align=center />  
-   圖片來源:[維基百科](https://zh.m.wikipedia.org/zh-hans/File:Mqtt-hor.svg)  
+   ### 。Operating System  
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
    ![image](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/python.png)  
