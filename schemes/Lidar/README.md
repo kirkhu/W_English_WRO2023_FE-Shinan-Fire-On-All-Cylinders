@@ -4,7 +4,7 @@
 
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
-Working principle:
+__orking principle:__
 
 - Emitting laser pulses: Lidar emits very short laser pulses through a laser. These pulses propagate at extremely high speeds and then return after reflection.
 
@@ -12,7 +12,7 @@ Working principle:
 
 - Data processing: The computing device of the Lidar processes the received reflection data and calculates the position, shape, and movement of objects based on the measured time and the speed of light.
 
-Applications:
+__Applications:__
 Lidar has widespread applications in various fields, including but not limited to:
 
 - Autonomous vehicles: Lidar is widely used in autonomous vehicles to help them perceive their surroundings, detect obstacles, and other vehicles.
