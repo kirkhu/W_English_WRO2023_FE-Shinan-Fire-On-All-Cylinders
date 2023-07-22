@@ -24,12 +24,12 @@ LiPo Battery Safety Notice
 
         - 電極連接器：鋰聚合物電池內部的電極通常由薄片狀的鋰合金材料製成，並使用連接器連接到電池的外部電路。
   
-- 放電壓器及充放電的設備
-    - 放電壓器
+- 低電壓警報器及充放電的設備
+    - 低電壓警報器
 
     - 充放電設備
     
 - (圖片檔放OTHER/LiPo_Batter)  
 
 <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
-# <div align="center">[Return Main](../)</div>
+# <div align="center">[Return Home](../)</div>
