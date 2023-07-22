@@ -67,7 +67,7 @@ __Step2. install ROS__
 
 >$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 
-===========================================================
+===========================================================  
 ROS 是 Robot Operating System 的簡寫，意思是機器人作業系統，雖說較作業系統，但ROS的功用其實是負責機器人各個元件進行溝通與操作的一個框架。  
 
 <img src="./img/Ros_logo.png" alt="Image" width="200" height="">  
