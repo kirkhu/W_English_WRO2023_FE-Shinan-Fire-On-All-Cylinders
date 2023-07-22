@@ -1,6 +1,6 @@
-2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">![LOGO](../../other/img/logo.png)LiPo Battery Safety Notice   </div> 
+# <div align="center">LiPo Battery Safety Notice   </div> 
 - ### 鋰電池的危險、保養及成分  
     - 危險  
         - 可燃燒  
