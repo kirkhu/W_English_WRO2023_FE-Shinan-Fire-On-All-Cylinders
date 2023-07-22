@@ -1,5 +1,4 @@
-2023WRO WRO2023_Future-Engineers Fire On All Cylinders  
-=====
+
 # <div align="center">Lidar introduce </div> 
 
 
