@@ -5,7 +5,7 @@
 ![image](./Parts_List/img/Component%20position.jpg)  
 ## Pin Configuration  
 
-### Raspberry Pi 4  
+### Raspberry Pi 4 B 8G  
 Specification:  
 With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
   
