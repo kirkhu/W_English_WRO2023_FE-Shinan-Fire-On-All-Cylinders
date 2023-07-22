@@ -2,9 +2,7 @@
 =====
 # <div align="center">Electromechanical diagrams   </div> 
 
-## Components's Position  
 
-![image](./img/Component%20position.jpg)    
 
 ## Part introduce 
 
