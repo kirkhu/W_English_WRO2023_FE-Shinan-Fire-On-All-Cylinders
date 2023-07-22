@@ -78,11 +78,9 @@ This repository contains engineering materials of a self-driven vehicle's model 
     
 > _這部分必須由參與者填寫有關代碼的技術說明：代碼由哪些模塊組成，它們與車輛的機電組件有何關係，以及構建/編譯/上傳代碼到車輛的過程是什麼控制器。_
 
-## How to prepare the repo based on the template
 
-_Remove this section before the first commit to the repository_
 
-================================================================================================================================
+=============================================================================================================
 
 * [2022美國第二名的GitHub參考](https://github.com/definitely-nobody-is-here/SPARK_Future-Engineers_2022?fbclid=IwAR00_3dfM16glfze2lCYE--QD1HyJoParn6c9IV0YEm_ZA2aLQ1S2wIMOSM_aem_AbD82MjkT8YgQMrDoxd_dTQKZyMoBclmGeazY_IAPRwTwzgrg0K8dnOkb8TkuzYEPvc).
 * [Future-Engineers國際規則](https://wro-association.org/competition/2023-season/)
