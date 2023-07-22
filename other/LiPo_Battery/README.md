@@ -1,7 +1,7 @@
 2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">LiPo Battery Safety Notice   </div> 
-- 這裡說明鋰電池的危險、如何保養及成分  
+- ### 鋰電池的危險、保養及成分  
     - 危險  
         - 可燃燒  
         - 內容物有毒  
@@ -27,22 +27,22 @@
     <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
     - 電池圖片  
     <img src="./img/lipo_battery.jpg" width = "150" height = "" alt="e430" align=center />  
-    <small>圖片來源:[shopee](https://shopee.tw/find_similar_products?catid=100639&itemid=7737661660&shopid=86560704)</small>  
-- 低電壓警報器及充放電的設備  
+ 
+- ### 低電壓警報器及充放電的設備  
     - 低電壓警報器  
         - LIpo Battery Low Voltage Alarm  
         <img src="./img/low_voltage_alarm.jpg" width = "100" height = "" alt="e430" align=center />  
-        <small>圖片來源:[amazon](https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z)</small>  
+
 
     - 充放電設備  
         | skyrc e430 | skyrc imax b6ac v2 |  
-        | ----- | ------ |  
+        | :----: | :----: |  
         | <img src="./img/e430.jpg" width = "150" height = "" alt="e430" align=center /> | <img src="./img/B6AC2.jpg" width = "150" height = "" alt="e430" align=center /> |  
-        | <small>圖片來源:[skyrc](https://www.skyrc.com/cn/Charger/e430_Charger/)</small> | <small>圖片來源:[skyrc](https://www.skyrc.com/cn/iMAX_B6AC_V2_Charger/)</small> |  
+       
         
           
-         
-- (圖片檔放OTHER/LiPo_Batter)  
+        
+
 
   
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
