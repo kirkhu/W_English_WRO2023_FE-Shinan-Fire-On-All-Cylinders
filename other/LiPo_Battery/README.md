@@ -1,5 +1,6 @@
-LiPo Battery Safety Notice  
-====
+2023WRO Future Engineers Fire On All Cylinders  
+=====
+# <div align="center">LiPo Battery Safety Notice   </div> 
 - 這裡說明鋰電池的危險、如何保養及成分  
     - 危險  
         - 可燃燒  
@@ -31,7 +32,8 @@ LiPo Battery Safety Notice
     - 低電壓警報器  
         - LIpo Battery Low Voltage Alarm  
         <img src="./img/low_voltage_alarm.jpg" width = "100" height = "" alt="e430" align=center />  
-        <small>圖片來源:[amazon](https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z)</small>      
+        <small>圖片來源:[amazon](https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z)</small>  
+
     - 充放電設備  
         | skyrc e430 | skyrc imax b6ac v2 |  
         | ----- | ------ |  
@@ -43,4 +45,4 @@ LiPo Battery Safety Notice
 - (圖片檔放OTHER/LiPo_Batter)  
 
   
-# <div align="center">[Return Home](../../)</div>
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
