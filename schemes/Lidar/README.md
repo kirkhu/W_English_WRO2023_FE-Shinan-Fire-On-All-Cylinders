@@ -3,7 +3,7 @@
 # <div align="center">Lidar introduce </div> 
 
 
-D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
+Lidar D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
 採用三角測距技術、高性能感光CCD
 符合FDA Class 人眼安全等級
 
@@ -21,7 +21,10 @@ D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組�
 - 說明不同品牌光達遇到的問題  
     D100偵測頻率是2300，相比 ydlidar x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
 
-<img src="./img/Lidar-D100.jpg" width = "250" height = "250" alt="伺服馬達" align=center /><img src="./img/Lidar_X4.jpg" width = "250" height = "250" alt="伺服馬達" align=center /><img src="./img/Lidar_X2.jpg" width = "250" height = "250" alt="伺服馬達" align=center />
+
+| :----: | :----: | :----:|
+|<img src="./img/Lidar-D100.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|
+|  lidar D100    |  ydlidar x4  |   ydlidar x2    |
 
 <small>資料來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
 
