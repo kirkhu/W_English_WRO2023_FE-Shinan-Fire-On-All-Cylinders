@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">OpenCV of Introduction </div> 
 ## English

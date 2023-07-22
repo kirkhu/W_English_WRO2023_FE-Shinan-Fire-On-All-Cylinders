@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Software Platform (軟體平台)</div> 
 - ### System Platform Software Installation Process Diagram.
