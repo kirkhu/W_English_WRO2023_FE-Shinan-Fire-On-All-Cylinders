@@ -1,6 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
-Team's photos  
-====
+
 - ### Team Photo  
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
