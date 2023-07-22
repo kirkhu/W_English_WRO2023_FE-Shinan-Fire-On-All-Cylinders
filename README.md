@@ -28,7 +28,5 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - [LiPo Battery Safety Notice](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
 
 - ### ${{\color{red} Competition Schedule}} $  
-  - Gantt Chart  
-
-# <div align="center"> ![Gantt_Chart](../other/img/Gantt _Chart.png)</div>  
-
+  - __Gantt Chart__ 
+# <div align="center">![Gantt chart](./other/img/Home.png)</div> 
