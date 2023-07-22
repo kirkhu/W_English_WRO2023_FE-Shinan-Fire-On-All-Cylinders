@@ -52,16 +52,16 @@ This repository contains engineering materials of a self-driven vehicle's model 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System  
    #### System Platform Software Installation Process Diagram.
-   ![images](src/software_setup.png)  
+   ![images](src/img//software_setup.png)  
    - 安裝 pi os時，選擇安裝Legacy    
    - 安裝完之後打開終端機輸入  
    > sudo raspi-config  
    
    - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
 
-   - 安裝opencv，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
+   - 安裝opencv 版本:4.7.0.72，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
 
-   - 安裝ROS系統，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
+   - 安裝ROS系統 版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
 
    - 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
