@@ -74,14 +74,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
    支持多种编程范式，包括结构化（特别是特別程序化）、面向对象和函数式编程。由于其全面的标准库，它通常被描述为一个 “batteries included” 的語言。  
    
    <small>來源網址:[維基百科](https://zh.wikipedia.org/zh-tw/Python)</small>
-   ### 。IO
-   ### 。Image Processing and Predictions
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image Preprocessing
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wall Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pillar Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Final Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARK Control Panel
-          可複製程式用法
+
     
 > _這部分必須由參與者填寫有關代碼的技術說明：代碼由哪些模塊組成，它們與車輛的機電組件有何關係，以及構建/編譯/上傳代碼到車輛的過程是什麼控制器。_
 
@@ -89,11 +82,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 _Remove this section before the first commit to the repository_
 
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
-
-
+================================================================================================================================
 
 * [2022美國第二名的GitHub參考](https://github.com/definitely-nobody-is-here/SPARK_Future-Engineers_2022?fbclid=IwAR00_3dfM16glfze2lCYE--QD1HyJoParn6c9IV0YEm_ZA2aLQ1S2wIMOSM_aem_AbD82MjkT8YgQMrDoxd_dTQKZyMoBclmGeazY_IAPRwTwzgrg0K8dnOkb8TkuzYEPvc).
 * [Future-Engineers國際規則](https://wro-association.org/competition/2023-season/)
