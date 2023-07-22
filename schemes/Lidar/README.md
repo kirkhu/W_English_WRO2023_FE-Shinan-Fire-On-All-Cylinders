@@ -25,7 +25,9 @@ Lidar has widespread applications in various fields, including but not limited t
 
 - Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.
 
-Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.
+Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.  
+<br>
+The Lidar D100 Developer Kit is composed of the Lidar LD14 as its core, accompanied by a combination of related accessories.
 - Lidar
 光達，也被稱為激光雷達（Lidar，Light Detection and Ranging的縮寫），是一種使用激光脈衝來測量距離和創建地圖的技術。激光雷達系統通常由激光器、接收器、計算設備和導航系統組成。
 
