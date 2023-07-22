@@ -1,4 +1,6 @@
-# Electromechanical diagrams  
+2023WRO Future Engineers Fire On All Cylinders  
+=====
+# <div align="center">Electromechanical diagrams   </div> 
 
 ## Components's Position  
 
@@ -107,4 +109,4 @@ use 用途:
   
 
 
-# <div align="center">[Return Main](../../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
