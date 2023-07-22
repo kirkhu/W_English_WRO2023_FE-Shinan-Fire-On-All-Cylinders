@@ -23,20 +23,22 @@ LiPo Battery Safety Notice
         - 鋰鹽：鋰聚合物電池的電解質中包含鋰鹽，用於增加電解質的導電性。
 
         - 電極連接器：鋰聚合物電池內部的電極通常由薄片狀的鋰合金材料製成，並使用連接器連接到電池的外部電路。
-  
-- 低電壓警報器及充放電的設備
+    - 電池圖片  
+    <img src="./img/lipo_battery.jpg" width = "150" height = "" alt="e430" align=center />  
+    <small>圖片來源:[shopee](https://shopee.tw/find_similar_products?catid=100639&itemid=7737661660&shopid=86560704)</small>  
+- 低電壓警報器及充放電的設備  
     - 低電壓警報器  
         - LIpo Battery Low Voltage Alarm  
         <img src="./img/low_voltage_alarm.jpg" width = "100" height = "" alt="e430" align=center />  
-        <small>圖片來源:[amazon](https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z)</small>  
+        <small>圖片來源:[amazon](https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z)</small>      
     - 充放電設備
-        - skyrc e430  
-        <img src="./img/e430.jpg" width = "150" height = "" alt="e430" align=center />  
-        <small>圖片來源:[skyrc](https://www.skyrc.com/cn/Charger/e430_Charger/)</small>  
-
-        - skyrc imax b6ac v2  
-        <img src="./img/B6AC2.jpg" width = "150" height = "" alt="B6AC2" align=center />  
-        <small>圖片來源:[skyrc](https://www.skyrc.com/cn/iMAX_B6AC_V2_Charger/)</small>  
+        | skyrc e430 | skyrc imax b6ac v2 |
+        | ----- | ------ |
+        | <img src="./img/e430.jpg" width = "150" height = "" alt="e430" align=center /> | <img src="./img/B6AC2.jpg" width = "150" height = "" alt="e430" align=center /> |
+        | <small>圖片來源:[skyrc](https://www.skyrc.com/cn/Charger/e430_Charger/)</small> | <small>圖片來源:[skyrc](https://www.skyrc.com/cn/iMAX_B6AC_V2_Charger/)</small>  |
+          
+          
+         
 - (圖片檔放OTHER/LiPo_Batter)  
 
 <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
