@@ -1,11 +1,11 @@
 2023WRO WRO2023_Future-Engineers Fire On All Cylinders  
 Team's photos  
 ====
-- ### Team Photos  
+- ### Team Photo  
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
 
-- ### Funny Photos  
+- ### Funny Photo  
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
 # Team Members of Introduction  
