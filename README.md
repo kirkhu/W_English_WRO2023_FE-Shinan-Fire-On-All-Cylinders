@@ -54,7 +54,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
    ### 。Programming Language
    我們選了 python 用於我們的程式開發上  
-   ![image](/src/python.png)  
+   ![image](./src/img/python.png)  
    <small>圖片來源:[medium](https://allaboutdataanalysis.medium.com/%E5%AD%B8python%E5%B8%B8%E9%80%9B%E7%9A%8410%E5%80%8B%E7%B6%B2%E7%AB%99-%E9%80%99%E6%AC%A1%E5%85%A8%E9%83%BD%E5%91%8A%E8%A8%B4%E4%BD%A0-eb2656ee0b22)</small>
    
    Python是一种高级、通用的编程语言。它的设计理念强调代码的可读性，使用了显著缩进。Python是动态类型且具有自動的記憶體管理機制功能。  
