@@ -29,8 +29,22 @@ Due to its ability to provide high-precision and high-resolution data, Lidar is 
 <br>
 The Lidar D100 Developer Kit is composed of the Lidar LD14 as its core, accompanied by a combination of related accessories.
 <br>
-This system adopts triangulation-based distance measurement technology and utilizes high-performance photosensitive CCD (Charge-Coupled Device) that complies with FDA Class human eye safety standards.
+This system adopts triangulation-based distance measurement technology and utilizes high-performance photosensitive CCD (Charge-Coupled Device) that complies with FDA Class human eye safety standards.  
 
+- Specifications
+  - Detection Range: 360 degrees
+  - Detection Distance: 0.15 ~ 8 meters
+  - Angular Resolution: 1 degree
+  - Detection Frequency: 2300 Hz
+  - Scanning Frequency: 6 Hz
+  - Dimensions: Approximately 96.3 * 59.8 * 38.8 mm
+- The difference between ultrasonic sensors and Lidar:  
+Ultrasonic sensors can only detect in one direction, limited to the front, used for distance measurement and obstacle detection. Lidar, on the other hand, provides a 360-degree panoramic coverage, enabling simultaneous sensing of surroundings, used for high-precision environmental perception and map creation, reducing collision risks. It is widely applied in autonomous driving, environmental modeling, etc. Lidar surpasses ultrasonic sensors in providing comprehensive environmental information, making it superior in robot navigation.  
+
+- Issues encountered with different brands of Lidar:  
+One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, compared to the YDLidar X2 with 3000 Hz and X4 with 5000 Hz. The lower frequency results in a slower response time.
+
+==================================================
 - Lidar
 光達，也被稱為激光雷達（Lidar，Light Detection and Ranging的縮寫），是一種使用激光脈衝來測量距離和創建地圖的技術。激光雷達系統通常由激光器、接收器、計算設備和導航系統組成。
 
@@ -69,10 +83,10 @@ This system adopts triangulation-based distance measurement technology and utili
     - 掃描頻率: 6 HZ  
     - 尺寸: 約96.3* 59.8*38.8 mm  
 
-- 比較超音波與光達的異差  
-    超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率  
+- 超音波與光達之異差  
+超音波感測器只能單向偵測，限於前方，用於距離測量與障礙物檢測。光達則具備360度全方位覆蓋範圍，可同時感測四周，用於高精度環境感知和地圖製作，減少碰撞風險，並廣泛應用於自動駕駛、環境建模等領域。光達優於超音波在提供完整環境資訊方面，使其在機器人導航中更為優勢。
 
-- 說明不同品牌光達遇到的問題  
+- 不同品牌光達遇到的問題  
     D100偵測頻率是2300，相比 ydlidar x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
 
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
