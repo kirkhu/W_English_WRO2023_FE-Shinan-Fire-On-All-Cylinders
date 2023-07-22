@@ -1,6 +1,6 @@
-OpenCV of Introduction
-====
-
+2023WRO Future Engineers Fire On All Cylinders  
+=====
+# <div align="center">OpenCV of Introduction </div> 
 OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電腦視覺庫，用於開發即時的圖像處理、電腦視覺以及圖型識別程式，由 Intel 發起並開發，以 BSD 授權條款授權發行，可以在商業和研究領域中免費使用，是目前發展最完整的電腦視覺開源資源。  
 
 ![opencv](./img/opencv.png)
@@ -10,4 +10,4 @@ OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電
 <small>資料來源:[維基百科](https://zh.wikipedia.org/wiki/OpenCV)</small>
 <small>資料來源:[steam 教學網](https://steam.oxxostudio.tw/category/python/ai/opencv.html#google_vignette)</small>
 
-# <div align="center">[Return Home](../../)</div>
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
