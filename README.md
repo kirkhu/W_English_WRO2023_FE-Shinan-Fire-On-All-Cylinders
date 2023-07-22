@@ -29,4 +29,4 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 - ### ${{\color{red} Competition Schedule}} $  
   - __Gantt Chart__ 
-# <div align="center">![Gantt chart](./other/img/Home.png)</div> 
+# <div align="center">![Gantt chart](./other/img/Gantt_Chart.png)</div> 
