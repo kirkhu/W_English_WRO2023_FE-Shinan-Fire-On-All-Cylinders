@@ -10,14 +10,15 @@ Team's photos
 # Team Members of Introduction  
 |        |        | 
 | :----: | :----: |  
-| __Hu,Yun-Rueiin__  | code writing.|
-|  個人照 | 工作照 |
+| __Hu,Yun-Rueiin__  | Code writing.  
+ffffff|
+|   Personal photo.個人照 | Work photo.工作照 |
 | <img src="Hu.jpg" alt="Image"> | <img src="hu_work.jpg" alt="Image"> |
 | __LIN,JHONG-BIN__  | Hardware design.|
-| 個人照  |  工作照   |    
+|  Personal photo.個人照  |  Work photo.工作照   |    
 | <img src="lin.jpg" alt="Image"> | <img src="IMG_8198.JPG" alt="Image"> |
 | __ZHAO,ZHEN-BO__  | Report recording and writing.|
-|  個人照  |  工作照   |   
+|   Personal photo.個人照  |  Work photo.工作照   |   
 | <img src="Bo.jpg" alt="Image"> | <img src="IMG_8202.JPG" alt="Image"> |   
 
 
