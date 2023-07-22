@@ -10,8 +10,7 @@ Team's photos
 # Team Members of Introduction  
 |        |        | 
 | :----: | :----: |  
-| __Hu,Yun-Rueiin__  | Code writing.  
-ffffff|
+| __Hu,Yun-Rueiin__  | Code writing. <br>hhhh|
 |   Personal photo.個人照 | Work photo.工作照 |
 | <img src="Hu.jpg" alt="Image"> | <img src="hu_work.jpg" alt="Image"> |
 | __LIN,JHONG-BIN__  | Hardware design.|
