@@ -2,8 +2,8 @@ Engineering materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+## <div align="center">Content 目錄</div>  
 
-## ${{\color{red} Content 目錄 }} $ 
 - ### ${{\color{red} Hardware Overview }} $ 
   - [Parts List](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
   - [Lidar of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
