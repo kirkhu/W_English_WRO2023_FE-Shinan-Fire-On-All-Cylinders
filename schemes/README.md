@@ -2,7 +2,7 @@
 
 ## Components's Position  
 
-![image](Component%20position.jpg)  
+![image](./Parts_List/img/Component%20position.jpg)  
 ## Pin Configuration  
 
 ### Raspberry Pi 4  
@@ -11,7 +11,7 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
   
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
- <img src="raspberry_pi_4.jpg" width = "300" height = "300" alt="樹梅派" align=center />  
+ <img src="./Parts_List/img/raspberry_pi_4.jpg" width = "300" height = "300" alt="樹梅派" align=center />  
 
 
 
@@ -23,7 +23,7 @@ Operating Voltage: 3 - 12V
   
 Usage:  
 Driving the car's rear wheels to control the vehicle's forward and backward movements.  
-<img src="Motor.png" width = "300" height = "300" alt="馬達圖" align=center />  
+<img src="./Parts_List/img/Motor.png" width = "300" height = "300" alt="馬達圖" align=center />  
 
 ### MG90S servo motor  
 Specifications:  
@@ -34,7 +34,7 @@ Operating Voltage: 4.8V - 7.2V
   
 Usage:  
 Control the steering mechanism to make the vehicle turn.  
-<img src="MG90S.jpg" width = "300" height = "300" alt="伺服馬達" align=center />   
+<img src="./Parts_List/img/MG90S.jpg" width = "300" height = "300" alt="伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specifications:  
@@ -44,7 +44,7 @@ Peak output current: 1.2A
   
 Usage:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-<img src="l293d.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
+<img src="./Parts_List/img/l293d.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
 
 ### battery Lithium Polymer  
 Specifications:  
@@ -54,7 +54,7 @@ Rated Voltage: 11.1V
   
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="battery.png" width = "500" height = "300" alt="電池" align=center />   
+<img src="./Parts_List/img/battery.png" width = "500" height = "300" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -64,7 +64,7 @@ Output Signal: Digital
   
 Usage:  
 Send an activation signal before initiating the program.  
-<img src="button.png" width = "400" height = "300" alt="按鈕" align=center />   
+<img src="./Parts_List/img/button.png" width = "400" height = "300" alt="按鈕" align=center />   
 
 ### ADIO-DC36V5A Switching power adapter  
 Specifications:  
@@ -74,7 +74,7 @@ Operating Frequency: 180Hz
   
 Usage:  
 Stabilizing the power supplied by lithium batteries.  
-<img src="ADIO-DC36V5A.png" width = "500" height = "300" alt="降壓板" align=center />   
+<img src="./Parts_List/img/ADIO-DC36V5A.png" width = "500" height = "300" alt="降壓板" align=center />   
 
 ### TCS23725 RGB color sensor  
 Specifications:  
@@ -83,7 +83,7 @@ Interface: I2C interface
   
 Usage:  
 Line recognition and counting the current number of revolutions.  
-<img src="TCS34725.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
+<img src="./Parts_List/img/TCS34725.jpg" width = "300" height = "300" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specifications:  
@@ -92,7 +92,7 @@ Interface: CSI (Camera Serial Interface)
   
 Usage:  
 Collecting images for image recognition.  
-<img src="raspi camera V2.png" width = "350" height = "300" alt="相機" align=center />   
+<img src="./Parts_List/img/raspi camera V2.png" width = "350" height = "300" alt="相機" align=center />   
 
 ### Lidar D100
 Specifications:  
@@ -102,4 +102,4 @@ D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組�
 
 Usage:  
 用於偵測前方牆壁及使機器維持在車道中央  
-<img src="Lidar-D100.jpg" width = "350" height = "300" alt="光達" align=center />  
+<img src="./Parts_List/img/Lidar-D100.jpg" width = "350" height = "300" alt="光達" align=center />  
