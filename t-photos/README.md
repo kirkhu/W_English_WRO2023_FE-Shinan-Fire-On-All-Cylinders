@@ -25,6 +25,5 @@ The one to the right is ZHAO,ZHEN-BO in 9th grade.
 |   Personal photo.個人照  |  Work photo.工作照   |   
 | <img src="Bo.jpg" alt="Image"> | <img src="IMG_8202.JPG" alt="Image"> |   
 
-
 # <div align="center">[Return Home](../)</div>  
 
