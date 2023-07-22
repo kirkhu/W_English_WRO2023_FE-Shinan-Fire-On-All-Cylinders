@@ -7,7 +7,7 @@ Team's photos
 - ### Funny Photos  
 <div align="center"><img src="funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
-|        |        |  
+| __Team Members of Introduction__|  
 | :----: | :----: |  
 | __Hu,Yun-Rueiin__  |
 |  個人照 | 工作照 |
