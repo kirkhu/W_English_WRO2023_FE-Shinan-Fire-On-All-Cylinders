@@ -12,7 +12,7 @@ Team's photos
 | :----: | :----: |  
 | __Hu,Yun-Rueiin__  |
 |  個人照 | 工作照 |
-| <img src="Hu.jpg" alt="Image"> | <img src="Hu_work.jpg" alt="Image"> |
+| <img src="Hu.jpg" alt="Image"> | <img src="hu_work.jpg" alt="Image"> |
 | __LIN,JHONG-BIN__  |
 | 個人照  |  工作照   |    
 | <img src="lin.jpg" alt="Image"> | <img src="IMG_8198.JPG" alt="Image"> |
