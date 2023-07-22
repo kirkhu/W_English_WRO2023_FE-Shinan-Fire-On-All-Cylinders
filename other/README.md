@@ -109,7 +109,7 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 
 ## 2023/07/18 ~ 2023/07/22  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 
 **content:**
 
