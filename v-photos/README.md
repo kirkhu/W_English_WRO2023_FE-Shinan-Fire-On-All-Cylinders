@@ -30,4 +30,4 @@ Vehicle's photos
 ![image](top_view.png)
 
 
-# <div align="center">[Return Main](../)</div>  
+# <div align="center">[Return Home ](../)</div>  
