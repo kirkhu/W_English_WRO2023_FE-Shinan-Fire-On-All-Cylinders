@@ -30,10 +30,10 @@ LiPo Battery Safety Notice
     - 充放電設備
         - skyrc e430  
         <img src="./img/e430.jpg" width = "150" height = "" alt="e430" align=center />  
-
+        <small>圖片來源:[skyrc](https://www.skyrc.com/cn/Charger/e430_Charger/)</small>
         - skyrc imax b6ac v2  
         <img src="./img/B6AC2.jpg" width = "150" height = "" alt="B6AC2" align=center />  
-
+        <small>圖片來源:[skyrc](https://www.skyrc.com/cn/iMAX_B6AC_V2_Charger/)</small>
 - (圖片檔放OTHER/LiPo_Batter)  
 
 <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
