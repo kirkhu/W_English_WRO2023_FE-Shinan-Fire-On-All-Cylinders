@@ -5,25 +5,25 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
 ## ${{\color{red} Content 目錄 }} $ 
 - ### ${{\color{red} Hardware Overview }} $ 
-  - #### [Parts List](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
-  - #### [Lidar of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
-  - #### Assembly Instructions & Diagrams
-  - #### [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
+  - [Parts List](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
+  - [Lidar of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
+  - Assembly Instructions & Diagrams
+  - [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
-  - #### [System Platform Software](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
-  - #### [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
-  - #### Programming Language
-  - #### IO 
-  - #### Image Processing and Predictions
-    - #### Image Preprocessing
-    - #### Wall Steering
-    - #### Pillar Steering
-    - #### Final Steering
+  - [System Platform Software](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
+  - [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
+  - Programming Language
+  - IO 
+  - Image Processing and Predictions
+    - Image Preprocessing
+    - Wall Steering
+    - Pillar Steering
+    - Final Steering
   - PARK Control Panel
-- ### ${{\color{red} Other }} $
-  - #### [Team Members of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
-  - #### [Demonstration Video](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)  
-  - #### [LiPo Battery Safety Notice](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
+- ### ${{\color{red} Other}} $
+  - [Team Members of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
+  - [Demonstration Video](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)  
+  - [LiPo Battery Safety Notice](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
   
 > * t-photos包含 2 張團隊照片（一張是官方照片，一張是所有團隊成員的搞笑照片）
 > * v-photos包含 6 張車輛照片（從各個側面、從頂部和底部）
