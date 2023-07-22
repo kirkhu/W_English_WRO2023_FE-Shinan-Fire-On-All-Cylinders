@@ -9,26 +9,15 @@ Team's photos
 
 |        |        |  
 | :----: | :----: |  
+| __Hu,Yun-Rueiin__  |
 |  個人照 | 工作照 |
 | <img src="Hu.jpg" alt="Image"> | <img src="Right_view.png" alt="Image"> |
+| __LIN,JHONG-BIN__  |
 | 個人照  |  工作照   |    
-| <img src="lin.jpg" alt="Image"> | <img src="IMG_8198.JPG" alt="Image"> | 
+| <img src="lin.jpg" alt="Image"> | <img src="IMG_8198.JPG" alt="Image"> |
+| __ZHAO,ZHEN-BO__  |
 |  個人照  |  工作照   |   
 | <img src="Bo.jpg" alt="Image"> | <img src="IMG_8202.JPG" alt="Image"> |   
-
-
-- ### Hu,Yun-Rueiin  
-<div align="center"><img src="Hu.jpg" width = "50%"  alt="胡允瑞"  />  </div>  
-
-- ### LIN,JHONG-BIN  
-<div align="center"><img src="lin.jpg" width = "50%"  alt="林仲斌"  /> </div>  
-
-- ### ZHAO,ZHEN-BO  
-<div align="center"><img src="Bo.jpg" width = "50%"  alt="趙振博"  /> </div>  
-
-
-
-
 
 
 The one to the left is Hu,Yun-Rueiin 11th grade.  
