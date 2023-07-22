@@ -1,4 +1,4 @@
-# Diary
+# Work Diary
 ## 2023/06/26  
 
 **member:** ZHAO,ZHEN-BO  
@@ -40,9 +40,6 @@ The next step is the steering motor. After searching the information on the Inte
 **member:** ZHAO,ZHEN-BO  
 
 **content:**  
-
-Then there is the controller for controlling the motor. There are L293D chips and L298N templates. In order to reduce weight, the smaller L293D chip is selected because of its smaller size, so more sensors can be installed. Reducing space can reduce weight and increase moving speed
-
 
 再來是控制馬達的控制器，有 L293D 晶片 和 L298N 模板，為了減輕重量，所以選擇較小的 L293D 晶片因為體積較小的關係，所以可以裝上更多的感應器，減少空間可以減輕重量，增加移動速度  
 
@@ -109,12 +106,13 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 
 ## 2023/07/18 ~ 2023/07/22  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 
 **content:**
 
-Although you can use the gyroscope to go straight and use the ultrasonic to turn, but it is possible to rub against the wall when turning, and then get stuck on the wall and cannot continue to run. Then we changed the ultrasonic to the laser. The laser can detect the surroundings, so it can be maintained in the middle of the road, and it can also detect the turning ahead
-
-
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎
 
+
+
+
+# <div align="center">[Return Home](../../)</div>

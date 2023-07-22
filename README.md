@@ -2,16 +2,17 @@ Engineering materials
 ====
 
 This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+## <div align="center">Content 目錄</div>  
 
-## ${{\color{red} Content 目錄 }} $ 
 - ### ${{\color{red} Hardware Overview }} $ 
   - [Parts List](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
-  - [Lidar of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
+  - [Lidar Introduce](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
   - Assembly Instructions & Diagrams
   - [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
   - [Software platform](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
-  - [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
+  - [OPENCV of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+  - [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
   - Programming Language
   - IO 
   - Image Processing and Predictions
@@ -34,33 +35,20 @@ This repository contains engineering materials of a self-driven vehicle's model 
 > * models用於 3D 打印機、激光切割機和 CNC 機器生產車輛元件所使用的模型的文件。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
 > * other用於其他文件，可用於了解如何為比賽準備車輛。它可能包括如何連接到 SBC/SBM 並向其中上傳文件、數據集、硬件規格、通信協議描述等的文檔。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
 
- ## ${{\color{red} The Hardware }}$ 
-   ### 。Parts List
-   ### 。Lidar of Introduction
-   - 介紹光達  
-     D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
-     使用三角測距技術，可以偵測周圍360度，最大偵測距離是8公尺，2300次偵測頻率  
-   - 比較超音波與光達的異差  
-     超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率  
-   - 說明不同品牌光達遇到的問題  
-     D100體積小，但是偵測頻率是2300，相比 ydlidar 的 x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
-
-     <small>網址來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
-   ### Assembly Instructions & Diagrams
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System  
    #### System Platform Software Installation Process Diagram.
-   ![images](src/software_setup.png)  
+   ![images](src/img//software_setup.png)  
    - 安裝 pi os時，選擇安裝Legacy    
    - 安裝完之後打開終端機輸入  
    > sudo raspi-config  
    
    - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
 
-   - 安裝opencv，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
+   - 安裝opencv 版本:4.7.0.72，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
 
-   - 安裝ROS系統，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
+   - 安裝ROS系統 版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
 
    - 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
@@ -73,26 +61,13 @@ This repository contains engineering materials of a self-driven vehicle's model 
    支持多种编程范式，包括结构化（特别是特別程序化）、面向对象和函数式编程。由于其全面的标准库，它通常被描述为一个 “batteries included” 的語言。  
    
    <small>來源網址:[維基百科](https://zh.wikipedia.org/zh-tw/Python)</small>
-   ### 。IO
-   ### 。Image Processing and Predictions
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image Preprocessing
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wall Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pillar Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Final Steering
-   ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PARK Control Panel
-          可複製程式用法
+
     
 > _這部分必須由參與者填寫有關代碼的技術說明：代碼由哪些模塊組成，它們與車輛的機電組件有何關係，以及構建/編譯/上傳代碼到車輛的過程是什麼控制器。_
 
-## How to prepare the repo based on the template
-
-_Remove this section before the first commit to the repository_
-
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
 
 
+=============================================================================================================
 
 * [2022美國第二名的GitHub參考](https://github.com/definitely-nobody-is-here/SPARK_Future-Engineers_2022?fbclid=IwAR00_3dfM16glfze2lCYE--QD1HyJoParn6c9IV0YEm_ZA2aLQ1S2wIMOSM_aem_AbD82MjkT8YgQMrDoxd_dTQKZyMoBclmGeazY_IAPRwTwzgrg0K8dnOkb8TkuzYEPvc).
 * [Future-Engineers國際規則](https://wro-association.org/competition/2023-season/)

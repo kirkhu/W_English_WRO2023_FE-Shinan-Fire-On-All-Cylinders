@@ -1,6 +1,6 @@
-Software Platform
-====
 
-
+# <div align="center">Software Platform (軟體平台)</div> 
+- ### System Platform Software Installation Process Diagram.
+![images](./img/software_setup.png)  
 
 # <div align="center">[Return Home](../../)</div>  

@@ -109,7 +109,7 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 
 ## 2023/07/18 ~ 2023/07/22  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 
 **content:**
 
@@ -118,3 +118,6 @@ Although you can use the gyroscope to go straight and use the ultrasonic to turn
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎
 
 
+
+
+# <div align="center">[Return Home](../)</div>
