@@ -15,14 +15,14 @@ The one to the right is ZHAO,ZHEN-BO in 9th grade.
 # Team Members of Introduction  
 |        |        | 
 | :----: | :----: |  
-| __Hu,Yun-Rueiin__  |
-|  Personal photo| working picture|
+| __Hu,Yun-Rueiin__  | :--- Code writing. <br>hhhh|
+|   Personal photo.個人照 | Work photo.工作照 |
 | <img src="Hu.jpg" alt="Image"> | <img src="hu_work.jpg" alt="Image"> |
-| __LIN,JHONG-BIN__  |
-| Personal photo|  working picture|    
+| __LIN,JHONG-BIN__  | Hardware design.|
+|  Personal photo.個人照  |  Work photo.工作照   |    
 | <img src="lin.jpg" alt="Image"> | <img src="IMG_8198.JPG" alt="Image"> |
-| __ZHAO,ZHEN-BO__  |
-|  Personal photo |  working picture|   
+| __ZHAO,ZHEN-BO__  | Report recording and writing.|
+|   Personal photo.個人照  |  Work photo.工作照   |   
 | <img src="Bo.jpg" alt="Image"> | <img src="IMG_8202.JPG" alt="Image"> |   
 
 
