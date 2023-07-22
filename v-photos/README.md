@@ -2,32 +2,12 @@ Vehicle's photos
 ====
 |        |        |  
 | :----: | :----: |  
-|  左視圖 | 右視圖 |
+|  <font size="5">左視圖 left view | <font size="5">右視圖 Right view |
 | <img src="Left_view.png" alt="Image"> | <img src="Right_view.png" alt="Image"> |
-|  __前視圖  Front view__  |  後視圖   |    
+|  <font size="5">前視圖  Front view  |  <font size="5">後視圖 Rear view   |    
 | <img src="front_view.png" alt="Image"> | <img src="rear_view.png" alt="Image"> | 
-|  上視圖  |  下視圖   |   
+|  <font size="5">上視圖 top view  |  <font size="5">下視圖 bottom view  |   
 | <img src="top_view.png" alt="Image"> | <img src="bottom-view.png" alt="Image"> |   
-
-
-
-### front view
-![image](front_view.png)
-
-### right view
-![image](Right_view.png)
-
-### left view
-![image](Left_view.png)
-
-### bottom view
-![image](bottom-view.png)
-
-### rear view
-![image](rear_view.png)
-
-### top view
-![image](top_view.png)
 
 
 # <div align="center">[Return Main](../)</div>  
