@@ -23,7 +23,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - 編輯後存檔、打說明、提交、同步變更
 * 圖片改大小
 
-## Content
+## ${{\color{red} Content 目錄 }} $ 
 - ### ${{\color{red} Hardware Overview }} $ 
   - #### [Parts List](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
   - #### [Lidar of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
@@ -33,7 +33,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - #### [System Platform Software](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - #### [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
   - #### Programming Language
-  - #### IO
+  - #### IO 
   - #### Image Processing and Predictions
     - #### Image Preprocessing
     - #### Wall Steering

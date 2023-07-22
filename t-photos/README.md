@@ -16,6 +16,11 @@ Team's photos
 - ### ZHAO,ZHEN-BO  
 <div align="center"><img src="Bo.jpg" width = "50%"  alt="趙振博"  /> </div>  
 
+
+
+
+
+
 The one to the left is Hu,Yun-Rueiin 11th grade.  
 
 The one in the meddle is LIN,JHONG-BIN in 10th grade.  
