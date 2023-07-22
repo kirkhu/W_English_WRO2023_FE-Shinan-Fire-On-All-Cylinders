@@ -1,6 +1,6 @@
-System Platform Software
+Software Platform
 ====
 
 
 
-# <div align="center">[Return Main](../../)</div>  
+# <div align="center">[Return Home](../../)</div>  
