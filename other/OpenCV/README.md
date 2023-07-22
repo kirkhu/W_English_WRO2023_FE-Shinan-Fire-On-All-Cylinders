@@ -9,3 +9,5 @@ OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電
 
 <small>資料來源:[維基百科](https://zh.wikipedia.org/wiki/OpenCV)</small>
 <small>資料來源:[steam 教學網](https://steam.oxxostudio.tw/category/python/ai/opencv.html#google_vignette)</small>
+
+# <div align="center">[Return Home](../../)</div>
