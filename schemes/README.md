@@ -98,7 +98,8 @@ Collecting images for image recognition.
 Specifications:  
 D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
 採用三角測距技術，簡易360度全掃描，最大測距為8公尺。  
-偵測頻率 2300 HZ，外觀尺寸 96.3*59.8*38.8 mm，  
-Usage:
+偵測頻率 2300 HZ，外觀尺寸 96.3*59.8*38.8 mm  
+
+Usage:  
 用於偵測前方牆壁及使機器維持在車道中央  
 <img src="Lidar-D100.jpg" width = "350" height = "300" alt="光達" align=center />  
