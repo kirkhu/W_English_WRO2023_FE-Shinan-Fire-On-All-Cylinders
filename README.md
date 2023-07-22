@@ -10,7 +10,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - Assembly Instructions & Diagrams
   - [Vehicle's Photos](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview }} $ 
-  - [System Platform Software](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
+  - [Software platform](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - [ROS of Introduction](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
   - Programming Language
   - IO 
