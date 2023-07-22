@@ -35,19 +35,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
 > * models用於 3D 打印機、激光切割機和 CNC 機器生產車輛元件所使用的模型的文件。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
 > * other用於其他文件，可用於了解如何為比賽準備車輛。它可能包括如何連接到 SBC/SBM 並向其中上傳文件、數據集、硬件規格、通信協議描述等的文檔。如果沒有任何內容可添加到此位置，則可以刪除該目錄。
 
- ## ${{\color{red} The Hardware }}$ 
-   ### 。Parts List
-   ### 。Lidar of Introduction
-   - 介紹光達  
-     D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
-     使用三角測距技術，可以偵測周圍360度，最大偵測距離是8公尺，2300次偵測頻率  
-   - 比較超音波與光達的異差  
-     超音波只能偵測單方向，但是光達可以偵測四周，所以能偵測兩旁的牆壁，減少擦牆的機率  
-   - 說明不同品牌光達遇到的問題  
-     D100體積小，但是偵測頻率是2300，相比 ydlidar 的 x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點  
-
-     <small>網址來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
-   ### Assembly Instructions & Diagrams
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System  
