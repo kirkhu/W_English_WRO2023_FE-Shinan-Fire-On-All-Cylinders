@@ -66,15 +66,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
 
      <small>網址來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
    ### Assembly Instructions & Diagrams
-   ### Robot's Photos   
-|        |        |  
-| :----: | :----: |  
-|  左視圖 | 右視圖 |
-| <img src="./v-photos/Left_view.png" alt="Image"> | <img src="./v-photos/Right_view.png" alt="Image"> |
-|  前視圖  |  後視圖   |    
-| <img src="./v-photos/front_view.png" alt="Image"> | <img src="./v-photos/rear_view.png" alt="Image"> | 
-|  上視圖  |  下視圖   |   
-| <img src="./v-photos/top_view.png" alt="Image"> | <img src="./v-photos/bottom-view.png" alt="Image"> |   
 
  ## ${{\color{red} The Softwarehe }} $ 
    ### 。Operating System  

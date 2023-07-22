@@ -1,5 +1,16 @@
 Vehicle's photos
 ====
+|        |        |  
+| :----: | :----: |  
+|  左視圖 | 右視圖 |
+| <img src="Left_view.png" alt="Image"> | <img src="Right_view.png" alt="Image"> |
+|  __前視圖  Front view__  |  後視圖   |    
+| <img src="front_view.png" alt="Image"> | <img src="rear_view.png" alt="Image"> | 
+|  上視圖  |  下視圖   |   
+| <img src="top_view.png" alt="Image"> | <img src="bottom-view.png" alt="Image"> |   
+
+
+
 ### front view
 ![image](front_view.png)
 
