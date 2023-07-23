@@ -103,7 +103,7 @@ D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組�
 
 use 用途:  
 用於偵測前方牆壁及使機器維持在車道中央  
-<img src="./img/Lidar-D100.jpg" width = "175" height = "" alt="光達" align=center />  
+<img src="./img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
   
 
 
