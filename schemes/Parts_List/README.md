@@ -55,7 +55,7 @@ Rated Voltage: 11.1V
   
 use 用途:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="./img/battery.png" width = "250" height = "" alt="電池" align=center />   
+<img src="./img/lipo_battery.png" width = "250" height = "" alt="電池" align=center />   
 
 ### button  
 Specification 規格:  
