@@ -54,7 +54,7 @@ Rated Voltage: 11.1V
   
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="./Parts_List/img/battery.png" width = "250" height = "" alt="電池" align=center />   
+<img src="./Parts_List/img/lipo_battery.png" width = "250" height = "" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -76,7 +76,7 @@ Usage:
 Stabilizing the power supplied by lithium batteries.  
 <img src="./Parts_List/img/ADIO-DC36V5A.png" width = "250" height = "" alt="降壓板" align=center />   
 
-### TCS23725 RGB color sensor  
+### TCS725 RGB color sensor  
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Interface: I2C interface  

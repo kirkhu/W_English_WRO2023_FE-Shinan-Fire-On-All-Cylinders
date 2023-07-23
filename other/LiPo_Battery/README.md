@@ -26,18 +26,18 @@
         - 電極連接器：鋰聚合物電池內部的電極通常由薄片狀的鋰合金材料製成，並使用連接器連接到電池的外部電路。  
     <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
     - 電池圖片  
-    <img src="./img/lipo_battery.jpg" width = "150" height = "" alt="e430" align=center />  
+    <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align=center />  
  
 - ### 低電壓警報器及充放電的設備  
     - 低電壓警報器  
         - LIpo Battery Low Voltage Alarm  
-        <img src="./img/low_voltage_alarm.jpg" width = "100" height = "" alt="e430" align=center />  
+        <img src="./img/low_voltage_alarm.png" width = "100" height = "" alt="e430" align=center />  
 
 
     - 充放電設備  
         | skyrc e430 | skyrc imax b6ac v2 |  
         | :----: | :----: |  
-        | <img src="./img/e430.jpg" width = "150" height = "" alt="e430" align=center /> | <img src="./img/B6AC2.jpg" width = "150" height = "" alt="e430" align=center /> |  
+        | <img src="./img/e430.png" width = "150" height = "" alt="e430" align=center /> | <img src="./img/B6AC2.png" width = "150" height = "" alt="e430" align=center /> |  
        
         
           
