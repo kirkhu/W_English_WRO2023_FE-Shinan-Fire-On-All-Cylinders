@@ -93,7 +93,7 @@ Interface: CSI (Camera Serial Interface)
   
 use 用途:  
 Collecting images for image recognition.  
-<img src="./img/raspi camera V2.png" width = "175" height = "" alt="相機" align=center />   
+<img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="相機" align=center />   
 
 ### Lidar D100
 Specification 規格:  
