@@ -3,7 +3,7 @@
 # <div align="center">Assembly_Instructions</div> 
 ## Components's Position  
 
-![image](./img/Component%20position.jpg)  
+![image](./img/Component_position.jpg)  
 
 ![image](./img/system.png)  
 
