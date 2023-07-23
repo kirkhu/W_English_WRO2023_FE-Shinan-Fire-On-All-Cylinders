@@ -11,7 +11,7 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
   
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
- <img src="./Parts_List/img/raspberry_pi_4.jpg" width = "150" height = "" alt="樹梅派" align=center />  
+ <img src="./Parts_List/img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center />  
 
 
 

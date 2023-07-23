@@ -91,7 +91,7 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
 | :----: | :----: | :----:|
-|<img src="./img/Lidar-D100.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "250" alt="伺服馬達" align=center />|
+|<img src="./img/Lidar-D100.jpg" width = "250" height = "" alt="伺服馬達" align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt="伺服馬達" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="伺服馬達" align=center />|
 
 
 <small>資料來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
