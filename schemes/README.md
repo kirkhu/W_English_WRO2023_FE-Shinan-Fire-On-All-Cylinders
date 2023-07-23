@@ -2,7 +2,7 @@
 
 ## Components's Position  
 
-![image](./Parts_List/img/Component%20position.jpg)  
+![image](./Parts_List/img/Component_position.jpg)  
 ## Pin Configuration  
 
 ### Raspberry Pi 4 B 8G  
