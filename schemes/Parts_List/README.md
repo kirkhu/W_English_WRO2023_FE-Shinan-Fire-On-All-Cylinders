@@ -12,7 +12,7 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
   
 use 用途:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
- <img src="./img/raspberry_pi_4.jpg" width = "150" height = "" alt="樹梅派" align=center />  
+ <img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center />  
 
 
 
@@ -35,7 +35,7 @@ Operating Voltage: 4.8V - 7.2V
   
 use 用途:  
 Control the steering mechanism to make the vehicle turn.  
-<img src="./img/MG90S.jpg" width = "150" height = "" alt="伺服馬達" align=center />   
+<img src="./img/MG90S.png" width = "150" height = "" alt="伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specification 規格:  
@@ -45,7 +45,7 @@ Peak output current: 1.2A
   
 use 用途:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-<img src="./img/l293d.jpg" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./img/l293d.png" width = "150" height = "" alt="L293D" align=center />   
 
 ### battery Lithium Polymer  
 Specification 規格:  
@@ -84,7 +84,7 @@ Interface: I2C interface
   
 use 用途:  
 Line recognition and counting the current number of revolutions.  
-<img src="./img/TCS34725.jpg" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specification 規格:  
