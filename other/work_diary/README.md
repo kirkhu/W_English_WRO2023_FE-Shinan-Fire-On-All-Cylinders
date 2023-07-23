@@ -14,7 +14,7 @@ After reading the rules, I started to choose the controller. After watching the 
 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 | raspberry pi 4 B 8G | Jeston Nano |
-| --- | --- |
+| :---: | :---: |
 |  <img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
 ## 2023/06/29 ~ 2023/06/31  
@@ -28,6 +28,9 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 
 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
 
+| GA25-370 | JGA16-050 |
+| :---: | :---: |
+|  <img src="./img/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
 ## 2023/07/01 ~ 2023/07/02  
 
@@ -40,6 +43,9 @@ The next step is the steering motor. After searching the information on the Inte
 
 接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前著齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
 
+| MG90S | SG90 |
+| :---: | :---: |
+|  <img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
 ## 2023/07/03 ~ 2023/07/05  
 
@@ -52,6 +58,9 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 
 接下來是馬達控制器。有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。    
 
+| L293D | L298N |
+| :---: | :---: |
+|  <img src="./img/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
 ## 2023/07/06 ~ 2023/07/08  
 
@@ -64,6 +73,10 @@ But these are not complete, because there is no way to turn normally, so I added
 
 但是這些還不完整，因為沒辦法正常的轉彎，因此我加上了超音波，這樣就可以在撞到牆之前轉彎  
 
+| ultrasound |
+| :---: |
+| <img src="./img/ultrasound.png" width = "150" height = "" alt="l298n" align=center /> |
+
 
 ## 2023/07/09 ~ 2023/07/12  
 
@@ -75,6 +88,7 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 
 但是不能只會轉彎，因為要順時針旋轉和逆時針旋轉，因此需要顏色感測器感測地上線的顏色來判斷是順時針和逆時針，所以在挑選顏色感測器時，因為是要測地上的線，所以要薄的，可以貼近地面的，所以也不能太大，因此 TCS34725 顏色感測器很符合我的要求  
+
 
 
 ## 2023/07/09 ~ 2023/07/12  
