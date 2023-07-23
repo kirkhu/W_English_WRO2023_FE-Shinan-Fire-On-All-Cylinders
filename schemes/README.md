@@ -34,7 +34,7 @@ Operating Voltage: 4.8V - 7.2V
   
 Usage:  
 Control the steering mechanism to make the vehicle turn.  
-<img src="./Parts_List/img/MG90S.png" width = "150" height = "" alt="伺服馬達" align=center />   
+<img src="./Parts_List/img/MG90S.png" width = "200" height = "" alt="伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specifications:  
@@ -44,7 +44,7 @@ Peak output current: 1.2A
   
 Usage:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-<img src="./Parts_List/img/l293d.png" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./Parts_List/img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
 
 ### battery Lithium Polymer  
 Specifications:  
@@ -54,7 +54,7 @@ Rated Voltage: 11.1V
   
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="./Parts_List/img/lipo_battery.png" width = "250" height = "" alt="電池" align=center />   
+<img src="./Parts_List/img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -83,7 +83,7 @@ Interface: I2C interface
   
 Usage:  
 Line recognition and counting the current number of revolutions.  
-<img src="./Parts_List/img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./Parts_List/img/TCS34725.png" width = "200" height = "" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specifications:  
