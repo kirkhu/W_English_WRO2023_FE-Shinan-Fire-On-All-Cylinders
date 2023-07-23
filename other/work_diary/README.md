@@ -11,7 +11,7 @@
 After reading the rules, I started to choose the controller. After watching the previous competitions, I found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
 
 
-在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi 但也有 jeston nano 因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 因為體積比較小而且價格也比 jeston nano 便宜  
+在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 
 ## 2023/06/29 ~ 2023/06/31  
