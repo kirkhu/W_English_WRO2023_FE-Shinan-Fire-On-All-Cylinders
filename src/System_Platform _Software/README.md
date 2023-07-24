@@ -11,14 +11,10 @@
 
    > $ sudo apt-get upgrade   
 
- - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
-
+ - 選擇Interface Options之後打開Camera、SSH和VNC然後退出  
  - 安裝opencv版本:4.7.0.72，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
-
  - 安裝ROS系統版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
-
  - 安裝PIGPIO Library，以利控制顔色感測器，讀取場地顏色值
-
  - 安裝Dlidar光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
 - ### Seutp Recode (紀錄場地值)
