@@ -7,7 +7,7 @@
 
 ## System operation process(系統運作流程)
 ![image](./img/Component_position_image.jpg)  
-## Pin Configuration  
+## Part list  
 
 ### Raspberry Pi 4 B 8G  
 Specification:  
