@@ -51,7 +51,7 @@
   - 它整合了X11伺服器、遠端運算、SSH、VNC等多種網路工具，並提供一個直觀的用戶界面，方便用戶在Windows環境下連接到遠端伺服器。
   - MobaXterm還支援多個會話的同時管理，讓用戶輕鬆切換和操作不同的遠端連接。這款工具對於系統管理員、網路工程師和開發人員來說是一個極具價值的工具。
 
-  __因此，我們選用Mobaxterm作為自駕車輛中Raspberry Pi的遠端控制工具。__  
+   __因此，我們選用Mobaxterm作為自駕車輛中Raspberry Pi的遠端控制工具。__  
 
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
@@ -67,7 +67,7 @@
   - Visual Studio Code（簡稱VS Code）是一款由Microsoft開發的免費、開源且跨平台的程式碼編輯器。它支援多種程式語言，並擁有豐富的擴充功能，讓使用者可以個性化配置以滿足不同需求。
   - VS Code擁有直覺的用戶界面和強大的代碼編輯功能，如智慧程式碼完成、程式碼導航、除錯和版本控制等。它廣受開發人員歡迎，成為許多軟體開發項目的首選編輯工具。
    
-  __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
+   __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
 
 - Software link：[Raspberry Pi OS](https://code.visualstudio.com/) 
 
