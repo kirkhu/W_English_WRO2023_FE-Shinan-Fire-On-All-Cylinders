@@ -3,9 +3,9 @@
 # <div align="center">Assembly_Instructions(硬體組裝說明)</div>
 ## Components's Position (硬體結構配置) 
 
-![image](./Parts_List/img/Component_position.jpg)  
+![image](./mg/Component_position.jpg)  
 ## System operation process(系統運作流程)
-![image](./Parts_List/img/Component_position_image.jpg)  
+![image](./img/Component_position_image.jpg)  
 ## Pin Configuration  
 
 ### Raspberry Pi 4 B 8G  
