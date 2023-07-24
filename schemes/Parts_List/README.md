@@ -97,11 +97,19 @@ Collecting images for image recognition.
 
 ### Lidar D100
 Specification 規格:  
-D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
-採用三角測距技術，簡易360度全掃描，最大測距為8公尺。  
-偵測頻率 2300 HZ，外觀尺寸 96.3*59.8*38.8 mm  
 
-use 用途:  
+The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
+- It utilizes triangulation technology for straightforward 360-degree full scanning, with a maximum range of 8 meters.
+- The detection frequency is 2300 Hz, and the physical dimensions of the device are 96.3 x 59.8 x 38.8 mm.
+
+D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
+- 採用三角測距技術，簡易360度全掃描
+- 最大測距為8公尺。  
+- 偵測頻率 2300 HZ，外觀尺寸 96.3*59.8*38.8 mm  
+
+use 用途:
+
+Used for detecting front-facing walls and keeping the machine centered in the lane.  
 用於偵測前方牆壁及使機器維持在車道中央  
 <img src="./img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
   
