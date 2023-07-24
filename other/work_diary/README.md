@@ -154,4 +154,4 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 
 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將陀螺儀的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
 
-# <div align="center">[Return Home](../../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
