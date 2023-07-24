@@ -1,4 +1,4 @@
-![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](./img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Vehicle 3D Model(3D建模圖)</div>
 ![LOGO](./img/Vehicle_cad.png)
@@ -6,4 +6,4 @@
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 ![LOGO](./img/2D_Cutters.png)
 
-# <div align="center">![HOME](./other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](./img/Home.png)[Return Home](../)</div>  
