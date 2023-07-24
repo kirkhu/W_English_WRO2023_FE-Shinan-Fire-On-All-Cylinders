@@ -8,6 +8,7 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
   - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
   - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)
+  - [Vehicle 3D/2D Models](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
   - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   - [Software Platform(自駕車輛系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
