@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Raspberry Pi</div> 
+# <div align="center">Raspberry Pi Introduce</div> 
 ### English 
 - Raspberry Pi is a small single-board computer launched by the Raspberry Pi Foundation in the UK, and it has gained widespread popularity due to its low cost, high customizability, and open-source nature. 
 - The hardware configuration of Raspberry Pi includes a processor, memory, multiple USB ports, HDMI output, and GPIO pins. 
@@ -17,6 +17,6 @@ __Therefore, we have chosen Raspberry Pi 4 (8GB) as the hardware development pla
 __因此，我們選用Raspberry Pi 4(8G) 作為自駕車輛的硬體開發平台。__  
 
 - Software link：[Raspberry Pi OS](https://www.raspberrypi.com/software/) 
-# <div align="center">![HOME](./other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 
