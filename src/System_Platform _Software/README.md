@@ -25,6 +25,7 @@
   standard library, enabling developers to write code quickly and efficiently. 
   - Python is widely used in web development, scientific computing, data analysis, artificial intelligence, machine learning, and various other fields. It features dynamic typing, automatic garbage collection, and supports multiple platforms.
   - With an active community, Python has a plethora of third-party libraries and tools, making development even more convenient. Python has become a popular choice for both beginners and experienced developers.  
+  
   __Therefore, we choose Python as the programming language for the development of the self-driving vehicle.__
 
   ### 中文
