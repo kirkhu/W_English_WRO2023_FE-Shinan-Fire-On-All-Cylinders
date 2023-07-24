@@ -5,7 +5,8 @@
 ![images](./img/software_setup.png)  
 - 安裝 pi os時，選擇安裝Raspberry Pi OS (Legacy)   
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
-   > $ sudo apt-get update
+   > $ sudo apt-get update  
+   
    > $ sudo apt-get upgrade   
 
 - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
