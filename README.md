@@ -5,15 +5,15 @@ This repository contains engineering materials of a self-driven vehicle's model 
 ## <div align="center">Content(目錄)</div>  
 
 - ### ${{\color{red} Hardware Overview (硬體部份)}} $ 
-  - [Parts List(零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
+  - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
   - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
-  - [Assembly Instructions & Diagrams(組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)
-  - [Vehicle's Photos(自走車各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
+  - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)
+  - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
-  - [Software Platform(系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
+  - [Software Platform(自駕車輛系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
   - [ROS Of Introduction(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
-  - [Programming Language(程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming_Language)
+  - [Programming Language(自駕車輛程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming_Language)
   - IO 
   - Image Processing and Predictions
     - Image Preprocessing
@@ -27,6 +27,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
   - [LiPo Battery Safety Notice(鋰電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
 
-- ### ${{\color{red} CompetitionSchedule (競賽時間規劃)}} $  
+- ### ${{\color{red} CompetitionSchedule (練習時間規劃)}} $  
 
 # <div align="center">![Gantt chart](./other/img/Gantt_Chart.png)</div> 
