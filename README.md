@@ -27,6 +27,6 @@ This repository contains engineering materials of a self-driven vehicle's model 
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
   - [LiPo Battery_Safety_Notice(鋰電池安全說明)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
 
-- ### ${{\color{red} Competition Schedule (競賽時間規劃)}} $  
+- ### ${{\color{red} Competition &nbsp; Schedule (競賽時間規劃)}} $  
 
 # <div align="center">![Gantt chart](./other/img/Gantt_Chart.png)</div> 
