@@ -1,9 +1,10 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Assembly_Instructions(硬體組裝說明)</div>
-## Components's Position (硬體結構配置) 
 
-![image](./mg/Component_position.jpg)  
+## Components's Position (硬體結構配置)
+![image](./img/Component_position.jpg)  
+
 ## System operation process(系統運作流程)
 ![image](./img/Component_position_image.jpg)  
 ## Pin Configuration  
@@ -115,4 +116,4 @@ Used for detecting front-facing walls and keeping the machine centered in the la
 用於偵測前方牆壁及使機器維持在車道中央  
 <img src="../Parts_List/img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
 
-# <div align="center">![HOME](../other/img/Home.png)[Return Home](../../)</div> 
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
