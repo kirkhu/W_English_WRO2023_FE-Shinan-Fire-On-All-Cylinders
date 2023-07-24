@@ -2,9 +2,9 @@ Engineering materials
 ====
 
 Official GitHub repository for WRO TAIWAN team Fire On All Cylinders Future Engineers 2023. All code, documentation, and files are located here.
-
 Located below is the documentation, and a link to the build instructions.
-## <div align="center">Content(目錄)</div>  
+
+## Content(目錄) 
 
 - ### ${{\color{red} Hardware Overview (硬體部份)}} $ 
   - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
