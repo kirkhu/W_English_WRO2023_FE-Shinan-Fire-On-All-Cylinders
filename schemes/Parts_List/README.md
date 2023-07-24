@@ -1,12 +1,8 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Electromechanical diagrams   </div> 
+# <div align="center">Part List</div> 
 
-
-
-## Part introduce 
-
-### Raspberry Pi 4 B 8G 
+### Raspberry Pi 4B(8G) 
 Specification 規格:  
 With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
   
