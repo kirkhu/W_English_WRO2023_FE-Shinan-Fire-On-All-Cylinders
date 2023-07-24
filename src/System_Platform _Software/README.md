@@ -34,5 +34,8 @@
    - Python被廣泛應用於Web開發、科學計算、數據分析、人工智慧、機器學習等領域。它具有動態類型、自動垃圾回收等特性，並支援多種平台。
    - Python社群活躍，有大量的第三方庫和工具，使得開發更加便捷，Python成為初學者和專業開發者的熱門選擇。  
    __因此，我們選用python 作為自駕車輛的程式開發語言。__  
+- ### Mobaxterm Introduce
 
+
+- ### Vs Code Introduce
   # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
