@@ -15,8 +15,9 @@
 
    - 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
-
-    ### 。Programming Language
+- ### Seutp Recode (紀錄場地值)
+![images](./img/setup_recode.png)  
+- ### Programming Language
    我們選了 python 用於我們的程式開發上  
       
    Python是一种高级、通用的编程语言。它的设计理念强调代码的可读性，使用了显著缩进。Python是动态类型且具有自動的記憶體管理機制功能。  
