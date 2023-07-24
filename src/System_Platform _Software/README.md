@@ -5,7 +5,7 @@
 ![images](./img/software_setup.png)  
 - 安裝 pi os時，選擇安裝Raspberry Pi OS (Legacy)   
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
-   
+
    > $ sudo apt-get update  
 
    > $ sudo apt-get upgrade   
@@ -16,7 +16,7 @@
 
 - 安裝ROS系統 版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
 
-- 安裝PIGPIO，
+- 安裝PIGPIO，以利控制顔色感測器，讀取場地顏色值
 
 - 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
