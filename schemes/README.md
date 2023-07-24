@@ -3,6 +3,7 @@
 ## Components's Position  
 
 ![image](./Parts_List/img/Component_position.jpg)  
+![image](./Parts_List/img/Component_position_image.jpg)  
 ## Pin Configuration  
 
 ### Raspberry Pi 4 B 8G  
@@ -83,7 +84,7 @@ Interface: I2C interface
 
 Usage:  
 Line recognition and counting the current number of revolutions.  
-<img src="./Parts_List/img/TCS34725.png" width = "200" height = "" alt="顏色感測器" align=center />   
+<img src="./Parts_List/img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specifications:  
