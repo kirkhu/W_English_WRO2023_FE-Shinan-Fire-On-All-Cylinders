@@ -47,6 +47,7 @@ __Therefore, we have chosen MobaXterm as the remote control tool for the Raspber
 - MobaXterm是一款功能豐富的跨平台遠端計算機管理工具。
 - 它整合了X11伺服器、遠端運算、SSH、VNC等多種網路工具，並提供一個直觀的用戶界面，方便用戶在Windows環境下連接到遠端伺服器。
 - MobaXterm還支援多個會話的同時管理，讓用戶輕鬆切換和操作不同的遠端連接。這款工具對於系統管理員、網路工程師和開發人員來說是一個極具價值的工具。
+
 __因此，我們選用Mobaxterm作為自駕車輛中Raspberry Pi的遠端控制工具。__  
 
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
