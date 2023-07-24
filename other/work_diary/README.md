@@ -15,7 +15,7 @@ After reading the rules, I started to choose the controller. After watching the 
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
-|  <img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
+|  <img src="./IMG/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./IMG/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
 ## 2023/06/29 ~ 2023/06/31  
 
@@ -30,7 +30,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 
 | GA25-370 | JGA16-050 |
 | :---: | :---: |
-|  <img src="./img/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
+|  <img src="./IMG/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./IMG/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
 ## 2023/07/01 ~ 2023/07/02  
 
@@ -45,7 +45,7 @@ The next step is the steering motor. After searching the information on the Inte
 
 | MG90S | SG90 |
 | :---: | :---: |
-|  <img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
+|  <img src="./IMG/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./IMG/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
 ## 2023/07/03 ~ 2023/07/05  
 
@@ -60,7 +60,7 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 
 | L293D | L298N |
 | :---: | :---: |
-|  <img src="./img/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
+|  <img src="./IMG/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./IMG/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
 ## 2023/07/06 ~ 2023/07/08  
 
@@ -75,7 +75,7 @@ But these are not complete, because there is no way to turn normally, so I added
 
 | ultrasound |
 | :---: |
-| <img src="./img/ultrasound.png" width = "150" height = "" alt="l298n" align=center /> |
+| <img src="./IMG/ultrasound.png" width = "150" height = "" alt="l298n" align=center /> |
 
 
 ## 2023/07/09 ~ 2023/07/12  
