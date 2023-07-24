@@ -2,9 +2,9 @@
 =====
 # <div align="center">Software Platform (軟體平台)</div> 
 - ### System Platform Software Installation Process Diagram.
-![images](./img/software_setup.png)  
+![images](./img/software_setup.png) 
 - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
-   - [軟體檔下載網址]: 
+   - Software link：[On Shope](https://www.onshape.com/en/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
