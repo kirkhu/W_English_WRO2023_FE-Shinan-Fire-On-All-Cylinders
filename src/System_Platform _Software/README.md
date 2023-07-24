@@ -3,7 +3,7 @@
 # <div align="center">Software Platform (軟體平台)</div> 
 - ### System Platform Software Installation Process Diagram.
 ![images](./img/software_setup.png)  
-- 安裝 pi os時，選擇安裝Raspberry Pi OS (Legacy)   
+- 安裝__PI OS__時，選擇安裝Raspberry Pi OS (Legacy)   
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
@@ -12,13 +12,13 @@
 
 - 選擇Interface Options之後打開Camera、SSH和VNC然後退出    
 
-- 安裝opencv 版本:4.7.0.72，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
+- 安裝__opencv__ 版本:4.7.0.72，在裝之前要先確認setuptools和wheel的版本支援安裝的opencv  
 
-- 安裝ROS系統 版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
+- 安裝__ROS系統__ 版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
 
-- 安裝PIGPIO，以利控制顔色感測器，讀取場地顏色值
+- 安裝__PIGPIO Library__，以利控制顔色感測器，讀取場地顏色值
 
-- 安裝光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
+- 安裝__Dlidar光達的驅動程式__，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
 - ### Seutp Recode (紀錄場地值)
 ![images](./img/setup_recode.png)  
