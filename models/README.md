@@ -6,6 +6,15 @@
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 <img src="./img/2D_Cutters.png" width="500">
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
+|        |        |  
+| :----: | :----: |  
+|  <font size="5">left view 左視圖 </font> | <font size="5">Right view 右視圖  </font> |
+| <img src="./img/car.png" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
+|  <font size="5"> Front view  前視圖 </font>|  <font size="5">Rear view 後視圖  </font> |    
+| <img src="./img/car_board_2.png" alt="Image"> | <img src="./img/car_board_3.png" alt="Image"> | 
+|  <font size="5">top view 上視圖 </font> |  <font size="5">bottom view 下視圖 </font> |   
+| <img src="./img/car_down.png" alt="Image"> | <img src="./img/bottom-view.png" alt="Image"> |   
+
 <img src="./img/car_down.png" width="500">
 
 補瑞瑞使用雷切機的照片
