@@ -14,17 +14,18 @@
 - Lidar D100 光學雷達
 - lipo battery low voltage alarm 鋰電池低電壓警報器
 - switch 開關  
-- plastic pillar 塑膠支柱  
-- plastic pillar 塑膠支柱  
-- plastic pillar 塑膠支柱  
-- plastic pillar 塑膠支柱  
-- plastic pillar 塑膠支柱  
-- plastic pillar 塑膠支柱  
+- hexagon plastic pillar 塑膠六角隔離柱  
+- hexagon plastic pillar 塑膠六角隔離柱  
+- hexagon plastic pillar 塑膠六角隔離柱  
+- hexagon plastic pillar 塑膠六角隔離柱  
+- hexagon plastic pillar 塑膠六角隔離柱  
+- hexagon double female standoffs 塑膠雙母固定柱  
 - plastic screw 塑膠螺絲  
 - plastic nut 塑膠螺帽  
-- metal screw 金屬螺絲  
-- metal screw 金屬螺絲  
-- metal nut 金屬螺帽  
+- Cross recessed round head metal screw 2.5x26mm 十字圓頭金屬螺絲  
+- hexagon metal screw 7x10mm 金屬螺絲  
+- hexagon metal nut 六邊形金屬螺帽
+- Galvanized Hexagon Flange Nut 鍍彩鋅六角法蘭螺母  
 - red led 紅色LED  
 - yellow led 黃色LED  
 - pegboard 30x48 hole 90x150 cm 洞洞板  
@@ -48,6 +49,9 @@
 - lego H-shaped connector 樂高H型連接器  
 - lego L-shaped connector 3x3 樂高L型連接器  
 - lego square hollow crossbar 5x7 樂高方形中空橫桿  
+- lego half-thickness socket 樂高半格套筒  
+- lego socket 樂高套筒  
+- lego four-pointed nail 樂高四格釘子  
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
