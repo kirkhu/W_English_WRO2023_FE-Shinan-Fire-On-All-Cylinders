@@ -9,6 +9,8 @@
 
 ## Obstacle Challenge Flow Chart(任務賽程式流程)
 
+![flowchart_obstacle](./img/flowchart_obstacle.png)
+
 ## 圖像預測
 所有圖像過濾可以在[vehicle_function.py](./Obstacle_Challenge/vehicle_function.py)中找到。
 ### 圖像處理
