@@ -12,8 +12,7 @@
 | <img src="./img/car.png" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
 |  <font size="5"> Front view  前視圖 </font>|  <font size="5">Rear view 後視圖  </font> |    
 | <img src="./img/car_board_2.png" alt="Image"> | <img src="./img/car_board_3.png" alt="Image"> | 
-|  <font size="5">top view 上視圖 </font> |  <font size="5">bottom view 下視圖 </font> |   
-| <img src="./img/car_down.png" alt="Image"> | <img src="./img/bottom-view.png" alt="Image"> |   
+
 
 <img src="./img/car_down.png" width="500">
 
