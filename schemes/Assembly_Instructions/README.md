@@ -50,7 +50,7 @@ Usage:
 Control the rotation direction of GA25-371 DC reduction motor.  
 <img src="./img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
 
-### battery Lithium Polymer  
+### Lipo 3S Battery(鋰電池 3S)
 Specifications:  
 Maximum Current: 45.5A  
 Net Weight: Approximately 107g  
@@ -60,7 +60,7 @@ Usage:
 Supplying power to Raspberry Pi and other electronic components.  
 <img src="./img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
 
-### Button  
+### Button( B3F-4055 微動輕觸開關)
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Number of Pins: 3  
