@@ -60,7 +60,7 @@ Usage:
 Supplying power to Raspberry Pi and other electronic components.  
 <img src="./img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
 
-### button  
+### Button  
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Number of Pins: 3  
@@ -98,7 +98,7 @@ Usage:
 Collecting images for image recognition.  
 <img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="相機" align=center />   
 
-### Lidar D100
+### D100 LiDAR(D100 光達)
 Specification 規格:  
 
 The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
