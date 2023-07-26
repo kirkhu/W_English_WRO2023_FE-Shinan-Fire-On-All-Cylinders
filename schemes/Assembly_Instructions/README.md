@@ -80,7 +80,7 @@ Usage:
 Stabilizing the power supplied by lithium batteries.  
 <img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="降壓板" align=center />   
 
-### TCS725 RGB color sensor  
+### TCS34725  RGB color sensor  
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Interface: I2C interface  
