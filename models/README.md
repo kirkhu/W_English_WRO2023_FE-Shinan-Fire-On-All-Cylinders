@@ -18,8 +18,6 @@
 | <img src="./img/car_down.png" alt="Image"> | | 
 
 
-
-補瑞瑞使用雷切機的照片
 <img src="./img/hu.jpg" width="500">
 
 
