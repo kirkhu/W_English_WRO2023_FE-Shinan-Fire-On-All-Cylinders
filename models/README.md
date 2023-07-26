@@ -11,7 +11,7 @@
 |        |        |  
 | :----: | :----: |  
 |  left view 左視圖  | Right view 右視圖  |
-| <img src="./img/car.png" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
+| <img src="./img/car.png" width="500" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
 |  Front view  前視圖 |   Rear view 後視圖  |    
 | <img src="./img/car_board_2.png" alt="Image"> | <img src="./img/car_board_3.png" alt="Image"> | 
 |  Front view  前視圖 |    |    
