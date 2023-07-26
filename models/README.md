@@ -14,9 +14,10 @@
 | <img src="./img/car.png" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
 |  Front view  前視圖 |   Rear view 後視圖  |    
 | <img src="./img/car_board_2.png" alt="Image"> | <img src="./img/car_board_3.png" alt="Image"> | 
+|  Front view  前視圖 |    |    
+| <img src="./img/car_down.png" alt="Image"> |  | 
 
 
-<img src="./img/car_down.png" width="500">
 
 補瑞瑞使用雷切機的照片
 
