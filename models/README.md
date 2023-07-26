@@ -11,7 +11,7 @@
 |        |        |       |        |    
 | :----: | :----: |:----: |:----: |  
 |    |   ||    |     |  
-| <img src="./img/car_down.png" width="300" alt="Image"> | <img src="./img/1.png" width="300" alt="Image"> | <img src="./img/car_board.png" width="300" alt="Image"> | <img src="./img/car_board_2.png" width="300" alt="Image"> | 
+| <img src="./img/car_down.png" width="400" alt="Image"> | <img src="./img/1.png" width="400" alt="Image"> | <img src="./img/car_board.png" width="400" alt="Image"> | <img src="./img/car_board_2.png" width="400" alt="Image"> | 
 
   
 
