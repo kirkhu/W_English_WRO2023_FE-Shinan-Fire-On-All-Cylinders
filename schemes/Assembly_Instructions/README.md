@@ -58,7 +58,7 @@ Rated Voltage: 11.1V
 
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="../img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
+<img src="./img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
 
 ### button  
 Specifications:  
@@ -68,7 +68,7 @@ Output Signal: Digital
 
 Usage:  
 Send an activation signal before initiating the program.  
-<img src="../img/button.png" width = "200" height = "" alt="按鈕" align=center />   
+<img src="./img/button.png" width = "200" height = "" alt="按鈕" align=center />   
 
 ### ADIO-DC36V5A Switching power adapter  
 Specifications:  
@@ -78,7 +78,7 @@ Operating Frequency: 180Hz
 
 Usage:  
 Stabilizing the power supplied by lithium batteries.  
-<img src="../img/ADIO-DC36V5A.png" width = "250" height = "" alt="降壓板" align=center />   
+<img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="降壓板" align=center />   
 
 ### TCS725 RGB color sensor  
 Specifications:  
@@ -87,7 +87,7 @@ Interface: I2C interface
 
 Usage:  
 Line recognition and counting the current number of revolutions.  
-<img src="../img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
 
 ### Raspberry Pi Camera V2  
 Specifications:  
@@ -96,7 +96,7 @@ Interface: CSI (Camera Serial Interface)
 
 Usage:  
 Collecting images for image recognition.  
-<img src="../img/raspi_camera_V2.png" width = "175" height = "" alt="相機" align=center />   
+<img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="相機" align=center />   
 
 ### Lidar D100
 Specification 規格:  
@@ -114,6 +114,6 @@ Usage:
 
 Used for detecting front-facing walls and keeping the machine centered in the lane.  
 用於偵測前方牆壁及使機器維持在車道中央  
-<img src="../img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
+<img src="./img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
