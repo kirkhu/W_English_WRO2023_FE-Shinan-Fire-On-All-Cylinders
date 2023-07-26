@@ -11,7 +11,7 @@
 |        |        |       |        |    
 | :----: | :----: |:----: |:----: |  
 |    |   ||    |     |  
-| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> | 
+| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.jpg" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> | 
 
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 
