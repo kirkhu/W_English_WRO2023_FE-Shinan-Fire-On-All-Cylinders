@@ -15,7 +15,7 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
 
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
-<img src="../img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center />  
+<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center />  
 
 
 
@@ -27,7 +27,7 @@ Operating Voltage: 3 - 12V
 
 Usage:  
 Driving the car's rear wheels to control the vehicle's forward and backward movements.  
-<img src="../img/Motor.png" width = "150" height = "" alt="馬達圖" align=center />  
+<img src="./img/Motor.png" width = "150" height = "" alt="馬達圖" align=center />  
 
 ### MG90S servo motor  
 Specifications:  
@@ -38,7 +38,7 @@ Operating Voltage: 4.8V - 7.2V
 
 Usage:  
 Control the steering mechanism to make the vehicle turn.  
-<img src="../img/MG90S.png" width = "200" height = "" alt="伺服馬達" align=center />   
+<img src="./img/MG90S.png" width = "200" height = "" alt="伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specifications:  
@@ -48,7 +48,7 @@ Peak output current: 1.2A
 
 Usage:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-<img src="../img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
+<img src="./img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
 
 ### battery Lithium Polymer  
 Specifications:  
