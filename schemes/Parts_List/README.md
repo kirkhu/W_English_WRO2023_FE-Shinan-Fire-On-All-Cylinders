@@ -7,7 +7,7 @@
 - MG90S servo motor 伺服馬達  
 - L293d motor controler 馬達控制晶片  
 - battery Lithium Polymer 3S11V 鋰聚合電池  
-- button 按鈕  
+- [button  B3F-4055 微動輕觸開關](https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4)  
 - ADIO-DC36V5A Switching power adapter 直流降壓板  
 - TCS23725 RGB color sensor 顏色感測器  
 - Raspberry Pi Camera V2 樹梅派鏡頭V2  
