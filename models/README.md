@@ -6,10 +6,23 @@
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 <img src="./img/2D_Cutters.png" width="500">
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
-<img src="./img/car_down.png" width="500">
 
-補瑞瑞使用雷切機的照片
 
+|        |        |       |        |    
+| :----: | :----: |:----: |:----: |  
+|    |   ||    |     |  
+| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2.png" width="500" alt="Image"> | 
+
+# <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
+
+|        |        |
+| :----: | :----: |
+|    |   ||
+| <img src="./img/simulation.png" width="500" alt="Image"> | <img src="./img/simulation_2.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2.png" width="500" alt="Image"> | 
+
+# <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
+
+<img src="./img/hu.jpg" width="500">
 
 
 ## English
@@ -20,6 +33,7 @@
 - 使用 Onshape 來設計車輛的 3D 模型，而 Onshape 是免費且容易操作的網頁型態設計軟體。
 - 藉由 OnShope 建立模型後，可輸出2D平面尺寸圖，再交由雷切機進行切割。
 - Software link：[On Shope](https://www.onshape.com/en/) 
+
 
 
 # <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
