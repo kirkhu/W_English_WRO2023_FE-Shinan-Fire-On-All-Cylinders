@@ -6,11 +6,13 @@
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 <img src="./img/2D_Cutters.png" width="500">
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
+
+
 |        |        |  
 | :----: | :----: |  
-|  <font size="5">left view 左視圖 </font> | <font size="5">Right view 右視圖  </font> |
+|  left view 左視圖  | Right view 右視圖  |
 | <img src="./img/car.png" alt="Image"> | <img src="./img/car_board.png" alt="Image"> |
-|  <font size="5"> Front view  前視圖 </font>|  <font size="5">Rear view 後視圖  </font> |    
+|  Front view  前視圖 |   Rear view 後視圖  |    
 | <img src="./img/car_board_2.png" alt="Image"> | <img src="./img/car_board_3.png" alt="Image"> | 
 
 
