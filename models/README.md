@@ -11,7 +11,7 @@
 |        |        |       |        |    
 | :----: | :----: |:----: |:----: |  
 |    |   ||    |     |  
-| <img src="./img/car_down.png" width="400" alt="Image"> | <img src="./img/1.png" width="600" alt="Image"> | <img src="./img/car_board.png" width="400" alt="Image"> | <img src="./img/car_board_2.png" width="400" alt="Image"> | 
+| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2.png" width="500" alt="Image"> | 
 
   
 
@@ -27,5 +27,9 @@
 - 藉由 OnShope 建立模型後，可輸出2D平面尺寸圖，再交由雷切機進行切割。
 - Software link：[On Shope](https://www.onshape.com/en/) 
 
+|        |        |
+| :----: | :----: |
+|    |   ||
+| <img src="./img/simulation.png" width="500" alt="Image"> | <img src="./img/simulation_2.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2.png" width="500" alt="Image"> | 
 
 # <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
