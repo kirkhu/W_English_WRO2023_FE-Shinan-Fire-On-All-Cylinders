@@ -6,7 +6,7 @@
 ![image](./img/Component_position.jpg)  
 
 ## System operation process(系統運作流程)
-![image](./img/Component_position_image.jpg)  
+![image](./img/System_operation_process.png)  
 ## Part list  
 
 ### Raspberry Pi 4B(8G)  
