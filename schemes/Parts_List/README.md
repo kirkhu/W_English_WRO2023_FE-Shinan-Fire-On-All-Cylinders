@@ -13,19 +13,20 @@
         <li><a href="https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4" target="_blank"> button  B3F-4055 微動輕觸開關</a></li>
         <li><a href="https://components101.com/modules/xl4015-dc-dc-converter-module" target="_blank"> Xl4015 5A DC/DC Switching power adapter 直流降壓板</a></li>
         <li><a href="https://shopee.tw/%E3%80%90%E7%92%B0%E5%B3%B6%E7%A7%91%E6%8A%80-(b4-11)-TCS34725-%E9%A1%8F%E8%89%B2%E6%84%9F%E6%B8%AC%E5%99%A8-Color-Sensor-RGB-%E9%96%8B%E7%99%BC%E6%9D%BF%E6%A8%A1%E7%B5%84-%E5%8F%B0%E7%81%A3%E7%8F%BE%E8%B2%A8-i.280233910.6080041449?sp_atk=7543c9e2-c1b4-4502-a89c-26692b2a576c&xptdk=7543c9e2-c1b4-4502-a89c-26692b2a576c" target="_blank">TCS34725 RGB color sensor 顏色感測器</a></li>
-        <li>SONY IMX219 鏡頭模組 </li>
-        <li>Lidar D100 96.4x59.8x38.8 光學雷達 </li>
-        <li>lipo battery low voltage alarm 鋰電池低電壓警報器 </li>
-        <li>switch 開關 </li>
-        <li>hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </li>
+        <li><a href="https://shopee.tw/TW1678-IMX219-D160-800%E8%90%AC%E5%83%8F%E7%B4%A0%E6%94%9D%E5%83%8F%E9%A0%AD-%E8%A6%96%E8%A7%92160%E5%BA%A6-Jetson-Nano%E3%80%81Pi-Camera-i.6760059.5415151583?sp_atk=4817fa1a-e0f8-44e6-96cf-178fd8fe5e27&xptdk=4817fa1a-e0f8-44e6-96cf-178fd8fe5e27" target="_blank">SONY IMX219 鏡頭模組</a></li>
+        <li><a href="https://shop.playrobot.com/products/lidar-d100-ld14" target="_blank">Lidar D100 96.4x59.8x38.8 光學雷達</a></li>
+        <li><a href="https://twistedhobbys.com/lipo-battery-voltage-tester-1-8s-low-voltage-buzzer-alarm/" target="_blank">lipo battery low voltage alarm 鋰電池低電壓警報器</a></li>
+        <li><a href="https://shopee.tw/%E6%90%96%E9%A0%AD%E9%96%8B%E9%97%9C-3A-250VAC-6A-125VAC-MTS-1%E9%80%A3%E5%8B%95%E9%96%8B%E9%97%9C-B5031-%E5%A4%A7%E6%B4%8B%E5%9C%8B%E9%9A%9B%E9%9B%BB%E5%AD%90-i.26482219.490434892" target="_blank">switch AC 725W 開關</a></li>
+        <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </li>
         <li>hexagon plastic pillar 3x12+6 塑膠六角隔離柱 直徑3mm 柱體長度12mm 螺紋長度 6mm </li>
-        <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm </li>
-        <li>hexagon double female standoffs 3x15 塑膠雙母固定柱 直徑3mm 柱體長度15mm </li>
-        <li>plastic screw 塑膠螺絲 </li>
-        <li>plastic nut 塑膠螺帽 </li>
-        <li>Cross recessed round head metal screw 2.5x26mm 十字圓頭金屬螺絲 </li>
-        <li>hexagon metal screw 7x10mm 金屬螺絲 </li>
-        <li>hexagon metal nut 六邊形金屬螺帽 </li>
+        <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm</a></li>
+        <li><a href="https://shopee.tw/%E9%9B%99%E9%80%9A%E5%B0%BC%E9%BE%8D%E6%9F%B1M2M2.5M3M5%E7%99%BD%E8%89%B2%E9%BB%91%E8%89%B2%E5%B9%B3%E9%A0%AD%E5%85%AD%E8%A7%92%E6%9F%B1%E5%A1%91%E8%86%A0%E7%B5%95%E7%B7%A3%E9%9A%94%E9%9B%A2%E6%9F%B1%E8%9E%BA%E6%A1%BF%E8%9E%BA%E6%9F%B1-i.720053006.21745063797?sp_atk=83f44020-30bb-4ce5-b264-b15b8b761604&xptdk=83f44020-30bb-4ce5-b264-b15b8b761604" target="_blank">hexagon double female standoffs 3x15 塑膠雙母固定柱 直徑3mm 柱體長度15mm</a></li>
+        <li><a href="https://shopee.tw/PC%E9%80%8F%E6%98%8E%E5%8D%81%E5%AD%97%E5%9C%93%E9%A0%AD%E8%9E%BA%E9%87%98-%E5%A1%91%E8%86%A0%E5%85%AD%E8%A7%92%E8%9E%BA%E6%AF%8D-%E4%BA%9E%E5%85%8B%E5%8A%9B%E8%9E%BA%E7%B5%B2-%E5%A1%91%E8%86%A0%E7%9B%A4%E9%A0%AD%E8%9E%BA%E6%A0%93-M3-M4-M5-M6-i.193487496.21850094142?sp_atk" target="_blank">plastic screw M3*7 塑膠螺絲 </li>
+        <li>plastic nut M3 塑膠螺母</a></li>
+        <li><a href="https://www.amazon.com/-/zh_TW/M2-5-2-5-0-45-%E4%B8%8D%E9%8F%BD%E9%8B%BC%E5%8D%81%E5%AD%97%E6%9D%BF%E9%A0%AD%E6%A9%9F%E5%99%A8%E8%9E%BA%E7%B5%B2-MonsterBolts/dp/B078HC2S6Z?th=1">Cross recessed round head metal screw 2.5x26mm 十字圓頭金屬螺絲 </a></li>
+        <li><a href="https://shopee.tw/product/749229658/23636961267?gclid=CjwKCAjwq4imBhBQEiwA9Nx1Bt6SCdB6Bv8GLEKjEpfpkadMSBcHpsCc7RAf065zCyWwD_APcddxQhoCuA0QAvD_BwE">hexagon metal screw M8x10mm 黑色圓頭六角螺絲 </li>
+        <li>hexagon metal screw M8x15mm 黑色圓頭六角螺絲 </a></li>
+        <li>hexagon metal nut M8 六邊形金屬螺帽 </li>
         <li>Galvanized Hexagon Flange Nut 鍍彩鋅六角法蘭螺母 </li>
         <li>red led 紅色LED </li>
         <li>yellow led 黃色LED </li>
