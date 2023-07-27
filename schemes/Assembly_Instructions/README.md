@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Assembly_Instructions(硬體組裝說明)</div>
+# <div align="center">Assembly Instructions(硬體組裝說明)</div>
 
 ## Components's Position (硬體結構配置)
 <img src="./img/introduct.png" alt="介紹圖">  
