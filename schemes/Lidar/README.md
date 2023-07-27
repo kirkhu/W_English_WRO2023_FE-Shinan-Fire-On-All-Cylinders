@@ -69,11 +69,19 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 超音波感測器只能單向偵測，限於前方，用於距離測量與障礙物檢測。光達則具備360度全方位覆蓋範圍，可同時感測四周，用於高精度環境感知和地圖製作，減少碰撞風險，並廣泛應用於自動駕駛、環境建模等領域。光達優於超音波在提供完整環境資訊方面，使其在機器人導航中更為優勢。
 
 - 不同品牌光達遇到的問題  
-    D100偵測頻率是2300，相比 ydlidar x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點，但因使用ydlidar x4、ydlidar x2有缺角問題，
+    D100偵測頻率是2300，相比 ydlidar x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點。  
 
+但因不熟悉ydlidar x4、ydlidar x2的使用，因此有偵測缺角問題，故本競賽採用D100做車輛偵測場邊牆距離之感測器，使用結果符合預期所需之結果。
+
+## 實測之光達種類
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
 | :----: | :----: | :----:|
-|<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="伺服馬達" align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt="伺服馬達" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="伺服馬達" align=center />|
+|<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+
+## 實測光達ydlidar x4、dlidar x2 所遇之缺角問題
+|  lidar D100    |  ydlidar x4  |   
+| :----: | :----: |
+|<img src="./img/Lidar_X2_X4_error1.jpg" width = "250" height = "" alt="偵測缺角" align=center />|<img src="./img/Lidar_X2_X4_error.jpg" width = "250" height = "" alt="偵測缺角" align=center />|
 
 
 <small>資料來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
