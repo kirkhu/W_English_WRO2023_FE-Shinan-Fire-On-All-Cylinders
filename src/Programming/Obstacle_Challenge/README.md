@@ -1,6 +1,6 @@
 ![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Obstacle Challenge Code Introduce</div>
+# <div align="center">Obstacle Challenge Code overview(任務賽程式概述)</div>
 ## [save_file](./save_file)
 - The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
 - These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
