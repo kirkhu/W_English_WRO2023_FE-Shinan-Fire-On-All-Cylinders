@@ -8,17 +8,6 @@ import rospy
 from sensor_msgs.msg import LaserScan
 import signal
 
-#opencv_detect.get_program_fps()  取得影像辨識FPS
-#opencv_detect.get_keyboard()     取得鍵盤的按鍵
-#opencv_detect.get_green_node_x() 取得綠色積木與斜線之交點X(沒辨識到目標數值為-1)
-#opencv_detect.get_red_node_x()   取得紅色積木與斜線之交點X(沒辨識到目標數值為-1)
-#opencv_detect.get_green_x()      取得綠色積木X座標(沒辨識到目標數值為-1)
-#opencv_detect.get_green_y        取得綠色積木Y座標(沒辨識到目標數值為-1)
-#opencv_detect.get_green_area()   取得綠色積木面積大小(沒辨識到目標數值為0)
-#opencv_detect.get_red_x()        取得紅色積木X座標(沒辨識到目標數值為-1)
-#opencv_detect.get_red_y          取得紅色積木Y座標(沒辨識到目標數值為-1)
-#opencv_detect.get_red_area()     取得紅色積木面積大小(沒辨識到目標數值為0)
-
 LED = LED_control()
 button = button_control()
 motor = dc_motor()
@@ -145,32 +134,6 @@ def car_control():#Áä½L±±¨îª½¬y°¨¹F«e¶i»P°±¤î
             motor.power(0)
         time.sleep(0.1)
 
-def dodgeblock_control(set_gyro):#¼v¹³¿ëÃÑ±±¨î¦øªA°¨¹F°{Á×¿n¤ì
-    global record_box
-    if opencv_detect.get_red_y() == -1 and opencv_detect.get_green_y() == -1:
-        #print('gyro go')
-        left, mid, right, gyro = lidar_get_distance(set_gyro)
-        if left > 0 and right > 0:
-            center_error = (right - left) / 1.8
-        elif left > 0:
-            center_error = 48 - left
-        else:
-            center_error = right - 48
-        servo_angle = center_error * lidar_kp + gyro * gyro_kp
-    elif opencv_detect.get_red_y() > opencv_detect.get_green_y():
-        #print('dodge red')
-        if line_count == 3 and round_count == 0:
-            record_box = 'red'
-            print('box_color:', record_box)
-        servo_angle = (opencv_detect.get_red_x() - opencv_detect.get_red_node_x()) * dodgeblock_kp
-    else:
-        #print('dodge green')
-        if line_count == 3 and round_count == 0:
-            record_box = 'green'
-            print('box_color:', record_box)
-        servo_angle =  (opencv_detect.get_green_x() - opencv_detect.get_green_node_x()) * dodgeblock_kp
-    servo.angle(servo_angle)
-
 def dodgeblock_to_line(set_gyro):#°{Á×¿n¤ì¨ì°»´ú¦a¤W½u
     while color > line_middle:
         dodgeblock_control(set_gyro)
@@ -252,8 +215,6 @@ def number_line():
 def handler(signum, frame):
     exit(0)
 
-#=====================main=====================
-#=============開始閃避=============
 try:
     if gyro_sensor.begin() is not True:
         print("Error initializing device")
@@ -261,7 +222,6 @@ try:
     time.sleep(1)
     gyro_sensor.setExternalCrystalUse(True)
 
-#=============開始閃避積木=============
     color_read_thread = threading.Thread(target = color_read)
     gyro_read_thread = threading.Thread(target = gyro_read)
     car_control_thread = threading.Thread(target = car_control)
@@ -294,22 +254,16 @@ try:
     print('start run')
     motor.power(60)
 
-#=============開始閃避積木=============
     direction_detect()
     for count in range(2):
         if reverse == True:
-    #         print('reverse True')
-    #==============1==============
             if count == 1:
                 dodgeblock_to_line(0)
             dodgeblock_to_time(2, -90)
-    #==============2==============
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2, -180)
-    #==============3==============  
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
-    #==============4==============
             if record_box == 'red' and count == 1:
                 dodgeblock_to_line(-270)
                 motor.power(70)
@@ -320,18 +274,13 @@ try:
                 dodgeblock_to_line(-270)
                 dodgeblock_to_time(2, 0)
         else:
-    #         print('reverse False')
-    #==============1==============
             if count == 1:
                 dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, 90)
-    #==============2==============
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 180)
-    #==============3==============  
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
-    #==============4==============
             if record_box == 'red' and count == 1:
                 dodgeblock_to_line(270)
                 motor.power(70)
@@ -346,49 +295,36 @@ try:
         if record_box == 'red':
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2.5, 0)
-    #==============1==============
             dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, 90)
-    #==============2==============
             dodgeblock_to_line(90)
             dodgeblock_to_time(2, 180)
         else:
-    #==============1==============
             dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, -90)
-    #==============2==============
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2.5, -180)
-    #==============3==============
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2.5, -270)
-    #==============4==============
             dodgeblock_to_line(-270)
             dodgeblock_to_time(2, 0)
     else:
         if record_box == 'red':
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 0)
-    #==============1==============
             dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, -90)
-    #==============2==============
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2, -180)
         else:
-    #==============1==============
             dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, 90)
-    #==============2==============
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 180)
-    #==============3==============
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
-    #==============4==============
             dodgeblock_to_line(270)
             dodgeblock_to_time(2, 0)
-#=============結束=============
     brakes = time.time()
     while time.time() - brakes < 1:
         motor.power(-20)

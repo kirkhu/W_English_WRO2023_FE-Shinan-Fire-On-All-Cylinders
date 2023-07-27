@@ -22,13 +22,14 @@ Button_pin = 5    #按鈕腳位編號
 Servo_pin = 26     #伺服馬達(轉向舵)腳位編號
 
 #==========車輛參數設定==========
-servo_offset = 8                            #伺服馬達(轉向舵)置中微調
+servo_offset = 15                      #伺服馬達(轉向舵)置中微調
 reverse = False                        #直流馬達前進後退反向設定
 servo_range = 30                       #伺服馬達(轉向舵)轉彎極限角度
-block_detect_min_area = 500           #積木影像辨識最小容許面積大小
-image_black_area = 280                 #影像畫面黑色遮罩範圍(數字越大遮罩範圍越大)
-red_line_xy = [[420, 0], [0, 480]]    #紅色線會製作標示設定，[上點, 下點]
-green_line_xy = [[210, 0], [640, 480]] #綠色線會製作標示設定，[上點, 下點]
+block_detect_min_area = 100            #積木影像辨識最小容許面積大小
+image_black_area = 310                 #影像畫面黑色遮罩範圍(數字越大遮罩範圍越大)
+image_black_area_down = 400
+red_line_xy = [[460, 0], [70, 480]]    #紅色線會製作標示設定，[上點, 下點]
+green_line_xy = [[180, 0], [570, 480]] #綠色線會製作標示設定，[上點, 下點]
 camera_BRIGHTNESS = 55                 #影像畫面亮度調整(數字越大畫面越亮)
 #================================
 RADIAN_TO_DEGREES = 360/(math.pi *2)
@@ -84,36 +85,6 @@ TCS34725_REG_CONTROL_AGAIN_4 = 0x01 # 4x Gain
 TCS34725_REG_CONTROL_AGAIN_16 = 0x02 # 16x Gain
 TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
 
-class opencv_recognition():
-    def __init__(self, red_upper, red_lower, green_upper, green_lower):
-        self.imcap = cv2.VideoCapture(0)
-        if not self.imcap.isOpened():
-            print("Cannot open camera")
-            exit()
-        self.imcap.set(cv2.CAP_PROP_BRIGHTNESS, camera_BRIGHTNESS)
-        self.thread = False
-        self.hsv_red_upper = red_upper
-        self.hsv_red_lower = red_lower
-        self.hsv_green_upper = green_upper
-        self.hsv_green_lower = green_lower
-        self.green_x = -1
-        self.green_y = -1
-        self.green_area = -1
-        self.red_x = -1
-        self.red_y = -1
-        self.red_area = -1
-        self.green_node_x = -1
-        self.red_node_x = -1
-        self.key = 0
-        self.program_fps = -1
-        self.raw_image = np.zeros((480, 640, 3), np.uint8)
-        self.draw_red_line_xy = red_line_xy
-        self.draw_green_line_xy = green_line_xy
-        self.red_line_m = (self.draw_red_line_xy[1][1] - self.draw_red_line_xy[0][1]) / (self.draw_red_line_xy[1][0] - self.draw_red_line_xy[0][0])
-        self.green_line_m = (self.draw_green_line_xy[1][1] - self.draw_green_line_xy[0][1]) / (self.draw_green_line_xy[1][0] - self.draw_green_line_xy[0][0])
-        self.color_read_thread = threading.Thread(target = self.color_recognition)
-        self.camera_stream_thread = threading.Thread(target = self.camera_stream)
-
     def start(self):
         self.thread = True
         self.color_read_thread.start()
@@ -136,22 +107,6 @@ class opencv_recognition():
         while self.thread:
             _, self.raw_image = self.imcap.read()
             self.key = cv2.waitKey(15)
-
-    def color_recognition(self):
-        while self.thread:
-            reset = time.time()
-            img = self.raw_image.copy()
-            img[0:image_black_area, 0:640] = [0, 0, 0]
-            img[380:480, 0:640] = [0, 0, 0]
-            hsv_image = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-            detect_image, self.green_x, self.green_y, self.green_area = self.color_detect(img, hsv_image, self.hsv_green_upper, self.hsv_green_lower)
-            detect_image, self.green_node_x = self.get_intersection(detect_image, self.green_line_m, self.draw_green_line_xy[1][0], self.draw_green_line_xy[1][1], self.green_y, (0, 255, 0))
-            detect_image, self.red_x, self.red_y, self.red_area = self.color_detect(img, hsv_image, self.hsv_red_upper, self.hsv_red_lower)
-            detect_image, self.red_node_x = self.get_intersection(detect_image, self.red_line_m, self.draw_red_line_xy[1][0], self.draw_red_line_xy[1][1], self.red_y, (0, 0, 255))
-            result_img = self.draw_line(img)
-            cv2.imshow('show', result_img)
-            self.program_fps = time.time() - reset
-        cv2.destroyAllWindows()
         
     def color_detect(self,raw_img, hsv_img, lower, upper):
         mask = cv2.inRange(hsv_img, lower, upper)  
@@ -741,7 +696,7 @@ def gyro_test():
     time.sleep(1)
     gyro.setExternalCrystalUse(True)
     while True:
-        print("rel:",gyro.relavite(0))
+        print("rel:",gyro.relative(0))
         print("abs:",int(gyro.getVector(gyro.VECTOR_EULER)[0]))
         time.sleep(0.01)
         
@@ -762,4 +717,4 @@ def lidar_test():
         a=lidar.read(0)
 
 if __name__ == "__main__":
-    Motor_test()
+    gyro_test()
