@@ -14,7 +14,7 @@ __Located below is the documentation, and a link to the build instructions.__
   - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md)  
   - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
-  - [Software Platform(自駕車輛系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
+  - [Software Platform Construction(自駕車輛系統軟體平台建置)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
   - [ROS Of Introduction(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
   - [Programming(自駕車輛程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/README.md)
