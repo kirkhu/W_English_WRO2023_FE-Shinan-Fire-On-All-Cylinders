@@ -1,7 +1,7 @@
 ![LOGO](../img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">LiPo Battery Safety Notice   </div> 
-- ### 鋰電池的危險、保養及成分  
+# <div align="center">Li-Polymer battery Safety Notice(鋰聚電池安全事項)</div> 
+- ### 鋰聚電池的危險、保養及成分  
     - 危險  
         - 可燃燒  
         - 內容物有毒  
@@ -28,7 +28,7 @@
     - 電池圖片  
     <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align=center />  
  
-- ### 低電壓警報器及充放電的設備  
+- ### 鋰聚電池低電壓警報器及充放電的設備  
     - 低電壓警報器  
         - LIpo Battery Low Voltage Alarm  
         <img src="./img/low_voltage_alarm.png" width = "100" height = "" alt="e430" align=center />  
