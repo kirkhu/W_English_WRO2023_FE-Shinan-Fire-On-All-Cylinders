@@ -14,15 +14,12 @@
 | <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.jpg" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> |   
 | :----: | :----: |:----: |:----: |  
 
-- ###  2D Cutters Model of laser cutting machines(2D 雷切模型) 
-
-|        |        |
-| :----: | :----: |
-|    |   ||
+- ### circuit schematic drawing(電路圖繪製) 
 | <img src="./img/simulation.png" width="500" alt="Image"> | <img src="./img/simulation_2.png" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2.png" width="500" alt="Image"> | 
+| :----: | :----: |
 
-# <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 
+- ###  laser cutting machine operation(雷切機操作) 
 <div align="center"><<img src="./img/hu.jpg" width="500"></div>
 
 
