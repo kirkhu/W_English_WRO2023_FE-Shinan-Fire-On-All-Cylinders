@@ -15,7 +15,8 @@
   - Environmental sensing: Lidar is used to create 3D maps and models for urban planning, land surveying, and building modeling.  
   - Drones and aviation: Lidar is employed in unmanned aerial vehicles (drones) and aviation for tasks such as terrain mapping and surface feature detection.  
   - Environmental monitoring: Lidar is used for environmental monitoring, such as atmospheric pollution monitoring and climate research.  
-  - Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.    
+  - Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.  
+    
 Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.  
 <br>
 The Lidar D100 Developer Kit is composed of the Lidar LD14 as its core, accompanied by a combination of related accessories.
