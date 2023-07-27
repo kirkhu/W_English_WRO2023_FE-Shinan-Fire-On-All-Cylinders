@@ -7,12 +7,19 @@
 
 ## System operation process(系統運作流程)
 ![image](./img/System_operation_process.png)  
-## Part list  
 
 |        |        |        |  
 | :----: | :----: | :----: |  
 |  |  |  |
 | <img src="./img/up.jpg"  width = "400" alt="Image" > | <img src="./img/inside.jpg" width = "400" alt="Image" > | <img src="./img/lower.jpg" width="400" alt="Image" > |  
+
+|        |        |
+| :----: | :----: | 
+|    |
+| <img src="./img/anit_daze.png"  width = "400" alt="Image" > | <img src="./img/anit_daze_2.jpg" width = "400" alt="Image" > |
+
+## Part list  
+
 
 ### Raspberry Pi 4B(8G)  
 Specification:  
