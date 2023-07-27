@@ -1,29 +1,21 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Lidar introduce </div> 
-
+# <div align="center">Lidar introduce(光達介紹)</div> 
+## English
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
-__orking principle:__
+    __Working principle:__
+  - Emitting laser pulses: Lidar emits very short laser pulses through a laser. These pulses propagate at extremely high speeds and then return after reflection.  
+  - Receiving reflected signals: The receiver of the Lidar records the time it takes for the laser pulses to return and measures the intensity of the light pulses. The time and intensity information of the reflections can be used to calculate the distance and characteristics of objects from the Lidar.  
+  - Data processing: The computing device of the Lidar processes the received reflection data and calculates the position, shape, and movement of objects based on the measured time and the speed of light.
 
-- Emitting laser pulses: Lidar emits very short laser pulses through a laser. These pulses propagate at extremely high speeds and then return after reflection.
-
-- Receiving reflected signals: The receiver of the Lidar records the time it takes for the laser pulses to return and measures the intensity of the light pulses. The time and intensity information of the reflections can be used to calculate the distance and characteristics of objects from the Lidar.
-
-- Data processing: The computing device of the Lidar processes the received reflection data and calculates the position, shape, and movement of objects based on the measured time and the speed of light.
-
-__Applications:__
-Lidar has widespread applications in various fields, including but not limited to:
-
-- Autonomous vehicles: Lidar is widely used in autonomous vehicles to help them perceive their surroundings, detect obstacles, and other vehicles.
-
-- Environmental sensing: Lidar is used to create 3D maps and models for urban planning, land surveying, and building modeling.
-
-- Drones and aviation: Lidar is employed in unmanned aerial vehicles (drones) and aviation for tasks such as terrain mapping and surface feature detection.
-
-- Environmental monitoring: Lidar is used for environmental monitoring, such as atmospheric pollution monitoring and climate research.
-
-- Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.
+  __Applications:__  
+- Lidar has widespread applications in various fields, including but not limited to:  
+  - Autonomous vehicles: Lidar is widely used in autonomous vehicles to help them perceive their surroundings, detect obstacles, and other vehicles.  
+  - Environmental sensing: Lidar is used to create 3D maps and models for urban planning, land surveying, and building modeling.  
+  - Drones and aviation: Lidar is employed in unmanned aerial vehicles (drones) and aviation for tasks such as terrain mapping and surface feature detection.  
+  - Environmental monitoring: Lidar is used for environmental monitoring, such as atmospheric pollution monitoring and climate research.  
+  - Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.  
 
 Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.  
 <br>
@@ -44,31 +36,21 @@ Ultrasonic sensors can only detect in one direction, limited to the front, used 
 - Issues encountered with different brands of Lidar:  
 One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, compared to the YDLidar X2 with 3000 Hz and X4 with 5000 Hz. The lower frequency results in a slower response time.
 
-==================================================
+## 中文
 - Lidar
 光達，也被稱為激光雷達（Lidar，Light Detection and Ranging的縮寫），是一種使用激光脈衝來測量距離和創建地圖的技術。激光雷達系統通常由激光器、接收器、計算設備和導航系統組成。
 
-    工作原理：
-
-    - 發射激光脈衝：激光雷達通過激光器發射非常短的激光脈衝。這些脈衝會以極高的速度傳播，然後反射回來。
-
-    - 接收反射信號：激光雷達的接收器會記錄激光脈衝反射回來所需的時間，並測量光脈衝的強度。反射的時間和強度信息可以用來計算物體與激光雷達的距離和特徵。
-
-    - 數據處理：激光雷達的計算設備會處理接收到的反射數據，並根據測量的時間和光的速度計算出物體的位置、形狀和運動。  
-    
+    工作原理：  
+    - 發射激光脈衝：激光雷達通過激光器發射非常短的激光脈衝。這些脈衝會以極高的速度傳播，然後反射回來。  
+    - 接收反射信號：激光雷達的接收器會記錄激光脈衝反射回來所需的時間，並測量光脈衝的強度。反射的時間和強度信息可以用來計算物體與激光雷達的距離和特徵。  
+    - 數據處理：激光雷達的計算設備會處理接收到的反射數據，並根據測量的時間和光的速度計算出物體的位置、形狀和運動。       
     應用領域：
-    - 激光雷達在多個領域都有廣泛的應用，包括但不限於：
-
-      - 自動駕駛汽車：激光雷達被廣泛用於自動駕駛汽車中，幫助車輛感知周圍環境，檢測障礙物和其他車輛。
-
-      - 環境感知：激光雷達可用於創建三維地圖和模型，用於城市規劃、土地測量、建築物模型等。
-
-      - 無人機和航空：激光雷達被用於無人機和航空領域，用於地形測繪、地表特徵檢測等任務。
-
-      - 環境監測：激光雷達可用於環境監測，如大氣污染監測、氣候研究等。
-
-      - 軍事應用：激光雷達在軍事領域也有應用，例如用於目標識別、測距和地形探測。
-
+    - 激光雷達在多個領域都有廣泛的應用，包括但不限於：  
+      - 自動駕駛汽車：激光雷達被廣泛用於自動駕駛汽車中，幫助車輛感知周圍環境，檢測障礙物和其他車輛。  
+      - 環境感知：激光雷達可用於創建三維地圖和模型，用於城市規劃、土地測量、建築物模型等。  
+      - 無人機和航空：激光雷達被用於無人機和航空領域，用於地形測繪、地表特徵檢測等任務。  
+      - 環境監測：激光雷達可用於環境監測，如大氣污染監測、氣候研究等。  
+      - 軍事應用：激光雷達在軍事領域也有應用，例如用於目標識別、測距和地形探測。  
      由於激光雷達能夠提供高精度、高分辨率的數據，因此在許多領域都被廣泛採用，而隨著技術的發展，其應用領域還在不斷擴展。
 
      Lidar D100 開發者套裝是以光達 LiDAR LD14為核心再搭配相關零配件組合而成。  
