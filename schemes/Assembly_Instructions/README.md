@@ -11,7 +11,7 @@
 |        |        |        |  
 | :----: | :----: | :----: |  
 |  |  |  |
-| <img src="./img/up.jpg"  width = "600" alt="Image" > | <img src="./img/inside.jpg" width = "600" alt="Image" > | <img src="./img/lower.jpg" width="600" alt="Image" > |  
+| <img src="./img/up.jpg"  width = "600" alt="Image" > | <img src="./img/inside.jpg" width = "600" alt="Image" > | <img src="./img/up_view.png" width="600" alt="Image" > |  
 
 
 ## Part list  
