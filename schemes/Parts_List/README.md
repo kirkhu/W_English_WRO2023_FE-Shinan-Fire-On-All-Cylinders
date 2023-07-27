@@ -25,7 +25,7 @@
         <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10120&page=2&kw=XH2.5mm&kind=945" target="_blank"> XH2.5mm 6P母座</li>
         <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10664&page=17&kw=2p&kind=950" target="_blank">female socket 2.45mm 2p母座</li>
         <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10648&page=17&kw=2p&kind=949" target="_blank">male socket2.45mm 2p公座</li>
-        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10133&page=2&kw=XH2.5mm&kind=947" target="_blank">XH2.5 端子線</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10133&page=2&kw=XH2.5mm&kind=947" target="_blank">XH2.5mm 端子線</li>
         <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </li>
         <li>hexagon plastic pillar 3x12+6 塑膠六角隔離柱 直徑3mm 柱體長度12mm 螺紋長度 6mm </li>
         <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm</a></li>
