@@ -28,5 +28,9 @@
 
 - "Open_Challenge.py"這段程式碼的主要功能是控制車輛。它結合了顏色感測器和光達感測器所偵測的數值，來驅動車輛的馬達並進行轉向。其目的在於使車輛能夠準確地順逆時針繞場地三圈，完成特定的任務目標。
 
+## Open Challenge Flow Chart(資格賽程式流程)
+
+![flowchart_open](../img/flowchart_open.png)
+
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  

@@ -28,5 +28,9 @@
 
 - "Obstacle_Challenge.py"這段程式碼的主要功能是控制車輛。它結合了顏色感測器、光達感測器和影像辨識技術所偵測的數值，來驅動車輛的馬達，以達成車輛避開障礙物並完成特定任務的目標。
 
+## Obstacle Challenge Flow Chart(任務賽程式流程)
+
+![flowchart_obstacle](../img/flowchart_obstacle.png)
+
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
