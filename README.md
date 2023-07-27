@@ -11,7 +11,8 @@ __Located below is the documentation, and a link to the build instructions.__
   - [Vehicle 3D/2D Models(3D 模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
   - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)
   - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
-  - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
+  - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md)  
+  - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   - [Software Platform(自駕車輛系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
@@ -29,7 +30,8 @@ __Located below is the documentation, and a link to the build instructions.__
   - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - [Demonstration Video(自走車各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md) 
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
-  - [LiPo Battery Safety Notice(鋰電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
+  - [LiPo Battery Safety Notice(鋰電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)
+  
 
 - ### ${{\color{red} CompetitionSchedule (練習時間規劃)}} $  
 
