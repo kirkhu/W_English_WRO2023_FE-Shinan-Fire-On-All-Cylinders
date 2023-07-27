@@ -17,48 +17,57 @@
         <li><a href="https://shop.playrobot.com/products/lidar-d100-ld14" target="_blank">Lidar D100 96.4x59.8x38.8 光學雷達</a></li>
         <li><a href="https://twistedhobbys.com/lipo-battery-voltage-tester-1-8s-low-voltage-buzzer-alarm/" target="_blank">lipo battery low voltage alarm 鋰電池低電壓警報器</a></li>
         <li><a href="https://shopee.tw/%E6%90%96%E9%A0%AD%E9%96%8B%E9%97%9C-3A-250VAC-6A-125VAC-MTS-1%E9%80%A3%E5%8B%95%E9%96%8B%E9%97%9C-B5031-%E5%A4%A7%E6%B4%8B%E5%9C%8B%E9%9A%9B%E9%9B%BB%E5%AD%90-i.26482219.490434892" target="_blank">switch AC 725W 開關</a></li>
-        <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </li>
-        <li>hexagon plastic pillar 3x12+6 塑膠六角隔離柱 直徑3mm 柱體長度12mm 螺紋長度 6mm </li>
-        <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm</a></li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10087&kind=944" target="_blank">white socket 3p 白色插座3p</a></li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10084&kind=944" target="_blank">white socket 4p 白色插座4p</a></li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10078&kind=944" target="_blank">white socket 6p 白色插座6p</a></li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10128&page=2&kw=XH2.5mm&kind=945" target="_blank"> XH2.5mm 3P母座</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10126&page=2&kw=XH2.5mm&kind=945" target="_blank"> XH2.5mm 4P母座</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10120&page=2&kw=XH2.5mm&kind=945" target="_blank"> XH2.5mm 6P母座</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10664&page=17&kw=2p&kind=950" target="_blank">female socket 2.45mm 2p母座</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10648&page=17&kw=2p&kind=949" target="_blank">male socket2.45mm 2p公座</li>
+        <li><a href="https://jin-hua.com.tw/webc/html/product/show.aspx?num=10133&page=2&kw=XH2.5mm&kind=947" target="_blank">XH2.5mm 端子線</li>
+        <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </a></li>
+        <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x12+6 塑膠六角隔離柱 直徑3mm 柱體長度12mm 螺紋長度 6mm </a></li>
+        <li><a href="https://shopee.tw/%E3%80%90XCF%E3%80%91%E7%99%BD%E8%89%B2%E5%85%AD%E8%A7%92%E5%B0%BC%E9%BE%8D%E6%9F%B1-%E9%9A%94%E9%9B%A2%E6%9F%B1-%E6%94%AF%E6%92%90%E6%9F%B1-%E9%96%93%E9%9A%94%E6%9F%B1-%E8%9E%BA%E7%B5%B2%E5%A1%91%E8%86%A0%E8%9E%BA%E6%9F%B1-%E5%A5%97%E8%A3%9DM2.5M3-i.749242935.16697472021?sp_atk=0b9ab8d2-396c-41b1-918d-569c0d1513da&xptdk=0b9ab8d2-396c-41b1-918d-569c0d1513da" target="_blank">hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm</a></li>
         <li><a href="https://shopee.tw/%E9%9B%99%E9%80%9A%E5%B0%BC%E9%BE%8D%E6%9F%B1M2M2.5M3M5%E7%99%BD%E8%89%B2%E9%BB%91%E8%89%B2%E5%B9%B3%E9%A0%AD%E5%85%AD%E8%A7%92%E6%9F%B1%E5%A1%91%E8%86%A0%E7%B5%95%E7%B7%A3%E9%9A%94%E9%9B%A2%E6%9F%B1%E8%9E%BA%E6%A1%BF%E8%9E%BA%E6%9F%B1-i.720053006.21745063797?sp_atk=83f44020-30bb-4ce5-b264-b15b8b761604&xptdk=83f44020-30bb-4ce5-b264-b15b8b761604" target="_blank">hexagon double female standoffs 3x15 塑膠雙母固定柱 直徑3mm 柱體長度15mm</a></li>
         <li><a href="https://shopee.tw/PC%E9%80%8F%E6%98%8E%E5%8D%81%E5%AD%97%E5%9C%93%E9%A0%AD%E8%9E%BA%E9%87%98-%E5%A1%91%E8%86%A0%E5%85%AD%E8%A7%92%E8%9E%BA%E6%AF%8D-%E4%BA%9E%E5%85%8B%E5%8A%9B%E8%9E%BA%E7%B5%B2-%E5%A1%91%E8%86%A0%E7%9B%A4%E9%A0%AD%E8%9E%BA%E6%A0%93-M3-M4-M5-M6-i.193487496.21850094142?sp_atk" target="_blank">plastic screw M3*7 塑膠螺絲 </li>
         <li>plastic nut M3 塑膠螺母</a></li>
         <li><a href="https://www.amazon.com/-/zh_TW/M2-5-2-5-0-45-%E4%B8%8D%E9%8F%BD%E9%8B%BC%E5%8D%81%E5%AD%97%E6%9D%BF%E9%A0%AD%E6%A9%9F%E5%99%A8%E8%9E%BA%E7%B5%B2-MonsterBolts/dp/B078HC2S6Z?th=1">Cross recessed round head metal screw 2.5x26mm 十字圓頭金屬螺絲 </a></li>
-        <li><a href="https://shopee.tw/product/749229658/23636961267?gclid=CjwKCAjwq4imBhBQEiwA9Nx1Bt6SCdB6Bv8GLEKjEpfpkadMSBcHpsCc7RAf065zCyWwD_APcddxQhoCuA0QAvD_BwE">hexagon metal screw M8x10mm 黑色圓頭六角螺絲 </li>
-        <li>hexagon metal screw M8x15mm 黑色圓頭六角螺絲 </a></li>
-        <li>hexagon metal nut M8 六邊形金屬螺帽 </li>
-        <li>Galvanized Hexagon Flange Nut 鍍彩鋅六角法蘭螺母 </li>
-        <li>red led 紅色LED </li>
-        <li>yellow led 黃色LED </li>
-        <li>pegboard 30x48 hole 90x150 mm 洞洞板 30x48洞 </li>
-        <li>ribbon cable 15 pin 30 cm spacing 0.1 軟排線 15 pin 30 公分 間距0.1mm </li>
-        <li>flat cable 40(20x2) pin 排線 40 pin </li>
-        <li>Dupont wire 杜邦線 </li>
-        <li>4-row Dupont female header 4排杜邦母頭 </li>
-        <li>USB with 90-degree bend USB轉90度 </li>
+        <li><a href="https://shopee.tw/%E3%80%90%E5%BF%AB%E9%80%9F%E5%87%BA%E8%B2%A8-%E3%80%91304%E9%BB%91%E8%89%B2%E4%B8%8D%E9%8F%BD%E9%8B%BC%E5%9C%93%E9%A0%AD%E5%85%A7%E5%85%AD%E8%A7%92%E8%9E%BA%E7%B5%B2%E5%8D%8A%E7%9B%A4%E9%A0%AD%E8%9E%BA%E9%87%98M5-M6-M8-i.749229658.22936962810?sp_atk=71eb9181-bd3b-4a23-ab37-c8d78ea18bf1&xptdk=71eb9181-bd3b-4a23-ab37-c8d78ea18bf1" target="_blank">hexagon metal screw M5x10mm 黑色圓頭六角螺絲 </li>
+        <li>hexagon metal screw M5x15mm 黑色圓頭六角螺絲 </a></li>
+        <li><a href="https://shopee.tw/%E3%80%90%E6%A0%BC%E5%8A%9B%E6%A3%AE%E3%80%91304%E4%B8%8D%E9%8A%B9%E9%8B%BC%E5%85%AD%E8%A7%92%E8%9E%BA%E5%B8%BD-%E5%85%AD%E8%A7%92%E8%9E%BA%E6%AF%8D-%E7%99%BD%E9%90%B5%E5%85%AD%E8%A7%92%E8%9E%BA%E5%B8%BD-%E4%B8%8D%E9%8A%B9%E9%8B%BC%E8%9E%BA%E7%B5%B2%E5%B8%BDM3-M4-M5-M6-M8-M10-M12-i.965217068.18978371862" target="_blank">hexagon metal nut M5*4mm 六角金屬螺帽</a></li>
+        <li><a href="https://shopee.tw/%E5%BD%A9%E9%8B%85%E6%B3%95%E8%98%AD%E8%9E%BA%E6%AF%8D-%E5%85%AD%E8%A7%92%E6%B3%95%E8%98%AD%E9%9D%A2%E9%8E%96%E7%B7%8A%E8%9E%BA%E6%AF%8D%E5%85%AD%E8%A7%92%E5%B8%B6%E9%BD%92%E9%98%B2%E6%9D%BE%E9%98%B2%E6%BB%91%E8%9E%BA%E6%AF%8D%E8%9E%BA%E5%B8%BDM3-M8-i.991602875.22141553154?sp_atk=5d1d2b88-501d-4fed-891f-f73d01db3e9e&xptdk=5d1d2b88-501d-4fed-891f-f73d01db3e9e" target="_blank">Galvanized Hexagon Flange Nut 鍍彩鋅六角法蘭螺母 </a></li>
+        <li><a href="https://www.mouser.tw/ProductDetail/Cree-LED/C5SMF-RJE-CU14QBB2?qs=1sbE9T7hb3YsVvX6UAERxA%3D%3D&mgh=1&gclid=CjwKCAjwq4imBhBQEiwA9Nx1BtAiLQpNy_CznKqD_qmRx7U6JoKg212V0UlXwLJEWp03kjvVbnRukxoCCwwQAvD_BwE" target="_blank">red led 紅色LED </a></li>
+        <li><a href="https://www.eclife.com.tw/led/moreinfo_173006.htm" target="_blank">yellow led 黃色LED </a></li>
+        <li><a href="https://shopee.tw/%E3%80%90AI%E9%9B%BB%E5%AD%90%E3%80%919*15%E8%90%AC%E8%83%BD%E6%9D%BF-9CM*15CM%E5%AF%A6%E9%A9%97%E6%9D%BF-%E9%9B%BB%E8%B7%AF%E6%9D%BF-%E7%B7%9A%E8%B7%AF%E6%9D%BF-%E6%B4%9E%E6%B4%9E%E6%9D%BF-i.26861496.833205219" target="_blank">pegboard 30x48 hole 90x150 mm 洞洞板 30x48洞</a> </li>
+        <li><a href="https://world.taobao.com/item/619017468947.htm?spm=a21wu.10013406-tw.taglist-content.1.227b2585cNYLFT" target="_blank">ribbon cable 15 pin 30 cm spacing 0.1 軟排線 15 pin 30 公分 間距0.1mm </a></li>
+        <li><a href="https://www.ruten.com.tw/item/show?22112280849694" target="_blank">flat cable female-to-female 40p(20x2) 壓排式牛角 母對母排線 40p </a></li>
+        <li><a href="https://www.jin-hua.com.tw/webc/html/product/show.aspx?num=9734&page=3&kw=%e7%89%9b%e8%a7%92&kind=2743" target="_blank">Press-fit right-angle male socket 40p(20*2) 壓排式牛角公座 40p</a></li>
+        <li><a href="https://www.chipwaygo.com/doc/basic_elec_kit_intro.php" target="_blank">Dupont wire 杜邦線 </a></li>
+        <li><a href="https://shopee.tw/USB3.0%E8%BD%89%E6%8E%A5%E9%A0%AD-%E5%BD%8E%E9%A0%AD-%E4%B8%8A%E5%BD%8E%E6%94%AF%E6%8F%B4win10-i.10788637.6416626206?sp_atk=6c81368d-d83d-4a49-bbf3-36a1a2792fbc&xptdk=6c81368d-d83d-4a49-bbf3-36a1a2792fbc" target="_blank">USB with 90-degree bend USB轉90度</a> </li>
         <li>wood broad 3mm 木板 3mm厚 </li>
-        <li>lego wheel 62.4x40 S 樂高平輪胎 </li>
-        <li>lego differential gear 樂高齒輪差速器 </li>
-        <li>lego Technic Wedge Belt Wheel 樂高薄輪胎 </li>
-        <li>lego wheel 42x15mm 樂高輪胎 直徑42 mm 厚度 1.5mm  </li>
-        <li>lego half-inserted pin 樂高半格插銷  </li>
-        <li>lego connecting rod 3x5 樂高90度連桿 3x5格</li>  
-        <li>lego connecting rod 2x4 樂高90度連桿 2x4格  </li>
-        <li>lego plug 樂高黑插銷  </li>
-        <li>lego crossbar 1x5 樂高5格橫桿 </li>  
-        <li>lego crossbar 1x7 樂高7格橫桿  </li>
-        <li>lego crossbar 1x11 樂高11格橫桿  </li>
-        <li>lego H-shaped connector 樂高H型連接器 </li> 
-        <li>lego L-shaped connector 樂高L型連接器  </li>
-        <li>lego square hollow crossbar 5x7 樂高方形中空橫桿 </li> 
-        <li>lego half-thickness socket 樂高半格套筒  </li>
-        <li>lego socket 樂高一格套筒  </li>
-        <li>lego four-pointed nail 樂高四格釘子 </li> 
-        <li>lego Black Cross Block 1 x 3 with Two Axle Holes 樂高黑色積木 1 x 3，帶兩個十字孔  </li>
-        <li>lego 5-unit cross axis 樂高五格十字軸  </li>
-        <li>lego 6-unit cross axis 樂高六格十字軸  </li>
-        <li>lego 12-tooth adapter gear 樂高90度轉接齒輪 12齒  </li>
-        <li>lego cross shaft connector 樂高十字軸連接器 </li>   
+        <li><a href="https://shopee.tw/%E5%85%BC%E5%AE%B9%E6%A8%82%E9%AB%98%E5%B0%8F%E9%A1%86%E7%B2%92%E7%A9%8D%E6%9C%A8%E7%A7%91%E6%8A%80%E4%BB%B6%E6%B1%BD%E8%BB%8A%E8%BC%AA%E5%AD%90%E8%BC%AA%E8%83%8E%E9%85%8D%E4%BB%B6-EV3%E8%BC%AA%E8%BD%82%E9%9B%B6%E4%BB%B6-MOC%E6%95%A3%E4%BB%B6-i.18111282.11275005528?sp_atk=1d5f99ec-1c11-4ece-800d-7811364d39b0&xptdk=1d5f99ec-1c11-4ece-800d-7811364d39b0" target="_blank">lego wheel 62.4x40 S 樂高平輪胎</a> </li>
+        <li><a href="https://shopee.tw/%F0%9F%94%A5%E7%86%B1%E9%8A%B7%F0%9F%94%A5%E5%85%BC%E5%AE%B9%E6%A8%82%E9%AB%98%E7%A7%91%E6%8A%80%E6%A9%9F%E6%A2%B0%E9%9B%B6%E9%85%8D%E6%95%A3%E4%BB%B665413-65414%E6%96%B0%E6%AC%BE%E9%BD%92%E8%BC%AA%E5%B7%AE%E9%80%9F%E5%99%A8MOC%E7%B5%84%E5%90%88-i.30440079.19876672789?sp_atk=d77867ca-724b-4b1c-beab-08dad942059b&xptdk=d77867ca-724b-4b1c-beab-08dad942059b" target="_blank">lego differential gear 樂高齒輪差速器</a> </li>
+        <li><a href="https://shopee.tw/%E7%8E%A9%E6%A8%82%E8%B6%A3-LEGO%E6%A8%82%E9%AB%98-4185-Technic-%E6%BB%91%E8%BC%AA-%E4%BA%8C%E6%89%8B%E9%9B%B6%E4%BB%B6-2D40BB-E-i.44086344.4713395171?sp_atk=aad42f98-ed99-435d-8911-fd388708f272&xptdk=aad42f98-ed99-435d-8911-fd388708f272" target="_blank">lego Technic Wedge Belt Wheel 樂高薄輪胎 </a></li>
+        <li><a href="https://shopee.tw/6182551-4541318-LEGO-%E6%A8%82%E9%AB%98-30699-56904-%E6%B7%BA%E7%81%B0%E8%BC%AA%E8%83%8E%E7%B5%84-i.12778325.19978669670?sp_atk=9007e84b-df86-4878-af06-afdb37b83518&xptdk=9007e84b-df86-4878-af06-afdb37b83518" target="_blank">lego wheel 42x15mm 樂高輪胎 直徑42 mm 厚度 1.5mm  </a></li>
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-32002-%E6%8F%92%E9%8A%B7-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E6%B2%99%E8%89%B2-i.15019148.14672593927?sp_atk=452e4fcd-ad74-4dca-b8f3-76f1ee3d3482&xptdk=452e4fcd-ad74-4dca-b8f3-76f1ee3d3482" target="_blank">lego half-inserted pin 樂高半格插銷 </a> </li>
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-32526-4211713%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E6%A9%AB%E6%A1%BF-%E5%BD%8E%E6%9B%B2-L%E5%9E%8B-3x5-%E6%B7%BA%E7%81%B0%E8%89%B2-i.15019148.22331200697?sp_atk=973ab75d-8530-42ea-b331-8203e8c9dc93&xptdk=973ab75d-8530-42ea-b331-8203e8c9dc93" target="_blank">lego connecting rod 3x5 樂高90度連桿 3x5格</a></li>  
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-32140-4237-4120017-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E6%A9%AB%E6%A1%BF-%E5%BD%8E%E6%9B%B2-L%E5%9E%8B-2x4-%E6%B7%BA%E7%81%B0%E8%89%B2-i.15019148.19800605231?sp_atk=9ff8d53d-7455-41fb-8f30-66aa37c2f911&xptdk=9ff8d53d-7455-41fb-8f30-66aa37c2f911" target="_blank">lego connecting rod 2x4 樂高90度連桿 2x4格 </a> </li>
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-2780-61332-4121715-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E7%B7%8A%E6%8F%92%E9%8A%B7-%E9%BB%91%E8%89%B2-i.15019148.17361494383?sp_atk=7fe10355-dbf5-47e1-a35e-e86547749d29&xptdk=7fe10355-dbf5-47e1-a35e-e86547749d29" target="_blank">lego plug 樂高黑插銷 </a> </li>
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-32316-41616-4211651%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E6%A9%AB%E6%A1%BF-%E5%8E%9A%E8%87%82-1-x-5-%E6%B7%BA%E7%81%B0%E8%89%B2-i.15019148.16562274603?sp_atk=7d4373e1-81f6-41e4-b1d9-3ba6b9e863a0&xptdk=7d4373e1-81f6-41e4-b1d9-3ba6b9e863a0" target="_blank">lego crossbar 1x5 樂高5格橫桿</a> </li>  
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-32524-16615-4495930-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-%E6%A9%AB%E6%A1%BF-%E5%8E%9A%E8%87%82-1-x-7-%E6%B7%BA%E7%81%B0%E8%89%B2-i.15019148.13491023310?sp_atk=98dba2b5-5fac-4b47-8dce-b4bcdd45c883&xptdk=98dba2b5-5fac-4b47-8dce-b4bcdd45c883" target="_blank">lego crossbar 1x7 樂高7格橫桿 </a> </li>
+        <li><a href="https://shopee.tw/%E3%80%90TCT%E3%80%91%E6%A8%82%E9%AB%98-LEGO-4534914-64290-32525-%E6%B7%B1%E7%81%B0%E8%89%B2-1x11-TECHNIC-%E7%A7%91%E6%8A%80-%E5%8E%9A%E8%87%82-%E6%A9%AB%E6%A1%BF-i.394917532.23414835434?sp_atk=21c12123-28b8-4d36-91c9-abbc2ba3718f&xptdk=21c12123-28b8-4d36-91c9-abbc2ba3718f" target="_blank">lego crossbar 1x11 樂高11格橫桿 </a> </li>
+        <li><a href="https://shopee.tw/Moc-20PCS-%E6%8A%80%E8%A1%93%E7%A9%8D%E6%9C%A8%E9%9B%B6%E4%BB%B6%E8%88%87%E6%A8%82%E9%AB%98%E6%8A%80%E8%A1%93%E9%9B%B6%E4%BB%B6%E5%85%BC%E5%AE%B9-48989-%E8%9E%BA%E6%A0%93%E9%80%A3%E6%8E%A5%E5%99%A8%E7%A6%AE%E5%93%81%E7%8E%A9%E5%85%B7-i.151081739.17117217503?sp_atk=f71fe792-56a2-4630-9f96-a49fd2f04e7e&xptdk=f71fe792-56a2-4630-9f96-a49fd2f04e7e" target="_blank">lego H-shaped connector 樂高H型連接器 </a></li> 
+        <li><a href="https://shopee.tw/%E4%BA%8C%E6%89%8B-LEGO-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-55615-%E8%BD%89%E5%90%91%E9%80%A3%E6%8E%A5%E5%99%A8-%E6%B7%BA%E7%81%B0%E8%89%B2-i.204443644.13876270354?sp_atk=bd687797-80f7-4307-90d5-13bcf854db8f&xptdk=bd687797-80f7-4307-90d5-13bcf854db8f" target="_blank">lego L-shaped connector 樂高L型連接器 </a> </li>
+        <li><a href="https://shopee.tw/%E5%B0%8F%E6%B4%9B%E7%89%B9-LEGO-%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98-%E7%A7%91%E6%8A%80%E9%9B%B6%E4%BB%B6-64179-4539880-%E6%96%B9%E5%BD%A2%E6%A9%AB%E6%A1%BF-(%E5%85%A8%E6%96%B0)-i.9746090.23927168945?sp_atk=04be8eb8-a9e9-4ebb-998d-6450c5163195&xptdk=04be8eb8-a9e9-4ebb-998d-6450c5163195" target="_blank">lego square hollow crossbar 5x7 樂高方形中空橫桿 </a></li> 
+        <li><a href="https://shopee.tw/LEGO-4239601-6271167-32123-42136-%E9%BB%83%E8%89%B2-1-2-%E7%A7%91%E6%8A%80-%E5%8D%81%E5%AD%97%E8%BB%B8%E5%A5%97-i.29834655.1796510823?sp_atk=9f2b4433-afe2-4b0c-a028-b6cb83490f35&xptdk=9f2b4433-afe2-4b0c-a028-b6cb83490f35" target="_blank">lego half-thickness socket 樂高半格套筒 </a> </li>
+        <li><a href="https://shopee.tw/%E3%80%90%E7%A3%9A%E8%A3%BD%E6%89%80%E3%80%91%E6%A8%82%E9%AB%98-bush-%E5%A5%97%E7%AD%92-3713-%E7%B4%85%E8%89%B2-%E6%B7%BA%E7%81%B0%E8%89%B2-i.4374638.7999560355?sp_atk=c50d3720-ad23-4377-822d-b1e461867e96&xptdk=c50d3720-ad23-4377-822d-b1e461867e96" target="_blank">lego socket 樂高一格套筒 </a> </li>
+        <li><a href="https://shopee.tw/%E6%AD%A3%E7%89%88%E6%A8%82%E9%AB%98LEGO%E9%9B%B6%E4%BB%B6(%E5%85%A8%E6%96%B0)-87083-6083620-4L-3.2cm-%E6%B7%B1%E7%81%B0%E8%89%B2-i.15019148.19429342958?sp_atk=4f2e0021-98c9-4a48-a19f-3bdb3fc08bdf&xptdk=4f2e0021-98c9-4a48-a19f-3bdb3fc08bdf" target="_blank">lego four-pointed nail 樂高四格釘子 </a></li> 
+        <li><a href="https://shopee.tw/%E7%8E%A9%E6%A8%82%E8%B6%A3-LEGO%E6%A8%82%E9%AB%98-32184-3L-with-Center-Pin-Hole-%E7%A7%91%E6%8A%80%E9%80%A3%E6%8E%A5-%E4%BA%8C%E6%89%8B%E9%9B%B6%E4%BB%B6-2D20E-F-i.44086344.7412298241?sp_atk=766140bc-8ec1-4de6-9754-dfc5f5de14c7&xptdk=766140bc-8ec1-4de6-9754-dfc5f5de14c7" target="_blank">lego Black Cross Block 1 x 3 with Two Axle Holes 樂高黑色積木 1 x 3，帶兩個十字孔 </a> </li>
+        <li><a href="https://shopee.tw/%E7%8E%A9%E6%A8%82%E8%B6%A3-LEGO%E6%A8%82%E9%AB%98-32073-(2%E5%80%8B)-Technic%EF%BC%8CAxle-5-%E5%8D%81%E5%AD%97%E8%BB%B8-%E4%BA%8C%E6%89%8B%E9%9B%B6%E4%BB%B6-2D40G-M-i.44086344.7813073276?sp_atk=eb32fde1-19e6-4e64-bbf6-bf17f75bedf1&xptdk=eb32fde1-19e6-4e64-bbf6-bf17f75bedf1" target="_blank">lego 5-unit cross axis 樂高五格十字軸  </a></li>
+        <li><a href="https://shopee.tw/%E3%80%90%E5%8F%B0%E7%81%A3%E6%A8%82%E9%AB%98%E3%80%91LEGO-%E6%A8%82%E9%AB%98%E9%9B%B6%E4%BB%B6-Connectors-3706-CROSS-AXLE-6M-i.3947676.20724867426?sp_atk=08d6dffd-b05e-4cb8-8890-f41d9398de22&xptdk=08d6dffd-b05e-4cb8-8890-f41d9398de22" target="_blank">lego 6-unit cross axis 樂高六格十字軸</a>  </li>
+        <li><a href="https://shopee.tw/LEGO-%E6%A8%82%E9%AB%98-6589-%E6%B2%99%E8%89%B2-Technic-Gear-12-Tooth-Bevel-%E7%A7%91%E6%8A%80-12%E9%BD%92-%E9%BD%92%E8%BC%AA-TAN05-i.1760487.22349608147?sp_atk=2296885e-1e81-4ade-99be-777fcae2a17e&xptdk=2296885e-1e81-4ade-99be-777fcae2a17e" target="_blank">lego 12-tooth adapter gear 樂高90度轉接齒輪 12齒</a>  </li>
+        <li><a href="https://shopee.tw/%E6%A8%82%E9%AB%98-Lego-%E9%BB%91%E8%89%B2-2L-%E5%8D%81%E5%AD%97%E8%BB%B8-%E5%8D%81%E5%AD%97%E5%AD%94-%E9%80%A3%E6%8E%A5%E5%99%A8-%E5%BB%B6%E9%95%B7-%E5%A5%97%E7%AD%92-6538c-%E7%A7%91%E6%8A%80-Black-Technic-Axle-i.7181397.4552324332?sp_atk=24252981-8078-4930-8e19-0e3101029561&xptdk=24252981-8078-4930-8e19-0e3101029561" target="_blank">lego cross shaft connector 樂高十字軸連接器</a> </li>   
     </td>
     <td valign="top">
     <img src="./img/car_view.png" alt="car view" width="300">   
