@@ -1,6 +1,6 @@
 ![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Obstacle Challenge Code Introduce</div>
+# <div align="center">Obstacle Challenge Code overview(任務賽程式概述)</div>
 ## [save_file](./save_file)
 - The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
 - These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
@@ -24,9 +24,13 @@
 - "vehicle_function.py"，它是一個函式庫，這個程式主要是為了提供控制車輛的各式自定義函式。它使用樹莓派(Raspberry Pi)搭配各種感測器和裝置，實現車輛移動、影像辨識、顏色辨識和操控伺服馬達等函式。  
 
 ## [Obstacle_Challenge.py](./Obstacle_Challenge.py)
-- "Obstacle_Challenge.py" is a code snippet primarily designed to control a vehicle. It combines color sensors, LIDAR sensors, and image recognition techniques to drive the motors and achieve the objective of steering the vehicle to avoid obstacles and accomplish specific tasks.
+- The main purpose of "Obstacle_Challenge.py" is to control a vehicle. It combines data from color sensors, LIDAR sensors, and image recognition techniques to drive the vehicle's motors, enabling it to navigate and avoid obstacles, accomplishing specific mission objectives.
 
-- "Obstacle_Challenge.py"這段程式碼主要用於控制車輛，並結合顏色感測器、光達感測器以及影像辨識技術來驅動馬達，以達成車輛避開障礙物並完成特定任務的目標。
+- "Obstacle_Challenge.py"這段程式碼的主要功能是控制車輛。它結合了顏色感測器、光達感測器和影像辨識技術所偵測的數值，來驅動車輛的馬達，以達成車輛避開障礙物並完成特定任務的目標。
+
+## Obstacle Challenge Flow Chart(任務賽程式流程)
+
+![flowchart_obstacle](../img/flowchart_obstacle.png)
 
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  

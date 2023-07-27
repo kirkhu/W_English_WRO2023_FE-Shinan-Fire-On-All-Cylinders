@@ -1,27 +1,36 @@
 ![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Open Challenge Code Introduce</div> 
-## save_file
-The function of the "save_file" folder is to store the HSV range values for the green and red colors from HSV_Test, along with the color values of the white region, orange lines, and blue lines.
+# <div align="center">Open Challenge Code overview(資格賽程式概述)</div> 
+## [save_file](./save_file)
+- The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
+- These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
 
-save_file這個資料夾的功能是儲存HSV_Test綠色和紅色的HSV範圍值與白色區域、橘色線條和藍色線條的顏色數值。
+- save_file 資料夾的功能是用於儲存HSV_Test中綠色和紅色的HSV範圍值，以及與白色區域、橘色線條和藍色線條相關的顏色數值。  
+- 這些數值資料將用於圖像處理、影像辨識及判斷是否到逹下一個彎道或順逆行走的判斷依據。
+
 ## [HSV_Test.py](./HSV_Test.py)
-The function of the program "HSV_Test" is to adjust the HSV range values for color filtering. It allows you to set the range values for green and red colors and save them to "save_file".
+- The main functionality of "HSV_Test.py" is to adjust HSV range values for color filtering. Users can set the HSV range values specifically for green and red colors and record these settings in files named "HSV_Green.p" and "HSV_Red.p". Furthermore, the program stores these files in the "save_file" directory.
 
-HSV_Test這個程式個功能是用來調整HSV範圍值進行顏色篩選，可設定綠色和紅色範圍值並並保存到save_file。
+- HSV_Test.py 這個程式主要功能在於調整HSV範圍值，以進行顏色篩選的工作。使用者可以設定綠色和紅色的HSV範圍值，並將這些設定數值紀錄到名為HSV_Green.p與HSV_Red.p檔案並存入到"save_file"的資料夾中。
+
 ## [line_color_write.py](./line_color_write.py)
-The program "HSV_Test" is designed to read the color values of the white areas, orange lines, and blue lines. After reading these color values, it saves them to "save_file".
+- The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the "save_file" directory.
 
-HSV_Test這個程式個功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值並保存到save_file。
+- "line_color_write.py" 這個程式主要功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值保存到名為color_sensor.p檔案並存入到"save_file"的資料夾中。
+
 ## [vehicle_function.py](./vehicle_function.py)
-This code is used to control a vehicle using a Raspberry Pi along with various sensors and devices to perform functions such as vehicle movement, image recognition, color detection, and controlling servo motors.
+- "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.
 
-這段程式是用來控制車輛的程式，使用樹莓派(Raspberry Pi)搭配各種感測器和裝置，進行車輛移動、影像辨識、顏色辨識、操控伺服馬達等功能。
+- "vehicle_function.py"，它是一個函式庫，這個程式主要是為了提供控制車輛的各式自定義函式。它使用樹莓派(Raspberry Pi)搭配各種感測器和裝置，實現車輛移動、影像辨識、顏色辨識和操控伺服馬達等函式。  
 
 ## [Open_Challenge.py](./Open_Challenge.py)
-This program enables the vehicle to navigate intelligently based on sensor data and make appropriate actions in different situations, achieving more complex autonomous control capabilities.
+- The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
 
-這個程式使車輛能夠根據感測器的數據進行智能導航，並能夠在不同情況下做出適當的行動，實現了較為複雜的自主控制功能。
+- "Open_Challenge.py"這段程式碼的主要功能是控制車輛。它結合了顏色感測器和光達感測器所偵測的數值，來驅動車輛的馬達並進行轉向。其目的在於使車輛能夠準確地順逆時針繞場地三圈，完成特定的任務目標。
+
+## Open Challenge Flow Chart(資格賽程式流程)
+
+![flowchart_open](../img/flowchart_open.png)
 
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
