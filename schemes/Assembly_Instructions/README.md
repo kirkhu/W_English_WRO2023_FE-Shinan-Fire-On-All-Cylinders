@@ -3,7 +3,7 @@
 # <div align="center">Assembly_Instructions(硬體組裝說明)</div>
 
 ## Components's Position (硬體結構配置)
-![image](.\img\introduct.png)  
+<img src="./img/introduct.png"" alt="介紹圖">  
 
 ## System operation process(系統運作流程)
 ![image](./img/System_operation_process.png)  
