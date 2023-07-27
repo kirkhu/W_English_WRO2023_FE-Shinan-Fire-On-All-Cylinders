@@ -7,7 +7,7 @@
 - L293d motor controler 馬達控制晶片  
 - [Li-Po Battery(Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池)](https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07)
 - [button  B3F-4055 微動輕觸開關](https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4)  
-- ADIO-DC36V5A Switching power adapter 直流降壓板  
+- Xl4015 5A DC/DC Switching power adapter 直流降壓板  
 - TCS23725 RGB color sensor 顏色感測器  
 - Raspberry Pi Camera V2 樹梅派鏡頭V2  
 - Lidar D100 96.4x59.8x38.8 光學雷達
