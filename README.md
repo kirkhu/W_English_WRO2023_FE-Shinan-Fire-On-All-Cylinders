@@ -23,12 +23,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
   - [Programming(自駕車輛程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/README.md)
     - [Open Challenge Code(資格賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
     - [Obstacle Challenge Code(任務賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
-  - Image Processing and Predictions
-    - Image Preprocessing
-    - Wall Steering
-    - Pillar Steering
-    - Final Steering
-  - PARK Control Panel
+  - [Image Processing and Predictions](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Image_Processing_and_Predictions/README.md)
 - ### ${{\color{red} Other(其他)}} $
   - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - [Demonstration Video(自走車各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md) 
