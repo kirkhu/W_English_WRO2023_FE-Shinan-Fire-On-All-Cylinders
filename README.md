@@ -2,7 +2,10 @@ Engineering materials
 ====
 
 Official GitHub repository for WRO TAIWAN team Fire On All Cylinders Future Engineers 2023. All code, documentation, and files are located here.  
-__Located below is the documentation, and a link to the build instructions.__
+__Located Below is the content of the technical report, and a link to the build instructions.__
+
+WRO台灣隊伍"Fire On All Cylinders Future Engineers 2023"的官方GitHub存儲庫。所有的程式碼、文件和檔案都在此處。  
+<div align="center"> __下方是技術報告的內容，以及建置說明的連結。__ </div>
 
 ## Content(目錄) 
 
@@ -11,14 +14,15 @@ __Located below is the documentation, and a link to the build instructions.__
   - [Vehicle 3D/2D Models(3D 模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
   - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)
   - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
-  - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md) 
+  - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md)  
+  - [Lidar Introduce(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
-  - [Software Platform(自駕車輛系統軟體平台)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
+  - [Software Platform Construction(自駕車輛系統軟體平台建置)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
   - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
   - [ROS Of Introduction(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
   - [Programming(自駕車輛程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/README.md)
-    - Open Challenge
-    - Obstacle Challenge
+    - [Open Challenge Code(資格賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
+    - [Obstacle Challenge Code(任務賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
   - Image Processing and Predictions
     - Image Preprocessing
     - Wall Steering
@@ -29,7 +33,8 @@ __Located below is the documentation, and a link to the build instructions.__
   - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)  
   - [Demonstration Video(自走車各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md) 
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
-  - [LiPo Battery Safety Notice(鋰電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)  
+  - [LiPo Battery Safety Notice(鋰電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/LiPo_Battery/README.md)
+  
 
 - ### ${{\color{red} CompetitionSchedule (練習時間規劃)}} $  
 

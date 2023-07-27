@@ -22,7 +22,7 @@
 
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 
-<img src="./img/hu.jpg" width="500">
+<div align="center"><<img src="./img/hu.jpg" width="500"></div>
 
 
 ## English

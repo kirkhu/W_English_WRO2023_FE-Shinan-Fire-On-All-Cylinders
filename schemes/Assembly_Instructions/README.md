@@ -78,7 +78,7 @@ Usage:
 Send an activation signal before initiating the program.  
 <img src="./img/button.png" width = "200" height = "" alt="按鈕" align=center />   
 
-### ADIO-DC36V5A Switching power adapter  
+### Xl4015 5A DC/DC Switching power adapter  
 Specifications:  
 Input Voltage: 4.0V - 38.0V  
 Output Voltage: 1.25V - 36.0V  
