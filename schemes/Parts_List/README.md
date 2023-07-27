@@ -2,7 +2,7 @@
 =====
 # <div align="center">Part List 零件清單說明</div> 
 
-<div align="center"><img src="./img/car_view.png" alt="car view" width="500"></div>
+<div align="center"><img src="./img/car_view.png" alt="car view" width="200"></div>
 
 - Raspberry Pi 4B(8G) 樹梅派4B(8G)  
 - GA25-370 DC reduction motor 直流減速馬達  
