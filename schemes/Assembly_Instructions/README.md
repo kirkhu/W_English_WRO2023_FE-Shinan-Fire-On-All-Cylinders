@@ -83,7 +83,7 @@ Usage:
 Send an activation signal before initiating the program.  
 <img src="./img/button.png" width = "200" height = "" alt="按鈕" align=center />   
 
-### Xl4015 5A DC/DC Switching power adapter  
+### High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)  
 Specifications:  
 Input Voltage: 4.0V - 38.0V  
 Output Voltage: 1.25V - 36.0V  
