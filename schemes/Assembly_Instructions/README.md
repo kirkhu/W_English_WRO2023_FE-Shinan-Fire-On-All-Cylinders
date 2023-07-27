@@ -3,7 +3,7 @@
 # <div align="center">Assembly_Instructions(硬體組裝說明)</div>
 
 ## Components's Position (硬體結構配置)
-![image](./img/Component_position.jpg)  
+<img src="./img/introduct.png" alt="介紹圖">  
 
 ## System operation process(系統運作流程)
 ![image](./img/System_operation_process.png)  
@@ -78,7 +78,7 @@ Usage:
 Send an activation signal before initiating the program.  
 <img src="./img/button.png" width = "200" height = "" alt="按鈕" align=center />   
 
-### ADIO-DC36V5A Switching power adapter  
+### Xl4015 5A DC/DC Switching power adapter  
 Specifications:  
 Input Voltage: 4.0V - 38.0V  
 Output Voltage: 1.25V - 36.0V  
