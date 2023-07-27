@@ -18,8 +18,8 @@ __Located below is the documentation, and a link to the build instructions.__
   - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
   - [ROS Of Introduction(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
   - [Programming(自駕車輛程式設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/README.md)
-    - [Open Challenge Code](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Open_Challenge/README.md)
-    - [Obstacle Challenge Code](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/README.md)
+    - [Open Challenge Code(資格賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Open_Challenge/README.md)
+    - [Obstacle Challenge Code(任務賽程式碼)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/README.md)
   - Image Processing and Predictions
     - Image Preprocessing
     - Wall Steering
