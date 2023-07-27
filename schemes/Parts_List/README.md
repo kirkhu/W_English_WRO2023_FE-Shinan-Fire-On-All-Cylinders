@@ -1,13 +1,54 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Part List</div> 
-- Raspberry Pi 4B(8G) 樹梅派4B(8G)  
-- GA25-370 DC reduction motor 直流減速馬達  
-- MG90S servo motor 伺服馬達  
-- L293d motor controler 馬達控制晶片  
-- [Li-Po Battery(Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池)](https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07)
+# <div align="center">Part List 零件清單說明</div> 
+<div align="center">
+<table >
+  <tr>
+    <td ><li>Raspberry Pi 4B(8G) 樹梅派4B(8G)</li>
+        <li>GA25-370 DC reduction motor 直流減速馬達</li>  
+        <li>MG90S servo motor 伺服馬達</li>
+        <li>L293d motor controler 馬達控制晶片 </li>
+        <li><a href="https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07" target="_blank"> Li-Po Battery(Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池</a></li>
+        <li><a href="https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4" target="_blank"> button  B3F-4055 微動輕觸開關</a></li>
+
+
+
+
+
+
+    </td>
+    <td>
+    <img src="./img/car_view.png" alt="car view" width="200">   
+    </td>
+  </tr>
+</table>
+</div>
+
+
+<a href=" " target="_blank"> button  B3F-4055 微動輕觸開關</a></li>
+
+
+
+
+
+
+
+
+
+<div align="center"><img src="./img/car_view.png" alt="car view" width="200"></div>  
+
+
+
+
+
+
+
+
+
+
+
 - [button  B3F-4055 微動輕觸開關](https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4)  
-- ADIO-DC36V5A Switching power adapter 直流降壓板  
+- [Xl4015 5A DC/DC Switching power adapter 直流降壓板](https://components101.com/modules/xl4015-dc-dc-converter-module)  
 - TCS23725 RGB color sensor 顏色感測器  
 - Raspberry Pi Camera V2 樹梅派鏡頭V2  
 - Lidar D100 96.4x59.8x38.8 光學雷達

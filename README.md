@@ -5,7 +5,7 @@ Official GitHub repository for WRO TAIWAN team Fire On All Cylinders Future Engi
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
 WRO台灣隊伍"Fire On All Cylinders Future Engineers 2023"的官方GitHub存儲庫。所有的程式碼、文件和檔案都在此處。  
-<div align="center"> __下方是技術報告的內容，以及建置說明的連結。__ </div>
+__下方是技術報告的內容，以及建置說明的連結。__
 
 ## Content(目錄) 
 
