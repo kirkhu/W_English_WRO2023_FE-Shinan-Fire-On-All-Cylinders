@@ -8,6 +8,7 @@
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
 # Team Members of Introduction  
+|   |   |
 | :----: | :----: |
 | __NAME：Hu,Yun-Ruei__  | __work Assignments(工作分配)__ ：Report recording and writing.|
 |   Personal photo.個人照 | Work photo.工作照 |
