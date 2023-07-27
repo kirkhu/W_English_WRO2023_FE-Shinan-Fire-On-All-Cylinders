@@ -85,36 +85,6 @@ TCS34725_REG_CONTROL_AGAIN_4 = 0x01 # 4x Gain
 TCS34725_REG_CONTROL_AGAIN_16 = 0x02 # 16x Gain
 TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
 
-class opencv_recognition():
-    def __init__(self, red_upper, red_lower, green_upper, green_lower):
-        self.imcap = cv2.VideoCapture(0)
-        if not self.imcap.isOpened():
-            print("Cannot open camera")
-            exit()
-        self.imcap.set(cv2.CAP_PROP_BRIGHTNESS, camera_BRIGHTNESS)
-        self.thread = False
-        self.hsv_red_upper = red_upper
-        self.hsv_red_lower = red_lower
-        self.hsv_green_upper = green_upper
-        self.hsv_green_lower = green_lower
-        self.green_x = -1
-        self.green_y = -1
-        self.green_area = -1
-        self.red_x = -1
-        self.red_y = -1
-        self.red_area = -1
-        self.green_node_x = -1
-        self.red_node_x = -1
-        self.key = 0
-        self.program_fps = -1
-        self.raw_image = np.zeros((480, 640, 3), np.uint8)
-        self.draw_red_line_xy = red_line_xy
-        self.draw_green_line_xy = green_line_xy
-        self.red_line_m = (self.draw_red_line_xy[1][1] - self.draw_red_line_xy[0][1]) / (self.draw_red_line_xy[1][0] - self.draw_red_line_xy[0][0])
-        self.green_line_m = (self.draw_green_line_xy[1][1] - self.draw_green_line_xy[0][1]) / (self.draw_green_line_xy[1][0] - self.draw_green_line_xy[0][0])
-        self.color_read_thread = threading.Thread(target = self.color_recognition)
-        self.camera_stream_thread = threading.Thread(target = self.camera_stream)
-
     def start(self):
         self.thread = True
         self.color_read_thread.start()
@@ -137,22 +107,6 @@ class opencv_recognition():
         while self.thread:
             _, self.raw_image = self.imcap.read()
             self.key = cv2.waitKey(15)
-
-    def color_recognition(self):
-        while self.thread:
-            reset = time.time()
-            img = self.raw_image.copy()
-            img[0:image_black_area, 0:640] = [0, 0, 0]
-            img[image_black_area_down:480, 0:640] = [0, 0, 0]
-            hsv_image = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-            detect_image, self.green_x, self.green_y, self.green_area = self.color_detect(img, hsv_image, self.hsv_green_upper, self.hsv_green_lower)
-            detect_image, self.green_node_x = self.get_intersection(detect_image, self.green_line_m, self.draw_green_line_xy[1][0], self.draw_green_line_xy[1][1], self.green_y, (0, 255, 0))
-            detect_image, self.red_x, self.red_y, self.red_area = self.color_detect(img, hsv_image, self.hsv_red_upper, self.hsv_red_lower)
-            detect_image, self.red_node_x = self.get_intersection(detect_image, self.red_line_m, self.draw_red_line_xy[1][0], self.draw_red_line_xy[1][1], self.red_y, (0, 0, 255))
-            result_img = self.draw_line(img)
-            cv2.imshow('show', result_img)
-            self.program_fps = time.time() - reset
-        cv2.destroyAllWindows()
         
     def color_detect(self,raw_img, hsv_img, lower, upper):
         mask = cv2.inRange(hsv_img, lower, upper)  
