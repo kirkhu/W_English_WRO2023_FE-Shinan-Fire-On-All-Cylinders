@@ -9,12 +9,12 @@
 ![image](./img/System_operation_process.png)  
 
 - ## Mechanical structure(機體結構)
-| <img src="./img/up.jpg"  width = "600" alt="Image" > | <img src="./img/inside.jpg" width = "600" alt="Image" > | <img src="./img/up_view.png" width="600" alt="Image" > | 
+| <img src="./img/up.jpg"  width = "500" alt="Image" > | <img src="./img/inside.jpg" width = "500" alt="Image" > | <img src="./img/up_view.png" width="500" alt="Image" > | 
 | :----: | :----: | :----: |  
 
 
 - ## circuit board(電路板)
-| <img src="./img/circuit_up.jpg"  width = "600" alt="Image" > | <img src="./img/circuit_lower.jpg" width = "600" alt="Image" > |
+| <img src="./img/circuit_up.jpg"  width = "500" alt="Image" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Image" > |
 | :----: | :----: | 
 
 - ## Overview of Important Parts List.(重要零件清單概述)
