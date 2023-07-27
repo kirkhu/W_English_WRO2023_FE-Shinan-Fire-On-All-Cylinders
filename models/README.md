@@ -1,13 +1,15 @@
 ![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Vehicle 3D Model(車輛3D建模圖)</div>
+# <div align="center">Vehicle 3D Model(車輛3D、2D建模模型)</div>
 
+### Vehicle 3D Model(車輛3D建模圖)
 <img src="./img/Vehicle_cad.png" width="400">  <img src="./img/onshpe_3d.png" width="450">
-### <div align="center"> vehicle body 2D Cutters Model of laser cutting machines(車體2D 雷切模型) </div>
+
+###  vehicle body 2D Cutters Model of laser cutting machines(車體2D 雷切模型)
 
 <div align="center"> <img src="./img/2D_Cutters.png" width="500"></div>
 
-### <div align="center"> vehicle body panels 2D Cutters Model of laser cutting machines(車體木板2D 雷切模型) </div>
+### <div align="center">physical cutting of vehicle body panels(實體切割之車體木板) </div>
 
 | <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.jpg" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> |   
 | :----: | :----: |:----: |:----: |  
