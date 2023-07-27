@@ -160,10 +160,10 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 
 **content:**
 
-Today we sorted out the parts list and uploaded it to the technical file, and also drew the introduction diagram of the car body. In the process, we learned and used github syntax bit by bit and became familiar with it. However, because we are not proficient in it, it took us a lot of time. I spend a lot of time searching the Internet for relevant information.
+Today, we made significant progress in our project. We successfully organized and listed the components in the parts inventory, and we uploaded it to the technical documentation. Additionally, we completed the drawing of the vehicle's introduction diagram. Throughout this process, we embarked on a learning journey, gradually familiarizing ourselves with GitHub syntax. Although we are not yet fully proficient in using GitHub, we dedicated time to researching relevant information online and steadily improving our skills. These achievements have brought valuable advancements to our report and project as a whole.
 
+今天我們完成了將零件清單整理並列點，並上傳至技術文件中。此外，我們也完成了車體的介紹圖的繪製工作。在這個過程中，我們逐步學習了GitHub語法的使用並逐漸熟悉它。儘管對GitHub的使用不是很熟練，但我們努力在網上查詢相關資訊，並逐步提高了技能水平。這些進展為我們的報告帶來了寶貴的進步。
 
-今天我們將零件清單整理並列點上傳至技術文件中，也將車體的介紹圖繪製完成，並在過程中一點一點學習github語法使用並熟悉，但由於對其不熟練，因此也花了不少時間上網查詢相關資訊。
 |       |       |
 | :---: | :---: |
 | <img src="./IMG/work.jpg" alt="l298n" >|<img src="./IMG/work_photo.jpg" alt="l298n" />|
