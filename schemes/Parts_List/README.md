@@ -59,7 +59,7 @@
         <li>lego cross shaft connector 樂高十字軸連接器 </li>   
     </td>
     <td>
-    <img src="./img/car_view.png" alt="car view" width="200">   
+    <img src="./img/car_view.png" alt="car view" width="400">   
     </td>
   </tr>
 </table>
