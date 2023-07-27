@@ -4,15 +4,13 @@
 
 <img src="./img/Vehicle_cad.png" width="400">  <img src="./img/onshpe_3d.png" width="450">
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
-<img src="./img/2D_Cutters.png" width="500">
+
+<div align="center"> <img src="./img/2D_Cutters.png" width="500"></div>
 
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 
-
-|        |        |       |        |    
+| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.jpg" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> |   
 | :----: | :----: |:----: |:----: |  
-|    |   ||    |     |  
-| <img src="./img/car_down.png" width="500" alt="Image"> | <img src="./img/1.jpg" width="500" alt="Image"> | <img src="./img/car_board.png" width="500" alt="Image"> | <img src="./img/car_board_2 .png" width="500" alt="Image"> | 
 
 # <div align="center"> 2D Cutters Model of laser cutting machines(2D 雷切模型) </div>
 
