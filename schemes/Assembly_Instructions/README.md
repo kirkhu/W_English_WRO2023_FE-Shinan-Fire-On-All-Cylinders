@@ -2,23 +2,22 @@
 ====
 # <div align="center">Hardware assembly instructions.(硬體組裝說明)</div>
 
-## Components's Position (硬體結構配置)
+- ## Components's Position (硬體結構配置)
 <img src="./img/introduct.png" alt="介紹圖">  
 
-## System operation process(系統運作流程)
+- ## System operation process(系統運作流程)
 ![image](./img/System_operation_process.png)  
 
-## Mechanical structure(機體結構)
+- ## Mechanical structure(機體結構)
 | <img src="./img/up.jpg"  width = "600" alt="Image" > | <img src="./img/inside.jpg" width = "600" alt="Image" > | <img src="./img/up_view.png" width="600" alt="Image" > | 
 | :----: | :----: | :----: |  
 
 
-## circuit board(電路板)
+- ## circuit board(電路板)
 | <img src="./img/circuit_up.jpg"  width = "600" alt="Image" > | <img src="./img/circuit_lower.jpg" width = "600" alt="Image" > |
 | :----: | :----: | 
 
-
-## Overview of Important Parts List.(重要零件清單概述)
+- ## Overview of Important Parts List.(重要零件清單概述)
 ### Raspberry Pi 4B(8G)  
 Specification:  
 With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
