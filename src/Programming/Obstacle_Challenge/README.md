@@ -2,17 +2,22 @@
 ====
 # <div align="center">Obstacle Challenge Code Introduc</div>
 ## save_file
-The function of the "save_file" folder is to store the HSV range values for the green and red colors from HSV_Test, along with the color values of the white region, orange lines, and blue lines.
+- The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
+- These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
 
-save_file這個資料夾的功能是儲存HSV_Test綠色和紅色的HSV範圍值與白色區域、橘色線條和藍色線條的顏色數值。
+- save_file 資料夾的功能是用於儲存HSV_Test中綠色和紅色的HSV範圍值，以及與白色區域、橘色線條和藍色線條相關的顏色數值。  
+- 這些數值資料將用於圖像處理、影像辨識及判斷是否到逹下一個彎道或順逆行走的判斷依據。
+
 ## [HSV_Test.py](./HSV_Test.py)
-The function of the program "HSV_Test" is to adjust the HSV range values for color filtering. It allows you to set the range values for green and red colors and save them to "save_file".
+- The purpose of the HSV_Test program is to adjust the HSV range values for color filtering. It allows the user to set the HSV range values for green and red colors and save them to the save_file.
 
-HSV_Test這個程式個功能是用來調整HSV範圍值進行顏色篩選，可設定綠色和紅色範圍值並並保存到save_file。
+- HSV_Test.py 這個程式個功能是用來調整HSV範圍值進行顏色篩選，可設定綠色和紅色範圍值並保存到save_file。
+
 ## [line_color_write.py](./line_color_write.py)
-The program "HSV_Test" is designed to read the color values of the white areas, orange lines, and blue lines. After reading these color values, it saves them to "save_file".
+The program "HSV_Test.py" is designed to read the color values of the white areas, orange lines, and blue lines. After reading these color values, it saves them to "save_file".
 
-HSV_Test這個程式個功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值並保存到save_file。
+HSV_Test.py 這個程式個功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值並保存到save_file。
+====================================================================================
 ## [vehicle_function.py](./vehicle_function.py)
 This code is used to control a vehicle using a Raspberry Pi along with various sensors and devices to perform functions such as vehicle movement, image recognition, color detection, and controlling servo motors.
 
