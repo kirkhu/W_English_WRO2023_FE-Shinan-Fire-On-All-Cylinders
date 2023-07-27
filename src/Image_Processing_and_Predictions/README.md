@@ -12,6 +12,7 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 
 - 處理圖像時，需要將其轉換到不同的色彩空間，以便更有效地進行特定任務。我們使用cv2.cvtColor函數將原始的RGB圖像轉換為HSV（色調、飽和度、明度）色彩空間。轉換圖像後使用cv2.inRange函數，我們會設定六個HSV值，即redMax、redMin、greenMin、greenMax、blueMin和blueMax，設定顏色範圍。cv2.inRange函數比較HSV圖像中的每個像素值與指定的HSV範圍，如果像素值在這個範圍內，則將保留這個像素，否則將其過濾掉。這樣我們就可以得到一個經過過濾的圖像。
 <div align="center">
+
 |Adjusting the HSV range values for red color<br>(調整紅色HSV數值範圍)|Adjusting the HSV range values for green color<br>(調整綠色HSV數值範圍)|
 |:----:|:----:|
 |<img src="./img/red_HSV_value_range.png" width = "350" height = "" alt="red_HSV_value_range" align=center />|<img src="./img/green_HSV_value_range.png" width = "350" height = "" alt="green_HSV_value_range" align=center />|
@@ -20,6 +21,7 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 |:----:|
 |<img src="./img/Obstacle_detection.png" alt="Obstacle_detection" align=center />|
 </div>
+
 ### Traffic sign avoidance 交通標誌閃避
 - Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate. Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.
 
