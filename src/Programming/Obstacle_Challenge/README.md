@@ -29,7 +29,4 @@
 - "Obstacle_Challenge.py"這段程式碼主要用於控制車輛，並結合顏色感測器、光達感測器以及影像辨識技術來驅動馬達，以達成車輛避開障礙物並完成特定任務的目標。
 
 
-
-### 
-
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
