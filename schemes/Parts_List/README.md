@@ -1,9 +1,9 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
+# <div align="center">Part List</div> 
 
 <img src="./img/view.png" alt="Image">
 
-# <div align="center">Part List</div> 
 - Raspberry Pi 4B(8G) 樹梅派4B(8G)  
 - GA25-370 DC reduction motor 直流減速馬達  
 - MG90S servo motor 伺服馬達  
