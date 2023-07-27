@@ -2,9 +2,9 @@
 =====
 # <div align="center">Part List 零件清單說明</div> 
 <div align="center">
-<table border=0; >
+<table border=0 width=100% >
   <tr>
-    <td ><li>Raspberry Pi 4B(8G) 樹梅派4B(8G)</li>
+    <td  ><li>Raspberry Pi 4B(8G) 樹梅派4B(8G)</li>
         <li>GA25-370 DC reduction motor 直流減速馬達</li>  
         <li>MG90S servo motor 伺服馬達</li>
         <li>L293d motor controler 馬達控制晶片 </li>
