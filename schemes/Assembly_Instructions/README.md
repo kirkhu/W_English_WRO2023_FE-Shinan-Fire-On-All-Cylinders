@@ -13,12 +13,12 @@
 | :----: | :----: | :----: |  
 
 
-
+## circuit board(電路板)
 | <img src="./img/circuit_up.jpg"  width = "600" alt="Image" > | <img src="./img/circuit_lower.jpg" width = "600" alt="Image" > |
 | :----: | :----: | 
 
 
-## Part list  
+## Overview of Important Parts List.(重要零件清單概述)
 
 
 ### Raspberry Pi 4B(8G)  
