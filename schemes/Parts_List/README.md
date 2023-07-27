@@ -4,14 +4,15 @@
 <div align="center">
 <table border=0 width=100% >
   <tr>
-    <td  ><li>Raspberry Pi 4B(8G) 樹梅派4B(8G)</li>
-        <li>GA25-370 DC reduction motor 直流減速馬達</li>  
-        <li>MG90S servo motor 伺服馬達</li>
-        <li>L293d motor controler 馬達控制晶片 </li>
+    <td  ><li><a href="https://www.icshop.com.tw/product-page.php?27903"
+        target="_blank"> Raspberry Pi 4B(8G) 樹梅派4B(8G)</a></li>
+        <li><a href="https://files.seeedstudio.com/wiki/Skeleton_Bot-4WD_hercules_mobile_robotic_platform/res/Specifications_for_Motor.pdf" target="_blank">GA25-370 DC reduction motor 直流減速馬達</a></li>  
+        <li><a href="https://www.taiwaniot.com.tw/product/mg90s-14g%E5%85%A8%E9%87%91%E5%B1%AC%E9%BD%92%E8%88%B5%E6%A9%9F-servo-%E4%BC%BA%E6%9C%8D%E6%A9%9F/" target="_blank">MG90S servo motor 伺服馬達</a></li>
+        <li><a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293d motor controler 馬達控制晶片</a></li>
         <li><a href="https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07" target="_blank"> Li-Polymer battery 3S (Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池</a></li>
         <li><a href="https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4" target="_blank"> button  B3F-4055 微動輕觸開關</a></li>
         <li><a href="https://components101.com/modules/xl4015-dc-dc-converter-module" target="_blank"> Xl4015 5A DC/DC Switching power adapter 直流降壓板</a></li>
-        <li>TCS23725 RGB color sensor 顏色感測器 </li>
+        <li><a href="https://shopee.tw/%E3%80%90%E7%92%B0%E5%B3%B6%E7%A7%91%E6%8A%80-(b4-11)-TCS34725-%E9%A1%8F%E8%89%B2%E6%84%9F%E6%B8%AC%E5%99%A8-Color-Sensor-RGB-%E9%96%8B%E7%99%BC%E6%9D%BF%E6%A8%A1%E7%B5%84-%E5%8F%B0%E7%81%A3%E7%8F%BE%E8%B2%A8-i.280233910.6080041449?sp_atk=7543c9e2-c1b4-4502-a89c-26692b2a576c&xptdk=7543c9e2-c1b4-4502-a89c-26692b2a576c" target="_blank">TCS34725 RGB color sensor 顏色感測器</a></li>
         <li>SONY IMX219 鏡頭模組 </li>
         <li>Lidar D100 96.4x59.8x38.8 光學雷達 </li>
         <li>lipo battery low voltage alarm 鋰電池低電壓警報器 </li>
