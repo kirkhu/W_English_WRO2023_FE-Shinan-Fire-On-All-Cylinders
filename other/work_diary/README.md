@@ -137,9 +137,6 @@ Although it is possible to move straight using the gyroscope and turn using the 
 
 
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎 
-|       |     |
-| :---: |:---:|
-| <img src="./IMG/work.jpg" width = "180" alt="l298n"  /> | <img src="./IMG/work_photo.jpg" width = "180"  alt="l298n" /> |
 
 
 ## 2023/07/23 ~ 2023/07/25  
@@ -156,5 +153,19 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 機器人現在能夠正常運行。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測到障礙物（積木）的距離，然後辨識積木的顏色。透過利用OpenCV的功能，我們可以畫出虛擬線來協助避開障礙物。使用虛擬線和障礙物的距離，再加上一個演算法，我們可以操縱前輪來避開這些障礙物。  
 
 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將陀螺儀的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
+
+## 2023/07/26 ~ 2023/07/27
+
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+
+**content:**
+
+Today we sorted out the parts list and uploaded it to the technical file, and also drew the introduction diagram of the car body. In the process, we learned and used github syntax bit by bit and became familiar with it. However, because we are not proficient in it, it took us a lot of time. I spend a lot of time searching the Internet for relevant information.
+
+
+今天我們將零件清單整理並列點上傳至技術文件中，也將車體的介紹圖繪製完成，並在過程中一點一點學習github語法使用並熟悉，但由於對其不熟練，因此也花了不少時間上網查詢相關資訊，
+|       |       |
+| :---: | :---: |
+| <img src="./IMG/work.jpg" alt="l298n" >|<img src="./IMG/work_photo.jpg" alt="l298n" />|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
