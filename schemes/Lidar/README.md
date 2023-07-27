@@ -36,7 +36,7 @@ Ultrasonic sensors can only detect in one direction, limited to the front, used 
 - Issues encountered with different brands of Lidar:  
 One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, compared to the YDLidar X2 with 3000 Hz and X4 with 5000 Hz. The lower frequency results in a slower response time.  
 
-Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were issues with detecting obstacles, leading to missing angles. Therefore, in this competition, we decided to utilize the D100 sensor for vehicle detection and measuring the distance to the arena walls. The results obtained using this sensor met our expectations.
+__Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were issues with detecting obstacles, leading to missing angles. Therefore, in this competition, we decided to utilize the D100 sensor for vehicle detection and measuring the distance to the arena walls. The results obtained using this sensor met our expectations.__
 
 ## 中文
 - Lidar
@@ -73,14 +73,14 @@ Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were iss
 - 不同品牌光達遇到的問題  
     D100偵測頻率是2300，相比 ydlidar x2 的 3000HZ 和 x4 的 5000HZ，頻率更小，因此反應會慢一點。  
 
-由於對ydlidar x4和ydlidar x2的使用不熟悉，導致在偵測障礙物時出現了缺角問題。因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+__由於對ydlidar x4和ydlidar x2的使用不熟悉，導致在偵測障礙物時出現了缺角問題。因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。__
 
-## The types of LiDAR used in the actual testing.(實測之光達種類)
+#### The types of LiDAR used in the actual testing.(實測之光達種類)
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
 | :----: | :----: | :----:|
 |<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
-## The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.(實測光達ydlidar x4、dlidar x2 所遇之缺角問題)
+#### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.(實測光達ydlidar x4、dlidar x2 所遇之缺角問題)
 |<img src="./img/Lidar_X2_X4_error1.jpg" width = "250" height = "" alt="偵測缺角" align=center />|<img src="./img/Lidar_X2_X4_error.jpg" width = "250" height = "" alt="偵測缺角" align=center />|
 | :----: | :----: |
 
