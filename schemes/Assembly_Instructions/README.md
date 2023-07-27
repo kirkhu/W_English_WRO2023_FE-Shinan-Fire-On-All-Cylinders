@@ -13,10 +13,6 @@
 |  |  |  |
 | <img src="./img/up.jpg"  width = "600" alt="Image" > | <img src="./img/inside.jpg" width = "600" alt="Image" > | <img src="./img/lower.jpg" width="600" alt="Image" > |  
 
-|        |        |
-| :----: | :----: | 
-|    |
-| <img src="./img/anit_daze.png"  width = "400" alt="Image" > | <img src="./img/anit_daze_2.jpg" width = "400" alt="Image" > |
 
 ## Part list  
 
