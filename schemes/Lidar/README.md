@@ -16,7 +16,7 @@
   - Drones and aviation: Lidar is employed in unmanned aerial vehicles (drones) and aviation for tasks such as terrain mapping and surface feature detection.  
   - Environmental monitoring: Lidar is used for environmental monitoring, such as atmospheric pollution monitoring and climate research.  
   - Military applications: Lidar finds applications in the military sector, such as target identification, ranging, and terrain reconnaissance.  
-    
+
 Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.  
 <br>
 The Lidar D100 Developer Kit is composed of the Lidar LD14 as its core, accompanied by a combination of related accessories.
@@ -36,7 +36,7 @@ Ultrasonic sensors can only detect in one direction, limited to the front, used 
 - Issues encountered with different brands of Lidar:  
 One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, compared to the YDLidar X2 with 3000 Hz and X4 with 5000 Hz. The lower frequency results in a slower response time.
 
-==================================================
+## 中文
 - Lidar
 光達，也被稱為激光雷達（Lidar，Light Detection and Ranging的縮寫），是一種使用激光脈衝來測量距離和創建地圖的技術。激光雷達系統通常由激光器、接收器、計算設備和導航系統組成。
 
