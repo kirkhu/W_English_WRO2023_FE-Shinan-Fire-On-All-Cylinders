@@ -8,7 +8,7 @@
         <li>GA25-370 DC reduction motor 直流減速馬達</li>  
         <li>MG90S servo motor 伺服馬達</li>
         <li>L293d motor controler 馬達控制晶片 </li>
-        <li><a href="https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07)">Li-Po Battery(Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池</a></li>
+        <li><a href="https://shopee.tw/%E9%A3%9B%E6%8F%9A%E6%A8%A1%E5%9E%8B-DP-V8-11.1v-14.8V-3S-4S-1300-1850mAh-35C-70C-%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%A5%88%E7%B1%B3%E9%8B%B0%E8%81%9A%E9%9B%BB%E6%B1%A0-i.59305572.6676356304?sp_atk=48cbc214-26ac-494a-a877-24f73c019b07&xptdk=48cbc214-26ac-494a-a877-24f73c019b07" target="_blank"> Li-Po Battery(Desire Power V8 11.1V 1300mAh 70C 3S鋰電池奈米鋰聚電池</a></li>
     </td>
     <td>
     <img src="./img/car_view.png" alt="car view" width="200">   
