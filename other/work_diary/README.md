@@ -137,9 +137,9 @@ Although it is possible to move straight using the gyroscope and turn using the 
 
 
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎 
-
+|       |     |
 | :---: |:---:|
-| <img src="./IMG/work.jpg" width = "150" height = "" alt="l298n" align=center /> | <img src="./IMG/work_photo" width = "150" height = "" alt="l298n" align=center /> |
+| <img src="./IMG/work.jpg" width = "180" alt="l298n"  /> | <img src="./IMG/work_photo.jpg" width = "180"  alt="l298n" /> |
 
 
 ## 2023/07/23 ~ 2023/07/25  
