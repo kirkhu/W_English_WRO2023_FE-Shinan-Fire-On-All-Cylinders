@@ -1,7 +1,7 @@
 ![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Obstacle Challenge Code Introduc</div>
-## save_file
+## save_file(./save_file)
 - The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
 - These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
 
@@ -11,13 +11,13 @@
 ## [HSV_Test.py](./HSV_Test.py)
 - The purpose of the HSV_Test program is to adjust the HSV range values for color filtering. It allows the user to set the HSV range values for green and red colors and save them to the save_file.
 
-- HSV_Test.py 這個程式個功能是用來調整HSV範圍值進行顏色篩選，可設定綠色和紅色範圍值並保存到save_file。
+- HSV_Test.py 這個程式主要功能在於調整HSV範圍值，以進行顏色篩選的工作。使用者可以設定綠色和紅色的HSV範圍值，並將這些設定數值保存到名為    並存入到"save_file"的資料夾中。
 
 ## [line_color_write.py](./line_color_write.py)
-The program "HSV_Test.py" is designed to read the color values of the white areas, orange lines, and blue lines. After reading these color values, it saves them to "save_file".
+- The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the "save_file" directory.
 
-HSV_Test.py 這個程式個功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值並保存到save_file。
-====================================================================================
+- line_color_write.py 這個程式主要功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值保存到名為color_sensor.p檔案並存入到"save_file"的資料夾中。
+
 ## [vehicle_function.py](./vehicle_function.py)
 This code is used to control a vehicle using a Raspberry Pi along with various sensors and devices to perform functions such as vehicle movement, image recognition, color detection, and controlling servo motors.
 
