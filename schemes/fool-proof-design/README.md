@@ -3,7 +3,7 @@
 # <div align="center">Hardware Fool-Proof-Design(硬體防呆設計)</div>
 <div align="center">
 
-| <img src="./img/anit_daze.png" alt="插座" width="300">  | <img src="./img/anit_daze_2.jpg" alt="電木板" width="300">|
+| <img src="./img/anit_daze.png" alt="插座" width="400">  | <img src="./img/anit_daze_2.jpg" alt="電木板" width="400">|
 |:----|:----:|
 
 </div>
