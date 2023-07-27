@@ -10,13 +10,13 @@
 # Team Members of Introduction  
 |   |   |
 | :----: | :----: |
-| __NAME：Hu,Yun-Ruei__  | __work Assignments(工作分配)__ ：Report recording and writing.|
+| Hu,Yun-Ruei__  | __Work Assignments(工作分配)：__ Report recording and writing.|
 |   Personal photo.個人照 | Work photo.工作照 |
 | <img src="./img/Hu.jpg" alt="Image"> | <img src="./img/hu_work.jpg" alt="Image"> |
-| __LIN,JHONG-BIN__  | Code writing.|
+| __LIN,JHONG-BIN__  | __Work Assignments(工作分配)：__ Code writing.|
 |  Personal photo.個人照  |  Work photo.工作照   |    
 | <img src="./img/lin.jpg" alt="Image"> | <img src="./img/IMG_8198.JPG" alt="Image"> |
-| __ZHAO,ZHEN-BO__  |  Hardware design. |
+| __ZHAO,ZHEN-BO__  |  __Work Assignments(工作分配)：__ Hardware design. |
 |   Personal photo.個人照  |  Work photo.工作照   |   
 | <img src="./img/Bo.jpg" alt="Image"> | <img src="./img/IMG_8202.JPG" alt="Image"> |  
 
