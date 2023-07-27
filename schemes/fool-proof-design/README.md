@@ -1,7 +1,7 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Hardware Fool-Proof-Design(硬體防呆設計)</div>
-| <img src="./img/anit_daze.png" alt="插座" width="500">  | <img src="./img/anit_daze_2.jpg" alt="電木板" width="500">|
+| <img src="./img/anit_daze.png" alt="插座" width="400">  | <img src="./img/anit_daze_2.jpg" alt="電木板" width="400">|
 |:----|:----:|
 ## English
     - During the hardware design process, we encountered a few instances where the Raspberry Pi controller or IC was damaged due to incorrect power or data cable connections. To prevent such issues, we implemented a solution using male-female connectors for both power supply and data transmission. This approach ensured correct wiring and effectively mitigated the risk of the Raspberry Pi or IC getting burnt. These design improvements have enhanced the stability of the hardware system, leading to increased overall product reliability and lifespan.  
