@@ -19,7 +19,7 @@ After reading the rules, I started to choose the controller. After watching the 
 
 ## 2023/06/29 ~ 2023/06/31  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO 
 
 **content:**  
 
@@ -163,7 +163,7 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 Today we sorted out the parts list and uploaded it to the technical file, and also drew the introduction diagram of the car body. In the process, we learned and used github syntax bit by bit and became familiar with it. However, because we are not proficient in it, it took us a lot of time. I spend a lot of time searching the Internet for relevant information.
 
 
-今天我們將零件清單整理並列點上傳至技術文件中，也將車體的介紹圖繪製完成，並在過程中一點一點學習github語法使用並熟悉，但由於對其不熟練，因此也花了不少時間上網查詢相關資訊，
+今天我們將零件清單整理並列點上傳至技術文件中，也將車體的介紹圖繪製完成，並在過程中一點一點學習github語法使用並熟悉，但由於對其不熟練，因此也花了不少時間上網查詢相關資訊。
 |       |       |
 | :---: | :---: |
 | <img src="./IMG/work.jpg" alt="l298n" >|<img src="./IMG/work_photo.jpg" alt="l298n" />|
