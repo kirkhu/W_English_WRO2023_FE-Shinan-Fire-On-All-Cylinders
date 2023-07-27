@@ -21,6 +21,29 @@
         <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm </li>
         <li>hexagon double female standoffs 3x15 塑膠雙母固定柱 直徑3mm 柱體長度15mm </li>
         <li>plastic screw 塑膠螺絲 </li>
+        <li>plastic nut 塑膠螺帽 </li>
+        <li>Cross recessed round head metal screw 2.5x26mm 十字圓頭金屬螺絲 </li>
+        <li>hexagon metal screw 7x10mm 金屬螺絲 </li>
+        <li>hexagon metal nut 六邊形金屬螺帽 </li>
+        <li>Galvanized Hexagon Flange Nut 鍍彩鋅六角法蘭螺母 </li>
+        <li>red led 紅色LED </li>
+        <li>yellow led 黃色LED </li>
+        <li>pegboard 30x48 hole 90x150 mm 洞洞板 30x48洞 </li>
+        <li>ribbon cable 15 pin 30 cm spacing 0.1 軟排線 15 pin 30 公分 間距0.1mm </li>
+        <li>flat cable 40(20x2) pin 排線 40 pin </li>
+        <li>Dupont wire 杜邦線 </li>
+        <li>4-row Dupont female header 4排杜邦母頭 </li>
+        <li>USB with 90-degree bend USB轉90度 </li>
+        <li>wood broad 3mm 木板 3mm厚 </li>
+        <li>lego wheel 62.4x40 S 樂高平輪胎 </li>
+        <li>lego differential gear 樂高齒輪差速器 </li>
+        <li>lego Technic Wedge Belt Wheel 樂高薄輪胎 </li>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+        <li> </li>
+        <li> </li>
     </td>
     <td>
     <img src="./img/car_view.png" alt="car view" width="200">   
