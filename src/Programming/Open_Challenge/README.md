@@ -24,12 +24,9 @@
 - "vehicle_function.py"，它是一個函式庫，這個程式主要是為了提供控制車輛的各式自定義函式。它使用樹莓派(Raspberry Pi)搭配各種感測器和裝置，實現車輛移動、影像辨識、顏色辨識和操控伺服馬達等函式。  
 
 ## [Open_Challenge.py](./Open_Challenge.py)
-This program enables the vehicle to navigate intelligently based on sensor data and make appropriate actions in different situations, achieving more complex autonomous control capabilities.
+- The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
 
-Open_Challenge.py這個程式使車輛能夠根據感測器的數據進行智能導航，並能夠在不同情況下做出適當的行動，實現了較為複雜的自主控制功能。
-
-
-- "Obstacle_Challenge.py"這段程式碼主要用於控制車輛，並結合顏色感測器、光達感測器以及影像辨識技術來驅動馬達，以達成車輛避開障礙物並完成特定任務的目標。
+- "Open_Challenge.py"這段程式碼的主要功能是控制車輛。它結合了顏色感測器和光達感測器所偵測的數值，來驅動車輛的馬達並進行轉向。其目的在於使車輛能夠準確地順逆時針繞場地三圈，完成特定的任務目標。
 
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
