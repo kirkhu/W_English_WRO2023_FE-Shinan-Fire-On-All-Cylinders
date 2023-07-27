@@ -63,7 +63,7 @@ Usage:
 Control the rotation direction of GA25-371 DC reduction motor.  
 <img src="./img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
 
-### Lipo 3S Battery(鋰電池 3S)
+### Li-Polymer 3S Battery(鋰聚合物電池 3S)
 Specifications:  
 Maximum Current: 45.5A  
 Net Weight: Approximately 107g  
