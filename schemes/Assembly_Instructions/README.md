@@ -9,6 +9,13 @@
 ![image](./img/System_operation_process.png)  
 ## Part list  
 
+|        |        |  
+| :----: | :----: |  
+|  left view 左視圖 |Right view 右視圖  |
+| <img src="./img/up.jpg"  width = "400" alt="Image" > | <img src="./img/inside.jpg" width = "400" alt="Image" >  |
+|  <font size="5"> Front view  前視圖 </font>|  <font size="5">Rear view 後視圖  </font> |    
+| <img src="./img/lower.jpg" width="400" alt="Image" > |  
+
 ### Raspberry Pi 4B(8G)  
 Specification:  
 With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
