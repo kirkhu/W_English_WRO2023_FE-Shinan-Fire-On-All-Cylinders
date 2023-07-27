@@ -58,8 +58,8 @@
         <li>lego 12-tooth adapter gear 樂高90度轉接齒輪 12齒  </li>
         <li>lego cross shaft connector 樂高十字軸連接器 </li>   
     </td>
-    <td>
-    <img src="./img/car_view.png" alt="car view" width="400">   
+    <td valign="top">
+    <img src="./img/car_view.png" alt="car view" width="350">   
     </td>
   </tr>
 </table>
