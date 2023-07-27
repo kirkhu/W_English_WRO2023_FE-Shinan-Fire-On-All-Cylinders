@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Fool-Proof Design(防呆設計)</div>
+# <div align="center">Hardware Fool-Proof-Design(硬體防呆設計)</div>
 | <img src="./img/anit_daze.png" alt="Image">  | <img src="./img/anit_daze_2.jpg" alt="Image">|
 |:----|:----:|
 # English
