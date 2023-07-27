@@ -136,7 +136,10 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 Although it is possible to move straight using the gyroscope and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
 
 
-雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎  
+雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎 
+|       |     |
+| :---: |:---:|
+| <img src="./IMG/work.jpg" width = "180" alt="l298n"  /> | <img src="./IMG/work_photo.jpg" width = "180"  alt="l298n" /> |
 
 
 ## 2023/07/23 ~ 2023/07/25  
