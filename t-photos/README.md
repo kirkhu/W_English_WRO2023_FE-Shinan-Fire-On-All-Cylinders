@@ -9,8 +9,7 @@
 
 # Team Members of Introduction  
 | __Hu,Yun-Ruei__  | Report recording and writing.|
-| :----: | :----: |  
-
+| :----: | :----: | 
 |   Personal photo.個人照 | Work photo.工作照 |
 | <img src="./img/Hu.jpg" alt="Image"> | <img src="./img/hu_work.jpg" alt="Image"> |
 | __LIN,JHONG-BIN__  | Code writing.|
