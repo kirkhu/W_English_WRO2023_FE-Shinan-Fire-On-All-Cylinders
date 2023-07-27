@@ -4,7 +4,7 @@
 
 <div align="center"><img src="./img/car_view.png" alt="car view" width="200"></div>
 
-- Raspberry Pi 4B(8G) 樹梅派4B(8G)  
+<li> Raspberry Pi 4B(8G) 樹梅派4B(8G)  
 - GA25-370 DC reduction motor 直流減速馬達  
 - MG90S servo motor 伺服馬達  
 - L293d motor controler 馬達控制晶片  
