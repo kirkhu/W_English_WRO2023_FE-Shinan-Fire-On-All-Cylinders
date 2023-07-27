@@ -1,7 +1,7 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Part List 零件清單說明</div> 
-<div>
+<div align="center">
 <table width=100%>
   <tr>
     <td width=70%><li>Raspberry Pi 4B(8G) 樹梅派4B(8G)</li>
