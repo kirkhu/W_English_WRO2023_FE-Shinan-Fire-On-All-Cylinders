@@ -12,6 +12,15 @@
         <li><a href="https://shopee.tw/%E3%80%90UCI%E9%9B%BB%E5%AD%90%E3%80%91(H-2)-B3F-4055-%E5%BE%AE%E5%8B%95%E8%BC%95%E8%A7%B8%E9%96%8B%E9%97%9C-B3F-4055-%E6%8C%89%E9%8D%B5%E6%8C%89%E9%88%95-12*12*7.3mm-%E6%AD%90%E5%A7%86%E9%BE%8D-i.2305548.884717680?sp_atk=00e56487-9966-47a3-96d5-d666fa4755e4&xptdk=00e56487-9966-47a3-96d5-d666fa4755e4" target="_blank"> button  B3F-4055 微動輕觸開關</a></li>
         <li><a href="https://components101.com/modules/xl4015-dc-dc-converter-module" target="_blank"> Xl4015 5A DC/DC Switching power adapter 直流降壓板</a></li>
         <li>TCS23725 RGB color sensor 顏色感測器 </li>
+        <li>Raspberry Pi Camera V2 樹梅派鏡頭V2 </li>
+        <li>Lidar D100 96.4x59.8x38.8 光學雷達 </li>
+        <li>lipo battery low voltage alarm 鋰電池低電壓警報器 </li>
+        <li>switch 開關 </li>
+        <li>hexagon plastic pillar 3x6+6 塑膠六角隔離柱 直徑3mm 柱體長度6mm 螺紋長度 6mm </li>
+        <li>hexagon plastic pillar 3x12+6 塑膠六角隔離柱 直徑3mm 柱體長度12mm 螺紋長度 6mm </li>
+        <li>hexagon plastic pillar 3x15+6 塑膠六角隔離柱 直徑3mm 柱體長度15mm 螺紋長度 6mm </li>
+        <li>hexagon double female standoffs 3x15 塑膠雙母固定柱 直徑3mm 柱體長度15mm </li>
+        <li>plastic screw 塑膠螺絲 </li>
     </td>
     <td>
     <img src="./img/car_view.png" alt="car view" width="200">   
