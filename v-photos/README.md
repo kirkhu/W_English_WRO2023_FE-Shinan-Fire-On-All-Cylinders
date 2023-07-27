@@ -9,7 +9,7 @@
 |  <font size="5"> Front view  前視圖 </font>|  <font size="5">Rear view 後視圖  </font> |    
 | <img src="./img/front_view.png" alt="Image"> | <img src="./img/rear_view.png" alt="Image"> | 
 |  <font size="5">top view 上視圖 </font> |  <font size="5">bottom view 下視圖 </font> |   
-| <img src="./img/top_view.png" alt="Image"> | <img src="./img/bottom-view.png" alt="Image"> |   
+| <img src="./img/up.jpg" alt="Image"> | <img src="./img/bottom-view.png" alt="Image"> |   
 
 
 # <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div> 
