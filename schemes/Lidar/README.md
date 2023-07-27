@@ -75,13 +75,13 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
 
 __由於對ydlidar x4和ydlidar x2的使用不熟悉，導致在偵測障礙物時出現了缺角問題。因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。__
 
-#### The types of LiDAR used in the actual testing.(實測之光達種類)
+- #### The types of LiDAR used in the actual testing.(實測之光達種類)
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
 | :----: | :----: | :----:|
 |<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
-#### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>(實測光達ydlidar x4、dlidar x2 所遇之缺角問題)
-|<img src="./img/Lidar_X2_X4_error1.jpg" width = "250" height = "" alt="偵測缺角" align=center />|<img src="./img/Lidar_X2_X4_error.jpg" width = "250" height = "" alt="偵測缺角" align=center />|
+- #### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>(實測光達ydlidar x4、dlidar x2 所遇之缺角問題)
+|<img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />|<img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
 | :----: | :----: |
 
 
