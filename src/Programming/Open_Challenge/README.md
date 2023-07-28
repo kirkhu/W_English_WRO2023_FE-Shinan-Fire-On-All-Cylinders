@@ -18,6 +18,9 @@
 
 - "line_color_write.py" 這個程式主要功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值保存到名為color_sensor.p檔案並存入到"save_file"的資料夾中。
 
+### Flowchart for the Configuration of Green Recording of Venue Environmental Value(場地環境值記綠設定流程圖)
+ ![場地環境值記綠設定流程圖](../../System_Platform%20_Software/img/setup_recode.png)  
+
 ## [vehicle_function.py](./vehicle_function.py)
 - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.
 
