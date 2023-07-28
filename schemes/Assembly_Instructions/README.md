@@ -20,6 +20,10 @@
 - ## Overview of Important Parts List. (重要零件清單概述)
 ### Raspberry Pi 4B 8G (樹梅派4B 8G )
 #### English
+<table border=0 width=100% >
+  <tr>
+    <td  >
+
 Specification:  
 
 - With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
@@ -29,6 +33,12 @@ Specification:
 
 Usage:  
 - Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
+ </td>
+    <td valign="top">
+<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
+    </td>
+  </tr>
+</table>
 
 #### 中文
 規格:  
@@ -38,8 +48,7 @@ Usage:
 - 配備USB介面設備和高清晰度多媒體接口的輸出，可以適應多種操作系統  
 
 用途:  
-- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式    
-<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />  
+- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
 ### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
