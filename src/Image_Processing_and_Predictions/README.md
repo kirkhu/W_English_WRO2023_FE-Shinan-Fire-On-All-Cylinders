@@ -31,11 +31,11 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 ### Traffic sign avoidance 交通標誌閃避  
 #### 英文
 - Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate.  
--Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
+- Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
 
 #### 中文
 - 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。  
-- 我們會利用Y座標判斷是哪一個顏色較近，再使用較近的交通標誌X座標減去我們所想要閃避到的座標計算出誤差值，將誤差值設定成伺服馬達轉向角度完成交通標誌閃避。  
+- 接著，我們透過將較近交通標誌的X座標減去我們所欲閃避的目標X座標，計算出誤差值。最後，我們將這個誤差值設定為伺服馬達轉向的角度，完成繞過交通標誌的閃避動作。
 
 ###  Using LIDAR to center on the road 使用光達道路置中
 #### 英文
@@ -49,10 +49,7 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 |:---:|:---:|
 |<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
 
-
-
     - Image Preprocessing
-    - Wall Steering
     - Pillar Steering
     - Final Steering
   - PARK Control Panel
