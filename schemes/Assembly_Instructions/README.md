@@ -55,7 +55,7 @@ __Usage:__
   <tr>
     <td > 
 
-__Specifications:__
+__Specifications:__  
 - No-load Speed: 126 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 3 - 12V  
@@ -171,7 +171,7 @@ __用途:__
 <table border=0 width=100% >
   <tr>
     <td >
-    
+
 __Specifications:__ 
 - Operating Voltage: 3.3V - 5.0V  
 - Number of Pins: 3  
