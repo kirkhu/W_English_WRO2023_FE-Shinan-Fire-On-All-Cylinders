@@ -21,6 +21,7 @@
 ### Raspberry Pi 4B 8G (樹梅派4B 8G )
 #### English
 Specification:  
+
 - With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
 - the total memory capacity of it has 1、2、4 or 8 Giga bytes.
 - The TransFlash card of it serves as the system’s main storage media.
@@ -31,18 +32,19 @@ Usage:
 
 #### 中文
 規格:  
-- 使用由Broadcom Corporation生產先進的精簡指令集計算機（ARM）
-- 其總記憶體容量為1、2、4或8 GB。
-- 它的TransFlash卡作為系統的主要儲存媒體。
-- 配備USB介面設備和高清晰度多媒體接口的輸出，可以適應多種操作系統。  
+- 使用由Broadcom Corporation生產的精簡指令集計算機(Reduced Instruction Set Computer)中的 ARM(Advanced RISC Machine) 處理器
+- 其總記憶體容量為1、2、4或8 GB
+- 它的TransFlash卡作為系統的主要儲存媒體
+- 配備USB介面設備和高清晰度多媒體接口的輸出，可以適應多種操作系統  
 
 用途:  
-- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式。  
+- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式    
 <img src="./img/raspberry_pi_4.png" width = "150" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />  
 
 ### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
 Specifications:  
+
 - No-load Speed: 126 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 3 - 12V  
@@ -57,12 +59,13 @@ Usage:
 - 工作電壓：3 - 12V  
 
 用途:  
-- 驅動汽車後輪以控制車輛前進與後退。  
+- 驅動汽車後輪以控制車輛前進與後退    
 <img src="./img/Motor.png" width = "150" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />  
 
 ### MG90S servo motor MG90S servo motor (MG90S伺服馬達)
 #### English
 Specifications:  
+
 - Controllable Rotation Angle: 90°  
 - Maximum Torque: 2.0 kg/cm (at 4.8V)  
 - Fastest Rotation Speed: 0.11 seconds (at 4.8V)  
@@ -79,12 +82,13 @@ Usage:
 - 工作電壓：4.8V - 7.2V  
 
 用途:
-- 控制前輪轉向使車輛轉彎。  
+- 控制前輪轉向使車輛轉彎    
 <img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />   
 
 ### L293d motor controler (L293d 馬達控制晶片)
 #### English
 Specifications:  
+
 - Wide power supply voltage range: 4.5V to 36V  
 - Output current per channel: 0.6mA per channel  
 - Peak output current: 1.2A  
@@ -99,12 +103,13 @@ Usage:
 - 峰值輸出電流：1.2A
 
 用途:
-- 控制GA25-371直流減速電機旋轉方向。  
+- 控制GA25-371直流減速電機旋轉方向    
 <img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />   
 
 ### Li-Polymer 3S Battery (鋰聚合物電池 3S)
 #### English
 Specifications:  
+
 - Maximum Current: 45.5A  
 - Net Weight: Approximately 107g  
 - Rated Voltage: 11.1V  
@@ -119,12 +124,13 @@ Usage:
 - 額定電壓：11.1V  
 
 用途:  
-- 供應電力給樹莓派及其他電子元件。  
+- 供應電力給樹莓派及其他電子元件    
 <img src="./img/lipo_battery.png" width = "300" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />   
 
 ### Button (B3F-4055 微動輕觸開關)
 #### English
 Specifications:  
+
 - Operating Voltage: 3.3V - 5.0V  
 - Number of Pins: 3  
 - Output Signal: Digital  
@@ -139,40 +145,73 @@ Usage:
 - 輸出信號：數字（Digital）
 
 用途:  
-- 在啟動程序之前發送啟動信號。  
+- 在啟動程序之前發送啟動信號    
 <img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
 
 ### High Current 5A Constant Voltage Constant Current Buck Power Supply Module (大電流5A恆壓恆流降壓電源模組)  
+#### English
 Specifications:  
-Input Voltage: 4.0V - 38.0V  
-Output Voltage: 1.25V - 36.0V  
-Operating Frequency: 180Hz  
+
+- Input Voltage: 4.0V - 38.0V  
+- Output Voltage: 1.25V - 36.0V  
+- Operating Frequency: 180Hz  
 
 Usage:  
-Stabilizing the power supplied by lithium batteries.  
+- Stabilizing the power supplied by lithium batteries.  
+
+#### 中文
+規格:  
+- 輸入電壓：4.0V - 38.0V
+- 輸出電壓：1.25V - 36.0V
+- 工作頻率：180Hz
+用途:  
+- 穩定鋰電池提供的電力  
 <img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
 
 ### TCS34725 RGB color sensor (TCS34725 顏色感測器)
+#### English
 Specifications:  
-Operating Voltage: 3.3V - 5.0V  
-Interface: I2C interface  
+
+- Operating Voltage: 3.3V - 5.0V  
+- Interface: I2C interface  
 
 Usage:  
-Line recognition and counting the current number of revolutions.  
+- Line color recognition 
+- counting the current number of revolutions.  
+
+#### 中文
+
+規格:  
+- 工作電壓：3.3V – 5.0V
+- 接口：I2C接口
+
+用途:  
+- 辨識線的顏色
+- 計算目前圈數  
 <img src="./img/TCS34725.png" width = "150" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
 
 ### SNOY IMX 219 Lens module (SNOY IMX 219鏡頭模組)  
+#### English
 Specifications:  
-Viewing Angle: 160 degrees  
-Interface: CSI (Camera Serial Interface)  
+- Viewing Angle: 160 degrees  
+- Interface: CSI (Camera Serial Interface)  
 
 Usage:  
-Collecting images for image recognition.  
+- Collecting images for image recognition.  
+
+#### 中文
+
+規格:  
+- 可見角度：160度
+- 接口：CSI (相機串行接口，Camera Serial Interface)
+
+用途:  
+- 收集影像用於影像辨識  
 <img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />   
 
 ### D100 LiDAR (D100 光達)
 #### English
-Specificatio:  
+Specifications:  
 
 The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
 - It utilizes triangulation technology for straightforward 360-degree full scanning, with a maximum range of 8 meters.
