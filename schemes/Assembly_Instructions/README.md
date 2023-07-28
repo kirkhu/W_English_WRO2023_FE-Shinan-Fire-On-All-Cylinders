@@ -13,7 +13,7 @@
 | :----: | :----: | :----: |  
 
 
-- ## Circuit board(電路板)
+- ## Circuit Board(電路板)
 | <img src="./img/circuit_up.jpg"  width = "500" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Circuit board(電路板)" > |
 | :----: | :----: | 
 
