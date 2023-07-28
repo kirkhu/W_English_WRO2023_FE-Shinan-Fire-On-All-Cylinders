@@ -67,6 +67,6 @@
    
    __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
 
-- Software link：[Raspberry Pi OS](https://code.visualstudio.com/) 
+- Software link：[Visal Studio Code](https://code.visualstudio.com/) 
 
   # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
