@@ -26,8 +26,8 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - [Obstacle Challenge overview(任務賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
   
 - ### ${{\color{red} Other(其他)}} $
-  - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md)
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
+  - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
   - [Demonstration Video(自走車各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)   
   - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)
   
