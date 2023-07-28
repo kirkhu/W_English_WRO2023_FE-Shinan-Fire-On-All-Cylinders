@@ -9,7 +9,7 @@
 ![image](./img/System_operation_process.png)  
 
 - ## Mechanical Structure(機體結構)
-| <img src="./img/up.jpg"  width = "500" alt="Image" > | <img src="./img/inside.jpg" width = "500" alt="Image" > | <img src="./img/up_view.png" width="500" alt="Image" > | 
+| <img src="./img/up.jpg"  width = "500" alt="機體結構" > | <img src="./img/inside.jpg" width = "500" alt="機體結構" > | <img src="./img/up_view.png" width="500" alt="機體結構" > | 
 | :----: | :----: | :----: |  
 
 
