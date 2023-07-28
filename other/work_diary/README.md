@@ -43,7 +43,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 | :---: | :---: |
 |  <img src="./IMG/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./IMG/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
-## 2023/07/01 ~ 2023/07/02  
+## 2023/04/01 ~ 2023/04/05  
 
 **member:** ZHAO,ZHEN-BO  
 
@@ -58,7 +58,7 @@ The next step is the steering motor. After searching the information on the Inte
 | :---: | :---: |
 |  <img src="./IMG/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./IMG/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
-## 2023/07/03 ~ 2023/07/05  
+## 2023/04/04 ~ 2023/04/06  
 
 **member:** ZHAO,ZHEN-BO  
 
@@ -73,7 +73,18 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 | :---: | :---: |
 |  <img src="./IMG/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./IMG/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
-## 2023/07/06 ~ 2023/07/08  
+## 2023/04/07 ~ 2023/04/10
+
+**member:** ZHAO,ZHEN-BO  
+
+**content:**
+
+To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
+
+
+要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動  
+
+## 2023/04/11 ~ 2023/04/14  
 
 **member:** ZHAO,ZHEN-BO  
 
@@ -89,7 +100,7 @@ But these are not complete, because there is no way to turn normally, so I added
 | <img src="./IMG/ultrasound.png" width = "150" height = "" alt="l298n" align=center /> |
 
 
-## 2023/07/09 ~ 2023/07/12  
+## 2023/04/15 ~ 2023/04/17  
 
 **member:** ZHAO,ZHEN-BO  
 
