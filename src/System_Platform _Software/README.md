@@ -20,7 +20,7 @@
 
 - ### Seutp Recode (紀錄場地值)
 ![images](./img/setup_recode.png)  
-- ### Programming Language
+- ### Programming Language(程式語言)
   ### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
   standard library, enabling developers to write code quickly and efficiently. 
