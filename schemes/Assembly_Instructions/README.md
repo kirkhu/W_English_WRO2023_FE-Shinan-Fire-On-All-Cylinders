@@ -35,7 +35,7 @@ Usage:
 - Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
  </td>
     <td valign="top">
-<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
+<img src="./img/raspberry_pi_4.png" width = "400" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
     </td>
   </tr>
 </table>
