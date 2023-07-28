@@ -6,22 +6,23 @@
  - [Introduction to Raspberry Pi(樹莓派介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)  
  #### English
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
+   - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
    - After installation, please update the operating system to ensure software compatibility.
 
    > $ sudo apt-get update  
 
    > $ sudo apt-get upgrade   
 
-   - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
-   - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
-   - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
-   - Install the PIGPIO Library to facilitate the control of the color sensor and read the field color values
-   - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
-   
+ - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
+ - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
+ - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
+ - Install the PIGPIO Library to facilitate the control of the color sensor and read the field color values
+ - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
+
  #### 中文
 
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
-   - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
+   - 軟體連結：[樹梅派](https://www.onshape.com/en/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
