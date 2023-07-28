@@ -3,7 +3,7 @@
 # <div align="center">Software Platform Construction (軟體平台建置)</div> 
 - ### System Platform Software Installation Process Diagram(系統軟體平台安裝程序圖)
 ![images](./img/software_setup.png) 
- - [Raspberry Pi Introduce](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
+ - [Introduction to Raspberry Pi(樹莓派介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
