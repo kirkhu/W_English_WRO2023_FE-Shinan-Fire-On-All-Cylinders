@@ -18,7 +18,7 @@
  - 安裝PIGPIO Library，以利控制顔色感測器，讀取場地顏色值
  - 安裝Dlidar光達的驅動程式，首先先取得Lidar安裝包，再來設定USB接口權限，之後安裝依賴項目，然後編譯，最後加入環境變數
 
-- ### Seutp Recode (紀錄場地值)
+- ### Green Recording of Venue Environmental Value Configuration(場地環境值記綠設定)
 ![images](./img/setup_recode.png)  
 - ### Programming Language(程式語言)
   ### English
