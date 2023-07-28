@@ -22,19 +22,19 @@
 #### English
 <table border=0 width=100% >
   <tr>
-    <td  >
+    <td >
 
-Specification:  
+__Specification:__  
 
 - With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
 - the total memory capacity of it has 1、2、4 or 8 Giga bytes.
 - The TransFlash card of it serves as the system’s main storage media.
 - equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
 
-Usage:  
+__Usage:__ 
 - Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
  </td>
-    <td valign="top">
+    <td >
 <img src="./img/raspberry_pi_4.png" width = "400" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
     </td>
   </tr>
@@ -52,24 +52,33 @@ Usage:
 
 ### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
-Specifications:  
+<table border=0 width=100% >
+  <tr>
+    <td > 
+
+__Specifications:__
 
 - No-load Speed: 126 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 3 - 12V  
-
-Usage:  
+__Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
+ </td>
+    <td >
+<img src="./img/Motor.png" width = "400" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />   
+    </td>
+  </tr>
+</table>
 
 #### 中文
-規格:
+__規格:__
 - 無負載轉速：126 rpm/m
 - 減速比：1:34
 - 工作電壓：3 - 12V  
 
-用途:  
+__用途:__ 
 - 驅動汽車後輪以控制車輛前進與後退    
-<img src="./img/Motor.png" width = "150" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />  
+
 
 ### MG90S servo motor MG90S servo motor (MG90S伺服馬達)
 #### English
