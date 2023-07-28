@@ -18,7 +18,7 @@
 | :----: | :----: | 
 
 - ## Overview of Important Parts List.(重要零件清單概述)
-### Raspberry Pi 4B 8G (樹梅派4B 8G )
+- ### Raspberry Pi 4B 8G (樹梅派4B 8G )
 Specification:  
 With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total memory capacity of it has 1、2、4 or 8 Giga bytes.The TransFlash card of it serves as the system’s main storage media. equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
 
@@ -28,7 +28,7 @@ Collects photos from the lens and carries out the image identifying, controls th
 
 
 
-### GA25-370 DC reduction motor(GA25-370 直流減速馬達) 
+- ### GA25-370 DC reduction motor(GA25-370 直流減速馬達) 
 Specifications:  
 No-load Speed: 126 rpm/m  
 Reduction Ratio: 1:34  
@@ -38,7 +38,7 @@ Usage:
 Driving the car's rear wheels to control the vehicle's forward and backward movements.  
 <img src="./img/Motor.png" width = "150" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />  
 
-### MG90S servo motor MG90S servo motor(MG90S伺服馬達)
+- ### MG90S servo motor MG90S servo motor(MG90S伺服馬達)
 Specifications:  
 Controllable Rotation Angle: 90°  
 Maximum Torque: 2.0 kg/cm (at 4.8V)  
@@ -49,7 +49,7 @@ Usage:
 Control the steering mechanism to make the vehicle turn.  
 <img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />   
 
-### L293d motor controler(L293d 馬達控制晶片)
+- ### L293d motor controler(L293d 馬達控制晶片)
 Specifications:  
 Wide power supply voltage range: 4.5V to 36V  
 Output current per channel: 0.6mA per channel  
@@ -59,7 +59,7 @@ Usage:
 Control the rotation direction of GA25-371 DC reduction motor.  
 <img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />   
 
-### Li-Polymer 3S Battery(鋰聚合物電池 3S)
+- ### Li-Polymer 3S Battery(鋰聚合物電池 3S)
 Specifications:  
 Maximum Current: 45.5A  
 Net Weight: Approximately 107g  
@@ -69,7 +69,7 @@ Usage:
 Supplying power to Raspberry Pi and other electronic components.  
 <img src="./img/lipo_battery.png" width = "300" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />   
 
-### Button( B3F-4055 微動輕觸開關)
+- ### Button( B3F-4055 微動輕觸開關)
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Number of Pins: 3  
@@ -79,7 +79,7 @@ Usage:
 Send an activation signal before initiating the program.  
 <img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
 
-### High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)  
+- ### High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)  
 Specifications:  
 Input Voltage: 4.0V - 38.0V  
 Output Voltage: 1.25V - 36.0V  
@@ -89,7 +89,7 @@ Usage:
 Stabilizing the power supplied by lithium batteries.  
 <img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
 
-### TCS34725 RGB color sensor(TCS34725 顏色感測器)
+- ### TCS34725 RGB color sensor(TCS34725 顏色感測器)
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Interface: I2C interface  
@@ -98,7 +98,7 @@ Usage:
 Line recognition and counting the current number of revolutions.  
 <img src="./img/TCS34725.png" width = "150" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
 
-### SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組)  
+- ### SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組)  
 Specifications:  
 Viewing Angle: 160 degrees  
 Interface: CSI (Camera Serial Interface)  
@@ -107,7 +107,7 @@ Usage:
 Collecting images for image recognition.  
 <img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />   
 
-### D100 LiDAR(D100 光達)
+- ### D100 LiDAR(D100 光達)
 Specification 規格:  
 
 The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
