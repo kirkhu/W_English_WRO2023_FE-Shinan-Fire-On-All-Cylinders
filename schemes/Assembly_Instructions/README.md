@@ -291,6 +291,7 @@ __Specifications:__
 The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
 - It utilizes triangulation technology for straightforward 360-degree full scanning, with a maximum range of 8 meters.
 - The detection frequency is 2300 Hz, and the physical dimensions of the device are 96.3 x 59.8 x 38.8 mm.
+
 __Usage:__  
 - Used for detecting front, left, and right walls and keeping the machine centered in the lane. 
   </td>
