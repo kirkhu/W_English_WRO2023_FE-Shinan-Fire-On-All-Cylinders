@@ -93,7 +93,7 @@ __Usage:__
 - Control the steering mechanism to make the vehicle turn.  
  </td>
     <td >
-<img src="./img/MG90S.png" width = "400" height = "" alt="MG90S servo motor伺服馬達" align=center />  
+<img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />  
     </td>
   </tr>
 </table>
@@ -123,7 +123,7 @@ __Usage:__
 - Control the rotation direction of GA25-371 DC reduction motor.  
  </td>
     <td >
-<img src="./img/l293d.png" width = "400" height = "" alt="L293d motor controler" align=center />  
+<img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />  
     </td>
   </tr>
 </table>
@@ -152,7 +152,7 @@ Usage:
 - Supplying power to Raspberry Pi and other electronic components.  
  </td>
     <td >
-<img src="./img/lipo_battery.png" width = "400" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
+<img src="./img/lipo_battery.png" width = "300" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
     </td>
   </tr>
 </table>
@@ -181,7 +181,7 @@ __Usage:__
 - Send an activation signal before initiating the program.  
  </td>
     <td >
-<img src="./img/button.png" width = "400" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
+<img src="./img/button.png" width = "100" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
     </td>
   </tr>
 </table>
@@ -211,7 +211,7 @@ __Usage:__
 - Stabilizing the power supplied by lithium batteries.  
  </td>
     <td >
-<img src="./img/ADIO-DC36V5A.png" width = "400" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
+<img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
     </td>
   </tr>
 </table>
@@ -240,7 +240,7 @@ __Usage:__
 - counting the current number of revolutions.  
  </td>
     <td >
-<img src="./img/TCS34725.png" width = "400" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
+<img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
     </td>
   </tr>
 </table>
@@ -268,7 +268,7 @@ __Usage:__
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="./img/raspi_camera_V2.png" width = "400" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
+<img src="./img/raspi_camera_V2.png" width = "200" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
     </td>
   </tr>
 </table>
