@@ -1,34 +1,43 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Hardware Assembly Instructions. (硬體組裝說明)</div>
+# <div align="center">Hardware Assembly Instructions.(硬體組裝說明)</div>
 
 - ## Components's Position (硬體結構配置)
-<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)">  
+<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)" >  
 
 - ## System Operation Process (系統運作流程)
 ![image](./img/System_operation_process.png)  
 
 - ## Mechanical Structure (機體結構)
-| <img src="./img/up.jpg"  width = "500" alt="機體結構" > | <img src="./img/inside.jpg" width = "500" alt="機體結構" > | <img src="./img/up_view.png" width="500" alt="機體結構" > | 
+| <img src="./img/up.jpg"  width = "400" alt="機體結構" > | <img src="./img/inside.jpg" width = "400" alt="機體結構" > | <img src="./img/up_view.png" width="400" alt="機體結構" > | 
 | :----: | :----: | :----: |  
 
 
 - ## Circuit Board (電路板)
-| <img src="./img/circuit_up.jpg"  width = "500" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Circuit board(電路板)" > |
+| <img src="./img/circuit_up.jpg"  width = "300" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "300" alt="Circuit board(電路板)" > |
 | :----: | :----: | 
 
 - ## Overview of Important Parts List. (重要零件清單概述)
 ### Raspberry Pi 4B 8G (樹梅派4B 8G )
 #### English
-Specification:  
-
+<table border=0 width=100% >
+  <tr>
+    <td >
+    
+__Specification:__ 
 - With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
 - the total memory capacity of it has 1、2、4 or 8 Giga bytes.
 - The TransFlash card of it serves as the system’s main storage media.
 - equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
 
-Usage:  
+__Usage:__ 
 - Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
+ </td>
+    <td >
+<img src="./img/raspberry_pi_4.png" width = "400" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
+    </td>
+  </tr>
+</table>
 
 #### 中文
 規格:  
@@ -38,29 +47,36 @@ Usage:
 - 配備USB介面設備和高清晰度多媒體接口的輸出，可以適應多種操作系統  
 
 用途:  
-- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式    
-<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />  
+- 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
 ### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
-Specifications:  
+<table border=0 width=100% >
+  <tr>
+    <td > 
 
+__Specifications:__
 - No-load Speed: 126 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 3 - 12V  
-
-Usage:  
+__Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
+ </td>
+    <td >
+<img src="./img/Motor.png" width = "400" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />   
+    </td>
+  </tr>
+</table>
 
 #### 中文
-規格:
+__規格:__
 - 無負載轉速：126 rpm/m
 - 減速比：1:34
 - 工作電壓：3 - 12V  
 
-用途:  
+__用途:__ 
 - 驅動汽車後輪以控制車輛前進與後退    
-<img src="./img/Motor.png" width = "150" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />  
+
 
 ### MG90S servo motor MG90S servo motor (MG90S伺服馬達)
 #### English
