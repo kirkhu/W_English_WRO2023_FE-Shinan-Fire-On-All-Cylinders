@@ -181,7 +181,7 @@ __Usage:__
 - Send an activation signal before initiating the program.  
  </td>
     <td >
-<img src="./img/button.png" width = "100" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
+<img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
     </td>
   </tr>
 </table>
