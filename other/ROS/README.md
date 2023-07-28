@@ -1,6 +1,6 @@
 ![LOGO](../img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">ROS of Introduction </div> 
+# <div align="center">Introduction to ROS(ROS系統介紹)</div> 
 ## English Introduction
 - ROS (Robot Operating System) is an open-source framework designed to facilitate the development of robot applications. It provides a collection of software libraries and tools that enable seamless communication and collaboration between different components of a robotic system.
 
