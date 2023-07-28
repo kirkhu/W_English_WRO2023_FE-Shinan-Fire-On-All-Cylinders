@@ -20,6 +20,49 @@
 
 - ### Green Recording of Venue Environmental Value Configuration(場地環境值記綠設定)
 ![images](./img/setup_recode.png)  
+#### [ColorDetect.py](../Programming/Open_Challenge/line_color_write.py)紀錄場地顏色數值
+#### 英文
+- Open ColorDetect.py to start recording the values of white, orange, and blue colors, and save the values to the color_sensor.p file.
+- Press the button to start recording the blue line. Move the color sensor back and forth over the white area of the field to record the minimum value of that area. Press the button again to stop recording and save the value of the white area to the color_sensor.p file.
+- After finishing recording the white zone, press the button again to start recording the orange line. Place the color sensor on the orange line and move it back and forth on the track to record the minimum value of the orange line. Press the button again to stop recording the orange line, and save the recorded orange line value to the "color_sensor.p" file.
+- After ending the recording of the orange line, press the button again to start recording the blue line. Place the color sensor on the blue line of the field and move it back and forth to record the minimum value of the blue line. Press the button again to end the recording of the blue line and save the value of the blue line to the "color_sensor.p" file.
+#### 中文
+- 打開ColorDetect.py開始記錄白、橘、藍顏色數值，將數值紀錄到color_sensor.p檔案裡。
+- 按下按鈕開始記錄藍線，將顏色感測器放在場地白色區域上來回移動，記錄該區域的最低數值。再次按下按鈕結束紀錄，並將白色區域數值記錄到color_sensor.p文件中。
+- 在結束紀錄白色區域後，再次按下按鈕開始記錄橘線，將顏色感測器放在場地橘線上來回移動，記錄橘線的最低數值。再次按下按鈕結束紀錄橘線，並將橘線數值紀錄到color_sensor.p文件中。
+- 在結束橘色線記錄後，再次按下按鈕開始記錄藍色線。將顏色感測器放在場地藍色線上來回移動，記錄藍色線的最低數值。再次按下按鈕結束藍色線記錄，並將藍色線的數值記錄到color_sensor.p文件中。
+
+|Record the color values of the venue(紀錄場地顏色數值)|
+|:---:|
+|<div align="center"> <img src="./img/detect_color.png" width="300" alt="detect_color"></div>|
+
+#### [HSV_Detect.py](../Programming/Obstacle_Challenge/HSV_Test.py)調整積木閥值
+#### 英文
+- After opening HSV_Detect.py, the following functions will be displayed corresponding to the keyboard number keys 1 to 5:  
+1: Display the previously recorded green threshold values.  
+2: Display the previously recorded red threshold values.  
+3: Restore the currently adjusted threshold values to their   default values.  
+4: Record the adjusted green threshold values to the HSV_Green.p file.  
+5: Record the adjusted red threshold values to the HSV_Red.p file.
+- When adjusting the block threshold, we will place a block both at a distant and close distance to ensure that the adjusted threshold can recognize blocks at any distance. After the adjustment, press the number keys 4 or 5 to record the threshold into the HSV_Green.p or HSV_Red.p file.
+- After adjusting the settings, you can press the number keys 1 and 2 to display the previous recorded thresholds for readjustment.
+#### 中文
+- 開啟 HSV_Detect.py 後，將會顯示以下功能對應於鍵盤數字鍵 1~5：  
+數字 1：顯示上次紀錄的綠色閥值。  
+數字 2：顯示上次紀錄的紅色閥值。  
+數字 3：將正在調整的閥值恢復為預設值。  
+數字 4：將調整完的綠色閥值記錄到 HSV_Green.p 檔案中。  
+數字 5：將調整完的紅色閥值記錄到 HSV_Red.p。 
+- 在調整積木閾值時，我們會在距離遠和近都放一顆積木，以確保調整的閾值可以辨識任何距離的積木。調整完後，按下數字鍵4或5，將閾值紀錄到HSV_Green.p或HSV_Red.p檔案裡。
+- 在調整記錄完成後，您可以按下數字鍵1、2來顯示上次記錄的閾值，以便進行再次調整。  
+
+|Adjust the green color threshold(調整綠色閾值)|Adjust the red color threshold(調整紅色閾值)|
+|:---:|:---:|
+|<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="300" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="300" alt="Adjust_the_red_color_threshold"></div>|
+
+|Display Button Functionality(顯示按鈕功能)|
+|:---:|
+|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="350" alt="Display_Button_Functionality"></div>|
 - ### Programming Language(程式語言)
   ### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
