@@ -18,7 +18,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
   - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   - [Software Platform Construction(自駕車輛系統軟體平台建置)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
-  - [OpenCV of Introduction(影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+  - [Introduction to OpenCV(OpenCV影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
   - [ROS Of Introduction(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)
   - [Image Processing and Predictions(影像處理)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Image_Processing_and_Predictions/README.md)
   - __Programming(自駕車輛程式設計)__
