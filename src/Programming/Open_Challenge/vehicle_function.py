@@ -11,7 +11,6 @@ import numpy as np
 import rospy
 from sensor_msgs.msg import LaserScan
 '''
-
     
 #==========各裝置腳位設定==========
 Red_LED_pin = 27   #紅色LED腳位編號
