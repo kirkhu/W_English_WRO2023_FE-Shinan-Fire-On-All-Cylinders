@@ -2,7 +2,7 @@
 =====
 # <div align="center">Work Diary</div> 
 
-## 2023/06/26  
+## 2023/03/19 ~ 2023/03/21  
 
 **member:** ZHAO,ZHEN-BO  
 
@@ -17,7 +17,18 @@ After reading the rules, I started to choose the controller. After watching the 
 | :---: | :---: |
 |  <img src="./IMG/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./IMG/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
-## 2023/06/29 ~ 2023/06/31  
+## 2023/03/22 ~ 2023/03/26
+
+**member:** ZHAO,ZHEN-BO  
+
+**content:** 
+
+After using the Raspberry Pi, I noticed that it tends to overheat and even get damaged due to prolonged usage. Therefore, I needed a heat sink. The original heat sink provided by the manufacturer couldn't be used on my Raspberry Pi because it is completely sealed and doesn't allow for proper ventilation. As a result, I chose another heat sink with dual fans, which is not sealed and can effectively dissipate heat.
+
+
+在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我選擇了另一個不密封而且有雙風扇的散熱器
+
+## 2023/03/27 ~ 2023/03/31  
 
 **member:** ZHAO,ZHEN-BO 
 
