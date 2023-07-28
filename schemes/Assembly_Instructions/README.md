@@ -3,7 +3,7 @@
 # <div align="center">Hardware Assembly Instructions.(硬體組裝說明)</div>
 
 - ## Components's Position (硬體結構配置)
-<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)" width = "600">  
+<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)" >  
 
 - ## System Operation Process (系統運作流程)
 ![image](./img/System_operation_process.png)  
