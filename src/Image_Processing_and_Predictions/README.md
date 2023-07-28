@@ -28,16 +28,29 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 |<img src="./img/Obstacle_detection.png" alt="Obstacle_detection" align=center />|
 </div>
 
-### Traffic sign avoidance 交通標誌閃避
-- Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate. Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.
+### Traffic sign avoidance 交通標誌閃避  
+#### 英文
+- Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate.  
+-Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
 
-- 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。我們會利用Y座標判斷是哪一個顏色較近，再使用較近的交通標誌X座標減去我們所想要閃避到的座標計算出誤差值，將誤差值設定成伺服馬達轉向角度完成交通標誌閃避。
+#### 中文
+- 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。  
+- 我們會利用Y座標判斷是哪一個顏色較近，再使用較近的交通標誌X座標減去我們所想要閃避到的座標計算出誤差值，將誤差值設定成伺服馬達轉向角度完成交通標誌閃避。  
 
-### 光達道路置中校正
+###  Using LIDAR to center on the road 使用光達道路置中
+#### 英文
+- Using LIDAR to measure the distances between the object's right and left sides and the walls, we can calculate the error values for both sides.  
+- By multiplying these error values with coefficients, we can obtain the angle to center the servo motor on the road.  
+#### 中文
+- 使用光達測量物體右邊和左邊與牆的距離，我們可以計算出兩側的誤差值。  
+- 透過將這些誤差值與係數相乘，我們可以獲得使伺服馬達在道路上置中的角度。  
+
+|LIDAR detects surrounding walls(光達偵測周圍牆壁)|LIDAR readings(光達讀取的數值)|
+|:---:|:---:|
+|<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
+
 - 
-|光達偵測周圍牆壁|
-|:---:|
-|<img src="./img/LIDAR_Detecting_Walls.png" width = "500" alt="LIDAR_Detecting_Walls" align=center />|
+
 
     - Image Preprocessing
     - Wall Steering
