@@ -170,8 +170,8 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td > 
-
+    <td >
+    
 __Specifications:__ 
 - Operating Voltage: 3.3V - 5.0V  
 - Number of Pins: 3  
@@ -211,7 +211,7 @@ __Usage:__
 - Stabilizing the power supplied by lithium batteries.  
  </td>
     <td >
-<img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
+<img src="./img/ADIO-DC36V5A.png" width = "400" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
     </td>
   </tr>
 </table>
@@ -240,7 +240,7 @@ __Usage:__
 - counting the current number of revolutions.  
  </td>
     <td >
-<img src="./img/TCS34725.png" width = "150" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
+<img src="./img/TCS34725.png" width = "400" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
     </td>
   </tr>
 </table>
@@ -268,7 +268,7 @@ __Usage:__
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
+<img src="./img/raspi_camera_V2.png" width = "400" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
     </td>
   </tr>
 </table>
@@ -296,7 +296,7 @@ __Usage:__
 - Used for detecting front, left, and right walls and keeping the machine centered in the lane. 
   </td>
     <td >
-<img src="./img/Lidar-D100.png" width = "175" height = "" alt="D100 LiDAR(D100 光達)" align=center />      
+<img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR(D100 光達)" align=center />      
     </td>
   </tr>
 </table>
