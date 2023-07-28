@@ -1,11 +1,11 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Software Platform Construction (軟體平台建置)</div> 
-- ### System Platform Software Installation Process Diagram.
+- ### System Platform Software Installation Process Diagram(系統軟體平台安裝程序圖)
 ![images](./img/software_setup.png) 
- - [Raspberry Pi Introduce](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
+ - [Introduction to Raspberry Pi(樹莓派介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
-   - Software link：[On Shope](https://www.onshape.com/en/) 
+   - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
@@ -20,7 +20,7 @@
 
 - ### Seutp Recode (紀錄場地值)
 ![images](./img/setup_recode.png)  
-- ### Programming Language
+- ### Programming Language(程式語言)
   ### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
   standard library, enabling developers to write code quickly and efficiently. 
@@ -36,7 +36,7 @@
 
    __因此，我們選用python 作為自駕車輛的程式開發語言。__ 
 
-- ### Mobaxterm Introduce
+- ### Introduction to  Mobaxterm( Mobaxterm 的介紹)
   ### English：
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
@@ -54,7 +54,7 @@
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
 
-- ### Visal Studio Code Introduce
+- ### Introduction to Visal Studio Code(Visal Studio Code的介紹)
   ### English：
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
   - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
@@ -67,6 +67,6 @@
    
    __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
 
-- Software link：[Raspberry Pi OS](https://code.visualstudio.com/) 
+- Software link：[Visal Studio Code](https://code.visualstudio.com/) 
 
   # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  

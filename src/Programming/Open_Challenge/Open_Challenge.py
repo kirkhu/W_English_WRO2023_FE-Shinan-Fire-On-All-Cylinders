@@ -9,17 +9,6 @@ import rospy
 from sensor_msgs.msg import LaserScan
 import signal
 
-#opencv_detect.get_program_fps()  ¨ú±o¼v¹³¿ëÃÑFPS
-#opencv_detect.get_keyboard()     ¨ú±oÁä½Lªº«öÁä
-#opencv_detect.get_green_node_x() ¨ú±oºñ¦â¿n¤ì»P±×½u¤§¥æÂIX(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_red_node_x()   ¨ú±o¬õ¦â¿n¤ì»P±×½u¤§¥æÂIX(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_green_x()      ¨ú±oºñ¦â¿n¤ìX®y¼Ð(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_green_y        ¨ú±oºñ¦â¿n¤ìY®y¼Ð(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_green_area()   ¨ú±oºñ¦â¿n¤ì­±¿n¤j¤p(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°0)
-#opencv_detect.get_red_x()        ¨ú±o¬õ¦â¿n¤ìX®y¼Ð(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_red_y          ¨ú±o¬õ¦â¿n¤ìY®y¼Ð(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°-1)
-#opencv_detect.get_red_area()     ¨ú±o¬õ¦â¿n¤ì­±¿n¤j¤p(¨S¿ëÃÑ¨ì¥Ø¼Ð¼Æ­È¬°0)
-
 LED = LED_control()
 button = button_control()
 motor = dc_motor()
