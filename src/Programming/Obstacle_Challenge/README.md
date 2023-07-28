@@ -17,7 +17,8 @@
 - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the "save_file" directory.
 
 - "line_color_write.py" 這個程式主要功能是用來讀取白色區域、橘色線條和藍色線條的顏色數值保存到名為color_sensor.p檔案並存入到"save_file"的資料夾中。
-###Flowchart for the Configuration of Green Recording of Venue Environmental Value(場地環境值記綠設定流程圖)
+
+### Flowchart for the Configuration of Green Recording of Venue Environmental Value(場地環境值記綠設定流程圖)
  ![場地環境值記綠設定流程圖](../../System_Platform%20_Software/img/setup_recode.png)  
 
 ## [vehicle_function.py](./vehicle_function.py)
