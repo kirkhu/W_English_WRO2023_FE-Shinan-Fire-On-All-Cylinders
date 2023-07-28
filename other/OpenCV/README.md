@@ -1,6 +1,6 @@
 ![LOGO](../img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Introduction to OpenCV(OpenCV介紹)</div> 
+# <div align="center">Introduction to OpenCV(OpenCV影像軟體介紹)</div> 
 ## English
 - OpenCV（Open Source Computer Vision Library） of Introduction
    OpenCV (Open Source Computer Vision Library) is an open-source computer vision library that serves as a powerful tool for processing images and videos in computer vision tasks. It supports various programming languages, including Python, C++, Java, and more, making it accessible across different platforms.
