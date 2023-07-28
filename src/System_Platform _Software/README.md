@@ -1,7 +1,7 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Software Platform Construction (軟體平台建置)</div> 
-- ### System Platform Software Installation Process Diagram.
+- ### System Platform Software Installation Process Diagram(系統軟體平台安裝程序圖)
 ![images](./img/software_setup.png) 
  - [Raspberry Pi Introduce](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
