@@ -5,7 +5,7 @@
 ![images](./img/software_setup.png) 
  - [Raspberry Pi Introduce](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
-   - Software link：[On Shope](https://www.onshape.com/en/) 
+   - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
