@@ -23,9 +23,8 @@
 <table border=0 width=100% >
   <tr>
     <td >
-
-__Specification:__  
-
+    
+__Specification:__ 
 - With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
 - the total memory capacity of it has 1、2、4 or 8 Giga bytes.
 - The TransFlash card of it serves as the system’s main storage media.
@@ -57,7 +56,6 @@ __Usage:__
     <td > 
 
 __Specifications:__
-
 - No-load Speed: 126 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 3 - 12V  
