@@ -27,6 +27,12 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 
 - 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。我們會利用Y座標判斷是哪一個顏色較近，再使用較近的交通標誌X座標減去我們所想要閃避到的座標計算出誤差值，將誤差值設定成伺服馬達轉向角度完成交通標誌閃避。
 
+### 光達道路置中校正
+- 
+|光達偵測周圍牆壁|
+|:---:|
+|<img src="./img/LIDAR_Detecting_Walls.png" width = "500" alt="LIDAR_Detecting_Walls" align=center />|
+
     - Image Preprocessing
     - Wall Steering
     - Pillar Steering
