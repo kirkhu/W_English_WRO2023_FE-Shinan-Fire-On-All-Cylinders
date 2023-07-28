@@ -36,7 +36,7 @@
 
    __因此，我們選用python 作為自駕車輛的程式開發語言。__ 
 
-- ### Mobaxterm Introduce
+- ### Introduction to  Mobaxterm( Mobaxterm 的介紹)
   ### English：
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
@@ -54,7 +54,7 @@
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
 
-- ### Visal Studio Code Introduce
+- ### Introduction to Visal Studio Code(Visal Studio Code的介紹)
   ### English：
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
   - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
