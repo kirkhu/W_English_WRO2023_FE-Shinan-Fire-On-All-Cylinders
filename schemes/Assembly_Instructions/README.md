@@ -256,7 +256,7 @@ __用途:__
 
 ### SNOY IMX 219 Lens module (SNOY IMX 219鏡頭模組)  
 #### English
-<table border=0 width=100% >
+<table border=0 width="100%" >
   <tr>
     <td > 
 
