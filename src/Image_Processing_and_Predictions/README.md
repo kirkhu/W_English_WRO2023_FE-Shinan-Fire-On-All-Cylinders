@@ -49,7 +49,6 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 |:---:|:---:|
 |<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
 
-- 
 
 
     - Image Preprocessing
