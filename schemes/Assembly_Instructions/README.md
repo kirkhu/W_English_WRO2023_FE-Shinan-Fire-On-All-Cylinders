@@ -1,20 +1,20 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Hardware Assembly Instructions. (硬體組裝說明)</div>
+# <div align="center">Hardware Assembly Instructions.(硬體組裝說明)</div>
 
 - ## Components's Position (硬體結構配置)
-<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)">  
+<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)" >  
 
 - ## System Operation Process (系統運作流程)
 ![image](./img/System_operation_process.png)  
 
 - ## Mechanical Structure (機體結構)
-| <img src="./img/up.jpg"  width = "500" alt="機體結構" > | <img src="./img/inside.jpg" width = "500" alt="機體結構" > | <img src="./img/up_view.png" width="500" alt="機體結構" > | 
+| <img src="./img/up.jpg"  width = "400" alt="機體結構" > | <img src="./img/inside.jpg" width = "400" alt="機體結構" > | <img src="./img/up_view.png" width="400" alt="機體結構" > | 
 | :----: | :----: | :----: |  
 
 
 - ## Circuit Board (電路板)
-| <img src="./img/circuit_up.jpg"  width = "500" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Circuit board(電路板)" > |
+| <img src="./img/circuit_up.jpg"  width = "300" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "300" alt="Circuit board(電路板)" > |
 | :----: | :----: | 
 
 - ## Overview of Important Parts List. (重要零件清單概述)
