@@ -1,20 +1,20 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Hardware assembly instructions.(硬體組裝說明)</div>
+# <div align="center">Hardware Assembly Instructions.(硬體組裝說明)</div>
 
 - ## Components's Position (硬體結構配置)
-<img src="./img/introduct.png" alt="介紹圖">  
+<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)">  
 
-- ## System operation process(系統運作流程)
+- ## System Operation Process(系統運作流程)
 ![image](./img/System_operation_process.png)  
 
-- ## Mechanical structure(機體結構)
+- ## Mechanical Structure(機體結構)
 | <img src="./img/up.jpg"  width = "500" alt="Image" > | <img src="./img/inside.jpg" width = "500" alt="Image" > | <img src="./img/up_view.png" width="500" alt="Image" > | 
 | :----: | :----: | :----: |  
 
 
-- ## circuit board(電路板)
-| <img src="./img/circuit_up.jpg"  width = "500" alt="Image" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Image" > |
+- ## Circuit board(電路板)
+| <img src="./img/circuit_up.jpg"  width = "500" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "500" alt="Circuit board(電路板)" > |
 | :----: | :----: | 
 
 - ## Overview of Important Parts List.(重要零件清單概述)
@@ -24,7 +24,7 @@ With the Advanced RISC Machine(ARM) produced by Broadcom Corporation , the total
 
 Usage:  
 Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
-<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center />  
+<img src="./img/raspberry_pi_4.png" width = "150" height = "" alt="Raspberry Pi 4B(8G)樹梅派" align=center />  
 
 
 
@@ -36,7 +36,7 @@ Operating Voltage: 3 - 12V
 
 Usage:  
 Driving the car's rear wheels to control the vehicle's forward and backward movements.  
-<img src="./img/Motor.png" width = "150" height = "" alt="馬達圖" align=center />  
+<img src="./img/Motor.png" width = "150" height = "" alt="GA25-370 DC reduction motor馬達圖" align=center />  
 
 ### MG90S servo motor  
 Specifications:  
@@ -47,7 +47,7 @@ Operating Voltage: 4.8V - 7.2V
 
 Usage:  
 Control the steering mechanism to make the vehicle turn.  
-<img src="./img/MG90S.png" width = "200" height = "" alt="伺服馬達" align=center />   
+<img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />   
 
 ### L293d motor controler  
 Specifications:  
@@ -57,7 +57,7 @@ Peak output current: 1.2A
 
 Usage:  
 Control the rotation direction of GA25-371 DC reduction motor.  
-<img src="./img/l293d.png" width = "200" height = "" alt="顏色感測器" align=center />   
+<img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />   
 
 ### Li-Polymer 3S Battery(鋰聚合物電池 3S)
 Specifications:  
@@ -67,7 +67,7 @@ Rated Voltage: 11.1V
 
 Usage:  
 Supplying power to Raspberry Pi and other electronic components.  
-<img src="./img/lipo_battery.png" width = "300" height = "" alt="電池" align=center />   
+<img src="./img/lipo_battery.png" width = "300" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />   
 
 ### Button( B3F-4055 微動輕觸開關)
 Specifications:  
@@ -77,7 +77,7 @@ Output Signal: Digital
 
 Usage:  
 Send an activation signal before initiating the program.  
-<img src="./img/button.png" width = "200" height = "" alt="按鈕" align=center />   
+<img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
 
 ### High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)  
 Specifications:  
@@ -87,25 +87,25 @@ Operating Frequency: 180Hz
 
 Usage:  
 Stabilizing the power supplied by lithium batteries.  
-<img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="降壓板" align=center />   
+<img src="./img/ADIO-DC36V5A.png" width = "250" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
 
-### TCS34725  RGB color sensor  
+### TCS34725  RGB color sensor(顏色感測器)
 Specifications:  
 Operating Voltage: 3.3V - 5.0V  
 Interface: I2C interface  
 
 Usage:  
 Line recognition and counting the current number of revolutions.  
-<img src="./img/TCS34725.png" width = "150" height = "" alt="顏色感測器" align=center />   
+<img src="./img/TCS34725.png" width = "150" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
 
-### Raspberry Pi Camera V2  
+### SNOY IMX 219(鏡頭模組)  
 Specifications:  
 Viewing Angle: 160 degrees  
 Interface: CSI (Camera Serial Interface)  
 
 Usage:  
 Collecting images for image recognition.  
-<img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="相機" align=center />   
+<img src="./img/raspi_camera_V2.png" width = "175" height = "" alt="SNOY IMX 219(鏡頭模組) " align=center />   
 
 ### D100 LiDAR(D100 光達)
 Specification 規格:  
@@ -123,6 +123,6 @@ Usage:
 
 Used for detecting front-facing walls and keeping the machine centered in the lane.  
 用於偵測前方牆壁及使機器維持在車道中央  
-<img src="./img/Lidar-D100.png" width = "175" height = "" alt="光達" align=center />  
+<img src="./img/Lidar-D100.png" width = "175" height = "" alt="D100 LiDAR(D100 光達)" align=center />  
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
