@@ -46,8 +46,8 @@
 - TinkerCAD 可以用來繪製自駕車所需的電路圖，而且是免費且容易操作的網頁型態設計軟體，不需要另外安裝軟體。
 - 藉由TinkerCAD繪製電路圖後，可方便依圖在電木板上焊接電路，減少錯誤率，並可便修正。
 - 本競賽活動所製的電路圖均藉由TinkerCAD設計而成。
-- Software link：[On Shope](https://www.tinkercad.com/)  
- 
+- Software link：[TinkerCAD](https://www.tinkercad.com/)  
+
 | Onshape | TinkerCAD |
 |:----:|:----:|
 |<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/tinkercad.png" width="500" alt=" TinkerCAD">| 
