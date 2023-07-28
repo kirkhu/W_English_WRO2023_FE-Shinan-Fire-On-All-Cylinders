@@ -6,7 +6,7 @@
  - [Introduction to Raspberry Pi(樹莓派介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi/README.md)  
  #### English
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
-   - Software link：[Raspberry Pi](https://www.onshape.com/en/) 
+   - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
 
    > $ sudo apt-get update  
@@ -22,7 +22,7 @@
  #### 中文
 
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
-   - 軟體連結：[樹梅派](https://www.onshape.com/en/) 
+   - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
 
    > $ sudo apt-get update  
