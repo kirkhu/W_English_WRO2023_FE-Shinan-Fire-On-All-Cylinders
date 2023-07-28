@@ -152,7 +152,7 @@ Usage:
 - Supplying power to Raspberry Pi and other electronic components.  
  </td>
     <td >
-<img src="./img/lipo_battery.png" width = "300" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
+<img src="./img/lipo_battery.png" width = "400" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
     </td>
   </tr>
 </table>
