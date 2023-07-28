@@ -63,7 +63,7 @@ __Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
  </td>
     <td >
-<img src="./img/Motor.png" width = "300" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />   
+<img src="./img/Motor.png" width = "250" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />   
     </td>
   </tr>
 </table>
