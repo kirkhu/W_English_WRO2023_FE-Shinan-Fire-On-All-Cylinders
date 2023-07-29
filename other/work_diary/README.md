@@ -6,9 +6,9 @@
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
-After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
+- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
 
-在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
+- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
@@ -17,6 +17,20 @@ After reading the rules, We started to choose the controller. After watching the
 ## 2023/03/27 ~ 2023/04/02
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 **content:** 
+
+
+
+
+上網找如何製作自走車及參考美國的技術報告
+
+| [Donkey Car 官網](http://docs.donkeycar.com/)| [Donkey Car 技術文件](http://docs.donkeycar.com/) |
+| :---: | :---: |
+|  <img src="./img/3/donkeycar.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "150" height = "" alt="jeston nano" align=center /> |
+
+
+
+
+
 
 After using the Raspberry Pi, I noticed that it tends to overheat and even get damaged due to prolonged usage. Therefore, I needed a heat sink. The original heat sink provided by the manufacturer couldn't be used on my Raspberry Pi because it is completely sealed and doesn't allow for proper ventilation. As a result, I chose another heat sink with dual fans, which is not sealed and can effectively dissipate heat.
 
@@ -189,7 +203,7 @@ Over these few days, we have been continuously adjusting and fine-tuning the exe
 
 這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
 
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729.jpg" />|
+| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" />|
 | :---: | :---: |
 
 
