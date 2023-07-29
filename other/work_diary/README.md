@@ -229,7 +229,7 @@ Over these few days, we have been continuously adjusting and fine-tuning the exe
 
 
 ========================================================================================================
-### 以下未修改
+### 以下未整理
 
 
 Although it is possible to move straight using the gyroscope and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
