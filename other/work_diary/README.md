@@ -173,7 +173,7 @@ However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also enco
 
 | lidar D100  |  ydlidar x4  |   ydlidar x2    |      
 |:----: | :----: | :----:|
-|<img src="./IMG/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./IMG/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./IMG/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+|<img src="./IMG/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./IMG/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./IMG/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
 
 ## 2023/07/23 ~ 2023/07/25  
