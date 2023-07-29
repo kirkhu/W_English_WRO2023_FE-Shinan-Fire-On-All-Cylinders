@@ -3,9 +3,7 @@
 # <div align="center">Work Diary (工作日誌)</div> 
 
 ## 2023/03/19 ~ 2023/03/26  
-
 **member:** ZHAO,ZHEN-BO  
-
 **content:**  
 
 After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
@@ -17,9 +15,7 @@ After reading the rules, We started to choose the controller. After watching the
 |  <img src="./img/3/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
 ## 2023/03/27 ~ 2023/04/02
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN
-
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 **content:** 
 
 After using the Raspberry Pi, I noticed that it tends to overheat and even get damaged due to prolonged usage. Therefore, I needed a heat sink. The original heat sink provided by the manufacturer couldn't be used on my Raspberry Pi because it is completely sealed and doesn't allow for proper ventilation. As a result, I chose another heat sink with dual fans, which is not sealed and can effectively dissipate heat.
@@ -29,10 +25,8 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 <img src="./img/3/daily.jpg" width=200 alt="l298n" >
 
 
-## 2023/04/03 ~ 2023/04/09
-
+## 2023/04/03 ~ 2023/04/09  
 **member:** ZHAO,ZHEN-BO 
-
 **content:**  
 
 While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
@@ -44,9 +38,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 |  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
 ## 2023/04/10 ~ 2023/04/16  
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
 **content:**  
 
 The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
@@ -58,9 +50,7 @@ The next step is the steering motor. After searching the information on the Inte
 |  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
 ## 2023/04/17 ~ 2023/04/23
-
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**  
 
 Next is the motor controller. There are two options: the L293D chip and the L298N module. To reduce weight, we chose the smaller L293D chip. Its compact size allows us to install more sensors, which in turn saves space, reduces weight, and increases the mobility of the robot.  
@@ -72,9 +62,7 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 |  <img src="./img/4/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/4/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
 ## 2023/04/24 ~ 2023/04/30
-
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**
 
 To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
@@ -84,9 +72,7 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 
 ## 2023/05/01~ 2023/05/07  
-
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**  
 
 - When the vehicle is uncertain about the distance ahead, it cannot turn in time when encountering a wall. Therefore, ultrasonic sensors have been added to enable the vehicle to turn before colliding with the wall. 
@@ -100,9 +86,7 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 | <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
 
 ## 2023/05/08 ~ 2023/05/14  
-
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**
 - In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor.The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.The high precision of this sensor ensures that the vehicle can accurately recognize the colors of the ground lines and execute clockwise or counterclockwise turns as needed. This is a crucial factor in the vehicle's excellent performance and victory in the competition.In conclusion, the TCS34725 color sensor is a perfect fit for the requirements of this competition. Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieve clockwise and counterclockwise turns, and enhance its performance in the competition. 
 - I encountered a bottleneck when using the color sensor to detect lines because I was unsure how to write a Python program to detect the values of blue and orange lines. With the guidance of my teacher, I successfully completed it. The partial code is as follows:
@@ -125,22 +109,120 @@ TCS34725 顏色感測器被選中是因為它滿足了此次競賽的所有要�
 |<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
 | :---: | :---: |
 
-
-## 2023/07/16 ~ 2023/07/17  
+## 2023/05/15 ~ 2023/05/21  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-The next step is to use the gyroscope to make the machine move in a straight line, but the gyroscope is not easy to use, so it is the help of the seniors to make my machine move in a straight line  
 
 
-接下來就是借用陀螺儀讓機器能夠直線前進，但是陀螺儀並不好使用，因此是學長幫忙才讓我的機器能夠直線行走  
 
 
-## 2023/07/18 ~ 2023/07/22  
-
+## 2023/05/22 ~ 2023/05/28  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**
+
+
+
+
+## 2023/05/29 ~ 2023/06/04  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+
+## 2023/06/05 ~ 2023/06/11 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+## 2023/06/12 ~ 2023/06/18
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+## 2023/06/19 ~ 2023/06/25   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+## 2023/06/26 ~ 2023/07/02 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+## 2023/07/03 ~ 2023/07/09 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+## 2023/07/10 ~ 2023/07/16 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+## 2023/07/17 ~ 2023/07/23  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+## 2023/07/24 ~ 2023/07/30  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+Today, we made significant progress in our project. We successfully organized and listed the components in the parts inventory, and we uploaded it to the technical documentation. Additionally, we completed the drawing of the vehicle's introduction diagram. Throughout this process, we embarked on a learning journey, gradually familiarizing ourselves with GitHub syntax. Although we are not yet fully proficient in using GitHub, we dedicated time to researching relevant information online and steadily improving our skills. These achievements have brought valuable advancements to our report and project as a whole.
+
+今天我們完成了將零件清單整理並列點，並上傳至技術文件中。此外，我們也完成了車體的介紹圖的繪製工作。在這個過程中，我們逐步學習了GitHub語法的使用並逐漸熟悉它。儘管對GitHub的使用不是很熟練，但我們努力在網上查詢相關資訊，並逐步提高了技能水平。這些進展為我們的報告帶來了寶貴的進步。
+
+
+Over these few days, we have been continuously adjusting and fine-tuning the execution of venue tasks, making constant adjustments to motor speed and various parameters in the hopes of effectively reducing the error rate. We are eager to achieve better performance and improve our overall competition results.
+
+這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
+
+| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729.jpg" />|
+| :---: | :---: |
+
+
+| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727" >|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" />|
+| :---: | :---: |
+
+
+## 2023/07/31 ~ 2023/08/06
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+
+## 2023/08/07 ~ 2023/08/13
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+## 2023/08/14 ~ 2023/08/20
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================================================================================
+### 以下未修改
+
 
 Although it is possible to move straight using the gyroscope and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
 However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
@@ -171,33 +253,7 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 
 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將陀螺儀的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
 
-## 2023/07/26 ~ 2023/07/27
 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
-**content:**
-
-Today, we made significant progress in our project. We successfully organized and listed the components in the parts inventory, and we uploaded it to the technical documentation. Additionally, we completed the drawing of the vehicle's introduction diagram. Throughout this process, we embarked on a learning journey, gradually familiarizing ourselves with GitHub syntax. Although we are not yet fully proficient in using GitHub, we dedicated time to researching relevant information online and steadily improving our skills. These achievements have brought valuable advancements to our report and project as a whole.
-
-今天我們完成了將零件清單整理並列點，並上傳至技術文件中。此外，我們也完成了車體的介紹圖的繪製工作。在這個過程中，我們逐步學習了GitHub語法的使用並逐漸熟悉它。儘管對GitHub的使用不是很熟練，但我們努力在網上查詢相關資訊，並逐步提高了技能水平。這些進展為我們的報告帶來了寶貴的進步。
-
-| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727" >|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" />|
-| :---: | :---: |
-
-
-
-## 2023/07/28 ~ 2023/07/30
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
-**content:**
-
-Over these few days, we have been continuously adjusting and fine-tuning the execution of venue tasks, making constant adjustments to motor speed and various parameters in the hopes of effectively reducing the error rate. We are eager to achieve better performance and improve our overall competition results.
-
-這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
-
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729.jpg" />|
-| :---: | :---: |
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
