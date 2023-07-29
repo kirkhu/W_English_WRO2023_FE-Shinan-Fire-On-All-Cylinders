@@ -135,6 +135,7 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
     > def enable_selection(self):  
         ENABLE_CONFIGURATION = (TCS34725_REG_ENABLE_AEN | TCS34725_REG_ENABLE_PON)
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ENABLE | TCS34725_COMMAND_BIT, ENABLE_CONFIGURATION)
+          
     > def time_selection(self):
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ATIME | TCS34725_COMMAND_BIT, TCS34725_REG_ATIME_2_4)
 
@@ -143,6 +144,7 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CONTROL | TCS34725_COMMAND_BIT, TCS34725_REG_CONTROL_AGAIN_1)
     > def readluminance(self):
         data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8)
+        
         cData = data[1] * 256 + data[0]
         red = data[3] * 256 + data[2]
         green = data[5] * 256 + data[4]
