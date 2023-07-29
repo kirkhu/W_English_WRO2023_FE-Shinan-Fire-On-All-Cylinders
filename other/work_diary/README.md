@@ -206,10 +206,10 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" />|
+| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 >|<img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 />|
 | :---: | :---: |
 
-| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727" >|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" />|
+| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />|
 | :---: | :---: |
 
 
