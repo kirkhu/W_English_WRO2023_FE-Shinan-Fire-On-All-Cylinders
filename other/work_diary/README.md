@@ -6,37 +6,30 @@
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
+
+上網找如何製作自走車及參考美國的技術報告
+
+| [Donkey Car 官網](http://docs.donkeycar.com/)| [Donkey Car 技術文件](http://docs.donkeycar.com/) |
+| :---: | :---: |
+|  <img src="./img/3/donkeycar.png" width = "500" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "500" height = "" alt="jeston nano" align=center /> |
+
+
+<img src="./img/3/Daily.jpg" width=200 alt="Daily" >
+
+
+
+## 2023/03/27 ~ 2023/04/02
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
+**content:** 
+
 - After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
 
 - 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
-|  <img src="./img/3/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/raspberry_pi_4.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "300" height = "" alt="jeston nano" align=center /> |
 
-## 2023/03/27 ~ 2023/04/02
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
-**content:** 
-
-
-
-
-上網找如何製作自走車及參考美國的技術報告
-
-| [Donkey Car 官網](http://docs.donkeycar.com/)| [Donkey Car 技術文件](http://docs.donkeycar.com/) |
-| :---: | :---: |
-|  <img src="./img/3/donkeycar.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "150" height = "" alt="jeston nano" align=center /> |
-
-
-
-
-
-
-After using the Raspberry Pi, I noticed that it tends to overheat and even get damaged due to prolonged usage. Therefore, I needed a heat sink. The original heat sink provided by the manufacturer couldn't be used on my Raspberry Pi because it is completely sealed and doesn't allow for proper ventilation. As a result, I chose another heat sink with dual fans, which is not sealed and can effectively dissipate heat.
-
-在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器。
-
-<img src="./img/3/daily.jpg" width=200 alt="l298n" >
 
 
 ## 2023/04/03 ~ 2023/04/09  
