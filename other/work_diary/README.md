@@ -26,7 +26,7 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 
 在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器。
 
-<img src="./IMG/work.jpg" width=200 alt="l298n" >
+<img src="./IMG/daily.jpg" width=200 alt="l298n" >
 
 
 ## 2023/03/27 ~ 2023/03/31  
