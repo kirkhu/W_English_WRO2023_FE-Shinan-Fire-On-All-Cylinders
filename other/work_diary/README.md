@@ -89,20 +89,21 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 **content:**  
 
-But these are not complete, because there is no way to turn normally, so I added supersonic, so that you can turn before hitting the wall  
+- When the vehicle is uncertain about the distance ahead, it cannot turn in time when encountering a wall. Therefore, ultrasonic sensors have been added to enable the vehicle to turn before colliding with the wall. 
+- Based on the experiments conducted, it has been found that ultrasonic sensors can only detect obstacles in front of the vehicle. Additionally, they are less effective in detecting distances while the vehicle is swaying from side to side. Therefore, it has been decided to adopt a 360-degree LiDAR sensor for detecting distances in front of, as well as to the left and right sides of the vehicle.
 
+- 車輛在不知道前方距離時，無法在遇到牆壁及時轉彎，因此加上了超音波，這樣就可以在撞到牆之前轉彎。 
+- 經實驗得知，超音波只能偵測前方障礙物距離，且在車輛左右晃動下，不容易偵測距離，因此改採用可以360度偵測的光達感測器，來當車輛的前方、左右邊的距離。
 
-但是這些還不完整，因為沒辦法正常的轉彎，因此我加上了超音波，這樣就可以在撞到牆之前轉彎  
-
-| ultrasound |
-| :---: |
-| <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |
+| ultrasound | ydlidar x2 |
+| :---: |:---: |
+| <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
 
 
 ## 2023/04/15 ~ 2023/04/17  
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
+.心弓土
 **content:**
 
 But you can't just turn, because you need to rotate clockwise and counterclockwise, so you need a color sensor to sense the color of the ground line to judge whether it is clockwise or counterclockwise, so when choosing a color sensor, because it is to measure the line on the ground, it should be thin and close to the ground, so it can't be too large, so the TCS34725 color sensor meets my requirements.  
@@ -217,7 +218,7 @@ Over these few days, we have been continuously adjusting and fine-tuning the exe
 
 這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
 
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="l298n" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729" />|
+| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729.jpg" />|
 | :---: | :---: |
 
 
