@@ -126,12 +126,12 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 - 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
 - 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
-  >   class TCS34725():
-    >   def __init__(self):
-        self.enable_selection()
-        self.time_selection()
-        self.gain_selection()
-    > def enable_selection(self):
+  >   class TCS34725():  
+    >   def __init__(self):  
+        self.enable_selection()  
+        self.time_selection()  
+        self.gain_selection()  
+    > def enable_selection(self):  
         ENABLE_CONFIGURATION = (TCS34725_REG_ENABLE_AEN | TCS34725_REG_ENABLE_PON)
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ENABLE | TCS34725_COMMAND_BIT, ENABLE_CONFIGURATION)
     > def time_selection(self):
