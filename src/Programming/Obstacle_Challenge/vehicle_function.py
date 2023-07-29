@@ -157,7 +157,7 @@ class TCS34725():
     def gain_selection(self):
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CONTROL | TCS34725_COMMAND_BIT, TCS34725_REG_CONTROL_AGAIN_1)
 
-    def readluminance(self):
+    def readluminance(self):        
         data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8)
 
         cData = data[1] * 256 + data[0]
