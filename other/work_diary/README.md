@@ -2,7 +2,7 @@
 =====
 # <div align="center">Work Diary (工作日誌)</div> 
 
-## 2023/03/19 ~ 2023/03/21  
+## 2023/03/19 ~ 2023/03/26  
 
 **member:** ZHAO,ZHEN-BO  
 
@@ -16,7 +16,7 @@ After reading the rules, We started to choose the controller. After watching the
 | :---: | :---: |
 |  <img src="./img/3/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
-## 2023/03/22 ~ 2023/03/26
+## 2023/03/27 ~ 2023/04/02
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN
 
@@ -29,7 +29,7 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 <img src="./img/3/daily.jpg" width=200 alt="l298n" >
 
 
-## 2023/03/27 ~ 2023/03/31  
+## 2023/04/03 ~ 2023/04/09
 
 **member:** ZHAO,ZHEN-BO 
 
@@ -43,7 +43,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 | :---: | :---: |
 |  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
-## 2023/04/01 ~ 2023/04/05  
+## 2023/04/10 ~ 2023/04/16  
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
@@ -57,7 +57,7 @@ The next step is the steering motor. After searching the information on the Inte
 | :---: | :---: |
 |  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
-## 2023/04/04 ~ 2023/04/06  
+## 2023/04/17 ~ 2023/04/23
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
@@ -71,7 +71,7 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 | :---: | :---: |
 |  <img src="./img/4/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/4/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
-## 2023/04/07 ~ 2023/04/10
+## 2023/04/24 ~ 2023/04/30
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
@@ -83,7 +83,7 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 
 
-## 2023/04/11 ~ 2023/04/14  
+## 2023/05/01~ 2023/05/07  
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
@@ -99,44 +99,31 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 | :---: |:---: |
 | <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
 
-
-## 2023/04/15 ~ 2023/04/17  
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
-
-But you can't just turn, because you need to rotate clockwise and counterclockwise, so you need a color sensor to sense the color of the ground line to judge whether it is clockwise or counterclockwise, so when choosing a color sensor, because it is to measure the line on the ground, it should be thin and close to the ground, so it can't be too large, so the TCS34725 color sensor meets my requirements.  
-
-
-但是不能只會轉彎，因為要順時針旋轉和逆時針旋轉，因此需要顏色感測器感測地上線的顏色來判斷是順時針和逆時針，所以在挑選顏色感測器時，因為是要測地上的線，所以要薄的，可以貼近地面的，所以也不能太大，因此 TCS34725 顏色感測器很符合我的要求  
-
-|<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
-| :---: | :---: |
-
-
-## 2023/05/07 ~ 2023/05/14
+## 2023/05/08 ~ 2023/05/14  
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
-
+- 
 - I encountered a bottleneck when using the color sensor to detect lines because I was unsure how to write a Python program to detect the values of blue and orange lines. With the guidance of my teacher, I successfully completed it. The partial code is as follows:
 - During the implementation testing, it was discovered that we originally used a USB 180-degree adapter (as shown in the lower left image), but it was prone to colliding with obstacles, particularly building blocks. As a result, we made a change and switched to using a USB 3.0 90-degree adapter for the connection. This modification makes it less likely to accidentally hit obstacles when trying to avoid them.
 
+- 車輛在競賽中需要展現更多功能，而僅僅懂得轉彎是不夠的。為了實現順時針和逆時針的轉彎，我們必須裝備車輛以感測地上線的顏色，並相應地做出適當的判斷。因此，我們在挑選顏色感測器時，要特別謹慎。
+TCS34725 顏色感測器被選中是因為它滿足了此次競賽的所有要求。首先，它具有出色的感測功能，可以快速而準確地辨識地面線條的顏色。其次，這款感測器相當薄且小巧，這意味著它可以輕鬆貼近地面，不會對車輛的運行造成任何干擾。
+該感測器的高度精確度確保了車輛可以準確識別地面線條的顏色，並且根據需要執行順時針或逆時針的轉彎動作。這是車輛在競賽中表現出色並獲得優勝的關鍵因素之一。
+綜上所述，TCS34725 顏色感測器是一款完美符合本次競賽要求的感測器。它的薄型設計和高度精確的顏色識別功能使車輛能夠靈活適應地面線條的變化，實現順時針和逆時針的轉彎，從而提升了車輛在競賽中的表現。
 - 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
 - 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
  
- |片段程式|定義成函數|
- | :---: | :---: |
- |<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|
+|片段程式|定義成函數|
+| :---: | :---: |
+|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|
 
 | <img src="./img/5/180.jpg" alt="USB180" width=500>|<img src="./img/5/90.jpg" alt="USB90" width=500>|
 | :---: | :---: |
 
-
-
-
-
+|<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
+| :---: | :---: |
 
 
 ## 2023/07/16 ~ 2023/07/17  
