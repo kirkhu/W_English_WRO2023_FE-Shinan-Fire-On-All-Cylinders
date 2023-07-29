@@ -10,7 +10,6 @@
 
 After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
 
-
 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 | raspberry pi 4 B 8G | Jeston Nano |
@@ -38,7 +37,6 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 
 While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
 
-
 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
 
 | GA25-370 | JGA16-050 |
@@ -52,7 +50,6 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 **content:**  
 
 The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
-
 
 接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前著齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
 
@@ -68,7 +65,6 @@ The next step is the steering motor. After searching the information on the Inte
 
 Next is the motor controller. There are two options: the L293D chip and the L298N module. To reduce weight, we chose the smaller L293D chip. Its compact size allows us to install more sensors, which in turn saves space, reduces weight, and increases the mobility of the robot.  
 
-
 接下來是馬達控制器。有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。    
 
 | L293D | L298N |
@@ -83,8 +79,9 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 
 To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
 
-
 我們要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動。  
+
+
 
 ## 2023/04/11 ~ 2023/04/14  
 
@@ -142,7 +139,9 @@ During the implementation and testing phase, we encountered an issue with the or
 Then use the algorithm to limit the value to an integer, so that the value of identifying the color looks neater, and it is easier to find problems in the debugger  
 
 
-之後利用演算法使數值限制成整數，讓辨識顏色的數值看起來較整齊，比較容易在偵錯器中找到問題  
+之後利用演算法使數值限制成整數，讓辨識顏色的數值看起來較整齊，比較容易在偵錯器中找到問題 。
+
+
 
 
 ## 2023/07/16 ~ 2023/07/17  
@@ -166,17 +165,15 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 Although it is possible to move straight using the gyroscope and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
 However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
 
-
-
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
 |      |       |
 | :---: | :---: |
 |<img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
 
-|  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
-| :----: | :----: | :----:|
-|<img src=".img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+| lidar D100  |  ydlidar x4  |   ydlidar x2    |      
+|:----: | :----: | :----:|
+|<img src="./IMG/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./IMG/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./IMG/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
 
 ## 2023/07/23 ~ 2023/07/25  
@@ -215,8 +212,9 @@ Today, we made significant progress in our project. We successfully organized an
 
 **content:**
 
-這幾天我們持續調整及修正，
+Over these few days, we have been continuously adjusting and fine-tuning the execution of venue tasks, making constant adjustments to motor speed and various parameters in the hopes of effectively reducing the error rate. We are eager to achieve better performance and improve our overall competition results.
 
+這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
 
 |       |       |
 | :---: | :---: |
