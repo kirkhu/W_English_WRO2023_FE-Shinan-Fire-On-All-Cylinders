@@ -28,6 +28,8 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 
 在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器
 
+<img src="./IMG/work.jpg" width=200 alt="l298n" >
+
 ## 2023/03/27 ~ 2023/03/31  
 
 **member:** ZHAO,ZHEN-BO 
@@ -113,16 +115,21 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 
 
-## 2023/07/09 ~ 2023/07/12  
+## 2023/07/09 ~ 2023/07/12
 
 **member:** ZHAO,ZHEN-BO  
 
 **content:**
 
 Later, when I used the color sensor to detect the line, I encountered some bottlenecks, because I still don’t know how to detect the values ​​​​of the blue and orange lines, so I searched online, but there was no satisfactory result, so I asked my seniors and referred to their programs. Later, the detection was successful, and I can confirm that there is a line on the ground, but I still can’t tell whether it is blue or orange.  
-
+During the implementation and testing phase, we encountered an issue with the original USB 180-degree adapter (as shown in the bottom-left image). We found that it was prone to colliding with building blocks, which caused inconvenience. Therefore, we decided to switch to using a USB 90-degree adapter for the connection (as shown in the bottom-right image). This modification improved the clearance, reducing the risk of collision with surrounding components.
 
 在之後使用顏色感測器偵測線時遇到了點瓶頸，因為我還不知道要怎麼偵測藍、橘線的數值，因此我上網找，但是沒有滿意的結果，所以我詢問學長，參考了他們的程式，後來偵測成功了，可以確定地上有線，但是還是無法分辨是藍色還是橘色  
+我們也發現一個問題，本來我們是使用usb 180度轉接頭(如左下圖)，但在實作測試時，我們發現很容易撞到積木，因此我們改成使用usb 90度轉接頭來連接。
+
+|      |       |       |
+| :---: | :---: |:---: |
+| <img src="./IMG/180.jpg" alt="l298n" >|<img src="./IMG/bag.jpg" alt="l298n" />| <img src="./IMG/90.jpg" alt="l298n" >|
 
 
 ## 2023/07/13 ~ 2023/07/15  
