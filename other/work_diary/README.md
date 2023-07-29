@@ -1,6 +1,6 @@
 ![LOGO](../img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Work Diary</div> 
+# <div align="center">Work Diary (工作日誌)</div> 
 
 ## 2023/03/19 ~ 2023/03/21  
 
@@ -217,9 +217,9 @@ Over these few days, we have been continuously adjusting and fine-tuning the exe
 
 這幾天我們持續調整及修正場地任務執行，不斷地進行馬達速度和各項參數的微調，期望能有效降低失誤率，期待能夠取得更好的表現並提高整體競賽成績。
 
-|       |       |
-| :---: | :---: |
 | <img src="./img/7/work_photo_2_1_0729.jpg" alt="l298n" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729" />|
+| :---: | :---: |
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
