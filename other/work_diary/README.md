@@ -199,8 +199,8 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 |   |    |    |
 | :---: | :---: |:---: |
-| <img src="./img/7/Spacer1.png" alt="Spacer" >|<img src="./img/7/Spacer2.jpg" alt="Spacer" />|<img src="./img/7/Spacer3.jpg" alt="Spacer" />|
-| <img src="./img/7/Spacer4.jpg" alt="Spacer" >|<img src="./img/7/Spacer5.jpg" alt="Spacer" />|<img src="./img/7/Spacer6.jpg" alt="Spacer" />|
+| <img src="./img/7/Spacer1.png" alt="Spacer" width=300 />|<img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/>|
+| <img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer6.jpg" alt="Spacer" width=300 />|
 
 
 
