@@ -117,7 +117,7 @@ TCS34725 顏色感測器被選中是因為它滿足了此次競賽的所有要�
  
 |片段程式|定義成函數|
 | :---: | :---: |
-|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|
+|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 >|
 
 | <img src="./img/5/180.jpg" alt="USB180" width=500>|<img src="./img/5/90.jpg" alt="USB90" width=500>|
 | :---: | :---: |
@@ -127,9 +127,7 @@ TCS34725 顏色感測器被選中是因為它滿足了此次競賽的所有要�
 
 
 ## 2023/07/16 ~ 2023/07/17  
-
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
 **content:**
 
 The next step is to use the gyroscope to make the machine move in a straight line, but the gyroscope is not easy to use, so it is the help of the seniors to make my machine move in a straight line  
