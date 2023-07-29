@@ -121,11 +121,40 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 **content:**
 
-Later, when I used the color sensor to detect the line, I encountered some bottlenecks, because I still don’t know how to detect the values ​​​​of the blue and orange lines, so I searched online, but there was no satisfactory result, so I asked my seniors and referred to their programs. Later, the detection was successful, and I can confirm that there is a line on the ground, but I still can’t tell whether it is blue or orange.  
-During the implementation and testing phase, we encountered an issue with the original USB 180-degree adapter (as shown in the bottom-left image). We found that it was prone to colliding with building blocks, which caused inconvenience. Therefore, we decided to switch to using a USB 90-degree adapter for the connection (as shown in the bottom-right image). This modification improved the clearance, reducing the risk of collision with surrounding components.
+- I encountered a bottleneck when using the color sensor to detect lines because I was unsure how to write a Python program to detect the values of blue and orange lines. With the guidance of my teacher, I successfully completed it. The partial code is as follows:
+- During the implementation testing, it was discovered that we originally used a USB 180-degree adapter (as shown in the lower left image), but it was prone to colliding with obstacles, particularly building blocks. As a result, we made a change and switched to using a USB 3.0 90-degree adapter for the connection. This modification makes it less likely to accidentally hit obstacles when trying to avoid them.
 
-在之後使用顏色感測器偵測線時遇到了點瓶頸，因為我還不知道要怎麼偵測藍、橘線的數值，因此我上網找，但是沒有滿意的結果，所以我詢問學長，參考了他們的程式，後來偵測成功了，可以確定地上有線，但是還是無法分辨是藍色還是橘色  
-我們也發現一個問題，本來我們是使用usb 180度轉接頭(如左下圖)，但在實作測試時，我們發現很容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接。
+- 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
+- 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
+  > class TCS34725():
+    def __init__(self):
+        self.enable_selection()
+        self.time_selection()
+        self.gain_selection()
+
+    def enable_selection(self):
+        ENABLE_CONFIGURATION = (TCS34725_REG_ENABLE_AEN | TCS34725_REG_ENABLE_PON)
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ENABLE | TCS34725_COMMAND_BIT, ENABLE_CONFIGURATION)
+
+    def time_selection(self):
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ATIME | TCS34725_COMMAND_BIT, TCS34725_REG_ATIME_2_4)
+
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_WTIME | TCS34725_COMMAND_BIT, TCS34725_REG_WTIME_2_4)
+
+    def gain_selection(self):
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CONTROL | TCS34725_COMMAND_BIT, TCS34725_REG_CONTROL_AGAIN_1)
+
+    def readluminance(self):
+        data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8)
+
+        cData = data[1] * 256 + data[0]
+        red = data[3] * 256 + data[2]
+        green = data[5] * 256 + data[4]
+        blue = data[7] * 256 + data[6]
+
+        luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
+
+        return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 
 | <img src="./img/7/180.jpg" alt="USB180" >|<img src="./img/7/90.jpg" alt="USB90" >|
 | :---: | :---: |
