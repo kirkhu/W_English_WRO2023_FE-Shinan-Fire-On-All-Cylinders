@@ -11,10 +11,10 @@
 
 | [Donkey Car 官網](http://docs.donkeycar.com/)| [Donkey Car 技術文件](http://docs.donkeycar.com/) |
 | :---: | :---: |
-|  <img src="./img/3/donkeycar.png" width = "500" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "500" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/donkeycar.png" width = "400" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "400" height = "" alt="jeston nano" align=center /> |
 
 
-<img src="./img/3/Daily.jpg" width=200 alt="Daily" >
+<img src="./img/3/Daily.jpg" width=400 alt="Daily" >
 
 
 
