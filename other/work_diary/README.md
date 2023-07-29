@@ -14,7 +14,7 @@ After reading the rules, We started to choose the controller. After watching the
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
-|  <img src="./IMG/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./IMG/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/raspberry_pi_4.png" width = "150" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "150" height = "" alt="jeston nano" align=center /> |
 
 ## 2023/03/22 ~ 2023/03/26
 
@@ -26,7 +26,7 @@ After using the Raspberry Pi, I noticed that it tends to overheat and even get d
 
 在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器。
 
-<img src="./IMG/daily.jpg" width=200 alt="l298n" >
+<img src="./img/3/daily.jpg" width=200 alt="l298n" >
 
 
 ## 2023/03/27 ~ 2023/03/31  
@@ -41,7 +41,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 
 | GA25-370 | JGA16-050 |
 | :---: | :---: |
-|  <img src="./IMG/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./IMG/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
+|  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
 ## 2023/04/01 ~ 2023/04/05  
 
@@ -55,7 +55,7 @@ The next step is the steering motor. After searching the information on the Inte
 
 | MG90S | SG90 |
 | :---: | :---: |
-|  <img src="./IMG/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./IMG/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
+|  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
 ## 2023/04/04 ~ 2023/04/06  
 
@@ -69,7 +69,7 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 
 | L293D | L298N |
 | :---: | :---: |
-|  <img src="./IMG/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./IMG/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
+|  <img src="./img/4/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/4/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
 ## 2023/04/07 ~ 2023/04/10
 
@@ -96,7 +96,7 @@ But these are not complete, because there is no way to turn normally, so I added
 
 | ultrasound |
 | :---: |
-| <img src="./IMG/ultrasound.png" width = "150" height = "" alt="l298n" align=center /> |
+| <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |
 
 
 ## 2023/04/15 ~ 2023/04/17  
@@ -109,9 +109,10 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 
 但是不能只會轉彎，因為要順時針旋轉和逆時針旋轉，因此需要顏色感測器感測地上線的顏色來判斷是順時針和逆時針，所以在挑選顏色感測器時，因為是要測地上的線，所以要薄的，可以貼近地面的，所以也不能太大，因此 TCS34725 顏色感測器很符合我的要求  
-|       |       |
+
+|<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
 | :---: | :---: |
-|<img src="./IMG/ground.jpg" width=200 alt="l298n" >|<img src="./IMG/bi.jpg" width=200 alt="l298n" > |
+
 
 ## 2023/07/09 ~ 2023/07/12
 
@@ -123,11 +124,11 @@ Later, when I used the color sensor to detect the line, I encountered some bottl
 During the implementation and testing phase, we encountered an issue with the original USB 180-degree adapter (as shown in the bottom-left image). We found that it was prone to colliding with building blocks, which caused inconvenience. Therefore, we decided to switch to using a USB 90-degree adapter for the connection (as shown in the bottom-right image). This modification improved the clearance, reducing the risk of collision with surrounding components.
 
 在之後使用顏色感測器偵測線時遇到了點瓶頸，因為我還不知道要怎麼偵測藍、橘線的數值，因此我上網找，但是沒有滿意的結果，所以我詢問學長，參考了他們的程式，後來偵測成功了，可以確定地上有線，但是還是無法分辨是藍色還是橘色  
-我們也發現一個問題，本來我們是使用usb 180度轉接頭(如左下圖)，但在實作測試時，我們發現很容易撞到積木，因此我們改成使用usb 90度轉接頭來連接。
+我們也發現一個問題，本來我們是使用usb 180度轉接頭(如左下圖)，但在實作測試時，我們發現很容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接。
 
-|      |       |       |
-| :---: | :---: |:---: |
-| <img src="./IMG/180.jpg" alt="l298n" >|<img src="./IMG/bag.jpg" alt="l298n" />| <img src="./IMG/90.jpg" alt="l298n" >|
+| <img src="./img/7/180.jpg" alt="USB180" >|<img src="./img/7/90.jpg" alt="USB90" >|
+| :---: | :---: |
+
 
 
 ## 2023/07/13 ~ 2023/07/15  
@@ -167,13 +168,13 @@ However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also enco
 
 雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
-|      |       |
+|<img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
 | :---: | :---: |
-|<img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
+
 
 | lidar D100  |  ydlidar x4  |   ydlidar x2    |      
 |:----: | :----: | :----:|
-|<img src="./IMG/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./IMG/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./IMG/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+|<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/7/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
 
 ## 2023/07/23 ~ 2023/07/25  
@@ -201,9 +202,9 @@ Today, we made significant progress in our project. We successfully organized an
 
 今天我們完成了將零件清單整理並列點，並上傳至技術文件中。此外，我們也完成了車體的介紹圖的繪製工作。在這個過程中，我們逐步學習了GitHub語法的使用並逐漸熟悉它。儘管對GitHub的使用不是很熟練，但我們努力在網上查詢相關資訊，並逐步提高了技能水平。這些進展為我們的報告帶來了寶貴的進步。
 
-|       |       |
+| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727" >|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" />|
 | :---: | :---: |
-| <img src="./IMG/work.jpg" alt="l298n" >|<img src="./IMG/work_photo.jpg" alt="l298n" />|
+
 
 
 ## 2023/07/28 ~ 2023/07/30
@@ -218,7 +219,7 @@ Over these few days, we have been continuously adjusting and fine-tuning the exe
 
 |       |       |
 | :---: | :---: |
-| <img src="./IMG/work_photo_1.jpg" alt="l298n" >|<img src="./IMG/work_photo_2.jpg" alt="l298n" />|
+| <img src="./img/7/work_photo_2_1_0729.jpg" alt="l298n" >|<img src="./img/7/work_photo_2_0729.jpg" alt="work_photo_2_2_0729" />|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
