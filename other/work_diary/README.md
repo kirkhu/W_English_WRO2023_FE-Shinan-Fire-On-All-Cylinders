@@ -131,29 +131,22 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
         self.enable_selection()
         self.time_selection()
         self.gain_selection()
-
     > def enable_selection(self):
         ENABLE_CONFIGURATION = (TCS34725_REG_ENABLE_AEN | TCS34725_REG_ENABLE_PON)
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ENABLE | TCS34725_COMMAND_BIT, ENABLE_CONFIGURATION)
-
     > def time_selection(self):
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ATIME | TCS34725_COMMAND_BIT, TCS34725_REG_ATIME_2_4)
 
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_WTIME | TCS34725_COMMAND_BIT, TCS34725_REG_WTIME_2_4)
-
     > def gain_selection(self):
         bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CONTROL | TCS34725_COMMAND_BIT, TCS34725_REG_CONTROL_AGAIN_1)
-
     > def readluminance(self):
         data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8)
-
         cData = data[1] * 256 + data[0]
         red = data[3] * 256 + data[2]
         green = data[5] * 256 + data[4]
         blue = data[7] * 256 + data[6]
-
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
-
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 
 | <img src="./img/7/180.jpg" alt="USB180" >|<img src="./img/7/90.jpg" alt="USB90" >|
