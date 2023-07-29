@@ -19,16 +19,16 @@ After reading the rules, We started to choose the controller. After watching the
 
 ## 2023/03/22 ~ 2023/03/26
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN
 
 **content:** 
 
 After using the Raspberry Pi, I noticed that it tends to overheat and even get damaged due to prolonged usage. Therefore, I needed a heat sink. The original heat sink provided by the manufacturer couldn't be used on my Raspberry Pi because it is completely sealed and doesn't allow for proper ventilation. As a result, I chose another heat sink with dual fans, which is not sealed and can effectively dissipate heat.
 
-
-在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器
+在使用樹梅派之後我發現樹梅派會因為長期使用而過熱，還會燒壞，因此需要散熱器，原廠的散熱器並不能在我的樹梅派上使用，因為散熱器是完全密封的，沒辦法使，因此我們選擇了另一個不密封而且有雙風扇的散熱器。
 
 <img src="./IMG/work.jpg" width=200 alt="l298n" >
+
 
 ## 2023/03/27 ~ 2023/03/31  
 
@@ -47,7 +47,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 
 ## 2023/04/01 ~ 2023/04/05  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**  
 
@@ -62,7 +62,7 @@ The next step is the steering motor. After searching the information on the Inte
 
 ## 2023/04/04 ~ 2023/04/06  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**  
 
@@ -77,18 +77,18 @@ Next is the motor controller. There are two options: the L293D chip and the L298
 
 ## 2023/04/07 ~ 2023/04/10
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
 To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
 
 
-要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動  
+我們要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動。  
 
 ## 2023/04/11 ~ 2023/04/14  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**  
 
@@ -104,7 +104,7 @@ But these are not complete, because there is no way to turn normally, so I added
 
 ## 2023/04/15 ~ 2023/04/17  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
@@ -112,12 +112,13 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 
 
 但是不能只會轉彎，因為要順時針旋轉和逆時針旋轉，因此需要顏色感測器感測地上線的顏色來判斷是順時針和逆時針，所以在挑選顏色感測器時，因為是要測地上的線，所以要薄的，可以貼近地面的，所以也不能太大，因此 TCS34725 顏色感測器很符合我的要求  
-
-
+|       |       |
+| :---: | :---: |
+|<img src="./IMG/ground.jpg" width=200 alt="l298n" >|<img src="./IMG/bi.jpg" width=200 alt="l298n" > |
 
 ## 2023/07/09 ~ 2023/07/12
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
@@ -134,7 +135,7 @@ During the implementation and testing phase, we encountered an issue with the or
 
 ## 2023/07/13 ~ 2023/07/15  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
@@ -146,7 +147,7 @@ Then use the algorithm to limit the value to an integer, so that the value of id
 
 ## 2023/07/16 ~ 2023/07/17  
 
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
@@ -158,14 +159,19 @@ The next step is to use the gyroscope to make the machine move in a straight lin
 
 ## 2023/07/18 ~ 2023/07/22  
 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
 **content:**
 
 Although it is possible to move straight using the gyroscope and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
+However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
 
 
-雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎 
+
+雖然可以藉由陀螺儀直行，和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
+然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+
+<img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> <img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
 
 
 ## 2023/07/23 ~ 2023/07/25  
@@ -197,8 +203,6 @@ Today, we made significant progress in our project. We successfully organized an
 | :---: | :---: |
 | <img src="./IMG/work.jpg" alt="l298n" >|<img src="./IMG/work_photo.jpg" alt="l298n" />|
 
-# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
-
 
 ## 2023/07/28 ~ 2023/07/30
 
@@ -214,3 +218,4 @@ Today, we made significant progress in our project. We successfully organized an
 | <img src="./IMG/work_photo_1.jpg" alt="l298n" >|<img src="./IMG/work_photo_2.jpg" alt="l298n" />|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
+
