@@ -103,7 +103,6 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 ## 2023/04/15 ~ 2023/04/17  
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-.心弓土
 **content:**
 
 But you can't just turn, because you need to rotate clockwise and counterclockwise, so you need a color sensor to sense the color of the ground line to judge whether it is clockwise or counterclockwise, so when choosing a color sensor, because it is to measure the line on the ground, it should be thin and close to the ground, so it can't be too large, so the TCS34725 color sensor meets my requirements.  
@@ -115,7 +114,7 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 | :---: | :---: |
 
 
-## 2023/07/09 ~ 2023/07/12
+## 2023/05/07 ~ 2023/05/14
 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 
@@ -127,23 +126,15 @@ But you can't just turn, because you need to rotate clockwise and counterclockwi
 - 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
 - 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用usb3.0 90度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
  
- <img src="./img/7/TCS34725_code.png" alt="TCS34725" width=500 >
+ |片段程式|定義成函數|
+ | :---: | :---: |
+ |<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|
 
-| <img src="./img/7/180.jpg" alt="USB180" width=500>|<img src="./img/7/90.jpg" alt="USB90" width=500>|
+| <img src="./img/5/180.jpg" alt="USB180" width=500>|<img src="./img/5/90.jpg" alt="USB90" width=500>|
 | :---: | :---: |
 
 
 
-## 2023/07/13 ~ 2023/07/15  
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
-**content:**
-
-Then use the algorithm to limit the value to an integer, so that the value of identifying the color looks neater, and it is easier to find problems in the debugger  
-
-
-之後利用演算法使數值限制成整數，讓辨識顏色的數值看起來較整齊，比較容易在偵錯器中找到問題 。
 
 
 
