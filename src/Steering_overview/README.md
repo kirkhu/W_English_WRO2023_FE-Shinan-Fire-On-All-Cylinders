@@ -42,8 +42,7 @@ if get_mid_dis > 55:
 - We will complete the avoidance of traffic signs through the following steps:  
  1.Use the Y coordinates to determine which block has a larger Y coordinate, indicating that it is closer.  
  2.Determine the color of the closer traffic sign and obtain its X coordinate.  
- 3.Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance 
- coefficient to calculate the error value.  
+ 3.Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance coefficient to calculate the error value.  
  4.Set the steering angle of the servo motor to turn in the direction of the error value, completing the avoidance of the traffic sign.
 
 #### 中文
