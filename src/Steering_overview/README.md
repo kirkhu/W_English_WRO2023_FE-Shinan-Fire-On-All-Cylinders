@@ -60,6 +60,16 @@ if get_mid_dis > 55:
   
 
 ## slalom Steering
+
+#### English
+
+
+- We will use the color sensor to detect the number of times the line is crossed and determine if it has exceeded the set count.
+- If the specified count is not reached, the system will continuously record the color of the nearest traffic sign until the number of line crossings is greater than or equal to the set count. At that point, it will stop recording colors.
+- After recording the color of the nearest traffic sign, the program will determine if the color is red. If the sign color is red, the system will set the servo motor angle for a right turn and continue turning until the vehicle is facing the specified direction. If the nearest traffic sign color is not red, the vehicle will continue moving forward.
+
+#### 中文
+
 - 我們會使用顏色感測器來偵測經過的線條次數，並判斷是否超過了設定的次數。
 - 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
 - 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
