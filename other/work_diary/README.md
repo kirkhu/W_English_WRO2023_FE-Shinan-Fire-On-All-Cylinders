@@ -147,10 +147,15 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 
 由於V3與我們raspberry pi的作業系統不符，因此不採用，而1.3的偵率只有30p，而V2最高達到90p，因此最後我們選擇了raspberry pi camera Module V2。
 
-| <img src="./img/4/site.jpg" width=200 alt="site"  /> | <img src="./img/4/site.jpg" width=200 alt="site" > | <img src="./img/4/site.jpg" width=200 alt="site" /> |
+| <img src="./img/5/V1.jpeg" width=200 alt="site"  /> | <img src="./img/5/V2.jpeg" width=200 alt="site" > | <img src="./img/5/V3.jpeg" width=200 alt="site" /> |
 | :---: | :---: | :---: |
-|  ||
+| raspberry pi camera Rev 1.3 | raspberry pi camera Module V2 | raspberry pi camera Module V3 |
 
+在之後測試時，發現當汽車閃避積木時無法預判下一個積木的位置，因此我們將原本的鏡頭改裝成廣角，相比原本的72度的視野範圍，廣角的160度範圍大，能夠提前預判下一積木的位置
+
+| 原本的 | 加裝廣角後 |
+| :---: | :---: |
+|<img src="./img/5/V2.jpeg" width=200 alt="site" >|<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >|
 
 
 ## 2023/05/22 ~ 2023/05/28  
