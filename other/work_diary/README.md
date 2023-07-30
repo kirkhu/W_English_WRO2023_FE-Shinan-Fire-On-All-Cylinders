@@ -303,22 +303,5 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
