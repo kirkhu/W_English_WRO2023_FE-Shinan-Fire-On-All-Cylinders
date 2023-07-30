@@ -56,7 +56,17 @@
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
 **content:**  
 
-The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
+To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
+After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
+
+我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
+在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應
+
+## 2023/04/17 ~ 2023/04/23
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**  
+
+ The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
 
 接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前者是齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
 
@@ -64,30 +74,11 @@ The next step is the steering motor. After searching the information on the Inte
 | :---: | :---: |
 |  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
-## 2023/04/17 ~ 2023/04/23
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**  
-
-To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
-After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
-
-我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
-在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應 
-
 <img src="./img/4/lego_robot.png" width = "300" height = "" alt="MG90S" align=center />
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-
-
-
-
-
-
-## 2023/05/01~ 2023/05/07  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**  
 
 - When the vehicle is uncertain about the distance ahead, it cannot turn in time when encountering a wall. Therefore, ultrasonic sensors have been added to enable the vehicle to turn before colliding with the wall. 
 - Based on the experiments conducted, it has been found that ultrasonic sensors can only detect obstacles in front of the vehicle. Additionally, they are less effective in detecting distances while the vehicle is swaying from side to side. Therefore, it has been decided to adopt a 360-degree LiDAR sensor for detecting distances in front of, as well as to the left and right sides of the vehicle.
@@ -99,16 +90,19 @@ After the vehicle becomes operational, additional sensors are added to allow the
 | :---: | :---: |
 | <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
 
-## 2023/05/08 ~ 2023/05/14  
+
+## 2023/05/01~ 2023/05/07  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**content:**  
 
 While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
 
 在測試的時候我發現用樂高積木的移動速度不快，轉彎時還會因為重量過重而無法成功轉彎，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板可以利用 Onshape 自行繪畫調整。
 
+| <img src="./img/5/wood.png" width = "280" height = "" alt="wood" align=center /> |<img src="./img/5/onshape.png" width = "320" height = "" alt="onshape" align=center /> |
+| :---: | :---: |
 
-## 2023/05/15 ~ 2023/05/21  
+## 2023/05/08 ~ 2023/05/14  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
@@ -132,13 +126,30 @@ While moving the robot, I noticed that using LEGO blocks for construction result
  
 |片段程式|定義成函數|
 | :---: | :---: |
-|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500 >|<img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 >|
+|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ >|<img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 />|
 
-| <img src="./img/5/180.jpg" alt="USB180" width=500>|<img src="./img/5/90.jpg" alt="USB90" width=500>|
+| <img src="./img/5/180.jpg" alt="USB180" width=500/>|<img src="./img/5/90.jpg" alt="USB90" width=500/>|
 | :---: | :---: |
 
-|<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
+|<img src="./img/4/site.jpg" width=200 alt="site" />|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" /> |
 | :---: | :---: |
+
+
+## 2023/05/15 ~ 2023/05/21  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+為了能夠讓機器閃避積木，因此我們需要在車輛上加裝鏡頭，由於我們使用的控制器是raspberry pi，因此我們需要找與其相符的鏡頭，因此我們找到了三種鏡頭
+
+1. raspberry pi camera Rev 1.3(傳感器:OmniVision OV5647)
+2. raspberry pi camera Module V2(傳感器:Sony IMX219)
+3. raspberry pi camera Module V3(傳感器:Sony IMX708)
+
+由於V3與我們raspberry pi的作業系統不符，因此不採用，而1.3的偵率只有30p，而V2最高達到90p，因此最後我們選擇了raspberry pi camera Module V2。
+
+| <img src="./img/4/site.jpg" width=200 alt="site"  /> | <img src="./img/4/site.jpg" width=200 alt="site" > | <img src="./img/4/site.jpg" width=200 alt="site" /> |
+| :---: | :---: | :---: |
+|  ||
 
 
 
@@ -183,15 +194,16 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 **content:**
 
 
+
 ## 2023/07/10 ~ 2023/07/16 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-Although it is possible to move straight and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
-However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
+- Although it is possible to move straight and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
+- However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
 
-雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
-然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+- 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
+- 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
 |<img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
 | :---: | :---: |
 
