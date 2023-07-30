@@ -23,7 +23,7 @@
 **content:** 
 
 競賽活動各階段工作完成時間規劃表(甘特圖)
-|  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
+  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
 
 - After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano.  
 
@@ -61,8 +61,19 @@
 **content:**  
 
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池，考慮到馬達需要12V的電壓才能使用，要挑選電壓為12V、電流為3V的電池，所以有鋰離子電池(18650)和鋰聚合電池(3S)兩種，但是18650重量較重，佔據空間也比較大，因此選擇了離聚合電池
-- 但是樹梅派最大電壓只能到5.2V，因此還需要藉由降壓板來壓低電壓，才不會造成樹梅派的燒毀，我們本來打算使用有數值顯示的降壓板，因為有數值顯示我們就能看到目前輸出電壓的大小，但是最大安培只能接受3A，因此我們選擇了能接受5A的
+- 但是樹梅派最大電壓只能到5.2V，因此還需要藉由降壓板來壓低電壓，才不會造成樹梅派的燒毀，我們本來打算使用LM2596 DC-DC可調降壓模組，因為有數值顯示去就能看到目前輸出電壓的大小，但是最大安培只能接受3A，因此我們選擇了能接受5A的恆壓恆流降壓電源模組，但是因為沒有數值顯示，因此我們還需要裝上能偵測電池電壓的低電壓警報器來確定目前電池的電壓
+  
+| <img src="./img/4/18650.jpeg" width = "200" height = "" alt="MG90S" align=center /> | <img src="./img/4/lipo_battery.png" width = "300" height = "" alt="MG90S" align=center /> |
+| :---: | :---: |
+| 18650 | 3S |
 
+| <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
+| :---: | :---: |
+| LM2596 DC-DC可調降壓模組 | 5A恆壓恆流降壓電源模組 |
+
+| <img src="./img/4/low_voltage_alarm.png" width = "100" height = "" alt="MG90S" align=center /> |
+| :---: |
+| 低電壓警報器 |
 ## 2023/04/17 ~ 2023/04/23
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
