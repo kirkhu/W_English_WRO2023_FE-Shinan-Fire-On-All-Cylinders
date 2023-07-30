@@ -69,19 +69,19 @@ The next step is the steering motor. After searching the information on the Inte
 **content:**  
 
 To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
+After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
 
-我們要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動。
+我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
+在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應 
 
-
+<img src="./img/4/lego_robot.png" width = "300" height = "" alt="MG90S" align=center />
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
 
-After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
 
-在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應 
 
 
 
