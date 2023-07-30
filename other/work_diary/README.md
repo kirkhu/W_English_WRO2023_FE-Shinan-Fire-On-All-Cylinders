@@ -28,7 +28,7 @@
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
-|  <img src="./img/3/raspberry_pi_4.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "300" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/raspberry_pi_4.png" width = "200" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "200" height = "" alt="jeston nano" align=center /> |
 
 
 
