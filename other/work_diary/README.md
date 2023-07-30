@@ -187,8 +187,9 @@ raspberry pi camera Module V2 可以選擇三種解析度
 
 再撰寫技術文件時，由於直接在線上編輯衝突且不好解決，因此我們決定使用VS Code加上git來編輯技術文件，這樣的好處是，容易做版本控制，當出現編輯者之間編輯同意檔案時發生衝突會馬上通知編輯者，較晚上傳資料的編輯者就可以透過資料的比較來合併衝突
 
-[github網站主頁](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
+[github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
+要在VS Code編輯只要點擊原始當控制，然後按下複製，在輸入網址，就能在VS Code做編輯及版本控制
 
 
 ## 2023/05/29 ~ 2023/06/04  
