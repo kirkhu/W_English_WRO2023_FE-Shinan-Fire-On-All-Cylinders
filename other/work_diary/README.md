@@ -89,10 +89,20 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 - 經實驗得知，超音波只能偵測前方障礙物距離，且在車輛左右晃動下，不容易偵測距離，因此改採用可以360度偵測的光達感測器，來當車輛的前方、左右邊的距離。
 
 | ultrasound | ydlidar x2 |
-| :---: |:---: |
+| :---: | :---: |
 | <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
 
 ## 2023/05/08 ~ 2023/05/14  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+
+While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
+
+在移動的時候我發現用積木的移動速度不快，還會卡卡的，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板不一樣，可以利用 Onshape 自行繪畫調整。
+
+
+## 2023/05/15 ~ 2023/05/21  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
@@ -123,12 +133,6 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 |<img src="./img/4/site.jpg" width=200 alt="site" >|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" > |
 | :---: | :---: |
-
-## 2023/05/15 ~ 2023/05/21  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
-
-
 
 
 
