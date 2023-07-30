@@ -156,6 +156,7 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 | 原本的 | 加裝廣角後 |
 | :---: | :---: |
 |<img src="./img/5/V2.jpeg" width=200 alt="site" >|<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >|
+| <img src="./img/5/72angle.png" width=200 alt="site" > | <img src="./img/5/160angle.png" width=200 alt="site" > |
 
 
 ## 2023/05/22 ~ 2023/05/28  
