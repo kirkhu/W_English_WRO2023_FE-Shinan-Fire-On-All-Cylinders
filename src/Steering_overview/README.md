@@ -3,6 +3,23 @@
 # <div align="center">Steering overview 轉向概述</div> 
 
 ## ydlidar Steering
+
+#### English
+
+- Perform wall navigation. First, read one side of the LiDAR to check if the distance is greater than 100 cm. If the LiDAR on the right side reads a distance greater than 100 cm, it indicates clockwise movement; otherwise, it indicates counterclockwise movement.
+- After determining the travel direction, read the distance between the LiDAR and the wall ahead. When the distance between the LiDAR and the wall is less than 55 cm, execute the turning action.
+- program:
+```
+if get_left_dis > 100:
+    reverse = False
+else:
+    reverse = True
+if get_mid_dis > 55:
+    servo.angle(-40)
+```
+
+#### 中文
+
 - 進行牆壁轉向。首先讀取光達兩側其中一邊是否有>100公分，如果右邊光達讀取到的距離是超過100公分代表是順時針行駛，否則是逆時針行駛。
 - 判斷完行駛方向後，會讀取光達前方距離牆壁幾公分，當光達與牆壁距離小於55公分，會執行轉彎動作。
 - 程式:  
@@ -17,6 +34,19 @@ if get_mid_dis > 55:
 
 
 ## Pillar Steering
+
+#### English
+
+
+- Use filtered red and green images to obtain the X and Y coordinates, as well as the area of the image.  
+- We will complete the avoidance of traffic signs through the following steps:  
+ 1.Use the Y coordinates to determine which block has a larger Y coordinate, indicating that it is closer.  
+ 2.Determine the color of the closer traffic sign and obtain its X coordinate.  
+ 3.Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance coefficient to calculate the error value.  
+ 4.Set the steering angle of the servo motor to turn in the direction of the error value, completing the avoidance of the traffic sign.
+
+#### 中文
+
 - 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。  
 - 我們將透過以下步驟來完成交通標誌的閃避：  
   1.用Y座標判斷哪一個積木的Y座標較大，Y座標較大的代表距離較近。  
