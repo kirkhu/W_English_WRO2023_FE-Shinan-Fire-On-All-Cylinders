@@ -22,9 +22,9 @@
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 **content:** 
 
-- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. I chose raspberry pi 4 because of its smaller size and cheaper price than jeston nano.  
+- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano.  
 
-- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，選擇的是 raspberry pi 4 ，因為體積比較小而且價格也比 jeston nano 便宜  
+- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
@@ -36,13 +36,21 @@
 **member:** ZHAO,ZHEN-BO 
 **content:**  
 
-While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
+- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
+- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
-在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
+
+- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
+- 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制GA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
+
 
 | GA25-370 | JGA16-050 |
 | :---: | :---: |
 |  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
+
+| L293D | L298N |
+| :---: | :---: |
+|  <img src="./img/4/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/4/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
 
 ## 2023/04/10 ~ 2023/04/16  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
@@ -50,7 +58,7 @@ While waiting for the Raspberry Pi to be initialized and the library to be insta
 
 The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
 
-接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前著齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
+接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前者是齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
 
 | MG90S | SG90 |
 | :---: | :---: |
@@ -60,21 +68,20 @@ The next step is the steering motor. After searching the information on the Inte
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
-Next is the motor controller. There are two options: the L293D chip and the L298N module. To reduce weight, we chose the smaller L293D chip. Its compact size allows us to install more sensors, which in turn saves space, reduces weight, and increases the mobility of the robot.  
+To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
 
-接下來是馬達控制器。有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。    
+我們要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動。
 
-| L293D | L298N |
-| :---: | :---: |
-|  <img src="./img/4/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/4/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
+
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
 
-我們要先組裝機器，所以我就利用社團的樂高零件先組底座，先將馬達和樹梅派等裝上車，讓機器作動。  
+After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
+
+在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應 
 
 
 
@@ -98,7 +105,7 @@ To begin assembling the machine, I used LEGO parts from the club to build the ba
 
 While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
 
-在移動的時候我發現用積木的移動速度不快，還會卡卡的，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板不一樣，可以利用 Onshape 自行繪畫調整。
+在測試的時候我發現用樂高積木的移動速度不快，轉彎時還會因為重量過重而無法成功轉彎，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板可以利用 Onshape 自行繪畫調整。
 
 
 ## 2023/05/15 ~ 2023/05/21  
@@ -145,7 +152,7 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 ## 2023/05/29 ~ 2023/06/04  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-
+(開始測試)
 
 
 
@@ -164,6 +171,7 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 ## 2023/06/19 ~ 2023/06/25   
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
+(修正程式)
 
 ## 2023/06/26 ~ 2023/07/02 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -264,23 +272,6 @@ However, there is an issue at the corners where the robot cannot avoid obstacles
 
 
 
-========================================================================================================
-### 以下未整理
-
-
-
-
-
-
-
-
-## 2023/07/23 ~ 2023/07/25  
-
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-
-**content:**
-
-  
 
 
 
