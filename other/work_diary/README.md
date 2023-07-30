@@ -29,6 +29,7 @@
 
 - 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
 
+
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
 |  <img src="./img/3/raspberry_pi_4.png" width = "200" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "200" height = "" alt="jeston nano" align=center /> |
@@ -59,11 +60,8 @@
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
 **content:**  
 
-To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
-After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
-
-我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
-在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應
+- 由於車輛需要不斷的移動，因此需要將電力來源改成電池，考慮到馬達需要12V的電壓才能使用，要挑選電壓為12V、電流為3V的電池，所以有鋰離子電池(18650)和鋰聚合電池(3S)兩種，但是18650重量較重，佔據空間也比較大，因此選擇了離聚合電池
+- 但是樹梅派最大電壓只能到5.2V，因此還需要藉由降壓板來壓低電壓，才不會造成樹梅派的燒毀，我們本來打算使用有數值顯示的降壓板，因為有數值顯示我們就能看到目前輸出電壓的大小，但是最大安培只能接受3A，因此我們選擇了能接受5A的
 
 ## 2023/04/17 ~ 2023/04/23
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -77,7 +75,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 | :---: | :---: |
 |  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
 
-<img src="./img/4/lego_robot.png" width = "300" height = "" alt="MG90S" align=center />
+
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -97,10 +95,13 @@ After the vehicle becomes operational, additional sensors are added to allow the
 ## 2023/05/01~ 2023/05/07  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
+- To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
+After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
+- While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
 
-While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
-
-在測試的時候我發現用樂高積木的移動速度不快，轉彎時還會因為重量過重而無法成功轉彎，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板可以利用 Onshape 自行繪畫調整。
+- 我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
+在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應
+- 在測試的時候我發現用樂高積木的移動速度不快，轉彎時還會因為重量過重而無法成功轉彎，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板可以利用 Onshape 自行繪畫調整。
 
 | <img src="./img/5/wood.png" width = "280" height = "" alt="wood" align=center /> |<img src="./img/5/onshape.png" width = "320" height = "" alt="onshape" align=center /> |
 | :---: | :---: |
@@ -161,12 +162,19 @@ While moving the robot, I noticed that using LEGO blocks for construction result
 |<img src="./img/5/V2.jpeg" width=200 alt="site" >|<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >|
 | <img src="./img/5/72angle.png" width=200 alt="site" > | <img src="./img/5/160angle.png" width=200 alt="site" > |
 
+raspberry pi camera Module V2 可以選擇三種解析度
+
+  1. 1080x640 幀率30p
+  2. 640x320 幀率60p
+  3. 320x240 幀率90p
+
+當解析度為1080x640時，由於解析度高，因此程式需要耗費大量的時間去辨識積木，會降低程式的運算效率，而當解析度為320x240時，雖然預算效率極高，但是由於解析度過低，因而無法正常辨識積木，然而當解析度為640x320時，可以正常辨識積木，而且運算效率也不會太慢導致撞上積木
 
 ## 2023/05/22 ~ 2023/05/28  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-
+再轉寫技術文件時，
 
 
 ## 2023/05/29 ~ 2023/06/04  
