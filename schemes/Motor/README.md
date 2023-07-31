@@ -2,5 +2,8 @@
 ====
 # <div align="center">Motor</div> 
 Motor(速度、扭距、功率)
+GA25-370 DC reduction motor
+servo motor
+
 
 # <div align="center">![HOME](./other/img/Home.png)[Return Home](../)</div>  
