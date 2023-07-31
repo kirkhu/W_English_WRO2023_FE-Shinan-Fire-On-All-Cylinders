@@ -34,4 +34,4 @@
 |:----:|:----:|
 |<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/tinkercad.png" width="500" alt=" TinkerCAD">| 
 
-# <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
