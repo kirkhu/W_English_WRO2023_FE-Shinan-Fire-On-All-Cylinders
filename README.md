@@ -53,7 +53,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
       - 電路圖設計
       - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
     - power Management
-    - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)
+      - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)
       - 電源供電說明
       
     - Sense Management
