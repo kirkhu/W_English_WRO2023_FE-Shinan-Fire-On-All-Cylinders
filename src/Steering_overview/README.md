@@ -37,7 +37,6 @@ if get_mid_dis > 55:
 
 #### English
 
-
 - Use filtered red and green images to obtain the X and Y coordinates, as well as the area of the image.  
 - We will complete the avoidance of traffic signs through the following steps:  
  1.Use the Y coordinates to determine which block has a larger Y coordinate, indicating that it is closer.  
