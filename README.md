@@ -58,7 +58,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - Sense Management(感測器管理)
       - [Color sensor(顏色感應器)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
       - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
-      - [Camera(攝影鏡頭)]()
+      - [Camera(攝影鏡頭)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   __3.Obstacle Management(障礙物管理)__
