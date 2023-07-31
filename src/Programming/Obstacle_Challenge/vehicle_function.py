@@ -8,7 +8,7 @@ import cv2
 import threading
 import numpy as np
 
-#==========腳位設定==========
+#==========Pin configuration(腳位設定)==========
 Red_LED_pin = 27   
 Green_LED_pin = 22
 Motor_IN1_pin = 6  
@@ -16,14 +16,14 @@ Motor_IN2_pin = 13
 Motor_PWM_pin = 19
 Button_pin = 5    
 Servo_pin = 26    
-#==========參數設定==========
+#==========Parameter Settings(參數設定)==========
 servo_offset = 15                      
 reverse = False                        
-servo_range = 30              #伺服馬達角度限制         
+servo_range = 30              # Servo Motor Angle Limitation(伺服馬達角度限制)         
 block_detect_min_area = 100            
-image_black_area = 310        #影像畫面上方黑色遮罩範圍(數字越大遮罩範圍越大)         
-image_black_area_down = 400   #影像畫面下方黑色遮罩範圍(數字越小遮罩範圍越大)
-camera_BRIGHTNESS = 55        #影像畫面亮度調整(數字越大畫面越亮)        
+image_black_area = 310        #Black mask area at the top of the image screen(影像畫面上方黑色遮罩範圍)         
+image_black_area_down = 400   #Black mask area at the bottom of the image frame(影像畫面下方黑色遮罩範圍)
+camera_BRIGHTNESS = 55        #Adjusting Image Brightness(影像畫面亮度調整)        
 RADIAN_TO_DEGREES = 360/(math.pi *2)
 pi = pigpio.pi()
 
@@ -342,9 +342,7 @@ class lidarSensor():
                     self.Lidar_left = round(data.ranges[i] * 100)
                 if angle > -95 and angle < -85:
                     self.Lidar_right = round(data.ranges[i] * 100)
-
          
-
 class tools():        
     def constrain(self, x, out_min, out_max):
         return out_min if x < out_min else out_max if x > out_max else x                
