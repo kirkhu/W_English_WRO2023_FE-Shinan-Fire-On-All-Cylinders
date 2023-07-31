@@ -71,7 +71,7 @@ while(1):
     cv2.imshow('image',res)
     
     k = cv2.waitKey(25) & 0xFF
-    if k == ord('1'):
+    if k == ord('1'):#Display HSV_Green values(顯示HSV_Red數值)
         with open('save_file/HSV_Green.p', mode='rb') as f:
             file = pickle.load(f)
         Green_Lower = file['Lower']
@@ -85,7 +85,7 @@ while(1):
         cv2.setTrackbarPos('V_low','image', Green_Lower[2])
         print('Green_set')
         print_mes()
-    if k == ord('2'):
+    if k == ord('2'):#Display HSV_Red values(顯示HSV_Red數值)
         with open('save_file/HSV_Red.p', mode='rb') as f:
             file = pickle.load(f)
         Red_Lower = file['Lower']
@@ -98,7 +98,7 @@ while(1):
         cv2.setTrackbarPos('V_low','image', Red_Lower[2])
         print('Red_set')
         print_mes()
-    if k == ord('3'):
+    if k == ord('3'):#Restore HSV values to default(將HSV數值恢復為預設)
         cv2.setTrackbarPos('H_high','image', 255)
         cv2.setTrackbarPos('H_low','image', 0)
         cv2.setTrackbarPos('S_high','image', 255)
@@ -107,7 +107,7 @@ while(1):
         cv2.setTrackbarPos('V_low','image', 0)
         print('Reset')
         print_mes()
-    if k == ord('4'):
+    if k == ord('4'):#Record green HSV values(紀錄綠色HSV數值)
         print('====Green HSV====')
         hsv_value = {}
         hsv_value['Lower'] = [H_low, S_low, V_low]
@@ -117,7 +117,7 @@ while(1):
         print('Write Finish')
         pickle.dump(hsv_value, open('save_file/HSV_Green.p', 'wb') )
         print_mes()
-    if k == ord('5'):
+    if k == ord('5'):#Record red HSV values(紀錄紅色HSV數值)
         print('====Red HSV====')
         hsv_value = {}
         hsv_value['Lower'] = [H_low, S_low, V_low]
