@@ -2,15 +2,16 @@
 ====
 ## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
 
-- ### Vehicle 3D Model(車輛3D建模圖)
-<img src="./img/Vehicle_cad.png" width="400" alt="Vehicle_cad">  <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">
+- ### Circuit Board (電路板)
+|<img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="400" alt="circuit_up.jpg"> | <img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="450" alt="circuit_lower.jpg">|
+|:----:|:----:|
 
 
 
 - ### Circuit schematic drawing(電路圖繪製) 
-|   |   ｜   ｜
-| :----: | :----: |:---:|
 | <img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"> | <img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"> | <img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing">|
+| :----: | :----: |:---:|
+
 
 
 ## English
