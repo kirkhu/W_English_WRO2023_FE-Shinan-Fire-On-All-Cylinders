@@ -18,7 +18,7 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 
 |vehicle chassis design 3D| vehicle chassis design Entity |
 |:----:|:----:|
-|<img src="./img/vehicle_chassis_design_3D.png" width="500" alt="Circuit schematic drawing">|<img src="../Assembly_Instructions/img/up_view.png" width="500" alt="up_view">|
+|<img src="./img/vehicle_chassis_design_3D.png" width="500" alt="vehicle_chassis_design_3D">|<img src="../Assembly_Instructions/img/up_view.png" width="500" alt="up_view">|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
