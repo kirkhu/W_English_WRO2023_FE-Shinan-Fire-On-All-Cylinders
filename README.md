@@ -84,6 +84,8 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - Open Challenge(資格賽影片)
     - Obstacle Challenge(任務賽影片)
   - __6.GitHub utilization(GitHub 使用)__
+    - 使用VSCODE 編輯
+    - 使用GIT做版本控制
   - __7.Engineering Factor(工程因素/技術條件)__
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
 
