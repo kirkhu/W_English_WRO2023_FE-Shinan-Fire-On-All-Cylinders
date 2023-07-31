@@ -152,7 +152,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 ## 2023/05/15 ~ 2023/05/21  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**content:** 
 
 為了能夠讓機器閃避積木，因此我們需要在車輛上加裝鏡頭，由於我們使用的控制器是raspberry pi，因此我們需要找與其相符的鏡頭，因此我們找到了三種鏡頭
 
