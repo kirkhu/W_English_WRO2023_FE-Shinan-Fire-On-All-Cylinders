@@ -80,12 +80,15 @@ __下方是技術報告的內容，以及建置說明的連結。__
   __4.Pictures – Team and vehicle(圖片-團隊和車輛)]__
     - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
     - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)  
+
   __5.Performance videos(5.車輛各任務完成影片)__
     - Open Challenge(資格賽影片)
     - Obstacle Challenge(任務賽影片)  
+
   __6.GitHub utilization(GitHub 使用)__
     - 使用VSCODE 編輯
     - 使用GIT做版本控制  
+    
   __7.Engineering Factor(工程因素/技術條件)__
     - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
 
