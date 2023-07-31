@@ -60,8 +60,11 @@
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
 **content:**  
 
-- 由於車輛需要不斷的移動，因此需要將電力來源改成電池，考慮到馬達需要12V的電壓才能使用，要挑選電壓為12V、電流為3V的電池，所以有鋰離子電池(18650)和鋰聚合電池(3S)兩種，但是18650重量較重，佔據空間也比較大，因此選擇了離聚合電池
-- 但是樹梅派最大電壓只能到5.2V，因此還需要藉由降壓板來壓低電壓，才不會造成樹梅派的燒毀，我們本來打算使用LM2596 DC-DC可調降壓模組，因為有數值顯示去就能看到目前輸出電壓的大小，但是最大安培只能接受3A，因此我們選擇了能接受5A的恆壓恆流降壓電源模組，但是因為沒有數值顯示，因此我們還需要裝上能偵測電池電壓的低電壓警報器來確定目前電池的電壓
+- Due to the continuous movement of the vehicle, the power source needs to be changed to a battery. Considering that the motors require a 12V voltage to operate, we need to choose a battery with a voltage of 12V and a current of 3V. There are two options: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is heavier and takes up more space, so we opted for the lithium polymer battery.
+- However, the maximum voltage supported by the Raspberry Pi is only 5.2V. Therefore, we need to use a step-down module to reduce the voltage to prevent damage to the Raspberry Pi. We initially considered using the LM2596 DC-DC adjustable step-down module, as it has a numerical display to show the current output voltage. However, its maximum current capacity is only 3A. Therefore, we chose a constant voltage and constant current step-down power supply module that can handle up to 5A. Though it lacks a numerical display, we will install a low voltage alarm to detect the battery voltage and ensure its safety.
+
+- 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
+- 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
   
 | <img src="./img/4/18650.jpeg" width = "200" height = "" alt="MG90S" align=center /> | <img src="./img/4/lipo_battery.png" width = "300" height = "" alt="MG90S" align=center /> |
 | :---: | :---: |
@@ -80,7 +83,7 @@
 
  The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
 
-接下來就是轉向馬達，在網上查找資料後，發現常用的是 MG90S 跟 SG90 兩種，MG90S 跟 SG90 的差異是前者是齒輪式金屬，後者是塑膠，因為我們常需要一直旋轉，因此選擇就不容易損壞的 MG90S   
+接下來是操控馬達。在網上搜尋資料後，我發現MG90S和SG90是常見的選擇。MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 
 | MG90S | SG90 |
 | :---: | :---: |
@@ -110,9 +113,10 @@
 After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
 - While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
 
-- 我們要先組裝機器，所以我就利用社團的樂高零件先組底座，將馬達和樹梅派等裝上車，讓車輛得以行使。
-在車輛可以行駛之後，再加上其他的感測器，讓車輛能夠感測場地環境，再根據任務所需做出反應
-- 在測試的時候我發現用樂高積木的移動速度不快，轉彎時還會因為重量過重而無法成功轉彎，因此改用雷切機切割木板，換成木板重量變輕了，因此速度也變快了，所以也比較省電，而且還可以根據需求調整尺寸和和位置，不像樂高已經做好了，為了配合還要一直改裝，但是木板可以利用 Onshape 自行繪畫調整。
+
+- 首先，我們需要組裝機器，所以我利用社團的樂高零件先組裝底座，並將馬達和樹梅派等裝上車，讓車輛能夠行駛。
+隨後，在車輛可以行駛之後，我們進一步添加其他感測器，讓車輛能夠感測場地環境，並根據任務需求做出相應的反應。
+- 在進行測試時，我們發現使用樂高積木的移動速度不快，而且轉彎時重量過重，無法順利轉彎。因此，我們改用雷切機切割木板，使車輛的重量減輕，速度也相應提高，同時還節省了電力。使用木板的好處是可以根據需要自行調整尺寸和位置，而不像樂高需要不斷改裝以適應各種情況。這可以通過 Onshape 等工具進行自由繪畫和調整。
 
 | <img src="./img/5/wood.png" width = "280" height = "" alt="wood" align=center /> |<img src="./img/5/onshape.png" width = "320" height = "" alt="onshape" align=center /> |
 | :---: | :---: |
@@ -152,40 +156,46 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 ## 2023/05/15 ~ 2023/05/21  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
-
-為了能夠讓機器閃避積木，因此我們需要在車輛上加裝鏡頭，由於我們使用的控制器是raspberry pi，因此我們需要找與其相符的鏡頭，因此我們找到了三種鏡頭
+**content:**  
+- In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
+- 為了讓車輛能夠正確地閃避積木，我們需要在車輛上安裝一個鏡頭模組。由於我們使用的控制器是 Raspberry Pi，因此我們需要尋找與其相容的鏡頭模組。為此，我們參考了去年美國隊伍使用的鏡頭模組，並尋找了同一系列的鏡頭模組進行比較。以下是產品資訊：
 
 1. raspberry pi camera Rev 1.3(傳感器:OmniVision OV5647)
 2. raspberry pi camera Module V2(傳感器:Sony IMX219)
 3. raspberry pi camera Module V3(傳感器:Sony IMX708)
 
-由於V3與我們raspberry pi的作業系統不符，因此不採用，而1.3的偵率只有30p，而V2最高達到90p，因此最後我們選擇了raspberry pi camera Module V2。
+- Considering that V3 is not compatible with our existing Raspberry Pi operating system, we decided not to use that version. Additionally, the detection rate of version 1.3 is only 30p, whereas the V2 version can reach a maximum of 90p. Therefore, we ultimately chose the Raspberry Pi Camera Module V2 for our project. Through experimentation, we found that the V2 version has the best recognition performance.
+- 考慮到V3與我們現有的Raspberry Pi作業系統不相容，我們決定不使用該版本。而1.3版本的偵測率僅為30p，相比之下，V2版本的偵測率最高達到90p。因此，我們最終選擇了Raspberry Pi相機模組V2作為我們的選擇。經過實驗，我們發現V2版本具有最佳的辨識效果。
 
 | <img src="./img/5/V1.jpeg" width=200 alt="site"  /> | <img src="./img/5/V2.jpeg" width=200 alt="site" > | <img src="./img/5/V3.jpeg" width=200 alt="site" /> |
 | :---: | :---: | :---: |
 | raspberry pi camera Rev 1.3 | raspberry pi camera Module V2 | raspberry pi camera Module V3 |
 
-在之後測試時，發現當汽車閃避積木時無法預判下一個積木的位置，因此我們將原本的鏡頭改裝成廣角，相比原本的72度的視野範圍，廣角的160度範圍大，能夠提前預判下一積木的位置
+- During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
+- 在之後的測試中，我們發現當車輛閃避積木時無法預先得知下一個積木的位置，這對於車輛的避障策略造成了困擾。因此，我們決定將原本的鏡頭進行改裝，將其轉換成廣角鏡頭。相較於原本的72度視野範圍，廣角鏡頭提供了160度的視野範圍，能夠讓我們提前預測下一個積木的位置，從而改善車輛的避障效果。
 
 | 原本的 | 加裝廣角後 |
 | :---: | :---: |
 |<img src="./img/5/V2.jpeg" width=200 alt="site" >|<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >|
 | <img src="./img/5/72angle.png" width=200 alt="site" > | <img src="./img/5/160angle.png" width=200 alt="site" > |
 
-在raspberry pi的程式中可以設定鏡頭模組的解析度，我們曾實驗以下常見的解析度，發現
+- In the Raspberry Pi program, it is possible to configure the resolution of the camera module. We conducted experiments with the following common resolutions.
+- 在raspberry pi的程式中可以設定鏡頭模組的解析度，我們將實驗以下常見的解析度
 
   1. 1080x640 幀率30p
   2. 640x320 幀率60p
   3. 320x240 幀率90p
 
-當解析度為1080x640時，由於解析度高，因此程式需要耗費大量的時間去辨識積木，會降低程式的運算效率，而當解析度為320x240時，雖然預算效率極高，但是由於解析度過低，因而無法正常辨識積木，然而當解析度為640x320時，可以正常辨識積木，而且運算效率也不會太慢導致撞上積木
+- In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
+- 在我們的實驗發現，當相機模組的解析度設定為1080x640時，由於高解析度的影像處理需求，程式需要花費大量的時間來辨識積木，這導致了程式的運算效率降低。另一方面，當解析度設定為320x240時，雖然運算效率極高，但由於解析度過低，導致無法正常辨識積木。然而，當解析度設定為640x320時，我們觀察到可以正常辨識積木，而且運算效率也不會太慢，避免了車輛撞上積木的問題。因此，我們最終選擇將相機模組的解析度設定為640x320。 
 
 ## 2023/05/22 ~ 2023/05/28  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
-再撰寫技術文件時，由於直接在線上編輯衝突且不好解決，因此我們決定使用VS Code加上git來編輯技術文件，這樣的好處是，容易做版本控制，當出現編輯者之間編輯同意檔案時發生衝突會馬上通知編輯者，較晚上傳資料的編輯者就可以透過資料的比較來合併衝突
+By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
+
+在撰寫技術文件時，我們決定使用VS Code加上git來編輯。這樣的做法有很多好處，其中包括容易進行版本控制，當不同編輯者同時編輯同一個檔案時，git會立即通知編輯者有衝突發生，這樣較晚上傳資料的編輯者就可以透過資料的比較來合併衝突。這樣的作法讓我們在編輯技術文件時能夠更有效率地合作和管理可能的衝突。
 
 [github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
@@ -246,14 +256,11 @@ After the vehicle becomes operational, additional sensors are added to allow the
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-The robot is now able to operate normally. The next step is to use the camera to avoid obstacles (blocks). First, we need to detect the distance to the blocks, and then identify the color of the blocks. By leveraging OpenCV's functionality, we can draw virtual lines to help with obstacle avoidance. Using the virtual line and the distance to the blocks, along with an algorithm, we can steer the front wheels to avoid the obstacles.
+- The robot is now able to operate normally. The next step is to use the camera to avoid obstacles (blocks). First, we need to detect the distance to the blocks, and then identify the color of the blocks. By leveraging OpenCV's functionality, we can draw virtual lines to help with obstacle avoidance. Using the virtual line and the distance to the blocks, along with an algorithm, we can steer the front wheels to avoid the obstacles.
+- However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners
 
-However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners
-
-
-機器人現在能夠正常運行。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測到障礙物（積木）的距離，然後辨識積木的顏色。透過利用OpenCV的功能，我們可以畫出虛擬線來協助避開障礙物。使用虛擬線和障礙物的距離，再加上一個演算法，我們可以操縱前輪來避開這些障礙物。  
-
-然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。
+- 機器人現在能夠正常運行。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測到障礙物（積木）的距離，然後辨識積木的顏色。透過利用OpenCV的功能，我們可以畫出虛擬線來協助避開障礙物。使用虛擬線和障礙物的距離，再加上一個演算法，我們可以操縱前輪來避開這些障礙物。  
+- 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。
 | lidar D100  |  ydlidar x4  |   ydlidar x2    |      
 |:----: | :----: | :----:|
 |<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/4/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
