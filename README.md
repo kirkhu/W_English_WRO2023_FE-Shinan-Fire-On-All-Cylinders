@@ -41,12 +41,12 @@ __下方是技術報告的內容，以及建置說明的連結。__
 
 ## Content(官方目錄)
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
- __1.Mobility Management(移動性管理)__
+  __1.Mobility Management(移動性管理)__
     - 車輛底盤設計(樂高設計阿克曼轉向幾何)
     - [馬逹功率的討論者(速度、扭距、功率)]
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
     
- __2.Power and Sense Management2.(電源和感測器管理)__
+  __2.Power and Sense Management2.(電源和感測器管理)__
     - 車輛結構設計
       - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
@@ -79,13 +79,13 @@ __下方是技術報告的內容，以及建置說明的連結。__
 - ### ${{\color{red} Other(其他)}} $
   __4.Pictures – Team and vehicle(圖片-團隊和車輛)]__
     - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
-    - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)
+    - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)  
   __5.Performance videos(5.車輛各任務完成影片)__
     - Open Challenge(資格賽影片)
-    - Obstacle Challenge(任務賽影片)
+    - Obstacle Challenge(任務賽影片)  
   __6.GitHub utilization(GitHub 使用)__
     - 使用VSCODE 編輯
-    - 使用GIT做版本控制
+    - 使用GIT做版本控制  
   __7.Engineering Factor(工程因素/技術條件)__
     - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
 
