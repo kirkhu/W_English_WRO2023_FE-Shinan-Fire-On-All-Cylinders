@@ -54,7 +54,7 @@
 
     - Charging/Discharging Equipment(充放電設備)  
         | skyrc e430 | skyrc imax b6ac v2 |  
-        | :----: | :----: |  
+        | :---- | :---- |  
         | <img src="./img/e430.png" width = "150" height = "" alt="e430" align=center /> | <img src="./img/B6AC2.png" width = "150" height = "" alt="e430" align=center /> |  
        
         
