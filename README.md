@@ -56,9 +56,9 @@ __下方是技術報告的內容，以及建置說明的連結。__
       - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)  
       - 電源供電說明      
     - Sense Management(感測器管理)
-      - [color sensor(顏色感應器)]
+      - [Color sensor(顏色感應器)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
       - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
-      - 攝影鏡頭
+      - [Camera(攝影鏡頭)]()
   
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   __3.Obstacle Management(障礙物管理)__
@@ -73,7 +73,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
       - [Obstacle Challenge overview(任務賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
   
 - ### ${{\color{red} Other(其他)}} $
-  __4.Pictures – Team and vehicle(圖片-團隊和車輛)]__
+  __4.Pictures – Team and vehicle(圖片-團隊和車輛)__
     - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
     - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)  
 
