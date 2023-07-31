@@ -65,8 +65,8 @@ __下方是技術報告的內容，以及建置說明的連結。__
   
 - ### ${{\color{red} Other(其他)}} $
   - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
-  - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
-  - [Demonstration Video(自走車各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)   
+  - [Pictures – Team and vehicle(圖片-團隊和車輛)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
+  - [Performance videos(車輛各任務完成影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/video.md)   
   - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)
   - GitHub utilization(GitHub 使用)
   - Engineering Factor(工程因素/技術條件)
