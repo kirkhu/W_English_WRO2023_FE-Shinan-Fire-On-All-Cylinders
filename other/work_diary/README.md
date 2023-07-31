@@ -173,7 +173,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 |<img src="./img/5/V2.jpeg" width=200 alt="site" >|<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >|
 | <img src="./img/5/72angle.png" width=200 alt="site" > | <img src="./img/5/160angle.png" width=200 alt="site" > |
 
-raspberry pi camera Module V2 可以選擇三種解析度
+在raspberry pi的程式中可以設定鏡頭模組的解析度，我們曾實驗以下常見的解析度，發現
 
   1. 1080x640 幀率30p
   2. 640x320 幀率60p
