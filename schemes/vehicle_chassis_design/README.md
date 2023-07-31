@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">vehicle chassis design (車輛底盤設計)</div> 
+# <div align="center">Vehicle Chassis Design (車輛底盤設計)</div> 
 
 ## Ackermann_steering_geometry(阿克曼轉向機構)
 __Introduction to Ackermann_steering_geometry__
@@ -19,5 +19,5 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 |:----:|:----:|
 |<img src="./img/simulation.png" width="500" alt="Circuit schematic drawing">|<img src="../Assembly_Instructions/img/up_view.png" width="500" alt="up_view">|
 
-# <div align="center">![HOME](./other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
