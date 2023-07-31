@@ -88,4 +88,6 @@ __下方是技術報告的內容，以及建置說明的連結。__
   __7.Engineering Factor(工程因素/技術條件)__
     - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
 
+- ### ${{\color{red} CompetitionSchedule (練習時間規劃)}} $  
 
+# <div align="center">![Gantt chart](./other/img/Gantt_Chart.png)</div> 
