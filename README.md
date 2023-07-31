@@ -47,7 +47,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
     
   - __2.Power and Sense Management2.(電源和感測器管理)__
-    - BOM 的接線圖
+    - 車輛結構設計
       - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
       - 電路圖設計
