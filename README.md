@@ -42,7 +42,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
 ## Content(官方目錄)
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
   __1.Mobility Management(移動性管理)__
-    - [車輛底盤設計(樂高設計阿克曼轉向機構)]()
+    - [車輛底盤設計(樂高設計阿克曼轉向機構)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Ackermann_steering_geometry/README.md)
     - [馬逹功率的討論者(速度、扭距、功率)]
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
     
