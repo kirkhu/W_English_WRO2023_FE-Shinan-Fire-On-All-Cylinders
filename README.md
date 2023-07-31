@@ -54,7 +54,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
       - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
     - __power Management(電源管理)__
       - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)  
-      - [電源供應系統(Power_supply_system)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md)    
+      - [Power_supply_system(電源供應系統)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md)    
     - __Sense Management(感測器管理)__
       - [Color sensor(顏色感應器)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
       - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
