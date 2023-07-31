@@ -47,15 +47,15 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/README.md)
     
   __2.Power and Sense Management2.(電源和感測器管理)__
-    - Vehicle design(車輛設計)
+    - __Vehicle design(車輛設計)__
       - [Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams(自駕車輛組裝說明圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
       - [Circuit Design(電路圖設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Circuit_Design/README.md)
       - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
-    - power Management(電源管理)
+    - __power Management(電源管理)__
       - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/Li-Polymer_Battery/README.md)  
       - 電源供電說明      
-    - Sense Management(感測器管理)
+    - __Sense Management(感測器管理)__
       - [Color sensor(顏色感應器)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
       - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
       - [Camera(攝影鏡頭)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
@@ -78,12 +78,12 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)  
 
   __5.Performance videos(車輛各任務完成影片)__
-    - Open Challenge(資格賽影片)
-    - Obstacle Challenge(任務賽影片)  
+    - [Open Challenge(資格賽影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/Open_Challenge/video.md)
+    - [Obstacle Challenge(任務賽影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/Obstacle_Challenge/video.md)  
 
   __6.GitHub utilization(GitHub 使用)__
-    - 使用VSCODE 編輯
-    - 使用GIT做版本控制  
+    - GitHub 編輯方式(使用VSCODE 編輯及使用GIT做版本控制)
+    - GitHub 網頁標誌語言(Markdwon HTML)  
 
   __7.Engineering Factor(工程因素/技術條件)__
     - [Work Diary(工作日誌)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
