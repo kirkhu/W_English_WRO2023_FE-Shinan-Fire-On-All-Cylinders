@@ -3,6 +3,7 @@ import pickle
 from vehicle_function import*
 import time
 
+
 LED = LED_control()
 button = button_control()
 motor = dc_motor()
@@ -15,7 +16,7 @@ white_color = -1
 orange_color = -1
 blue_color = -1
 
-def white_area_read():
+def white_area_read():#Read the values of white areas(讀取白色區域數值)
     global white_color
     print('=======white area=======')
     print('wait button')
@@ -33,7 +34,7 @@ def white_area_read():
     button.wait_release()
     white_color = low_color
 
-def orange_line_read():
+def orange_line_read():#Reading the orange line values(讀取橘色線數值)
     print('\n=======orange line=======')
     print('wait button')
     button.wait_press_release()
@@ -50,7 +51,7 @@ def orange_line_read():
     button.wait_release()
     orange_color = low_color
 
-def blue_line_read():
+def blue_line_read():#Read blue line value(讀取藍色線數值)
     print('\n=======blue line=======')
     print('wait button')
     button.wait_press_release()
@@ -68,7 +69,7 @@ def blue_line_read():
     blue_color = low_color
 
 
-def file_write():
+def file_write():#Record the values to the color_sensor.p file(將數值記錄到color_sensor.p檔案裡)
     print('\n=======file write down=======')
     print('Orange:' + str(orange_color))
     print('Blue:' + str(blue_color))
