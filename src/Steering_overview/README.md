@@ -31,7 +31,9 @@ else:
 if get_mid_dis > 55:
     servo.angle(-40)
 ```
-
+|LiDAR readings(光達讀取數值)|
+|:---:|
+|<div align="center"> <img src="./img/read_lidar.png" width="300" alt="Detecting_nearby_obstacles"></div>|
 
 ## Pillar Steering
 
@@ -52,7 +54,7 @@ if get_mid_dis > 55:
   2.判斷較近的的交通標誌顏色，並取得其X座標。  
   3.將較近的交通標誌的X座標減去我們所欲閃避的座標再乘上閃避係數計算出誤差值。  
   4.設定伺服馬達轉向角度，使其轉向誤差值的方向，完成交通標誌閃避。
-  |辨識距離較近的障礙物|障礙物的XY座標|
+  |Recognize obstacles that are closer in distance(辨識距離較近的障礙物)|XY coordinates of obstacles(障礙物的XY座標)|
   |:---:|:---:|
   |<div align="center"> <img src="./img/Detecting_nearby_obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
 
@@ -73,7 +75,7 @@ if get_mid_dis > 55:
 - 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
 - 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
 
-|顯示線條次數與最近的交通標誌顏色|
+|Display the number of lines and the color of the nearest traffic sign(顯示線條次數與最近的交通標誌顏色)|
 |:---:|
 |<div align="center"> <img src="./img/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
 
