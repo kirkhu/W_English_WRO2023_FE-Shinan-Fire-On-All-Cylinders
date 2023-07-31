@@ -10,7 +10,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
   __1.Mobility Management(移動性管理)__
     - [vehicle chassis design(車輛底盤設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
-    - [Motor](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
+    - [Motor(馬逹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Vehicle_3D_2D/README.md)
     
   __2.Power and Sense Management2.(電源和感測器管理)__
