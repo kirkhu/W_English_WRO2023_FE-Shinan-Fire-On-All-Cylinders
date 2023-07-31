@@ -2,7 +2,7 @@
 ====
 # <div align="center">Power_supply_system </div> 
 - ###  Power_supply_system  
-<div align="center"><img src="./img/Power_supply_system.png" width="500"></div>
+<div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
