@@ -11,7 +11,7 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
-## 使用LEGO設計阿克曼轉向機構
+## 使用LEGO設計阿克曼轉向機構(0%阿克曼)
 <img src="./img/simulation.png" width="500" alt="Circuit schematic drawing">
 
 ## vehicle chassis design 
