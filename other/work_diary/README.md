@@ -214,7 +214,7 @@ Before avoiding the blocks, we need to complete three laps around the field. Dur
 
 | 車輛撞擊邊牆 | 偵測左右牆距離 |
 | :---: | :---: |
-| <img src="./img/5/hit_wall.jpeg" width = "400" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "300" height = "" alt="MG90S" align=center /> |
+| <img src="./img/5/hit_wall.jpeg" width = "300" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "200" height = "" alt="MG90S" align=center /> |
 
 
 
