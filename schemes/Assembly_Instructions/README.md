@@ -49,7 +49,7 @@ __Usage:__
 用途:  
 - 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
-### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
+### JGA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
 <table border=0 width=100% >
   <tr>

@@ -44,11 +44,11 @@
 - When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
-- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
+- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370   
 - 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制GA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
 
 
-| GA25-370 | JGA16-050 |
+| JGA25-370 | JGA16-050 |
 | :---: | :---: |
 |  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
@@ -207,7 +207,14 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 ## 2023/05/29 ~ 2023/06/04  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-(開始測試)
+
+Before avoiding the blocks, we need to complete three laps around the field. During the laps, we noticed that the vehicle has the possibility of rubbing against the walls during the turning process. To address this, we utilized the 360-degree detection capability of the LiDAR to keep the vehicle in the center of the path. By subtracting the distance on the left side from the distance on the right side, we obtained an error value. We then used the servo motor to correct the error and maintain the vehicle's position in the center while driving.
+
+在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續在中央行駛。
+
+| 車輛撞擊邊牆 | 偵測左右牆距離 |
+| :---: | :---: |
+| <img src="./img/5/hit_wall.jpeg" width = "400" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "300" height = "" alt="MG90S" align=center /> |
 
 
 
