@@ -9,7 +9,7 @@
       <td> Circuit Board of Top View(電路板上視圖) </td><td>Circuit Board of Bottom View(電路板下視圖)</td>
   </tr>
   <tr>
-     <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="400" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="450" alt="circuit_lower.jpg"></td>
+     <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
