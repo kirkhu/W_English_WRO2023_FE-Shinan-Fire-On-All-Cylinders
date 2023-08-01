@@ -321,7 +321,8 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
   - [Open Challenge 半寬半窄 電力70](https://youtu.be/pcTpH8QgJFU)
   - [Open Challenge 半寬半窄 電力50](https://youtu.be/7HdWxfWPfWc)
   - [Open Challenge 全寬 電力70](https://youtu.be/MA1k2P87LdE)
-  - [Open Challenge 全寬 電力50](https://youtu.be/OUg0x4Qdc0c)
+  - [Open Challenge 全寬 電力50](https://youtu.be/OUg0x4Qdc0c)  
+  
  __Open Challenge 任務賽__
   - [Obstacle Challenge 電力50 ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge 電力70 ](https://youtu.be/iCmcXbACizY)
