@@ -8,11 +8,10 @@
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
-
-   > $ sudo apt-get update  
-
-   > $ sudo apt-get upgrade   
-
+```
+$ sudo apt-get update  
+$ sudo apt-get upgrade   
+```
  - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
  - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
  - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
@@ -24,11 +23,10 @@
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
-
-   > $ sudo apt-get update  
-
-   > $ sudo apt-get upgrade   
-
+```
+$ sudo apt-get update  
+$ sudo apt-get upgrade   
+```
  - 選擇Interface Options之後打開Camera、SSH和VNC等功能後退出  
  - 安裝opencv版本:4.7.0.72，在裝之前要先確認 setuptools 和 wheel 的版本支援安裝的opencv  
  - 安裝ROS系統版本:noetic ninjemys，先設定資料庫，再來建立工作環境，之後安裝依賴項目，最後在建置catkin的工作環境  
