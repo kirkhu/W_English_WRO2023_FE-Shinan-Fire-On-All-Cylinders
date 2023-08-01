@@ -24,7 +24,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td  align="center">SG90</td>
 </tr>
 <tr>
-<td  align="center"></td>
+<td  align="center">Photo</td>
 <td  align="center"><img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
 <td  align="center"> <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
