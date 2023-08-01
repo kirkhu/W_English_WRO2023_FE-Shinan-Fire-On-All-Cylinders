@@ -1,6 +1,6 @@
 ![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-## <div align="center">Demonstration Video(自走車各任務完成影片)</div> 
+## <div align="center">Open Challenge of Demonstration Video(車駕車資格賽完成影片)</div> 
 - ### Open Challenge(資格賽影片)
   __Full width(全寛)__
 
