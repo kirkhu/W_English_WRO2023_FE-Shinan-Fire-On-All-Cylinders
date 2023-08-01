@@ -17,8 +17,8 @@
   <td> 18650 lithium batteries(18650充電電池) </td> <td>Li-Polymer 3S Battery (鋰聚合物電池 3S)
   </td>
 </tr>
-  <td> <img src="./img/18650.jpeg" width = "200"  alt="18650"  /> </td>
-  <td><img src="./img/lipo_battery.png" width = "300" alt="lipo_battery"  />
+  <td> <img src="./img/18650.jpeg" width = "400"  alt="18650"  /> </td>
+  <td><img src="./img/lipo_battery.png" width = "400" alt="lipo_battery"  />
   </td>
 <tr>
 </tr>
