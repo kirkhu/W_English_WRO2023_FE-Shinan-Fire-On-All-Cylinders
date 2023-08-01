@@ -77,7 +77,7 @@ __規格:__
 __用途:__ 
 - 驅動汽車後輪以控制車輛前進與後退
 
-### MG90S servo motor MG90S servo motor (MG90S伺服馬達)
+### MG90S servo motor(MG90S伺服馬達)
 #### English
 <table border=0 width=100% >
   <tr>
