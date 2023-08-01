@@ -3,13 +3,8 @@
 # <div align="center">Power_supply_system(電源供應系統)</div> 
 - ###  Power_supply_system of Summary diagram(電源供應系統概要圖) 
 <div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
-- 因為考慮車輛的重量，捨棄了18650電池，改用鋰聚電池，以減輕車輛重量，使車輛運行時，可以提高車速。
-- 因為車輛直流馬達供電12V，才可以提高轉速。
-- 但因Raspberry Pi及相關感測器所需電源為5V，因此使用直流降壓板由12V降至5V來做供應，如圖下所示。
+<br>
 <div align="center"><img src="./img/Power_supply_system of Summary diagram1.png" width="600"></div>
-
-降壓板討論
-
 
 
 - Due to the continuous movement of the vehicle, the power source needs to be changed to a battery. Considering that the motors require a 12V voltage to operate, we need to choose a battery with a voltage of 12V and a current of 3V. There are two options: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is heavier and takes up more space, so we opted for the lithium polymer battery.
@@ -24,10 +19,11 @@
 | <img src="./img/18650.jpeg" width = "200" height = "" alt="18650" align=center /> | <img src="./img/lipo_battery.png" width = "300" height = "" alt="lipo_battery" align=center /> |
 
 
-
-| <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
-| :---: | :---: |
 | LM2596 DC-DC可調降壓模組 | 5A恆壓恆流降壓電源模組 |
+| :---: | :---: |
+| <img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
+
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
