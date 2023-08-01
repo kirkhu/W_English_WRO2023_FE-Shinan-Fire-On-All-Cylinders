@@ -9,11 +9,10 @@
 
    The first step to using OpenCV typically involves installing the OpenCV library and then utilizing the relevant APIs for image or video processing tasks. This may involve reading image or video files, applying various image processing techniques (such as filtering, edge detection, color conversion, etc.), or performing object recognition and tracking tasks.
 - This competition will utilize OpenCV for color block (red, green) recognition, and will adopt version 4.5.3.
-
----
-    $ Pip3 install opencv-python==4.5.3.56     
-    $ sudo apt-get install python-opencv
----
+```
+$ Pip3 install opencv-python==4.5.3.56     
+$ sudo apt-get install python-opencv
+```
 - Installation reference URL: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
  
 ## 中文
@@ -22,9 +21,10 @@
 - OpenCV提供了許多功能和算法，包括圖像處理、特徵檢測、物體識  別、視頻分析等。它可以用於很多不同的應用，例如機器視覺、圖像處理、視頻追蹤、人臉識別、擴增實境等。
 
 - 本活動將利用OpenCV進行顏色積木(紅、綠)辨識，並採用4.5.3
-> $ Pip3 install opencv-python==4.5.3.56
-> $ sudo apt-get install python-opencv
-
+```  
+$ Pip3 install opencv-python==4.5.3.56
+$ sudo apt-get install python-opencv
+```
 -  安裝參考網址: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
 
 <small>資料來源:[維基百科](https://zh.wikipedia.org/wiki/OpenCV)</small>
