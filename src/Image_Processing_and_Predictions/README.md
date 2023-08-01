@@ -45,6 +45,7 @@ All image filtering functions can be found in the [vehicle_function.py](../Progr
 - 使用光達測量物體右邊和左邊與牆的距離，我們可以計算出兩側的誤差值。  
 - 透過將這些誤差值與係數相乘，我們可以獲得使伺服馬達在道路上置中的角度。  
 <div align="center">
+  
 |LIDAR detects surrounding walls(光達偵測周圍牆壁)|LIDAR readings(光達讀取的數值)|
 |:---:|:---:|
 |<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
