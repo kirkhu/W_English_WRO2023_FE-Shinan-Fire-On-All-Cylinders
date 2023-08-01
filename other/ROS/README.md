@@ -29,7 +29,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 $ sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcstool build-essential
 $ sudo rosdep init
- $ rosdep update
+$ rosdep update
 ```
 __Step2. install ROS__
 - __2.1 Create a working environment__
@@ -40,10 +40,11 @@ $ cd ~/ros_catkin_ws
 $ pip3 install importlib-metadata
 $ rosinstall_generator desktop --rosdistro noetic --deps --tar > noetic-desktop.rosinstall
 $ mkdir ./src
-$ vcs import --input noetic-desktop.rosinstall ./src```
+$ vcs import --input noetic-desktop.rosinstall ./src
+```
 - __2.2 Install dependencies__
 ```
->$ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noetic -y
+$ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noetic -y
 ```
 - __2.3 Create catkin working environment__
 ```
