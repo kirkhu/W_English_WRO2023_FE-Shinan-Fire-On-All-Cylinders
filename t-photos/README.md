@@ -1,5 +1,6 @@
 ![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
+##
 - ### Team Photo  
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
@@ -7,7 +8,7 @@
 - ### Funny Photo  
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
-# Team Members of Introduction  
+## Team Members of Introduction  
 |   |   |
 | :----: | :----: |
 | __Hu,Yun-Ruei__  | __Work Assignments(工作分配)：__ Report recording and writing.|
