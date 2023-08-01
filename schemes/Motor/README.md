@@ -97,11 +97,11 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <table>
 <tr>
 <td  align="center">Model(型號)</td>
-<td  align="center">L293D</td>
-<td  align="center">L298N</td>
+<td  align="center">L293D(馬達控制器)</td>
+<td  align="center">L298N(馬達控制器)</td>
 </tr>
 <tr>
-<td  align="center"></td>
+<td  align="center">Motor(馬達)</td>
 <td  align="center"> <img src="./img/l293d.png" width = "300"  alt="l293d" align=center /></td>
 <td  align="center"><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
 </tr>
