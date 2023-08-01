@@ -5,8 +5,7 @@
 ___Full width(全寛)__
 |Power 50 |Power 70|
 |:----:|:----:|
-|[![Open Challenge power 50 Full width On-All-Cylinders](./img/Open_Challenge_power_50_Full_width.jpg)](https://youtu.be/OUg0x4Qdc0c "Open_Challenge_power_50_Full_width")|
-  [![Open Challenge power 70 Full width On-All-Cylinders](./img/Open_Challenge_power_70_Full_width.jpg)](https://youtu.be/MA1k2P87LdE "Open Challenge power 70 Full width On-All-Cylinders")|
+|[![Open Challenge power 50 Full width On-All-Cylinders](./img/Open_Challenge_power_50_Full_width.jpg)](https://youtu.be/OUg0x4Qdc0c "Open_Challenge_power_50_Full_width")|[![Open Challenge power 70 Full width On-All-Cylinders](./img/Open_Challenge_power_70_Full_width.jpg)](https://youtu.be/MA1k2P87LdE "Open Challenge power 70 Full width On-All-Cylinders")|
 
 - ### Obstacle Challenge(任務賽影片)
 [![2023WRO Future-Engineers_Obstacle Challenge](./img/Obstacle_Challenge.jpg)](https://youtu.be/CwvGDfQJ8cQ "2023WRO Future-Engineers_Obstacle Challenge")
