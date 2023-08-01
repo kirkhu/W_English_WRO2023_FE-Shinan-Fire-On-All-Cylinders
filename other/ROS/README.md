@@ -22,54 +22,35 @@ Whether in research, industrial automation, autonomous vehicles, or other roboti
 
 ## Installation Steps  
 __Step1. setup ROS Database__
-> $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
-> $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
-
-> $ sudo apt-get update
-
-> $ sudo apt-get upgrade
-
-> $ sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcstool build-essential
-
-> $ sudo rosdep init
-
-> $ rosdep update
-
+```
+$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcstool build-essential
+$ sudo rosdep init
+ $ rosdep update
+```
 __Step2. install ROS__
 - __2.1 Create a working environment__
->$ cd          
-
->$ mkdir ~/ros_catkin_ws
-
->$ cd ~/ros_catkin_ws
-
->$ pip3 install importlib-metadata
-
->$ rosinstall_generator desktop --rosdistro noetic --deps --tar > noetic-desktop.rosinstall
-
->$ mkdir ./src
-
->$ vcs import --input noetic-desktop.rosinstall ./src
-
+```
+$ cd
+$ mkdir ~/ros_catkin_ws
+$ cd ~/ros_catkin_ws
+$ pip3 install importlib-metadata
+$ rosinstall_generator desktop --rosdistro noetic --deps --tar > noetic-desktop.rosinstall
+$ mkdir ./src
+$ vcs import --input noetic-desktop.rosinstall ./src```
 - __2.2 Install dependencies__
-
+```
 >$ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noetic -y
-
+```
 - __2.3 Create catkin working environment__
->$ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 --install-space /opt/ros/noetic
-
->$ source /opt/ros/noetic/setup.bash
-
->$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
-
-===========================================================  
-ROS 是 Robot Operating System 的簡寫，意思是機器人作業系統，雖說較作業系統，但ROS的功用其實是負責機器人各個元件進行溝通與操作的一個框架。  
-
-<img src="./img/Ros_logo.png" alt="Image" width="200" height="">  
-
-機器人作業系統(robot operating system, ROS) 是美國 Willow Garage 企業於 2007 基於史丹佛大學 機器人軟體技基礎所創造，ROS 集合了上萬個機器人工程師、軟體工程師、演算法專家的貢獻在其中。  
-
+```
+$ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 --install-space /opt/ros/noetic
+$ source /opt/ros/noetic/setup.bash
+$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+```
 <small>資料來源:[it邦邦忙](https://ithelp.ithome.com.tw/articles/10200551)  
 資料來源:[維基百科](https://zh.wikipedia.org/zh-tw/%E6%A9%9F%E5%99%A8%E4%BA%BA%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)  
 資料來源:[機械工業雜誌 412期](https://docs.google.com/document/d/1M4JN4CFelSwmJmYl0W2PQt0lKBieaWgcDpVNfjTycGE/edit?pli=1)</small>  
