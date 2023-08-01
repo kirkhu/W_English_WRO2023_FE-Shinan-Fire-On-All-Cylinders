@@ -3,7 +3,7 @@
 
 ## <div align="center">Obstacle Challenge of Demonstration Video(車駕車任務賽完成影片)</div>
 
- - ###　power 50  
+ - ###  power 50   
 [![Obstacle Challenge 50  Fire-On-All-Cylinders](./img/Obstacle_Challenge_50.jpg)](https://youtu.be/Jo7555gfXG8 "Obstacle Challenge 50  Fire-On-All-Cylinders")
 
  - ###  power 70  
