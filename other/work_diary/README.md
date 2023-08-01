@@ -270,7 +270,7 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 - 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
 
 | lidar D100  |  ydlidar x4  |   ydlidar x2    |      
-|:----: | :----: | :----:|
+|:----:|:----:|:----:|
 |<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/4/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
 ## 2023/07/24 ~ 2023/07/30  
