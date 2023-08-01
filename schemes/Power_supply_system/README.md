@@ -11,10 +11,19 @@
 
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
 
+<div align="center">
+<table with=100%>
+<tr>
+  <td> 18650 lithium batteries(18650充電電池) </td> Li-Polymer 3S Battery (鋰聚合物電池 3S)<td>
+  </td>
+</tr>
+  <td> <img src="./img/18650.jpeg" width = "200" height = "" alt="18650" align=center /> </td><img src="./img/lipo_battery.png" width = "300" height = "" alt="lipo_battery" align=center /><td>
+  </td>
+<tr>
+</tr>
+</table>
+</div>
 
-| 18650 lithium batteries(18650充電電池) | Li-Polymer 3S Battery (鋰聚合物電池 3S) |
-| :---: | :---: |
-| <img src="./img/18650.jpeg" width = "200" height = "" alt="18650" align=center /> | <img src="./img/lipo_battery.png" width = "300" height = "" alt="lipo_battery" align=center /> |
 
 - However, the maximum voltage supported by the Raspberry Pi is only 5.2V. Therefore, we need to use a step-down module to reduce the voltage to prevent damage to the Raspberry Pi. We initially considered using the LM2596 DC-DC adjustable step-down module, as it has a numerical display to show the current output voltage. However, its maximum current capacity is only 3A. Therefore, we chose a constant voltage and constant current step-down power supply module that can handle up to 5A. Though it lacks a numerical display, we will install a low voltage alarm to detect the battery voltage and ensure its safety.
 
