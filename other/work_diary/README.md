@@ -84,7 +84,7 @@ Jeston Nano </td>
 <td align="center">JGA16-050</td>
 </tr>
 <tr>
-<td align="center"></td>
+<td align="center">Photo</td>
 <td align="center"><img src="./img/4/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
 <td align="center"><img src="./img/4/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
 <td align="center"><img src="./img/4/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
@@ -112,7 +112,7 @@ Jeston Nano </td>
 <td  align="center">SG90</td>
 </tr>
 <tr>
-<td  align="center"></td>
+<td  align="center">Photo</td>
 <td  align="center"><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
 <td  align="center"> <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
@@ -208,7 +208,7 @@ Jeston Nano </td>
 <td  align="center">SG90</td>
 </tr>
 <tr>
-<td  align="center"></td>
+<td  align="center">Photo</td>
 <td  align="center"><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
 <td  align="center"> <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
@@ -369,7 +369,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">raspberry pi camera Module V3</td>
 </tr>
 <tr>
-<td></td>
+<td>Photo</td>
 <td align="center"><img src="./img/5/V1.jpeg" width=200 alt="V1"  /></td>
 <td align="center"><img src="./img/5/V2.jpeg" width=200 alt="V2" ></td>
 <td align="center"><img src="./img/5/V3.jpeg" width=200 alt="V3" /></td>
