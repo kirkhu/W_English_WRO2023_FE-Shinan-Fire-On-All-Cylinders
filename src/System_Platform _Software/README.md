@@ -47,9 +47,12 @@ $ sudo apt-get upgrade
 - 在結束紀錄白色區域後，再次按下按鈕開始記錄橘線，將顏色感測器放在場地橘線上來回移動，記錄橘線的最低數值。再次按下按鈕結束紀錄橘線，並將橘線數值紀錄到color_sensor.p文件中。
 - 在結束橘色線記錄後，再次按下按鈕開始記錄藍色線。將顏色感測器放在場地藍色線上來回移動，記錄藍色線的最低數值。再次按下按鈕結束藍色線記錄，並將藍色線的數值記錄到color_sensor.p文件中。
 
+<div align="center">
+
 |Record the color values of the venue(紀錄場地顏色數值)|
 |:---:|
-|<div align="center"> <img src="./img/detect_color.png" width="300" alt="detect_color"></div>|
+|<img src="./img/detect_color.png" width="300" alt="detect_color">|
+</div>
 
 #### [HSV_Detect.py](../Programming/Obstacle_Challenge/HSV_Test.py)調整積木閥值
 #### 英文
