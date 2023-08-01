@@ -85,7 +85,7 @@ Jeston Nano </td>
 </tr>
 <tr>
 <td align="center"></td>
-<td align="center"><img src="./img/4/JGA25-370_1360RPM.jpg" width = "150" alt="JGA25-370_1360RPM" /></td>
+<td align="center"><img src="./img/5/" width = "150" alt="JGA25-370_1360RPM" /></td>
 <td align="center"><img src="./img/4/JGA25-370_620RPM.jpg" width = "150" alt="JGA25-370_620RPM" /></td>
 <td align="center"><img src="./img/4/JGA25-371_1_34.jpg" width = "150" alt="JGA25-371M" /></td>
 <td align="center"><img src="./img/5/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
