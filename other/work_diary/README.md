@@ -90,6 +90,7 @@ Jeston Nano </td>
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
 - 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
 
+#### #### Batteries(電池)
 <div align="center" width=100%>
 <table >
 <tr>
@@ -106,6 +107,8 @@ Jeston Nano </td>
 </table>
 </div>
 
+
+#### Step-Down Module(降壓模組)
 <div align="center" width=100%>
 <table >
 <tr>
@@ -120,7 +123,7 @@ Jeston Nano </td>
 </table>
 </div>
 
-
+#### Low Voltage Alarm(低電壓警報器)
 <div align="center" width=100%>
 <table >
 <tr>
@@ -142,11 +145,20 @@ Jeston Nano </td>
 
 接下來是操控馬達。在網上搜尋資料後，我發現MG90S和SG90是常見的選擇。MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 
-| MG90S | SG90 |
-| :---: | :---: |
-|  <img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
-
-
+#### Servo Motor(伺服馬達)
+<div align="center" width=100%>
+<table >
+<tr>
+  <td > MG90S </td> 
+  <td>SG90 </td>
+</tr>
+<tr>
+  <td>  <img src="./img/4/MG90S.png" width = "150"  alt="MG90S" align=center />  </td>
+  <td><img src="./img/4/SG90.png" width = "150"  alt="SG90" align=center /> 
+  </td>
+  </tr>
+</table>
+</div>
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -158,9 +170,22 @@ Jeston Nano </td>
 - 車輛在不知道前方距離時，無法在遇到牆壁及時轉彎，因此加上了超音波，這樣就可以在撞到牆之前轉彎。 
 - 經實驗得知，超音波只能偵測前方障礙物距離，且在車輛左右晃動下，不容易偵測距離，因此改採用可以360度偵測的光達感測器，來當車輛的前方、左右邊的距離。
 
-| ultrasound | ydlidar x2 |
-| :---: | :---: |
-| <img src="./img/4/ultrasound.png" width = "150" height = "" alt="ultrasound" align=center /> |<img src="./img/4/Lidar_X2.jpg" width = "150" height = "" alt="ydlidar x2" align=center /> |
+#### Distance Sensor(距離感測器 )
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">ultrasound (超音波)</td> 
+  <td align="center">ydlidar x2(光達)</td>
+</tr>
+<tr>
+  <td>  <img src="./img/4/ultrasound.png" width = "300"  alt="ultrasound" align=center />  </td>
+  <td><img src="./img/4/Lidar_X2.jpg" width = "300"  alt="ydlidar x2" align=center />
+  </td>
+  </tr>
+</table>
+</div>
+
+
 
 
 ## 2023/05/01~ 2023/05/07  
@@ -175,8 +200,16 @@ After the vehicle becomes operational, additional sensors are added to allow the
 隨後，在車輛可以行駛之後，我們進一步添加其他感測器，讓車輛能夠感測場地環境，並根據任務需求做出相應的反應。
 - 在進行測試時，我們發現使用樂高積木的移動速度不快，而且轉彎時重量過重，無法順利轉彎。因此，我們改用雷切機切割木板，使車輛的重量減輕，速度也相應提高，同時還節省了電力。使用木板的好處是可以根據需要自行調整尺寸和位置，而不像樂高需要不斷改裝以適應各種情況。這可以通過 Onshape 等工具進行自由繪畫和調整。
 
-| <img src="./img/5/wood.png" width = "280" height = "" alt="wood" align=center /> |<img src="./img/5/onshape.png" width = "320" height = "" alt="onshape" align=center /> |
-| :---: | :---: |
+<div align="center" width=100%>
+<table >
+<tr>
+  <td>  <img src="./img/5/wood.png" width = "300"  alt="wood" align=center />  </td>
+  <td><img src="./img/5/onshape.png" width = "300"  alt="onshape" align=center />
+  </td>
+  </tr>
+</table>
+</div>
+
 
 ## 2023/05/08 ~ 2023/05/14  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -200,15 +233,46 @@ After the vehicle becomes operational, additional sensors are added to allow the
 - 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
 - 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用 usb3.0 90 度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
  
-|片段程式|定義成函數|
-| :---: | :---: |
-|<img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ >|<img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 />|
 
-| <img src="./img/5/180.jpg" alt="USB180" width=500/>|<img src="./img/5/90.jpg" alt="USB90" width=500/>|
-| :---: | :---: |
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">Snippet of Code(片段程式)</td> 
+  <td align="center">Function(定義成函數)</td>
+</tr>
+<tr>
+  <td><img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ > </td>
+  <td><img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 />
+  </td>  
+  </tr>
+</table>
+</div>
 
-|<img src="./img/4/site.jpg" width=200 alt="site" />|<img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" /> |
-| :---: | :---: |
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">USB 水平 180°</td> 
+  <td align="center">USB 垂直 90°</td>
+</tr>
+<tr>
+  <td align="center"><img src="./img/5/180.jpg" alt="USB180" width=500/></td> 
+  <td align="center"><img src="./img/5/90.jpg" alt="USB90" width=500/></td>
+</tr>
+</table>
+</div>
+
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">Event Photo(活動照片)</td> 
+  <td align="center">Event Photo(活動照片)</td> 
+</tr>
+<tr>
+  <td align="center"><img src="./img/4/site.jpg" width=200 alt="site" /</td> 
+  <td align="center"><img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" /></td>
+</tr>
+</table>
+</div>
 
 
 ## 2023/05/15 ~ 2023/05/21  
