@@ -20,5 +20,10 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 |:----:|:----:|
 |<img src="./img/vehicle_chassis_design_3D.png" width="500" alt="vehicle_chassis_design_3D">|<img src="../Assembly_Instructions/img/up_view.png" width="500" alt="up_view">|
 
+- ##  Gear Differential (齒輪差速器)
+  - 使用市售常見樂高的差速器零件，以降低車輛設計上的難度，LEGO齒輪差速器零件編號為65414、65413、6589，如下圖所示。
+ <img src="./img/LEGO_differential.jpg" width="500" alt="LEGO_differential">
+
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
