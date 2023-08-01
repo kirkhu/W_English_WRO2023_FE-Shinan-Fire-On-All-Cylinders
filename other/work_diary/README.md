@@ -6,10 +6,11 @@
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
+At the beginning, since we were unsure of how to start building and making the vehicle, we referenced the Donkey Car official website. Therefore, the construction of the vehicle will be based on modifications of the vehicle design from the official website.
 
-上網找如何製作自走車及參考美國的技術報告
+由於一開始我們還不知道如何開始建構及製作，因此我們參考了Donkey Car 官網，因此車輛的製作會基於官網的車輛來改造。
 
-| [Donkey Car 官網](http://docs.donkeycar.com/)| [Donkey Car 技術文件](http://docs.donkeycar.com/) |
+| [Donkey Car 官網](https://www.donkeycar.com/) | [Donkey Car 技術文件](http://docs.donkeycar.com/) |
 | :---: | :---: |
 |  <img src="./img/3/donkeycar.png" width = "400" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "400" height = "" alt="jeston nano" align=center /> |
 
@@ -44,13 +45,17 @@
 - When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
-- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370   
-- 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制GA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
+- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
+- 而 JGA25-370 有許多種不同的分支，下面幾顆是目前社團擁有的
+- 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制JGA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
 
 
-| JGA25-370 | JGA16-050 |
-| :---: | :---: |
-|  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
+|| JGA25-370_1360rpm | JGA25-370_620rpm | JGA25-371 減速比1:34 | JGA16-050_35K |
+|:---:|:---:|:---:|:---:| :---: |
+|| <img src="./img/4/JGA25-370_1360RPM.jpg" width = "150" height = "" alt="motor" align=center /> |<img src="./img/4/JGA25-370_620RPM.jpg" width = "150" height = "" alt="motor" align=center />|<img src="./img/4/JGA25-371_1_34.jpg" width = "150" height = "" alt="motor" align=center />| <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
+| 空載速度(rpm)| 1360 | 620 | 294 | 340 |
+| 額定轉矩 | 0.1 | 0.2 | 2.2 | 0.15 |
+| 額定功率(w) | 3.6 | 3.6 | 4.2 | 0.33 |
 
 | L293D | L298N |
 | :---: | :---: |
@@ -222,7 +227,16 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+| <img src="./img/6/anit_daze.png" alt="插座" width="400">  | <img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400">|
+|:----|:----:|
 
+### English
+- During the hardware design process, we encountered a few instances where the Raspberry Pi controller or IC was damaged due to incorrect power or data cable connections. To prevent such issues, we implemented a solution using male-female connectors for both power supply and data transmission. This approach ensured correct wiring and effectively mitigated the risk of the Raspberry Pi or IC getting burnt. These design improvements have enhanced the stability of the hardware system, leading to increased overall product reliability and lifespan.  
+- During the hardware design process, we initially used a breadboard to connect the circuits. Unfortunately, we encountered some instances of burning or poor contacts, resulting in abnormal functionality or potential issues that were challenging to detect. To improve this situation, we made the decision to switch to soldering the circuits onto a prototyping board. This change significantly reduced the risks of burning or poor contacts while ensuring stable and reliable connections. Through this improvement, we successfully enhanced the overall hardware system's reliability and ensured proper functionality.  
+
+### 中文
+- 在硬體設計過程中，遇到過幾次因電源接錯或資料線插錯而導致樹莓派控制器或IC損壞的情況。為了避免這樣的問題，我們採用了使用公母插座進行電源供應及資料傳輸的解決方案。透過公母插座，確保了正確的接線，有效地避免了樹莓派或IC燒毀的風險。這樣的設計改進增加了硬體系統的穩定性，提高了整體產品的可靠性和使用壽命。
+- 在硬體設計過程中，我們最初使用麵包板連接電路，但不幸遇到了一些燒毀或接觸不良的現象，這導致功能運作不正常或存在潛在問題，且很難發現。為了改善這種情況，我們決定改用銲接方式將電路固定在電木板上。這樣的改變明顯地降低了燒毀或接觸不良的風險，同時確保了穩定可靠的連接。透過這項改進，我們成功地提高了整體硬體系統的可靠性，並確保了功能的正常運作。
 
 ## 2023/06/12 ~ 2023/06/18
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
