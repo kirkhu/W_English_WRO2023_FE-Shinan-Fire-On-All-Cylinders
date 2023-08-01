@@ -2,8 +2,17 @@
 ====
 # <div align="center">GitHub Web Editing Languages</div> 
 ## GitHub 網頁編輯語言
+### 英文
+- GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
 
-- ### 中文
+   On GitHub, commonly used and user-friendly web editing languages include:
+
+1. Markdown: Markdown is a lightweight markup language used for formatting text and easily creating structured documents. It is widely used on GitHub for writing README files, documentation, blogs, and forums.
+2. HTML: HTML is a hypertext markup language used for building web pages. With HTML, you can create the structure, content, and layout of web pages.  
+
+   While there are other web editing languages such as CSS, JavaScript, JSON, and YAML, they are not the main focus of this competition activity. Therefore, on GitHub, the primary web editing languages used are Markdown and HTML.
+
+### 中文
 - GitHub 網頁編輯語言主要指的是在使用 GitHub 網站進行編輯時所使用的程式語言。GitHub 提供了多種編輯方式，讓使用者可以編輯和管理程式碼、文檔和其他專案文件。  
 
    在 GitHub 上，常見容易使用的網頁編輯語言包括：  
