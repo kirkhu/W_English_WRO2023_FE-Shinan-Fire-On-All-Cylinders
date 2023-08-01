@@ -9,10 +9,10 @@
 
    The first step to using OpenCV typically involves installing the OpenCV library and then utilizing the relevant APIs for image or video processing tasks. This may involve reading image or video files, applying various image processing techniques (such as filtering, edge detection, color conversion, etc.), or performing object recognition and tracking tasks.
 - This competition will utilize OpenCV for color block (red, green) recognition, and will adopt version 4.5.3.
----
+ ---
    > $ Pip3 install opencv-python==4.5.3.56     
    > $ sudo apt-get install python-opencv
----
+ ---
 - Installation reference URL: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
  
 ## 中文
