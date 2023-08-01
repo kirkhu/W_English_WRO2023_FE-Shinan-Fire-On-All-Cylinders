@@ -31,9 +31,9 @@ In summary, both methods allow you to edit and synchronize files on GitHub. Onli
 
 <div align="center"><img src="./img/github_web_edit.png" alt="github_web_edit.png"  width=300/><img src="./img/github_web_edit1.png" alt="github_web_edit.png"  width=400/></div>
 
-<div align="center">
-
 - ### VCode & GIT
+<div align="center">
+  
 |Git| Git_bash|
 |:---:|:---:|
 |<img src="./img/git.png" alt="git"  width=300/>|<img src="./img/git_bash.png" alt="git_bash"  width=300/>|
@@ -42,6 +42,7 @@ In summary, both methods allow you to edit and synchronize files on GitHub. Onli
 |:---:|:---:|
 |<img src="./img/vscode.png" alt="vscode"  width=400/>|<img src="./img/vscode_git.png" alt="git"  width=300/>|
 </div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 
