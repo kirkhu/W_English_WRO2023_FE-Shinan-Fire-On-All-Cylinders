@@ -258,7 +258,7 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 
 |  Lidar_X2_X4  | Lidar_X2_X4 | Lidar_D100|
 | :---: | :---: | :---:|
-| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png.png" width = "400" height = "" alt="偵測缺角" align=center />|
+| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />|
 
 
 ## 2023/07/17 ~ 2023/07/23  
