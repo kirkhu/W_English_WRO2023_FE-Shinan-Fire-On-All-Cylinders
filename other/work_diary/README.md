@@ -10,13 +10,15 @@ At the beginning, since we were unsure of how to start building and making the v
 
 由於一開始我們還不知道如何開始建構及製作，因此我們參考了Donkey Car 官網，因此車輛的製作會基於官網的車輛來改造。
 
+
+
 | [Donkey Car 官網](https://www.donkeycar.com/) | [Donkey Car 技術文件](http://docs.donkeycar.com/) |
 | :---: | :---: |
 |  <img src="./img/3/donkeycar.png" width = "400" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "400" height = "" alt="jeston nano" align=center /> |
 
-
+<div align="center" width=100%>
 <img src="./img/3/Daily.jpg" width=400 alt="Daily" >
-
+</div>
 
 
 ## 2023/03/27 ~ 2023/04/02
@@ -26,14 +28,29 @@ At the beginning, since we were unsure of how to start building and making the v
 - After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano. 
 
 - 為確保競賽活動順利進行，我們小組進行了競賽活動各階段工作完成時間的細心規劃。，如下圖。
-- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
-  __競賽活動各階段工作完成時間規劃表(甘特圖)__  
+- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜。
+
+  __競賽活動各階段工作完成時間規劃表(甘特圖)__ 
+<div align="center" >
   <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
+</div>
 
+### Vehicle Computing Controller(車輛運算控制器)
+<div align="center" >
+<table >
 
-| raspberry pi 4 B 8G | Jeston Nano |
-| :---: | :---: |
-|  <img src="./img/3/raspberry_pi_4.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "300" height = "" alt="jeston nano" align=center /> |
+<td align="center">
+Raspberry pi 4 B 8G</td>
+<td align="center">
+Jeston Nano </td>
+<tr>
+<td>
+<img src="./img/3/raspberry_pi_4.png" width = "300"  alt="樹梅派" align=center /></td>
+<td>
+<img src="./img/3/jeston_nano.png" width = "300"  alt="jeston nano" align=center /></td>
+</tr>
+</table>
+</div>
 
 
 
@@ -49,6 +66,7 @@ At the beginning, since we were unsure of how to start building and making the v
 - 而 JGA25-370 有許多種不同的分支，下面幾顆是目前社團擁有的
 - 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制JGA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
 
+### (各類型馬達)
 
 || JGA25-370_1360rpm | JGA25-370_620rpm | JGA25-371 減速比1:34 | JGA16-050_35K |
 |:---:|:---:|:---:|:---:| :---: |
@@ -56,6 +74,7 @@ At the beginning, since we were unsure of how to start building and making the v
 | 空載速度(rpm)| 1360 | 620 | 294 | 340 |
 | 額定轉矩 | 0.1 | 0.2 | 2.2 | 0.15 |
 | 額定功率(w) | 3.6 | 3.6 | 4.2 | 0.33 |
+
 
 | L293D | L298N |
 | :---: | :---: |
@@ -70,18 +89,51 @@ At the beginning, since we were unsure of how to start building and making the v
 
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
 - 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
-  
-| <img src="./img/4/18650.jpeg" width = "200" height = "" alt="MG90S" align=center /> | <img src="./img/4/lipo_battery.png" width = "300" height = "" alt="MG90S" align=center /> |
-| :---: | :---: |
-| 18650 | 3S |
 
-| <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
-| :---: | :---: |
-| LM2596 DC-DC可調降壓模組 | 5A恆壓恆流降壓電源模組 |
+<div align="center" width=100%>
+<table >
+<tr>
+  <td> 18650 lithium batteries(18650充電電池) </td> <td>Li-Polymer 3S Battery (鋰聚合物電池 3S)
+  </td>
+</tr>
+<tr>
+  <td>
+  <img src="./img/4/18650.jpeg" width = "300"  alt="18650" /> </td>
+  <td>
+  <img src="./img/4/lipo_battery.png" width = "300" alt="lipo_battery"  />
+  </td>
+</tr>
+</table>
+</div>
 
-| <img src="./img/4/low_voltage_alarm.png" width = "100" height = "" alt="MG90S" align=center /> |
-| :---: |
-| 低電壓警報器 |
+<div align="center" width=100%>
+<table >
+<tr>
+  <td > LM2596 DC-DC可調降壓模組 </td> 
+  <td>5A恆壓恆流降壓電源模組 </td>
+</tr>
+<tr>
+  <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
+  <td><img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> 
+  </td>
+  </tr>
+</table>
+</div>
+
+
+<div align="center" width=100%>
+<table >
+<tr>
+  <td> 低電壓警報器</td> 
+</tr>
+<tr>
+  <td>  <img src="./img/4/low_voltage_alarm.png" width = "100" alt="low_voltage_alarm" align=center />  </td>
+
+  </tr>
+</table>
+</div>
+
+
 ## 2023/04/17 ~ 2023/04/23
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
