@@ -29,11 +29,11 @@
   __競賽活動各階段工作完成時間規劃表(甘特圖)__  
   <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
 
-
+<div align="center">
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
 |  <img src="./img/3/raspberry_pi_4.png" width = "200" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "200" height = "" alt="jeston nano" align=center /> |
-
+</div> 
 
 
 ## 2023/04/03 ~ 2023/04/09  
