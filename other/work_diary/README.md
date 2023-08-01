@@ -21,13 +21,13 @@
 ## 2023/03/27 ~ 2023/04/02
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 **content:** 
+- To ensure the smooth progression of the competition, our team carefully planned the completion timeline for each stage of the competition activities.
+- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano. 
 
-競賽活動各階段工作完成時間規劃表(甘特圖)
-  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
-
-- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano.  
-
+- 為確保競賽活動順利進行，我們小組進行了競賽活動各階段工作完成時間的細心規劃。，如下圖。
 - 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
+  __競賽活動各階段工作完成時間規劃表(甘特圖)__
+  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
 
 
 | raspberry pi 4 B 8G | Jeston Nano |
