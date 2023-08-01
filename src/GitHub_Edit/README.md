@@ -10,7 +10,7 @@ This is the simplest method. You can log in to your GitHub account using a web b
 2. Offline Editing with VSCODE + GIT:
 This method requires you to install specific software, such as Visual Studio Code (VSCODE) and Git, on your local computer. First, you need to download and install VSCODE and Git. Next, you can open your GitHub repository in VSCODE and make modifications to the desired file. After completing the edits, you need to use Git commands to push your local changes to the remote GitHub repository. This way, the file on GitHub will be updated to reflect the edits you made on your local machine.  
 
-In summary, both methods allow you to edit and synchronize files on GitHub. Online editing is suitable for simple changes, while offline editing provides more features and flexibility, making it particularly useful for handling larger projects and collaborative work. However, it's worth noting that online editing might be less intuitive when it comes to creating file folders compared to local editing. As a result, our team primarily uses local editing with online editing as a supplementary approach when editing GitHub repositories.
+ In summary, both methods allow you to edit and synchronize files on GitHub. Online editing is suitable for simple changes, while offline editing provides more features and flexibility, making it particularly useful for handling larger projects and collaborative work. However, it's worth noting that online editing might be less intuitive when it comes to creating file folders compared to local editing. As a result, our team primarily uses local editing with online editing as a supplementary approach when editing GitHub repositories.
 
 
 
@@ -36,7 +36,7 @@ In summary, both methods allow you to edit and synchronize files on GitHub. Onli
   
 |Git| Git_bash|
 |:---:|:---:|
-|<img src="./img/git.png" alt="git"  width=300/>|<img src="./img/git_bash.png" alt="git_bash"  width=300/>|
+|<img src="./img/git.png" alt="git"  width=400/>|<img src="./img/git_bash.png" alt="git_bash"  width=400/>|
 
 |Vscode| vscode Git|
 |:---:|:---:|
