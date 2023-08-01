@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">color sensor(顏色感應器)</div> 
+# <div align="center">Color sensor(顏色感應器)</div> 
 
 <img src="./img/TCS34725.png" alt="TCS34725" width=200 style="display: block; margin: 0 auto;" />  
 
@@ -23,10 +23,20 @@
  - 綜上所述，TCS34725 顏色感測器是一款完美符合本次競賽要求的感測器。它的薄型設計和高度精確的顏色識別功能使車輛能夠靈活適應地面線條的變化，實現順時針和逆時針的轉彎，從而提升了車輛在競賽中的表現。
 - 在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
 
-|片段程式|定義成函數|
-| :---: | :---: |
-|<img src="./img/TCS34725_code.png" alt="TCS34725" width=500 />|<img src="./img/TCS34725_code_class.png" alt="TCS34725" width=500 />|
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">Snippet of Code(片段程式)</td> 
+  <td align="center">Function(定義成函數)</td>
+</tr>
+<tr>
+  <td><img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ > </td>
+  <td><img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 />
+  </td>  
+  </tr>
+</table>
+</div>
 
 
-# <div align="center">![HOME](./other/img/Home.png)[Return Home](../../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
