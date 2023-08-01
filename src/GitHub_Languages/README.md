@@ -7,8 +7,8 @@
 
    On GitHub, commonly used and user-friendly web editing languages include:
 
-  1. Markdown: Markdown is a lightweight markup language used for formatting text and easily creating structured documents. It is widely used on GitHub for writing README files, documentation, blogs, and forums.
-  2. HTML: HTML is a hypertext markup language used for building web pages. With HTML, you can create the structure, content, and layout of web pages.  
+ 1. Markdown: Markdown is a lightweight markup language used for formatting text and easily creating structured documents. It is widely used on GitHub for writing README files, documentation, blogs, and forums.
+ 2. HTML: HTML is a hypertext markup language used for building web pages. With HTML, you can create the structure, content, and layout of web pages.  
 
    While there are other web editing languages such as CSS, JavaScript, JSON, and YAML, they are not the main focus of this competition activity. Therefore, on GitHub, the primary web editing languages used are Markdown and HTML.
 
