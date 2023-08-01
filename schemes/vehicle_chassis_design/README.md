@@ -14,9 +14,9 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 - ## Ackermann_steering_geometry for LEGO(使用LEGO設計阿克曼轉向機構(0%阿克曼))
 <img src="./img/Ackermann_steering_geometry_lego.png" width="500" alt="Ackermann_steering_geometry_lego">
 
-- ## vehicle chassis design 
+- ## Vehicle chassis design 
 
-|vehicle chassis design 3D| vehicle chassis design Entity |
+|Vehicle chassis design 3D| Vehicle chassis design Entity |
 |:----:|:----:|
 |<img src="./img/vehicle_chassis_design_3D.png" width="500" alt="vehicle_chassis_design_3D">|<img src="../Assembly_Instructions/img/up_view.png" width="500" alt="up_view">|
 
