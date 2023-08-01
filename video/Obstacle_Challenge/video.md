@@ -1,4 +1,4 @@
-![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 ## <div align="center">Obstacle Challenge of Demonstration Video(車駕車資格賽完成影片)</div> 
 - ### Obstacle Challenge(任務賽影片)
@@ -9,6 +9,6 @@ __power 70__
 
 __Explanation to Obstacle Challenge(任務賽講解)__
 [![2023WRO Future-Engineers_Obstacle Challenge](   )](https://youtu.be/CwvGDfQJ8cQ "2023WRO Future-Engineers_Obstacle Challenge")
-# <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 > from kirk@snjh.tc.edu.tw
