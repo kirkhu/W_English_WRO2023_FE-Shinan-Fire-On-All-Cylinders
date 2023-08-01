@@ -306,9 +306,9 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 1.依官方評分標準調整網頁，並持續補充技術報告。 
-  
+
  |舊目錄|新目錄(上)|新目錄(下)|
- |:----:||:----:|:----:|
+ |:----:|:----:|:----:|
  |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
 
 2.完成各任務錄影，並上傳YOUTUBE  
