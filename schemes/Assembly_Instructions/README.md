@@ -49,7 +49,7 @@ __Usage:__
 用途:  
 - 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
-### GA25-370 DC reduction motor (GA25-370 直流減速馬達) 
+### JGA25-370 DC reduction motor (GA25-370 直流減速馬達) 
 #### English
 <table border=0 width=100% >
   <tr>
@@ -77,7 +77,7 @@ __規格:__
 __用途:__ 
 - 驅動汽車後輪以控制車輛前進與後退
 
-### MG90S servo motor MG90S servo motor (MG90S伺服馬達)
+### MG90S servo motor(MG90S伺服馬達)
 #### English
 <table border=0 width=100% >
   <tr>

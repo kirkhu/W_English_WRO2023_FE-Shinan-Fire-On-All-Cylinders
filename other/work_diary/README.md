@@ -21,18 +21,18 @@
 ## 2023/03/27 ~ 2023/04/02
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
 **content:** 
+- To ensure the smooth progression of the competition, our team carefully planned the completion timeline for each stage of the competition activities.
+- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano. 
 
-競賽活動各階段工作完成時間規劃表(甘特圖)
-  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
-
-- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano.  
-
+- 為確保競賽活動順利進行，我們小組進行了競賽活動各階段工作完成時間的細心規劃。，如下圖。
 - 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
+  __競賽活動各階段工作完成時間規劃表(甘特圖)__  
+  <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
 
 
 | raspberry pi 4 B 8G | Jeston Nano |
 | :---: | :---: |
-|  <img src="./img/3/raspberry_pi_4.png" width = "200" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "200" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/raspberry_pi_4.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/jeston_nano.png" width = "300" height = "" alt="jeston nano" align=center /> |
 
 
 
@@ -44,11 +44,11 @@
 - When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
-- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 GA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 GA25-370   
+- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370   
 - 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制GA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
 
 
-| GA25-370 | JGA16-050 |
+| JGA25-370 | JGA16-050 |
 | :---: | :---: |
 |  <img src="./img/3/Motor.png" width = "150" height = "" alt="motor" align=center /> | <img src="./img/3/JGA16-050.png" width = "150" height = "" alt="little motor" align=center /> |
 
@@ -207,7 +207,14 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 ## 2023/05/29 ~ 2023/06/04  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-(開始測試)
+
+Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the machine rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
+
+在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續行駛在道路中央。
+
+| 車輛撞擊邊牆 | 偵測左右牆距離 |
+| :---: | :---: |
+| <img src="./img/5/hit_wall.jpeg" width = "300" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "200" height = "" alt="MG90S" align=center /> |
 
 
 
@@ -249,8 +256,10 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 - 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
 - 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
 
-| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> |
-| :---: | :---: |
+|  Lidar_X2_X4  | Lidar_X2_X4 | Lidar_D100|
+| :---: | :---: | :---:|
+| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />|
+
 
 ## 2023/07/17 ~ 2023/07/23  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -260,9 +269,10 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 - However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners
 
 - 機器人現在能夠正常運行。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測到障礙物（積木）的距離，然後辨識積木的顏色。透過利用OpenCV的功能，我們可以畫出虛擬線來協助避開障礙物。使用虛擬線和障礙物的距離，再加上一個演算法，我們可以操縱前輪來避開這些障礙物。  
-- 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。
+- 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
+
 | lidar D100  |  ydlidar x4  |   ydlidar x2    |      
-|:----: | :----: | :----:|
+|:----:|:----:|:----:|
 |<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/4/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 
 ## 2023/07/24 ~ 2023/07/30  
@@ -297,7 +307,27 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 ## 2023/07/31 ~ 2023/08/06
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**content:**  
+
+1.依官方評分標準調整網頁，並持續補充技術報告。 
+
+ |舊目錄|新目錄(上)|新目錄(下)|
+ |:----:|:----:|:----:|
+ |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
+
+2.完成各任務錄影，並上傳YOUTUBE 
+
+  __Open Challenge 資格賽__
+  - [Open Challenge 全窄 電力70](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge 全窄 電力50](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge 半寬半窄 電力70](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge 半寬半窄 電力50](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge 全寬 電力70](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge 全寬 電力50](https://youtu.be/OUg0x4Qdc0c)  
+
+ __Open Challenge 任務賽__
+  - [Obstacle Challenge 電力50 ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge 電力70 ](https://youtu.be/iCmcXbACizY)
 
 
 
