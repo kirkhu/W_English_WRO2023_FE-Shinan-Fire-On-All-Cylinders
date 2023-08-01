@@ -13,8 +13,6 @@
 
 | <img src="./img/car_down.png" width="500" alt="car_board"> | <img src="./img/1.jpg" width="500" alt="car_board"> | <img src="./img/car_board.png" width="500" alt="car_board"> | <img src="./img/car_board_2.png" width="500" alt="car_board"> |   
 | :----: | :----: |:----: |:----: | 
-|<img src="./img/car_board.png" width="500" alt="car_board"> | <img src="./img/car_board_2.png" width="500" alt="car_board"> | | |
-
 
 - ###  Laser cutting machine operation(雷切機操作) 
 <div align="center"><<img src="./img/hu.jpg" width="500"></div>
