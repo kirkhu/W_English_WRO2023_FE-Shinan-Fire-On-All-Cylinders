@@ -208,9 +208,9 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-Before avoiding the blocks, we need to complete three laps around the field. During the laps, we noticed that the vehicle has the possibility of rubbing against the walls during the turning process. To address this, we utilized the 360-degree detection capability of the LiDAR to keep the vehicle in the center of the path. By subtracting the distance on the left side from the distance on the right side, we obtained an error value. We then used the servo motor to correct the error and maintain the vehicle's position in the center while driving.
+Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the machine rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
 
-在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續在中央行駛。
+在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續行駛在道路中央。
 
 | 車輛撞擊邊牆 | 偵測左右牆距離 |
 | :---: | :---: |
