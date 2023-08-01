@@ -1,4 +1,4 @@
-![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 ## <div align="center">Open Challenge of Demonstration Video(車駕車資格賽完成影片)</div> 
 - ### Open Challenge(資格賽影片)
@@ -22,6 +22,6 @@ __full-width narrow(全窄)__
 
 
 
-# <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 > from kirk@snjh.tc.edu.tw
