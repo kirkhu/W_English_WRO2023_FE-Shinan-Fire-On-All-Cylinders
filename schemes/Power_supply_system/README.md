@@ -30,9 +30,20 @@
 
 - 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
 
-| LM2596 DC-DC可調降壓模組 | 5A恆壓恆流降壓電源模組 |
-| :---: | :---: |
-| <img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
+
+<div align="center">
+<table with=100%>
+<tr>
+  <td> LM2596 DC-DC可調降壓模組 </td> <td>5A恆壓恆流降壓電源模組
+  </td>
+</tr>
+  <td>  <img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
+  <td><img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> 
+  </td>
+<tr>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
