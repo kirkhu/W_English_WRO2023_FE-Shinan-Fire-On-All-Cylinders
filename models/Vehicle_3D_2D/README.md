@@ -3,7 +3,7 @@
 ## <div align="center">Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)</div>
 
 - ### Vehicle 3D Model(車輛3D建模圖)
-<img src="./img/Vehicle_cad.png" width="400" alt="Vehicle_cad">  <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">
+<img src="./img/Vehicle_cad.png" width="400" alt="Vehicle_cad"> 
 
 - ###  Vehicle body 2D Cutters Model of laser cutting machines(車體2D 雷切模型)
 
@@ -28,7 +28,9 @@
 - 使用 Onshape 來設計自駕車的 3D 模型，而 Onshape 是免費且容易操作的網頁型態設計軟體。
 - 藉由 OnShope 建立模型後，可輸出2D平面尺寸圖，再交由雷切機進行切割。
 - 本競賽活動所建立的3D/2D模型均由OnShope設計而成。
-- Software link：[On Shope](https://www.onshape.com/en/) 
-|<img src="./img/onshape.png" width="500" alt="Onshape">
+- Software link：[On Shope](https://www.onshape.com/en/)
+  
+|<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">|
+|:---:|:---:|
 
-# <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div>  
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
