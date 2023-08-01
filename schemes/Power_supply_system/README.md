@@ -25,7 +25,7 @@
 
 
 
-| <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="LM25" align=center /> | <img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="ADIO-DC36V5A" align=center /> |
+| <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center /> | <img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> |
 | :---: | :---: |
 | LM2596 DC-DC可調降壓模組 | 5A恆壓恆流降壓電源模組 |
 
