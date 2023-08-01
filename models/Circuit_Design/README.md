@@ -3,10 +3,16 @@
 ## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
 
 - ### Circuit Board (電路板)
-
-|Circuit Board of Top View(電路板上視圖)|Circuit Board of Bottom View(電路板下視圖)|
-|:----:|:----:|
-|<img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="400" alt="circuit_up.jpg"> | <img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="450" alt="circuit_lower.jpg">|
+<div align="center">
+<table>
+  <tr>
+      <td> Circuit Board of Top View(電路板上視圖 </td><td>Circuit Board of Bottom View(電路板下視圖)</td>
+  </tr>
+  <tr>
+     <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="400" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="450" alt="circuit_lower.jpg"></td>
+  </tr>
+</table>
+</div>
 
 - ### Circuit schematic drawing(電路圖繪製) 
 | <img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"> | <img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"> | <img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing">|
