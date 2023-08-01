@@ -1,12 +1,18 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Motor(馬達)</div> 
+
+When the vehicle is in motion, the Raspberry Pi sends speed information to the motor controller to control the rear-wheel drive DC motor. Simultaneously, the Raspberry Pi also sends messages to the servo motor of the front steering mechanism, enabling the vehicle to maneuver freely and move forward.
+
+車輛行走時，樹莓派將轉速訊息傳送給 __馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
+
 ### Front Steering Mechanism Driven by Servo Motor(前轉向機構驅動伺服馬達)
 #### 英文
 - To select a servo motor among commonly available options in the market, considering factors such as weight, rotation angle, and torque, we have identified two suitable servo motors: MG90S and SG90.
 - The main difference between MG90S and SG90 lies in their front gears. The former has metal gears, while the latter has plastic gears. Since continuous rotation is often required, we opted for the MG90S due to its durability and resistance to damage.
 
 #### 中文
+
 - 在選擇伺服馬達以市售常見伺服馬達為目標，並考慮其重量、轉向角度、轉矩等因素，找到MG90S和SG90這二種符合條件之伺服馬達。
 - MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 
