@@ -305,7 +305,9 @@ Before avoiding the blocks, we need to complete three laps around the field. Dur
 ## 2023/07/31 ~ 2023/08/06
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-
+1.持續補充技術報告
+2.完成各任務錄影，並上傳YOUTUBE
+3.
 
 
 
