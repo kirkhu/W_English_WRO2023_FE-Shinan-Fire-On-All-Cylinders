@@ -72,8 +72,10 @@ $ sudo apt-get upgrade
 數字 4：將調整完的綠色閥值記錄到 HSV_Green.p 檔案中。  
 數字 5：將調整完的紅色閥值記錄到 HSV_Red.p。 
 - 在調整積木閾值時，我們會在距離遠和近都放一顆積木，以確保調整的閾值可以辨識任何距離的積木。調整完後，按下數字鍵4或5，將閾值紀錄到HSV_Green.p或HSV_Red.p檔案裡。
-- 在調整記錄完成後，您可以按下數字鍵1、2來顯示上次記錄的閾值，以便進行再次調整。  
+- 在調整記錄完成後，您可以按下數字鍵1、2來顯示上次記錄的閾值，以便進行再次調整。
 
+<div align="center">
+ 
 |Adjust the green color threshold(調整綠色閾值)|Adjust the red color threshold(調整紅色閾值)|
 |:---:|:---:|
 |<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="300" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="300" alt="Adjust_the_red_color_threshold"></div>|
@@ -81,6 +83,8 @@ $ sudo apt-get upgrade
 |Display Button Functionality(顯示按鈕功能)|
 |:---:|
 |<div align="center"> <img src="./img/Display_Button_Functionality.png" width="350" alt="Display_Button_Functionality"></div>|
+
+</div>
 - ### Programming Language(程式語言)
   #### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
