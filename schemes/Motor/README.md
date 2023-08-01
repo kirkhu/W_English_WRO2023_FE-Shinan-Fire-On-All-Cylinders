@@ -1,6 +1,23 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Motor</div> 
+## Front Steering Mechanism Driven by Servo Motor(前轉向機構驅動伺服馬達)
+-在選擇伺服馬達以市售常見直流馬逹為目標，並考慮其重量、轉向角度、轉矩等因素，找到以下二種符合條件之直流馬達。
+
+
+## Rear-Drive DC Motor(後驅直流馬達)
+- 在選擇直流馬達時以市售常見直流馬逹為目標，並考慮其重量、轉速、轉矩等因素，找到以下三種符合條件之直流馬達。
+- 這三種馬達雖型號不相同，但外型相同，其差異如下表。
+
+| 型號 |JGA25 370 |JGA25 370|JGA25 371|
+|:---:|:---:|:---:|:---:|
+|轉速|136rpm/m|620rpm/m|294rpm/m|
+|扭距||||
+|功率||||
+
+## 馬達驅動器
+
+
 Motor(速度、扭距、功率)
 GA25-370 DC reduction motor
 servo motor
