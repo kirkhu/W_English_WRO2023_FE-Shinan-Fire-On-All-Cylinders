@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Motor</div> 
+# <div align="center">Motor(馬達)</div> 
 ## Front Steering Mechanism Driven by Servo Motor(前轉向機構驅動伺服馬達)
 -在選擇伺服馬達以市售常見直流馬逹為目標，並考慮其重量、轉向角度、轉矩等因素，找到以下二種符合條件之直流馬達。
 
