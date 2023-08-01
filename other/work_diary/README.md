@@ -14,10 +14,10 @@ At the beginning, since we were unsure of how to start building and making the v
 
 | [Donkey Car 官網](https://www.donkeycar.com/) | [Donkey Car 技術文件](http://docs.donkeycar.com/) |
 | :---: | :---: |
-|  <img src="./img/3/donkeycar.png" width = "400" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "400" height = "" alt="jeston nano" align=center /> |
+|  <img src="./img/3/donkeycar.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "300" height = "" alt="jeston nano" align=center /> |
 
 <div align="center" width=100%>
-<img src="./img/3/Daily.jpg" width=400 alt="Daily" >
+<img src="./img/3/Daily.jpg" width="300" alt="Daily" >
 </div>
 
 
