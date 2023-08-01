@@ -305,7 +305,10 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 ## 2023/07/31 ~ 2023/08/06
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-
+1.依官方評分標準調整網頁，並持續補充技術報告。
+   <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/> <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/>
+2.完成各任務錄影，並上傳YOUTUBE
+3.
 
 
 
