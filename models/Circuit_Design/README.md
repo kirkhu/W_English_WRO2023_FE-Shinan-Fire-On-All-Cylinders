@@ -1,4 +1,4 @@
-![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
 
@@ -27,6 +27,6 @@
 - 藉由Fritzing繪製電路圖後，可方便依圖在電木板上焊接電路，減少錯誤率，並可便修正。
 - 本競賽活動所製的電路圖均藉由Fritzing設計而成。
 - Software link：[Fritzing](https://fritzing.org/)  
-<img src="./img/Fritzing.png" width="500" alt=" Fritzing">
+<div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing"></div>  
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
