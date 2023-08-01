@@ -10,11 +10,18 @@ At the beginning, since we were unsure of how to start building and making the v
 
 由於一開始我們還不知道如何開始建構及製作，因此我們參考了Donkey Car 官網，因此車輛的製作會基於官網的車輛來改造。
 
+<div align="center">
+<table>
+<tr><td align="center"><a href="https://www.donkeycar.com/">Donkey Car 官網</a></td>
+<td align="center"><a href="http://docs.donkeycar.com/">Donkey Car 技術文件</a></td>
+</tr>
+<tr>
+<td> <img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
+<td><img src="./img/3/donkeycar_doc.png" width = "300"  alt="jeston nano" align=center /></td>
+</tr>
+</table>
+</div>
 
-
-| [Donkey Car 官網](https://www.donkeycar.com/) | [Donkey Car 技術文件](http://docs.donkeycar.com/) |
-| :---: | :---: |
-|  <img src="./img/3/donkeycar.png" width = "300" height = "" alt="樹梅派" align=center /> | <img src="./img/3/donkeycar_doc.png" width = "300" height = "" alt="jeston nano" align=center /> |
 
 <div align="center" width=100%>
 <img src="./img/3/Daily.jpg" width="300" alt="Daily" >
