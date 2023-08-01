@@ -1,9 +1,9 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Color sensor(顏色感應器)</div> 
-
+<div align="center">
 <img src="./img/TCS34725.png" alt="TCS34725" width=200 style="display: block; margin: 0 auto;" />  
-
+</div>
 ## English
 - TCS34725 color sensor 
   - In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor.
