@@ -16,13 +16,35 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 - 在選擇伺服馬達以市售常見伺服馬達為目標，並考慮其重量、轉向角度、轉矩等因素，找到MG90S和SG90這二種符合條件之伺服馬達。
 - MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 #### Servo Motor(伺服馬達)
-| Model(型號)| MG90S | SG90 |
-| :---: | :---: | :---: |
-|  |<img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
-|
-rotation angle(轉動角度)|90° MAX | 0~90°/180° MAX 
-|torque(轉矩)|2.0kg/cm|1.4 kg/cm|
-|speed(轉速)|0.11s|0.1S|
+<div align="center">
+<table>
+<tr>
+<td  align="center">Model(型號)</td>
+<td  align="center"> MG90S</td>
+<td  align="center">SG90</td>
+</tr>
+<tr>
+<td  align="center"></td>
+<td  align="center"><img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
+<td  align="center"> <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
+</tr>
+<tr>
+<td  align="center">rotation angle(轉動角度)</td>
+<td  align="center">90° MAX</td>
+<td  align="center">0~90°/180° MAX</td>
+</tr>
+<tr>
+<td  align="center">torque(轉矩)</td>
+<td  align="center">2.0kg/cm</td>
+<td  align="center">1.4 kg/cm</td>
+</tr>
+<tr>
+<td  align="center">speed(轉速)</td>
+<td  align="center">0.11s</td>
+<td  align="center">0.1S</td>
+</tr>
+</table>
+</div>
 
 ### Rear-Drive DC Motor(後驅直流馬達)
 #### 英文
@@ -51,9 +73,19 @@ rotation angle(轉動角度)|90° MAX | 0~90°/180° MAX
 - 在測試馬達的作動方式時，單純提供電源並無法有效地控制GA25-370馬達的運動，使得我們無法調節速度。因此，我們需要安裝馬達控制器來調節直流減速馬達的速度。目前市售有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸讓我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加車輛的機動性。
 
 #### Motor Controller(馬達控制器)
-| L293D | L298N |
-| :---: | :---: |
-|  <img src="./img/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
-
+<div align="center">
+<table>
+<tr>
+<td  align="center">Model(型號)</td>
+<td  align="center">L293D</td>
+<td  align="center">L298N</td>
+</tr>
+<tr>
+<td  align="center"></td>
+<td  align="center"> <img src="./img/l293d.png" width = "300"  alt="l293d" align=center /></td>
+<td  align="center"><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
