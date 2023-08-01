@@ -257,8 +257,8 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 - 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
 
 |  Lidar_X2_X4  | Lidar_X2_X4 | Lidar_D100|
-| :---: | :---: |
-| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar-D100.png" width = "400" height = "" alt="偵測缺角" align=center />|
+| :---: | :---: | :---:|
+| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png.png" width = "400" height = "" alt="偵測缺角" align=center />|
 
 
 ## 2023/07/17 ~ 2023/07/23  
