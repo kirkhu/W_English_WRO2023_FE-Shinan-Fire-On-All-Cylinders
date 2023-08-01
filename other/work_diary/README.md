@@ -26,8 +26,8 @@
 
 - 為確保競賽活動順利進行，我們小組進行了競賽活動各階段工作完成時間的細心規劃。，如下圖。
 - 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜  
-  __競賽活動各階段工作完成時間規劃表(甘特圖)__
-  <img src="../img/Gantt_Chart.png" width = "500" height = "" alt="甘特圖" align=center />
+  __競賽活動各階段工作完成時間規劃表(甘特圖)__  
+  <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
 
 
 | raspberry pi 4 B 8G | Jeston Nano |
