@@ -22,7 +22,7 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 
 - ##  Gear Differential (齒輪差速器)
 - Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
-  - 使用市售常見樂高的差速器零件，以降低車輛設計上的難度，LEGO齒輪差速器零件編號為65414、65413、6589，如下圖所示。
+- 使用市售常見樂高的差速器零件，以降低車輛設計上的難度，LEGO齒輪差速器零件編號為65414、65413、6589，如下圖所示。
  <img src="./img/LEGO_differential.jpg" width="500" alt="LEGO_differential">
 
 
