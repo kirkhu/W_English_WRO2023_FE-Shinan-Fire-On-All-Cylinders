@@ -18,7 +18,7 @@
 <div align="center">
 <table>
   <tr>
-      <td>電路配置圖</td>PCB配置<td></td><td>電路線路圖</td>
+      <td>Circuit Diagram(電路配置圖)</td><td>PCB Diagram(PCB 配置)</td><td>Circuit Wiring Diagram(電路線路圖)</td>
   </tr>
   <tr>
      <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing"></td>
