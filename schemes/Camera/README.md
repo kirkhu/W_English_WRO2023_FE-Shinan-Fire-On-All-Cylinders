@@ -71,9 +71,9 @@
 - In the Raspberry Pi program, it is possible to configure the resolution of the camera module. We conducted experiments with the following common resolutions.
 - 在raspberry pi的程式中可以設定鏡頭模組的解析度，我們將實驗以下常見的解析度
 
-  1. 1080x640 幀率30p
-  2. 640x320 幀率60p
-  3. 320x240 幀率90p
+1. 1080x640 幀率30p
+2. 640x320 幀率60p
+3. 320x240 幀率90p
 - In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
 - 在我們的實驗發現，當相機模組的解析度設定為1080x640時，由於高解析度的影像處理需求，程式需要花費大量的時間來辨識積木，這導致了程式的運算效率降低。另一方面，當解析度設定為320x240時，雖然運算效率極高，但由於解析度過低，導致無法正常辨識積木。然而，當解析度設定為640x320時，我們觀察到可以正常辨識積木，而且運算效率也不會太慢，避免了車輛撞上積木的問題。因此，我們最終選擇將相機模組的解析度設定為640x320。- 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
