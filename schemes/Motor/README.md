@@ -59,12 +59,32 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 - 經過實驗研究後，我們發現選擇轉速快的1630rpm JGA-370馬達會產生較低的扭距，使車輛行動困難。而若選擇扭距較高的JGA-371馬達，轉速則會過低，不符合車輛行駛所需。因此，我們最終選擇了轉速為620rpm的JGA-370馬達作為車輛的後驅直流馬達。
 
 #### DC Motor(直流馬達)
-|Model(型號) |JGA25 370 |JGA25 370|JGA25 371|JGA16-050|
-|:---:|:---:|:---:|:---:|:---:|
-| |<img src="./img/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /> |<img src="./img/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" />|<img src="./img/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" />|<img src="./img/JGA16-050.png" width = "150" alt="JGA16-050" />|
-|speed(轉速)|1360rpm/m|620rpm/m|294rpm/m|220rpm/m|
-|torque(扭距)|0.35kg.cm|0.75kg.cm|5.2kg.cm|0.15kgcm|
-|power(功率)|5.4W|5.4W|4.2W|0.33W|
+<div align="center"><table><tr>
+<td align="center">Model(型號)</td>
+<td align="center">JGA25 370</td>
+<td align="center">JGA25 370</td>
+<td align="center">JGA25 371</td>
+<td align="center">JGA16-050</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><img src="./img/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
+<td align="center"><img src="./img/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
+<td align="center"><img src="./img/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
+<td align="center"><img src="./img/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
+</tr>
+<tr>
+<td align="center">speed(轉速)</td>
+<td align="center">1360rpm/m</td>
+<td align="center">620rpm/m</td>
+<td align="center">294rpm/m</td>
+<td align="center">220rpm/m</td>
+</tr>
+<tr><td>torque(扭距)</td><td>0.35kg.cm</td><td>0.75kg.cm</td><td>5.2kg.cm</td><td>0.15kgcm</td></tr><tr>
+<td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
+</tr>
+</table>
+</div>
 
 ### Motor Controller(馬達控制器)
 #### 英文
