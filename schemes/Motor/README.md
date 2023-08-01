@@ -15,7 +15,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 
 - 在選擇伺服馬達以市售常見伺服馬達為目標，並考慮其重量、轉向角度、轉矩等因素，找到MG90S和SG90這二種符合條件之伺服馬達。
 - MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
-
+#### Servo Motor(伺服馬達)
 | Model(型號)| MG90S | SG90 |
 | :---: | :---: | :---: |
 |  |<img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /> | <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /> |
@@ -36,6 +36,7 @@ rotation angle(轉動角度)|90° MAX | 0~90°/180° MAX
 - 其中JGA25系統等三種馬達雖型號不相同，但外型相同，其差異如下。
 - 經過實驗研究後，我們發現選擇轉速快的1630rpm JGA-370馬達會產生較低的扭距，使車輛行動困難。而若選擇扭距較高的JGA-371馬達，轉速則會過低，不符合車輛行駛所需。因此，我們最終選擇了轉速為620rpm的JGA-370馬達作為車輛的後驅直流馬達。
 
+#### DC Motor(直流馬達)
 |Model(型號) |JGA25 370 |JGA25 370|JGA25 371|JGA16-050|
 |:---:|:---:|:---:|:---:|:---:|
 | |<img src="./img/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /> |<img src="./img/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" />|<img src="./img/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" />|<img src="./img/JGA16-050.png" width = "150" alt="JGA16-050" />|
@@ -49,6 +50,7 @@ rotation angle(轉動角度)|90° MAX | 0~90°/180° MAX
 #### 中文
 - 在測試馬達的作動方式時，單純提供電源並無法有效地控制GA25-370馬達的運動，使得我們無法調節速度。因此，我們需要安裝馬達控制器來調節直流減速馬達的速度。目前市售有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸讓我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加車輛的機動性。
 
+#### Motor Controller(馬達控制器)
 | L293D | L298N |
 | :---: | :---: |
 |  <img src="./img/l293d.png" width = "150" height = "" alt="l293d" align=center /> | <img src="./img/L298N.png" width = "150" height = "" alt="l298n" align=center /> |
