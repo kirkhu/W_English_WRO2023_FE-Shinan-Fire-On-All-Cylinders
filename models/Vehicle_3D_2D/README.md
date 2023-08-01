@@ -2,12 +2,9 @@
 ====
 ## <div align="center">Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)</div>
 
-- ### Vehicle 3D Model(車輛3D建模圖)
-<img src="./img/Vehicle_cad.png" width="400" alt="Vehicle_cad"> 
-
-- ###  Vehicle body 2D Cutters Model of laser cutting machines(車體2D 雷切模型)
-
-<div align="center"> <img src="./img/2D_Cutters.png" width="500" alt="2D_Cutters"></div>
+| Vehicle 3D Model(車輛3D建模圖)|Vehicle body 2D Cutters Model of laser cutting machines(車體2D 雷切模型)|
+|:---:|:---:|
+|<img src="./img/Vehicle_cad.png" width="400" alt="Vehicle_cad"> |<div align="center"> <img src="./img/2D_Cutters.png" width="500" alt="2D_Cutters">|
 
 - ### Physical cutting of vehicle body panels(實體切割之車體木板) 
 
