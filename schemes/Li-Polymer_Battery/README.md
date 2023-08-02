@@ -54,8 +54,8 @@
 
     - #### Charging/Discharging Equipment(充放電設備)
 <div align="center">
- <table>
-    <tr>
+<table>
+<tr>
         <th>skyrc E430</th>
         <th>skyrc imax B6C2 v2</th>
     </tr>
