@@ -62,7 +62,7 @@ Jeston Nano </td>
 
 
 ## 2023/04/03 ~ 2023/04/09  
-**member:** ZHAO,ZHEN-BO 
+**member:** ZHAO,ZHEN-BO  
 **content:**  
 
 - While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
@@ -73,7 +73,6 @@ Jeston Nano </td>
 - 而 JGA25-370 有許多種不同的分支，下面幾顆是目前社團擁有的
 - 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制JGA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
 
-#### Dc Motor(直流馬達)
 
 #### DC Motor(直流馬達)
 <div align="center"><table><tr>
@@ -103,36 +102,7 @@ Jeston Nano </td>
 </table>
 </div>
 
-#### Servo Motor(伺服馬達)
-<div align="center">
-<table>
-<tr>
-<td  align="center">Model(型號)</td>
-<td  align="center"> MG90S</td>
-<td  align="center">SG90</td>
-</tr>
-<tr>
-<td  align="center">Photo</td>
-<td  align="center"><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
-<td  align="center"> <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
-</tr>
-<tr>
-<td  align="center">rotation angle(轉動角度)</td>
-<td  align="center">90° MAX</td>
-<td  align="center">0~90°/180° MAX</td>
-</tr>
-<tr>
-<td  align="center">torque(轉矩)</td>
-<td  align="center">2.0kg/cm</td>
-<td  align="center">1.4 kg/cm</td>
-</tr>
-<tr>
-<td  align="center">speed(轉速)</td>
-<td  align="center">0.11s</td>
-<td  align="center">0.1S</td>
-</tr>
-</table>
-</div>
+
 
 ## 2023/04/10 ~ 2023/04/16  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
@@ -437,8 +407,8 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 [github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
-要在VS Code編輯只要點擊原始檔控制，然後按下複製儲存庫
-<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center />  
+要在VS Code編輯只要點擊原始檔控制，然後按下複製儲存庫  
+<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center />   
 輸入網址，就能在VS Code做編輯及版本控制  
 <img src="./img/5/web.png" width = "300" height = "" alt="MG90S" align=center />
 
