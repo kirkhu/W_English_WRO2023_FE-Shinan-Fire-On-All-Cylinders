@@ -496,7 +496,20 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-這周由於已經完成大部分程式，因此開始測試機器成功率，先從50%的速度開始，由於速度較慢，因此機器大多都能反應過來，但是在加速到70%時，會因為速度過快造成光達反應不及，無法及時轉彎造成無法進行閃避第一塊積木，因此我們將
+- This week, as most of the programming has been completed, we began testing the success rate of the robot. We started with 50% speed, and due to the slower pace, the robot mostly responded well. However, when accelerating to 70%, the color sensor occasionally misjudged the color of the track due to the high speed. As a result, we modified the turning conditions to utilize the LiDAR's measurements of left and right directions to determine the turning direction. This adjustment reduces the likelihood of turning in the wrong direction due to color misjudgment
+
+- 這周我們已經完成了大部分的程式編寫，於是我們開始進行機器的成功率測試。一開始我們選擇了50%的速度，由於速度相對較慢，機器大多能夠順利做出反應。然而，當我們提高到70%的速度時，我們發現顏色感測器有時會因為速度過快而誤判地上線的顏色。因此，我們進行了調整，改用光達測量左右方向的方式來辨識轉彎方向，這樣可以減少因為顏色誤判而轉錯方向的情況。
+
+#### 偵測轉彎方向
+```
+if get_left_dis > 100:
+    reverse = False
+else:
+    reverse = True
+if get_mid_dis > 55:
+    servo.angle(-40)
+```
+
 
 ## 2023/07/10 ~ 2023/07/16 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
