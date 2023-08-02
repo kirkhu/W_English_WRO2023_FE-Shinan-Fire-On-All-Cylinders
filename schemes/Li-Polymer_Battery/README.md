@@ -62,7 +62,7 @@
     <tr>
         <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment" align=center /></td>
         <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment" align=center /></td>
-        <td>資料單元格</td>
+
     </tr>
 
 </table>
