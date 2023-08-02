@@ -37,7 +37,7 @@
 #### Step-Down Module(降壓模組)
 <div align="center">
 <table with=100%>
-<tr>
+<tr align="center">
   <td> LM2596 DC-DC可調降壓模組 </td> <td>5A恆壓恆流降壓電源模組
   </td>
 </tr><tr>
