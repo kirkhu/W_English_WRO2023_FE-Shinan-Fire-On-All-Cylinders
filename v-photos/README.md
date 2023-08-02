@@ -26,7 +26,7 @@
   </tr>
     </tr>
     <tr>
-    <td><img src="./img/top_View.png" width = "400"  alt="Top_View"></td>
+    <td><img src="./img/top_view.png" width = "400"  alt="Top_View"></td>
     <td> <img src="./img/bottom-view.png" width="400" alt="bottom-view" ></td>
   </tr>
 </table>
