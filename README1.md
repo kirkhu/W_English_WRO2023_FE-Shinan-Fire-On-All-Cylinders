@@ -47,6 +47,7 @@ https://github.com/World-Robot-Olympiad-Association/wro2022-fe-template
     > git config --global user.email "您的Email"   
   - 執行 VScode 點 複製Git存放庫
   - 選擇本地電腦資料夾位置
-  - 編輯後存檔、打說明、提交、同步變更
+  - 編輯後存檔、打說明、提交、同步變更  
 * 圖片改大小
 * 換行 br
+* [HTML表格應用]https://footmark.com.tw/news/web-design/html/html-table-structured-merge-group/
