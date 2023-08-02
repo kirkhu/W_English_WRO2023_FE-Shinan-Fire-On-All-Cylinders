@@ -53,7 +53,7 @@
         |:----|:----:|
 
     - #### Charging/Discharging Equipment(充放電設備)
-<div align="center">
+  <div align="center">
  <table>
     <tr>
         <th>skyrc E430</th>
