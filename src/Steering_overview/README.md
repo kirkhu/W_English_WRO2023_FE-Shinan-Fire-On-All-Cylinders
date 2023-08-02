@@ -74,11 +74,14 @@ if get_mid_dis > 55:
 - 我們會使用顏色感測器來偵測經過的線條次數，並判斷是否超過了設定的次數。
 - 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
 - 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
+ 
+ <div align="center">
 
 |Display the number of lines and the color of the nearest traffic sign(顯示線條次數與最近的交通標誌顏色)|
 |:---:|
 |<div align="center"> <img src="./img/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
 
+</div>
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 
