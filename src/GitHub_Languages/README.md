@@ -19,7 +19,7 @@
 1. Markdown：Markdown 是一種輕量級標記語言，用於格式化文本並輕鬆地創建結構化的文件。它在 GitHub 上被廣泛用於編寫 README 文件、文檔、部落格和討論區。  
 2. HTML：HTML 是用於構建網頁的超文本標記語言。使用 HTML，你可以創建網頁的結構、內容和布局。
    
-   當然還其他的網頁編輯語言，如CSS 、JavaScript、JSON、YAML，但這些不是這次競賽活動的主要項目，因此在GitHub 上，使用的網頁編輯語言以Markdown及HTML語言為主。
+當然還其他的網頁編輯語言，如CSS 、JavaScript、JSON、YAML，但這些不是這次競賽活動的主要項目，因此在GitHub 上，使用的網頁編輯語言以Markdown及HTML語言為主。
    
 - ### [Markdown Document link(教學文件連結)](https://markdown.tw/#link)
 
