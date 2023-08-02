@@ -407,10 +407,9 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 [github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
-要在VS Code編輯只要點擊原始檔控制，然後按下複製儲存庫  
-<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center />   
-輸入網址，就能在VS Code做編輯及版本控制  
-<img src="./img/5/web.png" width = "300" height = "" alt="MG90S" align=center />
+|要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫  | 輸入網址，就能在VS Code做編輯及版本控制  |
+|:---:|:---:|
+|<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center /> |<img src="./img/5/web.png" width = "300" height = "" alt="MG90S" align=center />|
 
 ## 2023/05/29 ~ 2023/06/04  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
