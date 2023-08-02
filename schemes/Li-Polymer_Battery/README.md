@@ -55,9 +55,10 @@
     - #### Charging/Discharging Equipment(充放電設備)
       <div align="center">
       <table>
+        <tr>
         <th>skyrc E430</th>
         <th>skyrc imax B6C2 v2</th>
-    </tr>
+        </tr>
     <tr>
         <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment" align=center /></td>
         <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment" align=center /></td>
