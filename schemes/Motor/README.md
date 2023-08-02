@@ -96,9 +96,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <div align="center">
 <table>
 <tr>
-<td  align="center">Model(型號)</td>
-<td  align="center">L293D(馬達控制器)</td>
-<td  align="center">L298N(馬達控制器)</td>
+<th  align="center">Model(型號)</th>
+<th  align="center">L293D(馬達控制器)</th>
+<th  align="center">L298N(馬達控制器)</th>
 </tr>
 <tr>
 <td  align="center">Photo</td>
