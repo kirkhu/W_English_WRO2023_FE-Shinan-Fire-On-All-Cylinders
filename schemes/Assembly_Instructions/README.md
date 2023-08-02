@@ -12,13 +12,18 @@
 | <img src="./img/up.jpg"  width = "400" alt="機體結構" > | <img src="./img/inside.jpg" width = "400" alt="機體結構" > | <img src="./img/up_view.png" width="400" alt="機體結構" > | 
 | :----: | :----: | :----: |  
 
+- ### Circuit Board (電路板)
 <div align="center">
-  
-- ## Circuit Board (電路板)
-| <img src="./img/circuit_up.jpg"  width = "300" alt="Circuit board(電路板)" > | <img src="./img/circuit_lower.jpg" width = "300" alt="Circuit board(電路板)" > |
-| :----: | :----: | 
-
+<table>
+  <tr>
+      <td> Circuit Board of Top View(電路板上視圖) </td><td>Circuit Board of Bottom View(電路板下視圖)</td>
+  </tr>
+  <tr>
+     <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
+  </tr>
+</table>
 </div>
+
 - ## Overview of Important Parts List. (重要零件清單概述)
 ### Raspberry Pi 4B 8G (樹梅派4B 8G )
 #### English
