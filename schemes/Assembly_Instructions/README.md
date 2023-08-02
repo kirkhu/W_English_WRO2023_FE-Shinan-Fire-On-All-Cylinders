@@ -9,8 +9,17 @@
 ![image](./img/System_operation_process.png)  
 
 - ## Mechanical Structure (機體結構)
-| <img src="./img/up.jpg"  width = "400" alt="機體結構" > | <img src="./img/inside.jpg" width = "400" alt="機體結構" > | <img src="./img/Vehicle_Chassis_Design_top.png" width="400" alt="車輛底盤上視圖" > | 
-| :----: | :----: | :----: |  
+<div align="center">
+<table>
+  <tr>
+      <th>Inner Structure Top View of the Overall Apparatus(整體機體結構上視圖) </th><th>Middle Layer Structure Top View(中層機體結構上視圖)</th><th>Top View of Vehicle Chassis(車輛底盤上視圖)</th>
+  </tr>
+  <tr>
+     <td>  <img src="./img/up.jpg"  width = "400" alt="整體機體結構上視圖" >> </td><td><img src="./img/inside.jpg" width = "400" alt="中層機體結構上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_top.png" width="400" alt="車輛底盤上視圖" ></td>
+  </tr>
+</table>
+</div>
+
 
 - ### Circuit Board (電路板)
 <div align="center">
