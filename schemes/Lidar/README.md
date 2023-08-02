@@ -86,7 +86,18 @@ __由於對ydlidar x4和ydlidar x2的使用不熟悉，導致在偵測障礙物�
 - #### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>(實測光達ydlidar x4、dlidar x2 所遇之缺角問題)
 
 <div align="center">
-<img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> <img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />|
+ <table>
+    <tr>
+        <th> lidar D100</th>
+        <th colspan="2">ydlidar x4 X2</th>
+    </tr>
+    <tr>
+        <td><img src="./img/D100.png" width = "400" height = "" alt="D100" align=center /></td>
+        <td><img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" align=center /></td>
+        <td><img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" align=center /></td>
+    </tr>
+</table>  
+ 
 </div> 
 
 <small>資料來源:[飆機器人](https://shop.playrobot.com/products/lidar-d100-ld14)</small>
