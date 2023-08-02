@@ -2,15 +2,14 @@
 =====
 
 ## <div align="center">Obstacle Challenge of Demonstration Video(車駕車任務賽完成影片)</div>
-
- - ###  power 50   
-[![Obstacle Challenge 50  Fire-On-All-Cylinders](./img/Obstacle_Challenge_50.jpg)](https://youtu.be/Jo7555gfXG8 "Obstacle Challenge 50  Fire-On-All-Cylinders")
-
- - ###  power 70  
-[![Obstacle Challenge 70  Fire-On-All-Cylinders](./img/Obstacle_Challenge_70.jpg)](https://youtu.be/iCmcXbACizY "Obstacle Challenge 70  Fire-On-All-Cylinders")
+ - ### >Obstacle Challenge Videos with Different Horsepower不同動馬力之任務賽影片
+|power 50   |power 70  |
+|:---:|:---:|
+|[![Obstacle Challenge 50  Fire-On-All-Cylinders](./img/Obstacle_Challenge_50.jpg)](https://youtu.be/Jo7555gfXG8 "Obstacle Challenge 50  Fire-On-All-Cylinders")|[![Obstacle Challenge 70  Fire-On-All-Cylinders](./img/Obstacle_Challenge_70.jpg)](https://youtu.be/iCmcXbACizY "Obstacle Challenge 70  Fire-On-All-Cylinders")|
 
  - ### Explanation to Obstacle Challenge(任務賽講解)  
 [![2023WRO Future-Engineers_Obstacle Challenge](   )](https://youtu.be/CwvGDfQJ8cQ "2023WRO Future-Engineers_Obstacle Challenge")
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 > from kirk@snjh.tc.edu.tw
