@@ -65,7 +65,7 @@ __Usage:__
 用途:  
 - 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
-### JGA25-370 DC reduction motor (GA25-370 直流減速馬達) 
+### JGA25-370 DC reduction motor (JGA25-370 直流減速馬達) 
 #### English
 <table border=0 width=100% >
   <tr>
@@ -136,7 +136,7 @@ __Specifications:__
 - Peak output current: 1.2A  
 
 __Usage:__  
-- Control the rotation direction of GA25-371 DC reduction motor.  
+- Control the rotation direction of JGA25-371 DC reduction motor.  
  </td>
     <td >
 <img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />  
@@ -151,7 +151,7 @@ __規格:__
 - 峰值輸出電流：1.2A
 
 __用途:__
-- 控制GA25-371直流減速電機旋轉方向    
+- 控制JGA25-371直流減速電機旋轉方向    
 
 ### Li-Polymer 3S Battery (鋰聚合物電池 3S)
 #### English

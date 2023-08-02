@@ -65,8 +65,8 @@ Jeston Nano </td>
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
-- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
-- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
+- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely JGA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the JGA25-370 with higher torque.  
+- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the JGA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
 - 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
@@ -96,7 +96,7 @@ Jeston Nano </td>
 <td align="center">294rpm/m</td>
 <td align="center">220rpm/m</td>
 </tr>
-<tr><td>torque(扭距)</td><td>0.35kg.cm</td><td>0.75kg.cm</td><td>5.2kg.cm</td><td>0.15kgcm</td></tr><tr>
+<tr><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr>
 <td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
@@ -243,7 +243,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr>
-  <td>  <img src="./img/5/wood.png" width = "300"  alt="wood" align=center />  </td>
+  <td>  <img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
   <td><img src="./img/5/onshape.png" width = "300"  alt="onshape" align=center />
   </td>
   </tr>
