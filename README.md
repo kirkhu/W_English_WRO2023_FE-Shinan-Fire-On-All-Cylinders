@@ -8,7 +8,7 @@ WRO台灣隊伍"Fire On All Cylinders"的官方GitHub存儲庫。所有的程式
 __下方是技術報告的內容，以及建置說明的連結。__
 ## Content(官方目錄)
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
-  __1. Mobility Management(移動性管理)__
+  ### 1. Mobility Management(移動性管理)
     - [vehicle chassis design(車輛底盤設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
     - [Motor(馬逹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Vehicle_3D_2D/README.md)
