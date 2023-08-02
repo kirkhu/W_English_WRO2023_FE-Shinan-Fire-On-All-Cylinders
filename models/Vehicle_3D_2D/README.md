@@ -8,7 +8,7 @@
 
 - ### Physical cutting of vehicle body panels(實體切割之車體木板) 
 
-| <img src="./img/car_down.png" width="500" alt="car_board"> | <img src="./img/1.jpg" width="500" alt="car_board"> | <img src="./img/car_board.png" width="500" alt="car_board"> | <img src="./img/car_board_2.png" width="500" alt="car_board"> |   
+| <img src="./img/car_down.png" width="500" alt="car_board"> | <img src="./img/1.jpg" width="500" alt="car_board"> | <img src="./img/car_board.png" width="500" alt="car_board"> | <img src="./img/car_board2.png" width="500" alt="car_board"> |   
 | :----: | :----: |:----: |:----: | 
 
 - ###  Laser cutting machine operation(雷切機操作) 
