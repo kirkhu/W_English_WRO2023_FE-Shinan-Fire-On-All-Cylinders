@@ -18,7 +18,7 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 
 |Vehicle chassis design 3D| Vehicle chassis design Entity TOP view | Vehicle chassis design Entity Down view|
 |:----:|:----:|:----:|
-|<img src="./img/vehicle_chassis_design_3D.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/Vehicle_Chassis_Design_top" width="400" alt="up_view">|<img src="./img/Vehicle Chassis Design_down_view.png" width="400" alt="down_view">|
+|<img src="./img/vehicle_chassis_design_3D.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/Vehicle_Chassis_Design_top.png" width="400" alt="up_view">|<img src="./img/Vehicle Chassis Design_down_view.png" width="400" alt="down_view">|
 
 - ##  Gear Differential (齒輪差速器)
 - Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
