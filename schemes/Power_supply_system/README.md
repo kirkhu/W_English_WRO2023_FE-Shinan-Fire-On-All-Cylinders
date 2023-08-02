@@ -3,7 +3,8 @@
 # <div align="center">Power_supply_system(電源供應系統)</div> 
 - ###  Power_supply_system of Summary diagram(電源供應系統概要圖) 
 <div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
-<br>
+
+- ###  Physical Connection Diagram of Power Supply System電源供應系統實體連線圖) 
 <div align="center"><img src="./img/Power_supply_system of Summary diagram1.png" width="600"></div>
 
 
