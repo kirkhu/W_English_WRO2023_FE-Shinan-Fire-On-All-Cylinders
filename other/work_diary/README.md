@@ -476,7 +476,7 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 </tr>
 <tr>
 <td align="center"><img src="./img/6/sign.png" width=200 alt="site" ></td><td>
-<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >
+<img src="./img/5/hit_block.jpg" width=300 alt="site" >
 </td>
 </table>
 </div>
