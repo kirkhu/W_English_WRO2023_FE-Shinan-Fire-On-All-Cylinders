@@ -515,15 +515,45 @@ if get_mid_dis > 55:
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+- The robot is now capable of successfully avoiding obstacles and completing the third lap around the track. The next task is to detect blocks and perform a turnaround maneuver. The turnaround will only be executed if the last block of the second lap is red. Therefore, it is necessary to detect the lap count. We will utilize the color sensor to count the number of times the line is crossed and determine whether the set count has been reached.
 
+- If the specified count has not yet been achieved, the system will continue to record the color of the nearest traffic sign until the count of line crossings is greater than or equal to the set value. At this point, color recording will cease.
 
+- Once the color of the nearest traffic sign has been recorded, the program will determine whether the color is red. If the color is red, the system will set the angle of the servo motor to initiate a right turn and continue turning until the vehicle is oriented in the specified direction. If the detected color is not red, the vehicle will continue moving forward. However, if the color of the traffic sign is red, a turnaround maneuver will be executed.
 
+- 已經可以完成閃避積木及繞場第三圈，接下來就是偵測積木並迴轉，迴轉是在第二圈的最後一個積木是紅色的才要進行的動作，因此要先偵測圈數，要利用顏色感測器來偵測經過的線條次數，並判斷是否超過了設定的次數。
+- 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
+- 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
+
+ <div align="center">
+
+|顯示線條次數與最近的交通標誌顏色|
+|:---:|
+|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+
+</div>
 
 ## 2023/07/17 ~ 2023/07/23  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+由於場地任務已經大致完成，因此要開始撰寫技術報告，由於我們還不清楚正確的技術報告標準，因此參考官網的技術報告文件，發現需要以下部分
 
+1. module 此資料夾內需放入車輛模型的文件，如雷射切割機、3D列印機的檔案
+2. other 此資料夾用於放置不屬於其他分類的資料，如通訊協定、工程日誌等
+3. schemes 此資料夾用於硬體介紹，說明電子元件的作用與如何連接
+4. src 此資料夾需要放入所有程式
+5. t-photos 此資料夾需要放入團隊的合照，包括一張合照和搞笑照片
+6. v-photos 此資料夾需要放入機器的照片，包括六個不同方位的視圖
+7. video 此資料夾應該放入機器運作影片，要超過30秒
+
+ <div align="center">
+
+|官方網站的github範例|
+|:---:|
+|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|
+
+</div>
 
 ## 2023/07/24 ~ 2023/07/30  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
