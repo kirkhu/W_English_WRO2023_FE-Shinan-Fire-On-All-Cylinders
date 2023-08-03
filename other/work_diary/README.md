@@ -154,7 +154,7 @@ Jeston Nano </td>
   <td> 低電壓警報器</td> 
 </tr>
 <tr>
-  <td>  <img src="./img/4/low_voltage_alarm.png" width = "100" alt="low_voltage_alarm" align=center />  </td>
+  <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm" align=center />  </td>
 
   </tr>
 </table>
@@ -543,7 +543,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">撞擊積木</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/6/sign.png" width=200 alt="site" ></td><td>
+<td align="center"><img src="./img/6/sign.png" width=250 alt="site" ></td><td>
 <img src="./img/5/hit_block.jpg" width=300 alt="site" >
 </td>
 </table>
