@@ -261,13 +261,38 @@ After the vehicle becomes operational, additional sensors are added to allow the
 - 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
 - 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
 
-|   ydlidar x4  |   ydlidar x2    |   lidar D100  |   
-|:----:|:----:|:----:|
-|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/4/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">ydlidar x4</td> 
+  <td align="center">ydlidar x2</td>
+  <td align="center">lidar 100</td>
+</tr>
+<tr>
+  <td>  <img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
+  <td><img src="./img/4/Lidar_X2.jpg" width = "300" height = "" alt="ydlidar x2" align=center />  </td>
+  <td>  <img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center />  
+  </td>
 
-|  Lidar_X2_X4  | Lidar_X2_X4 | Lidar_D100|
-| :---: | :---: | :---:|
-| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />|
+  </tr>
+</table>
+</div>
+
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">ydlidar x4</td> 
+  <td align="center">ydlidar x2</td>
+  <td align="center">lidar 100</td>
+</tr>
+<tr>
+  <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
+  <td><img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
+  <td> <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />  
+  </td>
+  </tr>
+</table>
+</div>
 
 
 ## 2023/05/15 ~ 2023/05/21  
@@ -425,9 +450,19 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 [github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
-|要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫  | 輸入網址，就能在VS Code做編輯及版本控制  |
-|:---:|:---:|
-|<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center /> |<img src="./img/5/web.png" width = "300" height = "" alt="MG90S" align=center />|
+<div align="center">
+<table>
+<tr>
+<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
+<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
+<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+</td>
+</tr>
+</table>
+</div>
 
 
 ## 2023/06/05 ~ 2023/06/11 
@@ -441,9 +476,14 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 - 在硬體設計過程中，遇到過幾次因電源接錯或資料線插錯而導致樹莓派控制器或IC損壞的情況。為了避免這樣的問題，我們採用了使用公母插座進行電源供應及資料傳輸的解決方案。透過公母插座，確保了正確的接線，有效地避免了樹莓派或IC燒毀的風險。這樣的設計改進增加了硬體系統的穩定性，提高了整體產品的可靠性和使用壽命。
 - 在硬體設計過程中，我們最初使用麵包板連接電路，但不幸遇到了一些燒毀或接觸不良的現象，這導致功能運作不正常或存在潛在問題，且很難發現。為了改善這種情況，我們決定改用銲接方式將電路固定在電木板上。這樣的改變明顯地降低了燒毀或接觸不良的風險，同時確保了穩定可靠的連接。透過這項改進，我們成功地提高了整體硬體系統的可靠性，並確保了功能的正常運作。
 
-| <img src="./img/6/anit_daze.png" alt="插座" width="400">  | <img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400">|
-|:----|:----:|
-
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/6/anit_daze.png" alt="插座" width="400"></td> 
+<td align="center"><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400"></td>
+</tr>
+</table>
+</div>
 
 ## 2023/06/12 ~ 2023/06/18
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -453,10 +493,33 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 - 在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續行駛在道路中央。
 
-| 車輛撞擊邊牆 | 偵測左右牆距離 |
-| :---: | :---: |
-| <img src="./img/5/hit_wall.jpeg" width = "300" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "200" height = "" alt="MG90S" align=center /> |
+<div align="center">
+<table>
+<tr>
+<td align="center"> 車輛撞擊邊牆</td> 
+<td align="center">偵測左右牆距離</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="MG90S"  /></td><td>
+<img src="./img/5/LIDAR_readings.png" width = "200"  alt="MG90S"  />
+</td>
+</tr>
+</table>
+</div>
 
+<div align="center">
+<table>
+<tr>
+<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
+<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
+<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+</td>
+</tr>
+</table>
+</div>
 
 ## 2023/06/19 ~ 2023/06/25   
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
