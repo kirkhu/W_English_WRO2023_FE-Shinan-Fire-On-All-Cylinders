@@ -553,7 +553,13 @@ By using VS Code along with Git to edit our technical documentation, we can effe
 
 - 今天在測試時發現當機器在周圍人穿紅色衣物或綠色衣物時會誤測成積木讓機器閃避，導致無法及時閃過下一個積木，因此我們在畫面的上方將上一層黑色遮罩，讓機器無法偵測場地以外的顏色。在加上黑色遮罩之後，就不會再偵測到場外的顏色，減少被干擾的機率。
 
-<img src="./img/6/black_hid.png" width = "300" height = "" alt="MG90S" align=center />
+<div align="center">
+
+|顯示線條次數與最近的交通標誌顏色|
+|:---:|
+|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+
+</div>
 
 ## 2023/07/03 ~ 2023/07/09 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -632,21 +638,35 @@ if get_mid_dis > 55:
 
 #### Overcoming Terrain Protrusions (克服場地凸起)
 
-|   |    |    |
-| :---: | :---: |:---: |
-| <img src="./img/7/Spacer1.png" alt="Spacer" width=300 />|<img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/>|
-| <img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer6.jpg" alt="Spacer" width=300 />|
-
-
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/7/Spacer1.png" alt="Spacer" width=300 /></td> 
+<td align="center"><img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 /></td>
+<td align="center"><img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/></td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 /></td><td>
+<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />
+</td><td align="center"><img src="./img/7/Spacer6.jpg" alt="Spacer"  width=300/></td>
+</table>
+</div>
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 />|<img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 />|
-| :---: | :---: |
-
-| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/>|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />|
-| :---: | :---: |
-
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
+<td align="center"><img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 /></td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/></td><td>
+<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />
+</td>
+</tr>
+</table>
+</div>
 
 ## 2023/07/31 ~ 2023/08/06
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -661,16 +681,16 @@ if get_mid_dis > 55:
 2.完成各任務錄影，並上傳YOUTUBE 
 
   __Open Challenge 資格賽__
-  - [Open Challenge 全窄 電力70](https://youtu.be/QtpuHt05MDg)
-  - [Open Challenge 全窄 電力50](https://youtu.be/QaYUrrdAtE8)
-  - [Open Challenge 半寬半窄 電力70](https://youtu.be/pcTpH8QgJFU)
-  - [Open Challenge 半寬半窄 電力50](https://youtu.be/7HdWxfWPfWc)
-  - [Open Challenge 全寬 電力70](https://youtu.be/MA1k2P87LdE)
-  - [Open Challenge 全寬 電力50](https://youtu.be/OUg0x4Qdc0c)  
+  - [Open Challenge 全窄 速度70%](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge 全窄 速度50%](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge 半寬半窄 速度70%](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge 半寬半窄 速度50%](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge 全寬 速度70%](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge 全寬 速度50%](https://youtu.be/OUg0x4Qdc0c)  
 
  __Open Challenge 任務賽__
-  - [Obstacle Challenge 電力50 ](https://youtu.be/Jo7555gfXG8)
-  - [Obstacle Challenge 電力70 ](https://youtu.be/iCmcXbACizY)
+  - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
 
 
 
