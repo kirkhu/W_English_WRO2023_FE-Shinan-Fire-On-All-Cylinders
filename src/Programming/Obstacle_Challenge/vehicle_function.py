@@ -1,4 +1,4 @@
-#匯入所需的模組
+#Import the required modules(匯入所需的模組)
 import pigpio
 import time
 import smbus
@@ -86,19 +86,19 @@ TCS34725_REG_CONTROL_AGAIN_4 = 0x01 # 4x Gain
 TCS34725_REG_CONTROL_AGAIN_16 = 0x02 # 16x Gain
 TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
 
-#執行緒進行執行排程
+#Executing threads for task scheduling(執行緒進行執行排程)
     def start(self):
         self.thread = True
         self.color_read_thread.start()
         self.camera_stream_thread.start()
 	    
-#擷取影像
+#Capture images(擷取影像)
     def camera_stream(self):
         while self.thread:
             _, self.raw_image = self.imcap.read()
             self.key = cv2.waitKey(15)
 
-#辨識障礙物座標並計算出障礙物中心點        
+#Identify obstacle coordinates and calculate the center point of the obstacle(辨識障礙物座標並計算出障礙物中心點)        
     def color_detect(self,raw_img, hsv_img, lower, upper):
         mask = cv2.inRange(hsv_img, lower, upper)  
         contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -118,45 +118,45 @@ TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
                 find_y = y
         return raw_img, find_x, find_y, find_area
 
-#計算程式運算速度
+#Calculate Program FPS(計算程式運算速度)
     def get_program_fps(self):
         return int(1 / self.program_fps)
 
-#讀取鍵盤按鍵
+#Read keyboard keys(讀取鍵盤按鍵)
     def get_keyboard(self):
         return self.key
-#將變數green_x回傳，讓外部程式碼可以獲取該值
+#Return the variable green_x to allow external code to access this value(將變數green_x回傳，讓外部程式碼可以獲取該值)
     def get_green_x(self):
         return self.green_x
 
-#將變數green_y回傳，讓外部程式碼可以獲取該值
+#Return the variable green_y to allow external code to access this value(將變數green_y回傳，讓外部程式碼可以獲取該值)
     def get_green_y(self):
         return self.green_y
 
-#將變數green_area回傳，讓外部程式碼可以獲取該值
+#Return the variable green_area to allow external code to access this value(將變數green_area回傳，讓外部程式碼可以獲取該值)
     def get_green_area(self):
         return self.green_area
 
-##將變數red_x回傳，讓外部程式碼可以獲取該值
+#Return the variable red_x to allow external code to access this value(將變數red_x回傳，讓外部程式碼可以獲取該值)
     def get_red_x(self):
         return self.red_x
 
-#將變數red_y回傳，讓外部程式碼可以獲取該值
+#Return the variable red_y to allow external code to access this value(將變數red_y回傳，讓外部程式碼可以獲取該值)
     def get_red_y(self):
         return self.red_y
 	    
-#將變數red_area回傳，讓外部程式碼可以獲取該值
+#Return the variable red_area to allow external code to access this value(將變數red_area回傳，讓外部程式碼可以獲取該值)
     def get_red_area(self):
         return self.red_area
 
-#將執行緒終止
+#Terminating a thread(將執行緒終止)
     def shutdown(self):
         self.thread = False
         self.color_read_thread.join()
         self.camera_stream_thread.join()
         self.imcap.release()
 
-#定義顏色感測器的類別
+#Define a class for a color sensor(定義顏色感測器的類別)
 class TCS34725():
     def __init__(self):
         self.enable_selection()
@@ -195,17 +195,17 @@ class TCS34725():
 
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 
-#定義按鈕的類別
+#Define a class for buttons(定義按鈕的類別)
 class button_control():
     def __init__(self):
         pi.set_mode(Button_pin, pigpio.INPUT)
         pi.set_pull_up_down(Button_pin, pigpio.PUD_UP)
 
-#讀取按鈕
+#Read button(讀取按鈕)
     def raw_value(self):
         return pi.read(Button_pin)
 
-#等待按鈕直到按下	
+#Wait for the button until it's pressed(等待按鈕直到按下)	
     def wait_press(self):
         state = 1
         while state == 1:
@@ -224,36 +224,36 @@ class button_control():
         while state == 0:
             state = pi.read(Button_pin)
 
-#定義LED的類別
+#Define a class for LEDs(定義LED的類別)
 class LED_control():
     def __init__(self):
         pi.set_mode(Red_LED_pin, pigpio.OUTPUT)
         pi.set_mode(Green_LED_pin, pigpio.OUTPUT)
 
-#打開綠色LED
+#Turn on the green LED(打開綠色LED)
     def green_on(self):
         pi.write(Green_LED_pin, pigpio.HIGH)
 
-#關閉綠色LED
+#Turn off the green LED(關閉綠色LED)
     def green_off(self):
         pi.write(Green_LED_pin, pigpio.LOW)
 
-#打開紅色LED
+#Turn on the red LED(打開紅色LED)
     def red_on(self):
         pi.write(Red_LED_pin, pigpio.HIGH)
 
-#關閉紅色LED
+#Turn off the red LED(關閉紅色LED)
     def red_off(self):
         pi.write(Red_LED_pin, pigpio.LOW)
 
-#定義直流馬達的類別
+#Define a class for DC motors(定義直流馬達的類別)
 class dc_motor():
     def __init__(self):
         pi.set_mode(Motor_IN1_pin, pigpio.OUTPUT)
         pi.set_mode(Motor_IN2_pin, pigpio.OUTPUT)
         pi.set_mode(Motor_PWM_pin, pigpio.OUTPUT)
 
-#設定直流馬達輸出    
+#Configure DC motor output(設定直流馬達輸出)    
     def power(self, power):
         if power == 0:
             pi.write(Motor_IN1_pin, pigpio.LOW)
@@ -277,14 +277,14 @@ class dc_motor():
             value = mapping(abs(power), 0, 100, 0, 255)
             pi.set_PWM_dutycycle(Motor_PWM_pin, constrain(mapping(abs(power), 0, 100, 0, 255), 0, 255))
 
-#定義伺服馬達的類別
+#Define a class for servo motors(定義伺服馬達的類別)
 class servo_motor():
 
-#設定伺服馬達GPIO角位
+#Configure servo motor GPIO angle position(設定伺服馬達GPIO角位)
     def __init__(self):
         pi.set_mode(Servo_pin, pigpio.OUTPUT)
 
-#設定素服馬達角度	
+#Set servo motor angle(設定伺服馬達角度)	
     def angle(self, turn_angle):
         turn_angle = constrain(turn_angle, -servo_range, servo_range ) * -1
         self.servoangle = turn_angle + 90 + servo_offset
@@ -329,7 +329,8 @@ class servo_motor():
 
 	def raw(self):
 		return self.getVector(self.VECTOR_EULER)[0]
-#定義光達的類別
+		
+#Define a class for LiDAR(定義光達的類別)
 class lidarSensor():
     def __init__(self, lidar_type):
         if lidar_type == 'D100':
