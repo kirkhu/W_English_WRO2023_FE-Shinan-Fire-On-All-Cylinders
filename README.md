@@ -9,7 +9,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
 ## Content(官方目錄)
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
   #### 1. Mobility Management(移動性管理)
-    - [Vehicle chassis design(車輛底盤設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
+    - [Vehicle chassis design(車輛底盤設計與選擇)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
     - [Introduction to Motor(馬逹介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Vehicle_3D_2D/README.md)
     
@@ -17,16 +17,16 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - __Vehicle design(車輛設計)__
       - [BOM Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams(自駕車輛組裝接線圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
-      - [Circuit Design(電路圖設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
+      - [Circuit Design(電路接線圖設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
       - [Hardware Fool-Proof-Design(硬體防呆設計)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
     - __power Management(電源管理)__
       - [Power_supply_system(電源供應系統)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
       - [Li-Polymer Battery Safety Notice(鋰聚電池安全事項)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
    
     - __Sense Management(感測器管理)__
-      - [Color sensor(顏色感應器)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
+      - [Color sensor(顏色感應器應用及介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
       - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
-      - [Camera(攝影鏡頭)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
+      - [Camera(攝影鏡頭的選擇)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   #### 3. Obstacle Management(障礙物管理)

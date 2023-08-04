@@ -3,7 +3,9 @@
 ## <div align="center"> Team Members of Introduction(團隊成員介紹)</div>
 - ### Team Photo  
 
+- Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
 
+- 今天是我們隊伍成立的第一天，因此拍了照片來做紀念，地點選在了社團所在學校的操場
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
 
