@@ -1,10 +1,12 @@
 Engineering materials
 ====
 
-Official GitHub repository for WRO TAIWAN team Fire On All Cylinders. All code, documentation, and files are located here.  
+- Official GitHub repository for WRO TAIWAN team Fire On All Cylinders. All code, documentation, and files are located here.
+- In this technical document, a table of contents will be created based on the scoring criteria, and the headings in the table of contents will be linked. This allows reviewers to access the articles through links, facilitating a clear understanding of the core content of the technical document and enabling efficient scoring.
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
-WRO台灣隊伍"Fire On All Cylinders"的官方GitHub存儲庫。所有的程式碼、文件和檔案都在此處。  
+- WRO台灣隊伍"Fire On All Cylinders"的官方GitHub存儲庫。所有的程式碼、文件和檔案都在此處。 
+- 在本技術文件中，將根據評分項目建立目錄，並將目錄標題連結化，以便評審能透過連結進入文章，輕鬆了解技術文件的核心內容，實現快速評分。
 __下方是技術報告的內容，以及建置說明的連結。__
 ## Content(官方目錄)
 - ###  ${{\color{red} Hardware Overview (硬體部份)}} $ 
