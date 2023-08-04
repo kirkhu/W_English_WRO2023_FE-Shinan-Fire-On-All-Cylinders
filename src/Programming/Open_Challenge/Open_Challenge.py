@@ -1,3 +1,4 @@
+#Import the required modules(匯入所需的模組)
 from sys import breakpointhook
 from vehicle_function import*
 import time
@@ -9,10 +10,19 @@ import rospy
 from sensor_msgs.msg import LaserScan
 import signal
 
+#Control the LED using the methods and attributes defined within the LED_control class(使用LED_control類別內部定義的方法和屬性，控制LED)
 LED = LED_control()
+
+#Utilize the methods and properties defined within the button_control class to read the button(使用button_control類別內部定義的方法和屬性，讀取按鈕)
 button = button_control()
+
+#Using methods and attributes defined within the dc_motor class to control a DC motor(使用dc_motor類別內部定義的方法和屬性，控制直流馬達)
 motor = dc_motor()
+
+#Utilize the methods and attributes defined within the servo_motor class to control the servo motor(使用servo_motor類別內部定義的方法和屬性，控制伺服馬達)
 servo = servo_motor()
+
+#Utilize the methods and attributes defined within the TCS34725 class to read the color sensor(使用TCS34725類別內部定義的方法和屬性，讀取顏色感測器)
 color_sensor = TCS34725()
 
 thread_run = True
@@ -26,11 +36,13 @@ RADIAN_TO_DEGREES = 180000/3141.59
 lidar_data = 0
 lidar_run = False
 
+#Activate the LiDAR(啟動lidar)
 def lidar_callback(data):
     global lidar_data, lidar_run
     lidar_data = data
     lidar_run = True
 
+#Read LIDAR values(讀取光達數值)
 def lidar_get_distance(set):#Read LiDAR distances from the left, right, and front(讀取光達左測、右測、前方距離)
     lens = int((lidar_data.angle_max - lidar_data.angle_min) / lidar_data.angle_increment) - 1
     mid = -1
@@ -45,26 +57,31 @@ def lidar_get_distance(set):#Read LiDAR distances from the left, right, and fron
         ranges = lidar_data.ranges[i] * 100
         if not math.isnan(ranges):
             if abs(angle + value) < 5:
+            #Lidar front distance value(光達前方數值)
                 mid = int(ranges)
             if abs(angle - 90 + value) < 5:
+            #LiDAR left-side value(光達左邊數值)
                 left = int(ranges)
             if abs(angle + 90 + value) < 5:
+            #LiDAR right-side value(光達右邊數值)
                 right = int(ranges)
         if mid > 0 and left > 0 and right > 0:
             break
     return left, mid, right, value
-
-def center_control(set):#Lidar Road Centering(光達道路置中)
+    
+#Lidar Road Centering(光達道路置中)
+def center_control(set):
     left, mid, right = lidar_get_distance(set)
     if left > 0 and right > 0 and left < 100 and right < 100:
-        center_error = (right - left) / 1.8
+      center_error = (right - left) / 1.8
     elif right < 0 or right > 120:
         center_error = 48 - left
     else:
         center_error = right - 48
     servo.angle(center_error * 2 )
     return left, mid, right
-
+    
+#Detect whether there are walls on both sides(判斷兩側是否有牆壁)
 def to_no_well(set):
     left_dis = 0
     right_dis = 0
@@ -72,7 +89,7 @@ def to_no_well(set):
     while left_dis < 150 and right_dis < 150:
         left_dis, mid_dis, right_dis = center_control(set)
     return mid_dis, left_dis
-
+    
 def to_well(set, set_time):
     left_dis = 0
     right_dis = 0
@@ -81,14 +98,16 @@ def to_well(set, set_time):
         if left_dis > 150 or right_dis > 150:
             reset = time.time()
         left_dis, mid_dis, right_dis = center_control(set)
-
+        
+#Drive straight continuously, reading LiDAR values until a front wall is detected(直線行駛不斷讀取光達數值，直到測到前方牆壁)
 def to_mid_wall(set, set_mid_dis):
     left_dis = 0
     right_dis = 0
     mid_dis = 999
     while mid_dis > set_mid_dis:
         left_dis, mid_dis, left_dis = center_control(set)
-
+        
+#Driving straight, continuously reading LiDAR values until the time reaches直線行駛不斷讀取光達數值，直到時間到)
 def time(set, set_time):
     reset = time.time()
     while time.time() - reset < set_time:
