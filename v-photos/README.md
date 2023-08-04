@@ -46,5 +46,17 @@
 </table>
 </div>
 
+- ### Circuit Board (電路板)
+<div align="center">
+<table>
+  <tr>
+      <th> Circuit Board of Top View(電路板上視圖) </th><th>Circuit Board of Bottom View(電路板下視圖)</th>
+  </tr>
+  <tr>
+     <td> <img src="../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
+  </tr>
+</table>
+</div>
+
 
 # <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div> 
