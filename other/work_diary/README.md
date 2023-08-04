@@ -611,21 +611,47 @@ if get_mid_dis > 55:
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-由於場地任務已經大致完成，因此要開始撰寫技術報告，由於我們還不清楚正確的技術報告標準，因此參考官網的技術報告文件，發現需要以下部分
+- As the field mission has been roughly completed, we are now starting to write the technical report. Since we are not familiar with the correct technical report format, we referred to the official website's technical report documentation, and found that the report should include the following sections:
 
-1. module 此資料夾內需放入車輛模型的文件，如雷射切割機、3D列印機的檔案
-2. other 此資料夾用於放置不屬於其他分類的資料，如通訊協定、工程日誌等
-3. schemes 此資料夾用於硬體介紹，說明電子元件的作用與如何連接
-4. src 此資料夾需要放入所有程式
-5. t-photos 此資料夾需要放入團隊的合照，包括一張合照和搞笑照片
-6. v-photos 此資料夾需要放入機器的照片，包括六個不同方位的視圖
-7. video 此資料夾應該放入機器運作影片，要超過30秒
+  1. module: This folder should contain documentation related to the vehicle models, such as files for laser cutting machines and 3D printers.
+
+  2. other: This folder is used to store data that does not belong to other categories, such as communication protocols and engineering logs.
+
+  3. schemes: This folder is dedicated to hardware introductions, explaining the functions of electronic components and how they are connected.
+
+  4. src: All programs should be placed in this folder.
+
+  5. t-photos: This folder should contain team photos, including a group photo and humorous pictures.
+
+  6. v-photos: Machine photos from six different perspectives should be placed in this folder.
+
+  7. video: Videos demonstrating the machine's operation should be placed in this folder, with each video lasting more than 30 seconds.
+
+- When writing the technical report, we are switching between VS Code and the GitHub website. We use a desktop computer to view the GitHub web page and a laptop to edit the report in VS Code.
+
+- 由於場地任務已經大致完成，因此要開始撰寫技術報告，由於我們還不清楚正確的技術報告標準，因此參考官網的技術報告文件，發現需要以下部分
+
+  1. module 此資料夾內需放入車輛模型的文件，如雷射切割機、3D列印機的檔案
+  
+  2. other 此資料夾用於放置不屬於其他分類的資料，如通訊協定、工程日誌等
+  
+  3. schemes 此資料夾用於硬體介紹，說明電子元件的作用與如何連接
+  
+  4. src 此資料夾需要放入所有程式
+  
+  5. t-photos 此資料夾需要放入團隊的合照，包括一張合照和搞笑照片
+  
+  6. v-photos 此資料夾需要放入機器的照片，包括六個不同方位的視圖
+  
+  7. video 此資料夾應該放入機器運作影片，要超過30秒
+
+- 再撰寫技術文件時，由於需要再VS Code和Github網站之間切換，因此我們改用一台桌機檢視Github網頁，一台筆電用VS Code編輯
 
  <div align="center">
 
-|官方網站的github範例|
-|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|
+|官方網站的github範例|筆電和桌機對照|
+|:---:|:---:|
+|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|
 
 </div>
 
@@ -677,11 +703,15 @@ if get_mid_dis > 55:
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
-1.依官方評分標準調整網頁，並持續補充技術報告。 
+1.As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
+
+1.由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
 
  |舊目錄|新目錄(上)|新目錄(下)|
  |:----:|:----:|:----:|
  |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
+
+2.Complete recording videos for each task and upload them to YouTube.
 
 2.完成各任務錄影，並上傳YOUTUBE 
 
