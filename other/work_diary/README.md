@@ -651,7 +651,7 @@ if get_mid_dis > 55:
 
 |官方網站的github範例|筆電和桌機對照|
 |:---:|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|
+|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="github_example"></div>|
 
 </div>
 
