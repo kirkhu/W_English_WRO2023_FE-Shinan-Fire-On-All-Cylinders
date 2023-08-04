@@ -42,8 +42,8 @@ def lidar_callback(data):
     lidar_data = data
     lidar_run = True
 
-#Read LIDAR values(讀取光達數值)
-def lidar_get_distance(set):#Read LiDAR distances from the left, right, and front(讀取光達左測、右測、前方距離)
+#Read LiDAR distances from the left, right, and front(讀取光達左測、右測、前方距離)
+def lidar_get_distance(set):
     lens = int((lidar_data.angle_max - lidar_data.angle_min) / lidar_data.angle_increment) - 1
     mid = -1
     left = -1
