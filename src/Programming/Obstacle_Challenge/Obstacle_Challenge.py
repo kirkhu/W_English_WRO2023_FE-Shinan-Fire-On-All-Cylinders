@@ -1,3 +1,4 @@
+#Import the required modules(匯入所需的模組)
 from vehicle_function import*
 import time
 import pickle
@@ -17,12 +18,24 @@ import signal
 #opencv_detect.get_red_y          Get the Y coordinate of the red block(取得紅色積木Y座標)
 #opencv_detect.get_red_area()     Obtain the area size of the red block(取得紅色積木面積大小)
 
+#Control the LED using the methods and attributes defined within the LED_control class(使用LED_control類別內部定義的方法和屬性，控制LED)
 LED = LED_control()
+
+#Utilize the methods and properties defined within the button_control class to read the button(使用button_control類別內部定義的方法和屬性，讀取按鈕)
 button = button_control()
+
+#Using methods and attributes defined within the dc_motor class to control a DC motor(使用dc_motor類別內部定義的方法和屬性，控制直流馬達)
 motor = dc_motor()
+
+#Utilize the methods and attributes defined within the servo_motor class to control the servo motor(使用servo_motor類別內部定義的方法和屬性，控制伺服馬達)
 servo = servo_motor()
+
+#Utilize the methods and attributes defined within the TCS34725 class to read the color sensor(使用TCS34725類別內部定義的方法和屬性，讀取顏色感測器)
 color_sensor = TCS34725()
+
+#Utilize the methods and attributes defined within the 'Tools' class(使用tools類別內部定義的方法和屬性)
 mapping = tools()
+
 
 thread_run = True
 reverse = True
@@ -47,11 +60,13 @@ lidar_run = False
 lidar_kp = 0.8
 dodgeblock_kp = 0.1
 
+#Activate the LiDAR(啟動lidar)
 def lidar_callback(data):
     global lidar_data, lidar_run
     lidar_data = data
     lidar_run = True
 
+#Read LiDAR distances from the left, right, and front(讀取光達左測、右測、前方距離)
 def lidar_get_distance(set):
     lens = int((lidar_data.angle_max - lidar_data.angle_min) / lidar_data.angle_increment) - 15
     mid = -1
@@ -66,10 +81,13 @@ def lidar_get_distance(set):
         ranges = lidar_data.ranges[i] * 100
         if ranges < 100:
             if abs(angle + i) < 5:
+                #Lidar front distance value(光達前方數值)
                 mid = ranges
             if abs(angle - 90 + i) < 5:
+                #LiDAR left-side value(光達左邊數值)
                 left = ranges
             if abs(angle + 90 + i) < 5:
+                #LiDAR right-side value(光達右邊數值)
                 right = ranges
     return int(left), int(mid), int(right) ,i
 
@@ -88,8 +106,9 @@ def line_color_read():#Read values of the blue line and orange line(讀取藍線
     print('direction_middle:', color_direction_middle)
     print('line middle:', line_middle)
     print('=======================')
-    
-def block_color_read():#Read obstacle HSV values(讀取障礙物HSV數值)
+
+#Read obstacle HSV values(讀取障礙物HSV數值)
+def block_color_read():
     global green_lower, green_upper, red_lower, red_upper
     with open('save_file/HSV_Green.p', mode='rb') as f:
         file = pickle.load(f)
@@ -110,13 +129,15 @@ def block_color_read():#Read obstacle HSV values(讀取障礙物HSV數值)
     green_lower = np.array(g_lower, np.uint8)
     green_upper = np.array(g_upper, np.uint8)
 
-def color_read():#Read the values of the color sensor(讀取顏色感測器數值)
+#Read the values of the color sensor(讀取顏色感測器數值)
+def color_read():
     global color
     while thread_run:
         color = color_sensor.readluminance()['c']
         time.sleep(0.01)
 
-def car_control():#Controlling DC Motors for Vehicles Using a Keyboard(使用鍵盤控制車輛直流馬達)
+#Controlling DC Motors for Vehicles Using a Keyboard(使用鍵盤控制車輛直流馬達)
+def car_control():
     while thread_run:
         if opencv_detect.get_keyboard() == ord('w'):
             motor.power(50)
@@ -124,17 +145,20 @@ def car_control():#Controlling DC Motors for Vehicles Using a Keyboard(使用鍵
             motor.power(0)
         time.sleep(0.1)
 
-def dodgeblock_to_line(set):#Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
+#Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
+def dodgeblock_to_line(set):
     while color > line_middle:
         dodgeblock_control(set)
         time.sleep(0.001)
 
-def dodgeblock_to_time(set_time, set):#Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
+#Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
+def dodgeblock_to_time(set_time, set):
     set_reset = time.time()
     while time.time() - set_reset < set_time:
         dodgeblock_control(set)
         time.sleep(0.001)
-        
+
+#Recognize Clockwise and Counterclockwise(辨識順逆時針)
 def direction_detect():
     global reverse, line_count
     print('direction detect')
@@ -154,6 +178,7 @@ def direction_detect():
         print('orange line')
         print('Low:', low_color)
 
+#Lidar Road Centering(光達道路置中)
 def center_control(set):
     left, mid, right = lidar_get_distance(set)
     if left > 0 and right > 0:
@@ -164,6 +189,7 @@ def center_control(set):
         center_error = right - 48
     servo.angle(center_error * lidar_kp)
 
+#Rotating motion(迴轉動作)
 def red_turn(set, set_range, set_time):
     while range_y > set_range:
         servo.angle(-35)
@@ -172,8 +198,9 @@ def red_turn(set, set_range, set_time):
         left, mid, right= lidar_get_distance(set)
         center_error = (right - left) / 1.8
         servo.angle(center_error * lidar_kp)
-                
-def number_line():#Record the number of passes through the venue's finish line(紀錄經過場地線次數)
+        
+#Record the number of passes through the venue's finish line(紀錄經過場地線次數)                
+def number_line():
     global line_count ,round_count
     if reverse == True:
         while thread_run:
