@@ -1,3 +1,4 @@
+#匯入所需的模組
 import pigpio
 import time
 import smbus
@@ -18,12 +19,20 @@ Button_pin = 5
 Servo_pin = 26    
 #==========Parameter Settings(參數設定)==========
 servo_offset = 15                      
-reverse = False                        
-servo_range = 30              # Servo Motor Angle Limitation(伺服馬達角度限制)         
-block_detect_min_area = 100            
-image_black_area = 310        #Black mask area at the top of the image screen(影像畫面上方黑色遮罩範圍)         
-image_black_area_down = 400   #Black mask area at the bottom of the image frame(影像畫面下方黑色遮罩範圍)
-camera_BRIGHTNESS = 55        #Adjusting Image Brightness(影像畫面亮度調整)        
+reverse = False 
+
+# Servo Motor Angle Limitation(伺服馬達角度限制) 
+servo_range = 30                  
+block_detect_min_area = 100
+
+#Black mask area at the top of the image screen(影像畫面上方黑色遮罩範圍)
+image_black_area = 310
+
+#Black mask area at the bottom of the image frame(影像畫面下方黑色遮罩範圍)
+image_black_area_down = 400 
+
+#Adjusting Image Brightness(影像畫面亮度調整)
+camera_BRIGHTNESS = 55   
 RADIAN_TO_DEGREES = 360/(math.pi *2)
 pi = pigpio.pi()
 
@@ -77,16 +86,19 @@ TCS34725_REG_CONTROL_AGAIN_4 = 0x01 # 4x Gain
 TCS34725_REG_CONTROL_AGAIN_16 = 0x02 # 16x Gain
 TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
 
+#執行緒進行執行排程
     def start(self):
         self.thread = True
         self.color_read_thread.start()
         self.camera_stream_thread.start()
-
+	    
+#擷取影像
     def camera_stream(self):
         while self.thread:
             _, self.raw_image = self.imcap.read()
             self.key = cv2.waitKey(15)
-        
+
+#辨識障礙物座標並計算出障礙物中心點        
     def color_detect(self,raw_img, hsv_img, lower, upper):
         mask = cv2.inRange(hsv_img, lower, upper)  
         contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
@@ -104,45 +116,47 @@ TCS34725_REG_CONTROL_AGAIN_60 = 0x03 # 60x Gain
                 max_y = y
                 find_x = x
                 find_y = y
-        cv2.circle(raw_img, (find_x, find_y), 5, (255, 255, 255), -1)
         return raw_img, find_x, find_y, find_area
-    
+
+#計算程式運算速度
     def get_program_fps(self):
         return int(1 / self.program_fps)
-    
+
+#讀取鍵盤按鍵
     def get_keyboard(self):
         return self.key
-    
-    def get_green_node_x(self):
-        return self.green_node_x
-
-    def get_red_node_x(self):
-        return self.red_node_x
-
+#將變數green_x回傳，讓外部程式碼可以獲取該值
     def get_green_x(self):
         return self.green_x
-    
+
+#將變數green_y回傳，讓外部程式碼可以獲取該值
     def get_green_y(self):
         return self.green_y
-    
+
+#將變數green_area回傳，讓外部程式碼可以獲取該值
     def get_green_area(self):
         return self.green_area
-    
+
+##將變數red_x回傳，讓外部程式碼可以獲取該值
     def get_red_x(self):
         return self.red_x
-    
+
+#將變數red_y回傳，讓外部程式碼可以獲取該值
     def get_red_y(self):
         return self.red_y
-    
+	    
+#將變數red_area回傳，讓外部程式碼可以獲取該值
     def get_red_area(self):
         return self.red_area
 
+#將執行緒終止
     def shutdown(self):
         self.thread = False
         self.color_read_thread.join()
         self.camera_stream_thread.join()
         self.imcap.release()
 
+#定義顏色感測器的類別
 class TCS34725():
     def __init__(self):
         self.enable_selection()
@@ -181,14 +195,17 @@ class TCS34725():
 
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 
+#定義按鈕的類別
 class button_control():
     def __init__(self):
         pi.set_mode(Button_pin, pigpio.INPUT)
         pi.set_pull_up_down(Button_pin, pigpio.PUD_UP)
 
+#讀取按鈕
     def raw_value(self):
         return pi.read(Button_pin)
-    
+
+#等待按鈕直到按下	
     def wait_press(self):
         state = 1
         while state == 1:
@@ -207,28 +224,36 @@ class button_control():
         while state == 0:
             state = pi.read(Button_pin)
 
+#定義LED的類別
 class LED_control():
     def __init__(self):
         pi.set_mode(Red_LED_pin, pigpio.OUTPUT)
         pi.set_mode(Green_LED_pin, pigpio.OUTPUT)
 
+#打開綠色LED
     def green_on(self):
         pi.write(Green_LED_pin, pigpio.HIGH)
 
+#關閉綠色LED
     def green_off(self):
         pi.write(Green_LED_pin, pigpio.LOW)
 
+#打開紅色LED
     def red_on(self):
         pi.write(Red_LED_pin, pigpio.HIGH)
 
+#關閉紅色LED
     def red_off(self):
         pi.write(Red_LED_pin, pigpio.LOW)
 
+#定義直流馬達的類別
 class dc_motor():
     def __init__(self):
         pi.set_mode(Motor_IN1_pin, pigpio.OUTPUT)
         pi.set_mode(Motor_IN2_pin, pigpio.OUTPUT)
         pi.set_mode(Motor_PWM_pin, pigpio.OUTPUT)
+
+#設定直流馬達輸出    
     def power(self, power):
         if power == 0:
             pi.write(Motor_IN1_pin, pigpio.LOW)
@@ -252,28 +277,19 @@ class dc_motor():
             value = mapping(abs(power), 0, 100, 0, 255)
             pi.set_PWM_dutycycle(Motor_PWM_pin, constrain(mapping(abs(power), 0, 100, 0, 255), 0, 255))
 
+#定義伺服馬達的類別
 class servo_motor():
+
+#設定伺服馬達GPIO角位
     def __init__(self):
         pi.set_mode(Servo_pin, pigpio.OUTPUT)
+
+#設定素服馬達角度	
     def angle(self, turn_angle):
         turn_angle = constrain(turn_angle, -servo_range, servo_range ) * -1
         self.servoangle = turn_angle + 90 + servo_offset
         duty = constrain(mapping(self.servoangle, 0, 180, 500, 2500), 500, 2500)
         pi.set_servo_pulsewidth(Servo_pin, duty)
-
-class ultrasonic_sensor:
-   def __init__(self):
-      self._ping = False
-      self._high = None
-      self._time = None
-      self._triggered = False
-      self._trig_mode = pi.get_mode(trigger_pin)
-      self._echo_mode = pi.get_mode(echo_pin)
-      pi.set_mode(trigger_pin, pigpio.OUTPUT)
-      pi.set_mode(echo_pin, pigpio.INPUT)
-      self._cb = pi.callback(trigger_pin, pigpio.EITHER_EDGE, self._cbf)
-      self._cb = pi.callback(echo_pin, pigpio.EITHER_EDGE, self._cbf)
-      self._inited = True
 
    def _cbf(self, gpio, level, tick):
       if gpio == trigger_pin:
@@ -313,7 +329,7 @@ class ultrasonic_sensor:
 
 	def raw(self):
 		return self.getVector(self.VECTOR_EULER)[0]
-
+#定義光達的類別
 class lidarSensor():
     def __init__(self, lidar_type):
         if lidar_type == 'D100':
@@ -346,49 +362,6 @@ class lidarSensor():
 class tools():        
     def constrain(self, x, out_min, out_max):
         return out_min if x < out_min else out_max if x > out_max else x                
-
-def Motor_test():
-    Motor = dc_motor()
-    Motor.power(0)
-    
-def Distance_test():
-    distance = ultrasonic_sensor()
-    reset = time.time()
-    while time.time() - reset < 5:
-        print(distance.read())
-        time.sleep(0.1)
-    distance.cancel()
-    pi.stop()
-    
-def Servo_test():
-    servo = servo_motor()
-    servo.angle(30)
-    time.sleep(1)
-    servo.angle(-30)
-    time.sleep(1)
-    servo.angle(0)
-
-def color_test():
-    color = TCS34725()
-    while True:
-        lum = color.readluminance()['c']
-        print (lum)
-        
-def external():
-    control = external_control()
-    while True:
-        if control.button_read() == 0:
-            control.Red_ON()
-            control.Green_ON()
-        else:
-            control.Red_OFF()
-            control.Green_OFF()
-
-def lidar_test():
-    lidar = YDlidar()
-    motor = dc_motor()
-    while True:
-        a=lidar.read(0)
 
 if __name__ == "__main__":
     print("error")
