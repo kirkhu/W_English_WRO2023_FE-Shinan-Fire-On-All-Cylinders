@@ -601,9 +601,9 @@ if get_mid_dis > 55:
 
  <div align="center">
 
-|顯示線條次數與最近的交通標誌顏色|
-|:---:|
-|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+|顯示線條次數與最近的交通標誌顏色|正在調整數值|
+|:---:|:---:|
+|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>||<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="Obstacle_XY_coordinates"></div>
 
 </div>
 
