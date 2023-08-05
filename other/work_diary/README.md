@@ -727,7 +727,16 @@ if get_mid_dis > 55:
   - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
 
+### Team Members' Practice Status(隊員練習狀況)
 
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/8/work_photo_0805.jpg" alt="練習照" width="400"></td> 
+<td align="center"><img src="./img/8//work_photo_8.5.jpg" alt="練習照" width="400"></td>
+</tr>
+</table>
+</div>
 
 
 ## 2023/08/07 ~ 2023/08/13
