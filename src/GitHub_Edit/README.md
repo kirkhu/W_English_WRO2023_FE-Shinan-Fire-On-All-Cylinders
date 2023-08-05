@@ -60,7 +60,6 @@ This method requires you to install specific software, such as Visual Studio Cod
 
 - Software link：[Visal Studio Code](https://code.visualstudio.com/) 
 
-  # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
