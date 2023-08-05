@@ -724,7 +724,7 @@ if get_mid_dis > 55:
 <tr>
 <td></td>
 <td></td>
-<td> <?td>
+<td> </td>
 </tr>
 
 </table>
