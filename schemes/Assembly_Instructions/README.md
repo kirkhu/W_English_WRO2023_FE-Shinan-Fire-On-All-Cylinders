@@ -12,10 +12,10 @@
 <div align="center">
 <table>
   <tr>
-      <th>Inner Structure Top View of the Overall Apparatus(整體機體結構上視圖) </th><th>Middle Layer Structure Top View(中層機體結構上視圖)</th><th>Top View of Vehicle Chassis(車輛底盤上視圖)</th><th>Down View of Vehicle Chassis(車輛底盤下視圖)</th>
+      <th>Inner Structure Top View of the Overall Apparatus(整體機體結構上視圖) </th><th>Middle Layer Structure Top View(中層機體結構上視圖)</th><th>Top View of Vehicle Chassis(車輛底盤上視圖)</th>
   </tr>
-  <tr>
-     <td>  <img src="./img/top_view.png"  width = "400" alt="整體機體結構上視圖" > </td><td><img src="./img/Middle_Layer_Structure_Top_View.png" width = "400" alt="中層機體結構上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_top_view.png" width="400" alt="車輛底盤上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_down.png" width="400" alt="車輛底盤下視圖" ></td>
+  <tr align="center">
+     <td>  <img src="./img/top_view.png"  width = "400" alt="整體機體結構上視圖" > </td><td><img src="./img/Middle_Layer_Structure_Top_View.png" width = "400" alt="中層機體結構上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_top_view.png" width="400" alt="車輛底盤上視圖" ></td>
   </tr>
 </table>
 </div>
@@ -24,10 +24,10 @@
 - ### Circuit Board (電路板)
 <div align="center">
 <table>
-  <tr>
+  <tr align="center">
       <th> Circuit Board of Top View(電路板上視圖) </th><th>Circuit Board of Bottom View(電路板下視圖)</th>
   </tr>
-  <tr>
+  <tr align="center">
      <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>

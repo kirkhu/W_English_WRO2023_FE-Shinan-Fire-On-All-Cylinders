@@ -46,15 +46,13 @@ At the beginning, since we were unsure of how to start building and making the v
 <div align="center" >
 <table >
 <tr align="center">
-<th>
-Raspberry pi 4 B 8G</th>
-<th>
-Jeston Nano </th>
-<tr>
+<th>Raspberry pi 4 B 8G</th>
+<th>Jeston Nano </th>
+<tr align="center">
 <td>
-<img src="./img/3/raspberry_pi_4.png" width = "300"  alt="樹梅派" align=center /></td>
+<img src="./img/3/raspberry_pi_4.png" width = "300"  alt="樹梅派" /></td>
 <td>
-<img src="./img/3/jeston_nano.png" width = "300"  alt="jeston nano" align=center /></td>
+<img src="./img/3/jeston_nano.png" width = "300"  alt="jeston nano"/></td>
 </tr>
 </table>
 </div>
@@ -97,7 +95,7 @@ Jeston Nano </th>
 <td >294rpm/m</td>
 <td >220rpm/m</td>
 </tr>
-<tr align="center">\
+<tr align="center">
 <td>torque(力距)</td>
 <td>4.27kg.cm</td>
 <td>9.15kg.cm</td>
@@ -247,12 +245,12 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <th align=center>木板  </th>
-  <th  align=center >onshape 網站  </th>
+<tr align="center">
+  <th>木板  </th>
+  <th>onshape 網站  </th>
   </tr>
-<tr>
-  <td>  <img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
+<tr align="center">
+  <td><img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
   <td><img src="./img/5/onshape.png" width = "300"  alt="onshape" align=center />
   </td>
   </tr>
@@ -277,7 +275,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th>ydlidar x2</th>
   <th>lidar 100</th>
 </tr>
-<tr>
+<tr align="center">
   <td><img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
   <td><img src="./img/4/Lidar_X2.jpg" width = "300" height = "" alt="ydlidar x2" align=center />  </td>
   <td><img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center /> </td>
@@ -292,7 +290,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th >ydlidar x2 距離呈像</th>
   <th >lidar 100 距離呈像</th>
 </tr>
-<tr>
+<tr align="center">
   <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
   <td><img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
   <td> <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />  
@@ -334,7 +332,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th>Snippet of Code(片段程式)</th> 
   <th>Function(定義成函數)</th>
 </tr>
-<tr>
+<tr align="center">
   <td><img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ > </td>
   <td><img src="./img/5/TCS34725_code_class.png" alt="TCS34725" width=500 />
   </td>  
@@ -348,7 +346,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th>USB 水平 180°</th> 
   <th>USB 垂直 90°</th>
 </tr>
-<tr>
+<tr align="center">
   <td align="center"><img src="./img/5/180.jpg" alt="USB180" width=500/></td> 
   <td align="center"><img src="./img/5/90.jpg" alt="USB90" width=500/></td>
 </tr>
@@ -509,10 +507,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <th> 車輛撞擊邊牆</th> 
 <th>偵測左右牆距離</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td><td>
-<img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."  />
-</td>
+<tr align="center">
+<td><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td>
+<td><img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."/></td>
 </tr>
 </table>
 </div>
@@ -534,9 +531,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <th> 偵測積木距離</th> 
 <th> 撞擊積木</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/6/sign.png" width=250 alt="block distance" ></td><td>
-<img src="./img/5/hit_block.jpg" width=300 alt="hit block" >
+<tr align="center">
+<td><img src="./img/6/sign.png" width=250 alt="block distance" ></td>
+<td><img src="./img/5/hit_block.jpg" width=300 alt="hit block" >
 </td>
 </table>
 </div>
@@ -552,11 +549,11 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr>
-<th align="center">使用黑色遮罩屏蔽場外的顏色</th> 
+<tr align="center">
+<th>使用黑色遮罩屏蔽場外的顏色</th> 
 </tr>
-<tr>
-<td align="center"><img src="./img/6/black_hid.png" width="300" alt="cover"></td>
+<tr align="center">
+<td><img src="./img/6/black_hid.png" width="300" alt="cover"></td>
 </table>
 </div>
 
@@ -599,11 +596,9 @@ if get_mid_dis > 55:
 <th>顯示線條次數與最近的交通標誌顏色</th>
 <th>正在調整數值</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td>
-<td>
-<img src="./img/7/check.jpeg" width="300" alt="check">
-</td>
+<tr align="center">
+<td><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td>
+<td><img src="./img/7/check.jpeg" width="300" alt="check"></td>
 </table>
 </div>
 
@@ -653,10 +648,9 @@ if get_mid_dis > 55:
 <th>官方網站的github範例</th> 
 <th>筆電和桌機對照修改</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/7/github_example.png" width="300" alt="github_example"></td><td>
-<img src="./img/7/vs_code.jpeg" width="300" alt="更改文件">
-</td>
+<tr align="center">
+<td><img src="./img/7/github_example.png" width="300" alt="github_example"></td>
+<td><img src="./img/7/vs_code.jpeg" width="300" alt="更改文件"></td>
 </table>
 </div>
 
@@ -681,10 +675,10 @@ if get_mid_dis > 55:
 <th><img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 /></th>
 <th><img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/></th>
 </tr>
-<tr>
-<td align="center"><img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 /></td><td>
-<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />
-</td><td align="center"><img src="./img/7/Spacer6.jpg" alt="Spacer"  width=300/></td>
+<tr align="center">
+<td><img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 /></td>
+<td><img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 /></td>
+<td><img src="./img/7/Spacer6.jpg" alt="Spacer"  width=300/></td>
 </table>
 </div>
 
@@ -696,10 +690,9 @@ if get_mid_dis > 55:
 <th> <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 /></th> 
 <th><img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 /></th>
 </tr>
-<tr>
-<td align="center"><img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/></td><td>
-<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />
-</td>
+<tr align="center">
+<td><img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/></td>
+<td><img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 /></td>
 </tr>
 </table>
 </div>
@@ -750,10 +743,10 @@ __Team Members' Practice Status(隊員練習狀況)__
 <th>報告撰寫</th>
 <th>場地任務練習</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div></td><td>
-<img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily">
-</td><td><img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></td>
+<tr align="center">
+<td><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></td>
 <td><img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></td>
 </table>
 </div>
