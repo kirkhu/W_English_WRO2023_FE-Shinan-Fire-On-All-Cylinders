@@ -12,8 +12,8 @@ At the beginning, since we were unsure of how to start building and making the v
 
 <div align="center">
 <table>
-<tr><td align="center"><a href="https://www.donkeycar.com/">Donkey Car 官網</a></td>
-<td align="center"><a href="http://docs.donkeycar.com/">Donkey Car 技術文件</a></td>
+<tr align="center"><th><a href="https://www.donkeycar.com/">Donkey Car 官網</a></th>
+<th><a href="http://docs.donkeycar.com/">Donkey Car 技術文件</a></th>
 </tr>
 <tr>
 <td> <img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
@@ -45,11 +45,11 @@ At the beginning, since we were unsure of how to start building and making the v
 ### Vehicle Computing Controller(車輛運算控制器)
 <div align="center" >
 <table >
-
-<td align="center">
-Raspberry pi 4 B 8G</td>
-<td align="center">
-Jeston Nano </td>
+<tr align="center">
+<th>
+Raspberry pi 4 B 8G</th>
+<th>
+Jeston Nano </th>
 <tr>
 <td>
 <img src="./img/3/raspberry_pi_4.png" width = "300"  alt="樹梅派" align=center /></td>
@@ -124,8 +124,8 @@ Jeston Nano </td>
 <div align="center" width=100%>
 <table >
 <tr>
-  <td> 18650 lithium batteries(18650充電電池) </td> <td>Li-Polymer 3S Battery (鋰聚合物電池 3S)
-  </td>
+  <th> 18650 lithium batteries(18650充電電池) </th> <th>Li-Polymer 3S Battery (鋰聚合物電池 3S)
+  </th>
 </tr>
 <tr>
   <td>
@@ -142,8 +142,8 @@ Jeston Nano </td>
 <div align="center" width=100%>
 <table >
 <tr>
-  <td > LM2596 DC-DC可調降壓模組 </td> 
-  <td>5A恆壓恆流降壓電源模組 </td>
+  <th> LM2596 DC-DC可調降壓模組 </th> 
+  <th>5A恆壓恆流降壓電源模組 </th>
 </tr>
 <tr>
   <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
@@ -157,7 +157,7 @@ Jeston Nano </td>
 <div align="center" width=100%>
 <table >
 <tr>
-  <td> 低電壓警報器</td> 
+  <th> 低電壓警報器</th> 
 </tr>
 <tr>
   <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm" align=center />  </td>
@@ -179,9 +179,9 @@ Jeston Nano </td>
 <div align="center">
 <table>
 <tr align="center">
-<td rowspan="2">Model(型號)</td>
-<td> MG90S</td>
-<td >SG90</td>
+<th rowspan="2">Model(型號)</th>
+<th> MG90S</th>
+<th >SG90</th>
 </tr>
 <tr align="center">
 <td><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
@@ -218,9 +218,9 @@ Jeston Nano </td>
 #### Distance Sensor(距離感測器 )
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">ultrasound (超音波)</td> 
-  <td align="center">ydlidar x2(光達)</td>
+<tr align="center">
+  <th >ultrasound (超音波)</th> 
+  <th>ydlidar x2(光達)</th>
 </tr>
 <tr>
   <td>  <img src="./img/4/ultrasound.png" width = "300"  alt="ultrasound" align=center />  </td>
@@ -248,8 +248,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr>
-  <td align=center>木板  </td>
-  <td  align=center >onshape 網站  </td>
+  <th align=center>木板  </th>
+  <th  align=center >onshape 網站  </th>
   </tr>
 <tr>
   <td>  <img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
@@ -272,10 +272,10 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">ydlidar x4</td> 
-  <td align="center">ydlidar x2</td>
-  <td align="center">lidar 100</td>
+<tr align="center" >
+  <th></th>ydlidar x4</th> 
+  <th>ydlidar x2</th>
+  <th align="center">lidar 100</th>
 </tr>
 <tr>
   <td>  <img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
@@ -289,10 +289,10 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">ydlidar x4</td> 
-  <td align="center">ydlidar x2</td>
-  <td align="center">lidar 100</td>
+<tr align="center">
+  <th >ydlidar x4</th> 
+  <th >ydlidar x2</th>
+  <th >lidar 100</th>
 </tr>
 <tr>
   <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
@@ -332,9 +332,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">Snippet of Code(片段程式)</td> 
-  <td align="center">Function(定義成函數)</td>
+<tr align="center">
+  <th>Snippet of Code(片段程式)</th> 
+  <th>Function(定義成函數)</th>
 </tr>
 <tr>
   <td><img src="./img/5/TCS34725_code.png" alt="TCS34725" width=500/ > </td>
@@ -346,9 +346,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">USB 水平 180°</td> 
-  <td align="center">USB 垂直 90°</td>
+<tr align="center">
+  <th>USB 水平 180°</th> 
+  <th>USB 垂直 90°</th>
 </tr>
 <tr>
   <td align="center"><img src="./img/5/180.jpg" alt="USB180" width=500/></td> 
@@ -389,13 +389,12 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr  align="center">
-<th>Model(型號)</td> 
+<th rowspan="2">Model(型號)</td> 
 <th>raspberry pi camera Rev 1.3</th>
 <th >raspberry pi camera Module V2</th>
 <th >raspberry pi camera Module V3</th>
 </tr>
 <tr  align="center">
-<td>Photo</td>
 <td ><img src="./img/5/V1.jpeg" width=200 alt="V1"  /></td>
 <td ><img src="./img/5/V2.jpeg" width=200 alt="V2" ></td>
 <td ><img src="./img/5/V3.jpeg" width=200 alt="V3" /></td>
@@ -465,9 +464,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
-<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
+<tr align="center">
+<th> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</th> 
+<th>輸入網址，就能在VS Code做編輯及版本控制</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
@@ -491,9 +490,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> <img src="./img/6/anit_daze.png" alt="插座" width="400"></td> 
-<td align="center"><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400"></td>
+<tr  align="center">
+<th> <img src="./img/6/anit_daze.png" alt="插座" width="400"></th> 
+<th><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400"></th>
 </tr>
 </table>
 </div>
@@ -508,9 +507,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> 車輛撞擊邊牆</td> 
-<td align="center">偵測左右牆距離</td>
+<tr  align="center">
+<th> 車輛撞擊邊牆</th> 
+<th>偵測左右牆距離</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td><td>
@@ -533,9 +532,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> 偵測積木距離</td> 
-<td align="center">撞擊積木</td>
+<tr align="center>
+<th> 偵測積木距離</th> 
+<th>撞擊積木</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/6/sign.png" width=250 alt="block distance" ></td><td>
@@ -556,7 +555,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr>
-<td align="center">使用黑色遮罩屏蔽場外的顏色</td> 
+<th align="center">使用黑色遮罩屏蔽場外的顏色</th> 
 </tr>
 <tr>
 <td align="center"><img src="./img/6/black_hid.png" width="300" alt="cover"></td>
@@ -598,9 +597,9 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center">顯示線條次數與最近的交通標誌顏色</td> 
-<td align="center">正在調整數值</td>
+<tr align="center">
+<th>顯示線條次數與最近的交通標誌顏色</th 
+<th >正在調整數值</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td><td>
@@ -651,9 +650,9 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center">官方網站的github範例</td> 
-<td align="center">筆電和桌機對照修改</td>
+<tr align="center">
+<th>官方網站的github範例</th> 
+<th>筆電和桌機對照修改</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/7/github_example.png" width="300" alt="github_example"></td><td>
@@ -678,10 +677,10 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> <img src="./img/7/Spacer1.png" alt="Spacer" width=300 /></td> 
-<td align="center"><img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 /></td>
-<td align="center"><img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/></td>
+<tr align="center">
+<th> <img src="./img/7/Spacer1.png" alt="Spacer" width=300 /></th> 
+<th><img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 /></th>
+<th><img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/></th>
 </tr>
 <tr>
 <td align="center"><img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 /></td><td>
@@ -694,9 +693,9 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center"> <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
-<td align="center"><img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 /></td>
+<tr  align="center"> 
+<th> <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 /></th> 
+<th><img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 /></th>
 </tr>
 <tr>
 <td align="center"><img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/></td><td>
@@ -716,10 +715,10 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center">舊目錄</td> 
-<td align="center">新目錄(上)</td>
-<td align="center">新目錄(下)</td>
+<tr align="center">
+<th >舊目錄</th> 
+<th >新目錄(上)</th>
+<th>新目錄(下)</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/8/old_content.png" alt="old_content"  width=300/></td><td>
@@ -748,11 +747,11 @@ if get_mid_dis > 55:
 
 <div align="center">
 <table>
-<tr>
-<td align="center">報告撰寫</td> 
-<td align="center">機構調整</td>
-<td align="center">報告撰寫</td>
-<td align="center">場地任務練習</td>
+<tr align="center">
+<th>報告撰寫</th> 
+<th>機構調整</th>
+<th>報告撰寫</th>
+<th>場地任務練習</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div></td><td>
