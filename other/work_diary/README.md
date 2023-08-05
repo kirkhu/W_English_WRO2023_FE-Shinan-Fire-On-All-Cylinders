@@ -179,7 +179,7 @@ Jeston Nano </td>
 <div align="center">
 <table>
 <tr align="center">
-<td>Model(型號)</td>
+<td rowspan="2">Model(型號)</td>
 <td> MG90S</td>
 <td >SG90</td>
 </tr>
