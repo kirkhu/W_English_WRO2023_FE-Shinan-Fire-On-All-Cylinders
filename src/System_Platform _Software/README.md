@@ -88,7 +88,7 @@ $ sudo apt-get upgrade
 
 <div align="center">
  
-|Adjust the green color threshold(調整綠色閾值)|Adjust the red color threshold(調整紅色閾值)|Display Button Functionality(顯示按鈕功能)|
+|Adjust the green color threshold<br>(調整綠色閾值)|Adjust the red color threshold<br>(調整紅色閾值)|Display Button Functionality<br>(顯示按鈕功能)|
 |:---:|:---:|:---:|
 |<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="300" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="300" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="300" alt="Display_Button_Functionality"></div>|
 
