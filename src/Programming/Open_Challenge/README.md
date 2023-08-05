@@ -13,18 +13,19 @@
 
  <div align="center">
  <table>
+ <tr align="center">
+ <th> Edit python of  Mobaxterm_SSH  
+ </th>
+ <th> Edit python of  Mobaxterm_VNC
+ </th>
+ <th>Edit python of RealVNC
+ </th>
  <tr align="center" > 
  <td><img src="../img/Mobaxterm_SSH_python.png" width="300" alt="Mobaxterm_SSH_python"> </td>
  <td><img src="../img/Mobaxterm_VNC_python.png" width="300" alt="Mobaxterm_VNC_python"> </td>
  <td><img src="../img/realVNC_python.png" width="300" alt="realVNC_python"> </td>
  </tr>
- <tr align="center">
- <td> Edit python of  Mobaxterm_SSH  
- </td>
- <td> Edit python of  Mobaxterm_VNC
- </td>
- <td>Edit python of RealVNC
- </td>
+
  </tr>
  </table>
  </div>
