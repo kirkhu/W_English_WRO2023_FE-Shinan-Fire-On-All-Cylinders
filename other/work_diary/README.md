@@ -719,10 +719,11 @@ if get_mid_dis > 55:
 <th >新目錄(上)</th>
 <th>新目錄(下)</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/8/old_content.png" alt="old_content"  width=300/></td><td>
-<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>
-</td><td><img src="./img/8/new2_content.png" alt="new1_content"  width=300/><td>
+<tr  align="center">
+<td><img src="./img/8/old_content.png" alt="old_content"  width=300/></td>
+<td><img src="./img/8/new1_content.png" alt="new1_content"  width=300/></td>
+<td><img src="./img/8/new2_content.png" alt="new1_content"  width=300/><td>
+</tr>
 </table>
 </div>
 
