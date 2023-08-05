@@ -715,16 +715,14 @@ if get_mid_dis > 55:
 <div align="center">
 <table>
 <tr align="center">
-<th>舊目錄</th> 
+<th >舊目錄</th> 
 <th>新目錄(上)</th>
 <th>新目錄(下)</th>
 </tr>
-<tr  align="center">
-<td><img src="./img/8/old_content.png" alt="old_content"  width="300"/></td>
+<tr  align="center"><td><img src="./img/8/old_content.png" alt="old_content"  width="300"/></td>
 <td><img src="./img/8/new1_content.png" alt="new1_content"  width="300"/></td>
-<td><img src="./img/8/new2_content.png" alt="new1_content"  width="300"/><td>
-</tr>
-</table>
+<td><img src="./img/8/new2_content.png" alt="new1_content"  width="300"/><td></tr>
+
 </div>
 
 2. Complete recording videos for each task and upload them to YouTube.
