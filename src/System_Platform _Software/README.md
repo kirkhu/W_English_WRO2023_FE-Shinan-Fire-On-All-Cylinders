@@ -19,10 +19,12 @@ $ sudo apt-get upgrade
  - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
 
  #### 中文
+ 
 
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
+ - 使用Mobaxterm工具(工具介紹在本頁最下方)，連線至Raspberry Pi，進行系統更新及ROS、OpenCV等軟體安裝。 
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
@@ -101,7 +103,7 @@ $ sudo apt-get upgrade
 
    __因此，我們選用python 作為自駕車輛的程式開發語言。__ 
 
-- ### Introduction to  Mobaxterm( Mobaxterm 的介紹)
+### ${{\color{red} Introduction to  Mobaxterm( Mobaxterm 的介紹)}} $  
   #### English：
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
@@ -118,8 +120,9 @@ $ sudo apt-get upgrade
 
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
+### ${{\color{red} Introduction to Visal Studio Code(Visal Studio Code的介紹)}} $  
 
-- ### Introduction to Visal Studio Code(Visal Studio Code的介紹)
+- ### 
   #### English：
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
   - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
