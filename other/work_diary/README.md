@@ -65,8 +65,9 @@ Jeston Nano </td>
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
-- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely JGA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the JGA25-370 with higher torque.  
-- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the JGA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
+- While waiting for the Raspberry Pi to initialize and libraries to be installed, we selected the motor for propulsion, with two options: JGA25-370 and JGA16-050. The former boasts higher torque, capable of moving heavier objects, while the latter is smaller and lighter, albeit with relatively lower torque. Considering the potential weight of the robot, we opted for the higher torque of the JGA25-370.
+- Among the JGA25-370 options, there are several variations currently available within the club.
+- During the testing of motor operation, a simple application of positive and negative voltage did not provide effective control over the JGA25-370's performance or speed adjustment. As a result, a motor controller is needed to regulate the speed of the DC geared motor. Two options were considered: the L293D chip and the L298N module. To minimize weight, we chose the compact L293D chip. Its small size allows us to accommodate more sensors, thereby saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
 - 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
@@ -421,16 +422,16 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr>
-<td align="center"> Without the wide-angle lens(未加廣角鏡)</td> 
-<td align="center">With the wide-angle lens 巳加廣角鏡</td>
+<td align="center"> Without the wide-angle lens 未加廣角鏡</td> 
+<td align="center">With the wide-angle lens 已加廣角鏡</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/5/V2.jpeg" width=200 alt="site" ></td><td>
-<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >
+<td align="center"><img src="./img/5/V2.jpeg" width=200 alt="common" ></td><td>
+<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="wide angle" >
 </td>
 </tr>
-<td align="center"><img src="./img/5/72angle.png" width=200 alt="site" ></td>
-<td align="center"> <img src="./img/5/160angle.png" width=200 alt="site" ></td>
+<td align="center"><img src="./img/5/72angle.png" width=200 alt="common view" ></td>
+<td align="center"> <img src="./img/5/160angle.png" width=200 alt="wide angle view" ></td>
 </tr>
 </table>
 </div>
@@ -505,26 +506,13 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">偵測左右牆距離</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="MG90S"  /></td><td>
-<img src="./img/5/LIDAR_readings.png" width = "200"  alt="MG90S"  />
+<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td><td>
+<img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."  />
 </td>
 </tr>
 </table>
 </div>
 
-<div align="center">
-<table>
-<tr>
-<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
-<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
-</tr>
-<tr>
-<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
-<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
-</td>
-</tr>
-</table>
-</div>
 
 ## 2023/06/19 ~ 2023/06/25   
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -543,8 +531,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">撞擊積木</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/6/sign.png" width=250 alt="site" ></td><td>
-<img src="./img/5/hit_block.jpg" width=300 alt="site" >
+<td align="center"><img src="./img/6/sign.png" width=250 alt="block distance" ></td><td>
+<img src="./img/5/hit_block.jpg" width=300 alt="hit block" >
 </td>
 </table>
 </div>
@@ -559,11 +547,13 @@ After the vehicle becomes operational, additional sensors are added to allow the
 - 今天在測試時發現當機器在周圍人穿紅色衣物或綠色衣物時會誤測成積木讓機器閃避，導致無法及時閃過下一個積木，因此我們在畫面的上方將上一層黑色遮罩，讓機器無法偵測場地以外的顏色。在加上黑色遮罩之後，就不會再偵測到場外的顏色，減少被干擾的機率。
 
 <div align="center">
-
-|顯示線條次數與最近的交通標誌顏色|
-|:---:|
-|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="Obstacle_XY_coordinates"></div>|
-
+<table>
+<tr>
+<td align="center">使用黑色遮罩屏蔽場外的顏色</td> 
+</tr>
+<tr>
+<td align="center"><img src="./img/6/black_hid.png" width="300" alt="cover"></td>
+</table>
 </div>
 
 ## 2023/07/03 ~ 2023/07/09 
@@ -599,12 +589,17 @@ if get_mid_dis > 55:
 - 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
 - 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
 
- <div align="center">
-
-|顯示線條次數與最近的交通標誌顏色|正在調整數值|
-|:---:|:---:|
-|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="check"></div>|
-
+<div align="center">
+<table>
+<tr>
+<td align="center">顯示線條次數與最近的交通標誌顏色</td> 
+<td align="center">正在調整數值</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td><td>
+ <img src="./img/7/check.jpeg" width="300" alt="check">
+</td>
+</table>
 </div>
 
 ## 2023/07/17 ~ 2023/07/23  
@@ -647,12 +642,17 @@ if get_mid_dis > 55:
 
 - 再撰寫技術文件時，由於需要再VS Code和Github網站之間切換，因此我們改用一台桌機檢視Github網頁，一台筆電用VS Code編輯
 
- <div align="center">
-
-|官方網站的github範例|筆電和桌機對照|
-|:---:|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="github_example"></div>|
-
+<div align="center">
+<table>
+<tr>
+<td align="center">官方網站的github範例</td> 
+<td align="center">筆電和桌機對照修改</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/github_example.png" width="300" alt="github_example"></td><td>
+<img src="./img/7/vs_code.jpeg" width="300" alt="更改文件">
+</td>
+</table>
 </div>
 
 ## 2023/07/24 ~ 2023/07/30  
@@ -707,9 +707,19 @@ if get_mid_dis > 55:
 
 1.由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
 
- |舊目錄|新目錄(上)|新目錄(下)|
- |:----:|:----:|:----:|
- |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
+<div align="center">
+<table>
+<tr>
+<td align="center">舊目錄</td> 
+<td align="center">新目錄(上)</td>
+<td align="center">新目錄(下)</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/8/old_content.png" alt="old_content"  width=300/></td><td>
+<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>
+</td><td><img src="./img/8/new2_content.png" alt="new1_content"  width=300/><td>
+</table>
+</div>
 
 2.Complete recording videos for each task and upload them to YouTube.
 
@@ -729,9 +739,21 @@ if get_mid_dis > 55:
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-|報告撰寫|機構調整|
-|:---:|:---:|
-|<div align="center"> <img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></div>|
+<div align="center">
+<table>
+<tr>
+<td align="center">報告撰寫</td> 
+<td align="center">機構調整</td>
+<td align="center">報告撰寫</td>
+<td align="center">場地任務練習</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div></td><td>
+<img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily">
+</td><td><img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></td>
+</table>
+</div>
 
 
 
