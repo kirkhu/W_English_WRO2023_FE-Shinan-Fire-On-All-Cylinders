@@ -3,6 +3,8 @@
 ## <div align="center">Open Challenge Code overview(資格賽程式概述)</div> 
 - In the competition, the control of the vehicle's movement encompasses a series of actions, including image recognition, color identification, distance detection, motor rotation, and vehicle steering, among other intricate maneuvers. All of these precise and versatile controls are implemented using the __Python__ programming language.
 - Through the built-in SSH or VNC functionalities of the Mobaxterm tool or RealVNC, we can easily establish connections to the Raspberry Pi, access its editor interface, initiate programming tasks, and perform real-time execution testing.
+- Modules required for the operation of the program : time 、pickle、pigpio、smbus、struct、os、math、cv2、threading、numpy、sys、rospy、LaserScan、signal
+
 
 - 在競賽活動中，車輛行進的控制涵蓋了一系列的動作，包括影像辨識、顏色判別、距離偵測、馬達轉動以及車輛轉向等複雜操作。而所有這些精密而多變的操控，皆透過 __Python__ 程式語言來實現。
 - 透過Mobaxterm工具內建的SSH或VNC功能或RealVNC，我們能夠輕鬆地連線到樹莓派，進入其編輯器界面，開展程式撰寫的工作並即時進行執行測試。
