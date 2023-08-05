@@ -1,15 +1,5 @@
 #Import the required modules(匯入所需的模組)
-from sys import breakpointhook
 from vehicle_function import*
-import time
-import pickle
-import threading
-import math
-import numpy as np
-import rospy
-from sensor_msgs.msg import LaserScan
-import signal
-
 #Control the LED using the methods and attributes defined within the LED_control class(使用LED_control類別內部定義的方法和屬性，控制LED)
 LED = LED_control()
 

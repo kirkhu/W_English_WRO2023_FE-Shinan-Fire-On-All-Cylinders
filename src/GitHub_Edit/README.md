@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">GitHub Edit </div>
+## <div align="center">GitHub Edit </div>
 ### 英文
 - There are two ways to edit GitHub repositories: one is to edit directly on the GitHub website, which is called online editing, and the other is to use software like VSCODE + GIT on your local computer for offline editing, and then synchronize the changes to GitHub.
 
@@ -42,6 +42,24 @@ This method requires you to install specific software, such as Visual Studio Cod
 |:---:|:---:|
 |<img src="./img/vscode.png" alt="vscode"  width=400/>|<img src="./img/vscode_git.png" alt="git"  width=300/>|
 </div>
+
+### ${{\color{red} Introduction to Visal Studio Code(Visal Studio Code的介紹)}} $  
+
+- ### 
+  #### English：
+  - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
+  - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
+
+  __Therefore, we have chosen VS Code as the programming tool for the self-driving vehicle.__
+
+  #### 中文：
+  - Visual Studio Code（簡稱VS Code）是一款由Microsoft開發的免費、開源且跨平台的程式碼編輯器。它支援多種程式語言，並擁有豐富的擴充功能，讓使用者可以個性化配置以滿足不同需求。
+  - VS Code擁有直覺的用戶界面和強大的代碼編輯功能，如智慧程式碼完成、程式碼導航、除錯和版本控制等。它廣受開發人員歡迎，成為許多軟體開發項目的首選編輯工具。
+   
+   __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
+
+- Software link：[Visal Studio Code](https://code.visualstudio.com/) 
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 

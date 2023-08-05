@@ -1,13 +1,5 @@
 #Import the required modules(匯入所需的模組)
 from vehicle_function import*
-import time
-import pickle
-import threading
-import math
-import numpy as np
-import rospy
-from sensor_msgs.msg import LaserScan
-import signal
 
 #opencv_detect.get_program_fps()  Obtaining Image Recognition FPS(取得影像辨識FPS)
 #opencv_detect.get_keyboard()     Get keyboard input(取得鍵盤的按鍵)

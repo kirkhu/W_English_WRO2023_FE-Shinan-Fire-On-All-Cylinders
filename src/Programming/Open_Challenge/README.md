@@ -1,6 +1,32 @@
 ![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Open Challenge Code overview(資格賽程式概述)</div> 
+- In the competition, the control of the vehicle's movement encompasses a series of actions, including image recognition, color identification, distance detection, motor rotation, and vehicle steering, among other intricate maneuvers. All of these precise and versatile controls are implemented using the __Python__ programming language.
+- Through the built-in SSH or VNC functionalities of the Mobaxterm tool or RealVNC, we can easily establish connections to the Raspberry Pi, access its editor interface, initiate programming tasks, and perform real-time execution testing.
+
+- 在競賽活動中，車輛行進的控制涵蓋了一系列的動作，包括影像辨識、顏色判別、距離偵測、馬達轉動以及車輛轉向等複雜操作。而所有這些精密而多變的操控，皆透過 __Python__ 程式語言來實現。
+- 透過Mobaxterm工具內建的SSH或VNC功能或RealVNC，我們能夠輕鬆地連線到樹莓派，進入其編輯器界面，開展程式撰寫的工作並即時進行執行測試。
+- 運作程式中所需要的模組：time 、pickle、pigpio、smbus、struct、os、math、cv2、threading、numpy、sys、rospy、LaserScan、signal
+
+
+ <div align="center">
+ <table>
+ <tr align="center" > 
+ <td><img src="../img/Mobaxterm_SSH_python.png" width="300" alt="Mobaxterm_SSH_python"> </td>
+ <td><img src="../img/Mobaxterm_VNC_python.png" width="300" alt="Mobaxterm_VNC_python"> </td>
+ <td><img src="../img/realVNC_python.png" width="300" alt="realVNC_python"> </td>
+ </tr>
+ <tr align="center">
+ <td> Edit python of  Mobaxterm_SSH  
+ </td>
+ <td> Edit python of  Mobaxterm_VNC
+ </td>
+ <td>Edit python of RealVNC
+ </td>
+ </tr>
+ </table>
+ </div>
+
 ### [save_file](./save_file)
 - The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
 - These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.

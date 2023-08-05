@@ -8,6 +8,7 @@
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
+ - Using the Mobaxterm tool (__tool introduction at the bottom of this page__), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more. 
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
@@ -19,10 +20,21 @@ $ sudo apt-get upgrade
  - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
 
  #### 中文
+ 
 
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
+ - 使用Mobaxterm工具(__工具介紹在本頁最下方__)的VNC或SSH，可連線至Raspberry Pi，進行系統設定、更新及ROS、OpenCV等軟體安裝。 
+ <div align="center">
+ <table>
+ <tr align="center" > 
+ <td><img src="./img/Mobaxterm_PI.png" width="400" alt="detect_color"> </td>
+ <td><img src="./img/Mobaxterm_ssh.png" width="400" alt="detect_color"> </td>
+ </tr>
+ <tr align="center"></tr>
+ </table>
+ </div>
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
@@ -51,7 +63,7 @@ $ sudo apt-get upgrade
 
 |Record the color values of the venue(紀錄場地顏色數值)|
 |:---:|
-|<img src="./img/detect_color.png" width="300" alt="detect_color">|
+|<img src="./img/detect_color.png" width="200" alt="detect_color">|
 </div>
 
 #### [HSV_Detect.py](../Programming/Obstacle_Challenge/HSV_Test.py)調整積木閥值
@@ -76,15 +88,11 @@ $ sudo apt-get upgrade
 
 <div align="center">
  
-|Adjust the green color threshold(調整綠色閾值)|Adjust the red color threshold(調整紅色閾值)|
-|:---:|:---:|
-|<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="300" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="300" alt="Adjust_the_red_color_threshold"></div>|
-
-|Display Button Functionality(顯示按鈕功能)|
-|:---:|
-|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="350" alt="Display_Button_Functionality"></div>|
-
+|Adjust the green color threshold<br>(調整綠色閾值)|Adjust the red color threshold<br>(調整紅色閾值)|Display Button Functionality<br>(顯示按鈕功能)|
+|:---:|:---:|:---:|
+|<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="250" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="250" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="250" alt="Display_Button_Functionality"></div>|
 </div>
+
 - ### Programming Language(程式語言)
   #### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
@@ -101,7 +109,7 @@ $ sudo apt-get upgrade
 
    __因此，我們選用python 作為自駕車輛的程式開發語言。__ 
 
-- ### Introduction to  Mobaxterm( Mobaxterm 的介紹)
+### ${{\color{red} Introduction to  Mobaxterm( Mobaxterm 的介紹)}} $  
   #### English：
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
@@ -117,21 +125,3 @@ $ sudo apt-get upgrade
    __因此，我們選用Mobaxterm作為自駕車輛中Raspberry Pi的遠端控制工具。__  
 
 - Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
-
-
-- ### Introduction to Visal Studio Code(Visal Studio Code的介紹)
-  #### English：
-  - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
-  - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
-
-  __Therefore, we have chosen VS Code as the programming tool for the self-driving vehicle.__
-
-  #### 中文：
-  - Visual Studio Code（簡稱VS Code）是一款由Microsoft開發的免費、開源且跨平台的程式碼編輯器。它支援多種程式語言，並擁有豐富的擴充功能，讓使用者可以個性化配置以滿足不同需求。
-  - VS Code擁有直覺的用戶界面和強大的代碼編輯功能，如智慧程式碼完成、程式碼導航、除錯和版本控制等。它廣受開發人員歡迎，成為許多軟體開發項目的首選編輯工具。
-   
-   __因此，我們選用VS Code作為自駕車輛的程式撰寫工具。__  
-
-- Software link：[Visal Studio Code](https://code.visualstudio.com/) 
-
-  # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  

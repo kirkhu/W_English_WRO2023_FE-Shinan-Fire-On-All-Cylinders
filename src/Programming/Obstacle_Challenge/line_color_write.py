@@ -1,9 +1,5 @@
 #Import the required modules(匯入所需的模組)
-import time
-import pickle
 from vehicle_function import*
-import time
-
 #Control the LED using the methods and attributes defined within the LED_control class(使用LED_control類別內部定義的方法和屬性，控制LED)
 LED = LED_control()
 
