@@ -716,15 +716,15 @@ if get_mid_dis > 55:
 
 
 <table>
-<tr>
+<tr align="center">
 <th> 舊目錄 </th>
 <th> 修改過的目錄上 </th>
 <th> 修改過的目錄下 </th>
 </tr>
-<tr>
-<td></td>
-<td></td>
-<td> </td>
+<tr align="center">
+<td><img src="./img/8/old_content.png" alt="old_content"  width="300"/> </td>
+<td> <img src="./img/8/new1_content.png" alt="new1_content"  width="300"/></td>
+<td> <img src="./img/8/new2_content.png" alt="new1_content"  width="300"/></td>
 </tr>
 
 </table>
