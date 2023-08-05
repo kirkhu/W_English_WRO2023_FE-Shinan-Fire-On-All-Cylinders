@@ -3,27 +3,27 @@
 - ## Vehicle's photos(車輛照片)
 <div align="center">
 <table>
-  <tr>
-    <td align="center" font size="5">Top view 上視圖</td>
-    <td align="center" font size="5">Bottom view 下視圖 </td>
+  <tr align="center">
+    <th>Top view 上視圖</th>
+    <th>Bottom view 下視圖 </th>
 
   </tr>
-    <tr>
+    <tr align="center">
     <td><img src="./img/top_view.png"  width = "350" alt="Top view" > </td>
     <td><img src="./img/Button_view.png" width = "350" alt="Bottom view " ></td>
   </tr>
-    <tr>
-    <td align="center" font size="5"> Front view 前視圖</td>
-    <td align="center" font size="5">Rear view 後視圖 </td>
+    <tr align="center">
+    <th> Front view 前視圖</th>
+    <th>Rear view 後視圖 </th>
   </tr>
     </tr>
-    <tr>
+    <tr align="center">
     <td><img src="./img/front_view.png" width="350" alt="Front_view" ></td>
     <td><img src="./img/Rear_views.png" width="350" alt="Rear_view" ></td>
   </tr>
-      <tr>
-    <td align="center" font size="5">Left view 左視圖</td>
-    <td align="center" font size="5">Right view 右視圖</td>
+    <tr align="center">
+    <th>Left view 左視圖</th>
+    <th>Right view 右視圖</th>
   </tr>
     </tr>
     <tr>
