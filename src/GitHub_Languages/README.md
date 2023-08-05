@@ -1,7 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-## <div align="center">GitHub Web Editing Languages</div> 
-### GitHub 網頁編輯語言
+## <div align="center">GitHub Web Editing Languages(GitHub 網頁編輯語言)</div> 
 #### 英文
 - GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
 
