@@ -139,13 +139,13 @@ At the beginning, since we were unsure of how to start building and making the v
 #### Step-Down Module(降壓模組)
 <div align="center" width=100%>
 <table >
-<tr>
+<tr align="center">
   <th> LM2596 DC-DC可調降壓模組 </th> 
   <th>5A恆壓恆流降壓電源模組 </th>
 </tr>
-<tr>
-  <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
-  <td><img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> 
+<tr align="center">
+  <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S"/>  </td>
+  <td><img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S"/> 
   </td>
   </tr>
 </table>
@@ -154,11 +154,11 @@ At the beginning, since we were unsure of how to start building and making the v
 #### Low Voltage Alarm(低電壓警報器)
 <div align="center" width=100%>
 <table >
-<tr>
+<tr align="center">
   <th> 低電壓警報器</th> 
 </tr>
-<tr>
-  <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm" align=center />  </td>
+<tr align="center">
+  <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm"/>  </td>
 
   </tr>
 </table>
