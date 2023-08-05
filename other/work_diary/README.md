@@ -357,9 +357,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center" width=100%>
 <table >
-<tr>
-  <td align="center">Event Photo(活動照片)</td> 
-  <td align="center">Event Photo(活動照片)</td> 
+<tr align="center">
+  <th >Event Photo(活動照片)</th> 
+  <th >Event Photo(活動照片)</th> 
 </tr>
 <tr>
   <td align="center"><img src="./img/4/site.jpg" width=200 alt="site" /</td> 
