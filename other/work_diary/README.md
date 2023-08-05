@@ -388,32 +388,35 @@ After the vehicle becomes operational, additional sensors are added to allow the
 #### Camera Module(攝影模組)
 <div align="center">
 <table>
-<tr>
-<td align="center">Model(型號)</td> 
-<td align="center">raspberry pi camera Rev 1.3</td>
-<td align="center">raspberry pi camera Module V2</td>
-<td align="center">raspberry pi camera Module V3</td>
+<tr  align="center">
+<th>Model(型號)</td> 
+<th>raspberry pi camera Rev 1.3</th>
+<th >raspberry pi camera Module V2</th>
+<th >raspberry pi camera Module V3</th>
 </tr>
-<tr>
+<tr  align="center">
 <td>Photo</td>
-<td align="center"><img src="./img/5/V1.jpeg" width=200 alt="V1"  /></td>
-<td align="center"><img src="./img/5/V2.jpeg" width=200 alt="V2" ></td>
-<td align="center"><img src="./img/5/V3.jpeg" width=200 alt="V3" /></td>
+<td ><img src="./img/5/V1.jpeg" width=200 alt="V1"  /></td>
+<td ><img src="./img/5/V2.jpeg" width=200 alt="V2" ></td>
+<td ><img src="./img/5/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
+<tr  align="center">
 <td>sensor</td>
-<td align="center">Omnivision OV547</td>
-<td align="center">Sony IMX 219</td>
-<td align="center">Sony IMX 708</td>
+<td>Omnivision OV547</td>
+<td >Sony IMX 219</td>
+<td>Sony IMX 708</td>
 </tr>
+<tr  align="center">
 <td>sensor resolution</td>
-<td align="center">2592 * 1944 pix</td>
-<td align="center">3280 * 2464 pix</td>
-<td align="center">4608 * 2592 pix</td>
+<td >2592 * 1944 pix</td>
+<td>3280 * 2464 pix</td>
+<td>4608 * 2592 pix</td>
 </tr>
+<tr  align="center">  
 <td>FPS幀率</td>
-<td align="center">30p MAX</td>
-<td align="center">90p MAX</td>
-<td align="center">120p MAX</td>
+<td >30p MAX</td>
+<td>90p MAX</td>
+<td>120p MAX</td>
 </tr>
 </table>
 </div>
@@ -426,8 +429,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr>
-<td align="center"> Without the wide-angle lens 未加廣角鏡</td> 
-<td align="center">With the wide-angle lens 已加廣角鏡</td>
+<th align="center"> Without the wide-angle lens 未加廣角鏡</th> 
+<th align="center">With the wide-angle lens 已加廣角鏡</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/5/V2.jpeg" width=200 alt="common" ></td><td>
