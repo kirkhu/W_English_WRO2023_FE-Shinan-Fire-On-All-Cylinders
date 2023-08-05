@@ -84,7 +84,7 @@ $ sudo apt-get upgrade
 
 |Display Button Functionality(顯示按鈕功能)|
 |:---:|
-|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="350" alt="Display_Button_Functionality"></div>|
+|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="300" alt="Display_Button_Functionality"></div>|
 
 </div>
 - ### Programming Language(程式語言)
