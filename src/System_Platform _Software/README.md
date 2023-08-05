@@ -24,7 +24,7 @@ $ sudo apt-get upgrade
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
- - 使用Mobaxterm工具(工具介紹在本頁最下方)，連線至Raspberry Pi，進行系統更新及ROS、OpenCV等軟體安裝。 
+ - 使用Mobaxterm工具(__工具介紹在本頁最下方__)，連線至Raspberry Pi，進行系統更新及ROS、OpenCV等軟體安裝。 
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
@@ -53,7 +53,7 @@ $ sudo apt-get upgrade
 
 |Record the color values of the venue(紀錄場地顏色數值)|
 |:---:|
-|<img src="./img/detect_color.png" width="300" alt="detect_color">|
+|<img src="./img/detect_color.png" width="200" alt="detect_color">|
 </div>
 
 #### [HSV_Detect.py](../Programming/Obstacle_Challenge/HSV_Test.py)調整積木閥值
