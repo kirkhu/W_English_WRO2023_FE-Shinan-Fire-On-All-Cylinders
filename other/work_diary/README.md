@@ -188,9 +188,9 @@ Jeston Nano </td>
 <td > <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
-<td >rotation angle(轉動角度)</td>
-<td >90° MAX</td>
-<td">0~90°/180° MAX</td>
+<td>rotation angle(轉動角度)</td>
+<td>90° MAX</td>
+<td>0~90°/180° MAX</td>
 </tr>
 <tr align="center">
 <td >torque(轉矩)</td>
