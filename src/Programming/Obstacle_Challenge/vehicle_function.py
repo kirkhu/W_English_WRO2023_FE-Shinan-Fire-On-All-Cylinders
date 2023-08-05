@@ -1,13 +1,17 @@
 #Import the required modules(匯入所需的模組)
-import pigpio
-import time
-import smbus
-import struct
-import os
-import math
-import cv2
-import threading
-import numpy as np
+import pigpio       #樹莓派I/O控制
+import time         #時間模組
+import smbus        #I2C管理
+import struct       #二進位數據打包、解包的模組
+import os           #讀系統資訊
+import math         #數學運算
+import cv2          #OpenCV影像處理
+import threading    #多執行緒管理
+import pickle       #序列化/反序列化模組
+import rospy        #ROS的Python指令
+import numpy as np  #多維陣列與矩陣運算
+import signal       #異常事件處理模組
+from sensor_msgs.msg import LaserScan  #ROS定義資料結構
 
 #==========Pin configuration(腳位設定)==========
 Red_LED_pin = 27   
