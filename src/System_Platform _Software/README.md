@@ -90,10 +90,9 @@ $ sudo apt-get upgrade
  
 |Adjust the green color threshold<br>(調整綠色閾值)|Adjust the red color threshold<br>(調整紅色閾值)|Display Button Functionality<br>(顯示按鈕功能)|
 |:---:|:---:|:---:|
-|<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="300" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="300" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="300" alt="Display_Button_Functionality"></div>|
-
-
+|<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="250" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="250" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="250" alt="Display_Button_Functionality"></div>|
 </div>
+
 - ### Programming Language(程式語言)
   #### English
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich 
