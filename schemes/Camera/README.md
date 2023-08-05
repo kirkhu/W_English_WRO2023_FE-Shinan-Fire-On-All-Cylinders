@@ -21,7 +21,7 @@
 <th >raspberry pi camera Module V3</thd>
 </tr>
 <tr>
-<td align="center">Photo</td>
+
 <td align="center"><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
 <td align="center"><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
 <td align="center"><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
