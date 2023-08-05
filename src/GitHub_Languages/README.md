@@ -23,23 +23,18 @@
 
 <div align="center">
 <table>
-<tr>
+<tr align="center" >
 <th>Markdown 語法</th>
 <th>HTML 語法</th>
 </tr>
-<td><img src="./img/Markdown.png" width = "300" alt="Markdown 語法" align=center /> </td>
-<td><img src="./img/HTML.png" width = "300" alt=">HTML 語法" align=center /> </td>
+<tr>
+<td><img src="./img/Markdown.png" width = "500" alt="Markdown 語法" align=center /> </td>
+<td><img src="./img/HTML.png" width = "500" alt=">HTML 語法" align=center /> </td>
+</tr>
 </table>
-
+</div>
 
 - ### [Markdown Document link(教學文件連結)](https://markdown.tw/#link)
-
 - ### [HTML Document link(教學文件連結)](https://www.w3schools.com/html/)
-
-
-
-
-
-
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
