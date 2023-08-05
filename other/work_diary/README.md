@@ -15,7 +15,7 @@ At the beginning, since we were unsure of how to start building and making the v
 <tr align="center"><th><a href="https://www.donkeycar.com/">Donkey Car 官網</a></th>
 <th><a href="http://docs.donkeycar.com/">Donkey Car 技術文件</a></th>
 </tr>
-<tr>
+<tr align="center">
 <td> <img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
 <td><img src="./img/3/donkeycar_doc.png" width = "300"  alt="jeston nano" align=center /></td>
 </tr>
