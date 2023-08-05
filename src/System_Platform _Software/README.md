@@ -8,7 +8,7 @@
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
- - Using the Mobaxterm tool (tool introduction at the bottom of this page), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more. 
+ - Using the Mobaxterm tool (__tool introduction at the bottom of this page__), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more. 
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
