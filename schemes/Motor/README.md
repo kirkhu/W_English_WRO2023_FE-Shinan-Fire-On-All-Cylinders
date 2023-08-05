@@ -103,9 +103,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td ><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
 </tr>
 <tr align="center">
-<td>Occupied area 所占面積</td>
-<td>2.95x0.8</td>
-<td>4.35x4.35</td>
+<td>Occupied area 所占面積(mm)</td>
+<td>29.5x8</td>
+<td>43.5x43.5</td>
 </tr>
 <tr align="center">
 <td>Output voltage 輸出電壓</td>
@@ -114,8 +114,8 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 </tr>
 <tr align="center">
 <td>Rated power 額定功率</td>
-<td>3.0W</td>
-<td></td>
+<td>5W</td>
+<td>10W</td>
 </tr>
 </table>
 </div>
