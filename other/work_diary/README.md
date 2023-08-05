@@ -178,30 +178,29 @@ Jeston Nano </td>
 #### Servo Motor(伺服馬達)
 <div align="center">
 <table>
-<tr>
-<td  align="center">Model(型號)</td>
-<td  align="center"> MG90S</td>
-<td  align="center">SG90</td>
+<tr align="center">
+<td>Model(型號)</td>
+<td> MG90S</td>
+<td >SG90</td>
 </tr>
-<tr>
-<td  align="center">Photo</td>
-<td  align="center"><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
-<td  align="center"> <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
+<tr align="center">
+<td><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
+<td > <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
-<tr>
-<td  align="center">rotation angle(轉動角度)</td>
-<td  align="center">90° MAX</td>
-<td  align="center">0~90°/180° MAX</td>
+<tr align="center">
+<td >rotation angle(轉動角度)</td>
+<td >90° MAX</td>
+<td">0~90°/180° MAX</td>
 </tr>
-<tr>
-<td  align="center">torque(轉矩)</td>
-<td  align="center">2.0kg/cm</td>
-<td  align="center">1.4 kg/cm</td>
+<tr align="center">
+<td >torque(轉矩)</td>
+<td  >2.0kg/cm</td>
+<td  ">1.4 kg/cm</td>
 </tr>
-<tr>
-<td  align="center">speed(轉速)</td>
-<td  align="center">0.11s</td>
-<td  align="center">0.1S</td>
+<tr align="center">
+<td  >speed(轉速)</td>
+<td >0.11s</td>
+<td  >0.1S</td>
 </tr>
 </table>
 </div>
