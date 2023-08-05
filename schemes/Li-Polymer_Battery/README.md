@@ -2,7 +2,7 @@
 =====
 # <div align="center">Li-Polymer battery Safety Notice(鋰聚電池安全事項)</div> 
 - ### Li-Polymer Battery: Hazards, Maintenance, and Composition(鋰聚電池的危險、保養及成分) 
-  ## 英文
+  ## English
     - Hazards
         - Flammable
         - Contains toxic substances
