@@ -15,7 +15,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - [Introduction to Motor(馬逹介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/models/Vehicle_3D_2D/README.md)
     
-  #### 2. Power and Sense Management2.(電源和感測器管理)
+  #### 2. Power and Sense Management(電源和感測器管理)
     - __Vehicle design(車輛設計)__
       - [BOM Parts List(自駕車輛零件清單)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams(自駕車輛組裝接線圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
