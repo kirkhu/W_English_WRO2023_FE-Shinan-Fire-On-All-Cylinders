@@ -717,9 +717,9 @@ if get_mid_dis > 55:
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-|報告撰寫|機構調整||報告撰寫|場地任務練習|
+|報告撰寫|機構調整|報告撰寫|場地任務練習|
 |:---:|:---:|:---:|:---:|
-|<div align="center"> <img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></div>|
+|<div align="center"> <img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></div>|
 
 
 
