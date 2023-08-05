@@ -275,15 +275,14 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <tr align="center" >
   <th></th>ydlidar x4</th> 
   <th>ydlidar x2</th>
-  <th align="center">lidar 100</th>
+  <th>lidar 100</th>
 </tr>
 <tr>
-  <td>  <img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
+  <td><img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
   <td><img src="./img/4/Lidar_X2.jpg" width = "300" height = "" alt="ydlidar x2" align=center />  </td>
-  <td>  <img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center />  
+  <td><img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center />  
   </td>
-
-  </tr>
+</tr>
 </table>
 </div>
 
