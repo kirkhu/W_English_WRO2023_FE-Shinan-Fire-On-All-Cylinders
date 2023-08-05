@@ -8,8 +8,8 @@
 
  1. Markdown: Markdown is a lightweight markup language used for formatting text and easily creating structured documents. It is widely used on GitHub for writing README files, documentation, blogs, and forums.
  2. HTML: HTML is a hypertext markup language used for building web pages. With HTML, you can create the structure, content, and layout of web pages.  
-
-   While there are other web editing languages such as CSS, JavaScript, JSON, and YAML, they are not the main focus of this competition activity. Therefore, on GitHub, the primary web editing languages used are Markdown and HTML.
+  
+In the competition, in addition to other web editing languages such as CSS, JavaScript, JSON, YAML, these are not the primary focus of the current competition. Therefore, on GitHub, we primarily utilize Markdown and HTML languages as the main tools for web editing, fully leveraging their respective strengths to more effectively apply them in the editing process of technical documentation.
 
 #### 中文
 - GitHub 網頁編輯語言主要指的是在使用 GitHub 網站進行編輯時所使用的程式語言。GitHub 提供了多種編輯方式，讓使用者可以編輯和管理程式碼、文檔和其他專案文件。  
@@ -18,7 +18,7 @@
 1. Markdown：Markdown 是一種輕量級標記語言，用於格式化文本並輕鬆地創建結構化的文件。它在 GitHub 上被廣泛用於編寫 README 文件、文檔、部落格和討論區。  
 2. HTML：HTML 是用於構建網頁的超文本標記語言。使用 HTML，你可以創建網頁的結構、內容和布局。
    
-當然還其他的網頁編輯語言，如CSS 、JavaScript、JSON、YAML，但這些不是這次競賽活動的主要項目，因此在GitHub 上，使用的網頁編輯語言以Markdown及HTML語言為主。
+在競賽活動中，除了其他網頁編輯語言，如CSS、JavaScript、JSON、YAML等，但這些並非本次競賽的主要焦點。因此，在GitHub上，我們主要將Markdown和HTML語言作為網頁編輯的主要工具，並充分發揮它們各自的優勢，以便在技術文件的編輯過程中更有效地應用。
 
 <div align="center">
 <table>
