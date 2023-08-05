@@ -547,11 +547,13 @@ After the vehicle becomes operational, additional sensors are added to allow the
 - 今天在測試時發現當機器在周圍人穿紅色衣物或綠色衣物時會誤測成積木讓機器閃避，導致無法及時閃過下一個積木，因此我們在畫面的上方將上一層黑色遮罩，讓機器無法偵測場地以外的顏色。在加上黑色遮罩之後，就不會再偵測到場外的顏色，減少被干擾的機率。
 
 <div align="center">
-
-|使用黑色遮罩屏蔽場外的顏色|
-|:---:|
-|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="cover"></div>|
-
+<table>
+<tr>
+<td align="center">使用黑色遮罩屏蔽場外的顏色</td> 
+</tr>
+<tr>
+<td align="center"><img src="./img/6/black_hid.png" width="300" alt="cover"></td>
+</table>
 </div>
 
 ## 2023/07/03 ~ 2023/07/09 
@@ -587,12 +589,17 @@ if get_mid_dis > 55:
 - 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
 - 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
 
- <div align="center">
-
-|顯示線條次數與最近的交通標誌顏色|正在調整數值|
-|:---:|:---:|
-|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></div>|<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="check"></div>|
-
+<div align="center">
+<table>
+<tr>
+<td align="center">顯示線條次數與最近的交通標誌顏色</td> 
+<td align="center">正在調整數值</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td><td>
+ <img src="./img/7/check.jpeg" width="300" alt="check">
+</td>
+</table>
 </div>
 
 ## 2023/07/17 ~ 2023/07/23  
@@ -635,12 +642,17 @@ if get_mid_dis > 55:
 
 - 再撰寫技術文件時，由於需要再VS Code和Github網站之間切換，因此我們改用一台桌機檢視Github網頁，一台筆電用VS Code編輯
 
- <div align="center">
-
-|官方網站的github範例|筆電和桌機對照修改|
-|:---:|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="300" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="300" alt="更改文件"></div>|
-
+<div align="center">
+<table>
+<tr>
+<td align="center">官方網站的github範例</td> 
+<td align="center">筆電和桌機對照修改</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/github_example.png" width="300" alt="github_example"></td><td>
+<img src="./img/7/vs_code.jpeg" width="300" alt="更改文件">
+</td>
+</table>
 </div>
 
 ## 2023/07/24 ~ 2023/07/30  
@@ -695,9 +707,19 @@ if get_mid_dis > 55:
 
 1.由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
 
- |舊目錄|新目錄(上)|新目錄(下)|
- |:----:|:----:|:----:|
- |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
+<div align="center">
+<table>
+<tr>
+<td align="center">舊目錄</td> 
+<td align="center">新目錄(上)</td>
+<td align="center">新目錄(下)</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/8/old_content.png" alt="old_content"  width=300/></td><td>
+<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>
+</td><td><img src="./img/8/new2_content.png" alt="new1_content"  width=300/><td>
+</table>
+</div>
 
 2.Complete recording videos for each task and upload them to YouTube.
 
@@ -717,11 +739,21 @@ if get_mid_dis > 55:
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-|報告撰寫|機構調整|報告撰寫|場地任務練習|
-|:---:|:---:|:---:|:---:|
-|<div align="center"> <img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></div>|
-
-
+<div align="center">
+<table>
+<tr>
+<td align="center">報告撰寫</td> 
+<td align="center">機構調整</td>
+<td align="center">報告撰寫</td>
+<td align="center">場地任務練習</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div></td><td>
+<img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily">
+</td><td><img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></td>
+</table>
+</div>
 
 
 
