@@ -65,8 +65,9 @@ Jeston Nano </td>
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
-- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely JGA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the JGA25-370 with higher torque.  
-- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the JGA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
+- While waiting for the Raspberry Pi to initialize and libraries to be installed, we selected the motor for propulsion, with two options: JGA25-370 and JGA16-050. The former boasts higher torque, capable of moving heavier objects, while the latter is smaller and lighter, albeit with relatively lower torque. Considering the potential weight of the robot, we opted for the higher torque of the JGA25-370.
+- Among the JGA25-370 options, there are several variations currently available within the club.
+- During the testing of motor operation, a simple application of positive and negative voltage did not provide effective control over the JGA25-370's performance or speed adjustment. As a result, a motor controller is needed to regulate the speed of the DC geared motor. Two options were considered: the L293D chip and the L298N module. To minimize weight, we chose the compact L293D chip. Its small size allows us to accommodate more sensors, thereby saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
 - 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
