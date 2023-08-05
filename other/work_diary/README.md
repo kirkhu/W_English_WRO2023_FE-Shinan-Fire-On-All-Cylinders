@@ -732,8 +732,8 @@ if get_mid_dis > 55:
 <div align="center">
 <table>
 <tr>
-<td align="center"> <img src="./img/8/work_photo_0805.jpg" alt="練習照" width="400"></td> 
-<td align="center"><img src="./img/8//work_photo_8.5.jpg" alt="練習照" width="400"></td>
+<td align="center"> <img src="./img/8/work_photo_0805.jpg" alt="練習照" width="200"></td> 
+<td align="center"><img src="./img/8//work_photo_8.5.jpg" alt="練習照" width="200"></td>
 </tr>
 </table>
 </div>
