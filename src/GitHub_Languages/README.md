@@ -26,9 +26,9 @@ __在競賽活動中，除了其他網頁編輯語言，如CSS、JavaScript、JS
 <th>Markdown 語法</th>
 <th>HTML 語法</th>
 </tr>
-<tr>
-<td><img src="./img/Markdown.png" width = "500" alt="Markdown 語法" align=center /> </td>
-<td><img src="./img/HTML.png" width = "500" alt=">HTML 語法" align=center /> </td>
+<tr align="center">
+<td><img src="./img/Markdown.png" width = "500" alt="Markdown 語法"/> </td>
+<td><img src="./img/HTML.png" width = "500" alt=">HTML 語法"/> </td>
 </tr>
 </table>
 </div>
