@@ -729,14 +729,10 @@ if get_mid_dis > 55:
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-<div align="center">
-<table>
-<tr>
-<td align="center"> <img src="./img/8/work_photo_0805.jpg" alt="練習照" width="300"></td> 
-<td align="center"><img src="./img/8//work_photo_8.5.jpg" alt="練習照" width="300"></td>
-</tr>
-</table>
-</div>
+|報告撰寫|機構調整|
+|:---:|:---:|
+|<div align="center"> <img src="./img/8/work_photo_1_0805" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805" width="500" alt="work_daily"></div>|
+
 
 
 ## 2023/08/07 ~ 2023/08/13
