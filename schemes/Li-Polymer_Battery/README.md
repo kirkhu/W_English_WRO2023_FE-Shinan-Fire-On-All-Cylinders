@@ -42,7 +42,7 @@
         - 電極連接器：鋰聚合物電池內部的電極通常由薄片狀的鋰合金材料製成，並使用連接器連接到電池的外部電路。  
     <small>資料來源:[台南市政府消防局](https://119.tainan.gov.tw/News_Content.aspx?n=25497&s=7743170) </small>  
     - Battery Photo  
-    <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align=center />  
+    <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align="center" />  
  
 - ### Li-Polymer Battery Low Voltage Alarm and Charging/Discharging Equipment.(鋰聚電池低電壓警報器及充放電的設備)  
     - #### Low Voltage Alarm(低電壓警報器)
@@ -53,7 +53,7 @@
         <table>
         <tr align="center">
         <td>The main purpose of installing a low voltage alarm is to prevent the battery from reaching a critically low level, thereby avoiding abnormal vehicle operation or potential damage to the battery. Therefore, when the battery voltage drops below a specific threshold, the low voltage alarm will sound, alerting the user to pay attention and replace the battery promptly if necessary.</tb>裝設低電壓警報器的主要目的是為了預防電池電量過低，進而防止車輛運作出現異常情況或造成電池損壞。因此，當電池的電壓降至某個特定閾值以下時，低電壓警報器會發出聲音警示，提醒用戶注意，或及時進行電池更換。</td>
-        <td><img src="./img/low_voltage_alarm.png" width = "500"  alt="low_voltage_alarm" align=center /></td>
+        <td><img src="./img/low_voltage_alarm.png" width = "500"  alt="low_voltage_alarm" align="center" /></td>
 
         </tr>
 
