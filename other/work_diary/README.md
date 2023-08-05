@@ -639,7 +639,7 @@ if get_mid_dis > 55:
 
 |官方網站的github範例|筆電和桌機對照修改|
 |:---:|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="更改文件"></div>|
+|<div align="center"> <img src="./img/7/github_example.png" width="300" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="300" alt="更改文件"></div>|
 
 </div>
 
