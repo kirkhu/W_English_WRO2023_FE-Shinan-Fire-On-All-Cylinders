@@ -4,7 +4,7 @@
 
 When the vehicle is in motion, the Raspberry Pi sends speed information to the motor controller to control the rear-wheel drive DC motor. Simultaneously, the Raspberry Pi also sends messages to the servo motor of the front steering mechanism, enabling the vehicle to maneuver freely and move forward.
 
-車輛行走時，樹莓派將轉速訊息傳送給 __馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
+車輛行走時，樹莓派將轉速訊息傳送給 __L293D 馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
 
 ### Front Steering Mechanism by Servo Motor(前轉向機構伺服馬達)
 #### 英文
