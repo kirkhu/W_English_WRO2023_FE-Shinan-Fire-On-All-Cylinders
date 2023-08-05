@@ -24,7 +24,16 @@ $ sudo apt-get upgrade
  - 安裝PI OS時，選擇安裝Raspberry Pi OS (Legacy)  
    - 軟體連結：[樹梅派](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - 安裝完之後，請更新作業系統，以確保的軟體的相容性
- - 使用Mobaxterm工具(__工具介紹在本頁最下方__)，連線至Raspberry Pi，進行系統更新及ROS、OpenCV等軟體安裝。 
+ - 使用Mobaxterm工具(__工具介紹在本頁最下方__)的VNC或SSH，可連線至Raspberry Pi，進行系統設定、更新及ROS、OpenCV等軟體安裝。 
+ <div align="center">
+ <table>
+ <tr align="center" > 
+ <td><img src="./img/Mobaxterm_PI.png" width="200" alt="detect_color"> </td>
+ <td><img src="./img/Mobaxterm_ssh.png" width="200" alt="detect_color"> </td>
+ </tr>
+ <tr align="center"></tr>
+ </table>
+ </div>
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
