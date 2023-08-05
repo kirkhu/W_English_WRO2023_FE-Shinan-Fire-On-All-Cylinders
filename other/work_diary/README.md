@@ -76,28 +76,28 @@ Jeston Nano </td>
 
 
 #### DC Motor(直流馬達)
-<div align="center"><table><tr>
-<td align="center">Model(型號)</td>
-<td align="center">JGA25 370</td>
-<td align="center">JGA25 370</td>
-<td align="center">JGA25 371</td>
-<td align="center">JGA16-050</td>
+<div align="center"><table><tr align="center">
+<th rowspan="2">Model(型號)</th>
+<th>JGA25 370</th>
+<th>JGA25 370</th>
+<th>JGA25 371</th>
+<th>JGA16-050</th>
 </tr>
-<tr>
-<td align="center">Photo</td>
-<td align="center"><img src="./img/4/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
-<td align="center"><img src="./img/4/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
-<td align="center"><img src="./img/4/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
-<td align="center"><img src="./img/5/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
+<tr  align="center">
+
+<td><img src="./img/4/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
+<td><img src="./img/4/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
+<td><img src="./img/4/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
+<td ><img src="./img/5/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
 </tr>
-<tr>
-<td align="center">speed(轉速)</td>
-<td align="center">1360rpm/m</td>
-<td align="center">620rpm/m</td>
-<td align="center">294rpm/m</td>
-<td align="center">220rpm/m</td>
+<tr align="center">
+<td >speed(轉速)</td>
+<td >1360rpm/m</td>
+<td >620rpm/m</td>
+<td >294rpm/m</td>
+<td >220rpm/m</td>
 </tr>
-<tr><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr>
+<tr align="center"><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr>
 <td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
