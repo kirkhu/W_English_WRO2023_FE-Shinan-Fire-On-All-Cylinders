@@ -65,8 +65,8 @@ Jeston Nano </td>
 **member:** ZHAO,ZHEN-BO  
 **content:**  
 
-- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely GA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the GA25-370 with higher torque.  
-- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the GA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
+- While waiting for the Raspberry Pi to be initialized and the library to be installed, there are two motors to choose as power, namely JGA25-370 and JGA16-050. The former has the advantage of large torque and can drive heavy objects. The latter has the advantage of small size and light weight, but the torque is relatively small. Considering that the body may be heavier, I chose the JGA25-370 with higher torque.  
+- When testing the operation of the motor, simply providing positive and negative poles does not effectively control the JGA25-370's movements, and it cannot adjust its speed. Therefore, a motor controller is required to regulate the speed of the DC reduction motor. There are two options: the L293D chip and the L298N module. To reduce weight, we opted for the smaller L293D chip. Its compact size allows us to install more sensors, saving space, reducing weight, and enhancing the robot's maneuverability.
 
 
 - 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
@@ -96,7 +96,7 @@ Jeston Nano </td>
 <td align="center">294rpm/m</td>
 <td align="center">220rpm/m</td>
 </tr>
-<tr><td>torque(扭距)</td><td>0.35kg.cm</td><td>0.75kg.cm</td><td>5.2kg.cm</td><td>0.15kgcm</td></tr><tr>
+<tr><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr>
 <td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
@@ -114,7 +114,7 @@ Jeston Nano </td>
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
 - 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
 
-#### #### Batteries(電池)
+####  Batteries(電池)
 <div align="center" width=100%>
 <table >
 <tr>
@@ -154,7 +154,7 @@ Jeston Nano </td>
   <td> 低電壓警報器</td> 
 </tr>
 <tr>
-  <td>  <img src="./img/4/low_voltage_alarm.png" width = "100" alt="low_voltage_alarm" align=center />  </td>
+  <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm" align=center />  </td>
 
   </tr>
 </table>
@@ -165,9 +165,9 @@ Jeston Nano </td>
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
- The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
+ - The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
 
-接下來是操控馬達。在網上搜尋資料後，我發現MG90S和SG90是常見的選擇。MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
+- 接下來是操控馬達。在網上搜尋資料後，我發現MG90S和SG90是常見的選擇。MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 
 #### Servo Motor(伺服馬達)
 <div align="center">
@@ -243,7 +243,11 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr>
-  <td>  <img src="./img/5/wood.png" width = "300"  alt="wood" align=center />  </td>
+  <td align=center>木板  </td>
+  <td  align=center >onshape 網站  </td>
+  </tr>
+<tr>
+  <td>  <img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
   <td><img src="./img/5/onshape.png" width = "300"  alt="onshape" align=center />
   </td>
   </tr>
@@ -255,6 +259,49 @@ After the vehicle becomes operational, additional sensors are added to allow the
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+- Although it is possible to move straight and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
+- However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
+
+- 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
+- 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">ydlidar x4</td> 
+  <td align="center">ydlidar x2</td>
+  <td align="center">lidar 100</td>
+</tr>
+<tr>
+  <td>  <img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
+  <td><img src="./img/4/Lidar_X2.jpg" width = "300" height = "" alt="ydlidar x2" align=center />  </td>
+  <td>  <img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center />  
+  </td>
+
+  </tr>
+</table>
+</div>
+
+<div align="center" width=100%>
+<table >
+<tr>
+  <td align="center">ydlidar x4</td> 
+  <td align="center">ydlidar x2</td>
+  <td align="center">lidar 100</td>
+</tr>
+<tr>
+  <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
+  <td><img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
+  <td> <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />  
+  </td>
+  </tr>
+</table>
+</div>
+
+
+## 2023/05/15 ~ 2023/05/21  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**  
 - TCS34725 color sensor 
   - In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor.
   - The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines.Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.
@@ -318,10 +365,10 @@ After the vehicle becomes operational, additional sensors are added to allow the
 </table>
 </div>
 
-
-## 2023/05/15 ~ 2023/05/21  
+## 2023/05/22 ~ 2023/05/28  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
+
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 - 為了讓車輛能夠正確地閃避積木，我們需要在車輛上安裝一個鏡頭模組。由於我們使用的控制器是 Raspberry Pi，因此我們需要尋找與其相容的鏡頭模組。為此，我們參考了去年美國隊伍使用的鏡頭模組，並尋找了同一系列的鏡頭模組進行比較。以下是產品資訊：
 
@@ -367,6 +414,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 </div>
 
 - During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
+
 - 在之後的測試中，我們發現當車輛閃避積木時無法預先得知下一個積木的位置，這對於車輛的避障策略造成了困擾。因此，我們決定將原本的鏡頭進行改裝，將其轉換成廣角鏡頭。相較於原本的72度視野範圍，廣角鏡頭提供了160度的視野範圍，能夠讓我們提前預測下一個積木的位置，從而改善車輛的避障效果。
 
 #### wide-angle lens(廣角鏡)
@@ -397,39 +445,34 @@ After the vehicle becomes operational, additional sensors are added to allow the
 - In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
 - 在我們的實驗發現，當相機模組的解析度設定為1080x640時，由於高解析度的影像處理需求，程式需要花費大量的時間來辨識積木，這導致了程式的運算效率降低。另一方面，當解析度設定為320x240時，雖然運算效率極高，但由於解析度過低，導致無法正常辨識積木。然而，當解析度設定為640x320時，我們觀察到可以正常辨識積木，而且運算效率也不會太慢，避免了車輛撞上積木的問題。因此，我們最終選擇將相機模組的解析度設定為640x320。 
 
-## 2023/05/22 ~ 2023/05/28  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**  
-
-By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
-
-在撰寫技術文件時，我們決定使用VS Code加上git來編輯。這樣的做法有很多好處，其中包括容易進行版本控制，當不同編輯者同時編輯同一個檔案時，git會立即通知編輯者有衝突發生，這樣較晚上傳資料的編輯者就可以透過資料的比較來合併衝突。這樣的作法讓我們在編輯技術文件時能夠更有效率地合作和管理可能的衝突。
-
-[github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
-
-要在VS Code編輯只要點擊原始檔控制，然後按下複製儲存庫  
-<img src="./img/5/clone.png" width = "300" height = "" alt="MG90S" align=center />   
-輸入網址，就能在VS Code做編輯及版本控制  
-<img src="./img/5/web.png" width = "300" height = "" alt="MG90S" align=center />
-
 ## 2023/05/29 ~ 2023/06/04  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the machine rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
+- By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
 
-在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續行駛在道路中央。
+- 在撰寫技術文件時，我們決定使用VS Code加上git來編輯。這樣的做法有很多好處，其中包括容易進行版本控制，當不同編輯者同時編輯同一個檔案時，git會立即通知編輯者有衝突發生，這樣較晚上傳資料的編輯者就可以透過資料的比較來合併衝突。這樣的作法讓我們在編輯技術文件時能夠更有效率地合作和管理可能的衝突。
 
-| 車輛撞擊邊牆 | 偵測左右牆距離 |
-| :---: | :---: |
-| <img src="./img/5/hit_wall.jpeg" width = "300" height = "" alt="MG90S" align=center /> | <img src="./img/5/LIDAR_readings.png" width = "200" height = "" alt="MG90S" align=center /> |
+[github 主頁 : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
 
+<div align="center">
+<table>
+<tr>
+<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
+<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
+<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+</td>
+</tr>
+</table>
+</div>
 
 
 ## 2023/06/05 ~ 2023/06/11 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-
 
 - During the hardware design process, we encountered a few instances where the Raspberry Pi controller or IC was damaged due to incorrect power or data cable connections. To prevent such issues, we implemented a solution using male-female connectors for both power supply and data transmission. This approach ensured correct wiring and effectively mitigated the risk of the Raspberry Pi or IC getting burnt. These design improvements have enhanced the stability of the hardware system, leading to increased overall product reliability and lifespan.
 - During the hardware design process, we initially used a breadboard to connect the circuits. Unfortunately, we encountered some instances of burning or poor contacts, resulting in abnormal functionality or potential issues that were challenging to detect. To improve this situation, we made the decision to switch to soldering the circuits onto a prototyping board. This change significantly reduced the risks of burning or poor contacts while ensuring stable and reliable connections. Through this improvement, we successfully enhanced the overall hardware system's reliability and ensured proper functionality.  
@@ -438,59 +481,179 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 - 在硬體設計過程中，遇到過幾次因電源接錯或資料線插錯而導致樹莓派控制器或IC損壞的情況。為了避免這樣的問題，我們採用了使用公母插座進行電源供應及資料傳輸的解決方案。透過公母插座，確保了正確的接線，有效地避免了樹莓派或IC燒毀的風險。這樣的設計改進增加了硬體系統的穩定性，提高了整體產品的可靠性和使用壽命。
 - 在硬體設計過程中，我們最初使用麵包板連接電路，但不幸遇到了一些燒毀或接觸不良的現象，這導致功能運作不正常或存在潛在問題，且很難發現。為了改善這種情況，我們決定改用銲接方式將電路固定在電木板上。這樣的改變明顯地降低了燒毀或接觸不良的風險，同時確保了穩定可靠的連接。透過這項改進，我們成功地提高了整體硬體系統的可靠性，並確保了功能的正常運作。
 
-| <img src="./img/6/anit_daze.png" alt="插座" width="400">  | <img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400">|
-|:----|:----:|
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/6/anit_daze.png" alt="插座" width="400"></td> 
+<td align="center"><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400"></td>
+</tr>
+</table>
+</div>
 
 ## 2023/06/12 ~ 2023/06/18
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+- Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the machine rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
 
+- 在閃避積木之前，我們需要先完成基本的環繞場地三圈。在繞圈的過程中，我們發現機器有可能在轉彎時擦撞到牆壁，因此需要利用光達的360度偵測功能來使機器維持在道路中央。透過將左右邊的距離相減，我們可以得到一個誤差值，再利用伺服馬達來修正這個誤差，使機器能夠持續行駛在道路中央。
+
+<div align="center">
+<table>
+<tr>
+<td align="center"> 車輛撞擊邊牆</td> 
+<td align="center">偵測左右牆距離</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="MG90S"  /></td><td>
+<img src="./img/5/LIDAR_readings.png" width = "200"  alt="MG90S"  />
+</td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+<table>
+<tr>
+<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
+<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
+<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+</td>
+</tr>
+</table>
+</div>
 
 ## 2023/06/19 ~ 2023/06/25   
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
-(修正程式)
+
+- The robot is now able to operate successfully. The next step is to use the camera to avoid obstacles (blocks). First, we need to detect the distance to the obstacles (blocks). and then identify the color of the blocks. Utilizing the features of OpenCV, we can calculate the distance between the blocks and the robot to avoid obstacles. By implementing an algorithm, we can control the front wheels to steer around these obstacles.
+- However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners
+
+- 機器人現在已經能夠成功運作。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測與障礙物（積木）的距離，然後識別積木的顏色。透過利用OpenCV的功能，我們可以計算出積木與機器人之間的距離，以避開障礙物。透過實現一個演算法，我們可以控制前輪來繞過這些障礙物。  
+- 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
+
+<div align="center">
+<table>
+<tr>
+<td align="center"> 偵測積木距離</td> 
+<td align="center">撞擊積木</td>
+</tr>
+<tr>
+<td align="center"><img src="./img/6/sign.png" width=250 alt="site" ></td><td>
+<img src="./img/5/hit_block.jpg" width=300 alt="site" >
+</td>
+</table>
+</div>
+
 
 ## 2023/06/26 ~ 2023/07/02 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+- During today's testing, we discovered that the robot tends to misinterpret people wearing red or green clothing in its surroundings as obstacles, causing it to unnecessarily avoid them and potentially miss avoiding the next block in time. To address this issue, we added an additional layer of black masking at the top of the camera's field of view, preventing the robot from detecting colors outside of the track area.After adding the black masking, the robot will no longer detect colors outside of the track area, reducing the chances of interference.
+
+- 今天在測試時發現當機器在周圍人穿紅色衣物或綠色衣物時會誤測成積木讓機器閃避，導致無法及時閃過下一個積木，因此我們在畫面的上方將上一層黑色遮罩，讓機器無法偵測場地以外的顏色。在加上黑色遮罩之後，就不會再偵測到場外的顏色，減少被干擾的機率。
+
+<div align="center">
+
+|顯示線條次數與最近的交通標誌顏色|
+|:---:|
+|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+
+</div>
 
 ## 2023/07/03 ~ 2023/07/09 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+- This week, as most of the programming has been completed, we began testing the success rate of the robot. We started with 50% speed, and due to the slower pace, the robot mostly responded well. However, when accelerating to 70%, the color sensor occasionally misjudged the color of the track due to the high speed. As a result, we modified the turning conditions to utilize the LiDAR's measurements of left and right directions to determine the turning direction. This adjustment reduces the likelihood of turning in the wrong direction due to color misjudgment
+
+- 這周我們已經完成了大部分的程式編寫，於是我們開始進行機器的成功率測試。一開始我們選擇了50%的速度，由於速度相對較慢，機器大多能夠順利做出反應。然而，當我們提高到70%的速度時，我們發現顏色感測器有時會因為速度過快而誤判地上線的顏色。因此，我們進行了調整，改用光達測量左右方向的方式來辨識轉彎方向，這樣可以減少因為顏色誤判而轉錯方向的情況。
+
+#### 偵測轉彎方向
+```
+if get_left_dis > 100:
+    reverse = False
+else:
+    reverse = True
+if get_mid_dis > 55:
+    servo.angle(-40)
+```
 
 
 ## 2023/07/10 ~ 2023/07/16 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-- Although it is possible to move straight and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
-- However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
+- The robot is now capable of successfully avoiding obstacles and completing the third lap around the track. The next task is to detect blocks and perform a turnaround maneuver. The turnaround will only be executed if the last block of the second lap is red. Therefore, it is necessary to detect the lap count. We will utilize the color sensor to count the number of times the line is crossed and determine whether the set count has been reached.
 
-- 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
-- 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+- If the specified count has not yet been achieved, the system will continue to record the color of the nearest traffic sign until the count of line crossings is greater than or equal to the set value. At this point, color recording will cease.
 
-|  Lidar_X2_X4  | Lidar_X2_X4 | Lidar_D100|
-| :---: | :---: | :---:|
-| <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center /> | <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />|
+- Once the color of the nearest traffic sign has been recorded, the program will determine whether the color is red. If the color is red, the system will set the angle of the servo motor to initiate a right turn and continue turning until the vehicle is oriented in the specified direction. If the detected color is not red, the vehicle will continue moving forward. However, if the color of the traffic sign is red, a turnaround maneuver will be executed.
 
+- 已經可以完成閃避積木及繞場第三圈，接下來就是偵測積木並迴轉，迴轉是在第二圈的最後一個積木是紅色的才要進行的動作，因此要先偵測圈數，要利用顏色感測器來偵測經過的線條次數，並判斷是否超過了設定的次數。
+- 如果未達到指定次數，系統將會持續紀錄距離最近的交通標誌顏色，直到經過的線條次數大於或等於設定次數，此時將不再紀錄顏色。
+- 紀錄完最近的交通標誌顏色後，程式將判斷最近的交通標誌顏色是否為紅色。若標誌顏色為紅色，系統將設定伺服馬達角度為右轉角度，持續轉動直到車輛轉向指定的方向。若最近的交通標誌顏色不是紅色，則車輛會繼續向前行駛。
+
+ <div align="center">
+
+|顯示線條次數與最近的交通標誌顏色|正在調整數值|
+|:---:|:---:|
+|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="check"></div>|
+
+</div>
 
 ## 2023/07/17 ~ 2023/07/23  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-- The robot is now able to operate normally. The next step is to use the camera to avoid obstacles (blocks). First, we need to detect the distance to the blocks, and then identify the color of the blocks. By leveraging OpenCV's functionality, we can draw virtual lines to help with obstacle avoidance. Using the virtual line and the distance to the blocks, along with an algorithm, we can steer the front wheels to avoid the obstacles.
-- However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners
+- As the field mission has been roughly completed, we are now starting to write the technical report. Since we are not familiar with the correct technical report format, we referred to the official website's technical report documentation, and found that the report should include the following sections:
 
-- 機器人現在能夠正常運行。接下來的步驟是使用攝影機來避開障礙物（積木）。首先，我們需要偵測到障礙物（積木）的距離，然後辨識積木的顏色。透過利用OpenCV的功能，我們可以畫出虛擬線來協助避開障礙物。使用虛擬線和障礙物的距離，再加上一個演算法，我們可以操縱前輪來避開這些障礙物。  
-- 然而，在轉彎處有一個問題，機器人無法及時避開障礙物。為了解決這個問題，我們需要將原本方向的數值與演算法的輸出值結合起來，以成功地在轉彎處繞過障礙物。  
+  1. module: This folder should contain documentation related to the vehicle models, such as files for laser cutting machines and 3D printers.
 
-| lidar D100  |  ydlidar x4  |   ydlidar x2    |      
-|:----:|:----:|:----:|
-|<img src="./img/7/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/7/Lidar_X4.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/4/Lidar_X2.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+  2. other: This folder is used to store data that does not belong to other categories, such as communication protocols and engineering logs.
+
+  3. schemes: This folder is dedicated to hardware introductions, explaining the functions of electronic components and how they are connected.
+
+  4. src: All programs should be placed in this folder.
+
+  5. t-photos: This folder should contain team photos, including a group photo and humorous pictures.
+
+  6. v-photos: Machine photos from six different perspectives should be placed in this folder.
+
+  7. video: Videos demonstrating the machine's operation should be placed in this folder, with each video lasting more than 30 seconds.
+
+- When writing the technical report, we are switching between VS Code and the GitHub website. We use a desktop computer to view the GitHub web page and a laptop to edit the report in VS Code.
+
+- 由於場地任務已經大致完成，因此要開始撰寫技術報告，由於我們還不清楚正確的技術報告標準，因此參考官網的技術報告文件，發現需要以下部分
+
+  1. module 此資料夾內需放入車輛模型的文件，如雷射切割機、3D列印機的檔案
+  
+  2. other 此資料夾用於放置不屬於其他分類的資料，如通訊協定、工程日誌等
+  
+  3. schemes 此資料夾用於硬體介紹，說明電子元件的作用與如何連接
+  
+  4. src 此資料夾需要放入所有程式
+  
+  5. t-photos 此資料夾需要放入團隊的合照，包括一張合照和搞笑照片
+  
+  6. v-photos 此資料夾需要放入機器的照片，包括六個不同方位的視圖
+  
+  7. video 此資料夾應該放入機器運作影片，要超過30秒
+
+- 再撰寫技術文件時，由於需要再VS Code和Github網站之間切換，因此我們改用一台桌機檢視Github網頁，一台筆電用VS Code編輯
+
+ <div align="center">
+
+|官方網站的github範例|筆電和桌機對照|
+|:---:|:---:|
+|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="github_example"></div>|
+
+</div>
 
 ## 2023/07/24 ~ 2023/07/30  
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -506,46 +669,69 @@ Before dodging the blocks, we need to complete the basic task of circling the tr
 
 #### Overcoming Terrain Protrusions (克服場地凸起)
 
-|   |    |    |
-| :---: | :---: |:---: |
-| <img src="./img/7/Spacer1.png" alt="Spacer" width=300 />|<img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/>|
-| <img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />|<img src="./img/7/Spacer6.jpg" alt="Spacer" width=300 />|
-
-
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/7/Spacer1.png" alt="Spacer" width=300 /></td> 
+<td align="center"><img src="./img/7/Spacer2.jpg" alt="Spacer" width=300 /></td>
+<td align="center"><img src="./img/7/Spacer3.jpg" alt="Spacer"  width=300/></td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/Spacer4.jpg" alt="Spacer" width=300 /></td><td>
+<img src="./img/7/Spacer5.jpg" alt="Spacer" width=300 />
+</td><td align="center"><img src="./img/7/Spacer6.jpg" alt="Spacer"  width=300/></td>
+</table>
+</div>
 
 ### Team Members' Practice Status(隊員練習狀況)
 
-| <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 />|<img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 />|
-| :---: | :---: |
-
-| <img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/>|<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />|
-| :---: | :---: |
-
+<div align="center">
+<table>
+<tr>
+<td align="center"> <img src="./img/7/work_photo_2_1_0729.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
+<td align="center"><img src="./img/7/work_photo_2_2_0729.jpg" alt="work_photo_2_2_0729" width=300 /></td>
+</tr>
+<tr>
+<td align="center"><img src="./img/7/work_photo_1_1_0727.jpg" alt="work_photo_1_1_0727"  width=300/></td><td>
+<img src="./img/7/work_photo_2_1_0727.jpg" alt="work_photo_2__0727" width=300 />
+</td>
+</tr>
+</table>
+</div>
 
 ## 2023/07/31 ~ 2023/08/06
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
-1.依官方評分標準調整網頁，並持續補充技術報告。 
+1.As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
+
+1.由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
 
  |舊目錄|新目錄(上)|新目錄(下)|
  |:----:|:----:|:----:|
  |<img src="./img/8/old_content.png" alt="old_content"  width=300/>|<img src="./img/8/new1_content.png" alt="new1_content"  width=300/>|<img src="./img/8/new2_content.png" alt="new1_content"  width=300/>|
 
+2.Complete recording videos for each task and upload them to YouTube.
+
 2.完成各任務錄影，並上傳YOUTUBE 
 
   __Open Challenge 資格賽__
-  - [Open Challenge 全窄 電力70](https://youtu.be/QtpuHt05MDg)
-  - [Open Challenge 全窄 電力50](https://youtu.be/QaYUrrdAtE8)
-  - [Open Challenge 半寬半窄 電力70](https://youtu.be/pcTpH8QgJFU)
-  - [Open Challenge 半寬半窄 電力50](https://youtu.be/7HdWxfWPfWc)
-  - [Open Challenge 全寬 電力70](https://youtu.be/MA1k2P87LdE)
-  - [Open Challenge 全寬 電力50](https://youtu.be/OUg0x4Qdc0c)  
+  - [Open Challenge 全窄 速度70%](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge 全窄 速度50%](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge 半寬半窄 速度70%](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge 半寬半窄 速度50%](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge 全寬 速度70%](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge 全寬 速度50%](https://youtu.be/OUg0x4Qdc0c)  
 
  __Open Challenge 任務賽__
-  - [Obstacle Challenge 電力50 ](https://youtu.be/Jo7555gfXG8)
-  - [Obstacle Challenge 電力70 ](https://youtu.be/iCmcXbACizY)
+  - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
 
+### Team Members' Practice Status(隊員練習狀況)
+
+|報告撰寫|機構調整|
+|:---:|:---:|
+|<div align="center"> <img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></div>|<div align="center"> <img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></div>|
 
 
 

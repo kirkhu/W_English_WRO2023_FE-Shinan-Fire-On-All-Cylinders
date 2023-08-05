@@ -49,8 +49,16 @@
         
         - Li-Polymer Battery Low Voltage Alarm 
 
-        |The main purpose of installing a low voltage alarm is to prevent the battery from reaching a critically low level, thereby avoiding abnormal vehicle operation or potential damage to the battery. Therefore, when the battery voltage drops below a specific threshold, the low voltage alarm will sound, alerting the user to pay attention and replace the battery promptly if necessary.<br>裝設低電壓警報器的主要目的是為了預防電池電量過低，進而防止車輛運作出現異常情況或造成電池損壞。因此，當電池的電壓降至某個特定閾值以下時，低電壓警報器會發出聲音警示，提醒用戶注意，或及時進行電池更換。|<img src="./img/low_voltage_alarm.png" width = "300"  alt="low_voltage_alarm" align=center />  |
-        |:----|:----:|
+        <div align="center">
+        <table>
+        <tr>
+        <td>The main purpose of installing a low voltage alarm is to prevent the battery from reaching a critically low level, thereby avoiding abnormal vehicle operation or potential damage to the battery. Therefore, when the battery voltage drops below a specific threshold, the low voltage alarm will sound, alerting the user to pay attention and replace the battery promptly if necessary.</tb>裝設低電壓警報器的主要目的是為了預防電池電量過低，進而防止車輛運作出現異常情況或造成電池損壞。因此，當電池的電壓降至某個特定閾值以下時，低電壓警報器會發出聲音警示，提醒用戶注意，或及時進行電池更換。</td>
+        <td><img src="./img/low_voltage_alarm.png" width = "500"  alt="low_voltage_alarm" align=center /></td>
+
+        </tr>
+
+        </table>
+        </div>
 
     - #### Charging/Discharging Equipment(充放電設備)
       <div align="center">
@@ -59,11 +67,11 @@
         <th>skyrc E430</th>
         <th>skyrc imax B6C2 v2</th>
         </tr>
-    <tr>
+        <tr>
         <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment" align=center /></td>
         <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment" align=center /></td>
 
-    </tr>
+        </tr>
 
 </table>
 </div>      

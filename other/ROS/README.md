@@ -21,7 +21,7 @@ Whether in research, industrial automation, autonomous vehicles, or other roboti
 不論是在研究、工業自動化、自動駕駛車輛還是其他機器人應用領域，ROS都已被證明是一個強大且多功能的工具，用於創建複雜的機器人系統和應用。  
 
 ## Installation Steps  
-__Step1. setup ROS Database__
+__Step1. setup ROS Database(建立ROS資料庫)__
 ```
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -31,8 +31,8 @@ $ sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcsto
 $ sudo rosdep init
 $ rosdep update
 ```
-__Step2. install ROS__
-- __2.1 Create a working environment__
+__Step2. install ROS(安裝ROS系統)__
+- __2.1 Create a working environment(建立工作環境)__
 ```
 $ cd
 $ mkdir ~/ros_catkin_ws
@@ -42,11 +42,11 @@ $ rosinstall_generator desktop --rosdistro noetic --deps --tar > noetic-desktop.
 $ mkdir ./src
 $ vcs import --input noetic-desktop.rosinstall ./src
 ```
-- __2.2 Install dependencies__
+- __2.2 Install dependencies(安裝依賴項)__
 ```
 $ rosdep install --from-paths ./src --ignore-packages-from-source --rosdistro noetic -y
 ```
-- __2.3 Create catkin working environment__
+- __2.3 Create catkin working environment(建立 catkin 工作環境)__
 ```
 $ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXECUTABLE=/usr/bin/python3 --install-space /opt/ros/noetic
 $ source /opt/ros/noetic/setup.bash

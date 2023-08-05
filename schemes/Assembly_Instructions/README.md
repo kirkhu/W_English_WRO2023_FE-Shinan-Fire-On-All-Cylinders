@@ -15,7 +15,7 @@
       <th>Inner Structure Top View of the Overall Apparatus(整體機體結構上視圖) </th><th>Middle Layer Structure Top View(中層機體結構上視圖)</th><th>Top View of Vehicle Chassis(車輛底盤上視圖)</th>
   </tr>
   <tr>
-     <td>  <img src="./img/Inner_Structure_Top_View_of_the_Overall_Apparatus.png"  width = "400" alt="整體機體結構上視圖" >> </td><td><img src="./img/Middle_Layer_Structure_Top_View.png" width = "400" alt="中層機體結構上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_top.png" width="400" alt="車輛底盤上視圖" ></td>
+     <td>  <img src="./img/top_view.png"  width = "400" alt="整體機體結構上視圖" > </td><td><img src="./img/Middle_Layer_Structure_Top_View.png" width = "400" alt="中層機體結構上視圖" ></td><td><img src="./img/Vehicle_Chassis_Design_top.png" width="400" alt="車輛底盤上視圖" ></td>
   </tr>
 </table>
 </div>
@@ -65,16 +65,16 @@ __Usage:__
 用途:  
 - 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
-### JGA25-370 DC reduction motor (GA25-370 直流減速馬達) 
+### JGA25-370 DC reduction motor (JGA25-370 直流減速馬達) 
 #### English
 <table border=0 width=100% >
   <tr>
     <td > 
 
 __Specifications:__  
-- No-load Speed: 126 rpm/m  
+- No-load Speed: 640 rpm/m  
 - Reduction Ratio: 1:34  
-- Operating Voltage: 3 - 12V  
+- Operating Voltage: 6 - 12V  
 __Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
  </td>
@@ -86,9 +86,9 @@ __Usage:__
 
 #### 中文
 __規格:__
-- 無負載轉速：126 rpm/m
+- 無負載轉速：640 rpm/m
 - 減速比：1:34
-- 工作電壓：3 - 12V  
+- 工作電壓：6 - 12V  
 
 __用途:__ 
 - 驅動汽車後輪以控制車輛前進與後退
@@ -136,7 +136,7 @@ __Specifications:__
 - Peak output current: 1.2A  
 
 __Usage:__  
-- Control the rotation direction of GA25-371 DC reduction motor.  
+- Control the rotation direction of JGA25-371 DC reduction motor.  
  </td>
     <td >
 <img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />  
@@ -151,7 +151,7 @@ __規格:__
 - 峰值輸出電流：1.2A
 
 __用途:__
-- 控制GA25-371直流減速電機旋轉方向    
+- 控制JGA25-371直流減速電機旋轉方向    
 
 ### Li-Polymer 3S Battery (鋰聚合物電池 3S)
 #### English

@@ -5,7 +5,7 @@
 ## Image Predictions 圖像預測
 所有圖像過濾可以在[vehicle_function.py](../Programming/Obstacle_Challenge/vehicle_function.py)中找到。
 
-All image filtering functions can be found in the [vehicle_function.py](../Programming/Obstacle_Challenge/vehicle_function.py)file.
+All image filtering functions can be found in the [vehicle_function.py](../Programming/Obstacle_Challenge/vehicle_function.py) file.
 
 ### Image processing 圖像處理  
 #### 英文  

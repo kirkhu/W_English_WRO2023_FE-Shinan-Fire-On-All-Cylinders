@@ -19,13 +19,13 @@
 - Using  Onshape to design a 3D model of a self-driving car. Onshape is a free and user-friendly web-based design software.
 - After creating the model using Onshape, you can generate 2D flat dimension drawings and then proceed to cut it with a laser cutting machine.
 - The 3D/2D models created for this competition are all designed using Onshape.  
-- Software link：[On Shope](https://www.onshape.com/en/) 
+- Software link：[On Shape](https://www.onshape.com/en/) 
 ## 中文
 ### Onshape的介紹
 - 使用 Onshape 來設計自駕車的 3D 模型，而 Onshape 是免費且容易操作的網頁型態設計軟體。
 - 藉由 OnShope 建立模型後，可輸出2D平面尺寸圖，再交由雷切機進行切割。
 - 本競賽活動所建立的3D/2D模型均由OnShope設計而成。
-- Software link：[On Shope](https://www.onshape.com/en/)
+- Software link：[On Shape](https://www.onshape.com/en/)
   
 |<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">|
 |:---:|:---:|

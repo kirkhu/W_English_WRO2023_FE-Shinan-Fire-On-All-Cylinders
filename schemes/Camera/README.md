@@ -14,14 +14,14 @@
 #### Camera Module(攝影模組)
 <div align="center">
 <table>
-<tr>
-<th align="center">Model(型號)</th> 
-<th align="center">raspberry pi camera Rev 1.3</th>
-<th align="center">raspberry pi camera Module V2</th>
-<th align="center">raspberry pi camera Module V3</thd>
+<tr align="center" >
+<th rowspan="2">Model(型號)</th> 
+<th >raspberry pi camera Rev 1.3</th>
+<th >raspberry pi camera Module V2</th>
+<th >raspberry pi camera Module V3</thd>
 </tr>
 <tr>
-<td align="center">Photo</td>
+
 <td align="center"><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
 <td align="center"><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
 <td align="center"><img src="./img/V3.jpeg" width=200 alt="V3" /></td>

@@ -6,7 +6,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 
 車輛行走時，樹莓派將轉速訊息傳送給 __馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
 
-### Front Steering Mechanism Driven by Servo Motor(前轉向機構驅動伺服馬達)
+### Front Steering Mechanism by Servo Motor(前轉向機構伺服馬達)
 #### 英文
 - To select a servo motor among commonly available options in the market, considering factors such as weight, rotation angle, and torque, we have identified two suitable servo motors: MG90S and SG90.
 - The main difference between MG90S and SG90 lies in their front gears. The former has metal gears, while the latter has plastic gears. Since continuous rotation is often required, we opted for the MG90S due to its durability and resistance to damage.
@@ -80,7 +80,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td align="center">294rpm/m</td>
 <td align="center">220rpm/m</td>
 </tr>
-<tr align="center"><td>torque(扭距)</td><td>0.35kg.cm</td><td>0.75kg.cm</td><td>5.2kg.cm</td><td>0.15kgcm</td></tr><tr align="center">
+<tr align="center"><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr align="center">
 <td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
