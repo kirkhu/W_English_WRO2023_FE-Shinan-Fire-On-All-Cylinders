@@ -716,6 +716,20 @@ if get_mid_dis > 55:
 
 
 <table>
+<tr>
+<th> 舊目錄 </th>
+<th> 修改過的目錄上 </th>
+<th> 修改過的目錄下 </th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td> <?td>
+</tr>
+
+</table>
+
+<table>
 <tr align="center">
 <th >舊目錄</th> 
 <th>新目錄(上)</th>
