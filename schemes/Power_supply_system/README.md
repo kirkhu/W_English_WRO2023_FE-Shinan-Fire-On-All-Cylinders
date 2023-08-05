@@ -39,8 +39,8 @@
 <div align="center">
 <table with=100%>
 <tr align="center">
-  <td> LM2596 DC-DC可調降壓模組 </td> <td>5A恆壓恆流降壓電源模組
-  </td>
+<th> LM2596 DC-DC可調降壓模組 </th>
+<th>5A恆壓恆流降壓電源模組</th>
 </tr><tr>
   <td>  <img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
   <td><img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> 

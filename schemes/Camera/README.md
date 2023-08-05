@@ -20,26 +20,29 @@
 <th >raspberry pi camera Module V2</th>
 <th >raspberry pi camera Module V3</thd>
 </tr>
-<tr>
+<tr align="center">
 
-<td align="center"><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
-<td align="center"><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
-<td align="center"><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
+<td ><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
+<td ><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
+<td ><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
-<td align="center">sensor</td>
-<td align="center">Omnivision OV547</td>
-<td align="center">Sony IMX 219</td>
-<td align="center">Sony IMX 708</td>
+<tr align="center">
+<td >sensor</td>
+<td >Omnivision OV547</td>
+<td >Sony IMX 219</td>
+<td >Sony IMX 708</td>
 </tr>
-<td align="center">sensor resolution</td>
-<td align="center">2592 * 1944 pix</td>
-<td align="center">3280 * 2464 pix</td>
-<td align="center">4608 * 2592 pix</td>
+<tr align="center">
+<td >sensor resolution</td>
+<td >2592 * 1944 pix</td>
+<td >3280 * 2464 pix</td>
+<td >4608 * 2592 pix</td>
 </tr>
-<td align="center">FPS幀率</td>
-<td align="center">30p MAX</td>
-<td align="center">90p MAX</td>
-<td align="center">120p MAX</td>
+<tr align="center">
+<td >FPS幀率</td>
+<td >30p MAX</td>
+<td >90p MAX</td>
+<td >120p MAX</td>
 </tr>
 </table>
 </div>
@@ -52,17 +55,18 @@
 #### wide-angle lens(廣角鏡)
 <div align="center">
 <table>
-<tr>
-<th align="center"> Without the wide-angle lens(未加廣角鏡)</th> 
-<th align="center">With the wide-angle lens 巳加廣角鏡</th>
+<tr align="center">
+<th > Without the wide-angle lens(未加廣角鏡)</th> 
+<th >With the wide-angle lens 巳加廣角鏡</th>
 </tr>
-<tr>
-<td align="center"><img src="./img/V2.jpeg" width=200 alt="site" ></td>
-<td align="center"><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
+<tr align="center">
+<td ><img src="./img/V2.jpeg" width=200 alt="site" ></td>
+<td ><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
 </td>
 </tr>
-<td align="center"><img src="./img/72angle.png" width=200 alt="site" ></td>
-<td align="center"> <img src="./img/160angle.png" width=200 alt="site" ></td>
+<tr align="center">
+<td ><img src="./img/72angle.png" width=200 alt="site" ></td>
+<td > <img src="./img/160angle.png" width=200 alt="site" ></td>
 </tr>
 </table>
 </div>

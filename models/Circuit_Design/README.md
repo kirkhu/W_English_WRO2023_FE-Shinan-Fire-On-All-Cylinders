@@ -6,9 +6,9 @@
 <div align="center">
 <table>
   <tr>
-      <td> Circuit Board of Top View(電路板上視圖) </td><td>Circuit Board of Bottom View(電路板下視圖)</td>
+      <th> Circuit Board of Top View(電路板上視圖) </th><th>Circuit Board of Bottom View(電路板下視圖)</th>
   </tr>
-  <tr>
+  <tr align="center">
      <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
@@ -17,10 +17,10 @@
 - ### Circuit schematic drawing(電路圖繪製)
 <div align="center">
 <table>
-  <tr>
-      <td>Circuit Diagram(電路配置圖)</td><td>PCB Diagram(PCB 配置)</td><td>Circuit Wiring Diagram(電路線路圖)</td>
+  <tr align="center">
+      <th>Circuit Diagram(電路配置圖)</th><th>PCB Diagram(PCB 配置)</th><th>Circuit Wiring Diagram(電路線路圖)</th>
   </tr>
-  <tr>
+  <tr align="center">
      <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing"></td>
   </tr>
 </table>

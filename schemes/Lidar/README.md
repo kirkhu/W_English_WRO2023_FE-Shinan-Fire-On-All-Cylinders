@@ -87,14 +87,14 @@ __由於對ydlidar x4和ydlidar x2的使用不熟悉，導致在偵測障礙物�
 
 <div align="center">
  <table>
-    <tr>
-        <th> lidar D100</th>
-        <th colspan="2">ydlidar x4 X2</th>
+    <tr align="center">
+    <th> lidar D100</th>
+    <th colspan="2">ydlidar X4 X2</th>
     </tr>
-    <tr>
-        <td><img src="./img/D100.png" width = "400" height = "" alt="D100" align=center /></td>
-        <td><img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" align=center /></td>
-        <td><img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" align=center /></td>
+    <tr align="center">
+    <td><img src="./img/D100.png" width = "400" height = "" alt="D100"  /></td>
+    <td><img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角"  /></td>
+    <td><img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" /></td>
     </tr>
 </table>  
  
