@@ -102,6 +102,21 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td> <img src="./img/l293d.png" width = "300"  alt="l293d" align=center /></td>
 <td ><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
 </tr>
+<tr align="center">
+<td>所占面積</td>
+<td>2.95x0.8</td>
+<td>4.35x4.35</td>
+</tr>
+<tr align="center">
+<td>輸出電壓</td>
+<td>4.5V to 36V</td>
+<td>5V to 46V</td>
+</tr>
+<tr align="center">
+<td>額定功率</td>
+<td></td>
+<td></td>
+</tr>
 </table>
 </div>
 
