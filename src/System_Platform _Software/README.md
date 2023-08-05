@@ -8,11 +8,12 @@
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
- - Using the Mobaxterm tool (__tool introduction at the bottom of this page__), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more. 
+ - Using the Mobaxterm tool (__tool introduction at the bottom of this page__), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more.
+
 ```
 $ sudo apt-get update  
 $ sudo apt-get upgrade   
-```
+``` 
  - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
  - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
  - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
