@@ -288,9 +288,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th >ydlidar x4</th> 
-  <th >ydlidar x2</th>
-  <th >lidar 100</th>
+  <th >ydlidar x4 距離呈像</th> 
+  <th >ydlidar x2 距離呈像</th>
+  <th >lidar 100 距離呈像</th>
 </tr>
 <tr>
   <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
