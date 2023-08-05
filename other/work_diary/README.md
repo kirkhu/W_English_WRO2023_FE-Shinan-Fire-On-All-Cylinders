@@ -530,9 +530,9 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 <table>
-<tr align="center>
+<tr align="center">
 <th> 偵測積木距離</th> 
-<th>撞擊積木</th>
+<th> 撞擊積木</th>
 </tr>
 <tr>
 <td align="center"><img src="./img/6/sign.png" width=250 alt="block distance" ></td><td>
