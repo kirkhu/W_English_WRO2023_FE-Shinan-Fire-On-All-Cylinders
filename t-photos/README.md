@@ -9,6 +9,10 @@
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
 
+- This photo was taken while we were attempting to lift our classmates LIN JHONG-BIN. In fact, it was a bit difficult to lift them, and we almost dropped them.
+
+- 這張是我們試著把 LIN,JHONG-BIN 同學舉起時拍的照片，其實有點舉不動，差點就掉下去了
+
 - ### Funny Photo  
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
