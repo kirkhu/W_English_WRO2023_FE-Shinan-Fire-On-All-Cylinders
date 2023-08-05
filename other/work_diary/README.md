@@ -97,7 +97,12 @@ Jeston Nano </td>
 <td >294rpm/m</td>
 <td >220rpm/m</td>
 </tr>
-<tr align="center"><td>torque(力距)</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr>
+<tr align="center">\
+<td>torque(力距)</td>
+<td>4.27kg.cm</td>
+<td>9.15kg.cm</td>
+<td>5.2kg.cm</td><td>1.15kgcm</td>
+</tr><tr align="center">
 <td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
