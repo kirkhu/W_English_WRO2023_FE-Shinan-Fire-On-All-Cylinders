@@ -708,28 +708,28 @@ if get_mid_dis > 55:
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 
-1.As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
+1. As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
 
-1.由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
+1. 由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
 
 <div align="center">
 <table>
 <tr align="center">
-<th >舊目錄</th> 
-<th >新目錄(上)</th>
+<th>舊目錄</th> 
+<th>新目錄(上)</th>
 <th>新目錄(下)</th>
 </tr>
 <tr  align="center">
-<td><img src="./img/8/old_content.png" alt="old_content"  width=300/></td>
-<td><img src="./img/8/new1_content.png" alt="new1_content"  width=300/></td>
-<td><img src="./img/8/new2_content.png" alt="new1_content"  width=300/><td>
+<td><img src="./img/8/old_content.png" alt="old_content"  width="300"/></td>
+<td><img src="./img/8/new1_content.png" alt="new1_content"  width="300"/></td>
+<td><img src="./img/8/new2_content.png" alt="new1_content"  width="300"/><td>
 </tr>
 </table>
 </div>
 
-2.Complete recording videos for each task and upload them to YouTube.
+2. Complete recording videos for each task and upload them to YouTube.
 
-2.完成各任務錄影，並上傳YOUTUBE 
+2. 完成各任務錄影，並上傳YOUTUBE 
 
   __Open Challenge 資格賽__
   - [Open Challenge 全窄 速度70%](https://youtu.be/QtpuHt05MDg)
@@ -743,7 +743,7 @@ if get_mid_dis > 55:
   - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
 
-### Team Members' Practice Status(隊員練習狀況)
+__Team Members' Practice Status(隊員練習狀況)__
 
 <div align="center">
 <table>
