@@ -422,16 +422,16 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr>
-<td align="center"> Without the wide-angle lens(未加廣角鏡)</td> 
-<td align="center">With the wide-angle lens 巳加廣角鏡</td>
+<td align="center"> Without the wide-angle lens 未加廣角鏡</td> 
+<td align="center">With the wide-angle lens 已加廣角鏡</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/5/V2.jpeg" width=200 alt="site" ></td><td>
-<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="site" >
+<td align="center"><img src="./img/5/V2.jpeg" width=200 alt="common" ></td><td>
+<img src="./img/5/V2_wide_angle.jpeg" width=200 alt="wide angle" >
 </td>
 </tr>
-<td align="center"><img src="./img/5/72angle.png" width=200 alt="site" ></td>
-<td align="center"> <img src="./img/5/160angle.png" width=200 alt="site" ></td>
+<td align="center"><img src="./img/5/72angle.png" width=200 alt="common view" ></td>
+<td align="center"> <img src="./img/5/160angle.png" width=200 alt="wide angle view" ></td>
 </tr>
 </table>
 </div>
@@ -506,26 +506,13 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">偵測左右牆距離</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="MG90S"  /></td><td>
-<img src="./img/5/LIDAR_readings.png" width = "200"  alt="MG90S"  />
+<td align="center"><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td><td>
+<img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."  />
 </td>
 </tr>
 </table>
 </div>
 
-<div align="center">
-<table>
-<tr>
-<td align="center"> 要在VS Code編輯只要點擊原始檔控制，並按下複製儲存庫</td> 
-<td align="center">輸入網址，就能在VS Code做編輯及版本控制</td>
-</tr>
-<tr>
-<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
-<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
-</td>
-</tr>
-</table>
-</div>
 
 ## 2023/06/19 ~ 2023/06/25   
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
@@ -561,7 +548,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 <div align="center">
 
-|顯示線條次數與最近的交通標誌顏色|
+|使用黑色遮罩屏蔽場外的顏色|
 |:---:|
 |<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="Obstacle_XY_coordinates"></div>|
 
