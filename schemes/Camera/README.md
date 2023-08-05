@@ -14,7 +14,7 @@
 #### Camera Module(攝影模組)
 <div align="center">
 <table>
-<tr align="center">
+<tr align="center" rowspan="2">
 <th >Model(型號)</th> 
 <th >raspberry pi camera Rev 1.3</th>
 <th >raspberry pi camera Module V2</th>
