@@ -20,15 +20,21 @@
 2. HTML：HTML 是用於構建網頁的超文本標記語言。使用 HTML，你可以創建網頁的結構、內容和布局。
    
 當然還其他的網頁編輯語言，如CSS 、JavaScript、JSON、YAML，但這些不是這次競賽活動的主要項目，因此在GitHub 上，使用的網頁編輯語言以Markdown及HTML語言為主。
-   
-- ### [Markdown Document link(教學文件連結)](https://markdown.tw/#link)
 
-- ### [HTML Document link(教學文件連結)](https://www.w3schools.com/html/)
+<div align="center">
+<table>
+<tr align="center" >
+<th>Markdown 語法</th>
+<th>HTML 語法</th>
+</tr>
+<tr>
+<td><img src="./img/Markdown.png" width = "500" alt="Markdown 語法" align=center /> </td>
+<td><img src="./img/HTML.png" width = "500" alt=">HTML 語法" align=center /> </td>
+</tr>
+</table>
+</div>
 
-
-
-
-
-
+- #### [Markdown Document link(教學文件連結)](https://markdown.tw/#link)
+- #### [HTML Document link(教學文件連結)](https://www.w3schools.com/html/)
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
