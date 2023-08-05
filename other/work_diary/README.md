@@ -531,8 +531,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <td align="center">撞擊積木</td>
 </tr>
 <tr>
-<td align="center"><img src="./img/6/sign.png" width=250 alt="site" ></td><td>
-<img src="./img/5/hit_block.jpg" width=300 alt="site" >
+<td align="center"><img src="./img/6/sign.png" width=250 alt="block distance" ></td><td>
+<img src="./img/5/hit_block.jpg" width=300 alt="hit block" >
 </td>
 </table>
 </div>
@@ -550,7 +550,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 |使用黑色遮罩屏蔽場外的顏色|
 |:---:|
-|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+|<div align="center"> <img src="./img/6/black_hid.png" width="300" alt="cover"></div>|
 
 </div>
 
@@ -591,7 +591,7 @@ if get_mid_dis > 55:
 
 |顯示線條次數與最近的交通標誌顏色|正在調整數值|
 |:---:|:---:|
-|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="check"></div>|
+|<div align="center"> <img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></div>|<div align="center"> <img src="./img/7/check.jpeg" width="300" alt="check"></div>|
 
 </div>
 
@@ -637,9 +637,9 @@ if get_mid_dis > 55:
 
  <div align="center">
 
-|官方網站的github範例|筆電和桌機對照|
+|官方網站的github範例|筆電和桌機對照修改|
 |:---:|:---:|
-|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="github_example"></div>|
+|<div align="center"> <img src="./img/7/github_example.png" width="500" alt="github_example"></div>|<div align="center"> <img src="./img/7/vs_code.jpeg" width="500" alt="更改文件"></div>|
 
 </div>
 
