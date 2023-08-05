@@ -28,8 +28,8 @@ $ sudo apt-get upgrade
  <div align="center">
  <table>
  <tr align="center" > 
- <td><img src="./img/Mobaxterm_PI.png" width="300" alt="detect_color"> </td>
- <td><img src="./img/Mobaxterm_ssh.png" width="300" alt="detect_color"> </td>
+ <td><img src="./img/Mobaxterm_PI.png" width="400" alt="detect_color"> </td>
+ <td><img src="./img/Mobaxterm_ssh.png" width="400" alt="detect_color"> </td>
  </tr>
  <tr align="center"></tr>
  </table>
