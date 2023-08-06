@@ -41,6 +41,7 @@ __下方是技術報告的內容，以及建置說明的連結。__
     - __Programming(自駕車輛程式設計)__
       - [Open Challenge Code overview(資格賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview(任務賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
+      - [Special Program(特色程式)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/special_program/Special_Program.md)
   
 - ### ${{\color{red} Other(其他)}} $
   #### 4. Pictures – Team and vehicle(圖片-團隊和車輛)
