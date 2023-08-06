@@ -752,7 +752,6 @@ __Team Members' Practice Status(隊員練習狀況)__
 </div>
 
 
-
 ## 2023/08/07 ~ 2023/08/13
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
