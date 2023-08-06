@@ -57,7 +57,6 @@
         else: 
             if count == 1: 
                 dodgeblock_to_line(0)
-            # Navigate around the field and perform obstacle avoidance. 繞場地並進行閃避障礙物
             dodgeblock_to_time(2.5, 90)
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 180)
