@@ -64,7 +64,7 @@
                 red_turn(90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, 90)
-            else: #若不到第二圈或是障礙物為綠色則繼續同方向行駛
+            else: #若不到第二圈或障礙物為綠色則繼續同方向行駛
                 dodgeblock_to_line(270)
                 dodgeblock_to_time(2, 0)
     ```
