@@ -29,8 +29,8 @@ The most distinctive aspect of our program lies in the image recognition segment
 - Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
   - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
   - 在任務賽的第二圈，如果最後一個障礙物的顏色是紅色，則第三圈需要反向行駛；如果是綠色，則車輛繼續保持原方向行駛。
-    - 逆時針行駛
-        ```
+    ```
+        # 逆時針行駛
         if reverse == True: 
             if count == 1: 
                 dodgeblock_to_line(0)
@@ -48,10 +48,7 @@ The most distinctive aspect of our program lies in the image recognition segment
             else: 
                 dodgeblock_to_line(-270)
                 dodgeblock_to_time(2, 0)
-        ```
-    
-    - 順時針行駛
-        ```
+        # 順時針行駛
         else: 
             if count == 1: 
                 dodgeblock_to_line(0)
@@ -69,6 +66,6 @@ The most distinctive aspect of our program lies in the image recognition segment
             else: 
                 dodgeblock_to_line(270)
                 dodgeblock_to_time(2, 0)
-        ```
+    ```
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
