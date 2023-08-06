@@ -7,32 +7,10 @@
 - 在我們的程式中，最有特色的莫過於是閃避積木的地方，以下是程式內容  
   ([vehicle_function.py 的片段程式](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
 
-- Identify obstacle coordinates and calculate the center point of the obstacle(辨識障礙物座標並計算出障礙物中心點)
-    - To avoid obstacles, we need to determine the position of the obstacles in the camera's field of view to calculate the required angle for steering and avoidance.
-    - 為了閃避障礙物，我們需要的知道障礙物在鏡頭畫面中的位置，來得知轉彎閃避的幅度
-        ```
-        def color_detect(self,raw_img, hsv_img, lower, upper):
-            mask = cv2.inRange(hsv_img, lower, upper)  
-            contours, hierarchy = cv2.findContours(mask, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-            find_x = -1
-            find_y = -1
-            max_y = 0
-            find_area = 0
-            for pic, contour in enumerate(contours):
-                area = cv2.contourArea(contour)
-                x, y, w, h = cv2.boundingRect(contour)
-                x = int(x + w / 2)
-                y = int(y + h / 2)
-                if y > max_y and area > block_detect_min_area:
-                    find_area = area
-                    max_y = y
-                    find_x = x
-                    find_y = y
-            return raw_img, find_x, find_y, find_area
-        ```
+
 - Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
-  - When detecting the line indicating a turn, it's essential to halt image recognition to prevent mistaking the line for an obstacle.
-  - 當測到轉彎處的線時，需要停止影像辨識，以免將線辨識成障礙物  
+  - This segment of the code will continuously detect if a line is detected. If detected, it will exit and perform a turn.
+  - 這段程式會一直偵測是否測到線，如果測到就會跳出進行轉彎
     ```
     def dodgeblock_to_line(set):
         while color > line_middle:
@@ -53,42 +31,40 @@
 - Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
   - 在任務賽的第二圈，若最後一個障礙物顏色為紅色，則第三圈需要反方向行駛，若為綠色同方向繼續行駛
     ```
-    direction_detect()
-        for count in range(2):
-            if reverse == True: #前進方向為逆時針
-                if count == 1:
-                    dodgeblock_to_line(0)
-                dodgeblock_to_time(2, -90)
-                dodgeblock_to_line(-90)
-                dodgeblock_to_time(2, -180)
-                dodgeblock_to_line(-180)
-                dodgeblock_to_time(2, -270)
-                if record_box == 'red' and count == 1: #若障礙物為紅色，進行迴轉
-                    dodgeblock_to_line(-270)
-                    motor.power(70)
-                    red_turn(-90, 25, 0.3)
-                    motor.power(50)
-                    dodgeblock_to_time(1, -90)
-                else: #若為綠色則繼續逆方向行駛
-                    dodgeblock_to_line(-270)
-                    dodgeblock_to_time(2, 0)
-            else:
-                if count == 1: #前進方向為順時針
-                    dodgeblock_to_line(0)
-                dodgeblock_to_time(2.5, 90)
-                dodgeblock_to_line(90)
-                dodgeblock_to_time(2.5, 180)
-                dodgeblock_to_line(180)
-                dodgeblock_to_time(2.5, 270)
-                if record_box == 'red' and count == 1: #若為障礙物為紅色，進行迴轉
-                    dodgeblock_to_line(270)
-                    motor.power(70)
-                    red_turn(90, 25, 0.3)
-                    motor.power(50)
-                    dodgeblock_to_time(1, 90)
-                else: #若為綠色則繼續逆方向行駛
-                    dodgeblock_to_line(270)
-                    dodgeblock_to_time(2, 0)
+    for count in range(2):
+        if reverse == True: #前進方向為逆時針
+            if count == 1:
+                dodgeblock_to_line(0)
+            dodgeblock_to_time(2, -90)
+            dodgeblock_to_line(-90)
+            dodgeblock_to_time(2, -180)
+            dodgeblock_to_line(-180)
+            dodgeblock_to_time(2, -270)
+            if record_box == 'red' and count == 1: #若障礙物為紅色，進行迴轉                    dodgeblock_to_line(-270)
+                motor.power(70)
+                red_turn(-90, 25, 0.3)
+                motor.power(50)
+                dodgeblock_to_time(1, -90)
+            else: #若為綠色則繼續逆方向行駛
+                dodgeblock_to_line(-270)
+               dodgeblock_to_time(2, 0)
+        else:
+            if count == 1: #前進方向為順時針
+                dodgeblock_to_line(0)
+            dodgeblock_to_time(2.5, 90)
+            dodgeblock_to_line(90)
+            dodgeblock_to_time(2.5, 180)
+            dodgeblock_to_line(180)
+            dodgeblock_to_time(2.5, 270)
+            if record_box == 'red' and count == 1: #若為障礙物為紅色，進行迴轉
+                dodgeblock_to_line(270)
+                motor.power(70)
+                red_turn(90, 25, 0.3)
+                motor.power(50)
+                dodgeblock_to_time(1, 90)
+            else: #若為綠色則繼續逆方向行駛
+                dodgeblock_to_line(270)
+                dodgeblock_to_time(2, 0)
     ```
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
