@@ -34,8 +34,8 @@
         ```
 
 - Identify obstacle coordinates and calculate the center point of the obstacle(辨識障礙物座標並計算出障礙物中心點)
-    - To navigate around obstacles, we need to determine the position of the obstacles in the camera's field of view in order to calculate the angle the servo motor needs to turn.
-    - 為了閃避障礙物，我們需要的知道障礙物在鏡頭畫面中的位置，來得知伺服馬達需要轉的角度
+    - To avoid obstacles, we need to determine the position of the obstacles in the camera's field of view to calculate the required angle for steering and avoidance.
+    - 為了閃避障礙物，我們需要的知道障礙物在鏡頭畫面中的位置，來得知轉彎閃避的幅度
         ```
         def color_detect(self,raw_img, hsv_img, lower, upper):
             mask = cv2.inRange(hsv_img, lower, upper)  
@@ -61,9 +61,9 @@
   - 當測到轉彎處的線時，需要停止影像辨識，以免將線辨識成障礙物  
     ```
     def dodgeblock_to_line(set):
-    while color > line_middle:
-        dodgeblock_control(set)
-        time.sleep(0.001)
+        while color > line_middle:
+            dodgeblock_control(set)
+            time.sleep(0.001)
     ```
 
 - Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
@@ -71,10 +71,10 @@
   - 由於障礙物在側邊時鏡頭辨識不到，但是還沒完全通過，因此需要持續一段時間直到完全閃過障礙物
     ```
     def dodgeblock_to_time(set_time, set):
-    set_reset = time.time()
-    while time.time() - set_reset < set_time:
-        dodgeblock_control(set)
-        time.sleep(0.001)
+        set_reset = time.time()
+        while time.time() - set_reset < set_time:
+            dodgeblock_control(set)
+            time.sleep(0.001)
     ```
 
 - Recognize Clockwise and Counterclockwise(辨識順逆時針)
