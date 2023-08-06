@@ -30,7 +30,8 @@ The most distinctive aspect of our program lies in the image recognition segment
   - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
   - 在任務賽的第二圈，如果最後一個障礙物的顏色是紅色，則第三圈需要反向行駛；如果是綠色，則車輛繼續保持原方向行駛。
     ```
-        # 逆時針行駛
+    for count in range(2):
+        # Counterclockwise direction 逆時針行駛
         if reverse == True: 
             if count == 1: 
                 dodgeblock_to_line(0)
@@ -39,6 +40,8 @@ The most distinctive aspect of our program lies in the image recognition segment
             dodgeblock_to_time(2, -180)
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
+            # If the obstacle turns red and it is currently the second round, perform a turnaround. If it is not red or not the second round, continue driving. 
+            # 若障礙物回紅色且目前是第二圈，進行迴轉，若不是紅色或不是第二圈則繼續繼續行駛
             if record_box == 'red' and count == 1:                  
                 dodgeblock_to_line(-270)
                 motor.power(70)
@@ -48,7 +51,7 @@ The most distinctive aspect of our program lies in the image recognition segment
             else: 
                 dodgeblock_to_line(-270)
                 dodgeblock_to_time(2, 0)
-        # 順時針行駛
+        # Clockwise direction 順時針行駛
         else: 
             if count == 1: 
                 dodgeblock_to_line(0)
@@ -57,6 +60,8 @@ The most distinctive aspect of our program lies in the image recognition segment
             dodgeblock_to_time(2.5, 180)
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
+            # If the obstacle turns red and it is currently the second round, perform a turnaround. If it is not red or not the second round, continue driving. 
+            # 若障礙物回紅色且目前是第二圈，進行迴轉，若不是紅色或不是第二圈則繼續繼續行駛
             if record_box == 'red' and count == 1: 
                 dodgeblock_to_line(270)
                 motor.power(70)
