@@ -31,33 +31,30 @@
 - Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
   - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
   - 在任務賽的第二圈，如果最後一個障礙物的顏色是紅色，則第三圈需要反向行駛；如果是綠色，則車輛繼續保持原方向行駛。
-    ```
-    for count in range(2):
-        # The forward direction is counterclockwise. 前進方向為逆時針
+    - 逆時針行駛
+        ```
         if reverse == True: 
-            # If it is currently the second round, avoid obstacles until the line is detected. 如果目前為第二圈，閃避障礙物直到測到線
             if count == 1: 
                 dodgeblock_to_line(0)
-            # Navigate around the field and perform obstacle avoidance. 繞場地並進行閃避障礙物
             dodgeblock_to_time(2, -90)
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2, -180)
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
-            # If the obstacle is red and it is currently the second round, perform a turnaround. 若障礙物為紅色而且現在是第二圈，進行迴轉
             if record_box == 'red' and count == 1:                  
                 dodgeblock_to_line(-270)
                 motor.power(70)
                 red_turn(-90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, -90)
-            # If it's not yet the second round or the obstacle is not red, continue moving in the same direction.若還未到第二圈或障礙物不為紅色，繼續同方向行駛
             else: 
                 dodgeblock_to_line(-270)
                 dodgeblock_to_time(2, 0)
-        # The direction of movement is clockwise. 前進方向為順時針
+        ```
+    
+    - 順時針行駛
+        ```
         else: 
-            # If it is currently the second round, avoid obstacles until the line is detected. 若目前為第二圈，閃地障礙物直到測到線
             if count == 1: 
                 dodgeblock_to_line(0)
             # Navigate around the field and perform obstacle avoidance. 繞場地並進行閃避障礙物
@@ -66,17 +63,15 @@
             dodgeblock_to_time(2.5, 180)
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
-            # If the obstacle is red and it is currently the second round, perform a turnaround. 若為障礙物為紅色而且現在是第二圈，進行迴轉
             if record_box == 'red' and count == 1: 
                 dodgeblock_to_line(270)
                 motor.power(70)
                 red_turn(90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, 90)
-            # If it's not yet the second round or the obstacle is not red, continue moving in the same direction. 若不到第二圈或障礙物為綠色則繼續同方向行駛
             else: 
                 dodgeblock_to_line(270)
                 dodgeblock_to_time(2, 0)
-    ```
+        ```
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
