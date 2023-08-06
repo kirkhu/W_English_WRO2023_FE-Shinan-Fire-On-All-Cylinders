@@ -8,11 +8,13 @@
   ([vehicle_function.py 的片段程式](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
 
 - Set up the Black mask area(設定遮罩)
-    - Black mask area at the top of the image screen(影像畫面上方黑色遮罩範圍)  
+    - Black mask area at the top of the image screen
+    - 影像畫面上方黑色遮罩範圍  
         ```
         image_black_area = 310
         ```
-    - Black mask area at the bottom of the image frame(影像畫面下方黑色遮罩範圍)
+    - Black mask area at the bottom of the image frame
+    - 影像畫面下方黑色遮罩範圍
         ```
         image_black_area_down = 400 
         ```
