@@ -29,6 +29,7 @@
             time.sleep(0.001)
     ```
 - Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
+  - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
   - 在任務賽的第二圈，若最後一個障礙物顏色為紅色，則第三圈需要反方向行駛，若為綠色同方向繼續行駛
     ```
     for count in range(2):
