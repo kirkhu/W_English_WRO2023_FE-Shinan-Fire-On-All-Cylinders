@@ -42,7 +42,7 @@
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
             if record_box == 'red' and count == 1: #若障礙物為紅色而且現在是第二圈，進行迴轉                 
-            dodgeblock_to_line(-270)
+                dodgeblock_to_line(-270)
                 motor.power(70)
                 red_turn(-90, 25, 0.3)
                 motor.power(50)
