@@ -33,38 +33,48 @@
   - 在任務賽的第二圈，如果最後一個障礙物的顏色是紅色，則第三圈需要反向行駛；如果是綠色，則車輛繼續保持原方向行駛。
     ```
     for count in range(2):
-        if reverse == True: #前進方向為逆時針
-            if count == 1: #如果目前為第二圈
+        #前進方向為逆時針
+        if reverse == True: 
+            #如果目前為第二圈，閃避障礙物直到測到線
+            if count == 1: 
                 dodgeblock_to_line(0)
+            #繞場地並進行閃避障礙物
             dodgeblock_to_time(2, -90)
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2, -180)
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
-            if record_box == 'red' and count == 1: #若障礙物為紅色而且現在是第二圈，進行迴轉                 
+            #若障礙物為紅色而且現在是第二圈，進行迴轉
+            if record_box == 'red' and count == 1:                  
                 dodgeblock_to_line(-270)
                 motor.power(70)
                 red_turn(-90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, -90)
-            else: #若還未到第二圈或障礙物不為紅色，繼續同方向行駛
+            #若還未到第二圈或障礙物不為紅色，繼續同方向行駛
+            else: 
                 dodgeblock_to_line(-270)
-               dodgeblock_to_time(2, 0)
-        else: #前進方向為順時針
-            if count == 1: #若目前是第二圈
+                dodgeblock_to_time(2, 0)
+        #前進方向為順時針
+        else: 
+            #若目前為第二圈，閃地障礙物直到測到線
+            if count == 1: 
                 dodgeblock_to_line(0)
+            #繞場地並進行閃避障礙物
             dodgeblock_to_time(2.5, 90)
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 180)
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
-            if record_box == 'red' and count == 1: #若為障礙物為紅色而且現在是第二圈，進行迴轉
+            #若為障礙物為紅色而且現在是第二圈，進行迴轉
+            if record_box == 'red' and count == 1: 
                 dodgeblock_to_line(270)
                 motor.power(70)
                 red_turn(90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, 90)
-            else: #若不到第二圈或障礙物為綠色則繼續同方向行駛
+            #若不到第二圈或障礙物為綠色則繼續同方向行駛
+            else: 
                 dodgeblock_to_line(270)
                 dodgeblock_to_time(2, 0)
     ```
