@@ -1,10 +1,11 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Feture Program </div>
-### 英文
 
-### 中文
-在我們的程式中，最有特色的莫過於是影像辨識的地方，以下是程式內容([vehicle_function.py](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py)的片段程式)
+- The most distinctive aspect of our program lies in the image recognition segment. Here is the excerpt of the program content  
+([A snippet of code fromvehicle_function.py](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
+- 在我們的程式中，最有特色的莫過於是影像辨識的地方，以下是程式內容  
+  ([vehicle_function.py 的片段程式](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
 
 - Set up the Black mask area(設定遮罩)
     - Black mask area at the top of the image screen(影像畫面上方黑色遮罩範圍)  
