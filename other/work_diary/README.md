@@ -597,7 +597,7 @@ if get_mid_dis > 55:
 <th>正在調整數值</th>
 </tr>
 <tr align="center">
-<td><img src="./img/7/detect_last_obstacle.png" width="300" alt="print color"></td>
+<td><img src="./img/7/detect_last_obstacle.png" width="200" alt="print color"></td>
 <td><img src="./img/7/check.jpeg" width="300" alt="check"></td>
 </table>
 </div>

@@ -77,28 +77,5 @@
             time.sleep(0.001)
     ```
 
-- Recognize Clockwise and Counterclockwise(辨識順逆時針)
-  - The mission instructions mention that if the last obstacle of the second round is red, the third round must be driven in reverse, while if it's green, there's no need for a reverse. Therefore, the obstacle color will be continuously recorded until the second round is counted, at which point the color detection will stop. The program will then determine whether the color is red or green.
-  - 任務說明有提到如果第二圈的最後一個障礙物是紅，第三圈就必須反向行駛，是綠色則不用，因此會一直紀錄障礙物顏色，直到數到第二圈就會停止讀取，透過程式判斷是紅色還是綠色
-    ```
-    def direction_detect():
-    global reverse, line_count
-    print('direction detect')
-    while color > line_middle:
-        dodgeblock_control(0)
-    low_color = 100
-    while color < line_middle:
-        dodgeblock_control(0)
-        if color < low_color:
-            low_color = color
-    line_count = 1
-    if low_color < color_direction_middle:
-        print('blue line')
-        print('Low:', low_color)
-    else:
-        reverse = False
-        print('orange line')
-        print('Low:', low_color)
-    ```
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
