@@ -110,7 +110,7 @@ __Specifications:__
 __Usage:__
 - Control the steering mechanism to make the vehicle turn.  
  </td>
-    <td >
+    <td>
 <img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />  
     </td>
   </tr>
@@ -130,7 +130,7 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td >  
+    <td>  
 
 __Specifications:__ 
 - Wide power supply voltage range: 4.5V to 36V  
@@ -140,7 +140,7 @@ __Specifications:__
 __Usage:__  
 - Control the rotation direction of JGA25-371 DC reduction motor.  
  </td>
-    <td >
+    <td>
 <img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />  
     </td>
   </tr>
@@ -159,7 +159,7 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td > 
+    <td> 
 
 __Specifications:__
 - Maximum Current: 45.5A  
@@ -169,7 +169,7 @@ __Specifications:__
 Usage:  
 - Supplying power to Raspberry Pi and other electronic components.  
  </td>
-    <td >
+    <td>
 <img src="./img/lipo_battery.png" width = "400" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
     </td>
   </tr>
@@ -188,7 +188,7 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td >
+    <td>
 
 __Specifications:__ 
 - Operating Voltage: 3.3V - 5.0V  
@@ -198,7 +198,7 @@ __Specifications:__
 __Usage:__
 - Send an activation signal before initiating the program.  
  </td>
-    <td >
+    <td>
 <img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
     </td>
   </tr>
@@ -218,7 +218,7 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td > 
+    <td> 
 
 __Specifications:__ 
 - Input Voltage: 4.0V - 38.0V  
@@ -228,7 +228,7 @@ __Specifications:__
 __Usage:__  
 - Stabilizing the power supplied by lithium batteries.  
  </td>
-    <td >
+    <td>
 <img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
     </td>
   </tr>
@@ -258,7 +258,7 @@ __Usage:__
 - Line color recognition 
 - counting the current number of revolutions.  
  </td>
-    <td >
+    <td>
 <img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
     </td>
   </tr>
@@ -277,7 +277,7 @@ __用途:__
 #### English
 <table border=0 width="100%" >
   <tr>
-    <td > 
+    <td> 
 
 __Specifications:__ 
 - Viewing Angle: 160 degrees  
@@ -304,7 +304,7 @@ __用途:__
 #### English
 <table border=0 width=100% >
   <tr>
-    <td > 
+    <td> 
 
 __Specifications:__  
 The D100 Developer Kit is built around the LiDAR LD14 core, complemented with various related accessories. 
@@ -314,7 +314,7 @@ The D100 Developer Kit is built around the LiDAR LD14 core, complemented with va
 __Usage:__  
 - Used for detecting front, left, and right walls and keeping the machine centered in the lane. 
   </td>
-    <td >
+    <td>
 <img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR(D100 光達)" align=center />      
     </td>
   </tr>
