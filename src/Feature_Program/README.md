@@ -2,11 +2,9 @@
 ====
 ## <div align="center">Feture Program </div>
 
-- The most distinctive aspect of our program lies in the image recognition segment. Here is the excerpt of the program content  
+The most distinctive aspect of our program lies in the image recognition segment. Here is the excerpt of the program content  
 
-- 在我們的程式中，最有特色的莫過於是閃避積木的地方，以下是程式內容  
-
-
+在我們的程式中，最有特色的莫過於是閃避積木的地方，以下是程式內容  
 
 - Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
   - This segment of the code will continuously detect if a line is detected. If detected, it will exit and perform a turn.
