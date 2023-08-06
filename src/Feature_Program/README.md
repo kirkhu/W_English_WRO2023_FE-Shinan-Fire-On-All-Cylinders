@@ -76,6 +76,51 @@
             dodgeblock_control(set)
             time.sleep(0.001)
     ```
-
+- Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
+  - 在任務賽的第二圈，若最後一個障礙物顏色為紅色，則第三圈需要反方向行駛，若為綠色同方向繼續行駛
+    ```
+    direction_detect()
+        for count in range(2):
+        #前進方向為逆時針
+            if reverse == True:
+                if count == 1:
+                    dodgeblock_to_line(0)
+                dodgeblock_to_time(2, -90)
+                dodgeblock_to_line(-90)
+                dodgeblock_to_time(2, -180)
+                dodgeblock_to_line(-180)
+                dodgeblock_to_time(2, -270)
+                #若障礙物為紅色，進行迴轉
+                if record_box == 'red' and count == 1:
+                    dodgeblock_to_line(-270)
+                    motor.power(70)
+                    red_turn(-90, 25, 0.3)
+                    motor.power(50)
+                    dodgeblock_to_time(1, -90)
+                #若為綠色則繼續逆方向行駛
+                else:
+                    dodgeblock_to_line(-270)
+                    dodgeblock_to_time(2, 0)
+            else:
+            #前進方向為順時針
+                if count == 1:
+                    dodgeblock_to_line(0)
+                dodgeblock_to_time(2.5, 90)
+                dodgeblock_to_line(90)
+                dodgeblock_to_time(2.5, 180)
+                dodgeblock_to_line(180)
+                dodgeblock_to_time(2.5, 270)
+                #若為障礙物為紅色，進行迴轉
+                if record_box == 'red' and count == 1:
+                    dodgeblock_to_line(270)
+                    motor.power(70)
+                    red_turn(90, 25, 0.3)
+                    motor.power(50)
+                    dodgeblock_to_time(1, 90)
+                #若為綠色則繼續逆方向行駛
+                else:
+                    dodgeblock_to_line(270)
+                    dodgeblock_to_time(2, 0)
+    ```
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
