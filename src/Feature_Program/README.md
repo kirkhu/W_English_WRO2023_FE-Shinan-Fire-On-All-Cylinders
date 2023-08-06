@@ -67,8 +67,8 @@
     ```
 
 - Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
-  - Since obstacles at the sides might not be detected by the camera immediately, but the vehicle hasn't completely cleared them, it's necessary to continue for a certain duration until the obstacles are fully avoided.
-  - 由於障礙物在側邊時鏡頭辨識不到，但是還沒完全通過，因此需要持續一段時間直到完全閃過障礙物
+  - Since obstacles located at the sides might not be detected by the camera's vision, directly turning back could lead to a collision with the obstacle. Therefore, it is necessary to continue moving forward for a certain duration until the obstacle is completely avoided.
+  - 由於鏡頭辨識不到在側邊的障礙物，因此直接轉回來會撞到障礙物，因此需要持續前進一段時間直到完全閃過障礙物
     ```
     def dodgeblock_to_time(set_time, set):
         set_reset = time.time()
