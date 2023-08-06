@@ -34,36 +34,36 @@
     ```
     for count in range(2):
         if reverse == True: #前進方向為逆時針
-            if count == 1:
+            if count == 1: #如果目前為第二圈
                 dodgeblock_to_line(0)
             dodgeblock_to_time(2, -90)
             dodgeblock_to_line(-90)
             dodgeblock_to_time(2, -180)
             dodgeblock_to_line(-180)
             dodgeblock_to_time(2, -270)
-            if record_box == 'red' and count == 1: #若障礙物為紅色，進行迴轉                    dodgeblock_to_line(-270)
+            if record_box == 'red' and count == 1: #若障礙物為紅色而且現在是第二圈，進行迴轉                    dodgeblock_to_line(-270)
                 motor.power(70)
                 red_turn(-90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, -90)
-            else: #若為綠色則繼續逆方向行駛
+            else: #若還未到第二圈或障礙物不為紅色，繼續同方向行駛
                 dodgeblock_to_line(-270)
                dodgeblock_to_time(2, 0)
-        else:
-            if count == 1: #前進方向為順時針
+        else: #前進方向為順時針
+            if count == 1: #若目前是第二圈
                 dodgeblock_to_line(0)
             dodgeblock_to_time(2.5, 90)
             dodgeblock_to_line(90)
             dodgeblock_to_time(2.5, 180)
             dodgeblock_to_line(180)
             dodgeblock_to_time(2.5, 270)
-            if record_box == 'red' and count == 1: #若為障礙物為紅色，進行迴轉
+            if record_box == 'red' and count == 1: #若為障礙物為紅色而且現在是第二圈，進行迴轉
                 dodgeblock_to_line(270)
                 motor.power(70)
                 red_turn(90, 25, 0.3)
                 motor.power(50)
                 dodgeblock_to_time(1, 90)
-            else: #若為綠色則繼續逆方向行駛
+            else: #若不到第二圈或是障礙物為綠色則繼續同方向行駛
                 dodgeblock_to_line(270)
                 dodgeblock_to_time(2, 0)
     ```
