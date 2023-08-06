@@ -30,8 +30,8 @@
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th >Snippet of Code(片段程式)</th> 
-  <th >Function(定義成函數)</th>
+  <th>Snippet of Code(片段程式)</th> 
+  <th>Function(定義成函數)</th>
 </tr>
 <tr>
   <td><img src="./img/TCS34725_code.png" alt="TCS34725" width=500/ > </td>

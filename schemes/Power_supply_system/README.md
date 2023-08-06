@@ -14,7 +14,7 @@
 
 #### Batteries(電池)
 <div align="center" width=100%>
-<table >
+<table>
 <tr align="center">
   <td> 18650 lithium batteries(18650充電電池) </td> <td>Li-Polymer 3S Battery (鋰聚合物電池 3S)
   </td>
@@ -43,7 +43,7 @@
 <th>5A恆壓恆流降壓電源模組</th>
 </tr>
 <tr align="center">
-  <td>  <img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
+  <td><img src="./img/LM25.jpeg" width = "250" height = "" alt="MG90S" align=center />  </td>
   <td><img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S" align=center /> 
   </td>
 

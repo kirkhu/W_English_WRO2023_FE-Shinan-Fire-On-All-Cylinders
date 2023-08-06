@@ -22,27 +22,27 @@
 </tr>
 <tr align="center">
 
-<td ><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
-<td ><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
-<td ><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
+<td><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
+<td><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
+<td><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
 <tr align="center">
-<td >sensor</td>
-<td >Omnivision OV547</td>
-<td >Sony IMX 219</td>
-<td >Sony IMX 708</td>
+<td>sensor</td>
+<td>Omnivision OV547</td>
+<td>Sony IMX 219</td>
+<td>Sony IMX 708</td>
 </tr>
 <tr align="center">
-<td >sensor resolution</td>
-<td >2592 * 1944 pix</td>
-<td >3280 * 2464 pix</td>
-<td >4608 * 2592 pix</td>
+<td>sensor resolution</td>
+<td>2592 * 1944 pix</td>
+<td>3280 * 2464 pix</td>
+<td>4608 * 2592 pix</td>
 </tr>
 <tr align="center">
-<td >FPS幀率</td>
-<td >30p MAX</td>
-<td >90p MAX</td>
-<td >120p MAX</td>
+<td>FPS幀率</td>
+<td>30p MAX</td>
+<td>90p MAX</td>
+<td>120p MAX</td>
 </tr>
 </table>
 </div>
@@ -56,17 +56,17 @@
 <div align="center">
 <table>
 <tr align="center">
-<th > Without the wide-angle lens(未加廣角鏡)</th> 
-<th >With the wide-angle lens 巳加廣角鏡</th>
+<th> Without the wide-angle lens(未加廣角鏡)</th> 
+<th>With the wide-angle lens 巳加廣角鏡</th>
 </tr>
 <tr align="center">
-<td ><img src="./img/V2.jpeg" width=200 alt="site" ></td>
-<td ><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
+<td><img src="./img/V2.jpeg" width=200 alt="site" ></td>
+<td><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
 </td>
 </tr>
 <tr align="center">
-<td ><img src="./img/72angle.png" width=200 alt="site" ></td>
-<td > <img src="./img/160angle.png" width=200 alt="site" ></td>
+<td><img src="./img/72angle.png" width=200 alt="site" ></td>
+<td> <img src="./img/160angle.png" width=200 alt="site" ></td>
 </tr>
 </table>
 </div>

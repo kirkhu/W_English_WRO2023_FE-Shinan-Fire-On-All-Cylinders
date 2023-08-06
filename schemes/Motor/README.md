@@ -24,8 +24,8 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <th>SG90</th>
 </tr>
 <tr align="center">
-<td ><img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
-<td > <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
+<td><img src="./img/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
+<td> <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
 <td>rotation angle(轉動角度)</td>
@@ -33,9 +33,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td>0~90°/180° MAX</td>
 </tr>
 <tr align="center">
-<td >torque(轉矩)</td>
+<td>torque(轉矩)</td>
 <td>2.0kg/cm</td>
-<td >1.4 kg/cm</td>
+<td>1.4 kg/cm</td>
 </tr>
 <tr align="center">
 <td>speed(轉速)</td>
