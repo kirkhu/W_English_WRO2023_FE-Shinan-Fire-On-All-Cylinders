@@ -3,9 +3,9 @@
 ## <div align="center">Feture Program </div>
 
 - The most distinctive aspect of our program lies in the image recognition segment. Here is the excerpt of the program content  
-([A snippet of code fromvehicle_function.py](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
+
 - 在我們的程式中，最有特色的莫過於是閃避積木的地方，以下是程式內容  
-  ([vehicle_function.py 的片段程式](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge/vehicle_function.py))
+
 
 
 - Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
