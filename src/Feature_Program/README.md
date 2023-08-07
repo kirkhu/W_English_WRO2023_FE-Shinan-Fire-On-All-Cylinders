@@ -32,7 +32,7 @@ __在我們的程式中，將許多重覆使用的程式寫成副程式，以方
             #Executing evasive maneuvers and setting the direction of travel
             #執行閃避動與設定行駛方向
             dodgeblock_control(set)
-            ##Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
+            #Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
             #在迴圈裡放暫停執行0.001秒，是為了控制迴圈的預算速度，避免整個程式的執行時間增加
             time.sleep(0.001)
     ```
