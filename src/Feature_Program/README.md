@@ -1,8 +1,8 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Feture Program </div>
-The most distinctive aspect of our program lies in the image recognition segment. Here is the excerpt of the program content  
-__在我們的程式中，最有特色的莫過於是閃避積木的地方，以下是程式內容__
+__In our program, many repetitive sections of code have been written as subroutines to facilitate debugging and simplify program complexity. And perhaps the most distinctive feature in the program is the avoidance of code blocks resembling building blocks. Here is the excerpt of the program content__
+__在我們的程式中，將許多重覆使用的程式寫成副程式，以方便除錯及簡化程式複雜性，而在程式中最有特色的莫過於是閃避積木的地方，以下是程式內容__
 - ### Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
   - This segment of the code will continuously detect if a line is detected. If detected, it will exit and perform a turn.
   - 這段程式會一直偵測是否測到線，如果測到就會跳出進行轉彎
