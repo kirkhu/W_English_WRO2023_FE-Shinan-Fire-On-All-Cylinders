@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-## <div align="center">Feture Program </div>
+## <div align="center">Distinctive Pseudo code(特色的偽程式)</div>
 __In our program, many repetitive sections of code have been written as subroutines to facilitate debugging and simplify program complexity. And perhaps the most distinctive feature in the program is the avoidance of code blocks resembling building blocks. Here is the excerpt of the program content__
 __在我們的程式中，將許多重覆使用的程式寫成副程式，以方便除錯及簡化程式複雜性，而在程式中最有特色的莫過於是閃避積木的地方，以下是程式內容__
 - ### Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
@@ -32,7 +32,7 @@ __在我們的程式中，將許多重覆使用的程式寫成副程式，以方
             #Executing evasive maneuvers and setting the direction of travel
             #執行閃避動與設定行駛方向
             dodgeblock_control(set)
-            ##Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
+            #Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
             #在迴圈裡放暫停執行0.001秒，是為了控制迴圈的預算速度，避免整個程式的執行時間增加
             time.sleep(0.001)
     ```
