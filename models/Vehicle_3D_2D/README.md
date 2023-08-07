@@ -1,4 +1,4 @@
-![LOGO](../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Vehicle 3D/2D Models(3D 建模模型、2D雷切圖)</div>
 
