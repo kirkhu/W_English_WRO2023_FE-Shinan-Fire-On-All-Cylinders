@@ -8,10 +8,13 @@ __在我們的程式中，將許多重覆使用的程式寫成副程式，以方
   - 這段程式會一直偵測是否測到線，如果測到就會跳出進行轉彎
     ```
     def dodgeblock_to_line(set):
+        #Detecting whether the field line has been detected
         #判斷是否有偵測到場地線
         while color > line_middle:
+            #Executing evasive maneuvers and setting the driving direction
             #執行閃避動與設定行駛方向
             dodgeblock_control(set)
+            #Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
             #在迴圈裡放暫停執行0.001秒，是為了控制迴圈的預算速度，避免整個程式的執行時間增加。
             time.sleep(0.001)
     ```   
@@ -20,22 +23,28 @@ __在我們的程式中，將許多重覆使用的程式寫成副程式，以方
   - 由於鏡頭辨識不到在側邊的障礙物，因此直接轉回道路中央會撞到障礙物，因此需要持續前進一段時間直到完全閃過障礙物
     ```
     def dodgeblock_to_time(set_time, set):
+        #Start recording the stopwatch
         #開始記錄碼表
         set_reset = time.time()
+        #Subtract the current time from the recorded stopwatch time to determine if it exceeds the set time
         #將當下的時間減去紀錄的碼表，判斷是否超過設定時間
         while time.time() - set_reset < set_time:
+            #Executing evasive maneuvers and setting the direction of travel
             #執行閃避動與設定行駛方向
             dodgeblock_control(set)
-            #在迴圈裡放暫停執行0.001秒，是為了控制迴圈的預算速度，避免整個程式的執行時間增加。
+            ##Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
+            #在迴圈裡放暫停執行0.001秒，是為了控制迴圈的預算速度，避免整個程式的執行時間增加
             time.sleep(0.001)
     ```
 - ### Detect if a turnaround is required and execute it(偵測是否需要進行迴轉並執行)
   - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
   - 在任務賽的第二圈，如果最後一個障礙物的顏色是紅色，則第三圈需要反向行駛；如果是綠色，則車輛繼續保持原方向行駛。
     ```
+    #Determine whether the following program has been executed twice
     #判斷下列程式是否執行完畢2次
     for count in range(2):
-        #判斷是否為你時針行駛
+        #Determine if it's counterclockwise travel
+        #判斷是否為逆時針行駛
         # Counterclockwise direction 逆時針行駛
         if reverse == True: 
             if count == 1: 
