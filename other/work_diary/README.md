@@ -85,7 +85,7 @@ At the beginning, since we were unsure of how to start building and making the v
 
 <td><img src="./img/4/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
 <td><img src="./img/4/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
-<td><img src="./img/4/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
+<td><img src="./img/4/JGA25-371_1_34.JPG" width = "100" alt="JGA25-371M" /></td>
 <td ><img src="./img/5/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
 </tr>
 <tr align="center">
@@ -347,8 +347,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th>USB 垂直 90°</th>
 </tr>
 <tr align="center">
-  <td align="center"><img src="./img/5/180.jpg" alt="USB180" width=500/></td> 
-  <td align="center"><img src="./img/5/90.jpg" alt="USB90" width=500/></td>
+  <td align="center"><img src="./img/5/180.jpg" alt="USB180" width=400/></td> 
+  <td align="center"><img src="./img/5/90.jpg" alt="USB90" width=400/></td>
 </tr>
 </table>
 </div>
@@ -360,8 +360,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
   <th >Event Photo(活動照片)</th> 
 </tr>
 <tr>
-  <td align="center"><img src="./img/4/site.jpg" width=200 alt="site" /</td> 
-  <td align="center"><img src="./img/4/work_photo_2_1_0417.jpg" width=200 alt="work_photo_2_1_0417" /></td>
+  <td align="center"><img src="./img/4/site.jpg" width=300 alt="site" /</td> 
+  <td align="center"><img src="./img/4/work_photo_2_1_0417.jpg" width=300 alt="work_photo_2_1_0417" /></td>
 </tr>
 </table>
 </div>
@@ -487,8 +487,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center">
 <table>
 <tr  align="center">
-<th> <img src="./img/6/anit_daze.png" alt="插座" width="400"></th> 
-<th><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="400"></th>
+<th> <img src="./img/6/anit_daze.png" alt="插座" width="350"></th> 
+<th><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="350"></th>
 </tr>
 </table>
 </div>
