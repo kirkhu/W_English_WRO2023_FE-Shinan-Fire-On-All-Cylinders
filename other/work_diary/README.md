@@ -732,7 +732,7 @@ if get_mid_dis > 55:
  __Open Challenge 任務賽影片__
   - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
-  - [Obstacle Challenge 介紹](https://youtu.be/FFD9T96JWs0)
+  - [Obstacle Challenge 介紹](https://youtu.be/iKw35OQVYJM)
 
 __Team Members' Practice Status(隊員練習狀況)__
 
