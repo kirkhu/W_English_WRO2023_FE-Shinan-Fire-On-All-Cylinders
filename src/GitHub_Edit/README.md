@@ -29,7 +29,7 @@ This method requires you to install specific software, such as Visual Studio Cod
 
 - ### 線上網頁編輯
 
-<div align="center"><img src="./img/github_web_edit.png" alt="github_web_edit.png"  width=400/><img src="./img/github_web_edit1.png" alt="github_web_edit.png"  width=400/></div>
+<div align="center"><img src="./img/github_web_edit.png" alt="github_web_edit.png"  width=300/><img src="./img/github_web_edit1.png" alt="github_web_edit.png"  width=400/></div>
 
 - ### VCode & Git
 <div align="center">
