@@ -15,7 +15,7 @@
         不可將積木撞出圓圈外  
         另外，在第二圈的最後一個積木若為紅色，則第三圈需要反向行駛，若為綠色，則方向不變
 
-[![2023WRO Future-Engineers_Obstacle Challenge](  )](https://youtu.be/CwvGDfQJ8cQ "2023WRO Future-Engineers_Obstacle Challenge")
+[![video_photo](https://res.cloudinary.com/marcomontalbano/image/upload/v1691751963/video_to_markdown/images/youtube--K2OzIBvp2S8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/K2OzIBvp2S8 "video_photo")
 
 ### <div align="center">Obstacle Challenge of Demonstration Video(車駕車任務賽完成影片)</div>
  - ### Obstacle Challenge of Demonstration Video with Different Power Levels(不同速度之任務賽完成影片)
