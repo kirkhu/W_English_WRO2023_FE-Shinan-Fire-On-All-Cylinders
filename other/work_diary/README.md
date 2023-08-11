@@ -191,14 +191,14 @@ At the beginning, since we were unsure of how to start building and making the v
 <td>0~90°/180° MAX</td>
 </tr>
 <tr align="center">
-<td >torque(轉矩)</td>
-<td  >2.0kg/cm</td>
-<td  ">1.4 kg/cm</td>
+<td>torque(轉矩)</td>
+<td>2.0kg/cm</td>
+<td>1.4 kg/cm</td>
 </tr>
 <tr align="center">
-<td  >speed(轉速)</td>
-<td >0.11s</td>
-<td  >0.1S</td>
+<td>speed(轉速)</td>
+<td>0.11s</td>
+<td>0.1S</td>
 </tr>
 </table>
 </div>
