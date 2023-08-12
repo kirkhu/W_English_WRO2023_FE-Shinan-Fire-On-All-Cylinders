@@ -16,8 +16,8 @@
 <div align="center" width=100%>
 <table>
 <tr align="center">
-  <td> 18650 lithium batteries(18650充電電池) </td> <td>Li-Polymer 3S Battery (鋰聚合物電池 3S)
-  </td>
+  <th> 18650 lithium batteries(18650充電電池) </th> <th>Li-Polymer 3S Battery (鋰聚合物電池 3S)
+  </th>
 </tr>
 <tr align="center">
   <td>
