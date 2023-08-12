@@ -17,7 +17,7 @@
 
 <div align="center">
   
-[![This is our Obstacle Challenge video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691815613/video_to_markdown/images/youtube--1IKYJCPlOAU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/1IKYJCPlOAU "This is our Obstacle Challenge video")
+[![This is our Obstacle Challenge video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691832373/video_to_markdown/images/youtube--m4YQ2ngFHjg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/m4YQ2ngFHjg "This is our Obstacle Challenge video")
 </div>
 
 
