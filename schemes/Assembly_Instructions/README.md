@@ -58,13 +58,13 @@ __Usage:__
 </table>
 
 #### 中文
-規格:  
+__規格:__  
 - 使用由Broadcom Corporation生產的精簡指令集計算機(Reduced Instruction Set Computer)中的 ARM(Advanced RISC Machine) 處理器
 - 其總記憶體容量為1、2、4或8 GB
 - 它的TransFlash卡作為系統的主要儲存媒體
 - 配備USB介面設備和高清晰度多媒體接口的輸出，可以適應多種操作系統  
 
-用途:  
+__用途:__  
 - 從鏡頭收集照片並進行影像辨識，控制車輛移動，最後還用於編寫程式 
 
 ### JGA25-370 DC reduction motor (JGA25-370 直流減速馬達) 
@@ -166,7 +166,7 @@ __Specifications:__
 - Net Weight: Approximately 107g  
 - Rated Voltage: 11.1V  
 
-Usage:  
+__Usage:__  
 - Supplying power to Raspberry Pi and other electronic components.  
  </td>
     <td>
@@ -235,11 +235,11 @@ __Usage:__
 </table>
 
 #### 中文
-規格:  
+__規格:__  
 - 輸入電壓：4.0V - 38.0V
 - 輸出電壓：1.25V - 36.0V
 - 工作頻率：180Hz
-用途:  
+__用途:__  
 - 穩定鋰電池提供的電力  
   
 
