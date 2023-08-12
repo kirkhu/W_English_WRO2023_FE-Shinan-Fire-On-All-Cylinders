@@ -732,7 +732,6 @@ if get_mid_dis > 55:
  __Open Challenge 任務賽影片__
   - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
-  - [Obstacle Challenge 介紹 ](https://youtu.be/1IKYJCPlOAU)
 
 __Team Members' Practice Status(隊員練習狀況)__
 
@@ -757,6 +756,14 @@ __Team Members' Practice Status(隊員練習狀況)__
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+This week, as our machine has been adjusted to run the mission race smoothly on the field, we have started shooting an introductory video for the mission race. In the video, we will showcase the actions our vehicle performs during the mission race, and we will provide explanations through subtitles synchronized with the video.
+
+這星期由於我們的機器已經將數值調整到可以正常在場地上運行任務賽，因此我們開始拍攝任務賽的介紹影片，在影片中我們會介紹我們的車輛在運行任務賽時所執行的動作，並將說明以字幕對照影片的方式呈現
+
+<div align="center">
+
+[![This is our Obstacle Challenge video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691832373/video_to_markdown/images/youtube--m4YQ2ngFHjg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/m4YQ2ngFHjg "This is our Obstacle Challenge video")
+</div>
 
 ## 2023/08/14 ~ 2023/08/20
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
