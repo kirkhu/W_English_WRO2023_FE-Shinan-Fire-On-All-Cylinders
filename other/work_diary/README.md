@@ -761,6 +761,15 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 這星期由於我們的機器已經將數值調整到可以正常在場地上運行任務賽，因此我們開始拍攝任務賽的介紹影片，在影片中我們會介紹我們的車輛在運行任務賽時所執行的動作，並將說明以字幕對照影片的方式呈現
 
 <div align="center">
+<table>
+<tr align="center">
+<th>正在剪輯影片</th>
+</tr><tr align="center">
+<td><img src="./img/8/813.jpg" width="500" alt="work_daily"></td>
+</tr><tr align="center">
+<th>任務賽介紹影片</th>
+</tr>
+</table>
 
 [![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")
 </div>
