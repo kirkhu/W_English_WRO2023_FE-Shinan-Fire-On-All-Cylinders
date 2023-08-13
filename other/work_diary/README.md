@@ -763,15 +763,21 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 <div align="center">
 <table>
 <tr align="center">
+<th>修改程式及測試車輛</th>
 <th>正在剪輯影片</th>
 </tr><tr align="center">
-<td><img src="./img/8/813.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_1_0813.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/8/813.jpg" width="300" alt="work_daily"></td>
 </tr><tr align="center">
-<th>任務賽介紹影片</th>
-</tr>
 </table>
 
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")
+<table>
+<th>任務賽介紹影片</th>
+</tr>
+<td>
+
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")</td>
+</table>
 </div>
 
 ## 2023/08/14 ~ 2023/08/20
