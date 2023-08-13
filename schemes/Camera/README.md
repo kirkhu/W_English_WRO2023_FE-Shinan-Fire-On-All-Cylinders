@@ -57,7 +57,7 @@
 <table>
 <tr align="center">
 <th> Without the wide-angle lens(未加廣角鏡)</th> 
-<th>With the wide-angle lens 巳加廣角鏡</th>
+<th>With the wide-angle lens(已加廣角鏡)</th>
 </tr>
 <tr align="center">
 <td><img src="./img/V2.jpeg" width=200 alt="site" ></td>
