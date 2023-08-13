@@ -286,8 +286,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th >ydlidar x4 距離呈像</th> 
-  <th >ydlidar x2 距離呈像</th>
+  <th colspan="2">ydlidar x4、X2 距離呈像</th> 
   <th >lidar 100 距離呈像</th>
 </tr>
 <tr align="center">
