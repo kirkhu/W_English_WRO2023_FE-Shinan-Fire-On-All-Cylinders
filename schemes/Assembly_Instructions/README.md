@@ -77,6 +77,7 @@ __Specifications:__
 - No-load Speed: 640 rpm/m  
 - Reduction Ratio: 1:34  
 - Operating Voltage: 6 - 12V  
+
 __Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
  </td>
@@ -239,6 +240,7 @@ __規格:__
 - 輸入電壓：4.0V - 38.0V
 - 輸出電壓：1.25V - 36.0V
 - 工作頻率：180Hz
+
 __用途:__  
 - 穩定鋰電池提供的電力  
   
