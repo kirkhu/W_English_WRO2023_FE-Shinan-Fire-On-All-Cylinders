@@ -24,7 +24,7 @@
 ### Onshape的介紹
 - 使用 Onshape 來設計自駕車的 3D 模型，而 Onshape 是免費且容易操作的網頁型態設計軟體。
 - 藉由 OnShope 建立模型後，可輸出2D平面尺寸圖，再交由雷切機進行切割。
-- 本競賽活動所建立的3D/2D模型均由OnShope設計而成。
+- 本競賽活動所建立的3D/2D模型均由OnShape設計而成。
 - Software link：[On Shape](https://www.onshape.com/en/)
   
 |<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">|
