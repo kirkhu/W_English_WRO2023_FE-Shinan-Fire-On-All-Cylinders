@@ -68,7 +68,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <tr align="center">
 <td ><img src="./img/JGA25-370_1360RPM.JPG" width = "150" alt="JGA25-370_1360RPM" /></td>
 <td ><img src="./img/JGA25-370_620RPM.JPG" width = "150" alt="JGA25-370_620RPM" /></td>
-<td ><img src="./img/JGA25-371_1_34.JPG" width = "150" alt="JGA25-371M" /></td>
+<td ><img src="./img/JGA25-371_1_34.JPG" width = "100" alt="JGA25-371M" /></td>
 <td ><img src="./img/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
 </tr>
 <tr align="center">
