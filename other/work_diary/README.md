@@ -762,7 +762,7 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 
 <div align="center">
 
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691886093/video_to_markdown/images/youtube--IPEtV0J8s28-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/IPEtV0J8s28 "video")
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")
 </div>
 
 ## 2023/08/14 ~ 2023/08/20
