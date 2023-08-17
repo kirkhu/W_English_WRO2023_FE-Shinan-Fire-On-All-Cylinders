@@ -809,7 +809,7 @@ We believe that this approach will help us prepare our robot for a wide range of
 <th>紀錄表</th> 
 </tr>
 <tr align="center">
-<td><img src="./img/8/block.png" width="500" alt="work_daily"></td>
+<td><img src="./img/8/block.png" width="400" alt="work_daily"></td>
 <td><img src="./img/8/grade.png" width="500" alt="work_daily"></td>
 </table>
 </div>
