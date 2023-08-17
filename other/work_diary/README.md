@@ -783,14 +783,13 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-As the competition is approaching this week, we have intensified our practice efforts by attempting various tasks and adjusting our program to accommodate most scenarios. Trying out different tasks has the advantage of helping us identify the challenges our robot might face and allowing us to make necessary adjustments in advance. Here is an update on our practice progress:
+As the competition is scheduled for this week, we have intensified our practice efforts, trying out various scenarios and adjusting our program to adapt to a wide range of situations. Experimenting with different scenarios has the advantage of helping us anticipate challenges that our machine might face and making necessary adjustments in advance. Here's our practice approach:
 
-- We have labeled the lanes as A, B, C, and D. Each lane is divided into three sections, and within each section, there are points for placing blocks both on the inner and outer sides. The red blocks indicating turning conditions will be placed sequentially, while the positions of other blocks will be randomized.
-- he record sheet will include the following information:
+- We have assigned lane labels A, B, C, and D. Each lane is divided into three sections, with placement points for blocks both on the inner and outer sides in each section. Red blocks indicating turning conditions will be placed sequentially, while the positions of other blocks will be randomized.
+- The record sheet will include the following information:
   1. Completion time
-  2. Number of successful attempts/failures  
-
-We believe that this approach will help us prepare our robot for a wide range of scenarios and ensure our readiness for the competition.  
+  2. Number of successful attempts/number of failed attempts
+We believe that this approach will assist our machine in preparing for a variety of scenarios, ensuring that we are well-prepared for the competition. 
 
 
 由於比賽即將在本週舉行，我們已經開始加強練習，嘗試不同的題目並調整程式，以適應大多數的情況。嘗試不同的題目有一個好處，就是可以幫助我們找出機器可能遇到的挑戰，並提前進行必要的調整。以下是我們的練習方式：
