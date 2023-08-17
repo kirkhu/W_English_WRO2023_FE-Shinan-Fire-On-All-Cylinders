@@ -785,7 +785,7 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 
 As the competition is approaching this week, we have intensified our practice efforts by attempting various tasks and adjusting our program to accommodate most scenarios. Trying out different tasks has the advantage of helping us identify the challenges our robot might face and allowing us to make necessary adjustments in advance. Here is an update on our practice progress:
 
-- We have designated the lanes as A, B, C, and D. Each lane is divided into three zones, each with two placement spots for blocks. The red blocks indicating turning conditions are placed in order, and other blocks are adjusted randomly.
+- We have labeled the lanes as A, B, C, and D. Each lane is divided into three sections, and within each section, there are points for placing blocks both on the inner and outer sides. The red blocks indicating turning conditions will be placed sequentially, while the positions of other blocks will be randomized.
 - he record sheet will include the following information:
   1. Completion time
   2. Number of successful attempts/failures  
@@ -795,7 +795,7 @@ We believe that this approach will help us prepare our robot for a wide range of
 
 由於比賽即將在本週舉行，我們已經開始加強練習，嘗試不同的題目並調整程式，以適應大多數的情況。嘗試不同的題目有一個好處，就是可以幫助我們找出機器可能遇到的挑戰，並提前進行必要的調整。以下是我們的練習情況更新：
 
-- 我們將走道編號為A、B、C、D。每個走道分為三個區域，每個區域都有兩個放置方塊的點。指示轉彎條件的紅色方塊會按順序放置，其他方塊則會隨機調整。
+- 我們將走道編號為A、B、C、D。每個走道分為三個區域，每個區域都有內外兩個放置方塊的點。指示轉彎條件的紅色方塊會按順序放置，其他方塊則會隨機調整。
 - 紀錄表將包括以下信息：
   1. 完成時間
   2. 成功嘗試次數/失敗次數  
