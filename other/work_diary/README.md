@@ -783,6 +783,36 @@ This week, as our machine has been adjusted to run the mission race smoothly on 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+As the competition is approaching this week, we have intensified our practice efforts by attempting various tasks and adjusting our program to accommodate most scenarios. Trying out different tasks has the advantage of helping us identify the challenges our robot might face and allowing us to make necessary adjustments in advance. Here is an update on our practice progress:
+
+- We have designated the lanes as A, B, C, and D. Each lane is divided into three zones, each with two placement spots for blocks. The red blocks indicating turning conditions are placed in order, and other blocks are adjusted randomly.
+- he record sheet will include the following information:
+  1. Completion time
+  2. Number of successful attempts/failures  
+
+We believe that this approach will help us prepare our robot for a wide range of scenarios and ensure our readiness for the competition.  
+
+
+由於比賽即將在本週舉行，我們已經開始加強練習，嘗試不同的題目並調整程式，以適應大多數的情況。嘗試不同的題目有一個好處，就是可以幫助我們找出機器可能遇到的挑戰，並提前進行必要的調整。以下是我們的練習情況更新：
+
+- 我們將走道編號為A、B、C、D。每個走道分為三個區域，每個區域都有兩個放置方塊的點。指示轉彎條件的紅色方塊會按順序放置，其他方塊則會隨機調整。
+- 紀錄表將包括以下信息：
+  1. 完成時間
+  2. 成功嘗試次數/失敗次數  
+
+我們相信，這種做法將幫助我們的機器準備應對各種不同的情況，確保我們在比賽中做好充分的準備。
+
+<div align="center">
+<table>
+<tr align="center">
+<th>場地配置</th>
+<th>紀錄表</th> 
+</tr>
+<tr align="center">
+<td><img src="./img/8/block.png" width="500" alt="work_daily"></td>
+<td><img src="./img/8/grade.png" width="500" alt="work_daily"></td>
+</table>
+</div>
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
