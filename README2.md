@@ -24,5 +24,3 @@
 [隊名:EVRIPOS_ROBOTICS](https://github.com/EvriposRobotics/WRO2023-Future_Engineers_EVRIPOS_ROBOTICS/tree/main)
 
 [隊名:Bennet's Brigade](https://github.com/ffernandez14/Bennet-s-Brigade/tree/main)
-
-[]()
