@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-## <div align="center">Open Challenge of Demonstration Video(車駕車資格賽完成影片)</div> 
+## <div align="center">Open Challenge of Demonstration Video</div> 
 - ### Full width
     "Full-width" is the fundamental scenario, and all testing and adjustments are carried out under this condition.
 
