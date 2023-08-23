@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Part List 零件清單說明</div> 
+# <div align="center">Part List </div> 
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
