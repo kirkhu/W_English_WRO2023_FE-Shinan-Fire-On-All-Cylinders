@@ -2,53 +2,18 @@
 ====
 # <div align="center">Image_Processing_and_Predictions</div> 
 
-## Image Predictions 圖像預測
-所有圖像過濾可以在[vehicle_function.py](../Programming/Obstacle_Challenge/vehicle_function.py)中找到。
+## Image Predictions 
 
-All image filtering functions can be found in the [vehicle_function.py](../Programming/Obstacle_Challenge/vehicle_function.py) file.
 
-### Image processing 圖像處理  
-#### 英文  
-- When processing images, it is necessary to convert them to different color spaces for more efficient handling of specific tasks.  
-- We use the cv2.cvtColor function to convert the original RGB image to the HSV (Hue, Saturation, Value) color space.  
-- After the image is converted, we use the cv2.inRange function, where we set six HSV values: redMax, redMin, greenMin, greenMax, blueMin, and blueMax, to define the color ranges. The cv2.inRange function compares each pixel value in the HSV image with the specified HSV ranges. If the pixel value falls within this range, it will be retained; otherwise, it will be filtered out. This process allows us to obtain a filtered image.  
-  
-#### 中文
-- 處理圖像時，需要將其轉換到不同的色彩空間，以便更有效地進行特定任務。  
-- 我們使用cv2.cvtColor函數將原始的RGB圖像轉換為HSV（色調、飽和度、明度）色彩空間。  
-- 轉換圖像後使用cv2.inRange函數，我們會設定六個HSV值，即redMax、redMin、greenMin、greenMax，設定顏色範圍。cv2.inRange函數比較HSV圖像中的每個像素值與指定的HSV範圍，如果像素值在這個範圍內，則將保留這個像素，否則將其過濾掉。這樣我們就可以得到一個經過過濾的圖像。  
+
 <div align="center">
 
-|Adjusting the HSV range values for red color<br>(調整紅色HSV數值範圍)|Adjusting the HSV range values for green color<br>(調整綠色HSV數值範圍)|
-|:----:|:----:|
-|<img src="./img/red_HSV_value_range.png" width = "350" height = "" alt="red_HSV_value_range" align=center />|<img src="./img/green_HSV_value_range.png" width = "350" height = "" alt="green_HSV_value_range" align=center />|
 
-|Obstacle detection in images(影像辨識障礙物)|
+
+|Obstacle detection in images|
 |:----:|
 |<img src="./img/Obstacle_detection.png" alt="Obstacle_detection" align=center />|
 </div>
 
-### Traffic sign avoidance 交通標誌閃避  
-#### 英文
-- Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate.  
-- Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
-
-#### 中文
-- 使用過濾後的紅色綠色圖像，獲得圖像在畫面中的X、Y座標與面積。  
-- 接著，我們透過將較近交通標誌的X座標減去我們所欲閃避的目標X座標，計算出誤差值。最後，我們將這個誤差值設定為伺服馬達轉向的角度，完成繞過交通標誌的閃避動作。
-
-###  Using LIDAR to center on the road 使用光達道路置中
-#### 英文
-- Using LIDAR to measure the distances between the object's right and left sides and the walls, we can calculate the error values for both sides.  
-- By multiplying these error values with coefficients, we can obtain the angle to center the servo motor on the road.  
-#### 中文
-- 使用光達測量物體右邊和左邊與牆的距離，我們可以計算出兩側的誤差值。  
-- 透過將這些誤差值與係數相乘，我們可以獲得使伺服馬達在道路上置中的角度。  
-<div align="center">
-  
-|LIDAR detects surrounding walls(光達偵測周圍牆壁)|LIDAR readings(光達讀取的數值)|
-|:---:|:---:|
-|<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
-</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
