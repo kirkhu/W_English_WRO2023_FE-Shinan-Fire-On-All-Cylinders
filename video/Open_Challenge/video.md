@@ -1,4 +1,4 @@
-![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Fire On All Cylinders  
 =====
 ## <div align="center">Open Challenge of Demonstration Video</div> 
 - ### Full width
@@ -16,4 +16,4 @@
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
-> from kirk@snjh.tc.edu.tw
+
