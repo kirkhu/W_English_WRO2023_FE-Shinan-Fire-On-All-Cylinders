@@ -10,7 +10,7 @@
 
 
 - ### Funny Photo
-- This photo was taken while we were attempting to lift our classmates LIN JHONG-BIN. In fact, it was a bit difficult to lift them, and we almost dropped them.
+- This photo was taken while we were attempting to lift our classmates. In fact, it was a bit difficult to lift them, and we almost dropped them.
   
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" alt="趣味照" /> </div>  
 
