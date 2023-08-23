@@ -8,7 +8,6 @@ __Located Below is the content of the technical report, and a link to the build 
 ## Content
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
-    - [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
     - [Introduction to Motor](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     
   #### 2. Power and Sense Management
@@ -27,7 +26,6 @@ __Located Below is the content of the technical report, and a link to the build 
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
-    - [Software Platform Construction](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
     - [Introduction to OpenCV](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
     - __Programming__
       - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
