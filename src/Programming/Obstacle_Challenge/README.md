@@ -1,4 +1,4 @@
-![LOGO](../../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Fire On All Cylinders  
 ====
 ## <div align="center">Obstacle Challenge Code overview(任務賽程式概述)</div>
 - In the competition, the control of the vehicle's movement encompasses a series of actions, including image recognition, color identification, distance detection, motor rotation, and vehicle steering, among other intricate maneuvers. All of these precise and versatile controls are implemented using the __Python__ programming language.
