@@ -2,10 +2,10 @@
 ====
 ## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
 
-- ### Circuit Board (電路板)
+- ### Circuit Board
 
 
-- ### Circuit schematic drawing(電路圖繪製)
+- ### Circuit schematic drawing
 
 
 
