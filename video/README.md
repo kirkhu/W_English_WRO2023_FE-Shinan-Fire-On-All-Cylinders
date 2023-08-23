@@ -5,4 +5,4 @@
 ## (video.md)  
   
 
-> 此目錄必須包含 video.md 文件，其中包含顯示車輛自動駕駛的 YouTube URL（應該是公共的或可通過鏈接訪問）。視頻中存在駕駛演示的部分長度必須至少為 30 秒。
+> This directory must contain the video.md file with a URL to YouTube (should be either public or accessible by link) showing the vehicle driving autonomously. That part of the video where driving demonstration exists must be at least 30 seconds in length.
