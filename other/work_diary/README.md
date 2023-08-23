@@ -1,6 +1,6 @@
 ![LOGO](../img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Work Diary (工作日誌)</div> 
+# <div align="center">Work Diary </div> 
 
 ## 2023/03/19 ~ 2023/03/26  
 **member:** ZHAO,ZHEN-BO  
