@@ -1,7 +1,7 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 =====
 
- - ### Explanation to Obstacle Challenge(任務賽講解) 
+ - ### Explanation to Obstacle Challenge
 
     - The mission race is based on the qualification race with the addition of the obstacle avoidance task. The mission requirements are as follows:  
         - If the obstacle ahead is a red block, the robot needs to pass it on the left side.  
@@ -17,17 +17,8 @@
 
 <div align="center">
   
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")
-</div>
 
-
-### <div align="center">Obstacle Challenge of Demonstration Video(車駕車任務賽完成影片)</div>
- - ### Obstacle Challenge of Demonstration Video with Different Power Levels(不同速度之任務賽完成影片)
-|power 50   |power 70  |
-|:---:|:---:|
-|[![Obstacle Challenge 50  Fire-On-All-Cylinders](./img/Obstacle_Challenge_50.jpg)](https://youtu.be/Jo7555gfXG8 "Obstacle Challenge 50  Fire-On-All-Cylinders")|[![Obstacle Challenge 70  Fire-On-All-Cylinders](./img/Obstacle_Challenge_70.jpg)](https://youtu.be/iCmcXbACizY "Obstacle Challenge 70  Fire-On-All-Cylinders")|
-
-
+### <div align="center">Obstacle Challenge of Demonstration Video
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
