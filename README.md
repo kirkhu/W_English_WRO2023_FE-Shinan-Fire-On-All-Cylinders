@@ -27,26 +27,21 @@ __下方是技術報告的內容，以及建置說明的連結。__
    
     - __Sense Management(感測器管理)__
       - [Color sensor(顏色感應器應用及介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
-      - [Introduction to Lidar(光達介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
       - [Camera(攝影鏡頭的選擇)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview (軟體部份)}} $ 
   #### 3. Obstacle Management(障礙物管理)
     - [Software Platform Construction(自駕車輛系統軟體平台建置)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/System_Platform%20_Software/README.md)
     - [Introduction to OpenCV(OpenCV影像軟體介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
-    - [Introduction to ROS(ROS系統介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/other/ROS/README.md)  
-    - __Image Processing and Predictions(影像處理)__
-      - [Image Processing (圖像預測)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Image_Processing_and_Predictions/README.md)  
+    - __Image Processing and Predictions(影像處理)__ 
       - [Steering overview (轉向概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Steering_overview/README.md)  
     - __Programming(自駕車輛程式設計)__
       - [Open Challenge Code overview(資格賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview(任務賽程式概述)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
-      - [Distinctive Pseudo code(特色的偽程式)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Feature_Program/README.md)
    
 - ### ${{\color{red} Other(其他)}} $
   #### 4. Pictures – Team and vehicle(圖片-團隊和車輛)
     - [Team Members of Introduction(團隊成員介紹)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
-    - [Vehicle's Photos(自駕車輛各視角圖)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/v-photos/README.md)  
 
   #### 5. Performance videos(車輛各任務完成影片)
     - [Open Challenge(資格賽影片)](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/video/Open_Challenge/video.md)
