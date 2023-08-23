@@ -1,4 +1,4 @@
-![LOGO](../../other/img/logo.png) 2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Li-Polymer battery Safety Notice</div> 
 - ### Li-Polymer Battery: Hazards, Maintenance, and Composition
