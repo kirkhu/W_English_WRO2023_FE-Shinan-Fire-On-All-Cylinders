@@ -1,6 +1,6 @@
 2023WRO Future Engineers Fire On All Cylinders  
 ====
-## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
+## <div align="center">Circuit schematic drawing </div>
 
 - ### Circuit Board
 
