@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 ## <div align="center"> Team Members of Introduction</div>
 - ### Team Photo  
