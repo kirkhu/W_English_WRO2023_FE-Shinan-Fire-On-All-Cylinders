@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 # <div align="center">Work Diary </div> 
 
@@ -41,3 +41,5 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <td><img src="./img/8/grade.png" width="500" alt="work_daily"></td>
 </table>
 </div>
+
+# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
