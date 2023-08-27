@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle.
