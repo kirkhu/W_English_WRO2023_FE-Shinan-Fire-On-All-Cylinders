@@ -40,5 +40,16 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <td><img src="./img/8/grade.png" width="500" alt="work_daily"></td>
 </table>
 </div>
+<div align="center">
+<table>
+<tr align="center">
+<th>competition photos</th>
+<th>award-winning photo</th> 
+</tr>
+<tr align="center">
+<td><img src="./img/0819_1.jpg" width="600" alt="contest"></td>
+<td><img src="./img/0819_2.jpg" width="600" alt="award-winning photo"></td>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
