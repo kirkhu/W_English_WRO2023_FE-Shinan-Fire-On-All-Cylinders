@@ -1,4 +1,4 @@
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Power_supply_system</div> 
 - Due to the continuous movement of the vehicle, the power source needs to be changed to a battery.
