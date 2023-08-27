@@ -46,4 +46,4 @@ __Located Below is the content of the technical report, and a link to the build 
     - [Work Diary](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
 
 - ### ${{\color{red} CompetitionSchedule }} $  
-# <div align="center">![Gantt chart](./other/img/img.jpg)</div> 
+# <div align="center">![Gantt chart](./other/img/gantt.jpg)</div> 
