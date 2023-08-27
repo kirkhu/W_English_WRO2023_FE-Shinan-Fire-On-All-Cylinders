@@ -3,7 +3,6 @@
 # <div align="center">Work Diary </div> 
 
 
-# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
 ## 2023/08/14 ~ 2023/08/20
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
