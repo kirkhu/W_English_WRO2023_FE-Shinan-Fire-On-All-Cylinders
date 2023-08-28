@@ -1,7 +1,7 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 # <div align="center">Part List </div> 
-Raspberry Pi 4B  
+Jeston Nano  
 DC reduction motor  
 servo motor  
 Button  

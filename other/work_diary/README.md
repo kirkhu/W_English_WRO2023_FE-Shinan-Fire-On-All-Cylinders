@@ -31,7 +31,7 @@
   - [Open Challenge All Width speed 70%](https://youtu.be/MA1k2P87LdE)
   - [Open Challenge All Width speed 50%](https://youtu.be/OUg0x4Qdc0c)  
 
- __Open Challenge__
+ __Obstacle Challenge__
   - [Obstacle Challenge speed 50% ](https://youtu.be/Jo7555gfXG8)
   - [Obstacle Challenge speed70% ](https://youtu.be/iCmcXbACizY)
 
