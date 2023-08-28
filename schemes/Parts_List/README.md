@@ -1,10 +1,10 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 # <div align="center">Part List </div> 
-Jeston Nano  
-DC reduction motor  
-servo motor  
-Button  
+[NVIDIA Jeston Nano](https://developer.nvidia.com/embedded/jetson-nano-developer-kit)  
+[JGA25-370 620RPM DC reduction motor](https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html)  
+[Mg90S servo motor](https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM)  
+[Button B3F-4055](https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41)  
 lipo battery low voltage alarm  
 switch AC 725W   
 white socket 3p  
