@@ -40,10 +40,10 @@ __Team Members' Practice Status__
 <div align="center">
 <table>
 <tr align="center">
-<th>report writing</th> 
-<th>mechanism adjustment</th>
-<th>report writing</th>
-<th>field mission practice</th>
+<th>Report writing</th> 
+<th>Mechanism adjustment</th>
+<th>Report writing</th>
+<th>Field mission practice</th>
 </tr>
 <tr align="center">
 <td><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></td>
