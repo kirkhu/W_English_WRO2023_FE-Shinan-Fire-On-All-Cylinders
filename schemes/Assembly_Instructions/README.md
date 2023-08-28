@@ -236,7 +236,7 @@ __Usage:__
 </table>
 
 
-### SNOY IMX 219 Lens module
+### Omnivision OV547 Camera Module
 <table border=0 width="100%" >
   <tr>
     <td> 
@@ -249,7 +249,7 @@ __Usage:__
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="./img/raspi_camera_V2.png" width = "200" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
+<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
     </td>
   </tr>
 </table>
