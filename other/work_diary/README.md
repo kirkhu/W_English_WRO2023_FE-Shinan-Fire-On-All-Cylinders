@@ -52,4 +52,33 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 </table>
 </div>
 
+## 2023/08/21 ~ 2023/08/27
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from using wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the available space. This redesign will also allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computational power of the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, so most of our existing code does not require significant changes. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
+
+由於已經確定要參加國際賽，因此我們將車輛做大改造，將木板改成3D列應做一體化，縮減空間，並且還可以打印出螺紋，可以過訂得更穩固，我們也將控制器從Raspberry Pi 4B 改成運算像率較高的 Jeston Nano 微型電腦，Jeston Nano 也可以使用 Python 程式語言來運行車輛，因此我們程式大多都不需修改，但是 Jeston Nano 有一些不太一樣的地方是，PWM訊號的發出需要外接板才能實現。
+
+<div align="center">
+<table>
+<tr align="center">
+<td rowspan="2">Controller 控制器</td>
+<td>Jeston Nano</td>
+<td>Raspberry Pi 4B</td>
+<tr align="center">
+<td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
+<td><img src="./img/8/raspberry_pi_4.png" width="200" alt="work_daily"></td>
+</tr>
+<tr align="center">
+<td>Computational efficiency 運算效率</td>
+<td>472 GFLOPs</td>
+<td>13.5 GFLOPs</td>
+</table>
+</div>
+
+<small>Data source 資料來源:</small>  
+<small>[Taiwansersor 台灣智能感測科技](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
+<small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
