@@ -32,8 +32,8 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <div align="center">
 <table>
 <tr align="center">
-<th>場地配置</th>
-<th>紀錄表</th> 
+<th>Field arrangement 場地配置</th>
+<th>Record sheet 紀錄表</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/block.png" width="400" alt="work_daily"></td>
@@ -43,8 +43,8 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <div align="center">
 <table>
 <tr align="center">
-<th>competition photos</th>
-<th>award-winning photo</th> 
+<th>competition photos 評分中</th>
+<th>award-winning photo 上台領獎</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/0819_1.jpg" width="600" alt="contest"></td>
