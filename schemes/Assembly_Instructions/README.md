@@ -8,7 +8,20 @@
 
 
 - ## Mechanical Structure 
-
+<div align="center">
+<table>
+  <tr>
+      <th>Inner Structure Top View of the Overall Apparatus</th>
+      <th>Middle Layer Structure Top View</th>
+      <th>Top View of Vehicle Chassis</th>
+      <th>Bottom View of Vehicle Chassis</th>
+  </tr>
+  <tr align="center">
+     <td>  <img src="./img/top_view.png"  width = "400" alt="All vehicle up view" > </td><td><img src="./img/Middle_view.png" width = "400" alt="Midium vehicle uo view" ></td><td><img src="./img/Vehicle_Chassis_Design_top_view.png" width="400" alt="Top view of the vehicle chassis." ></td>
+     <td><img src="./img/Vehicle_Chassis_Design_down.png" width="400" alt="Bottom view of the vehicle chassis." ></td>
+  </tr>
+</table>
+</div>
 - ### Circuit Board 
 <div align="center">
 <table>
