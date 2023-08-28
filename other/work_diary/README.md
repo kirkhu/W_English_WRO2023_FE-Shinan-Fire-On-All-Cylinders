@@ -27,16 +27,16 @@
 </table>
 
   __Open Challenge 資格賽影片__
-  - [Open Challenge 全窄 速度70%](https://youtu.be/QtpuHt05MDg)
-  - [Open Challenge 全窄 速度50%](https://youtu.be/QaYUrrdAtE8)
-  - [Open Challenge 半寬半窄 速度70%](https://youtu.be/pcTpH8QgJFU)
-  - [Open Challenge 半寬半窄 速度50%](https://youtu.be/7HdWxfWPfWc)
-  - [Open Challenge 全寬 速度70%](https://youtu.be/MA1k2P87LdE)
-  - [Open Challenge 全寬 速度50%](https://youtu.be/OUg0x4Qdc0c)  
+  - [Open Challenge 全窄 speed 70%](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge 全窄 speed 50%](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge 半寬半窄 speed 70%](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge 半寬半窄 speed 50%](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge 全寬 speed 70%](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge 全寬 speed 50%](https://youtu.be/OUg0x4Qdc0c)  
 
  __Open Challenge 任務賽影片__
-  - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
-  - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
+  - [Obstacle Challenge speed 50% ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge speed70% ](https://youtu.be/iCmcXbACizY)
 
 __Team Members' Practice Status(隊員練習狀況)__
 
