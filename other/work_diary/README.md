@@ -264,7 +264,7 @@ As we have confirmed our participation in the international competition, we are 
 <table>
 <tr align="center">
 <td rowspan="2">Controller</td>
-<td>Jeston Nano</td>
+<td>Jetson Nano</td>
 <td>Raspberry Pi 4B</td>
 <tr align="center">
 <td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
