@@ -13,22 +13,22 @@
 
 
 - ## Overview of Important Parts List. 
-### Raspberry Pi 4B 8G 
+### NVIDIA Jeston Nano  
 <table border=0 width=100% >
   <tr>
     <td >
 
 __Specification:__ 
-- With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
-- the total memory capacity of it has 1、2、4 or 8 Giga bytes.
+- It is equipped with a quad-core ARM Cortex-A57 CPU and a 128-core Maxwell GPU. 
+- the total memory capacity of it has 4 Giga bytes,It operating system is 64-bit.
 - The TransFlash card of it serves as the system’s main storage media.
-- equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
+- Equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
 
 __Usage:__ 
-- Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
+- Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and used to write the program.  
  </td>
     <td >
-<img src="./img/raspberry_pi_4.png" width = "400" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
+<img src="./img/jeston_nano.png" width = "400" height = "" alt="Jeston nano" align=center />   
     </td>
   </tr>
 </table>
