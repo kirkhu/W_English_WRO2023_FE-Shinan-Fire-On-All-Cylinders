@@ -10,7 +10,16 @@
 - ## Mechanical Structure 
 
 - ### Circuit Board 
-
+<div align="center">
+<table>
+  <tr align="center">
+      <th> Circuit Board of Top View </th>
+  </tr>
+  <tr align="center">
+     <td> <img src="./img/board_up.jpg" width="300" alt="circuit_up.jpg"> </td>
+  </tr>
+</table>
+</div>
 
 - ## Overview of Important Parts List. 
 ### NVIDIA Jeston Nano  
