@@ -3,6 +3,7 @@
 # <div align="center">Part List </div>
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
+<li><a herf="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">Motor Driver</a></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>
 <li><a href="https://www.az-delivery.de/en/products/pca9685-servotreiber">PCA9685 16-Channel 20Bit PWM Driver</a></li>  
 <li><a herf="https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41">Button B3F-4055</a></li>  
@@ -13,21 +14,21 @@
 <li><a herf="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB">Li-Polymer battery 3S Desire Power V8 11.1V 1300mAh 70C</a></li>
 <li><a herf="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
 <li><a herf="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
-<li><a herf="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>
-white socket 2p    
-white socket 6p    
-female socket 2.45mm   
-male socket 2.45mm   
-hexagon plastic pillar 3x6+6   
-hexagon plastic pillar 3x12+6  
-hexagon plastic pillar 3x15+6  
-hexagon double female standoffs 3x15   
-plastic screw M3*7   
-plastic nut M3   
-Cross recessed round head metal screw 2.5x26mm   
-hexagon metal screw M5x10mm   
-hexagon metal screw M5x15mm   
-hexagon metal nut M5*4mm   
-Galvanized Hexagon Flange Nut  
+<li><a herf="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
+white socket 2p<br>
+white socket 6p<br>
+female socket 2.45mm<br>
+male socket 2.45mm<br>
+hexagon plastic pillar 3x6+6<br>
+hexagon plastic pillar 3x12+6<br>
+hexagon plastic pillar 3x15+6<br>
+hexagon double female standoffs 3x15<br>
+plastic screw M3*7<br>
+plastic nut M3<br>
+Cross recessed round head metal screw 2.5x26mm<br>
+hexagon metal screw M5x10mm<br>
+hexagon metal screw M5x15mm<br>
+hexagon metal nut M5*4mm<br>
+Galvanized Hexagon Flange Nut
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
