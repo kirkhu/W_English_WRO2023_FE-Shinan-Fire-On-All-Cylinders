@@ -2,6 +2,88 @@
 =====
 # <div align="center">Work Diary </div> 
 
+## 2023/07/31 ~ 2023/08/06
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**  
+
+- As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
+- Complete recording videos for each task and upload them to YouTube.
+
+- 由於下星期就要交出技術文件，因此我們開始修改技術到告的內容，並依官方評分標準調整網頁，持續補充技術報告。 
+- 完成各任務錄影，並上傳YOUTUBE 
+
+
+<table>
+<tr align="center">
+<th> old directory </th>
+<th> Revised Directory (Upper Section) </th>
+<th> Revised Directory (Lower Section) </th>
+</tr>
+<tr align="center">
+<td><img src="./img/8/old_content.png" alt="old_content"  width="300"/> </td>
+<td> <img src="./img/8/new1_content.png" alt="new1_content"  width="300"/></td>
+<td> <img src="./img/8/new2_content.png" alt="new1_content"  width="300"/></td>
+</tr>
+</table>
+
+  __Open Challenge 資格賽影片__
+  - [Open Challenge 全窄 速度70%](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge 全窄 速度50%](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge 半寬半窄 速度70%](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge 半寬半窄 速度50%](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge 全寬 速度70%](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge 全寬 速度50%](https://youtu.be/OUg0x4Qdc0c)  
+
+ __Open Challenge 任務賽影片__
+  - [Obstacle Challenge 速度50% ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge 速度70% ](https://youtu.be/iCmcXbACizY)
+
+__Team Members' Practice Status(隊員練習狀況)__
+
+<div align="center">
+<table>
+<tr align="center">
+<th>report writing</th> 
+<th>mechanism adjustment</th>
+<th>report writing</th>
+<th>field mission practice</th>
+</tr>
+<tr align="center">
+<td><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_2_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_3_0805.jpg" width="500" alt="work_daily"></td>
+<td><img src="./img/8/work_photo_4_0805.jpg" width="500" alt="work_daily"></td>
+</table>
+</div>
+
+## 2023/08/07 ~ 2023/08/13
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+This week, with our machine now adjusted to smoothly complete the mission race on the field, we have begun filming an introductory video for the race. In the video, we will showcase the actions our vehicle performs during the mission race, providing explanations through subtitles synchronized with the video.
+
+這星期由於我們的機器已經將數值調整到可以正常在場地上運行任務賽，因此我們開始拍攝任務賽的介紹影片，在影片中我們會介紹我們的車輛在運行任務賽時所執行的動作，並將說明以字幕對照影片的方式呈現
+
+<div align="center">
+<table>
+<tr align="center">
+<th>modifying code and testing vehicles</th>
+<th>currently editing videos</th>
+</tr><tr align="center">
+<td><img src="./img/8/work_photo_1_0813.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/8/813.jpg" width="300" alt="work_daily"></td>
+</tr><tr align="center">
+</table>
+
+<table>
+<th>mission race introduction video</th>
+</tr>
+<td>
+
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")</td>
+</table>
+</div>
+
 
 
 ## 2023/08/14 ~ 2023/08/20
@@ -32,8 +114,8 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <div align="center">
 <table>
 <tr align="center">
-<th>Field arrangement 場地配置</th>
-<th>Record sheet 紀錄表</th> 
+<th>field layout</th>
+<th>record sheet</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/block.png" width="400" alt="work_daily"></td>
@@ -43,8 +125,8 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <div align="center">
 <table>
 <tr align="center">
-<th>competition photos 評分中</th>
-<th>award-winning photo 上台領獎</th> 
+<th>competition photos</th>
+<th>award-winning photo</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/0819_1.jpg" width="600" alt="contest"></td>
@@ -56,7 +138,7 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
-As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from using wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the available space. This redesign will also allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computational power of the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, so most of our existing code does not require significant changes. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
+As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from the use of wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the space available. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
 由於已經確定要參加國際賽，因此我們將車輛做大改造，將木板改成3D列應做一體化，縮減空間，並且還可以打印出螺紋，可以過訂得更穩固，我們也將控制器從Raspberry Pi 4B 改成運算像率較高的 Jeston Nano 微型電腦，Jeston Nano 也可以使用 Python 程式語言來運行車輛，因此我們程式大多都不需修改，但是 Jeston Nano 有一些不太一樣的地方是，PWM訊號的發出需要外接板才能實現。
 
