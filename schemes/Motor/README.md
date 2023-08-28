@@ -102,5 +102,26 @@ While the vehicle is moving, the Jetson Nano sends speed information to the moto
 </table>
 </div>
 
+### Motor Controller(馬達控制器)
+#### 英文
+- When testing the operation of the motor, simply providing power does not effectively control the movement of the GA25-370 motor, making it impossible to adjust the speed. Therefore, we need to install a motor controller to regulate the speed of the DC gear motor. Currently, there are two options available in the market: the L293D chip and the L298N module. To reduce weight, we chose the smaller L293D chip. Its compact size allows us to install more sensors, thereby saving space, reducing weight, and increasing the maneuverability of the vehicle.
+#### 中文
+- 由於我們無法直接的使用5V來控制直流馬達，那樣會導致電壓不足無法驅動，因此我們需要用到馬達控制板，這種板子可以達到使用5V來控制12V的電壓輸出，這樣就能控制直流馬達的正反轉以及速度
+- 有 DC Motor Driver HAT(V1.0) 和 L298N 兩個選擇，雖然 HAT 比較大片，但可以直接裝在Jetson Nano 上，所以不會有佔據電路板空間的問題，而且還不會占用5V和GND的腳位，因此我們選擇DC Motor Driver HAT(V1.0)
+
+#### Motor Controller(馬達控制器)
+<div align="center">
+<table>
+<tr align="center" >
+<th>DC Motor Driver HAT(V1.0)(馬達控制版)</th>
+<th>L298N(馬達控制器)</th>
+</tr>
+<tr align="center">
+<td> <img src="./img/Motor_driver.png" width = "300"  alt="l293d" align=center /></td>
+<td ><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
+</tr>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
