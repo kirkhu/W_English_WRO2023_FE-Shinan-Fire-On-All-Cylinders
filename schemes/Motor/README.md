@@ -1,7 +1,7 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Motor</div> 
-When the vehicle is in motion, the Raspberry Pi sends speed information to the motor controller to control the rear-wheel drive DC motor. Simultaneously, the Raspberry Pi also sends messages to the servo motor of the front steering mechanism, enabling the vehicle to maneuver freely and move forward.
+While the vehicle is moving, the Jetson Nano sends speed information to the motor control board, which then transmits it to the L293D motor driver to control the rear-wheel drive DC motors. Simultaneously, the Raspberry Pi sends messages through a PWM controller to the servo motor of the front steering mechanism, allowing the vehicle to maneuver and steer freely while moving forward.
 
 車輛行走時，Jetson Nano將轉速訊息藉由 __馬達控制板__ 傳送給 __L293D 馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息利用 __PWM控制器__ 傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
 
@@ -40,6 +40,25 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td>speed(轉速)</td>
 <td>0.11s</td>
 <td>0.1S</td>
+</tr>
+</table>
+</div>
+
+### PWM Controler(PWM控制版)
+#### 英文
+- Due to the somewhat challenging nature of controlling PWM signals with Jetson Nano directly, we have opted for an external board to manage the servo motors. We chose the PCA9685 16-channel 20bit PWM driver as the PWM control board, mainly because it features pins that allow for angle adjustments through re-soldering if needed. This aligns well with our requirement of integrating controllers onto the circuit board.
+
+#### 中文
+
+- 由於 Jetson Nano 的 PWM 訊號並不是這麼的好控制，因此我們需要外接板子來控制伺服馬達，诶們選擇了 PCA9685 16-channel 20bit PWM driver 作為 PWM 控制版，因為上面裝有引腳，並且如果引腳需要修改角度還可以重新焊接，很符合我們將控制器都裝於電路板的需求。
+#### PWM Controler
+<div align="center">
+<table>
+<tr align="center">
+<th>PCA9685 16-channel 20bit PWM driver</th>
+</tr>
+<tr align="center">
+<td><img src="./img/pmw_driver.png" width = "400" height = "" alt="MG90S" align=center /></td>
 </tr>
 </table>
 </div>
