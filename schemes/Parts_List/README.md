@@ -12,14 +12,11 @@
 <li><a herf="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB">Li-Polymer battery 3S Desire Power V8 11.1V 1300mAh 70C</a></li>
 <li><a herf="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
 <li><a herf="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
-white socket 3p  
-white socket 4p  
-white socket 6p  
-XH2.5mm  
-XH2.5mm  
-XH2.5mm   
+<li><a herf="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>
+white socket 2p    
+white socket 6p    
 female socket 2.45mm   
-male socket2.45mm   
+male socket 2.45mm   
 hexagon plastic pillar 3x6+6   
 hexagon plastic pillar 3x12+6  
 hexagon plastic pillar 3x15+6  
