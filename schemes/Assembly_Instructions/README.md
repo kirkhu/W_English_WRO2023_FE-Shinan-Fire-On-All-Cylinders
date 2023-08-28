@@ -70,7 +70,7 @@ __Specifications:__
 - Dimension: 65*30mm/2.56*1.18” 
 
 __Usage:__
-- Control the DC Motor turn speed  
+- Controlling the speed and direction of a DC geared motor.  
  </td>
     <td>
 <img src="./img/Motor_driver.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />  
