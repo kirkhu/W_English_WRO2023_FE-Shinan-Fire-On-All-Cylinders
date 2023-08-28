@@ -19,7 +19,8 @@
         - Cathode: The cathode is one of the essential components in lithium polymer batteries and is typically made of lithium-containing metal oxides or phosphate materials, similar to the cathode in traditional lithium-ion batteries.  
         - Lithium Salt: The electrolyte of lithium polymer batteries contains lithium salt, which enhances the electrolyte's conductivity.  
         - Electrode Connectors: The internal electrodes of lithium polymer batteries are often made of thin, sheet-like lithium alloy materials, and they are connected to the external circuit of the battery using connectors.   
-  
+    - Battery Photo  
+    <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align="center" />   
 
  
  
@@ -40,7 +41,21 @@
 
         </table>
         </div>
+    - #### Charging/Discharging Equipment(充放電設備)
+      <div align="center">
+      <table>
+        <tr align="center">
+        <th>skyrc E430</th>
+        <th>skyrc imax B6C2 v2</th>
+        </tr>
+        <tr>
+        <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment"  /></td>
+        <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment"  /></td>
 
+        </tr>
+
+</table>
+</div>
       
      
  
