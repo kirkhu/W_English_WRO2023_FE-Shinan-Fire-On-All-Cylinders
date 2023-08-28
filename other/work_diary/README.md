@@ -2,6 +2,95 @@
 =====
 # <div align="center">Work Diary </div> 
 
+
+## 2023/05/29 ~ 2023/06/04  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+- By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
+
+- 在撰寫技術文件時，我們決定使用VS Code加上git來編輯。這樣的做法有很多好處，其中包括容易進行版本控制，當不同編輯者同時編輯同一個檔案時，git會立即通知編輯者有衝突發生，這樣較晚上傳資料的編輯者就可以透過資料的比較來合併衝突。這樣的作法讓我們在編輯技術文件時能夠更有效率地合作和管理可能的衝突。
+
+[github Homepage : https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main)
+
+<div align="center">
+<table>
+<tr align="center">
+<th> To edit in VS Code, just click on the source file control and then press "Copy to Repository
+</th> 
+<th>Entering the URL allows you to perform editing and version control in VS Code
+</th>
+</tr>
+<tr>
+<td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
+<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+</td>
+</tr>
+</table>
+</div>
+
+
+## 2023/06/05 ~ 2023/06/11 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+- During the hardware design process, we encountered a few instances in which the Raspberry Pi controller or IC was damaged due to incorrect power or data cable connections. To prevent such issues, we implemented a solution that involves using male-female connectors for both power supply and data transmission. This approach ensured proper wiring and effectively mitigated the risk of the Raspberry Pi or IC becoming damaged. These design improvements have enhanced the stability of the hardware system, leading to increased overall product reliability and lifespan.
+- During the hardware design process, we initially used a breadboard to connect the circuits. Unfortunately, we encountered instances of burning or poor contacts, resulting in abnormal functionality or potential issues that were challenging to detect. To improve this situation, we made the decision to switch to soldering the circuits onto a prototyping board. This change significantly reduced the risks of burning or poor contacts while ensuring stable and reliable connections. Through this improvement, we successfully enhanced the overall hardware system's reliability and ensured proper functionality.
+
+<div align="center">
+<table>
+<tr  align="center">
+<th> <img src="./img/6/anit_daze.png" alt="插座" width="350"></th> 
+<th><img src="./img/6/anit_daze_2.jpg" alt="電木板" width="350"></th>
+</tr>
+</table>
+</div>
+
+## 2023/06/12 ~ 2023/06/18
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+- Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the vehicle rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
+
+<div align="center">
+<table>
+<tr  align="center">
+<th>The vehicle collides with the side wall.
+</th> 
+<th>Detecting the distance to the left and right walls.
+</th>
+</tr>
+<tr align="center">
+<td><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td>
+<td><img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."/></td>
+</tr>
+</table>
+</div>
+
+
+## 2023/06/19 ~ 2023/06/25   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+- The robot is now able to operate successfully. The next step involves using the camera to avoid obstacles (blocks). Next, we need to detect the distance to the obstacles (blocks) and then identify the color of the blocks. By utilizing the features of OpenCV, we can calculate the distance between the blocks and the robot for obstacle avoidance. Through the implementation of an algorithm, we can control the front wheels to steer around these obstacles.
+- However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners.
+
+<div align="center">
+<table>
+<tr align="center">
+<th> Detecting block distance
+</th> 
+<th> Hitting a block
+</th>
+</tr>
+<tr align="center">
+<td><img src="./img/6/sign.png" width=250 alt="block distance" ></td>
+<td><img src="./img/5/hit_block.jpg" width=300 alt="hit block" >
+</td>
+</table>
+</div>
+
+
 ## 2023/06/26 ~ 2023/07/02 
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
