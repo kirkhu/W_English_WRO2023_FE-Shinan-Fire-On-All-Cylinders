@@ -47,8 +47,8 @@ Today is our match day. In the first half of the qualifying round, due to our Re
 <th>award-winning photo</th> 
 </tr>
 <tr align="center">
-<td><img src="./img/0819_1.jpg" width="600" alt="contest"></td>
-<td><img src="./img/0819_2.jpg" width="600" alt="award-winning photo"></td>
+<td><img src="./img/8/0819_1.jpg" width="600" alt="contest"></td>
+<td><img src="./img/8/0819_2.jpg" width="600" alt="award-winning photo"></td>
 </table>
 </div>
 
