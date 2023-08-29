@@ -1,29 +1,20 @@
-<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
-
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Hardware Assembly Instructions.</div>
 
 ## 3D Printed
 
+- 3D printing is a manufacturing technology that transforms digital models into physical objects by layering materials one after another to create the object.
+- We have chosen to use 3D printing for the fabrication of the car body due to its advantages over using a Laser Cutting Machine to cut wooden panels. 3D printing offers inherent structural integrity, eliminating the need for assembly steps and resulting in a more lightweight design.
 
-## Photocured 3D Printing
-- Photocuring is a process that uses ultraviolet (UV) or other visible light sources to cure specific materials. It is commonly used in fields such as 3D printing, coatings, and bonding, where materials undergo a chemical reaction under the exposure of light, transforming from liquid or semi-solid states to solid states.
+## Light Curing
 
-- In 3D printing, photocuring is a common technique known as UV curing 3D printing. In this method, liquid resin is applied layer by layer on a build platform, and then exposed to UV light sources, causing each layer of resin to cure and gradually build up the shape of the object. This technology is capable of producing objects with high precision and complex structures.
+- Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
 
-- During the process of photocuring, photosensitizers are essential elements. Photosensitizers are substances that can absorb light energy and trigger chemical reactions. They are usually added to the resin. When light is directed onto the resin, photosensitizers absorb the light energy, initiating cross-linking reactions between molecules and transforming the liquid into a solid state.
+- In 3D printing, photopolymerization is a prevalent technique known as stereolithography (SLA) or digital light processing (DLP) printing. In this method, liquid resin is selectively applied layer by layer onto a build platform. A UV light source is then used to irradiate the resin, solidifying it layer by layer to gradually construct the desired object's shape. This technology enables the creation of high-precision, intricate structures, with the ability for rapid production.
 
-- Photocuring technology is widely used in various fields, including product development, medical devices, jewelry, industrial manufacturing, and more. It enables high-precision, rapid, and customizable manufacturing, offering considerable flexibility in different materials and applications.
+- Within the photopolymerization process, a photosensitizer is an essential component. A photosensitizer is a substance capable of absorbing light energy and initiating a chemical reaction. It is typically added to the resin. When light shines on the resin, the photosensitizer absorbs the energy, triggering intermolecular cross-linking reactions that transform the liquid into a solid.
 
-<div align="center">
-<table>
-<tr align="center">
-<th>Photocured 3D Printing Finished Product</th>
-<tr align="center">
-<td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
-</tr>
-</table>
-</div>
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 

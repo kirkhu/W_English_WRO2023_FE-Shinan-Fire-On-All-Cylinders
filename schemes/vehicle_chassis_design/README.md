@@ -10,7 +10,7 @@ __Introduction to Ackermann_steering_geometry__
 - The steering mechanism of the vehicles used in this competition is designed based on the Ackermann steering mechanism and implemented using LEGO parts. However, due to the fixed specifications of LEGO parts, modifications are not possible, and the design can only closely resemble the Ackermann steering mechanism. 
 
 
-Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
+Video link：[How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
 
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
@@ -49,7 +49,7 @@ Lower Arm: Connecting the vehicle's body and the wheels, assisting in controllin
     </tr>
     <tr align="center">
     <td><img src="./img/MacPherson Suspension System2.png" width = "300" height = "" alt="big range"  /></td>
-    <td><img src="./img/MacPherson Suspension System1.png" width = "300" height = "" alt="small range"  /></td>
+    <td><img src="./img/MacPherson Suspension System1.png" width = "350" height = "" alt="small range"  /></td>
     </tr>
 </table>  
 </div> 
