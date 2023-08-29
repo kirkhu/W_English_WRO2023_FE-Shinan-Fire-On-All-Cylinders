@@ -1,9 +1,9 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Motor</div> 
-While the vehicle is moving, the Jetson Nano sends speed information to the motor control board, which then transmits it to the L293D motor driver to control the rear-wheel drive DC motors. Simultaneously, the Raspberry Pi sends messages through a PWM controller to the servo motor of the front steering mechanism, allowing the vehicle to maneuver and steer freely while moving forward.
+While the vehicle is in motion, the Jetson Nano sends speed information via I2C to the motor control board to control the rear DC motor. Simultaneously, the Raspberry Pi sends messages using the PWM controller to the servo motor of the front steering mechanism, allowing the vehicle to freely steer and move forward.
 
-車輛行走時，Jetson Nano將轉速訊息藉由 __馬達控制板__ 傳送給 __L293D 馬達控制器__，以控制 __後驅直流馬達__。同時，樹莓派也將訊息利用 __PWM控制器__ 傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
+車輛行走時，Jetson Nano將轉速訊息藉由 I2C 傳送給 __馬達控制板__  ，以控制 __後驅直流馬達__。同時，樹莓派也將訊息利用 __PWM控制器__ 傳送給 __前轉向機構的伺服馬達__，使車輛能夠自由轉向前進。
 
 ### Front Steering Mechanism by Servo Motor(前轉向機構伺服馬達)
 #### 英文
@@ -46,11 +46,11 @@ While the vehicle is moving, the Jetson Nano sends speed information to the moto
 
 ### PWM Controler(PWM控制版)
 #### 英文
-- Due to the somewhat challenging nature of controlling PWM signals with Jetson Nano directly, we have opted for an external board to manage the servo motors. We chose the PCA9685 16-channel 20bit PWM driver as the PWM control board, mainly because it features pins that allow for angle adjustments through re-soldering if needed. This aligns well with our requirement of integrating controllers onto the circuit board.
+- Since the PWM signals from the Jetson Nano are not easily controlled, we require an external board to manage servo motors. We've chosen the PCA9685 16-channel 20-bit PWM driver as our PWM control board. This choice was motivated by the presence of pins on the board, enabling the adjustment of angles through rewiring if needed. This aligns well with our goal of centralizing controllers onto the circuit board. The advantage of this board lies in its utilization of the I2C protocol for controlling PWM signals, thereby not utilizing additional GPIO pins.
 
 #### 中文
 
-- 由於 Jetson Nano 的 PWM 訊號並不是這麼的好控制，因此我們需要外接板子來控制伺服馬達，诶們選擇了 PCA9685 16-channel 20bit PWM driver 作為 PWM 控制版，因為上面裝有引腳，並且如果引腳需要修改角度還可以重新焊接，很符合我們將控制器都裝於電路板的需求。
+- 由於 Jetson Nano 的 PWM 訊號並不是這麼的好控制，因此我們需要外接板子來控制伺服馬達，诶們選擇了 PCA9685 16-channel 20bit PWM driver 作為 PWM 控制版，因為上面裝有引腳，並且如果引腳需要修改角度還可以重新焊接，很符合我們將控制器集中裝置於於電路板的需求，這塊板子的優勢在於它是用 I2C 來控制 PWM 訊號的，因此不會占用到腳位。
 #### PWM Controler
 <div align="center">
 <table>
@@ -109,16 +109,16 @@ While the vehicle is moving, the Jetson Nano sends speed information to the moto
 - 由於我們無法直接的使用5V來控制直流馬達，那樣會導致電壓不足無法驅動，因此我們需要用到馬達控制板，這種板子可以達到使用5V來控制12V的電壓輸出，這樣就能控制直流馬達的正反轉以及速度
 - 有 DC Motor Driver HAT(V1.0) 和 L298N 兩個選擇，雖然 HAT 比較大片，但可以直接裝在Jetson Nano 上，所以不會有佔據電路板空間的問題，而且還不會占用5V和GND的腳位，因此我們選擇DC Motor Driver HAT(V1.0)
 
-#### Motor Controller(馬達控制器)
+#### Motor Controller
 <div align="center">
 <table>
 <tr align="center" >
-<th>DC Motor Driver HAT(V1.0)(馬達控制版)</th>
-<th>L298N(馬達控制器)</th>
+<th>DC Motor Driver HAT(V1.0)</th>
+<th>L298N</th>
 </tr>
 <tr align="center">
-<td> <img src="./img/Motor_driver.png" width = "300"  alt="l293d" align=center /></td>
-<td ><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
+<td> <img src="./img/Motor_driver.png" width = "250"  alt="l293d" align=center /></td>
+<td ><img src="./img/L298N.png" width = "250"  alt="l298n" align=center /></td>
 </tr>
 </tr>
 </table>
