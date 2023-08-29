@@ -146,6 +146,7 @@ __Specifications:__
 - Cascade design:
   - V + line to place a large capacitor, the maximum external input voltage depends on the 10V 1000uf capacitor
   - All PWM output lines have a 220 ohm series resistor protection and can easily drive LED  
+  
 <samll>Date sourse:[Amazon](https://www.amazon.com/-/zh_TW/HiLetgo-PCA9685-PWM-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95%E5%99%A8-Arduino/dp/B01D1D0CX2)</small>
 
 __Usage:__ 

@@ -19,6 +19,7 @@
 </tr>
 </table>
 </div>
+
 ## Light Curing
 
 - Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
