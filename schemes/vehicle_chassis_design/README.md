@@ -1,6 +1,6 @@
 ![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Vehicle Chassis Design (車輛底盤設計)</div> 
+# <div align="center">Vehicle Chassis Design </div> 
 
 - ## Ackermann_steering_geometry
 __Introduction to Ackermann_steering_geometry__
@@ -24,6 +24,16 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 - Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
  <img src="./img/LEGO_differential.jpg" width="500" alt="LEGO_differential">
 
-- ##  Gear Differential
+- ##  MacPher Suspension Systen
+- We have selected this system as our suspension choice due to its advantages over the Double Wishbone Suspension System. The McPherson suspension system offers structural simplicity, ease of manufacturing, and space efficiency. Furthermore, the McPherson suspension system is extensively employed in modern vehicles, especially for front-wheel suspension. 
+
+The main components of the system include:
+
+Spring: Typically a combination of springs and shock absorbers, connecting the wheels and the body of the vehicle, absorbing vibrations and impacts from uneven road surfaces.
+
+Upper Arm: Positioned above the vehicle's wheels, connecting the body and the wheels. Its design allows the wheels to move freely in the vertical direction.
+
+Lower Arm: Connecting the vehicle's body and the wheels, assisting in controlling the motion of the wheels.
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
