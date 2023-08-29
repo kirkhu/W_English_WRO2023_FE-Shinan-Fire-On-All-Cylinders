@@ -90,7 +90,7 @@ __Specifications:__
 - Continuous Drive Current: 1.2A
 - Peak Current: 2A
 - Support 2-way DC Motor/DC Motor with Encoder
-- Dimension: 65*30mm/2.56*1.18” 
+- Dimension: 65x30mm/2.56x1.18 
 
 __Usage:__
 - Controlling the speed and direction of a DC geared motor.  
@@ -132,18 +132,18 @@ __Specifications:__
   - Voltage: DC5-10V power supply
   - Communication Interface: IIC
   - 16-way steering gear control
-  - Size:25*61mm
+  - Size:25x61mm
 
 - Product features:
   - The PCA9685 chip is wrapped in the center of the board
   - Power input terminal
   - Green power indicator
-  - In the 4 groups of 3-pin connector to facilitate the insertion of 16 servo motor (servo motor plug slightly wider than 0.1 ")
+  - In the 4 groups of 3-pin connector to facilitate the insertion of 16 servo motor (servo motor plug slightly wider than 0.1 )
   - The polarity of the reverse polarity is input on the terminal block
 
 - Cascade design:
   - V + line to place a large capacitor, the maximum external input voltage depends on the 10V 1000uf capacitor
-  - All PWM output lines have a 220 ohm series resistor protection and can easily drive LED
+  - All PWM output lines have a 220 ohm series resistor protection and can easily drive LED  
 <samll>Date sourse:[Amazon](https://www.amazon.com/-/zh_TW/HiLetgo-PCA9685-PWM-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95%E5%99%A8-Arduino/dp/B01D1D0CX2)</small>
 
 __Usage:__ 
