@@ -7,6 +7,18 @@
 - 3D printing is a manufacturing technology that transforms digital models into physical objects by layering materials one after another to create the object.
 - We have chosen to use 3D printing for the fabrication of the car body due to its advantages over using a Laser Cutting Machine to cut wooden panels. 3D printing offers inherent structural integrity, eliminating the need for assembly steps and resulting in a more lightweight design.
 
+
+<div align="center">
+<table>
+<tr align="center">
+<th>up view</th>
+<th>side view</th>
+<tr align="center">
+<td><img src="./img/3D-down.png" width="300" alt=" logo"></td>
+<td><img src="./img/3D-down2.png" width="300" alt=" logo"></td>
+</tr>
+</table>
+</div>
 ## Light Curing
 
 - Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
