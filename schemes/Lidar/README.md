@@ -1,4 +1,6 @@
-![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+
+2023WRO Future Engineers Fire On All Cylinders  
 =====
 # <div align="center">Introduction to Lidar(光達介紹)</div> 
 ## English

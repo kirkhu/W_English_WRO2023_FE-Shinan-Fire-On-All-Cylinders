@@ -1,4 +1,6 @@
-2023WRO Future Engineers Fire On All Cylinders  
+<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 ## <div align="center">GitHub Web Editing Languages</div> 
 - GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  

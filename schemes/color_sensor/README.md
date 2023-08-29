@@ -1,4 +1,6 @@
-![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+
+2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Color sensor(顏色感應器)</div> 
 <div align="center">
