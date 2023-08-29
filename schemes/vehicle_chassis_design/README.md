@@ -36,6 +36,8 @@ Upper Arm: Positioned above the vehicle's wheels, connecting the body and the wh
 
 Lower Arm: Connecting the vehicle's body and the wheels, assisting in controlling the motion of the wheels.
 
+- We have designed the following two options. The first option, due to its larger vertical vibration space, cannot effectively restrict the vehicle's vibrations. Therefore, we have chosen the second option, which has a smaller vibration amplitude and can also maintain the vehicle's low center of gravity.
+
 <div align="center">
  <table>
     <tr align="center">
