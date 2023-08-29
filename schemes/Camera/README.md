@@ -3,18 +3,18 @@
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 
-1. raspberry pi camera Rev 1.3(OmniVision OV5647)
+1. Camera Rev 1.3(OmniVision OV5647)
 2. raspberry pi camera Module V2(Sony IMX219)
 3. raspberry pi camera Module V3(Sony IMX708)
 
-- Considering that V3 is not compatible with our existing Raspberry Pi operating system, we decided not to use that version. Additionally, the detection rate of version 1.3 is only 30p, whereas the V2 version can reach a maximum of 90p. Therefore, we ultimately chose the Raspberry Pi Camera Module V2 for our project. Through experimentation, we found that the V2 version has the best recognition performance.
+- Considering that V3 is not compatible with our existing Raspberry Pi operating system, we decided not to use that version.The Jetson Nano is not compatible with the Raspberry Pi universal camera, so we are unable to use the V2 camera. Consequently, we have no choice but to opt for the Camera Rev 1.3 that is compatible with the Jetson Nano.
 
 #### Camera Module
 <div align="center">
 <table>
 <tr align="center" >
 <th rowspan="2">Model</th> 
-<th >raspberry pi camera Rev 1.3</th>
+<th >Camera Rev 1.3</th>
 <th >raspberry pi camera Module V2</th>
 <th >raspberry pi camera Module V3</thd>
 </tr>
@@ -45,8 +45,6 @@
 </table>
 </div>
 
-
-
 - During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
 
 #### wide-angle lens
@@ -57,8 +55,8 @@
 <th>With the wide-angle lens</th>
 </tr>
 <tr align="center">
-<td><img src="./img/V2.jpeg" width=200 alt="site" ></td>
-<td><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
+<td><img src="./img/v1.jpeg" width=200 alt="site" ></td>
+<td><img src="./img/v1_width-angle.jpg" width=200 alt="site" >
 </td>
 </tr>
 <tr align="center">
@@ -69,7 +67,7 @@
 </div>
 
 
-- In the Raspberry Pi program, it is possible to configure the resolution of the camera module. We conducted experiments with the following common resolutions.
+- In the Jetson Nano program, it is possible to configure the resolution of the camera module. We conducted experiments with the following common resolutions.
 
 1. 1080x640 FPS 30p
 2. 640x320 FPS 60p

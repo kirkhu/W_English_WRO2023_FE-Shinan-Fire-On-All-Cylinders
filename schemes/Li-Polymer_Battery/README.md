@@ -41,7 +41,7 @@
 
         </table>
         </div>
-    - #### Charging/Discharging Equipment(充放電設備)
+    - #### Charging/Discharging Equipment
       <div align="center">
       <table>
         <tr align="center">
