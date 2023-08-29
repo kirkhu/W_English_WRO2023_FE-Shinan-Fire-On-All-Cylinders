@@ -3,17 +3,15 @@
 # <div align="center">Work Diary </div> 
 
 ## 2023/03/19 ~ 2023/03/26  
-**member:** ZHAO,ZHEN-BO  
+**member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**  
 
-At the beginning, since we were unsure of how to start building and making the vehicle, we referenced the Donkey Car official website. Therefore, the construction of the vehicle will be based on modifications of the vehicle design from the official website.
-
-由於一開始我們還不知道如何開始建構及製作，因此我們參考了Donkey Car 官網，因此車輛的製作會基於官網的車輛來改造。
+At the outset, due to our uncertainty about how to initiate the process of constructing and assembling the vehicle, we turned to the official Donkey Car website for guidance. Consequently, the construction of the vehicle will be based on modifications to the vehicle design provided on the official website.
 
 <div align="center">
 <table>
-<tr align="center"><th><a href="https://www.donkeycar.com/">Donkey Car 官網</a></th>
-<th><a href="http://docs.donkeycar.com/">Donkey Car 技術文件</a></th>
+<tr align="center"><th><a href="https://www.donkeycar.com/">Donkey Car official website</a></th>
+<th><a href="http://docs.donkeycar.com/">Donkey Car technical documentation</a></th>
 </tr>
 <tr align="center">
 <td> <img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
@@ -21,28 +19,22 @@ At the beginning, since we were unsure of how to start building and making the v
 </tr>
 </table>
 </div>
-
-
 <div align="center" width=100%>
 <img src="./img/3/Daily.jpg" width="300" alt="Daily" >
 </div>
 
-
 ## 2023/03/27 ~ 2023/04/02
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:** 
 - To ensure the smooth progression of the competition, our team carefully planned the completion timeline for each stage of the competition activities.
-- After reading the rules, We started to choose the controller. After watching the previous competitions, we found that most of them are raspberry pi but there are also jeston nano, so I decided to choose one of these two. In the end, I chose raspberry pi 4B because of its smaller size and cheaper price than jeston nano. 
+- After reading the rules, we began the process of selecting our controller. Upon reviewing previous competitions, we observed that the majority of participants used either Raspberry Pi or Jetson Nano as their controllers. Based on this information, I had to decide between these two options. Ultimately, I opted for the Raspberry Pi 4B due to its smaller size and more affordable price compared to the Jetson Nano.
 
-- 為確保競賽活動順利進行，我們小組進行了競賽活動各階段工作完成時間的細心規劃。，如下圖。
-- 在閱讀完規則後，開始挑選控制器，因為看過歷屆的比賽，發現大多都是 raspberry pi ，但也有 jeston nano ，因此決定在這兩種裡挑一種，最後選擇了 raspberry pi 4B ，因為體積比較小而且價格也比 jeston nano 便宜。
-
-  __競賽活動各階段工作完成時間規劃表(甘特圖)__ 
+  __Competition Activity Stages Work Completion Timeline Schedule(Gantt Chart)__ 
 <div align="center" >
   <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
 </div>
 
-### Vehicle Computing Controller(車輛運算控制器)
+### Vehicle Computing Controller
 <div align="center" >
 <table >
 <tr align="center">
@@ -57,25 +49,18 @@ At the beginning, since we were unsure of how to start building and making the v
 </table>
 </div>
 
-
-
 ## 2023/04/03 ~ 2023/04/09  
-**member:** ZHAO,ZHEN-BO  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI
+
 **content:**  
 
-- While waiting for the Raspberry Pi to initialize and libraries to be installed, we selected the motor for propulsion, with two options: JGA25-370 and JGA16-050. The former boasts higher torque, capable of moving heavier objects, while the latter is smaller and lighter, albeit with relatively lower torque. Considering the potential weight of the robot, we opted for the higher torque of the JGA25-370.
+- As we waited for the Raspberry Pi to initialize and the required libraries to be installed, we proceeded to choose the motor for propulsion. We had two options: the JGA25-370 and the JGA16-050. The JGA25-370 offers higher torque, making it suitable for moving heavier objects. On the other hand, the JGA16-050 is smaller and lighter but comes with relatively lower torque. Taking into account the anticipated weight of the robot, we decided to go with the higher torque of the JGA25-370 motor.
 - Among the JGA25-370 options, there are several variations currently available within the club.
-- During the testing of motor operation, a simple application of positive and negative voltage did not provide effective control over the JGA25-370's performance or speed adjustment. As a result, a motor controller is needed to regulate the speed of the DC geared motor. Two options were considered: the L293D chip and the L298N module. To minimize weight, we chose the compact L293D chip. Its small size allows us to accommodate more sensors, thereby saving space, reducing weight, and enhancing the robot's maneuverability.
+- While testing the motor's operation, we found that a simple application of positive and negative voltage did not offer effective control over the performance or speed adjustment of the JGA25-370 motor. Consequently, a motor controller was necessary to regulate the speed of the DC geared motor. We considered two options: the L293D chip and the L298N module. In order to keep the weight minimal, we opted for the compact L293D chip. Its small size enables us to integrate more sensors, ultimately saving space, reducing weight, and improving the robot's maneuverability.
 
-
-- 在等待初始化樹梅派及安裝函式庫時，挑選作為動力的馬達，有兩種，分別是 JGA25-370 和 JGA16-050，前者的優點是扭力大，可以帶動較重的物體，後者的優點是體積小，重量也比較輕，但是扭力相對較小，由於考慮到機體可能會比較重，所以選了扭力較大的 JGA25-370 
-- 而 JGA25-370 有許多種不同的分支，下面幾顆是目前社團擁有的
-- 在測試馬達的作動方式時，單純的提供正負極並沒有辦法很好的控制JGA25-370的作動，無法調節速度，因此還需要馬達控制器來調節直流減速馬達的速度，有兩種選擇：L293D晶片和L298N模組。為了減輕重量，我們選擇了體積較小的L293D晶片。它的小巧尺寸使我們能夠安裝更多的感應器，進而節省空間、減輕重量，並增加機器人的機動性。
-
-
-#### DC Motor(直流馬達)
+#### DC Motor
 <div align="center"><table><tr align="center">
-<th rowspan="2">Model(型號)</th>
+<th rowspan="2">Model(model number)</th>
 <th>JGA25 370</th>
 <th>JGA25 370</th>
 <th>JGA25 371</th>
@@ -89,19 +74,19 @@ At the beginning, since we were unsure of how to start building and making the v
 <td ><img src="./img/5/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
 </tr>
 <tr align="center">
-<td >speed(轉速)</td>
+<td >speed</td>
 <td >1360rpm/m</td>
 <td >620rpm/m</td>
 <td >294rpm/m</td>
 <td >220rpm/m</td>
 </tr>
 <tr align="center">
-<td>torque(力距)</td>
+<td>torque</td>
 <td>4.27kg.cm</td>
 <td>9.15kg.cm</td>
 <td>5.2kg.cm</td><td>1.15kgcm</td>
 </tr><tr align="center">
-<td>power(功率)</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
+<td>power</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
 </div>
@@ -109,20 +94,17 @@ At the beginning, since we were unsure of how to start building and making the v
 
 
 ## 2023/04/10 ~ 2023/04/16  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI
+
 **content:**  
 
-- Due to the continuous movement of the vehicle, the power source needs to be changed to a battery. Considering that the motors require a 12V voltage to operate, we need to choose a battery with a voltage of 12V and a current of 3V. There are two options: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is heavier and takes up more space, so we opted for the lithium polymer battery.
-- However, the maximum voltage supported by the Raspberry Pi is only 5.2V. Therefore, we need to use a step-down module to reduce the voltage to prevent damage to the Raspberry Pi. We initially considered using the LM2596 DC-DC adjustable step-down module, as it has a numerical display to show the current output voltage. However, its maximum current capacity is only 3A. Therefore, we chose a constant voltage and constant current step-down power supply module that can handle up to 5A. Though it lacks a numerical display, we will install a low voltage alarm to detect the battery voltage and ensure its safety.
-
-- 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
-- 但是樹梅派最大電壓只能到5.2V，因此我們需要使用降壓板來將電壓降低，以避免樹梅派受損。最初我們打算使用LM2596 DC-DC可調降壓模組，因為它有數值顯示，可以顯示目前輸出電壓的大小。然而，它的最大電流只能接受3A，因此我們選擇了一個能夠支援最大5A電流的恆壓恆流降壓電源模組。儘管沒有數值顯示，我們將安裝一個能夠偵測電池電壓的低電壓警報器，以確定目前電池的電壓是否正常。
-
-####  Batteries(電池)
+- Given the vehicle's continuous movement, a switch to battery power is necessary. Considering the motors' requirement of a 12V voltage for operation, selecting a battery with 12V voltage and 3V current is essential. Two alternatives are available: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is bulkier and heavier, leading us to choose the lithium polymer battery for its space-saving and lightweight advantages.
+- However, the maximum voltage supported by the Raspberry Pi is only 5.2V. Therefore, we need to use a voltage regulator module to reduce the voltage and prevent any potential damage to the Raspberry Pi. In our initial considerations, the LM2596 DC-DC adjustable voltage regulator module seemed promising due to its numerical display feature that indicates the current output voltage. Nonetheless, it's worth noting that this module has a maximum current capacity of only 3A. Considering our requirements, we decided to opt for a constant voltage and constant current step-down power supply module, capable of handling up to 5A. While this alternative lacks a numerical display, we have plans to integrate a low voltage alarm system to monitor the battery voltage closely and ensure its safety.
+####  Batteries
 <div align="center" width=100%>
 <table >
 <tr>
-  <th> 18650 lithium batteries(18650充電電池) </th> <th>Li-Polymer 3S Battery (鋰聚合物電池 3S)
+  <th> 18650 lithium batteries </th> <th>Li-Polymer 3S Battery 
   </th>
 </tr>
 <tr>
@@ -136,12 +118,12 @@ At the beginning, since we were unsure of how to start building and making the v
 </div>
 
 
-#### Step-Down Module(降壓模組)
+#### Voltage Regulator Module
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th> LM2596 DC-DC可調降壓模組 </th> 
-  <th>5A恆壓恆流降壓電源模組 </th>
+  <th> LM2596 DC-DC Adjustable Buck Converter Module </th> 
+  <th>5A Constant Voltage and Constant Current Buck Converter Module </th>
 </tr>
 <tr align="center">
   <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S"/>  </td>
@@ -151,11 +133,11 @@ At the beginning, since we were unsure of how to start building and making the v
 </table>
 </div>
 
-#### Low Voltage Alarm(低電壓警報器)
+#### Low Voltage Alarm
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th> 低電壓警報器</th> 
+  <th> Low Voltage Alarm</th> 
 </tr>
 <tr align="center">
   <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm"/>  </td>
@@ -166,18 +148,17 @@ At the beginning, since we were unsure of how to start building and making the v
 
 
 ## 2023/04/17 ~ 2023/04/23
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI 
 **content:**  
 
- - The next step is the steering motor. After searching the information on the Internet, I found that MG90S and SG90 are commonly used. The difference between MG90S and SG90 is that the front gear is metal, and the latter is plastic. Because we often need to rotate all the time, we choose MG90S, which is not easy to damage  
+- The next step is to choose the controlling motor. After searching for information online, we discovered that MG90S and SG90 are the most common options. The difference between MG90S and SG90 lies in the front gear, with the former being made of metal and the latter being made of plastic. Due to our frequent need for continuous rotation, we have selected the MG90S, as it is less prone to damage.
 
-- 接下來是操控馬達。在網上搜尋資料後，我發現MG90S和SG90是常見的選擇。MG90S和SG90之間的差異在於前齒輪，前者是金屬的，後者則是塑料的。由於我們常常需要持續旋轉，我們選擇了MG90S，因為它不容易損壞。 
 
-#### Servo Motor(伺服馬達)
+#### Servo Motor
 <div align="center">
 <table>
 <tr align="center">
-<th rowspan="2">Model(型號)</th>
+<th rowspan="2">Model(model number)</th>
 <th> MG90S</th>
 <th >SG90</th>
 </tr>
@@ -204,21 +185,18 @@ At the beginning, since we were unsure of how to start building and making the v
 </div>
 
 ## 2023/04/24 ~ 2023/04/30
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI
 **content:**
 
-- When the vehicle is uncertain about the distance ahead, it cannot turn in time when encountering a wall. Therefore, ultrasonic sensors have been added to enable the vehicle to turn before colliding with the wall. 
-- Based on the experiments conducted, it has been found that ultrasonic sensors can only detect obstacles in front of the vehicle. Additionally, they are less effective in detecting distances while the vehicle is swaying from side to side. Therefore, it has been decided to adopt a 360-degree LiDAR sensor for detecting distances in front of, as well as to the left and right sides of the vehicle.
+- When the vehicle is uncertain about the distance ahead, it may fail to turn in time when it encounters a wall. To address this issue, ultrasonic sensors have been incorporated to allow the vehicle to initiate a turn before coming into contact with the wall.
+- Based on the conducted experiments, it has been determined that ultrasonic sensors are only capable of detecting obstacles directly in front of the vehicle. Moreover, their effectiveness diminishes when the vehicle sways from side to side. Therefore, the decision has been made to implement a 360-degree LiDAR sensor. This sensor will not only detect distances in front of the vehicle but also on its left and right sides.
 
-- 車輛在不知道前方距離時，無法在遇到牆壁及時轉彎，因此加上了超音波，這樣就可以在撞到牆之前轉彎。 
-- 經實驗得知，超音波只能偵測前方障礙物距離，且在車輛左右晃動下，不容易偵測距離，因此改採用可以360度偵測的光達感測器，來當車輛的前方、左右邊的距離。
-
-#### Distance Sensor(距離感測器 )
+#### Distance Sensor
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th >ultrasound (超音波)</th> 
-  <th>ydlidar x2(光達)</th>
+  <th >ultrasound </th> 
+  <th>ydlidar x2</th>
 </tr>
 <tr>
   <td>  <img src="./img/4/ultrasound.png" width = "300"  alt="ultrasound" align=center />  </td>
@@ -229,25 +207,19 @@ At the beginning, since we were unsure of how to start building and making the v
 </div>
 
 
-
-
 ## 2023/05/01~ 2023/05/07  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**  
-- To begin assembling the machine, I used LEGO parts from the club to build the base. I attached the motors, Raspberry Pi, and other components onto the chassis and made the machine functional.
-After the vehicle becomes operational, additional sensors are added to allow the vehicle to sense its surroundings and respond accordingly based on the mission requirements.
-- While moving the robot, I noticed that using LEGO blocks for construction resulted in slower and sometimes stuck movements. Therefore, I switched to using a laser cutter to cut wooden boards. With the use of wooden boards, the overall weight of the robot decreased, leading to increased speed and improved energy efficiency. Additionally, I can adjust the size and position of the wooden components based on specific requirements. Unlike LEGO blocks, which come pre-built and often require continuous modifications to fit the robot's needs, wooden boards offer more flexibility and can be custom-designed using Onshape.
+- We began assembling the machine by using LEGO parts from the club to build the base. We then attached the motors, Raspberry Pi, and other components onto the chassis, making the machine functional.
 
-
-- 首先，我們需要組裝機器，所以我利用社團的樂高零件先組裝底座，並將馬達和樹梅派等裝上車，讓車輛能夠行駛。
-隨後，在車輛可以行駛之後，我們進一步添加其他感測器，讓車輛能夠感測場地環境，並根據任務需求做出相應的反應。
-- 在進行測試時，我們發現使用樂高積木的移動速度不快，而且轉彎時重量過重，無法順利轉彎。因此，我們改用雷切機切割木板，使車輛的重量減輕，速度也相應提高，同時還節省了電力。使用木板的好處是可以根據需要自行調整尺寸和位置，而不像樂高需要不斷改裝以適應各種情況。這可以通過 Onshape 等工具進行自由繪畫和調整。
+   After the vehicle becomes operational, we further add additional sensors to enable the vehicle to sense its surroundings and respond accordingly based on mission requirements
+- During testing, we discovered that the vehicle's movement speed using LEGO bricks was not fast, and its weight caused difficulties during turns. Consequently, we opted to use a laser cutting machine to cut wooden boards for the chassis, reducing the vehicle's weight, increasing its speed, and conserving power. Additionally, the use of wooden boards offers the advantage of adjusting dimensions and positions as needed. This adjustment is facilitated through tools like Onshape, allowing for flexible design and modifications without the need for constant adaptations like those required with LEGO in various scenarios."
 
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th>木板  </th>
-  <th>onshape 網站  </th>
+  <th>wooden boards  </th>
+  <th>onshape web page  </th>
   </tr>
 <tr align="center">
   <td><img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
@@ -259,14 +231,11 @@ After the vehicle becomes operational, additional sensors are added to allow the
 
 
 ## 2023/05/08 ~ 2023/05/14  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI   
 **content:**
 
-- Although it is possible to move straight and turn using the ultrasonic sensor, there is a risk of scraping against walls and getting stuck at corners. Therefore, we replaced the ultrasonic sensor with a lidar, which can detect the surroundings and maintain the robot in the center of the road. With the lidar, it can also detect turns ahead.  
-- However, during the actual testing of the YDLIDAR X4 and DLIDAR X2, we also encountered the issue of missing angles (as shown in the attached image). Therefore, in this competition, we decided to use the D100 sensor for vehicle detection and measuring the distance to the side walls. The results obtained from the D100 sensor met our expectations and requirements.
-
-- 雖然可以直行和利用超音波轉彎，但是有可能轉彎時擦到牆壁，然後卡牆邊無法繼續運行，之後我們將超音波改成了光達，光達可以偵測四周，因此可以維持在道路中央，還可以偵測前方轉彎。
-- 然而我們在實測光達時也發現了ydlidar x4、dlidar x2 所遇之缺角問題(如附圖所示)因此，在本次競賽中，我們決定採用D100感測器來進行車輛偵測場邊牆距離，並且使用的結果符合預期的需求。
+- While it's feasible to move in a straight line and execute turns using the ultrasonic sensor, there's a risk of scraping against walls and encountering difficulties at corners. To address this, we substituted the ultrasonic sensor with a lidar, capable of detecting surroundings and maintaining the robot's position at the center of the path. Additionally, the lidar facilitates the identification of upcoming turns.
+- Nevertheless, during actual testing of the YDLIDAR X4 and DLIDAR X2, we encountered a problem with missing angles (as depicted in the attached image). Therefore, for this competition, we opted to employ the D100 sensor for vehicle detection and measuring distances to side walls. The results yielded by the D100 sensor aligned with our expectations and requirements.
 
 <div align="center" width=100%>
 <table >
@@ -286,8 +255,8 @@ After the vehicle becomes operational, additional sensors are added to allow the
 <div align="center" width=100%>
 <table >
 <tr align="center">
-  <th colspan="2">ydlidar x4、X2 距離呈像</th> 
-  <th >lidar 100 距離呈像</th>
+  <th colspan="2">ydlidar x4、X2 distance imaging</th> 
+  <th >lidar 100 distance imaging</th>
 </tr>
 <tr align="center">
   <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
@@ -303,7 +272,7 @@ After the vehicle becomes operational, additional sensors are added to allow the
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**  
 - TCS34725 color sensor 
-  - In the competition, vehicles are required to showcase more functionalities than just turning. To accomplish both clockwise and counterclockwise turns, we need to equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must exercise special caution in selecting the color sensor.
+  - In the competition, vehicles need to showcase more functionalities than just being able to turn. Merely knowing how to turn is insufficient. To achieve clockwise and counterclockwise turns, we must enable the vehicle to sense the color of lines on the ground and make appropriate judgments accordingly. Therefore, when selecting color sensors, we need to exercise special caution.
   - The TCS34725 color sensor has been chosen because it fulfills all the requirements of this competition. Firstly, it boasts exceptional sensing capabilities, enabling it to swiftly and accurately identify the colors of the ground lines. Secondly, the sensor is slim and compact, allowing it to be positioned near the ground without disrupting the vehicle's movements.
   - The high precision of this sensor ensures that the vehicle can accurately detect the colors of the ground lines and perform clockwise or counterclockwise turns as required.
    This is a crucial factor in the vehicle's excellent performance and victory in the competition.In conclusion, the TCS34725 color sensor is a perfect fit for the requirements of this competition.Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieve clockwise and counterclockwise turns, and enhance its performance in the competition. 
