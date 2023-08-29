@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
 
 
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shine Fire On All Cylinders  
 ====
 # <div align="center">Vehicle Chassis Design </div> 
 
@@ -31,13 +31,13 @@ Video link：[How does Ackerman steering geometry work?](https://www.youtube.com
 - ##  MacPher Suspension Systen
 - We have selected this system as our suspension choice due to its advantages over the Double Wishbone Suspension System. The McPherson suspension system offers structural simplicity, ease of manufacturing, and space efficiency. Furthermore, the McPherson suspension system is extensively employed in modern vehicles, especially for front-wheel suspension. 
 
-The main components of the system include:
+    The main components of the system include:
 
-Spring: Typically a combination of springs and shock absorbers, connecting the wheels and the body of the vehicle, absorbing vibrations and impacts from uneven road surfaces.
+    Spring: Typically a combination of springs and shock absorbers, connecting the wheels and the body of the vehicle, absorbing vibrations and impacts from uneven road surfaces.
 
-Upper Arm: Positioned above the vehicle's wheels, connecting the body and the wheels. Its design allows the wheels to move freely in the vertical direction.
+    Upper Arm: Positioned above the vehicle's wheels, connecting the body and the wheels. Its design allows the wheels to move freely in the vertical direction.
 
-Lower Arm: Connecting the vehicle's body and the wheels, assisting in controlling the motion of the wheels.
+    Lower Arm: Connecting the vehicle's body and the wheels, assisting in controlling the motion of the wheels.
 
 - We have designed the following two options. The first option, due to its larger vertical vibration space, cannot effectively restrict the vehicle's vibrations. Therefore, we have chosen the second option, which has a smaller vibration amplitude and can also maintain the vehicle's low center of gravity.
 
