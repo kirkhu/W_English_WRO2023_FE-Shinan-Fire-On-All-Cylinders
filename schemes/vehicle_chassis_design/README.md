@@ -16,7 +16,7 @@ Video link：[How does Ackerman steering geometry work?](https://www.youtube.com
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
 - ## Ackermann_steering_geometry for Photocured 3D Printing(100% Ackermann)
-<img src="" width="500" alt="Ackermann_steering_geometry_lego">
+<div align="center"><img src="./img/turn_mashine.jpg" width="300" alt="Ackermann_steering_geometry_lego"></div>
 
 - ## Vehicle chassis design
 
