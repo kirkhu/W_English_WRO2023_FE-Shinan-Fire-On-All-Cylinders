@@ -15,6 +15,16 @@
 
 - Within the photopolymerization process, a photosensitizer is an essential component. A photosensitizer is a substance capable of absorbing light energy and initiating a chemical reaction. It is typically added to the resin. When light shines on the resin, the photosensitizer absorbs the energy, triggering intermolecular cross-linking reactions that transform the liquid into a solid.
 
+- Photocuring technology is widely used in various fields, including product development, medical devices, jewelry, industrial manufacturing, and more. It enables high-precision, rapid, and customizable manufacturing, offering considerable flexibility in different materials and applications.
 
+<div align="center">
+<table>
+<tr align="center">
+<th>Photocured 3D Printing Finished Product</th>
+<tr align="center">
+<td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
