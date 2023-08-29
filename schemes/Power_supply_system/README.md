@@ -3,6 +3,7 @@
 # <div align="center">Power_supply_system</div> 
 - ###  Power_supply_system of Summary diagram(電源供應系統概要圖) 
 <div align="center"><img src="./img/System_operation_process_power.jpg" width="600"></div>
+
 - Due to the continuous movement of the vehicle, the power source needs to be changed to a battery. Considering that the motors require a 12V voltage to operate, we need to choose a battery with a voltage of 12V and a current of 3V. There are two options: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is heavier and takes up more space, so we opted for the lithium polymer battery.
 
 - 由於車輛需要不斷的移動，因此需要將電力來源改成電池。考慮到馬達需要12V的電壓才能使用，我們選擇了電壓為12V、電流為3A的電池。有兩種選擇：鋰離子電池(18650)和鋰聚合電池(3S)。然而，由於18650電池重量較重且佔據空間較大，因此我們選擇了鋰聚合電池。
@@ -45,5 +46,6 @@
 </tr>
 </table>
 </div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
