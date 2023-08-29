@@ -22,8 +22,24 @@ Video link：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How
 
 - ##  Gear Differential
 - Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
- <img src="./img/LEGO_differential.jpg" width="500" alt="LEGO_differential">
+<div align="center"><img src="./img/gear_differential.png" width="400" alt="LEGO_differential"></div>
 
-- ##  Gear Differential
+- ##  MacPherson Suspension System
+
+
+
+<div align="center">
+ <table>
+    <tr align="center">
+    <th>Big Range</th>
+    <th>Small Range</th>
+    </tr>
+    <tr align="center">
+    <td><img src="./img/MacPherson Suspension System2.png" width = "300" height = "" alt="big range"  /></td>
+    <td><img src="./img/MacPherson Suspension System1.png" width = "300" height = "" alt="small range"  /></td>
+    </tr>
+</table>  
+</div>  
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
