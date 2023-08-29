@@ -739,10 +739,16 @@ We believe that this approach will assist our machine in preparing for a variety
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
-- As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from the use of wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the space available. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
-- Today, we used a 3D printer to fabricate the vehicle chassis, replacing the original wooden boards. There are two advantages to transitioning to this material: firstly, it is lighter than wood, and secondly, it can be manufactured as a single integrated piece. In comparison to wooden boards cut with a laser cutting machine, which must be done piece by piece and then assembled, 3D printing is significantly more convenient.
+- As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
+- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
 
-
+### Team Members' Practice Status
+<div align="center">
+<table>
+<tr  align="center"> 
+<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
+<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
+</tr>
 
 <div align="center">
 <table>
@@ -761,8 +767,11 @@ We believe that this approach will assist our machine in preparing for a variety
 </table>
 </div>
 
+
+
 <small>Data source</small>  
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
 <small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
+
