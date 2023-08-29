@@ -16,4 +16,14 @@
 
 - Photocuring technology is widely used in various fields, including product development, medical devices, jewelry, industrial manufacturing, and more. It enables high-precision, rapid, and customizable manufacturing, offering considerable flexibility in different materials and applications.
 
+<div align="center">
+<table>
+<tr align="center">
+<td>光固化3D列印成品</td>
+<tr align="center">
+<td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
+</tr>
+</table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
