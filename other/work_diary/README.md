@@ -269,29 +269,18 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 
 ## 2023/05/15 ~ 2023/05/21  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**  
 - TCS34725 color sensor 
   - In the competition, vehicles need to showcase more functionalities than just being able to turn. Merely knowing how to turn is insufficient. To achieve clockwise and counterclockwise turns, we must enable the vehicle to sense the color of lines on the ground and make appropriate judgments accordingly. Therefore, when selecting color sensors, we need to exercise special caution.
   - The TCS34725 color sensor has been chosen because it fulfills all the requirements of this competition. Firstly, it boasts exceptional sensing capabilities, enabling it to swiftly and accurately identify the colors of the ground lines. Secondly, the sensor is slim and compact, allowing it to be positioned near the ground without disrupting the vehicle's movements.
-  - The high precision of this sensor ensures that the vehicle can accurately detect the colors of the ground lines and perform clockwise or counterclockwise turns as required.
-   This is a crucial factor in the vehicle's excellent performance and victory in the competition.In conclusion, the TCS34725 color sensor is a perfect fit for the requirements of this competition.Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieve clockwise and counterclockwise turns, and enhance its performance in the competition. 
-  
-   I encountered a bottleneck when using the color sensor to detect lines because I was unsure how to write a Python program to detect the values of blue and orange lines. 
-  With the guidance of my teacher, I successfully completed it. The partial code is as follows:
+  - The high precision of this sensor ensures that the vehicle can accurately detect the colors of the ground lines and perform clockwise or counterclockwise turns as required. This is a crucial factor in the vehicle's excellent performance and its victory in the competition.
 
-- During the implementation testing, it was discovered that we originally used a USB 180-degree adapter (as shown in the lower left image), but it was prone to colliding with obstacles, particularly building blocks. As a result, we made a change and switched to using a USB 3.0 90-degree adapter for the connection. This modification makes it less likely to accidentally hit obstacles when trying to avoid them.
+     In conclusion, the TCS34725 color sensor is a perfect fit for the requirements of this competition. Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieve clockwise and counterclockwise turns, and enhance its performance in the competition.
 
-- TCS34725 顏色感測器 
-  - 車輛在競賽中需要展現更多功能，而僅僅懂得轉彎是不夠的。為了實現順時針和逆時針的轉彎，我們必須裝備車輛以感測地上線的顏色，並相應地做出適當的判斷。因此，我們在挑選顏色感測器時，要特別謹慎。
-  - TCS34725 顏色感測器被選中是因為它滿足了此次競賽的所有要求。首先，它具有出色的感測功能，可以快速而準確地辨識地面線條的顏色。其次，這款感測器相當薄且小巧，這意味著它可以輕鬆貼近地面，不會對車輛的運行造成任何干擾。
-  - 該感測器的高度精確度確保了車輛可以準確識別地面線條的顏色，並且根據需要執行順時針或逆時針的轉彎動作。這是車輛在競賽中表現出色並獲得優勝的關鍵因素之一。
-  
-   綜上所述，TCS34725 顏色感測器是一款完美符合本次競賽要求的感測器。它的薄型設計和高度精確的顏色識別功能使車輛能夠靈活適應地面線條的變化，實現順時針和逆時針的轉彎，從而提升了車輛在競賽中的表現。
+     I encountered a bottleneck when using the color sensor to detect lines because I was unsure how to write a Python program to detect the values of blue and orange lines. With the guidance of my teacher, I successfully overcame this challenge. The partial code is as follows:
+- Additionally, during the implementation testing, we discovered that the original use of a USB 180-degree adapter (as shown in the lower left image) was prone to colliding with obstacles, particularly building blocks. As a result, we made a change and switched to using a USB 3.0 90-degree adapter for the connection. This modification reduces the likelihood of accidentally hitting obstacles while attempting to avoid them.
 
-   在使用顏色感測器偵測線時遇到瓶頸，因為不知道如何使用python撰寫程式來偵測藍、橘線的數值，經過老師指導，成功完成，片段程式如下。
-- 在實作測試時發現，本來我們是使用usb 180度轉接頭(如左下圖)，但容易撞到積木，因此我們改成使用 usb3.0 90 度轉接頭來連接，就不容易避開障礙物時碰到障礙物。
- 
 
 <div align="center" width=100%>
 <table >
@@ -334,7 +323,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 </div>
 
 ## 2023/05/22 ~ 2023/05/28  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**  
 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
@@ -350,7 +339,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <div align="center">
 <table>
 <tr  align="center">
-<th rowspan="2">Model(型號)</td> 
+<th rowspan="2">Model(model number)</td> 
 <th>raspberry pi camera Rev 1.3</th>
 <th >raspberry pi camera Module V2</th>
 <th >raspberry pi camera Module V3</th>
@@ -436,7 +425,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 
 ## 2023/06/05 ~ 2023/06/11 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - During the hardware design process, we encountered a few instances in which the Raspberry Pi controller or IC was damaged due to incorrect power or data cable connections. To prevent such issues, we implemented a solution that involves using male-female connectors for both power supply and data transmission. This approach ensured proper wiring and effectively mitigated the risk of the Raspberry Pi or IC becoming damaged. These design improvements have enhanced the stability of the hardware system, leading to increased overall product reliability and lifespan.
@@ -474,7 +463,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 
 ## 2023/06/19 ~ 2023/06/25   
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - The robot is now able to operate successfully. The next step involves using the camera to avoid obstacles (blocks). Next, we need to detect the distance to the obstacles (blocks) and then identify the color of the blocks. By utilizing the features of OpenCV, we can calculate the distance between the blocks and the robot for obstacle avoidance. Through the implementation of an algorithm, we can control the front wheels to steer around these obstacles.
@@ -497,7 +486,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 
 ## 2023/06/26 ~ 2023/07/02 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - During today's testing, we discovered that the robot tends to misinterpret people wearing red or green clothing in its surroundings as obstacles. This misinterpretation leads it to avoid these individuals unnecessarily, which could potentially result in missing the opportunity to timely avoid the next block. To rectify this issue, we introduced an additional layer of black masking at the top of the camera's field of view. This measure effectively prevents the robot from detecting colors outside of the designated track area. With the implementation of this black masking, the robot will no longer register colors beyond the track area, thus minimizing the likelihood of interference.
@@ -514,7 +503,8 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 </div>
 
 ## 2023/07/03 ~ 2023/07/09 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI 
+
 **content:**
 
 - This week, most of the programming has been completed, and we began testing the robot's success rate. We started with a speed of 50%, and due to its slower pace, the robot responded well for the most part. However, when accelerating to 70% speed, the color sensor occasionally misjudged the track's color due to its high speed. As a result, we modified the turning conditions to use the LiDAR's measurements of the left and right directions for determining the turning direction. This adjustment reduces the likelihood of turning in the wrong direction because of color misjudgment.
@@ -531,7 +521,7 @@ if get_mid_dis > 55:
 
 
 ## 2023/07/10 ~ 2023/07/16 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - The robot is now capable of successfully avoiding obstacles and completing the third lap around the track. The next task is to detect blocks and perform a turnaround maneuver. The turnaround will be executed only if the last block of the second lap is red. Therefore, it is necessary to detect the number of laps. We will use the color sensor to count the number of times the line is crossed and determine whether the set count has been reached.
@@ -555,7 +545,7 @@ if get_mid_dis > 55:
 </div>
 
 ## 2023/07/17 ~ 2023/07/23  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - As the field mission has been roughly completed, we are going to start writing the technical report. Since we are not familiar with the correct technical report format, we have referred to the official website's technical report documentation and found that the report should include the following sections.
@@ -589,7 +579,7 @@ if get_mid_dis > 55:
 </div>
 
 ## 2023/07/24 ~ 2023/07/30  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - We organized and listed the components in the parts inventory, and we uploaded them to the technical documentation.Additionally, we completed the drawing of the vehicle's introduction diagram. Throughout this process, we embarked on a learning journey, gradually familiarizing ourselves with GitHub syntax. Although we are not yet fully proficient in using GitHub, we dedicated time to researching relevant information online and steadily improving our skills. These achievements have brought valuable advancements to our report and project as a whole.
@@ -628,7 +618,7 @@ if get_mid_dis > 55:
 </div> 
 
 ## 2023/07/31 ~ 2023/08/06
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI 
 **content:**  
 
 - As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
@@ -679,7 +669,7 @@ __Team Members' Practice Status__
 </div>
 
 ## 2023/08/07 ~ 2023/08/13
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - This week, with our machine now adjusted to smoothly complete the mission race on the field, we have begun filming an introductory video for the race. In the video, we will showcase the actions our vehicle performs during the mission race, providing explanations through subtitles synchronized with the video.
@@ -708,7 +698,7 @@ __Team Members' Practice Status__
 
 
 ## 2023/08/14 ~ 2023/08/20
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 - As the competition is scheduled for this week, we have intensified our practice efforts, trying out various scenarios and adjusting our program to adapt to a wide range of situations. Experimenting with different scenarios has the advantage of helping us anticipate challenges that our machine might face and making necessary adjustments in advance. Here's our practice approach:
@@ -746,10 +736,11 @@ We believe that this approach will assist our machine in preparing for a variety
 </div>
 
 ## 2023/08/21 ~ 2023/08/27
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
-As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from the use of wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the space available. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
+- As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. We are transitioning from the use of wooden boards to a 3D-printed chassis for a more integrated structure, optimizing the space available. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
+- Today, we used a 3D printer to fabricate the vehicle chassis, replacing the original wooden boards. There are two advantages to transitioning to this material: firstly, it is lighter than wood, and secondly, it can be manufactured as a single integrated piece. In comparison to wooden boards cut with a laser cutting machine, which must be done piece by piece and then assembled, 3D printing is significantly more convenient.
 
 
 
