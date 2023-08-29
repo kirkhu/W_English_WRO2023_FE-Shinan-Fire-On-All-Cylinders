@@ -7,7 +7,7 @@
 ## 3D Printed
 
 
-## Light Curing
+## Photocured 3D Printing
 - Photocuring is a process that uses ultraviolet (UV) or other visible light sources to cure specific materials. It is commonly used in fields such as 3D printing, coatings, and bonding, where materials undergo a chemical reaction under the exposure of light, transforming from liquid or semi-solid states to solid states.
 
 - In 3D printing, photocuring is a common technique known as UV curing 3D printing. In this method, liquid resin is applied layer by layer on a build platform, and then exposed to UV light sources, causing each layer of resin to cure and gradually build up the shape of the object. This technology is capable of producing objects with high precision and complex structures.
@@ -19,7 +19,7 @@
 <div align="center">
 <table>
 <tr align="center">
-<td>光固化3D列印成品</td>
+<th>Photocured 3D Printing Finished Product</th>
 <tr align="center">
 <td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
 </tr>
