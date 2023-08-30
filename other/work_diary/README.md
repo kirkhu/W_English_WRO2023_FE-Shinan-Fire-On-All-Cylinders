@@ -775,5 +775,25 @@ We believe that this approach will assist our machine in preparing for a variety
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
 <small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
 
+
+## 2023/08/28 ~ 2023/09/03
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+Today, we are using a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
+
+<div align="center">
+<table>
+<tr align="center">
+<th>Maintenance of Photocuring 3D Printer</th>
+<th>Finished Product Photos</th> 
+</tr>
+<tr align="center">
+<td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
