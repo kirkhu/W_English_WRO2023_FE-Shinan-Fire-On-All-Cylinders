@@ -5,9 +5,9 @@
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 
-1. Camera Rev 1.3(OmniVision OV5647)
-2. raspberry pi camera Module V2(Sony IMX219)
-3. raspberry pi camera Module V3(Sony IMX708)
+1. Camera Rev 1.3(sensor: OmniVision OV5647)
+2. raspberry pi camera Module V2(sensor: Sony IMX219)
+3. raspberry pi camera Module V3(sensor: Sony IMX708)
 
 - When selecting an appropriate camera, we went through a careful consideration and comparison process. We noticed that Module V2 and V3 cameras are not compatible with the Jetson Nano, which posed a limitation in our selection process. After thoroughly researching multiple camera options, we ultimately decided to use Camera Rev 1.3 as our chosen camera for image recognition.
 

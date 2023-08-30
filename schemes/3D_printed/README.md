@@ -20,6 +20,19 @@
 </table>
 </div>
 
+<div align="center">
+<table>
+<tr align="center">
+<th colspan="3">Working 3D Printer</th>
+</tr>
+<tr>
+<td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/3Dprinting2.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/3Dprinting3.jpg" width="300" alt=" logo"></td>
+</tr>
+</table>
+</div>
+
 ## Light Curing
 
 - Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
@@ -33,9 +46,13 @@
 <div align="center">
 <table>
 <tr align="center">
-<th>Photocured 3D Printing Finished Product</th>
+<th colspan="5">Photocured 3D Printing Finished Product</th>
 <tr align="center">
 <td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
+<td><img src="./img/photoprinting1.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/photoprinting2.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/photoprinting3.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/photoprinting4.jpg" width="300" alt=" logo"></td>
 </tr>
 </table>
 </div>
