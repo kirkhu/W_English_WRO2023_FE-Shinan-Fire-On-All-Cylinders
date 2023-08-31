@@ -770,15 +770,20 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 <div align="center">
 <table>
 <tr align="center">
-<th>Maintenance of Photocuring 3D Printer</th>
-<th>Finished Product Photos</th> 
+<td rowspan="2">Controller</td>
+<td>Jetson Nano</td>
+<td>Raspberry Pi 4B</td>
+<tr align="center">
+<td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
+<td><img src="./img/8/raspberry_pi_4.png" width="200" alt="work_daily"></td>
 </tr>
 <tr align="center">
-<td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
-<td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
-</tr>
+<td>Computational efficiency</td>
+<td>472 GFLOPs</td>
+<td>13.5 GFLOPs</td>
 </table>
 </div>
+
 
 ## 2023/09/04 ~ 2023/09/10
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
@@ -807,17 +812,13 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 <div align="center">
 <table>
 <tr align="center">
-<td rowspan="2">Controller</td>
-<td>Jetson Nano</td>
-<td>Raspberry Pi 4B</td>
-<tr align="center">
-<td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
-<td><img src="./img/8/raspberry_pi_4.png" width="200" alt="work_daily"></td>
+<th>Maintenance of Photocuring 3D Printer</th>
+<th>Finished Product Photos</th> 
 </tr>
 <tr align="center">
-<td>Computational efficiency</td>
-<td>472 GFLOPs</td>
-<td>13.5 GFLOPs</td>
+<td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
+</tr>
 </table>
 </div>
 
