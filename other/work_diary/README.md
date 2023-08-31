@@ -742,7 +742,7 @@ We believe that this approach will assist our machine in preparing for a variety
 **content:**
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
-- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+
 
 #### 3D printed product
 <div align="center">
@@ -752,22 +752,7 @@ We believe that this approach will assist our machine in preparing for a variety
 <th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
 </tr>
 
-<div align="center">
-<table>
-<tr align="center">
-<td rowspan="2">Controller</td>
-<td>Jetson Nano</td>
-<td>Raspberry Pi 4B</td>
-<tr align="center">
-<td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
-<td><img src="./img/8/raspberry_pi_4.png" width="200" alt="work_daily"></td>
-</tr>
-<tr align="center">
-<td>Computational efficiency</td>
-<td>472 GFLOPs</td>
-<td>13.5 GFLOPs</td>
-</table>
-</div>
+
 
 
 
@@ -794,6 +779,53 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </tr>
 </table>
 </div>
+
+## 2023/09/04 ~ 2023/09/10
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+## 2023/09/11 ~ 2023/09/17
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+## 2023/09/18 ~ 2023/09/24
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+## 2023/09/25 ~ 2023/10/01
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+
+<div align="center">
+<table>
+<tr align="center">
+<td rowspan="2">Controller</td>
+<td>Jetson Nano</td>
+<td>Raspberry Pi 4B</td>
+<tr align="center">
+<td><img src="./img/8/jeston_nano.png" width="200" alt="work_daily"></td>
+<td><img src="./img/8/raspberry_pi_4.png" width="200" alt="work_daily"></td>
+</tr>
+<tr align="center">
+<td>Computational efficiency</td>
+<td>472 GFLOPs</td>
+<td>13.5 GFLOPs</td>
+</table>
+</div>
+
+## 2023/10/02 ~ 2023/10/08
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
