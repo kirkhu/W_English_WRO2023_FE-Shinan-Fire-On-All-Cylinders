@@ -744,29 +744,6 @@ We believe that this approach will assist our machine in preparing for a variety
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
 
-#### 3D printed product
-<div align="center">
-<table>
-<tr  align="center"> 
-<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
-<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
-</tr>
-
-
-
-
-
-<small>Data source</small>  
-<small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
-<small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
-
-
-## 2023/08/28 ~ 2023/09/03
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-
-Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
-
 <div align="center">
 <table>
 <tr align="center">
@@ -785,29 +762,17 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </div>
 
 
-## 2023/09/04 ~ 2023/09/10
+
+<small>Data source</small>  
+<small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
+<small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
+
+
+## 2023/08/28 ~ 2023/09/03
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
-
-
-## 2023/09/11 ~ 2023/09/17
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-
-
-
-## 2023/09/18 ~ 2023/09/24
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-
-
-
-## 2023/09/25 ~ 2023/10/01
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-
-- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
 
 <div align="center">
 <table>
@@ -822,11 +787,42 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </table>
 </div>
 
-## 2023/10/02 ~ 2023/10/08
+
+## 2023/09/04 ~ 2023/09/10
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 
+
+## 2023/09/11 ~ 2023/09/17
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+
+## 2023/09/18 ~ 2023/09/24
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+
+## 2023/09/25 ~ 2023/10/01
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+
+
+#### 3D printed product
+<div align="center">
+<table>
+<tr  align="center"> 
+<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
+<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
