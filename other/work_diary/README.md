@@ -813,11 +813,13 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 <table>
 <tr align="center">
 <th>Maintenance of Photocuring 3D Printer</th>
-<th>Finished Product Photos</th> 
+<th colspan="3">Finished Product Photos</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
 <td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-1.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-2.jpg" width="300" alt="work_daily"></td>
 </tr>
 </table>
 </div>
