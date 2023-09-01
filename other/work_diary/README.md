@@ -770,6 +770,41 @@ We believe that this approach will assist our machine in preparing for a variety
 
 ## 2023/08/28 ~ 2023/09/03
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**  
+Today, we started learning how to use the stereolithography 3D printer and how to maintain it after printing. Our senior demonstrated the process to us. Here are the maintenance steps:
+
+1. After printing is complete, the finished product will be stuck to the build plate.
+2. Remove the build plate and wipe off the resin, being careful not to touch the finished product.
+3. Rinse off easily removable supports with water.
+4. Spray alcohol onto the finished product, making sure to reach every corner.
+5. Wipe the finished product to remove excess resin.
+6. Carefully detach the finished product using tools.
+7. Use a knife to scrape away any remaining support material on the finished product.
+8. Rinse off any fine residue with water.
+9. Wipe the build plate clean of resin, and it's ready for the next print.
+
+<div align="center">
+<table>
+<tr align="center">
+<td><img src="./img/9/0901-1.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-3.jpg" width="200" alt="work_daily"></td> 
+<td><img src="./img/9/0901-4.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr align="center">
+<td><img src="./img/9/0901-5.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-7.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-6.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr>
+<td><img src="./img/9/0901-9.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-12.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-8.jpg" width="200" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
+## 2023/09/04 ~ 2023/09/10
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
 Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
@@ -786,13 +821,6 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </tr>
 </table>
 </div>
-
-
-## 2023/09/04 ~ 2023/09/10
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-
-
 
 ## 2023/09/11 ~ 2023/09/17
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  

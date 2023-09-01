@@ -58,4 +58,37 @@
 </table>
 </div>
 
+A stereolithography 3D printer may become unusable if not regularly maintained, as resin buildup can occur. Hence, regular cleaning is essential. To understand how to properly maintain the machine, we sought guidance from our senior, who graciously demonstrated the process to us.
+the maintenance steps:
+
+1. After printing is complete, the finished product will be stuck to the build plate.
+2. Remove the build plate and wipe off the resin, being careful not to touch the finished product.
+3. Rinse off easily removable supports with water.
+4. Spray alcohol onto the finished product, making sure to reach every corner.
+5. Wipe the finished product to remove excess resin.
+6. Carefully detach the finished product using tools.
+7. Use a knife to scrape away any remaining support material on the finished product.
+8. Rinse off any fine residue with water.
+9. Wipe the build plate clean of resin, and it's ready for the next print.
+
+<div align="center">
+<table>
+<tr align="center">
+<td><img src="./img/0901-1.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/0901-3.jpg" width="200" alt="work_daily"></td> 
+<td><img src="./img/0901-4.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr align="center">
+<td><img src="./img/0901-5.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/0901-7.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/0901-6.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr>
+<td><img src="./img/0901-9.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/0901-12.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/0901-8.jpg" width="200" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
