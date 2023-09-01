@@ -1,3 +1,5 @@
+<div align=center><img src="../../other/img/logo.png" width="600" alt=" logo"></td></div>
+
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Hardware Assembly Instructions.</div>
@@ -46,13 +48,12 @@
 <div align="center">
 <table>
 <tr align="center">
-<th colspan="5">Photocured 3D Printing Finished Product</th>
+<th colspan="2">Photocured 3D Printing Finished Product</th>
+<th>Light Curing Mashine</th>
 <tr align="center">
 <td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
-<td><img src="./img/photoprinting1.jpg" width="300" alt=" logo"></td>
-<td><img src="./img/photoprinting2.jpg" width="300" alt=" logo"></td>
 <td><img src="./img/photoprinting3.jpg" width="300" alt=" logo"></td>
-<td><img src="./img/photoprinting4.jpg" width="300" alt=" logo"></td>
+<td><img src="./img/3D_photoprinter.jpeg" width="300" alt=" logo"></td>
 </tr>
 </table>
 </div>
