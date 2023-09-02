@@ -20,9 +20,18 @@
         - Anode: The anode is usually made of carbon materials such as graphite or other carbon compounds. During charging, lithium ions are released from the anode, and during discharge, they return to the anode.  
         - Cathode: The cathode is one of the essential components in lithium polymer batteries and is typically made of lithium-containing metal oxides or phosphate materials, similar to the cathode in traditional lithium-ion batteries.  
         - Lithium Salt: The electrolyte of lithium polymer batteries contains lithium salt, which enhances the electrolyte's conductivity.  
-        - Electrode Connectors: The internal electrodes of lithium polymer batteries are often made of thin, sheet-like lithium alloy materials, and they are connected to the external circuit of the battery using connectors.   
-    - Battery Photo  
-    <img src="./img/lipo_battery.png" width = "300" height = "" alt="battery" align="center" />   
+        - Electrode Connectors: The internal electrodes of lithium polymer batteries are often made of thin, sheet-like lithium alloy materials, and they are connected to the external circuit of the battery using connectors.
+        <div align="center">
+        <table>
+        <tr align="center">
+        <th>Battery photo</th>
+        </tr>
+        <tr>
+        <td><img src="./img/lipo_battery.png" width = "300"  alt="Discharging Equipment"  /></td>
+        </tr>
+        </table>
+        </div>         
+
 
  
  
