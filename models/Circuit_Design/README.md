@@ -1,4 +1,4 @@
-<div align="center"><img src="../../other/img/logo.jpg" width="600" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
 
 2023WRO Future Engineersn Shinan Fire On All Cylinders  
 ====
