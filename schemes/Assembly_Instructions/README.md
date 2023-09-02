@@ -264,11 +264,11 @@ __Usage:__
     <td> 
 
 __Specifications:__ 
-
+- Viewing Angle: 72 degrees  
 __Usage:__ 
-- Collecting images for image recognition. 
+- Expanded the camera's field of view by using a wide-angle lens.
   </td><td>
-<img src="../Camera/img/" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
+<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
     </td>
   </tr>
 </table>
