@@ -265,6 +265,7 @@ __Usage:__
 
 __Specifications:__ 
 - Viewing Angle: 72 degrees  
+
 __Usage:__ 
 - Expanded the camera's field of view by using a wide-angle lens.
   </td><td>
