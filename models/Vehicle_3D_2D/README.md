@@ -12,8 +12,8 @@
 <div align="center">
 <table>
 <tr align="center">
-<td><img src="./img/3D-down.png" width="300" alt="car_board"></td>
-<td><img src="./img/3D-down2.png" width="300" alt="car_board"></td>
+<td><img src="" width="300" alt="car_board"></td>
+<td><img src="" width="300" alt="car_board"></td>
 </tr>
 </table>
 </div>
