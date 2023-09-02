@@ -252,7 +252,7 @@ __Usage:__
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
+<img src="../Camera/img/V1.jpeg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
     </td>
   </tr>
 </table>
