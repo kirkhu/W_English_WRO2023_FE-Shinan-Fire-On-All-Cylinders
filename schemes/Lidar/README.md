@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Introduction to Lidar(光達介紹)</div> 
+# <div align="center">Introduction to Lidar</div> 
 ## English
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
@@ -32,8 +32,9 @@ This system adopts triangulation-based distance measurement technology and utili
   - Detection Frequency: 2300 Hz
   - Scanning Frequency: 6 Hz
   - Dimensions: Approximately 96.3 * 59.8 * 38.8 mm
-- The difference between ultrasonic sensors and Lidar:  
-Ultrasonic sensors can only detect in one direction, limited to the front, used for distance measurement and obstacle detection. Lidar, on the other hand, provides a 360-degree panoramic coverage, enabling simultaneous sensing of surroundings, used for high-precision environmental perception and map creation, reducing collision risks. It is widely applied in autonomous driving, environmental modeling, etc. Lidar surpasses ultrasonic sensors in providing comprehensive environmental information, making it superior in robot navigation.  
+- The difference between ultrasonic sensors and Lidar is as follows:
+
+  Ultrasonic sensors can only detect in one direction, typically limited to the front, and are mainly used for distance measurement and obstacle detection. In contrast, Lidar provides 360-degree panoramic coverage, enabling simultaneous sensing of the surroundings. It is utilized for high-precision environmental perception and map creation, reducing collision risks. Lidar finds extensive applications in autonomous driving, environmental modeling, and more. It surpasses ultrasonic sensors in providing comprehensive environmental information, making it superior for robot navigation.
 
 - Issues encountered with different brands of Lidar:  
 One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, compared to the YDLidar X2 with 3000 Hz and X4 with 5000 Hz. The lower frequency results in a slower response time.  
