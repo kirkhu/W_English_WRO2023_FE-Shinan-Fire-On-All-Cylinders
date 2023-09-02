@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Fire On All Cylinders  
 =====
-# <div align="center">Introduction to Lidar(光達介紹)</div> 
+# <div align="center">Introduction to Lidar</div> 
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
     __Working principle:__
@@ -40,7 +40,7 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were issues with detecting obstacles, leading to missing angles. Therefore, in this competition, we decided to utilize the D100 sensor for vehicle detection and measuring the distance to the arena walls. The results obtained using this sensor met our expectations.__
 
 
-- #### The types of LiDAR used in the actual testing.(實測所選擇的光達種類)
+- #### The types of LiDAR used in the actual testing.
 <div align="center">
     
 |  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
@@ -48,7 +48,7 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
 |<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 </div> 
 
-- #### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>(實測光達ydlidar x4、ydlidar x2 所遇之缺角問題)
+- #### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>
 
 <div align="center">
  <table>
