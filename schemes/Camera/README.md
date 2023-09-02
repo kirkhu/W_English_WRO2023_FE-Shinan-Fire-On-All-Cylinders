@@ -46,7 +46,8 @@
 </tr>
 </table>
 </div>
-<small>Data source:
+<small>Data source:  
+
 [Rev 1.3](https://www.uctronics.com/5mp-ov5647-download-full-datasheet-pdf)
 
 </small>
