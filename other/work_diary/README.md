@@ -188,6 +188,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 ## 2023/04/24 ~ 2023/04/30
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI
+
 **content:**
 
 - When the vehicle is uncertain about the distance ahead, it may fail to turn in time when it encounters a wall. To address this issue, ultrasonic sensors have been incorporated to allow the vehicle to initiate a turn before coming into contact with the wall.
