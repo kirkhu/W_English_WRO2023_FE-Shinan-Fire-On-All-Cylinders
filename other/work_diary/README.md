@@ -744,6 +744,7 @@ We believe that this approach will assist our machine in preparing for a variety
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
+After switching to Jetson Nano, we encountered issues with the Camera V2 not functioning. It was later discovered that V2 and V3 cameras are designed specifically for use with Raspberry Pi. Consequently, we decided to replace them with two Camera Rev1.3 units that are compatible with microcomputers in general. Additionally, we modified one of the cameras to include a wide-angle lens.
 
 <div align="center">
 <table>
@@ -762,7 +763,17 @@ We believe that this approach will assist our machine in preparing for a variety
 </table>
 </div>
 
-
+<div align=center>
+<table>
+<tr align=center>
+<th>Camera Rev1.3</th>
+<th>160 width-angle</th>
+</tr><tr>
+<td><img src="../../schemes/Camera/img/V1.jpeg" width="200" alt="work_daily"></td>
+<td><img src="../../schemes/Camera/img/v1_width-angle.jpg" width="200" alt="work_daily"></td>
+</tr>
+</table>
+</div>
 
 <small>Data source</small>  
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
