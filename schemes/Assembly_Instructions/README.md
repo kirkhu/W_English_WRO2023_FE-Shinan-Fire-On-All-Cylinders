@@ -245,7 +245,7 @@ __Usage:__
     <td> 
 
 __Specifications:__ 
-- Viewing Angle: 160 degrees  
+- Viewing Angle: 72 degrees  
 - Interface: CSI (Camera Serial Interface)  
 
 __Usage:__  
@@ -253,6 +253,22 @@ __Usage:__
   </td>
     <td >
 <img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
+    </td>
+  </tr>
+</table>
+
+
+### Camera wide-angle module 
+<table border=0 width="100%" >
+  <tr>
+    <td> 
+
+__Specifications:__ 
+
+__Usage:__ 
+- Collecting images for image recognition. 
+  </td><td>
+<img src="../Camera/img/" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
     </td>
   </tr>
 </table>
