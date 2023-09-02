@@ -23,6 +23,7 @@ orange_color = -1
 blue_color = -1
 
 #The function for reading the value of the white area
+def white_area_read():
     global white_color
     print('=======white area=======')
     print('wait button')
@@ -76,7 +77,7 @@ def blue_line_read():
     button.wait_release()
     blue_color = low_color
 
-#Record the values to the color_sensor.p file
+#Record the values to the color_sensor.p file(將數值記錄到color_sensor.p檔案裡)
 def file_write():
     print('\n=======file write down=======')
     print('Orange:' + str(orange_color))
