@@ -5,11 +5,11 @@
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 
-1. Camera Rev 1.3(OmniVision OV5647)
-2. raspberry pi camera Module V2(Sony IMX219)
-3. raspberry pi camera Module V3(Sony IMX708)
+1. Camera Rev 1.3(sensor: OmniVision OV5647)
+2. raspberry pi camera Module V2(sensor: Sony IMX219)
+3. raspberry pi camera Module V3(sensor: Sony IMX708)
 
-- Considering that V3 is not compatible with our existing Raspberry Pi operating system, we decided not to use that version.The Jetson Nano is not compatible with the Raspberry Pi universal camera, so we are unable to use the V2 camera. Consequently, we have no choice but to opt for the Camera Rev 1.3 that is compatible with the Jetson Nano.
+- When selecting an appropriate camera, we went through a careful consideration and comparison process. We noticed that Module V2 and V3 cameras are not compatible with the Jetson Nano, which posed a limitation in our selection process. After thoroughly researching multiple camera options, we ultimately decided to use Camera Rev 1.3 as our chosen camera for image recognition.
 
 #### Camera Module
 <div align="center">
@@ -39,13 +39,17 @@
 <td>4608 * 2592 pix</td>
 </tr>
 <tr align="center">
-<td>FPS幀率</td>
-<td>30p MAX</td>
+<td>FPS</td>
+<td>60p MAX</td>
 <td>90p MAX</td>
 <td>120p MAX</td>
 </tr>
 </table>
 </div>
+<small>Data source:
+[Rev 1.3](https://www.uctronics.com/5mp-ov5647-download-full-datasheet-pdf)
+
+</small>
 
 - During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
 

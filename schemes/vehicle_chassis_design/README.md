@@ -15,8 +15,11 @@ Video link：[How does Ackerman steering geometry work?](https://www.youtube.com
 
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
-- ## Ackermann_steering_geometry for LEGO(0% Ackermann)
-<img src="" width="500" alt="Ackermann_steering_geometry_lego">
+- ## Ackermann_steering_geometry for Photocured 3D Printing(100% Ackermann)
+<div align="center"><img src="./img/turn_mashine.jpg" width="300" alt="Ackermann_steering_geometry_lego"> <img src="../3D_printed/img/light_curing.png" width="300" alt="Ackermann_steering_geometry_lego"></div> 
+The components highlighted within the red box are the Ackermann steering mechanism that we have produced using photocured 3D printing.
+
+
 
 - ## Vehicle chassis design
 
@@ -27,6 +30,7 @@ Video link：[How does Ackerman steering geometry work?](https://www.youtube.com
 - ##  Gear Differential
 - Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
 <div align="center"><img src="./img/gear_differential.png" width="400" alt="LEGO_differential"></div>
+
 
 
 - ##  MacPher Suspension Systen

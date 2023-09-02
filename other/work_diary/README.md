@@ -743,15 +743,7 @@ We believe that this approach will assist our machine in preparing for a variety
 **content:**
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
-- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
 
-#### 3D printed product
-<div align="center">
-<table>
-<tr  align="center"> 
-<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
-<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
-</tr>
 
 <div align="center">
 <table>
@@ -775,6 +767,93 @@ We believe that this approach will assist our machine in preparing for a variety
 <small>Data source</small>  
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
 <small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
+
+
+## 2023/08/28 ~ 2023/09/03
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**  
+Today, we started learning how to use the stereolithography 3D printer and how to maintain it after printing. Our senior demonstrated the process to us. Here are the maintenance steps:
+
+1. After printing is complete, the finished product will be stuck to the build plate.
+2. Remove the build plate and wipe off the resin, being careful not to touch the finished product.
+3. Rinse off easily removable supports with water.
+4. Spray alcohol onto the finished product, making sure to reach every corner.
+5. Wipe the finished product to remove excess resin.
+6. Carefully detach the finished product using tools.
+7. Use a knife to scrape away any remaining support material on the finished product.
+8. Rinse off any fine residue with water.
+9. Wipe the build plate clean of resin, and it's ready for the next print.
+
+<div align="center">
+<table>
+<tr align="center">
+<td><img src="./img/9/0901-1.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-3.jpg" width="200" alt="work_daily"></td> 
+<td><img src="./img/9/0901-4.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr align="center">
+<td><img src="./img/9/0901-5.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-7.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-6.jpg" width="200" alt="work_daily"></td>
+</tr>
+<tr>
+<td><img src="./img/9/0901-9.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-12.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/0901-8.jpg" width="200" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
+## 2023/09/04 ~ 2023/09/10
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
+
+<div align="center">
+<table>
+<tr align="center">
+<th>Maintenance of Photocuring 3D Printer</th>
+<th colspan="3">Finished Product Photos</th> 
+</tr>
+<tr align="center">
+<td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-1.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-2.jpg" width="300" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
+## 2023/09/11 ~ 2023/09/17
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+
+## 2023/09/18 ~ 2023/09/24
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
+
+
+
+## 2023/09/25 ~ 2023/10/01
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+
+
+#### 3D printed product
+<div align="center">
+<table>
+<tr  align="center"> 
+<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
+<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
+</tr>
+</table>
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
