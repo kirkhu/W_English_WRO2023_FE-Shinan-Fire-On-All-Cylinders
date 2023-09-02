@@ -91,4 +91,33 @@
 </table>
 </div>
 
+## Comparison between Stacked 3D Printing and Photocuring 
+The following data was obtained during the experiment when printing the Ackermann steering mechanism
+
+
+<div align="center">
+<table>
+<tr align="center">
+<th rowspan="2">Photo</th>
+<th> Stacked 3D Printing Machine</th>
+<th> Light Curing Mashine</th>
+</tr><tr align="center">
+<td><img src="./img/all_3Dprinter.jpg" width=200 alt="photocured" ></td>
+<td><img src="./img/3D_photoprinter.jpeg" width=250 alt="photocured" ></td>
+</tr><tr align="center">
+<td>The required printing time</td>
+<td>Faster</td>
+<td>Slower</td>
+</tr><tr>
+<td>Exterior</td>
+<td>Exterior with signs of layering </td>
+<td>Smooth</td>
+</tr><tr>
+<td>Hardness</td>
+<td>Depends on the density</td>
+<td>Depends on the exposure time</td>
+</tr>
+</table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
