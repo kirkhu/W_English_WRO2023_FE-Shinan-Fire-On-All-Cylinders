@@ -120,4 +120,14 @@ The following data was obtained during the experiment when printing the Ackerman
 </table>
 </div>
 
+<div align=center>
+<table>
+<tr>
+<th>Secondary curing</th>
+</tr><tr>
+<td><img src="./img/2.jpg" width=300 alt="light_again"></td>
+</tr>
+<table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
