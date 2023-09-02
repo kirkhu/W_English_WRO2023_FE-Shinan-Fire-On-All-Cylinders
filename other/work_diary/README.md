@@ -836,13 +836,7 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
-
-
-
-## 2023/09/25 ~ 2023/10/01
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
-**content:**
-- Other changes include: we have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
+- We have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
 
 
 #### 3D printed product
@@ -854,6 +848,12 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </tr>
 </table>
 </div>
+
+
+## 2023/09/25 ~ 2023/10/01
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
+**content:**
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
