@@ -61,7 +61,7 @@
 <th>With the wide-angle lens</th>
 </tr>
 <tr align="center">
-<td><img src="./img/v1.jpeg" width=200 alt="site" ></td>
+<td><img src="./img/V1.jpeg" width=200 alt="site" ></td>
 <td><img src="./img/v1_width-angle.jpg" width=200 alt="site" >
 </td>
 </tr>
