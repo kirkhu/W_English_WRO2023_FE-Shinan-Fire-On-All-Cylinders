@@ -830,8 +830,8 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 <div align="center">
 <table>
 <tr align="center">
-<th>3D printer</th>
-<th>3D printer working</th> 
+<th>3D Printer</th>
+<th>3D Printer working</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/9/all_3Dprinter.jpg" width="200" alt="work_daily"></td>
