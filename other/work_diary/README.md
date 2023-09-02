@@ -808,7 +808,9 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN,RUEI  
 **content:**
 
-Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
+- Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
+
+- This week, our club acquired a stacked 3D printer, which means we can now start working on vehicle integration. One of the advantages of using a 3D printer is that we can create threads, which allows for more secure fastening of screws. With vehicle integration, we can reduce the overall size, making the machine more lightweight.
 
 <div align="center">
 <table>
@@ -821,6 +823,19 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 <td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
 <td><img src="./img/9/turn_mashine-1.jpg" width="300" alt="work_daily"></td>
 <td><img src="./img/9/turn_mashine-2.jpg" width="300" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+<table>
+<tr align="center">
+<th>3D printer</th>
+<th>3D printer working</th> 
+</tr>
+<tr align="center">
+<td><img src="./img/9/all_3Dprinter.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/3D_working.jpg" width="300" alt="work_daily"></td>
 </tr>
 </table>
 </div>
