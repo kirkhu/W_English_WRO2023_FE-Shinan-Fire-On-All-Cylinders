@@ -1,4 +1,4 @@
-# <div align="center">Introduction to NoMachine (nomachine介紹)</div> 
+# <div align="center">Introduction to NoMachine</div> 
 
  # ＮoMachine
  
