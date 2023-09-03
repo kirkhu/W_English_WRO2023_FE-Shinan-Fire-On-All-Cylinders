@@ -776,7 +776,7 @@ After switching to Jetson Nano, we encountered issues with the Camera V2 not fun
 </table>
 </div>
 
-<small>Data source</small>  
+<small>Data source:</small>  
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
 <small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
 
