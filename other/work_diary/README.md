@@ -27,7 +27,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 </div>
 
 ## 2023/03/27 ~ 2023/04/02
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:** 
 - To ensure the smooth progression of the competition, our team carefully planned the completion timeline for each stage of the competition activities.
 - After reading the rules, we began the process of selecting our controller. Upon reviewing previous competitions, we observed that the majority of participants used either Raspberry Pi or Jetson Nano as their controllers. Based on this information, I had to decide between these two options. Ultimately, I opted for the Raspberry Pi 4B due to its smaller size and more affordable price compared to the Jetson Nano.
@@ -151,7 +151,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 
 ## 2023/04/17 ~ 2023/04/23
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  I 
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**  
 
 - The next step is to choose the controlling motor. After searching for information online, we discovered that MG90S and SG90 are the most common options. The difference between MG90S and SG90 lies in the front gear, with the former being made of metal and the latter being made of plastic. Due to our frequent need for continuous rotation, we have selected the MG90S, as it is less prone to damage.
@@ -327,7 +327,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 </div>
 
 ## 2023/05/22 ~ 2023/05/28  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:**  
 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
@@ -404,7 +404,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 - In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
 
 ## 2023/05/29 ~ 2023/06/04  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:**
 
 - By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
@@ -445,7 +445,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 </div>
 
 ## 2023/06/12 ~ 2023/06/18
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
 **content:**
 
 - Before dodging the blocks, we need to complete the basic task of circling the track three times. During this circling process, we noticed the possibility of the vehicle rubbing against the walls while turning. To address this, we utilize the 360-degree detection capability of LiDAR to keep the vehicle centered on the track. By subtracting the distances on the left and right sides, we obtain an error value, which is then corrected using the servo motor to ensure the vehicle continues to travel along the center of the track.
@@ -467,11 +467,11 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 
 ## 2023/06/19 ~ 2023/06/25   
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:**
 
-- The robot is now able to operate successfully. The next step involves using the camera to avoid obstacles (blocks). Next, we need to detect the distance to the obstacles (blocks) and then identify the color of the blocks. By utilizing the features of OpenCV, we can calculate the distance between the blocks and the robot for obstacle avoidance. Through the implementation of an algorithm, we can control the front wheels to steer around these obstacles.
-- However, there is an issue at the corners where the robot cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners.
+- The vehicle is now able to operate successfully. The next step involves using the camera to avoid obstacles (blocks). Next, we need to detect the distance to the obstacles (blocks) and then identify the color of the blocks. By utilizing the features of OpenCV, we can calculate the distance between the blocks and the vehicle for obstacle avoidance. Through the implementation of an algorithm, we can control the front wheels to steer around these obstacles.
+- However, there is an issue at the corners where the vehicle cannot avoid obstacles in a timely manner. To address this, we need to combine the gyroscope's readings with the output values from the algorithm to successfully navigate around corners.
 
 <div align="center">
 <table>
@@ -490,7 +490,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 
 ## 2023/06/26 ~ 2023/07/02 
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
 - During today's testing, we discovered that the robot tends to misinterpret people wearing red or green clothing in its surroundings as obstacles. This misinterpretation leads it to avoid these individuals unnecessarily, which could potentially result in missing the opportunity to timely avoid the next block. To rectify this issue, we introduced an additional layer of black masking at the top of the camera's field of view. This measure effectively prevents the robot from detecting colors outside of the designated track area. With the implementation of this black masking, the robot will no longer register colors beyond the track area, thus minimizing the likelihood of interference.
@@ -528,7 +528,7 @@ if get_mid_dis > 55:
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
 **content:**
 
-- The robot is now capable of successfully avoiding obstacles and completing the third lap around the track. The next task is to detect blocks and perform a turnaround maneuver. The turnaround will be executed only if the last block of the second lap is red. Therefore, it is necessary to detect the number of laps. We will use the color sensor to count the number of times the line is crossed and determine whether the set count has been reached.
+- The vehicle is now capable of successfully avoiding obstacles and completing the third lap around the track. The next task is to detect blocks and perform a turnaround maneuver. The turnaround will be executed only if the last block of the second lap is red. Therefore, it is necessary to detect the number of laps. We will use the color sensor to count the number of times the line is crossed and determine whether the set count has been reached.
 
 - If the specified count has not yet been achieved, the system will continue to record the color of the nearest traffic sign until the count of line crossings is greater than or equal to the set count. At this point, the color recording will cease.
 
@@ -549,7 +549,7 @@ if get_mid_dis > 55:
 </div>
 
 ## 2023/07/17 ~ 2023/07/23  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
 - As the field mission has been roughly completed, we are going to start writing the technical report. Since we are not familiar with the correct technical report format, we have referred to the official website's technical report documentation and found that the report should include the following sections.
@@ -583,7 +583,7 @@ if get_mid_dis > 55:
 </div>
 
 ## 2023/07/24 ~ 2023/07/30  
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:**
 
 - We organized and listed the components in the parts inventory, and we uploaded them to the technical documentation.Additionally, we completed the drawing of the vehicle's introduction diagram. Throughout this process, we embarked on a learning journey, gradually familiarizing ourselves with GitHub syntax. Although we are not yet fully proficient in using GitHub, we dedicated time to researching relevant information online and steadily improving our skills. These achievements have brought valuable advancements to our report and project as a whole.
@@ -622,7 +622,7 @@ if get_mid_dis > 55:
 </div> 
 
 ## 2023/07/31 ~ 2023/08/06
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
 **content:**  
 
 - As the deadline for submitting the technical report is next week, we have begun revising the content of the technical documentation. We are also adjusting the website according to the official grading criteria and continuously adding to the technical report.
@@ -673,7 +673,7 @@ __Team Members' Practice Status__
 </div>
 
 ## 2023/08/07 ~ 2023/08/13
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
 - This week, with our machine now adjusted to smoothly complete the mission race on the field, we have begun filming an introductory video for the race. In the video, we will showcase the actions our vehicle performs during the mission race, providing explanations through subtitles synchronized with the video.
@@ -702,7 +702,7 @@ __Team Members' Practice Status__
 
 
 ## 2023/08/14 ~ 2023/08/20
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI    
 **content:**
 
 - As the competition is scheduled for this week, we have intensified our practice efforts, trying out various scenarios and adjusting our program to adapt to a wide range of situations. Experimenting with different scenarios has the advantage of helping us anticipate challenges that our machine might face and making necessary adjustments in advance. Here's our practice approach:
@@ -817,12 +817,10 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 </div>
 
 ## 2023/09/04 ~ 2023/09/10
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
-- Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
-
-- This week, our club acquired a stacked 3D printer, which means we can now start working on vehicle integration. One of the advantages of using a 3D printer is that we can create threads, which allows for more secure fastening of screws. With vehicle integration, we can reduce the overall size, making the machine more lightweight.
+Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
 
 <div align="center">
 <table>
@@ -839,19 +837,6 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 </table>
 </div>
 
-<div align="center">
-<table>
-<tr align="center">
-<th>3D Printer</th>
-<th>3D Printer working</th> 
-</tr>
-<tr align="center">
-<td><img src="./img/9/all_3Dprinter.jpg" width="200" alt="work_daily"></td>
-<td><img src="./img/9/3D_working.jpg" width="300" alt="work_daily"></td>
-</tr>
-</table>
-</div>
-
 ## 2023/09/11 ~ 2023/09/17
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
 **content:**
@@ -860,14 +845,25 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 
 
 ## 2023/09/18 ~ 2023/09/24
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI     
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
+- We have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
 
+
+#### 3D printed product
+<div align="center">
+<table>
+<tr  align="center"> 
+<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
+<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
+</tr>
+</table>
+</div>
 
 
 ## 2023/09/25 ~ 2023/10/01
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI   
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **content:**
 
 
