@@ -8,7 +8,7 @@
 - Modules required for the operation of the program : 
 
 <div align="center">
-<img src="../img/modles.png" width="300" alt="Mobaxterm_SSH_python">
+<img src="../img/modles_NO_C.png" width="300" alt="Mobaxterm_SSH_python">
 </div>
  <table>
  <tr align="center">
