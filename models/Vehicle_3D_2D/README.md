@@ -8,7 +8,7 @@
 
 - ### Physical cutting of vehicle body panels
 
-- ### 3D Printed Physical Diagram
+- ### 3D Printed Product
 <div align="center">
 <table>
 <tr align="center">
