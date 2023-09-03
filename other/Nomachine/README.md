@@ -3,7 +3,7 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 
-# <div align="center">Introduction to NoMachine (nomachine介紹)</div> 
+# <div align="center">Introduction to NoMachine </div> 
 
  # ＮoMachine
  
