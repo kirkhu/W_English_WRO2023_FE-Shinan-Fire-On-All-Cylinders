@@ -34,7 +34,6 @@ __In our program, many repetitive sections of code have been written as subrouti
     #Determine whether the following program has been executed twice
     for count in range(2):
         #Determine if it's counterclockwise travel
-        #判斷是否為逆時針行駛
         # Counterclockwise direction 
         if reverse == True: 
             if count == 1: 

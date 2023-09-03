@@ -1,4 +1,4 @@
-<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
@@ -60,8 +60,8 @@
         <th>skyrc imax B6C2 v2</th>
         </tr>
         <tr>
-        <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment"  /></td>
-        <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment"  /></td>
+        <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment" /></td>
+        <td><img src="./img/B6AC2.png" width = "300"  alt="Discharging Equipment" /></td>
 
         </tr>
 
