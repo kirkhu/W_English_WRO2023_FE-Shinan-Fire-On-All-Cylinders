@@ -21,6 +21,8 @@
 - ### 3D Printer working
 <div align="center"><img src="./img/3D_working.jpg" width="400" alt="car_board"></div>
 
+- ### 2D Printed Physical Diagram
+  
 - ###  Laser cutting machine operation
 <div align="center"><img src="./img/hu.jpg" width="400" alt="car_board"></div>
 
