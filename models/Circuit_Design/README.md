@@ -35,7 +35,7 @@
 - After drawing the circuit diagram using Fritzing, it becomes convenient to solder the circuit on a breadboard following the diagram. This reduces the error rate and allows for easy corrections.
 - Software link：[Fritzing](https://www.tinkercad.com/) 
 - The circuit diagrams created for this competition are all designed using Fritzing.
-<div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing">   <img src="./img/frtzing1.png" width="500" alt=" Fritzing"></div>
+<div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing">   <img src="./img/frtzing2.png" width="500" alt=" Fritzing"></div>
 
 
 
