@@ -58,7 +58,7 @@
 
 ### Open Challenge Flow Chart
 
-<div align=center><img src="../img/open_challange_img.jpg" width=700></div>
+<div align=center><img src="../img/open_challange_img.jpg" width=1200></div>
 
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
