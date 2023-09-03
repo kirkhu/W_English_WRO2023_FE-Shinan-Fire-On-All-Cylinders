@@ -830,9 +830,9 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </tr>
 <tr align="center">
 <td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
-<td><img src="./img/9/photoprinting.jpg" width="300" alt="work_daily"></td>
-<td><img src="./img/9/turn_mashine-1.jpg" width="300" alt="work_daily"></td>
-<td><img src="./img/9/turn_mashine-2.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/photoprinting.jpg" width="350" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-1.jpg" width="350" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-2.jpg" width="350" alt="work_daily"></td>
 </tr>
 </table>
 </div>
