@@ -32,7 +32,7 @@
   1. Install NoMachine on both your notebook computer and Jetson Nano.
   ![image](./img/1.png)  
   2. Select the installation version for Jetson Nano.
-  ![image](./img/2.png)
+     ![image](./img/2.png)
 
      ![image](./img/3.png)
   
