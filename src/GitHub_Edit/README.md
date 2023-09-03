@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width=300 ></div>
 
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 ## <div align="center">GitHub Edit </div>
 - There are two ways to edit GitHub repositories: one is to edit directly on the GitHub website, which is called online editing, and the other is to use software like VS Code + Git on your local computer for offline editing, and then synchronize the changes to GitHub.

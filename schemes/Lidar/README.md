@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 # <div align="center">Introduction to Lidar</div> 
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.

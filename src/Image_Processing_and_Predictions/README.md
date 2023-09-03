@@ -1,6 +1,6 @@
 <div align=center><img src="../../other/img/logo.png" width=300></div>
 
-2023WRO Future Engineers Fire On All Cylinders  
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Image_Processing_and_Predictions</div> 
 
