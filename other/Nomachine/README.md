@@ -3,7 +3,7 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 
-# <div align="center">Introduction to NoMachine (nomachine介紹)</div> 
+# <div align="center">Introduction to NoMachine </div> 
 
  # ＮoMachine
  
@@ -26,6 +26,8 @@
 - We need this feature because we may not always have a screen connected to the Jetson Nano, so using NoMachine allows us to operate it directly from our laptop, which is very convenient.
 
 - When using the Raspberry Pi, we used VNC, and we also tried using it for remote access to the Jetson Nano. However, we found that there were significant latency issues, so ultimately, we chose to use NoMachine.
+  
+- NoMachine link: [NoMachine](https://www.nomachine.com/) 
 
 - __Here are the installation steps:__
 
