@@ -1,4 +1,4 @@
-<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
@@ -252,7 +252,7 @@ __Usage:__
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
+<img src="../Camera/img/V1.jpeg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
     </td>
   </tr>
 </table>
@@ -264,11 +264,12 @@ __Usage:__
     <td> 
 
 __Specifications:__ 
+- Viewing Angle: 72 degrees  
 
 __Usage:__ 
-- Collecting images for image recognition. 
+- Expanded the camera's field of view by using a wide-angle lens.
   </td><td>
-<img src="../Camera/img/" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
+<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
     </td>
   </tr>
 </table>

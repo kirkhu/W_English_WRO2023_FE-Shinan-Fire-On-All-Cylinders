@@ -1,4 +1,4 @@
-<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
@@ -46,7 +46,8 @@
 </tr>
 </table>
 </div>
-<small>Data source:
+<small>Data source:  
+
 [Rev 1.3](https://www.uctronics.com/5mp-ov5647-download-full-datasheet-pdf)
 
 </small>

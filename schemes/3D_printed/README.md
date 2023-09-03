@@ -1,4 +1,4 @@
-<div align=center><img src="../../other/img/logo.png" width="600" alt=" logo"></td></div>
+<div align=center><img src="../../other/img/logo.png" width="300" alt=" logo"></td></div>
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
@@ -89,6 +89,45 @@
 <td><img src="./img/0901-8.jpg" width="200" alt="work_daily"></td>
 </tr>
 </table>
+</div>
+
+## Comparison between Stacked 3D Printing and Photocuring 
+The following data was obtained during the experiment when printing the Ackermann steering mechanism
+
+
+<div align="center">
+<table>
+<tr align="center">
+<th rowspan="2">Photo</th>
+<th> Stacked 3D Printing Machine</th>
+<th> Light Curing Mashine</th>
+</tr><tr align="center">
+<td><img src="./img/all_3Dprinter.jpg" width=200 alt="photocured" ></td>
+<td><img src="./img/3D_photoprinter.jpeg" width=250 alt="photocured" ></td>
+</tr><tr align="center">
+<td>The required printing time</td>
+<td>Faster</td>
+<td>Slower</td>
+</tr><tr>
+<td>Exterior</td>
+<td>Exterior with signs of layering </td>
+<td>Smooth</td>
+</tr><tr>
+<td>Hardness</td>
+<td>Depends on the density</td>
+<td>Depends on the exposure time</td>
+</tr>
+</table>
+</div>
+
+<div align=center>
+<table>
+<tr>
+<th>Secondary curing</th>
+</tr><tr>
+<td><img src="./img/2.jpg" width=300 alt="light_again"></td>
+</tr>
+<table>
 </div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 

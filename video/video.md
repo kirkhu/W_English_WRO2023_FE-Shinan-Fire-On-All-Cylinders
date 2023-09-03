@@ -1,4 +1,6 @@
-![LOGO](../other/img/logo.png)2023WRO Future Engineers Shinan Fire On All Cylinders  
+<div align="center"><img src="../other/img/logo.png" width="300" alt=" logo"></div>
+
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
 ## <div align="center">Demonstration Video(自走車各任務完成影片)</div> 
 - ### Open Challenge(資格賽影片)

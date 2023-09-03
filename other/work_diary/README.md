@@ -1,4 +1,4 @@
-<div align="center"><img src="../../other/img/logo.png" width="600" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 =====
@@ -12,11 +12,12 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 <div align="center">
 <table>
-<tr align="center"><th><a href="https://www.donkeycar.com/">Donkey Car official website</a></th>
+<tr align="center">
+<th><a href="https://www.donkeycar.com/">Donkey Car official website</a></th>
 <th><a href="http://docs.donkeycar.com/">Donkey Car technical documentation</a></th>
 </tr>
 <tr align="center">
-<td> <img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
+<td><img src="./img/3/donkeycar.png" width = "300"  alt="樹梅派" align=center /></td>
 <td><img src="./img/3/donkeycar_doc.png" width = "300"  alt="jeston nano" align=center /></td>
 </tr>
 </table>
@@ -33,7 +34,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
   __Competition Activity Stages Work Completion Timeline Schedule(Gantt Chart)__ 
 <div align="center" >
-  <img src="../img/Gantt_Chart.png" width = "600" height = "" alt="甘特圖" align=center />
+  <img src="../img/Gantt_Chart.png" width = "600"   alt="甘特圖" align=center />
 </div>
 
 ### Vehicle Computing Controller
@@ -128,8 +129,8 @@ At the outset, due to our uncertainty about how to initiate the process of const
   <th>5A Constant Voltage and Constant Current Buck Converter Module </th>
 </tr>
 <tr align="center">
-  <td>  <img src="./img/4/LM25.jpeg" width = "250" height = "" alt="MG90S"/>  </td>
-  <td><img src="./img/4/ADIO-DC36V5A.png" width = "300" height = "" alt="MG90S"/> 
+  <td>  <img src="./img/4/LM25.jpeg" width = "250"   alt="MG90S"/>  </td>
+  <td><img src="./img/4/ADIO-DC36V5A.png" width = "300"   alt="MG90S"/> 
   </td>
   </tr>
 </table>
@@ -142,7 +143,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
   <th> Low Voltage Alarm</th> 
 </tr>
 <tr align="center">
-  <td>  <img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm"/>  </td>
+  <td><img src="./img/4/low_voltage_alarm.png" width = "150" alt="low_voltage_alarm"/></td>
 
   </tr>
 </table>
@@ -165,8 +166,8 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <th >SG90</th>
 </tr>
 <tr align="center">
-<td><img src="./img/4/MG90S.png" width = "150" height = "" alt="MG90S" align=center /></td>
-<td > <img src="./img/4/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
+<td><img src="./img/4/MG90S.png" width = "150"   alt="MG90S" align=center /></td>
+<td><img src="./img/4/SG90.png" width = "150"   alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
 <td>rotation angle</td>
@@ -196,13 +197,13 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 #### Distance Sensor
 <div align="center" width=100%>
-<table >
+<table>
 <tr align="center">
-  <th >ultrasound </th> 
+  <th>ultrasound </th> 
   <th>ydlidar x2</th>
 </tr>
 <tr>
-  <td>  <img src="./img/4/ultrasound.png" width = "300"  alt="ultrasound" align=center />  </td>
+  <td><img src="./img/4/ultrasound.png" width = "300"  alt="ultrasound" align=center /></td>
   <td><img src="./img/4/Lidar_X2.jpg" width = "300"  alt="ydlidar x2" align=center />
   </td>
   </tr>
@@ -219,10 +220,10 @@ At the outset, due to our uncertainty about how to initiate the process of const
 - During testing, we discovered that the vehicle's movement speed using LEGO bricks was not fast, and its weight caused difficulties during turns. Consequently, we opted to use a laser cutting machine to cut wooden boards for the chassis, reducing the vehicle's weight, increasing its speed, and conserving power. Additionally, the use of wooden boards offers the advantage of adjusting dimensions and positions as needed. This adjustment is facilitated through tools like Onshape, allowing for flexible design and modifications without the need for constant adaptations like those required with LEGO in various scenarios."
 
 <div align="center" width=100%>
-<table >
+<table>
 <tr align="center">
-  <th>wooden boards  </th>
-  <th>onshape web page  </th>
+  <th>wooden boards</th>
+  <th>onshape web page</th>
   </tr>
 <tr align="center">
   <td><img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
@@ -241,30 +242,30 @@ At the outset, due to our uncertainty about how to initiate the process of const
 - Nevertheless, during actual testing of the YDLIDAR X4 and DLIDAR X2, we encountered a problem with missing angles (as depicted in the attached image). Therefore, for this competition, we opted to employ the D100 sensor for vehicle detection and measuring distances to side walls. The results yielded by the D100 sensor aligned with our expectations and requirements.
 
 <div align="center" width=100%>
-<table >
+<table>
 <tr align="center" >
   <th>ydlidar x4</th> 
   <th>ydlidar x2</th>
   <th>lidar 100</th>
 </tr>
 <tr align="center">
-  <td><img src="./img/7/Lidar_X4.jpg" width = "300"  alt="ydlidar x4" align=center />  </td>
-  <td><img src="./img/4/Lidar_X2.jpg" width = "300" height = "" alt="ydlidar x2" align=center />  </td>
-  <td><img src="./img/7/Lidar-D100.png" width = "300"  alt="ydlidar x4" align=center /> </td>
+  <td><img src="./img/7/Lidar_X4.jpg" width = "300" alt="ydlidar x4" align=center /></td>
+  <td><img src="./img/4/Lidar_X2.jpg" width = "300"  alt="ydlidar x2" align=center /></td>
+  <td><img src="./img/7/Lidar-D100.png" width = "300" alt="ydlidar x4" align=center /></td>
 </tr>
 </table>
 </div>
 
 <div align="center" width=100%>
-<table >
+<table>
 <tr align="center">
   <th colspan="2">ydlidar x4、X2 distance imaging</th> 
-  <th >lidar 100 distance imaging</th>
+  <th>lidar 100 distance imaging</th>
 </tr>
 <tr align="center">
-  <td>  <img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
-  <td><img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="偵測缺角" align=center />  </td>
-  <td> <img src="./img/7/d100.png" width = "400" height = "" alt="D100" align=center />  
+  <td><img src="./img/7/Lidar_X2_X4_error1.jpg" width = "400" alt="偵測缺角" align=center /></td>
+  <td><img src="./img/7/Lidar_X2_X4_error.jpg" width = "400" alt="偵測缺角" align=center /></td>
+  <td> <img src="./img/7/d100.png" width = "400" alt="D100" align=center />  
   </td>
   </tr>
 </table>
@@ -319,7 +320,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
   <th >Event Photo</th> 
 </tr>
 <tr>
-  <td align="center"><img src="./img/4/site.jpg" width=300 alt="site" /</td> 
+  <td align="center"><img src="./img/4/site.jpg" width=300 alt="site" /></td> 
   <td align="center"><img src="./img/4/work_photo_2_1_0417.jpg" width=300 alt="work_photo_2_1_0417" /></td>
 </tr>
 </table>
@@ -366,7 +367,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 </tr>
 <tr  align="center">  
 <td>FPS Frame rate</td>
-<td >30p MAX</td>
+<td>60p MAX</td>
 <td>90p MAX</td>
 <td>120p MAX</td>
 </tr>
@@ -420,7 +421,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 </tr>
 <tr>
 <td align="center"><img src="./img/5/clone.png" width = "300" alt="clone" align=center /></td><td>
-<img src="./img/5/web.png" width = "300"  alt="WEB" align=center />
+<img src="./img/5/web.png" width = "300" alt="WEB" align=center />
 </td>
 </tr>
 </table>
@@ -458,8 +459,8 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 </th>
 </tr>
 <tr align="center">
-<td><img src="./img/5/hit_wall.jpeg" width = "300"  alt="hit wall"  /></td>
-<td><img src="./img/5/LIDAR_readings.png" width = "200"  alt="Distance to wall."/></td>
+<td><img src="./img/5/hit_wall.jpeg" width = "300" alt="hit wall"  /></td>
+<td><img src="./img/5/LIDAR_readings.png" width = "200" alt="Distance to wall."/></td>
 </tr>
 </table>
 </div>
@@ -744,6 +745,7 @@ We believe that this approach will assist our machine in preparing for a variety
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
+After switching to Jetson Nano, we encountered issues with the Camera V2 not functioning. It was later discovered that V2 and V3 cameras are designed specifically for use with Raspberry Pi. Consequently, we decided to replace them with two Camera Rev1.3 units that are compatible with microcomputers in general. Additionally, we modified the camera to include a wide-angle lens.
 
 <div align="center">
 <table>
@@ -762,9 +764,19 @@ We believe that this approach will assist our machine in preparing for a variety
 </table>
 </div>
 
+<div align=center>
+<table>
+<tr align=center>
+<th>Camera Rev1.3</th>
+<th>160 width-angle</th>
+</tr><tr>
+<td><img src="../../schemes/Camera/img/V1.jpeg" width="200" alt="work_daily"></td>
+<td><img src="../../schemes/Camera/img/v1_width-angle.jpg" width="200" alt="work_daily"></td>
+</tr>
+</table>
+</div>
 
-
-<small>Data source</small>  
+<small>Data source:</small>  
 <small>[Taiwansersor](https://www.taiwansensor.com.tw/product/nvidia-jetson-nano-developer-kit-%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6-ai-%E9%96%8B%E7%99%BC%E5%A5%97%E4%BB%B6/)</small>  
 <small>[University of Maine System](https://web.eece.maine.edu/~vweaver/group/green_machines.html)</small>
 
