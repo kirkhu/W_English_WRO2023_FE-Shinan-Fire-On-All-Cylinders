@@ -24,7 +24,7 @@
 - After opening HSV_Detect.py, the following functions will be displayed corresponding to the keyboard number keys 1 to 5:  
 1: Display the previously recorded green threshold values.  
 2: Display the previously recorded red threshold values.  
-3: Restore the currently adjusted threshold values to their   default values.  
+3: Restore the currently adjusted threshold values to their default values.  
 4: Record the adjusted green threshold values to the HSV_Green.p file.  
 5: Record the adjusted red threshold values to the HSV_Red.p file.
 - When adjusting the block threshold, we will place a block both at a distant and close distance to ensure that the adjusted threshold can recognize blocks at any distance. After the adjustment, press the number keys 4 or 5 to record the threshold into the HSV_Green.p or HSV_Red.p file.
