@@ -741,7 +741,7 @@ We believe that this approach will assist our machine in preparing for a variety
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
-After switching to Jetson Nano, we encountered issues with the Camera V2 not functioning. It was later discovered that V2 and V3 cameras are designed specifically for use with Raspberry Pi. Consequently, we decided to replace them with two Camera Rev1.3 units that are compatible with microcomputers in general. Additionally, we modified the camera to include a wide-angle lens.
+- After switching to Jetson Nano, we encountered issues with the Camera V2 not functioning. It was later discovered that V2 and V3 cameras are designed specifically for use with Raspberry Pi. Consequently, we decided to replace them with two Camera Rev1.3 units that are compatible with microcomputers in general. Additionally, we modified the camera to include a wide-angle lens.
 
 <div align="center">
 <table>
