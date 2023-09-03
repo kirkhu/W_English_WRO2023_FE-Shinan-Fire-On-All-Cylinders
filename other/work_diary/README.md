@@ -367,7 +367,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 </tr>
 <tr  align="center">  
 <td>FPS Frame rate</td>
-<td >30p MAX</td>
+<td>60p MAX</td>
 <td>90p MAX</td>
 <td>120p MAX</td>
 </tr>
