@@ -4,6 +4,13 @@
 ====
 ## <div align="center">Physical cutting of vehicle body panels_vehicle 3D/2D Models</div>
 
+### Introduction to Onshape
+- Using  Onshape to design a 3D model of a self-driving car. Onshape is a free and user-friendly web-based design software.
+- After creating the model using Onshape, you can generate 2D flat dimension drawings and then proceed to cut it with a laser cutting machine.
+- Software link：[Onshape](https://www.onshape.com/en/)
+__- The 3D/2D models created for this competition are all designed using Onshape.__  
+
+
 - ### 3D Printed Product
 <div align="center">
 <table>
