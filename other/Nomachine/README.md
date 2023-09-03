@@ -1,4 +1,9 @@
-# <div align="center">Introduction to NoMachine</div> 
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
+
+2023WRO Future Engineers Shinan Fire On All Cylinders  
+====
+
+# <div align="center">Introduction to NoMachine (nomachine介紹)</div> 
 
  # ＮoMachine
  
@@ -25,11 +30,13 @@
   1. Install NoMachine on both your notebook computer and Jetson Nano.
   ![image](./img/1.png)  
   2. Select the installation version for Jetson Nano.
-  ![image](./img/2.png)  
-  ![image](./img/3.png)  
+  ![image](./img/2.png)
+
+  ![image](./img/3.png)
+  
   ![image](./img/4.png)  
 
-  3. Simply connect Jetson Nano and your notebook computer via IP to use it.
+  4. Simply connect Jetson Nano and your notebook computer via IP to use it.
 
 
 
