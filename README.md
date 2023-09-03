@@ -33,6 +33,7 @@ __Located Below is the content of the technical report, and a link to the build 
     - __Programming__
       - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
+      - [Distinctive Pseudo code](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Feature_Program/README.md)
    
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and vehicle
