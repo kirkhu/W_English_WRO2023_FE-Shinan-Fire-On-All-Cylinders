@@ -168,17 +168,17 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <td><img src="./img/4/SG90.png" width = "150"   alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
-<td>rotation angle</td>
+<td>Rotation angle</td>
 <td>90° MAX</td>
 <td>0~90°/180° MAX</td>
 </tr>
 <tr align="center">
-<td>torque</td>
+<td>Torque</td>
 <td>2.0kg/cm</td>
 <td>1.4 kg/cm</td>
 </tr>
 <tr align="center">
-<td>speed</td>
+<td>Speed</td>
 <td>0.11s</td>
 <td>0.1S</td>
 </tr>
@@ -335,7 +335,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 - Considering that V3 is not compatible with our existing Raspberry Pi operating system, we decided not to use that version. Additionally, the detection rate of version 1.3 is only 30p, whereas the V2 version can reach a maximum of 90p. Therefore, we ultimately chose the Raspberry Pi Camera Module V2 for our project. Through experimentation, we found that the V2 version has the best recognition performance.
 
-### Camera Module
+
 #### Camera Module
 <div align="center">
 <table>
@@ -351,13 +351,13 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <td ><img src="./img/5/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
 <tr  align="center">
-<td>sensor</td>
+<td>Sensor</td>
 <td>Omnivision OV547</td>
 <td >Sony IMX 219</td>
 <td>Sony IMX 708</td>
 </tr>
 <tr  align="center">
-<td>sensor resolution</td>
+<td>Sensor resolution</td>
 <td >2592 * 1944 pix</td>
 <td>3280 * 2464 pix</td>
 <td>4608 * 2592 pix</td>
@@ -373,7 +373,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 
 During subsequent testing, we discovered that the vehicle was unable to predict the position of the next block while avoiding obstacles. This posed a challenge to the vehicle's obstacle avoidance strategy. Consequently, we decided to modify the original camera by converting it into a wide-angle lens. In comparison to the original 72-degree field of view, the wide-angle lens offers a 160-degree field of view, enabling us to anticipate the next block's position in advance. This enhancement has significantly improved the vehicle's obstacle avoidance effectiveness.
 
-#### wide-angle lens
+#### Wide-angle lens
 <div align="center">
 <table>
 <tr>
