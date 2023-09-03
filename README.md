@@ -8,7 +8,7 @@ __Located Below is the content of the technical report, and a link to the build 
 ## Content
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
-    - [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/vehicle_chassis_design)
+    - [Vehicle chassis design](./schemes/vehicle_chassis_design)
     - [Introduction to Motor](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 3D/2D Models](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/models/Vehicle_3D_2D)
     - [3D Printer](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/3D_printed)
