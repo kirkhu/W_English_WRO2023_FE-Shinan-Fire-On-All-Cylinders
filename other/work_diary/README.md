@@ -223,7 +223,7 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <table>
 <tr align="center">
   <th>wooden boards</th>
-  <th>onshape web page</th>
+  <th>Onshape web page</th>
   </tr>
 <tr align="center">
   <td><img src="./img/5/wood.jpg" width = "300"  alt="wood" align=center />  </td>
@@ -344,9 +344,9 @@ At the outset, due to our uncertainty about how to initiate the process of const
 <table>
 <tr  align="center">
 <th rowspan="2">Model(model number)</td> 
-<th>raspberry pi camera Rev 1.3</th>
-<th >raspberry pi camera Module V2</th>
-<th >raspberry pi camera Module V3</th>
+<th>Raspberry pi camera Rev 1.3</th>
+<th >Raspberry pi camera Module V2</th>
+<th >Raspberry pi camera Module V3</th>
 </tr>
 <tr  align="center">
 <td ><img src="./img/5/V1.jpeg" width=200 alt="V1"  /></td>
@@ -631,7 +631,7 @@ if get_mid_dis > 55:
 
 <table>
 <tr align="center">
-<th> old directory </th>
+<th> Old directory </th>
 <th> Revised Directory (Upper Section) </th>
 <th> Revised Directory (Lower Section) </th>
 </tr>
@@ -659,10 +659,10 @@ __Team Members' Practice Status__
 <div align="center">
 <table>
 <tr align="center">
-<th>report writing</th> 
-<th>mechanism adjustment</th>
-<th>report writing</th>
-<th>field mission practice</th>
+<th>Report writing</th> 
+<th>Mechanism adjustment</th>
+<th>Report writing</th>
+<th>Field mission practice</th>
 </tr>
 <tr align="center">
 <td><img src="./img/8/work_photo_1_0805.jpg" width="500" alt="work_daily"></td>
@@ -682,8 +682,8 @@ __Team Members' Practice Status__
 <div align="center">
 <table>
 <tr align="center">
-<th>modifying code and testing vehicles</th>
-<th>currently editing videos</th>
+<th>Modifying code and testing vehicles</th>
+<th>Currently editing videos</th>
 </tr><tr align="center">
 <td><img src="./img/8/work_photo_1_0813.jpg" width="300" alt="work_daily"></td>
 <td><img src="./img/8/813.jpg" width="300" alt="work_daily"></td>
@@ -691,7 +691,7 @@ __Team Members' Practice Status__
 </table>
 
 <table>
-<th>mission race introduction video</th>
+<th>Mission race introduction video</th>
 </tr>
 <td>
 
@@ -719,8 +719,8 @@ We believe that this approach will assist our machine in preparing for a variety
 <div align="center">
 <table>
 <tr align="center">
-<th>field layout</th>
-<th>record sheet</th> 
+<th>Field layout</th>
+<th>Record sheet</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/block.png" width="400" alt="work_daily"></td>
@@ -730,8 +730,8 @@ We believe that this approach will assist our machine in preparing for a variety
 <div align="center">
 <table>
 <tr align="center">
-<th>competition photos</th>
-<th>award-winning photo</th> 
+<th>Competition photos</th>
+<th>Award-winning photo</th> 
 </tr>
 <tr align="center">
 <td><img src="./img/8/0819_1.jpg" width="600" alt="contest"></td>
