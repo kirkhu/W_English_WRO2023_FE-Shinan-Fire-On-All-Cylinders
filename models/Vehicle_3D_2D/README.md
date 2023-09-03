@@ -2,11 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-## <div align="center">Vehicle 3D/2D Models</div>
-
-
-
-- ### Physical cutting of vehicle body panels
+## <div align="center">Physical cutting of vehicle body panels_vehicle 3D/2D Models</div>
 
 - ### 3D Printed Product
 <div align="center">
