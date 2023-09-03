@@ -7,7 +7,9 @@
 
  # ＮoMachine
  
-- NoMachine is a remote desktop application that allows users to access and control computers from different locations. This application is available for multiple operating systems, including Windows, macOS, and Linux. Here are the key features and advantages of NoMachine:
+- NoMachine is a remote desktop application that allows users to access and control computers from different locations. This application is available for multiple operating systems, including Windows, macOS, and Linux.
+
+  Here are the key features and advantages of NoMachine:
 
   Remote Desktop Control: NoMachine allows you to access and control remote computers from anywhere, enabling you to operate them as if you were sitting in front of them.
 
@@ -32,9 +34,9 @@
   2. Select the installation version for Jetson Nano.
   ![image](./img/2.png)
 
-  ![image](./img/3.png)
+     ![image](./img/3.png)
   
-  ![image](./img/4.png)  
+     ![image](./img/4.png)  
 
   4. Simply connect Jetson Nano and your notebook computer via IP to use it.
 
