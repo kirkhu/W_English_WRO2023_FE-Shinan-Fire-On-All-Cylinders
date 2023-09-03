@@ -18,20 +18,20 @@
 <li><a herf="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
 <li><a herf="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
 <li><a herf="https://www.amazon.com/-/zh_TW/IWECOLOR-%E5%8D%B0%E8%A1%A8%E6%A9%9F%E7%B7%9A%E6%9D%90%E4%B8%89%E8%89%B2-%E7%B7%9A%E8%BB%B8%E7%B4%85%E8%89%B2-%E7%B6%A0%E8%89%B2%E4%B8%89%E8%89%B2-%E5%88%97%E5%8D%B0%E7%B7%9A%E6%9D%90%E7%B5%84/dp/B0B93PNJZG?language=en_US">IWECOLOR 3D Printer Filament Triple Colors</a></li>
-white socket 2p<br>
-white socket 6p<br>
-female socket 2.45mm<br>
-male socket 2.45mm<br>
-hexagon plastic pillar 3x6+6<br>
-hexagon plastic pillar 3x12+6<br>
-hexagon plastic pillar 3x15+6<br>
-hexagon double female standoffs 3x15<br>
-plastic screw M3*7<br>
-plastic nut M3<br>
-Cross recessed round head metal screw 2.5x26mm<br>
-hexagon metal screw M5x10mm<br>
-hexagon metal screw M5x15mm<br>
-hexagon metal nut M5*4mm<br>
-Galvanized Hexagon Flange Nut
+<li>white socket 2p<br></li>
+<li>white socket 6p<br></li>
+<li>female socket 2.45mm<br></li>
+<li>male socket 2.45mm<br></li>
+<li>hexagon plastic pillar 3x6+6<br></li>
+<li>hexagon plastic pillar 3x12+6<br></li>
+<li>hexagon plastic pillar 3x15+6<br></li>
+<li>hexagon double female standoffs 3x15<br></li>
+<li>plastic screw M3*7<br></li>
+<li>plastic nut M3<br></li>
+<li>Cross recessed round head metal screw 2.5x26mm<br></li>
+<li>hexagon metal screw M5x10mm<br></li>
+<li>hexagon metal screw M5x15mm<br></li>
+<li>hexagon metal nut M5*4mm<br></li>
+<li>Galvanized Hexagon Flange Nut<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
