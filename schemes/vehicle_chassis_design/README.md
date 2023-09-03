@@ -46,7 +46,7 @@ The components highlighted within the red box are the Ackermann steering mechani
 
 - We have designed the following two options. The first option, due to its larger vertical vibration space, cannot effectively restrict the vehicle's vibrations. Therefore, we have chosen the second option, which has a smaller vibration amplitude and can also maintain the vehicle's low center of gravity.
 
-__ The structural schematic diagram painted with Onshape. __
+__The structural schematic diagram painted with Onshape.__
 <div align="center">
  <table>
     <tr align="center">
