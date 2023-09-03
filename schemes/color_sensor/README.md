@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Color sensor</div> 
+# <div align="center">Color Sensor</div> 
 <div align="center">
 <img src="./img/TCS34725.png" alt="TCS34725" width=200 style="display: block; margin: 0 auto;" />  
 </div>
