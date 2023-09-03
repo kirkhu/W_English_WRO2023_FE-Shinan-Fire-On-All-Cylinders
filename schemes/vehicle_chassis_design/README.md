@@ -11,7 +11,7 @@ __Introduction to Ackermann_steering_geometry__
 - The steering mechanism of the vehicles used in this competition is designed based on the Ackermann steering mechanism and implemented using LEGO parts. However, due to the fixed specifications of LEGO parts, modifications are not possible, and the design can only closely resemble the Ackermann steering mechanism. 
 
 
-Video link：[How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
+#### Video link：[How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
 
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
@@ -46,6 +46,7 @@ The components highlighted within the red box are the Ackermann steering mechani
 
 - We have designed the following two options. The first option, due to its larger vertical vibration space, cannot effectively restrict the vehicle's vibrations. Therefore, we have chosen the second option, which has a smaller vibration amplitude and can also maintain the vehicle's low center of gravity.
 
+__The structural schematic diagram painted with Onshape.__
 <div align="center">
  <table>
     <tr align="center">
