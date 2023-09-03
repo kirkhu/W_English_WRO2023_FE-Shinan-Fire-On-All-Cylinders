@@ -32,13 +32,14 @@
   1. Install NoMachine on both your notebook computer and Jetson Nano.
   ![image](./img/1.png)  
   2. Select the installation version for Jetson Nano.
+ 
      ![image](./img/2.png)
 
      ![image](./img/3.png)
   
      ![image](./img/4.png)  
 
-  4. Simply connect Jetson Nano and your notebook computer via IP to use it.
+  3. Simply connect Jetson Nano and your notebook computer via IP to use it.
 
 
 
