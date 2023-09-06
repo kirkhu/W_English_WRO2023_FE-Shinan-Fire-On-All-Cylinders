@@ -224,7 +224,6 @@ __Usage:__
     <td > 
 
 __Specifications:__  
-
 - Operating Voltage: 3.3V - 5.0V  
 - Interface: I2C interface  
 
@@ -258,13 +257,13 @@ __Usage:__
 </table>
 
 
-### Camera wide-angle module 
-<table border=0 width="100%" >
+### Camera wide-angle module
+<table border=0 width="100%">
   <tr>
-    <td> 
+    <td>
 
-__Specifications:__ 
-- Viewing Angle: 72 degrees  
+__Specifications:__
+- Viewing Angle: 72 degrees
 
 __Usage:__ 
 - Expanded the camera's field of view by using a wide-angle lens.
