@@ -4,6 +4,7 @@
 =====
 # <div align="center">Part List </div>
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
+<li>Jetson Nano cooling fan<br></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">Motor Driver</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
@@ -37,5 +38,7 @@
 <li>lego half-thickness socket<br></li>
 <li>lego one-thickness socket<br></li>
 <li>lego Axle 3L with Stud<br></li>
+<li>lego 3-unit cross axis<br></li>
+<li>lego 5-unit cross axis<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
