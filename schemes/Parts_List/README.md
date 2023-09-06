@@ -5,6 +5,7 @@
 # <div align="center">Part List </div>
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
+
 <li><a herf="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">Motor Driver</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
 <li><a href="https://www.az-delivery.de/en/products/pca9685-servotreiber">PCA9685 16-Channel 20Bit PWM Driver</a></li>  
