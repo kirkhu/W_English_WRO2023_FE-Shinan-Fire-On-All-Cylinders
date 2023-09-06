@@ -41,6 +41,7 @@
 <li>lego 4239601 half-thickness socket<br></li>
 <li>lego 4211622 one-thickness socket<br></li>
 <li>lego 6031821 Axle 3L with Stud<br></li>
+<li>lego 4142865 2-unit cross axis<br></li>
 <li>lego 4211815 3-unit cross axis<br></li>
 <li>lego 4211639 5-unit cross axis<br></li>
 <li>lego (6589)4565452 gear 12 tooth<br></li>
@@ -52,6 +53,8 @@
 <li>lego 4121715 black plug<br></li>
 <li>lego 4206482 4514553 blue plug<br></li>
 <li>lego 4206482 plug to cross-shaped<br></li>
+<li>lego 4296059 L-shaped connector<br></li>
+<li>lego 6006140 Liftarm 1x2 Thick<br></li>
 <li>light curing UV-604<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
