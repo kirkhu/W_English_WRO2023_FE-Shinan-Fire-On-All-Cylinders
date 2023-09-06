@@ -38,12 +38,19 @@
 <li>lego cross shaft connector <br></li>
 <li>lego four-pointed nail<br></li>
 <li>lego half-thickness socket<br></li>
-<li>lego one-thickness socket<br></li>
-<li>lego Axle 3L with Stud<br></li>
+<li>lego one-thickness socket 4211622<br></li>
+<li>lego Axle 3L with Stud 6031821<br></li>
 <li>lego 3-unit cross axis<br></li>
 <li>lego 5-unit cross axis<br></li>
 <li>lego (6589)4565452 gear 12 tooth<br></li>
 <li>lego 4210857 two circular holes and one cross-shaped hole.<br></li>
+<li>lego crossbar 1x3<br></li>
+<li>lego crossbar 1x5<br></li>
+<li>lego crossbar 1x7<br></li>
+<li>lego crossbar 1x11<br></li>
+<li>lego black plug 4121715<br></li>
+<li>lego blue plug 4514553<br></li>
+<li>lego plug to cross-shaped 4206482<br></li>
 <li>light curing UV-604<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
