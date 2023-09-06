@@ -26,6 +26,7 @@
 <li>hexagon double female standoffs 3x15<br></li>
 <li>plastic screw M3*7<br></li>
 <li>plastic nut M3<br></li>
-<li>Cross recessed round head metal screw 2.5x26mm<br></li>
+<li>matal nut M2<br></li>
+<li>Cross recessed round head metal screw 2x10mm<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
