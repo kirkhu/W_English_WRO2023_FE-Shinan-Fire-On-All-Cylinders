@@ -40,5 +40,7 @@
 <li>lego Axle 3L with Stud<br></li>
 <li>lego 3-unit cross axis<br></li>
 <li>lego 5-unit cross axis<br></li>
+<li>lego (6589)4565452 gear 12 tooth<br></li>
+<li>light curing UV-604<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
