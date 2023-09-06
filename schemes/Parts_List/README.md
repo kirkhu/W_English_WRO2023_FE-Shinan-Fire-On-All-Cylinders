@@ -7,6 +7,7 @@
 <li>Jetson Nano cooling fan<br></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">Motor Driver</a></li>  
+<li>Motor adapter with a thread radius 10mm Thickness 10mm<br></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
 <li><a href="https://www.az-delivery.de/en/products/pca9685-servotreiber">PCA9685 16-Channel 20Bit PWM Driver</a></li>  
 <li><a href="https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41">Button B3F-4055</a></li>  
