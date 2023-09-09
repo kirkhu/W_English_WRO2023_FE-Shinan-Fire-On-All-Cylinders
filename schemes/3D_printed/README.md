@@ -49,7 +49,7 @@
 <table>
 <tr align="center">
 <th colspan="2">Photocured 3D Printing Finished Product</th>
-<th>Light Curing Mashine</th>
+<th>Light Curing Machine</th>
 <tr align="center">
 <td><img src="./img/light_curing.png" width="300" alt=" logo"></td>
 <td><img src="./img/photoprinting3.jpg" width="300" alt=" logo"></td>
@@ -59,7 +59,7 @@
 </div>
 
 
-- If not regularly maintained, a stereolithography 3D printer may become unusable due to resin buildup. Therefore, regular cleaning is essential. To understand how to properly maintain the machine, we sought guidance from our senior, who carefully demonstrated the process to us. Here are the maintenance steps:
+- If not regularly maintained, light curing machine may become unusable due to resin buildup. Therefore, regular cleaning is essential. To understand how to properly maintain the machine, we sought guidance from our senior, who carefully demonstrated the process to us. Here are the maintenance steps:
 
   1. After printing is complete, the finished product will be stuck to the build plate.
   2. Remove the build plate and wipe off the resin, being careful not to touch the finished product.
