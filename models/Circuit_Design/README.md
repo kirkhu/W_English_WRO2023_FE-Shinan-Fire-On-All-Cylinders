@@ -2,7 +2,7 @@
 
 2023WRO Future Engineersn Shinan Fire On All Cylinders  
 ====
-## <div align="center">Circuit schematic drawing </div>
+## <div align="center">Circuit Schematic Drawing </div>
 
 - ### Circuit Board
 <div align="center">
@@ -16,7 +16,7 @@
 </table>
 </div>
 
-- ### Circuit schematic drawing
+- ### Circuit Schematic Drawing
 <div align="center">
 <table>
   <tr align="center">

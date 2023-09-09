@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-## <div align="center">Physical cutting of vehicle body panels_vehicle 3D/2D Models</div>
+## <div align="center">Physical Cutting of Vehicle Body Panels_Vehicle 3D/2D Models</div>
 
 ### Introduction to Onshape
 - Using  Onshape to design a 3D model of a self-driving car. Onshape is a free and user-friendly web-based design software.

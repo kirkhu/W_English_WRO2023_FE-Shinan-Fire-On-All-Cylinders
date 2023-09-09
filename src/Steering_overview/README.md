@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-# <div align="center">Steering overview</div> 
+# <div align="center">Steering Overview</div> 
 
 ## ydlidar Steering
 - Perform wall navigation. First, read one side of the LiDAR to check if the distance is greater than 100 cm. If the LiDAR on the right side reads a distance greater than 100 cm, it indicates clockwise movement; otherwise, it indicates counterclockwise movement.
