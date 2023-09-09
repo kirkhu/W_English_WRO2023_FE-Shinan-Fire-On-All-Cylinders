@@ -13,7 +13,7 @@
 <li><a href="https://www.az-delivery.de/en/products/pca9685-servotreiber">PCA9685 16-Channel 20Bit PWM Driver</a></li>  
 <li><a href="https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41">Button B3F-4055</a></li>  
 <li><a href="https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z">Lipo battery low voltage alarm</a></li>  
-<li><a href="https://shopee.tw/%E6%90%96%E9%A0%AD%E9%96%8B%E9%97%9C-3A-250VAC-6A-125VAC-MTS-1%E9%80%A3%E5%8B%95%E9%96%8B%E9%97%9C-B5031-%E5%A4%A7%E6%B4%8B%E5%9C%8B%E9%9A%9B%E9%9B%BB%E5%AD%90-i.26482219.490434892">Switch AC 725W</a></li>    
+<li><a href="https://www.ebay.com/itm/354866498573">Light Country 6A 250V AC R19A</a></li>    
 <li><a href="https://www.waveshare.com/imx219-160-camera.htm">IMX 219-160 Camera for Jetson Nano</a></li> 
 <li><a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB">Li-Polymer battery 3S Desire Power V8 11.1V 1300mAh 70C</a></li>
 <li><a href="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
@@ -38,6 +38,7 @@
 <li>plastic column M3x6mm column length 12mm<br></li>
 <li>plastic column M3x6mm column length 6mm<br></li>
 <li>Plastic screw M3x5mm<br></li>
+<li>Plastic screw M3x20mm<br></li>
 <li>Plastic Nut M3<br></li>
 <li>Internal Hexagonal Metal Screw M3x10mm<br></li>
 <li>Internal Hexagonal Metal Screw M3x12mm<br></li>
