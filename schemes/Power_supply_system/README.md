@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-# <div align="center">Power_supply_system</div> 
+# <div align="center">Power_Supply_System</div> 
 - ###  Power_supply_system of Summary diagram
 <div align="center"><img src="./img/System_operation_process_power.jpg" width="600"></div>
 
