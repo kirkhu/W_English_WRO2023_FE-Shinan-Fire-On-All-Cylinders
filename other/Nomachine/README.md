@@ -25,7 +25,7 @@
 
 - We need this feature because we may not always have a screen connected to the Jetson Nano, so using NoMachine allows us to operate it directly from our laptop, which is very convenient.
 
-- When we replaced the Raspberry Pi with the Jetson Nano ,we still use VNC to connect Jetson Nano. However, we found that there were significant latency issues, so ultimately, we chose to use NoMachine to control Jetson Nano and rewrite programs.
+- When we replaced the Raspberry Pi with the Jetson Nano ,we still use VNC to connect Jetson Nano. However, we found that there were significant latency issues, so ultimately, we chose to use NoMachine to control Jetson Nano and write programs.
   
 - NoMachine link: [NoMachine](https://www.nomachine.com/) 
 
