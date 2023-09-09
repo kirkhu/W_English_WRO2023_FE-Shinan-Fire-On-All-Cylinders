@@ -5,69 +5,62 @@
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 
-1. Camera Rev 1.3(sensor: OmniVision OV5647)
+1. IMX 219-160 Camera for Jetson Nano(sensor: Sony IMX219)
 2. raspberry pi camera Module V2(sensor: Sony IMX219)
 3. raspberry pi camera Module V3(sensor: Sony IMX708)
 
-- When selecting an appropriate camera, we went through a careful consideration and comparison process. We noticed that Module V2 and V3 cameras are not compatible with the Jetson Nano, which posed a limitation in our selection process. After thoroughly researching multiple camera options, we ultimately decided to use Camera Rev 1.3 as our chosen camera for image recognition.
+- When selecting an appropriate camera, we went through a careful consideration and comparison process. We noticed that Module Rev 1.3 and V3 cameras are not compatible with the Jetson Nano, which posed a limitation in our selection process. After thoroughly researching multiple camera options, we ultimately decided to use IMX 219 Camera  as our chosen camera for image recognition.
 
 #### Camera Module
 <div align="center">
 <table>
 <tr align="center" >
 <th rowspan="2">Model</th> 
-<th >Camera Rev 1.3</th>
+<th >IMX 219-160 Camera for Jeston Nano</th>
 <th >raspberry pi camera Module V2</th>
 <th >raspberry pi camera Module V3</thd>
 </tr>
 <tr align="center">
 
-<td><img src="./img/V1.jpeg" width=200 alt="V1"  /></td>
+<td><img src="./img/v1_width-angle.jpg" width=150 alt="V1"  /></td>
 <td><img src="./img/V2.jpeg" width=200 alt="V2" ></td>
 <td><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
 <tr align="center">
 <td>sensor</td>
-<td>Omnivision OV547</td>
+<td>Sony IMX 219</td>
 <td>Sony IMX 219</td>
 <td>Sony IMX 708</td>
 </tr>
 <tr align="center">
 <td>sensor resolution</td>
-<td>2592 * 1944 pix</td>
+<td>3280 * 2464 pix</td>
 <td>3280 * 2464 pix</td>
 <td>4608 * 2592 pix</td>
 </tr>
 <tr align="center">
 <td>FPS</td>
-<td>60p MAX</td>
+<td>90p MAX</td>
 <td>90p MAX</td>
 <td>120p MAX</td>
 </tr>
 </table>
 </div>
-<small>Data source:  
 
-[Rev 1.3](https://www.uctronics.com/5mp-ov5647-download-full-datasheet-pdf)
 
-</small>
-
-- During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
+- When purchasing this camera, it comes with a built-in wide-angle lens function, with a viewing angle of 160 degrees, which can better help us recognize building blocks.
 
 #### wide-angle lens
 <div align="center">
 <table>
 <tr align="center">
-<th> Without the wide-angle lens</th> 
 <th>With the wide-angle lens</th>
 </tr>
 <tr align="center">
-<td><img src="./img/V1.jpeg" width=200 alt="site" ></td>
 <td><img src="./img/v1_width-angle.jpg" width=200 alt="site" >
 </td>
 </tr>
 <tr align="center">
-<td><img src="./img/72angle.png" width=200 alt="site" ></td>
 <td> <img src="./img/160angle.png" width=200 alt="site" ></td>
 </tr>
 </table>
