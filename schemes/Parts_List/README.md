@@ -35,7 +35,7 @@
 <li>matal Nut M3<br></li>
 <li>Internal Phillips Head Metal Screw M2x14mm<br></li>
 <li>matal Nut M2<br></li>
-<li>Cross recessed round head metal screw 2x10mm<br></li>
+<li>Cross recessed round head Metal screw 2x10mm<br></li>
 <li>pegboard 30x48 hole 90x150 mm<br></li>
 <li>lego 56898 56904 wheel 42x15mm<br></li>
 <li>lego 32019 86652 wheel 62.4x20mm<br></li>
