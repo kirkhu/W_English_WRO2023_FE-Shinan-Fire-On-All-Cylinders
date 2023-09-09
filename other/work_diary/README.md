@@ -844,18 +844,6 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **Content:**  
 
-- We have utilized a 3D printer to manufacture the vehicle chassis, replacing the initial wooden boards. This shift offers two primary advantages: firstly, the material is lighter than wood, and secondly, it can be produced as a unified, integrated piece. In contrast to wooden boards that are cut individually with a laser cutting machine and subsequently assembled, 3D printing offers considerably greater convenience.
-
-
-#### 3D printed product
-<div align="center">
-<table>
-<tr  align="center"> 
-<th> <img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></th> 
-<th><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></th>
-</tr>
-</table>
-</div>
 
 
 ## 2023/09/25 ~ 2023/10/01
