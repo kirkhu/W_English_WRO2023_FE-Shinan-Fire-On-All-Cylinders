@@ -14,7 +14,7 @@
 <div align="center" width=100%>
 <table>
 <tr align="center">
-  <th> 18650 lithium batteries </th> <th>Li-Polymer 3S Battery 
+  <th> 18650 Lithium Batteries </th> <th>Li-Polymer 3S Battery 
   </th>
 </tr>
 <tr align="center">
