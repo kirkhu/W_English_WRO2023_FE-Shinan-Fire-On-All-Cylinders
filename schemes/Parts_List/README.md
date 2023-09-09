@@ -6,7 +6,7 @@
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li>Jetson Nano cooling fan<br></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
-<li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">Motor Driver</a></li>  
+<li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">DFRobot DFR0592 DC Motor Driver HAT (V1.0)</a></li>  
 <li>Motor adapter with a thread radius 10mm thickness 10mm<br></li>
 <li>24-tooth metal gear radius 13mm thickness 7mm<br></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
