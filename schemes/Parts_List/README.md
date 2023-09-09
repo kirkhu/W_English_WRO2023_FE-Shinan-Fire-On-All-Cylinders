@@ -40,10 +40,9 @@
 <li>lego 56898 56904 wheel 42x15mm<br></li>
 <li>lego 32019 86652 wheel 62.4x20mm<br></li>
 <li>lego 6573199 differential Gear<br></li>
-<li>lego 59443 cross shaft connector <br></li>
+<li>lego 4107783 cross shaft connector <br></li>
 <li>lego 4560177 four-pointed nail<br></li>
 <li>lego 4239601 half-thickness socket<br></li>
-<li>lego 4211622 one-thickness socket<br></li>
 <li>lego 6031821 Axle 3L with Stud<br></li>
 <li>lego 4142865 2-unit cross axis<br></li>
 <li>lego 4211815 5-unit cross axis<br></li>
@@ -59,6 +58,6 @@
 <li>lego 4206482 plug to cross-shaped<br></li>
 <li>lego 4296059 L-shaped connector<br></li>
 <li>lego 4140430 4162857 connector <br></li>
-<li>light curing UV-604<br></li>
+<li>Light Curing Resin UV-604<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
