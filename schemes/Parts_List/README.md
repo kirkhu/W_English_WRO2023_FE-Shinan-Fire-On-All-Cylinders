@@ -21,7 +21,7 @@
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></sli>
 <li>695 bearing Koyo or nsk<br></li>
 <li>flat cable female-to-female 40p(20x2)<br></li>
-<li>Press-fit right-angle male socket 40p(20*2)<br></li>
+<li>Press-fit right-angle male socket 40p(20x2)<br></li>
 <li>white socket 2p<br></li>
 <li>white socket 3p<br></li>
 <li>white socket 4p<br></li>
