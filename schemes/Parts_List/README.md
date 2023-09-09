@@ -32,8 +32,6 @@
 <li>white socket 6p<br></li>
 <li>female socket 2.45mm<br></li>
 <li>male socket 2.45mm<br></li>
-<li>hexagon Plastic pillar 3x6+6<br></li>
-<li>hexagon double female standoffs 3x15<br></li>
 <li>plastic column M3x6mm column length 30mm<br></li>
 <li>plastic column M3x6mm column length 20mm<br></li>
 <li>plastic column M3x6mm column length 12mm<br></li>
