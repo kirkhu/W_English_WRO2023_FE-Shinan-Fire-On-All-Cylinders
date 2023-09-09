@@ -41,8 +41,9 @@
 <li>Plastic Nut M3<br></li>
 <li>Internal Hexagonal Metal Screw M3x10mm<br></li>
 <li>Internal Hexagonal Metal Screw M3x12mm<br></li>
-<li>matal Nut M3<br></li>
+<li>Metal Nut M3<br></li>
 <li>Internal Phillips Head Metal Screw M2x14mm<br></li>
+<li>Internal Phillips Head Metal Screw M2x4mm<br></li>
 <li>matal Nut M2<br></li>
 <li>Cross recessed round head Metal screw 2x10mm<br></li>
 <li>pegboard 30x48 hole 90x150 mm<br></li>
