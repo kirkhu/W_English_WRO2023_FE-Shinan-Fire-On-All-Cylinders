@@ -30,6 +30,7 @@ __Located Below is the content of the technical report, and a link to the build 
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
     - [Introduction to OpenCV](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+    - [Introduction to Nomachine](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Nomachine)
     - __Programming__
       - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
@@ -46,6 +47,7 @@ __Located Below is the content of the technical report, and a link to the build 
   #### 6. GitHub utilization
     - [GitHub Edit(VSCODE Edit/GIT)](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/src/GitHub_Edit/README.md)
     - [GitHub Web Editing Languages](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/src/GitHub_Languages/README.md)  
+
 
   #### 7. Engineering Factor
     - [Work Diary](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md) 
