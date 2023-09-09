@@ -61,6 +61,6 @@
 <li>lego 4296059 L-shaped connector<br></li>
 <li>lego 4140430 4162857 connector <br></li>
 <li>Light Curing Resin UV-604<br></li>
-<li>wood broad 3mm  </a></li><br></li>
+<li>wood broad Thickness of 3mm <br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
