@@ -5,6 +5,7 @@
 # <div align="center">Part List </div>
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li>Jetson Nano cooling fan<br></li>
+<li>Jetson Nano Power Connector<br></li>
 <li><a href="https://www.ebay.com/itm/384696284557">Jetson Nano antenna</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">DFRobot DFR0592 DC Motor Driver HAT (V1.0)</a></li>  
@@ -37,13 +38,14 @@
 <li>plastic column M3x6mm column length 20mm<br></li>
 <li>plastic column M3x6mm column length 12mm<br></li>
 <li>plastic column M3x6mm column length 6mm<br></li>
-<li>Plastic screw M3x5mm<br></li>
-<li>Plastic screw M3x20mm<br></li>
+<li>Internal Phillips Head Plastic screw M3x5mm<br></li>
+<li>Internal Phillips Head Plastic screw M3x20mm<br></li>
 <li>Plastic Nut M3<br></li>
 <li>Internal Hexagonal Metal Screw M3x10mm<br></li>
 <li>Internal Hexagonal Metal Screw M3x12mm<br></li>
 <li>Metal Nut M3<br></li>
 <li>Internal Phillips Head Metal Screw M2x14mm<br></li>
+<li>Internal Phillips Head Metal Screw M2x12mm<br></li>
 <li>Internal Phillips Head Metal Screw M2x4mm<br></li>
 <li>matal Nut M2<br></li>
 <li>Cross recessed round head Metal screw 2x10mm<br></li>
