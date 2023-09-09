@@ -796,7 +796,7 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 <table>
 <tr align="center">
 <td><img src="./img/9/0901-1.jpg" width="200" alt="work_daily"></td>
-<td><img src="./img/9/0901-3.jpg" width="200" alt="work_daily"></td> 
+<td><img src="./img/9/0901-3.jpg" width="100" alt="work_daily"></td> 
 <td><img src="./img/9/0901-4.jpg" width="200" alt="work_daily"></td>
 </tr>
 <tr align="center">
