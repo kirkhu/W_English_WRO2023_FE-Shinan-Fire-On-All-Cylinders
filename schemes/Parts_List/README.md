@@ -36,26 +36,24 @@
 <li>lego 6182551 4541318 wheel 42x15mm<br></li>
 <li>lego 6573199 differential gear<br></li>
 <li>lego 59443 cross shaft connector <br></li>
-<li>lego 4107783 cross shaft connector <br></li>
 <li>lego 4560177 four-pointed nail<br></li>
 <li>lego 4239601 half-thickness socket<br></li>
 <li>lego 4211622 one-thickness socket<br></li>
 <li>lego 6031821 Axle 3L with Stud<br></li>
 <li>lego 4142865 2-unit cross axis<br></li>
-<li>lego 4211815 3-unit cross axis<br></li>
-<li>lego 4211639 5-unit cross axis<br></li>
+<li>lego 4211815 5-unit cross axis<br></li>
+<li>lego 4211639 6-unit cross axis<br></li>
 <li>lego (6589)4565452 gear 12 tooth<br></li>
-<li>lego 4210857 two circular holes and one cross-shaped hole<br></li>
 <li>lego 208160 crossbar 1x3 <br></li>
 <li>lego 4211651 crossbar 1x5<br></li>
 <li>lego 4495930 crossbar 1x7<br></li>
 <li>lego 4611705 crossbar 1x11<br></li>
+<li>lego 4542578 crossbar 1x15<br></li>
 <li>lego 4121715 black plug<br></li>
-<li>lego 4206482 4514553 blue plug<br></li>
+<li>lego 4514553 blue plug<br></li>
 <li>lego 4206482 plug to cross-shaped<br></li>
 <li>lego 4296059 L-shaped connector<br></li>
-<li>lego 6006140 Liftarm 1x2 Thick<br></li>
-<li>lego 4121667 Axle And Pin Connector<br></li>
+<li>lego 4140430 4162857 connector <br></li>
 <li>light curing UV-604<br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
