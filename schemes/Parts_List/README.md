@@ -19,6 +19,7 @@
 <li><a href="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
+<li>USB to TTL CP2102<br></li>
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></sli>
 <li>695ZZ 5x13x4 bearing NSK<br></li>
 <li>iron wire 1.2mm<br></li>
@@ -32,6 +33,10 @@
 <li>male socket 2.45mm<br></li>
 <li>hexagon Plastic pillar 3x6+6<br></li>
 <li>hexagon double female standoffs 3x15<br></li>
+<li>plastic column M3x6mm column length 30mm<br></li>
+<li>plastic column M3x6mm column length 20mm<br></li>
+<li>plastic column M3x6mm column length 12mm<br></li>
+<li>plastic column M3x6mm column length 6mm<br></li>
 <li>Plastic screw M3x5mm<br></li>
 <li>Plastic Nut M3<br></li>
 <li>Internal Hexagonal Metal Screw M3x10mm<br></li>
