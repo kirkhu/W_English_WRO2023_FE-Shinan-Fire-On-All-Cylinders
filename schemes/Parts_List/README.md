@@ -21,6 +21,7 @@
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></sli>
 <li>695ZZ 5x13x4 bearing NSK<br></li>
+<li>iron wire<br></li>
 <li>flat cable female-to-female 40p(20x2)<br></li>
 <li>Press-fit right-angle male socket 40p(20x2)<br></li>
 <li>white socket 2p<br></li>
