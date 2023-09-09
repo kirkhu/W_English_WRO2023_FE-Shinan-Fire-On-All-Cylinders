@@ -5,7 +5,7 @@
 # <div align="center">Part List </div>
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li>Jetson Nano cooling fan<br></li>
-<li><a href="https://www.ebay.com/itm/384696284557">Jetson Nano antenna</a><br></li>
+<li><a href="https://www.ebay.com/itm/384696284557">Jetson Nano antenna</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">DFRobot DFR0592 DC Motor Driver HAT (V1.0)</a></li>  
 <li>24-tooth Plastic gear<br></li>
