@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-## <div align="center">Distinctive Pseudo code</div>
+## <div align="center">Distinctive Pseudo Code</div>
 __In our program, many repetitive sections of code have been written as subroutines to facilitate debugging and simplify program complexity. And perhaps the most distinctive feature in the program is the avoidance of code blocks resembling building blocks. Here is the excerpt of the program content__
 - ### Avoid obstacles until the field line is detected
   - This segment of the code will continuously detect if a line is detected. If detected, it will exit and perform a turn.
