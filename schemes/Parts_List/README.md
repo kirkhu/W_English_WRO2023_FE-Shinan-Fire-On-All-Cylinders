@@ -7,8 +7,7 @@
 <li>Jetson Nano cooling fan<br></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">DFRobot DFR0592 DC Motor Driver HAT (V1.0)</a></li>  
-<li>Motor adapter with a thread radius 10mm thickness 10mm<br></li>
-<li>24-tooth metal gear radius 13mm thickness 7mm<br></li>
+<li>24-tooth Plastic gear<br></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
 <li><a href="https://www.az-delivery.de/en/products/pca9685-servotreiber">PCA9685 16-Channel 20Bit PWM Driver</a></li>  
 <li><a href="https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41">Button B3F-4055</a></li>  
@@ -22,19 +21,25 @@
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/IWECOLOR-%E5%8D%B0%E8%A1%A8%E6%A9%9F%E7%B7%9A%E6%9D%90%E4%B8%89%E8%89%B2-%E7%B7%9A%E8%BB%B8%E7%B4%85%E8%89%B2-%E7%B6%A0%E8%89%B2%E4%B8%89%E8%89%B2-%E5%88%97%E5%8D%B0%E7%B7%9A%E6%9D%90%E7%B5%84/dp/B0B93PNJZG?language=en_US">IWECOLOR 3D Printer Filament Triple Colors</a></li>
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></sli>
+<li>695 bearing Koyo or nsk<br></li>
 <li>white socket 2p<br></li>
 <li>white socket 6p<br></li>
 <li>female socket 2.45mm<br></li>
 <li>male socket 2.45mm<br></li>
-<li>hexagon plastic pillar 3x6+6<br></li>
+<li>hexagon Plastic pillar 3x6+6<br></li>
 <li>hexagon double female standoffs 3x15<br></li>
-<li>plastic screw M3*7<br></li>
-<li>plastic nut M3<br></li>
-<li>matal nut M2<br></li>
+<li>Plastic screw M3x5mm<br></li>
+<li>Plastic Nut M3<br></li>
+<li>Internal Hexagonal Metal Screw M3x10mm<br></li>
+<li>Internal Hexagonal Metal Screw M3x12mm<br></li>
+<li>matal Nut M3<br></li>
+<li>Internal Phillips Head Metal Screw M2x14mm<br></li>
+<li>matal Nut M2<br></li>
 <li>Cross recessed round head metal screw 2x10mm<br></li>
 <li>pegboard 30x48 hole 90x150 mm<br></li>
-<li>lego 6182551 4541318 wheel 42x15mm<br></li>
-<li>lego 6573199 differential gear<br></li>
+<li>lego 56898 56904 wheel 42x15mm<br></li>
+<li>lego 32019 86652 wheel 62.4x20mm<br></li>
+<li>lego 6573199 differential Gear<br></li>
 <li>lego 59443 cross shaft connector <br></li>
 <li>lego 4560177 four-pointed nail<br></li>
 <li>lego 4239601 half-thickness socket<br></li>
@@ -43,7 +48,7 @@
 <li>lego 4142865 2-unit cross axis<br></li>
 <li>lego 4211815 5-unit cross axis<br></li>
 <li>lego 4211639 6-unit cross axis<br></li>
-<li>lego (6589)4565452 gear 12 tooth<br></li>
+<li>lego (6589)4565452 Gear 12 tooth<br></li>
 <li>lego 208160 crossbar 1x3 <br></li>
 <li>lego 4211651 crossbar 1x5<br></li>
 <li>lego 4495930 crossbar 1x7<br></li>
