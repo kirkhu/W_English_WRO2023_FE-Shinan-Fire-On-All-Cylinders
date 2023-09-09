@@ -844,7 +844,7 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 <table>
 <tr align=center>
 <th>3D Printer</th>
-<th>3D Printer wprking</th>
+<th>3D Printer working</th>
 </tr><tr align=center>
 <td><img src="./img/9/all_3Dprinter.jpg" alt="3D printer" width=200 /></td>
 <td><img src="./img/9/3D_working.jpg" alt="3D printer" width=200 /></td>
