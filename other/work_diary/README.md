@@ -816,7 +816,14 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **Content:**  
 
-Today, we used a photopolymerization 3D printer. The advantage of photopolymerization lies in its smooth surface finish, high precision, and simple post-print maintenance. However, the drawback is that it takes longer printing time. Therefore, we only use it to print parts that need to be assembled separately, such as the Ackermann steering mechanism and bearing brackets. This approach helps us save printing time while achieving high precision results.
+- Today, we utilized a stereolithography 3D printer to produce the fixtures for our front steering mechanism, allowing us to optimize the space utilization of the steering mechanism. We chose stereolithography due to its advantages, such as a smooth surface finish, high precision, and easy maintenance. However, it's worth noting that this method tends to have longer print times. Consequently, we exclusively used it for components that needed to be printed separately, like the Ackermann steering mechanism and the bearing mounting bracket. This approach not only saved printing time but also ensured high precision in the components.
+
+- This week, our club acquired a stacked 3D printer, which means we can now start working on vehicle integration. One of the advantages of using a 3D printer is that we can create threads, which allows for more secure fastening of screws. With vehicle integration, we can reduce the overall size, making the machine more lightweight.
+
+- Earlier, we had multiple failed attempts at printing, and we discovered that it was because we weren't using supports. Since the printer works by stacking layers on top of each other, any overhanging parts without support would collapse. When we removed the finished prints, they would often break. After realizing that the infill density was too low, resulting in fragile prints, we increased the density, which helped us successfully complete the prints.
+
+- When assembling the vehicle, we found that the photopolymer parts remained soft and were prone to deformation. Therefore, we used ultraviolet (UV) light for secondary curing to make the parts less susceptible to deformation.
+
 
 <div align="center">
 <table>
@@ -826,9 +833,41 @@ Today, we used a photopolymerization 3D printer. The advantage of photopolymeriz
 </tr>
 <tr align="center">
 <td><img src="./img/9/using_3D_printer.jpg" width="200" alt="work_daily"></td>
-<td><img src="./img/9/photoprinting.jpg" width="350" alt="work_daily"></td>
-<td><img src="./img/9/turn_mashine-1.jpg" width="350" alt="work_daily"></td>
-<td><img src="./img/9/turn_mashine-2.jpg" width="350" alt="work_daily"></td>
+<td><img src="./img/9/photoprinting.jpg" width="200" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-1.jpg" width="300" alt="work_daily"></td>
+<td><img src="./img/9/turn_mashine-2.jpg" width="300" alt="work_daily"></td>
+</tr>
+</table>
+</div>
+
+<div align=center>
+<table>
+<tr align=center>
+<th>3D Printer</th>
+<th>3D Printer wprking</th>
+</tr><tr align=center>
+<td><img src="./img/9/all_3Dprinter.jpg" alt="3D printer" width=200 /></td>
+<td><img src="./img/9/3D_working.jpg" alt="3D printer" width=200 /></td>
+</tr>
+</table>
+</div>
+
+#### 3D printed product
+<div align="center">
+<table>
+<tr  align="center"> 
+<td><img src="./img/8/3D_2.png" alt="work_photo_2_1_0729" width=300 /></td> 
+<td><img src="./img/8/3D_1.png" alt="work_photo_2_2_0729" width=250 /></td>
+</tr>
+</table>
+</div>
+
+<div align=center>
+<table>
+<tr>
+<th>Secondary curing</th>
+</tr><tr>
+<td><img src="../../schemes/3D_printed/img/2.jpg" width=300 alt="light_again"></td>
 </tr>
 </table>
 </div>
