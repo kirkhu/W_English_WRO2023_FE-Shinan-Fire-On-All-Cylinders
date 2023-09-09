@@ -5,7 +5,7 @@
 
 # <div align="center">Introduction to NoMachine </div> 
 
- # ＮoMachine
+ # remote desktop application Tool - ＮoMachine
  
 - NoMachine is a remote desktop application that allows users to access and control computers from different locations. This application is available for multiple operating systems, including Windows, macOS, and Linux.
 
