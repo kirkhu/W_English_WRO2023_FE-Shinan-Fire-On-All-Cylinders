@@ -16,7 +16,7 @@
 </table>
 </div>
 
-- ### Circuit schematic drawing
+- ### Circuit Schematic Drawing
 <div align="center">
 <table>
   <tr align="center">
