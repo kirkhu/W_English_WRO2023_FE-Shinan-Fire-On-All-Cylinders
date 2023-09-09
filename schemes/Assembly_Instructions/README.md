@@ -244,34 +244,20 @@ __Usage:__
     <td> 
 
 __Specifications:__ 
-- Viewing Angle: 72 degrees  
+- Viewing Angle: 160 degrees  
 - Interface: CSI (Camera Serial Interface)  
 
 __Usage:__  
 - Collecting images for image recognition. 
   </td>
     <td >
-<img src="../Camera/img/V1.jpeg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
+<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
     </td>
   </tr>
 </table>
 
 
-### Camera wide-angle module
-<table border=0 width="100%">
-  <tr>
-    <td>
 
-__Specifications:__
-- Viewing Angle: 72 degrees
-
-__Usage:__ 
-- Expanded the camera's field of view by using a wide-angle lens.
-  </td><td>
-<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />  
-    </td>
-  </tr>
-</table>
 
 ### D100 LiDAR
 <table border=0 width=100% >
