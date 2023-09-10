@@ -534,13 +534,13 @@ if get_mid_dis > 55:
 <div align="center">
 <table>
 <tr align="center">
-<th>Display the number of line crossings and the color of the nearest traffic sign.</th>
+<th>Display the number of line crossings and <br>the color of the nearest traffic sign.</th>
 <th>Adjusting the values.
 </th>
 </tr>
 <tr align="center">
 <td><img src="./img/7/detect_last_obstacle.png" width="200" alt="print color"></td>
-<td><img src="./img/7/check.jpeg" width="250" alt="check"></td>
+<td><img src="./img/7/check.jpeg" width="300" alt="check"></td>
 </table>
 </div>
 
