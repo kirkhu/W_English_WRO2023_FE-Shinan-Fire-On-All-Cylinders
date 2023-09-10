@@ -31,7 +31,7 @@ This method requires you to install specific software, such as Visual Studio Cod
 |<img src="./img/vscode.png" alt="vscode"  width=400/>|<img src="./img/vscode_git.png" alt="git"  width=300/>|
 </div>
 
-### ${{\color{red} Introduction to Visal Studio Code(Visal Studio Code的介紹)}} $  
+### ${{\color{red} Introduction to Visal Studio Code}} $  
 
 - ### 
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
