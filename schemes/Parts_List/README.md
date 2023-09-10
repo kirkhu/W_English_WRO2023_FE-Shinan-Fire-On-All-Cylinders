@@ -6,8 +6,9 @@
 <li><a href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit">NVIDIA Jetson Nano</a></li>
 <li>Jetson Nano cooling fan<br></li>
 <li>Jetson Nano Power Connector<br></li>
-<li><a href="https://www.ebay.com/itm/384696284557">Jetson Nano antenna</a></li>
-<li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
+<li><a href="https://www.ebay.com/itm/384696284557">Jetson Nano Wifi antenna</a></li>
+<li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li> 
+<li>Black motor mounting bracket<br></li>
 <li><a href="https://www.mouser.tw/new/dfrobot/dfrobot-dc-motor-driver-hat/">DFRobot DFR0592 DC Motor Driver HAT (V1.0)</a></li>  
 <li>24-tooth Plastic gear<br></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>  
@@ -17,6 +18,7 @@
 <li><a href="https://www.ebay.com/itm/354866498573">Light Country 6A 250V AC R19A</a></li>    
 <li><a href="https://www.waveshare.com/imx219-160-camera.htm">IMX 219-160 Camera for Jetson Nano</a></li> 
 <li><a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB">Li-Polymer battery 3S Desire Power V8 11.1V 1300mAh 70C</a></li>
+<li>Amass TX60-M plug<br></li>
 <li><a href="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>  
@@ -48,28 +50,28 @@
 <li>matal Nut M2<br></li>
 <li>Cross recessed round head Metal screw 2x10mm<br></li>
 <li>pegboard 30x48 hole 90x150 mm<br></li>
-<li>lego 56898 56904 wheel 42x15mm<br></li>
-<li>lego 32019 86652 wheel 62.4x20mm<br></li>
-<li>lego 6573199 differential Gear<br></li>
-<li>lego 4107783 cross shaft connector <br></li>
-<li>lego 4560177 four-pointed nail<br></li>
-<li>lego 4239601 half-thickness socket<br></li>
-<li>lego 6031821 Axle 3L with Stud<br></li>
-<li>lego 4142865 2-unit cross axis<br></li>
-<li>lego 4211815 5-unit cross axis<br></li>
-<li>lego 4211639 6-unit cross axis<br></li>
-<li>lego (6589)4565452 Gear 12 tooth<br></li>
-<li>lego 208160 crossbar 1x3 <br></li>
-<li>lego 4211651 crossbar 1x5<br></li>
-<li>lego 4495930 crossbar 1x7<br></li>
-<li>lego 4611705 crossbar 1x11<br></li>
-<li>lego 4542578 crossbar 1x15<br></li>
-<li>lego 4121715 black plug<br></li>
-<li>lego 4514553 blue plug<br></li>
-<li>lego 4206482 plug to cross-shaped<br></li>
-<li>lego 4296059 L-shaped connector<br></li>
-<li>lego 4140430 4162857 connector <br></li>
+<li>Lego 56898 56904 wheel 42x15mm<br></li>
+<li>Lego 32019 86652 wheel 62.4x20mm<br></li>
+<li>Lego 6573199 differential Gear<br></li>
+<li>Lego 4107783 cross shaft connector <br></li>
+<li>Lego 4560177 four-pointed nail<br></li>
+<li>Lego 4239601 half-thickness socket<br></li>
+<li>Lego 6031821 Axle 3L with Stud<br></li>
+<li>Lego 4142865 2-unit cross axis<br></li>
+<li>Lego 4211815 5-unit cross axis<br></li>
+<li>Lego 4211639 6-unit cross axis<br></li>
+<li>Lego (6589)4565452 Gear 12 tooth<br></li>
+<li>Lego 208160 crossbar 1x3 <br></li>
+<li>Lego 4211651 crossbar 1x5<br></li>
+<li>Lego 4495930 crossbar 1x7<br></li>
+<li>Lego 4611705 crossbar 1x11<br></li>
+<li>Lego 4542578 crossbar 1x15<br></li>
+<li>Lego 4121715 black plug<br></li>
+<li>Lego 4514553 blue plug<br></li>
+<li>Lego 4206482 plug to cross-shaped<br></li>
+<li>Lego 4296059 L-shaped connector<br></li>
+<li>Lego 4140430 4162857 connector <br></li>
 <li>Light Curing Resin UV-604<br></li>
-<li>wood broad Thickness of 3mm <br></li>
+<li>wood broad thickness of 3mm <br></li>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
