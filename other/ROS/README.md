@@ -48,6 +48,6 @@ $ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ```
 <small>Date sourse:<br>[ithelp](https://ithelp.ithome.com.tw/articles/10200551)  
 [wikipedia](https://zh.wikipedia.org/zh-tw/%E6%A9%9F%E5%99%A8%E4%BA%BA%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)  
-[機械工業雜誌 412期](https://docs.google.com/document/d/1M4JN4CFelSwmJmYl0W2PQt0lKBieaWgcDpVNfjTycGE/edit?pli=1)</small>  
+[Mechanical-Engineering-Magazine Issue 412](https://docs.google.com/document/d/1M4JN4CFelSwmJmYl0W2PQt0lKBieaWgcDpVNfjTycGE/edit?pli=1)</small>  
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
