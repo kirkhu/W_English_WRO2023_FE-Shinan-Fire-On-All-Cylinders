@@ -104,7 +104,7 @@ The following data was obtained during the experiment when printing the Ackerman
 </tr><tr align="center">
 <td><img src="./img/all_3Dprinter.jpg" width=200 alt="photocured" ></td>
 <td><img src="./img/3D_photoprinter.jpeg" width=250 alt="photocured" ></td>
-</tr><tr align="center">
+</tr>< align="center">
 <td>The required printing time</td>
 <td>Faster</td>
 <td>Slower</td>
