@@ -8,6 +8,7 @@
 - The hardware configuration of Jetson Nano includes a processor, memory, 4 USB ports, HDMI output, GPIO pins, and more.
 - It is suitable for various applications such as programming education in the field of education, smart home devices, autonomous vehicles, DIY projects, and more. This compact yet powerful microcomputer has become the preferred choice for electronics enthusiasts, students, and professionals alike.
 
+Due to the need for high budget efficiency in image recognition, enhancing processing speed is essential.
 __Therefore, we have chosen NVIDIA Jetson Nano as the hardware development platform for the self-driving vehicle.__
 
  
