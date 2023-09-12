@@ -234,6 +234,9 @@ __Usage:__
 __Logic judgment:__
 - When color sensor read the line color ,it will send the value to Jetson Nano ,then Jetson Nano will compare the current value and the setting value ,if the current value is lower ,vehicle will turn left because this means that it has detected a blue line.  
 On the contrary, if it is greater than the set value and less than the white value, it indicates an orange line, and a right turn is required.
+
+當顏色感測器讀到顏色，他會將數值傳送給Jetson Nano，然後Jetson Nano會比較傳輸的數值和設定的數值，如果比較低，車輛將會左轉為這代表線是藍色的
+相反的，如果大於設定的數值並且小於白色，這代表是橘色，需要進行右轉
  </td>
     <td>
 <img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor" align=center />   
@@ -255,7 +258,9 @@ __Usage:__
 - Collecting images for image recognition. 
 
 __Logic judgment:__
-- Camera will keep to capture pictures ,and send it to Jetson Nano ,then Jetson Nano will check if there are any blocks in the photo ,if yes ,Jetson Nano will compare all the blocks in image ,which is bigger ,and identify the blocks color.
+- Camera will keep to capture pictures ,and send it to Jetson Nano ,then Jetson Nano will check if there are any blocks in the photo ,if yes ,Jetson Nano will compare the sizes of all the blocks and identify the blocks color in image.
+
+相機會持續取照片，並且傳送給Jetson Nano ，然後Jetson Nano會檢查照片中有無方塊，如果有，Jetson Nano 會比較照片中所有的方塊大小和辨識顏色
   </td>
     <td >
 <img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
@@ -281,6 +286,8 @@ __Usage:__
 
 __Logic judgment:__
 - When the distances on the left and right sides are imbalanced, it will first check if they are within the set range. If they are within the range, it will proceed straight. If they exceed the range, it means it has reached a turning area and needs to make a turn.
+
+當左右兩邊的距離不平衡時，會先判斷是不是在設定範圍內，如果是就進行至中，如果超過了就表示到達轉彎區域，需要進行轉彎
   </td>
     <td>
 <img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR" align=center />      
