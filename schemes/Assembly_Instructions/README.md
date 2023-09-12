@@ -238,7 +238,7 @@ __Usage:__
 </table>
 
 
-### Omnivision OV547 Camera Module
+### IMX 219-160 Camera for Jetson Nano
 <table border=0 width="100%" >
   <tr>
     <td> 
