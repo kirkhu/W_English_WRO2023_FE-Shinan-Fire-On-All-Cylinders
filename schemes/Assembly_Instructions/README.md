@@ -230,6 +230,10 @@ __Specifications:__
 __Usage:__  
 - Line color recognition 
 - counting the current number of revolutions.  
+
+__Logic judgment:__
+- When color sensor read the line color ,it will send the value to Jetson Nano ,then Jetson Nano will compare the current value and the setting value ,if the current value is lower ,vehicle will turn left because this means that it has detected a blue line.  
+On the contrary, if it is greater than the set value and less than the white value, it indicates an orange line, and a right turn is required.
  </td>
     <td>
 <img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor" align=center />   
@@ -249,6 +253,9 @@ __Specifications:__
 
 __Usage:__  
 - Collecting images for image recognition. 
+
+__Logic judgment:__
+- Camera will keep to capture pictures ,and send it to Jetson Nano ,then Jetson Nano will check if there are any blocks in the photo ,if yes ,Jetson Nano will compare all the blocks in image ,which is bigger ,and identify the blocks color.
   </td>
     <td >
 <img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
@@ -271,6 +278,9 @@ The D100 Developer Kit is built around the LiDAR LD14 core, complemented with va
 
 __Usage:__  
 - Used for detecting front, left, and right walls and keeping the machine centered in the lane. 
+
+__Logic judgment:__
+- When the distances on the left and right sides are imbalanced, it will first check if they are within the set range. If they are within the range, it will proceed straight. If they exceed the range, it means it has reached a turning area and needs to make a turn.
   </td>
     <td>
 <img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR" align=center />      
