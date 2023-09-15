@@ -878,10 +878,6 @@ This week, we started modifying the program. Due to the differences in the Raspb
 
 While the 3D-printed chassis offered advantages such as size reduction and greater flexibility, it was not sturdy enough and prone to breaking. Therefore, we ultimately decided to use a laser cutting machine to cut wooden boards for the chassis.
 
-這周我們開始修改程式，由於樹梅派和 Jetson Nano 環境是不同的，雖然都是 Python 但是由於車輛的改造和電路板的改變，所以程式的部分有許多地方都需要修改，在資格賽中就遇到許多挫折，例如:光達無法正常偵測、電池滑落會卡住輪胎、光感過於敏感等問題。
-
-車輛在運行程式時，發現3D列印的車體雖然有縮小體機、自由性高等優勢，但是不夠堅固，容易碎裂，因此最後我們決定使用雷切機切割木板作為車體。
-
 <div align="center">
 <table>
 <tr  align="center"> 
