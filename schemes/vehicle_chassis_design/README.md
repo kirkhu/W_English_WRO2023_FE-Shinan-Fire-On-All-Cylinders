@@ -17,7 +17,6 @@ __Introduction to Ackermann_steering_geometry__
 
 - ## Ackermann_steering_geometry for Photocured 3D Printing(80% Ackermann)
 <div align="center"><img src="./img/Acman80.png" width="400" alt="Ackermann_steering_geometry_lego"> <img src="../3D_printed/img/light_curing.png" width="300" alt="Ackermann_steering_geometry_lego"></div> 
-The components highlighted within the red box are the Ackermann steering mechanism that we have produced using photocured 3D printing.
 
 
 
