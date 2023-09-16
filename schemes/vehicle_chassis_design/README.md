@@ -43,7 +43,7 @@ The components highlighted within the red box are the Ackermann steering mechani
 </table>
 </div>
 
-- ### 
+- ### Reason for Selection
 - Due to the compact size of this differential, and the fact that the larger 24-tooth gear on the motor is of the same size, it effectively transfers the motor's speed and torque to the tires without causing issues such as reducing torque due to a lower gear ratio or slowing down speed due to a higher gear ratio.
 
 
