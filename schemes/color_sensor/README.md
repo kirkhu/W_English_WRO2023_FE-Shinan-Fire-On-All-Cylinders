@@ -34,13 +34,13 @@
 ## Color sensor judging process
 <div align=center><img src="./img/color_sensor.png"></div>
 
-- 1.After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.
+- 1 After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.
 
-- 2.If the detected color value is lower than that of white, it indicates that it's one of the lines, either blue or orange.
+- If the detected color value is lower than that of white, it indicates that it's one of the lines, either blue or orange.
 
-- 3.At this point, comparing the color value to the midpoint between the blue and orange line values determines which line it is.
+- At this point, comparing the color value to the midpoint between the blue and orange line values determines which line it is.
 
-- 4.If the value is lower than the midpoint, it's the blue line, and if it's higher, it's the orange line.
+- If the value is lower than the midpoint, it's the blue line, and if it's higher, it's the orange line.
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
