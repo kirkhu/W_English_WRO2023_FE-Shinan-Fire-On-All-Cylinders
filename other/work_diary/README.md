@@ -897,7 +897,7 @@ While the 3D-printed chassis offered advantages such as size reduction and great
 </table>
 </div>
 
-
+During vehicle testing, we discovered that the Jetson Nano's reading speed for the color sensor was extremely slow, leading to difficulties in the vehicle's turning accuracy. When we switched back to the Raspberry Pi, the reading speed returned to normal. Later, we realized that while the Jetson Nano has extremely fast image recognition capabilities, it consumes a significant amount of processing power for this task. Additionally, the I2C interface is used not only for the color sensor but also for the motor controller and PWM controller, which contributed to the decision to switch the main controller back to the Raspberry Pi 4B.
 
 ## 2023/09/18 ~ 2023/09/24
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
