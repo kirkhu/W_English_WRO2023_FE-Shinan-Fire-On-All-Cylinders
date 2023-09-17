@@ -58,6 +58,17 @@
 
 ![flowchart_obstacle](../img/obstacle_img.jpg)
 
+The program starts up along with the LiDAR and color sensor, continuously reading their values as well as capturing images from the camera. When the button is pressed, the program sets the DC motor speed to 60% and continues to move forward until the color sensor detects a line. At this point, it initiates a turn and checks if it has completed 12 turns. If so, it ends; otherwise, it repeats the process of moving straight, detecting walls, and turning.
 
+Subroutines:
+1. Continue straight until a line is detected and determine the direction: The program moves forward continuously, and when it detects a value lower than white, it recognizes the presence of a line. Then, it uses the midpoint between two color values to determine the line's color. If the value is lower, it sets the turning direction to counterclockwise (for blue lines), and if it's higher, it sets the turning direction to clockwise (for orange lines).
+
+2. Continue straight until a line is detected: This subroutine continually checks if the color sensor's reading is greater than white. If it is, the program continues moving straight. It also checks for the presence of blocks. If there are blocks, it executes an avoidance maneuver by moving around them. If no blocks are present, it performs LiDAR centering. LiDAR centering involves calculating the difference between the values on the left and right sides and then feeding this result to the servo motor to control the direction.
+
+3. Block Avoidance: This subroutine first checks if the area of the red block is greater than that of the green block. If it is, it controls the servo motor to turn right to avoid the red block. If the green block's area is larger, it controls the servo motor to turn left to avoid the green block.
+
+4. Turning Action: This subroutine continues turning until it reaches a specified angle.
+
+Please note that the descriptions may need further context to fully understand the specifics of the sensors and control mechanisms involved.
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  

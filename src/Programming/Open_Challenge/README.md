@@ -61,4 +61,16 @@
 <div align=center><img src="../img/open_challange_img.jpg"></div>
 
 
+The LiDAR is initiated along with the program and the program continuously reads LiDAR data. When the program starts, it doesn't begin immediately; it goes through an initialization process. This involves setting the DC motor speed to 0, the servo motor angle to 0, and the default turning direction to counterclockwise.
+
+Upon pressing the button, the program sets the DC motor speed to 90% and checks if the lap count is 0 and the LiDAR's right side distance is greater than 120. If this condition is met, it changes the turning direction to clockwise; otherwise, it proceeds. When the front distance is less than 60, the vehicle initiates a turn.
+
+The program continually checks if it has completed three laps. If not, it detects if the current lap is finished. If it's not, it identifies whether this is the second lap. If it is, it checks if the front distance is greater than 60. If so, it proceeds straight until it's less than 60, then initiates a turning action, following which it goes straight for a certain distance to prevent LiDAR misreadings.
+
+Other actions explained:
+1. Continue straight until a certain time elapses: The program constantly reads the current time (referring to the program's execution time). If it exceeds a specified time, it checks if the LiDAR's left and right distances are both greater than 0 and less than 100. If within this range, it calculates the difference between the right and left values and adjusts the servo motor to center the vehicle. If not, it checks if the right-side distance falls between 0 and 120. If yes, it processes the left value; otherwise, it processes the right value. Finally, it outputs the value to the servo motor for centering.
+2. Turning action: When the vehicle reaches a turning point, it executes a turn based on the specified turning angle until it completes the turn.
+3. Continue straight until a front wall is detected: This action continuously checks if the front distance is less than 65 while proceeding straight. During this process, it also maintains road centering until a wall is detected, at which point it initiates a turn.
+
+Please note that the descriptions might require further clarification or context to be fully accurate, especially regarding the specific functions of sensors and control mechanisms used.
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
