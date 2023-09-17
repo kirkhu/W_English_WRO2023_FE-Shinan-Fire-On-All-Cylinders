@@ -2,25 +2,25 @@
 
 2023WRO Future Engineersn Shinan Fire On All Cylinders  
 ====
-## <div align="center">Circuit Schematic Drawing </div>
+## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
 
-- ### Circuit Board
+- ### Circuit Board (電路板)
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board of Top View </th>
+      <th> Circuit Board of Top View(電路板上視圖) </th><th>Circuit Board of Bottom View(電路板下視圖)</th>
   </tr>
   <tr align="center">
-     <td> <img src="../../schemes/Assembly_Instructions/img/board_up.jpg" width="300" alt="circuit_up.jpg"> </td>
+     <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
 
-- ### Circuit Schematic Drawing
+- ### Circuit schematic drawing(電路圖繪製)
 <div align="center">
 <table>
   <tr align="center">
-      <th>Circuit Diagram</th><th>PCB Diagram</th><th>Circuit Wiring Diagram</th>
+      <th>Circuit Diagram(電路配置圖)</th><th>PCB Diagram(PCB 配置)</th><th>Circuit Wiring Diagram(電路線路圖)</th>
   </tr>
   <tr align="center">
      <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing"></td>
@@ -28,15 +28,11 @@
 </table>
 </div>
 
-## Explanation of Circuit Principles(電路原理說明)
+## Explanation of Circuit Principles
 
 Welding is mainly based on the PCB configuration diagram, where yellow lines represent single-core wires, and blue lines represent jumpers. Jumpers can prevent two single-core wires from touching and causing damage to sensors, batteries, or the main unit.
 
 In the top-left corner, there are two PIN sockets for the battery. They are connected to a switch and then to a voltage regulator board. This setup allows the system to be powered on and off using the switch. The four-PIN socket on the left side is for the color sensor, responsible for providing voltage to the color sensor and receiving I2C signals. The four-PIN socket on the right side is for the DC motor, supplying power to it. In the bottom-right corner is the socket for the servo motor, which provides power and transmits PWM signals to control the servo motor.
-
-焊接是以PCB 配置圖為主，黃色的線代表單心線，藍色的代表跳線，跳線可以避免兩條單心線碰到造成感測器、電池或主機被燒毀。
-
-左上角是的兩PIN插座是電池插座，會先接到開關在接到降壓板，這樣才會達到利用開關開機的效果，左邊的四PIN插座是顏色感測器的插座，負責輸出電壓給顏色感測器和接收I2C的訊號，右邊的四PIN插座是接給直流馬達的，負責提供電壓，右下角的是伺服馬達的插座，負責提供電和傳輸PWM訊號給伺服馬達。
 
 ### Introduction to Fritzing
 - Fritzing is a convenient and user-friendly tool that can be used to draw circuit diagrams for self-driving cars, and it does not require any software installation. Fritzing provides a variety of electronic components and modules, which users can simply drag and drop onto the canvas to quickly create and design their circuit diagrams. This makes it particularly suitable for beginners or those unfamiliar with complex circuit design software.
