@@ -3,9 +3,19 @@
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Power_Supply_System</div> 
-- ###  Power_Supply_System of Summary Diagram
+## 電源供應圖
+- ###  Power_supply_system of Summary diagram  
 <div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
 
+- ###  Physical Connection Diagram of Power Supply System 
+<div align="center"><img src="./img/Power_supply_system of Summary diagram1.png" width="600"></div>
+
+- ### Explanation of the Power Supply System Diagram
+
+  The battery supplies 12V to power the L293D for starting the DC motors, as well as a voltage step-down module. This module reduces the voltage from 12V to 5V, which is then distributed to the Raspberry Pi, light sensor, motor controller, and servo motor. The Raspberry Pi further directly interfaces with the lidar and camera for data transmission.
+
+
+## choose battery 
 - Due to the continuous movement of the vehicle, the power source needs to be changed to a battery. Considering that the motors require a 12V voltage to operate, we need to choose a battery with a voltage of 12V and a current of 3A. There are two options: lithium-ion batteries (18650) and lithium polymer batteries (3S). However, the 18650 battery is heavier and takes up more space, so we opted for the lithium polymer battery.
 
 
