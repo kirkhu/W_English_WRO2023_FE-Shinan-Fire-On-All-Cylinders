@@ -30,36 +30,38 @@
 <table>
   <tr align="center">
       <th> Circuit Board of Top View </th>
+      <th> Circuit Board of Down View </th>
   </tr>
   <tr align="center">
-     <td> <img src="./img/board_up.jpg" width="300" alt="circuit_up.jpg"> </td>
+     <td> <img src="./img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td>
+     <td> <img src="./img/circuit_lower.jpg" width="300" alt="circuit_up.jpg"> </td>
   </tr>
 </table>
 </div>
 
-- ## Overview of Important Parts List. 
-### NVIDIA Jeston Nano  
+- ## Overview of Important Parts List.
+### Raspberry Pi 4B 8G
 <table border=0 width=100% >
   <tr>
     <td >
 
 __Specification:__ 
-- It is equipped with a quad-core ARM Cortex-A57 CPU and a 128-core Maxwell GPU. 
-- the total memory capacity of it has 4 Giga bytes,It operating system is 64-bit.
+- With the Advanced RISC Machine(ARM) produced by Broadcom Corporation 
+- the total memory capacity of it has 1、2、4 or 8 Giga bytes.
 - The TransFlash card of it serves as the system’s main storage media.
-- Equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
+- equipped the USB interface device and the output of High Definition Multimedia Interface, it can adapt with several types of operating systems.  
 
 __Usage:__ 
-- Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and used to write the program.  
+- Collects photos from the lens and carries out the image identifying, controls the vehicle to move ,and ,last but not least, used to write the program.  
  </td>
     <td >
-<img src="./img/jeston_nano.png" width = "400" height = "" alt="Jeston nano" align=center />   
+<img src="./img/raspberry_pi_4.png" width = "400" height = "" alt=" Raspberry Pi 4B 8G (樹梅派4B 8G )" align=center />   
     </td>
   </tr>
 </table>
 
 
-### JGA25-370 DC reduction motor 
+### JGA25-370 DC reduction motor
 <table border=0 width=100% >
   <tr>
     <td > 
@@ -73,32 +75,7 @@ __Usage:__
 - Driving the car's rear wheels to control the vehicle's forward and backward movements.  
  </td>
     <td >
-<img src="./img/Motor.png" width = "250" height = "" alt="GA25-370 DC reduction motor " align=center />   
-    </td>
-  </tr>
-</table>
-
-### DC Motor Driver HAT(V1.0)
-<table border=0 width=100% >
-  <tr>
-    <td>  
-
-__Specifications:__ 
-- Operating Voltage: 7~12V
-- Logical Voltage: 5V
-- Motor Driver Chip: TB6612FNG
-- Communication Interface: I2C
-- Default I2C Address: 0 x10
-- Continuous Drive Current: 1.2A
-- Peak Current: 2A
-- Support 2-way DC Motor/DC Motor with Encoder
-- Dimension: 65x30mm/2.56x1.18 
-
-__Usage:__
-- Controlling the speed and direction of a DC geared motor.  
- </td>
-    <td>
-<img src="./img/Motor_driver.png" width = "200" height = "" alt="Motor controler" align=center />  
+<img src="./img/Motor.png" width = "250" height = "" alt="GA25-370 DC reduction motor 直流減速馬達" align=center />   
     </td>
   </tr>
 </table>
@@ -119,46 +96,34 @@ __Usage:__
 - Control the steering mechanism to make the vehicle turn.  
  </td>
     <td>
-<img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor" align=center />  
+<img src="./img/MG90S.png" width = "200" height = "" alt="MG90S servo motor伺服馬達" align=center />  
     </td>
   </tr>
 </table>
 
-### PCA9685 16-channel 20bit PWM driver
+   
+
+### L293d motor controler 
 <table border=0 width=100% >
   <tr>
     <td>  
 
-__Specifications:__
-- Technical Parameters:
-  - Voltage: DC5-10V power supply
-  - Communication Interface: IIC
-  - 16-way steering gear control
-  - Size:25x61mm
+__Specifications:__ 
+- Wide power supply voltage range: 4.5V to 36V  
+- Output current per channel: 0.6mA per channel  
+- Peak output current: 1.2A  
 
-- Product features:
-  - The PCA9685 chip is wrapped in the center of the board
-  - Power input terminal
-  - Green power indicator
-  - In the 4 groups of 3-pin connector to facilitate the insertion of 16 servo motor (servo motor plug slightly wider than 0.1 )
-  - The polarity of the reverse polarity is input on the terminal block
-
-- Cascade design:
-  - V + line to place a large capacitor, the maximum external input voltage depends on the 10V 1000uf capacitor
-  - All PWM output lines have a 220 ohm series resistor protection and can easily drive LED  
-  
-<samll>Date sourse:[Amazon](https://www.amazon.com/-/zh_TW/HiLetgo-PCA9685-PWM-%E4%BC%BA%E6%9C%8D%E9%A6%AC%E9%81%94%E9%A9%85%E5%8B%95%E5%99%A8-Arduino/dp/B01D1D0CX2)</small>
-
-__Usage:__ 
-- Control MG90s Servo Motor turn angles
+__Usage:__  
+- Control the rotation direction of JGA25-371 DC reduction motor.  
  </td>
- <td>
-<img src="./img/pmw_driver.png" width="200" align=center />
- </td>
+    <td>
+<img src="./img/l293d.png" width = "200" height = "" alt="L293d motor controler" align=center />  
+    </td>
   </tr>
 </table>
+  
 
-### Li-Polymer 3S Battery
+### Li-Polymer 3S Battery 
 <table border=0 width=100% >
   <tr>
     <td> 
@@ -172,13 +137,14 @@ __Usage:__
 - Supplying power to Raspberry Pi and other electronic components.  
  </td>
     <td>
-<img src="./img/lipo_battery.png" width = "400" height = "" alt="Li-Polymer 3S Battery" align=center />  
+<img src="./img/lipo_battery.png" width = "400" height = "" alt="Li-Polymer 3S Battery(鋰聚合物電池 3S)" align=center />  
     </td>
   </tr>
 </table>
- 
 
-### Button 
+
+### Button B3F-4055 
+#### English
 <table border=0 width=100% >
   <tr>
     <td>
@@ -192,13 +158,13 @@ __Usage:__
 - Send an activation signal before initiating the program.  
  </td>
     <td>
-<img src="./img/button.png" width = "200" height = "" alt="Button B3F-4055 " align=center />   
+<img src="./img/button.png" width = "200" height = "" alt="Button( B3F-4055 微動輕觸開關)" align=center />   
     </td>
   </tr>
 </table>
 
 
-### High Current 5A Constant Voltage Constant Current Buck Power Supply Module 
+### High Current 5A Constant Voltage Constant Current Buck Power Supply Module  
 <table border=0 width=100% >
   <tr>
     <td> 
@@ -212,34 +178,36 @@ __Usage:__
 - Stabilizing the power supplied by lithium batteries.  
  </td>
     <td>
-<img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module" align=center />   
+<img src="./img/ADIO-DC36V5A.png" width = "300" height = "" alt="High Current 5A Constant Voltage Constant Current Buck Power Supply Module(大電流5A恆壓恆流降壓電源模組)" align=center />   
     </td>
   </tr>
 </table>
+
   
 
 ### TCS34725 RGB color sensor
+#### English
 <table border=0 width=100% >
   <tr>
     <td > 
 
 __Specifications:__  
+
 - Operating Voltage: 3.3V - 5.0V  
 - Interface: I2C interface  
 
 __Usage:__  
 - Line color recognition 
 - counting the current number of revolutions.  
-
  </td>
     <td>
-<img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor" align=center />   
+<img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor顏色感測器" align=center />   
     </td>
   </tr>
 </table>
 
 
-### IMX 219-160 Camera for Jetson Nano
+### SNOY IMX 219 Lens module   
 <table border=0 width="100%" >
   <tr>
     <td> 
@@ -250,18 +218,16 @@ __Specifications:__
 
 __Usage:__  
 - Collecting images for image recognition. 
-
   </td>
     <td >
-<img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
+<img src="./img/raspi_camera_V2.png" width = "200" height = "" alt="SNOY IMX 219 Lens module(SNOY IMX 219鏡頭模組) " align=center />    
     </td>
   </tr>
 </table>
 
 
-
-
-### D100 LiDAR
+### D100 LiDAR 
+#### English
 <table border=0 width=100% >
   <tr>
     <td> 
@@ -275,10 +241,11 @@ __Usage:__
 - Used for detecting front, left, and right walls and keeping the machine centered in the lane. 
   </td>
     <td>
-<img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR" align=center />      
+<img src="./img/Lidar-D100.png" width = "400" height = "" alt="D100 LiDAR(D100 光達)" align=center />      
     </td>
   </tr>
 </table>
+
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
