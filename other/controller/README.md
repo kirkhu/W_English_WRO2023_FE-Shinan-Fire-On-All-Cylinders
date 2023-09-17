@@ -14,7 +14,7 @@
 <td><img src="./img/jeston_nano.png" width=200></td>
 <td><img src="./img/raspberry_pi_4.png" width=200></td>
 </tr><tr>
-<th>Number of Pins stitch count</th>
+<th>Number of Pins</th>
 <td>40P</td>
 <td>40P</td>
 </tr><tr>

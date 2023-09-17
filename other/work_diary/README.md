@@ -534,7 +534,7 @@ if get_mid_dis > 55:
 <div align="center">
 <table>
 <tr align="center">
-<th>Display the number of line crossings and the color of the nearest traffic sign.</th>
+<th>Display the number of line crossings and <br>the color of the nearest traffic sign.</th>
 <th>Adjusting the values.
 </th>
 </tr>
@@ -741,7 +741,7 @@ We believe that this approach will assist our machine in preparing for a variety
 
 - As we have confirmed our participation in the international competition, we are undergoing significant modifications to our vehicle. Moreover, this redesign will allow us to incorporate threaded components for added stability. Additionally, we are upgrading the controller from Raspberry Pi 4B to the higher computing power provided by the Jetson Nano microcomputer. The Jetson Nano supports programming in Python, thus most of our existing code does not need significant modifications. However, one notable difference with the Jetson Nano is that the generation of PWM signals requires an external board for implementation.
 
-- After switching to Jetson Nano, we encountered issues with the Camera V2 not functioning. It was later discovered that V2 and V3 cameras are designed specifically for use with Raspberry Pi. Consequently, we decided to replace them with two Camera Rev1.3 units that are compatible with microcomputers in general. Additionally, we modified the camera to include a wide-angle lens.
+- After switching to Jetson Nano, we encountered issues with the Camera V2. After some investigation, we discovered that V2 and V3 cameras are designed for use with Raspberry Pi. So, we decided to switch to the IMX 219-160 camera, which is compatible with Jetson Nano. This camera comes with a wide-angle lens, eliminating the need for modifications.
 
 <div align="center">
 <table>
@@ -763,10 +763,8 @@ We believe that this approach will assist our machine in preparing for a variety
 <div align=center>
 <table>
 <tr align=center>
-<th>Camera Rev1.3</th>
 <th>160 width-angle</th>
 </tr><tr>
-<td><img src="../../schemes/Camera/img/V1.jpeg" width="200" alt="work_daily"></td>
 <td><img src="../../schemes/Camera/img/v1_width-angle.jpg" width="200" alt="work_daily"></td>
 </tr>
 </table>
@@ -873,11 +871,33 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 </div>
 
 ## 2023/09/11 ~ 2023/09/17
-**Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
-**Content:**  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
 
+This week, we started modifying the program. Due to the differences in the Raspberry Pi and Jetson Nano environments, even though both use Python, we had to make significant changes to the program. With the modifications to the vehicle and the circuitry, there were many areas in the code that required adjustments. We faced several challenges during the qualifying rounds, such as the LiDAR not detecting obstacles properly, the battery slipping can get stuck in the tire, and the light sensor being too sensitive, among other issues.
 
+While the 3D-printed chassis offered advantages such as size reduction and greater flexibility, it was not sturdy enough and prone to breaking. Therefore, we ultimately decided to use a laser cutting machine to cut wooden boards for the chassis.
 
+<div align="center">
+<table>
+<tr  align="center"> 
+<td><img src="./img/9/0918.jpg" alt="work_photo_2_2_0729" width=300 /></td>
+<td><img src="./img/9/0918-1.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
+<td><img src="./img/9/0918-2.jpg" alt="work_photo_2_2_0729" width=150 /></td>
+</tr>
+</table>
+</div>
+
+<div align="center">
+<table>
+<tr  align="center"> 
+<td><img src="./img/9/car_wood_up.jpg" alt="work_photo_2_2_0729" width=300 /></td>
+<td><img src="./img/9/car_wood_down.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
+</tr>
+</table>
+</div>
+
+During vehicle testing, we discovered that the Jetson Nano's reading speed for the color sensor was extremely slow, leading to difficulties in the vehicle's turning accuracy. When we switched back to the Raspberry Pi, the reading speed returned to normal. Later, we realized that while the Jetson Nano has extremely fast image recognition capabilities, it consumes a significant amount of processing power for this task. Additionally, the I2C interface is used not only for the color sensor but also for the motor controller and PWM controller, which contributed to the decision to switch the main controller back to the Raspberry Pi 4B.
 
 ## 2023/09/18 ~ 2023/09/24
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  

@@ -50,27 +50,6 @@
 <li>Matal Nut M2<br></li>
 <li>Cross recessed round head Metal screw 2x10mm<br></li>
 <li>Pegboard 30x48 hole 90x150 mm<br></li>
-<li>Lego 56898 56904 wheel 42x15mm<br></li>
-<li>Lego 32019 86652 wheel 62.4x20mm<br></li>
-<li>Lego 6573199 differential Gear<br></li>
-<li>Lego 4107783 cross shaft connector <br></li>
-<li>Lego 4560177 four-pointed nail<br></li>
-<li>Lego 4239601 half-thickness socket<br></li>
-<li>Lego 6031821 Axle 3L with Stud<br></li>
-<li>Lego 4142865 2-unit cross axis<br></li>
-<li>Lego 4211815 5-unit cross axis<br></li>
-<li>Lego 4211639 6-unit cross axis<br></li>
-<li>Lego (6589)4565452 Gear 12 tooth<br></li>
-<li>Lego 208160 crossbar 1x3 <br></li>
-<li>Lego 4211651 crossbar 1x5<br></li>
-<li>Lego 4495930 crossbar 1x7<br></li>
-<li>Lego 4611705 crossbar 1x11<br></li>
-<li>Lego 4542578 crossbar 1x15<br></li>
-<li>Lego 4121715 black plug<br></li>
-<li>Lego 4514553 blue plug<br></li>
-<li>Lego 4206482 plug to cross-shaped<br></li>
-<li>Lego 4296059 L-shaped connector<br></li>
-<li>Lego 4140430 4162857 connector <br></li>
 <li>Light Curing Resin UV-604<br></li>
 <li>Wood broad thickness of 3mm <br></li>
 

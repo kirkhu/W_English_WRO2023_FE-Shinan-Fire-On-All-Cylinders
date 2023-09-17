@@ -16,8 +16,7 @@ __Introduction to Ackermann_steering_geometry__
 <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
 - ## Ackermann_steering_geometry for Photocured 3D Printing(80% Ackermann)
-<div align="center"><img src="./img/Acman80.pptx.jpg" width="200" alt="Ackermann_steering_geometry_lego"> <img src="../3D_printed/img/light_curing.png" width="300" alt="Ackermann_steering_geometry_lego"></div> 
-The components highlighted within the red box are the Ackermann steering mechanism that we have produced using photocured 3D printing.
+<div align="center"><img src="./img/Acman80.png" width="400" alt="Ackermann_steering_geometry_lego"> <img src="../3D_printed/img/light_curing.png" width="300" alt="Ackermann_steering_geometry_lego"></div> 
 
 
 
@@ -28,8 +27,24 @@ The components highlighted within the red box are the Ackermann steering mechani
 |<img src="" width="400" alt="vehicle_chassis_design_3D">|<img src="" width="400" alt="up_view">|<img src="" width="400" alt="down_view">|
 
 - ##  Gear Differential
-- Using commonly available LEGO differential gear parts with part numbers 65414, 65413, and 6589, as shown in the diagram, to simplify vehicle design and enhance maneuverability.
-<div align="center"><img src="./img/gear_differential.png" width="400" alt="LEGO_differential"></div>
+- ### Introduce Lego Differential
+- This differential integrates a 16-tooth gear and a 24-tooth gear, both of which have a circular hole with a 5mm diameter at their centers for accommodating a cross-axis. In the center of the differential, there is a small pillar, which allows us to better secure the right-angle mating gear.
+
+<div align="center">
+<table>
+<tr>
+<th>Photo</th>
+<th>Complete Differential Photo</th>
+</tr><tr>
+<td><img src="./img/differential.png" width=200></td>
+<td><img src="./img/differential-1.png" width=300></td>
+</tr>
+</table>
+</div>
+
+- ### Reason for Selection
+- Due to the compact size of this differential, and the fact that the larger 24-tooth gear on the motor is of the same size, it effectively transfers the motor's speed and torque to the tires without causing issues such as reducing torque due to a lower gear ratio or slowing down speed due to a higher gear ratio.
+
 
 
 

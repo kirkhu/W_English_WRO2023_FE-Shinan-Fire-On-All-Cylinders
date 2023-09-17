@@ -230,6 +230,7 @@ __Specifications:__
 __Usage:__  
 - Line color recognition 
 - counting the current number of revolutions.  
+
  </td>
     <td>
 <img src="./img/TCS34725.png" width = "200" height = "" alt="TCS34725  RGB color sensor" align=center />   
@@ -238,7 +239,7 @@ __Usage:__
 </table>
 
 
-### Omnivision OV547 Camera Module
+### IMX 219-160 Camera for Jetson Nano
 <table border=0 width="100%" >
   <tr>
     <td> 
@@ -249,6 +250,7 @@ __Specifications:__
 
 __Usage:__  
 - Collecting images for image recognition. 
+
   </td>
     <td >
 <img src="../Camera/img/v1_width-angle.jpg" width = "200" height = "" alt="SNOY IMX 219 Lens module " align=center />    
