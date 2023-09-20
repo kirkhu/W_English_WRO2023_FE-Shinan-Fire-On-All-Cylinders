@@ -7,7 +7,7 @@
 - ## Components's Position 
 
 - ## System Operation Process 
-
+![image](./img/System_operation_process.png)
 
 - ## Mechanical Structure 
 <div align="center">

@@ -117,7 +117,7 @@ We initially used the differential on the left because it had complete gears. Ho
  <div align=center>
  <table>
  <tr align=center>
- <th>差速器照片</th>
+ <th>Differential photo</th>
  </tr><tr>
  <td><img src="./img/differential.png" width=200></td>
  </tr>

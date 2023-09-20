@@ -32,7 +32,8 @@
 
 Welding is mainly based on the PCB configuration diagram, where yellow lines represent single-core wires, and blue lines represent jumpers. Jumpers can prevent two single-core wires from touching and causing damage to sensors, batteries, or the main unit.
 
-In the top-left corner, there are two PIN sockets for the battery. They are connected to a switch and then to a voltage regulator board. This setup allows the system to be powered on and off using the switch. The four-PIN socket on the left side is for the color sensor, responsible for providing voltage to the color sensor and receiving I2C signals. The four-PIN socket on the right side is for the DC motor, supplying power to it. In the bottom-right corner is the socket for the servo motor, which provides power and transmits PWM signals to control the servo motor.
+Circuit Diagram Introduction:
+In the top-left corner is the battery socket, which is connected first to a switch and then to a voltage regulator. This arrangement allows us to achieve the effect of powering on using the switch. The four-pin socket on the right side is for the color sensor, responsible for outputting voltage to the color sensor and receiving I2C signals. The four-pin socket on the left is for the DC motor, providing power. The three-pin socket in the bottom-right corner is for the servo motor, providing power and transmitting PWM signals to control the servo motor.
 
 ### Introduction to Fritzing
 - Fritzing is a convenient and user-friendly tool that can be used to draw circuit diagrams for self-driving cars, and it does not require any software installation. Fritzing provides a variety of electronic components and modules, which users can simply drag and drop onto the canvas to quickly create and design their circuit diagrams. This makes it particularly suitable for beginners or those unfamiliar with complex circuit design software.
