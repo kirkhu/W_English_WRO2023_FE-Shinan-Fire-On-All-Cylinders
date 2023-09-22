@@ -31,9 +31,6 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 |:----:|:----:|
 |<img src="./img/4.png" width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
 
-|Fifth generation | Explanation  |
-|:----:|:----:|
-|<img src="./img/5.png" width="400" alt="body_bottom_lego">|  The key change in this version is shifting the position of the servo motor from being on the left to the center. Otherwise, the left wooden board would be too thin and prone to breaking.|
 
 - ## Ackermann_steering_geometry
 
