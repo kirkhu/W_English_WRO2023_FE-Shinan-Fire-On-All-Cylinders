@@ -26,8 +26,7 @@
 </tr><tr>
 <th>GPU</th>
 <td>NVIDIA Maxwell™ architecture with 128 NVIDIA CUDA® cores</td>
-<td>博通 VideoCore VI；H.265（4kp60 解碼）、<br>H264（1080p60 解碼、1080p30 編碼）
-OpenGL ES 3.1、Vulkan 1.0</td>
+<td>Broadcom VideoCore VI<br> H.265 (4kp60 decode)<br> H264 (1080p60 decode, 1080p30 encode) OpenGL ES 3.1<br> Vulkan 1.0</td>
 </tr><tr>
 <th>Storage Space </th>
 <td>4 GB 64-bit LPDDR4</td>
@@ -35,7 +34,7 @@ OpenGL ES 3.1、Vulkan 1.0</td>
 </tr><tr>
 <th>Built-in Bluetooth and wireless WiFi connectivity</th>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
-<td>有</td>
+<td>has</td>
 </tr><tr>
 <th>Gflops</th>
 <td>472</td>
