@@ -31,7 +31,7 @@
  </div>
 
 ### [save_file](./save_file)
-- The function of the save_file folder is to store the HSV range values for green and red colors from HSV_Test, along with color values related to white areas, orange lines, and blue lines.
+- The function of the "save_file" folder is to store color values related to the white area, orange lines, and blue lines.
 - These data values will be used as the basis for image processing, image recognition, and determining whether to approach the next curve or proceed with straight or reverse movement decisions.
 
 
