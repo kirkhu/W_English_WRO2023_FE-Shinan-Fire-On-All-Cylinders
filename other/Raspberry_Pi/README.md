@@ -1,4 +1,6 @@
-![LOGO](../../other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+<div align=center><img src="../img/logo.png" width=300></div>
+
+2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Introduction to Raspberry Pi(樹莓派介紹) </div> 
 ### English 

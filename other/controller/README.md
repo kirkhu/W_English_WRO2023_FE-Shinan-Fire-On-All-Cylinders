@@ -1,4 +1,6 @@
-![logo](../../other/img/logo.png)2023WRO Future Engineers Shinan Fire On All Cylinders  
+<div align=center><img src="../img/logo.png" width=300></div>
+
+2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
 # <div align="center">Controller</div> 
 
