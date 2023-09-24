@@ -6,9 +6,7 @@ Engineering materials
 
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
-### From a designer's perspective, we have also implemented an alternative directory arrangement
 
-## Content
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     - [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/vehicle_chassis_design)
