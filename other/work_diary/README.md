@@ -905,7 +905,7 @@ During vehicle testing, we discovered that the Jetson Nano's reading speed for t
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **Content:**  
 
-It seems like you're describing a practice mode for your machine involving various combinations and scenarios for turning. Could you please specify what kind of translation or assistance you need related to this practice mode description?
+This week, we have completed assembling the machine and started practicing. Since there haven't been many changes to the program, the most challenging part is the turning at the starting area. We have set up a practice mode specifically for practicing turns. There are a total of 32 combinations, divided into clockwise and counterclockwise turns. The red pieces are placed in slots 1 and 2, and they alternate with green pieces in slots 3 to 6. This is to test if there are any collisions with the blocks or if the machine passes through them from the wrong direction during the turns. Each combination will be tested three times. The diagram and practice conditions are as follows:
 
 <div align="center">
 <table>
