@@ -878,6 +878,9 @@ This week, we started modifying the program. Due to the differences in the Raspb
 
 While the 3D-printed chassis offered advantages such as size reduction and greater flexibility, it was not sturdy enough and prone to breaking. Therefore, we ultimately decided to use a laser cutting machine to cut wooden boards for the chassis.
 
+
+During vehicle testing, we discovered that the Jetson Nano's reading speed for the color sensor was extremely slow, leading to difficulties in the vehicle's turning accuracy. When we switched back to the Raspberry Pi, the reading speed returned to normal. Later, we realized that while the Jetson Nano has extremely fast image recognition capabilities, it consumes a significant amount of processing power for this task. Additionally, the I2C interface is used not only for the color sensor but also for the motor controller and PWM controller, which contributed to the decision to switch the main controller back to the Raspberry Pi 4B.
+
 <div align="center">
 <table>
 <tr  align="center"> 
@@ -897,12 +900,27 @@ While the 3D-printed chassis offered advantages such as size reduction and great
 </table>
 </div>
 
-During vehicle testing, we discovered that the Jetson Nano's reading speed for the color sensor was extremely slow, leading to difficulties in the vehicle's turning accuracy. When we switched back to the Raspberry Pi, the reading speed returned to normal. Later, we realized that while the Jetson Nano has extremely fast image recognition capabilities, it consumes a significant amount of processing power for this task. Additionally, the I2C interface is used not only for the color sensor but also for the motor controller and PWM controller, which contributed to the decision to switch the main controller back to the Raspberry Pi 4B.
 
 ## 2023/09/18 ~ 2023/09/24
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **Content:**  
 
+This week, we have completed assembling the machine and started practicing. Since there haven't been many changes to the program, the most challenging part is the turning at the starting area. We have set up a practice mode specifically for practicing turns. There are a total of 32 combinations, divided into clockwise and counterclockwise turns. The red pieces are placed in slots 1 and 2, and they alternate with green pieces in slots 3 to 6. This is to test if there are any collisions with the blocks or if the machine passes through them from the wrong direction during the turns. Each combination will be tested three times. The diagram and practice conditions are as follows:
+
+<div align="center">
+<table>
+<tr>
+<th>Record Sheet(Success Count / Practice Count)<br> </th>
+<th>Clockwise Diagram (Black Arrow indicates the direction of movement) <br></th>
+<th>Counterclockwise Diagram (Black Arrow indicates the direction of movement)<br></th>
+</tr>
+<tr  align="center"> 
+<td><img src="./img/9/point.png" alt="work_photo_2_2_0729" width=600 /></td>
+<td><img src="./img/9/2.png" alt="work_photo_2_1_0729" width=250 /></td> 
+<td><img src="./img/9/1.png" alt="work_photo_2_1_0729" width=250 /></td> 
+</tr>
+</table>
+</div>
 
 
 ## 2023/09/25 ~ 2023/10/01
