@@ -16,4 +16,8 @@ $ sudo apt-get install python-opencv
 ```
 - Installation reference URL: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
 
+<small>Source:[Wikipedia](https://zh.wikipedia.org/wiki/OpenCV)</small>
+
+<small>Source:[steam educational website](https://steam.oxxostudio.tw/category/python/ai/opencv.html#google_vignette)</small>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
