@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-## <div align="center">Physical Cutting of Vehicle Body Panels_Vehicle 3D/2D Models</div>
+## <div align="center">Physical Cutting of Vehicle Body Panels_Vehicle 2D Models</div>
 
 __- The 2D models created for this competition are all designed using Onshape.__  
 
