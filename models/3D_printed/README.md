@@ -91,6 +91,19 @@
 </table>
 </div>
 
+
+- Because the parts made from photosensitive resin are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing to make the parts harder and less susceptible to deformation, which could affect the vehicle's movement.
+
+<div align=center>
+<table>
+<tr>
+<th>Secondary curing</th>
+</tr><tr>
+<td><img src="./img/2.jpg" width=300 alt="light_again"></td>
+</tr>
+<table>
+</div>
+
 ## Comparison between Stacked 3D Printing and Photocuring 
 The following data was obtained during the experiment when printing the Ackermann steering mechanism
 
@@ -118,18 +131,6 @@ The following data was obtained during the experiment when printing the Ackerman
 <td>Depends on the exposure time</td>
 </tr>
 </table>
-</div>
-
-- Because the parts made from photosensitive resin are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing to make the parts harder and less susceptible to deformation, which could affect the vehicle's movement.
-
-<div align=center>
-<table>
-<tr>
-<th>Secondary curing</th>
-</tr><tr>
-<td><img src="./img/2.jpg" width=300 alt="light_again"></td>
-</tr>
-<table>
 </div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
