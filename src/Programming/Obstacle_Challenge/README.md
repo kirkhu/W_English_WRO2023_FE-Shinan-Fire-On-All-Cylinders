@@ -69,6 +69,5 @@ Subroutines:
 
 4. Turning Action: This subroutine continues turning until it reaches a specified angle.
 
-Please note that the descriptions may need further context to fully understand the specifics of the sensors and control mechanisms involved.
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  

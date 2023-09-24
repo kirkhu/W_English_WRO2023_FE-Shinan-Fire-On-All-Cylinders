@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-# <div align="center">Controller</div> 
+# <div align="center">Controller Selection </div> 
 
 - We have two controller options, Jetson Nano and Raspberry Pi. There are significant differences between these two controllers, including factors such as size, Gflops (floating-point operations per second), CPU configuration, and more. Here is a comparison of the specifications for both:
 

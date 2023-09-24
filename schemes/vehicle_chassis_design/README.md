@@ -9,7 +9,7 @@
 - ## Vehicle chassis design
 |Vehicle chassis design 3D| Vehicle chassis design Entity TOP view | Vehicle chassis design Entity Down view|
 |:----:|:----:|:----:|
-|<img src="" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/car_wood_up.jpg" width="400" alt="up_view">|<img src="./img/car_wood_down.jpg" width="400" alt="down_view">|
+|<img src="" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/car_wood_up." width="400" alt="up_view">|<img src="./img/car_wood_down." width="400" alt="down_view">|
 
 We replaced most of the LEGO parts on the chassis with components 3D printed through photopolymerization. This allowed us to save space and customize dimensions and shapes according to the vehicle's needs. With photopolymerization, we were able to introduce bearings in the middle to reduce friction and increase the vehicle's speed. Additionally, we transitioned the mentioned Ackermann steering mechanism to be 3D printed through photopolymerization. This freed us from the constraints of fixed LEGO part shapes, enabling us to freely adjust the Ackermann angle.
 
@@ -21,15 +21,15 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 
 |Second generation| Explanation  |
 |:----:|:----:|
-|<img src="./img/_2.png" width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
+|<img src="./img/_2." width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
 
 |Third generation | Explanation  |
 |:----:|:----:|
-|<img src="./img/3.png" width="700" alt="body_bottom_lego">|  We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
+|<img src="./img/3." width="700" alt="body_bottom_lego">|  We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
 
 |Fourth generation | Explanation |
 |:----:|:----:|
-|<img src="./img/4.png" width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
+|<img src="./img/4. width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
 
 
 - ## Ackermann_steering_geometry
@@ -68,7 +68,7 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 <th>assembled with photocured parts </th>
 </tr><tr>
 <td><img src="./img/Vehicle Chassis Design_top_view_circle.png" width=250></td>
-<td><img src="./img/car_wood_up-removebg-preview.png"></td>
+<td><img src="./img/car_wood_up-removebg-preview."></td>
 </tr>
 </table>
 </div>

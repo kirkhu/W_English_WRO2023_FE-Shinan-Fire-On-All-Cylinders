@@ -70,5 +70,5 @@ Other actions explained:
 2. Turning action: When the vehicle reaches a turning point, it executes a turn based on the specified turning angle until it completes the turn.
 3. Continue straight until a front wall is detected: This action continuously checks if the front distance is less than 65 while proceeding straight. During this process, it also maintains road centering until a wall is detected, at which point it initiates a turn.
 
-Please note that the descriptions might require further clarification or context to be fully accurate, especially regarding the specific functions of sensors and control mechanisms used.
+
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
