@@ -4,7 +4,7 @@
 ====
 ## <div align="center">Physical Cutting of Vehicle Body Panels_Vehicle 3D/2D Models</div>
 
-__- The 3D/2D models created for this competition are all designed using Onshape.__  
+__- The 2D models created for this competition are all designed using Onshape.__  
 
 
 - ### 3D Printed Product
@@ -16,9 +16,6 @@ __- The 3D/2D models created for this competition are all designed using Onshape
 </tr>
 </table>
 </div>
-
-- ### 3D Printer working
-<div align="center"><img src="./img/3D_working.jpg" width="400" alt="car_board"></div>
 
 - ### 2D Printed Physical Diagram
   
