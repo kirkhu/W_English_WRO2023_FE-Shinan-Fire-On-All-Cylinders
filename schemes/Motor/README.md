@@ -51,7 +51,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 
 #### DC Motor
 <div align="center"><table><tr align="center">
-<th rowspan="2" >Model(型號)</th>
+<th rowspan="2" >Model</th>
 <th >JGA25 370</th>
 <th >JGA25 370</th>
 <th >JGA25 371</th>
@@ -85,7 +85,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <div align="center">
 <table>
 <tr align="center" >
-<th rowspan="2">Model(型號)</th>
+<th rowspan="2">Model</th>
 <th>L293D</th>
 <th>L298N</th>
 </tr>
