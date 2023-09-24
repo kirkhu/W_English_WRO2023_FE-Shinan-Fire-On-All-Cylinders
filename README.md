@@ -3,7 +3,6 @@ Engineering materials
 
 - Official GitHub repository for WRO TAIWAN team Shinan Fire On All Cylinders. All code, documentation, and files are located here.
 - In this technical document, a table of contents will be created based on the scoring criteria, and the headings in the table of contents will be linked. This allows reviewers to access the articles through links, facilitating a clear understanding of the core content of the technical document and enabling efficient scoring.
-- 以學習者角色，另製學習目錄 
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
 ## Content
