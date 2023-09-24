@@ -4,7 +4,7 @@
 ====
 # <div align="center">Image_Processing_and_Predictions</div> 
 
-##Image Predictions
+## Image Predictions
 
 ### Image processing  
 - When processing images, it is necessary to convert them to different color spaces for more efficient handling of specific tasks.  
