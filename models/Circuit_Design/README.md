@@ -2,13 +2,13 @@
 
 2023WRO Future Engineersn Shinan Fire On All Cylinders  
 ====
-## <div align="center">Circuit schematic drawing(電路圖繪製) </div>
+## <div align="center">Circuit schematic drawing </div>
 
-- ### Circuit Board (電路板)
+- ### Circuit Board 
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board of Top View(電路板上視圖) </th><th>Circuit Board of Bottom View(電路板下視圖)</th>
+      <th> Circuit Board of Top View </th><th>Circuit Board of Bottom View</th>
   </tr>
   <tr align="center">
      <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
@@ -16,11 +16,11 @@
 </table>
 </div>
 
-- ### Circuit schematic drawing(電路圖繪製)
+- ### Circuit schematic drawing
 <div align="center">
 <table>
   <tr align="center">
-      <th>Circuit Diagram(電路配置圖)</th><th>PCB Diagram(PCB 配置)</th><th>Circuit Wiring Diagram(電路線路圖)</th>
+      <th>Circuit Diagram</th><th>PCB Diagram</th><th>Circuit Wiring Diagram</th>
   </tr>
   <tr align="center">
      <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing"></td>
