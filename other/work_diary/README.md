@@ -886,7 +886,6 @@ During vehicle testing, we discovered that the Jetson Nano's reading speed for t
 <tr  align="center"> 
 <td><img src="./img/9/0918.jpg" alt="work_photo_2_2_0729" width=300 /></td>
 <td><img src="./img/9/0918-1.jpg" alt="work_photo_2_1_0729" width=300 /></td> 
-<td><img src="./img/9/0918-2.jpg" alt="work_photo_2_2_0729" width=150 /></td>
 </tr>
 </table>
 </div>
