@@ -15,7 +15,7 @@ __Located Below is the content of the technical report, and a link to the build 
     - [Steering Mechanism](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/vehicle_chassis_design#ackermann_steering_geometry)
     - [Introduction to Motor](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
     - [Vehicle 2D Models](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/models/Vehicle_3D_2D)
-    - [Vehicle 3D Models](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/models/3D_printed)
+    - [Vehicle 3D Models](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/models/Vehicle_3D)
     
   #### 2. Power and Sense Management
     - __Vehicle design__
