@@ -101,7 +101,7 @@
 </tr><tr>
 <td><img src="./img/2.jpg" width=300 alt="light_again"></td>
 </tr>
-<table>
+</table>
 </div>
 
 ## Comparison between Stacked 3D Printing and Photocuring 
