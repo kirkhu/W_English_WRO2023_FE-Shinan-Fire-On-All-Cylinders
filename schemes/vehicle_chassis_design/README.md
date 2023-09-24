@@ -68,7 +68,7 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 <th>assembled with photocured parts </th>
 </tr><tr>
 <td><img src="./img/Vehicle Chassis Design_top_view_circle.png" width=250></td>
-<td><img src="./img/car_wood_up-removebg-preview.png"></td>
+<td><img src="./img/car_wood_up-removebg-preview."></td>
 </tr>
 </table>
 </div>
