@@ -29,11 +29,14 @@ __Located Below is the content of the technical report, and a link to the build 
       - [Introduce Jetson Nano ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
       - [Introduce Raspberry pi ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
     - __Sense Management__
-      
+      - [Color sensor](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/color_sensor/README.md)
+      - [Introduction to Lidar](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/Lidar/README.md)
+      - [Camera](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
     - [Introduction to OpenCV](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+    - [Introducution to ROS](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/ROS)
     - __Programming__
       - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
