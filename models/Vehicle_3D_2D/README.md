@@ -7,15 +7,6 @@
 __- The 2D models created for this competition are all designed using Onshape.__  
 
 
-- ### 3D Printed Product
-<div align="center">
-<table>
-<tr align="center">
-<td><img src="" width="300" alt="car_board"></td>
-<td><img src="" width="300" alt="car_board"></td>
-</tr>
-</table>
-</div>
 
 - ### 2D Printed Physical Diagram
   
