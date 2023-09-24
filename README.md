@@ -24,7 +24,7 @@ __Located Below is the content of the technical report, and a link to the build 
       - [Power_supply_system](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
       - [Li-Polymer Battery Safety Notice](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
    
-    - __Controller choice__
+    - __Controller Selection__
       - [Choose controller ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/controller)
       - [Introduce Jetson Nano ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
       - [Introduce Raspberry pi ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
