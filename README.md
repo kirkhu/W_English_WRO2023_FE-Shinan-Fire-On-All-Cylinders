@@ -4,11 +4,11 @@ Engineering materials
 - Official GitHub repository for WRO TAIWAN team Shinan Fire On All Cylinders. All code, documentation, and files are located here.
 - In this technical document, a table of contents will be created based on the scoring criteria, and the headings in the table of contents will be linked. This allows reviewers to access the articles through links, facilitating a clear understanding of the core content of the technical document and enabling efficient scoring.
 
+- ### From a designer's perspective, we have also implemented an alternative directory arrangement
+
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
-### From a designer's perspective, we have also implemented an alternative directory arrangement
 
-## Content
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     - [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/vehicle_chassis_design)
@@ -28,9 +28,9 @@ __Located Below is the content of the technical report, and a link to the build 
       - [Li-Polymer Battery Safety Notice](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
    
     - __Controller Selection__
-      - [Choose controller ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/controller)
       - [Introduce Jetson Nano ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
       - [Introduce Raspberry pi ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
+      - [Controller Comparison ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/controller)
     - __Sense Management__
       - [Color sensor](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/color_sensor/README.md)
       - [Lidar](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/Lidar/README.md)

@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Shinan Fire On All Cylinders  
 ====
-# <div align="center">Motor</div> 
+# <div align="center"> Motor Selection</div> 
 When the vehicle is in motion, the Raspberry Pi sends speed information to the motor controller to control the rear-wheel drive DC motor. Simultaneously, the Raspberry Pi also sends messages to the servo motor of the front steering mechanism, enabling the vehicle to maneuver freely and move forward.
 
 
