@@ -6,6 +6,8 @@ Engineering materials
 
 __Located Below is the content of the technical report, and a link to the build instructions.__
 
+### From a designer's perspective, we have also implemented an alternative directory arrangement
+
 ## Content
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
