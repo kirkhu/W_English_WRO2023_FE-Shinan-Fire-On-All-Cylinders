@@ -16,8 +16,8 @@
 <th>up view</th>
 <th>side view</th>
 <tr align="center">
-<td><img src="" width="300" alt=" up view"></td>
-<td><img src="" width="300" alt=" side view"></td>
+<td><img src="./img/3D-down.png" width="300" alt=" up view"></td>
+<td><img src="./img/3D-down2.png" width="300" alt=" side view"></td>
 </tr>
 </table>
 </div>

@@ -34,7 +34,7 @@
 </tr><tr>
 <th>Built-in Bluetooth and wireless WiFi connectivity</th>
 <td>Requires external Bluetooth and wireless WiFi connectivity</td>
-<td>has</td>
+<td>Built-in</td>
 </tr><tr>
 <th>Gflops</th>
 <td>472</td>
