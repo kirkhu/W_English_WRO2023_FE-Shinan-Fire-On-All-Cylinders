@@ -92,7 +92,7 @@
 </div>
 
 
-- Because the parts made from photosensitive resin are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing to make the parts harder and less susceptible to deformation, which could affect the vehicle's movement.
+- Because the photocured parts are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing, making the parts harder and less susceptible to deformation, which could affect the vehicle's movement.
 
 <div align=center>
 <table>
