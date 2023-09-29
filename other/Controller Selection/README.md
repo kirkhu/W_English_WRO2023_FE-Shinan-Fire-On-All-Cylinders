@@ -48,6 +48,9 @@
 __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
 
 - Introduction to Two Types of Controllers can be viewed at the following link. 
+[Jetson Nano](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
+
+[Raspberry Pi 4B](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
 
 
 
