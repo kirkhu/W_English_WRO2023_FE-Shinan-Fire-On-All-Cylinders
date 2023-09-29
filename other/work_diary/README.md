@@ -865,7 +865,7 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 <tr>
 <th>Secondary curing</th>
 </tr><tr>
-<td><img src="../../schemes/3D_printed/img/2.jpg" width=300 alt="light_again"></td>
+<td><img src="../../models/Vehicle_3D/img/2.jpg" width=300 alt="light_again"></td>
 </tr>
 </table>
 </div>
