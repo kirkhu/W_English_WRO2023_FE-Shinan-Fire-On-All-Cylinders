@@ -47,5 +47,8 @@
 
 __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
 
+- Introduction to Two Types of Controllers can be viewed at the following link. 
+
+
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
