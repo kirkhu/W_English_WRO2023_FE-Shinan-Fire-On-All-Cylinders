@@ -923,8 +923,26 @@ This week, we have completed assembling the machine and started practicing. Sinc
 
 
 ## 2023/09/25 ~ 2023/10/01
-**Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
-**Content:**  
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
+
+In the testing process, we encountered a fracture on the chassis, which was found to be due to the servo motor's shaft not being centered, resulting in a shorter gap on one side when drilling holes in the base plate. This lack of stability caused the fracture. Therefore, we made adjustments to ensure that both sides have the same gap, increasing the chassis's overall rigidity.
+
+<div align=center>
+<table>
+<tr>
+<th>Original </th>
+<th>Improved version </th>
+</tr><tr align=center>
+<td><img src="./img/9/4.png" width=230></td>
+<td><img src="./img/9/5.png"width=200></td>
+</tr>
+</table>
+</div>
+
+## 2023/10/02 ~ 2023/10/08
+**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**content:**
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
