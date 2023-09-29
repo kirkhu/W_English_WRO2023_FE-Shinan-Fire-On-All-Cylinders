@@ -13,28 +13,21 @@
 <div align="center">
 <table>
 <tr align="center">
+<th>3D Photo file</th>
 <th>up view</th>
 <th>side view</th>
 <tr align="center">
-<td><img src="./img/3D-down.png" width="300" alt=" up view"></td>
-<td><img src="./img/3D-down2.png" width="300" alt=" side view"></td>
-</tr>
-</table>
-</div>
-
-<div align="center">
-<table>
-<tr align="center">
-<th colspan="3">Working 3D Printer</th>
-</tr>
-<tr>
+<td><img src="./img/3Dconcept.png" width=300 alt="file"></td>
+<td><img src="./img/3D-down.png" width="300" alt=" real"></td>
+<td><img src="./img/3D-down2.png" width="300" alt="real"></td>
+</tr><tr>
+<th colspan="2">3D Printer</th>
+</tr><tr>
 <td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
 <td><img src="./img/3Dprinting2.jpg" width="300" alt=" logo"></td>
-<td><img src="./img/3Dprinting3.jpg" width="300" alt=" logo"></td>
 </tr>
 </table>
 </div>
-
 ## Photo Curing
 
 - Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
