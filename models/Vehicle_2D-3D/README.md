@@ -15,7 +15,7 @@ __- The 2D models created for this competition are all designed using Onshape.__
 - ###  Laser cutting machine operation
 <div align="center"><img src="./img/hu.jpg" width="400" alt="car_board"></div>
 
-## 3D Printed
+## <div align="center"> Vehicle Body Panels_Vehicle 3D Models</div>
 
 - 3D printing is a manufacturing technology that transforms digital models into physical objects by layering materials one after another to create the object.
 - We have chosen to use 3D printing for the fabrication of the car body due to its advantages over using a Laser Cutting Machine to cut wooden panels. 3D printing offers inherent structural integrity, eliminating the need for assembly steps and resulting in a more lightweight design.
@@ -39,6 +39,7 @@ __- The 2D models created for this competition are all designed using Onshape.__
 </tr>
 </table>
 </div>
+
 ## Photo Curing
 
 - Photocuring is a process that utilizes ultraviolet (UV) or other visible light to cure specific materials. It is commonly employed in areas such as 3D printing and coatings, where materials undergo a chemical reaction upon exposure to light, transitioning from a liquid or semi-solid state to a solid state.
