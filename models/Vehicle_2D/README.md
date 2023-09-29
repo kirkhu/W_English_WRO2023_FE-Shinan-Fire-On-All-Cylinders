@@ -6,7 +6,9 @@
 
 __- The 2D models created for this competition are all designed using Onshape.__  
 
+- ### Onshape Drafting
 
+<img src="./img/_3.png" width="300" alt="Onshape Drafting "> 
 
 - ### 2D Printed Physical Diagram
   
