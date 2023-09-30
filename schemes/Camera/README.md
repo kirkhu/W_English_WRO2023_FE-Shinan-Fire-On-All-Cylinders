@@ -18,9 +18,9 @@
 <table>
 <tr align="center" >
 <th rowspan="2">Model</th> 
-<th >raspberry pi camera Rev 1.3</th>
-<th >raspberry pi camera Module V2</th>
-<th >raspberry pi camera Module V3</thd>
+<th >Raspberry pi camera Rev 1.3</th>
+<th >Raspberry pi camera Module V2</th>
+<th >Raspberry pi camera Module V3</thd>
 </tr>
 <tr align="center">
 
