@@ -37,13 +37,13 @@
       - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
       - [Distinctive Pseudo code](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Feature_Program/README.md)
-- ## Photo 照片
+- ## Photo 
     - [Team Photo](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
     - [Vehicle Photos](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/v-photos/README.md) 
 - ## Vehicle Operation Video 
     - [Open Challenge](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/video/Open_Challenge/video.md)
     - [Obstacle Challenge](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/video/Obstacle_Challenge/video.md)
-- ## Work Dairy 工作日誌
+- ## Work Dairy 
     - [March](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/work_diary#20230319--20230326)
     - [April](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/work_diary#20230327--20230402)
     - [May](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/work_diary#20230501-20230507)
