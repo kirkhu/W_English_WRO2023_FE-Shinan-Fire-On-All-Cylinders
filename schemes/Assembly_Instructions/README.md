@@ -9,6 +9,19 @@
 - ## System Operation Process 
 ![image](./img/System_operation_process.png)
 
+- The battery outputs 12V of power to the motor controller (L293D) and voltage regulator, which then controls the current to 5V before supplying power to the Raspberry Pi and various sensors.
+
+- The LiDAR sensor uses TTL to USB conversion and transmits data to the Raspberry Pi via the ROS system from the front, right, and left sensors.
+
+- The camera (Sony IMX219) transmits images to the Raspberry Pi, which then utilizes OPENCV for image recognition.
+
+- The button is used to start the program, and the Raspberry Pi determines if it has been pressed based on the presence or absence of current through the button.
+
+- The servo motor (MG90S) is used for controlling the direction of movement, and it utilizes PWM signals to control the rotation angle.
+
+- The motor controller (L293D) is employed to control the forward and reverse motion of the DC motors, using PWM signals to adjust the current output to the motors.
+
+
 - ## Mechanical Structure 
 <div align="center">
 <table>
@@ -39,7 +52,7 @@
 </table>
 </div>
 
-- ## Overview of Important Parts List.
+- ## Overview of Important Parts List
 ### Raspberry Pi 4B 8G
 <table border=0 width=100% >
   <tr>
