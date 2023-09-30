@@ -21,16 +21,19 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 
 |Second generation| Explanation  |
 |:----:|:----:|
-|<img src="./img/_2." width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
+|<img src="./img/_2.png" width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
 
 |Third generation | Explanation  |
 |:----:|:----:|
-|<img src="./img/3." width="700" alt="body_bottom_lego">|  We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
+|<img src="./img/3.png" width="700" alt="body_bottom_lego">|  We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
 
 |Fourth generation | Explanation |
 |:----:|:----:|
-|<img src="./img/4. width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
+|<img src="./img/4.png" width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
 
+|Fifth generation | Explanation |
+|:----:|:----:|
+|<img src="./img/5.png" width="400" alt="body_bottom_lego">|The key change in this version is shifting the position of the servo motor from being on the left to the center. Otherwise, the left wooden board would be too thin and prone to breaking.|
 
 - ## Ackermann_steering_geometry
 
