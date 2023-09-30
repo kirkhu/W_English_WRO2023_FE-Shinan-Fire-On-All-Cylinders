@@ -52,7 +52,7 @@
 </table>
 </div>
 
-- ## Overview of Important Parts List.
+- ## Overview of Important Parts List
 ### Raspberry Pi 4B 8G
 <table border=0 width=100% >
   <tr>
