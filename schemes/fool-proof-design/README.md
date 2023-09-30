@@ -5,7 +5,7 @@
 ## <div align="center">Hardware Fool-Proof-Design</div>
 <div align="center">
 
-| <img src="./img/anit_daze.png" alt="插座" width="350">  | <img src="./img/anit_daze_2.jpg" alt="電木板" width="350">|
+| <img src="./img/anit_daze.png" alt="Socket" width="350">  | <img src="./img/anit_daze_2.jpg" alt="Circuit Board" width="350">|
 |:----|:----:|
 
 </div>
