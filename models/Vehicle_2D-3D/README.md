@@ -31,7 +31,10 @@ __- The 2D models created for this competition are all designed using Onshape.__
 <td><img src="./img/3Dconcept.png" width=300 alt="file"></td>
 <td><img src="./img/3D-down.png" width="300" alt=" real"></td>
 <td><img src="./img/3D-down2.png" width="300" alt="real"></td>
-</tr><tr>
+</tr>
+</table>
+<table>
+<tr>
 <th colspan="2">3D Printer</th>
 </tr><tr>
 <td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
