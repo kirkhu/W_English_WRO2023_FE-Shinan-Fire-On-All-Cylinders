@@ -33,8 +33,8 @@
     <td> <img src="./img/right.png" width="400" alt="Right_view" ></td>
   </tr>
 </table>
-  
 </div> 
+
 - ## Mechanical Structure 
 
 
