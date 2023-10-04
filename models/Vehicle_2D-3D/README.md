@@ -4,11 +4,39 @@
 ====
 ## <div align="center">Physical Cutting of Vehicle Body Panels_Vehicle 2D Models</div>
 
-__- The 2D models created for this competition are all designed using Onshape.__  
+- __The 2D models created for this competition are all designed using Onshape.__  
 
 - ### Onshape Drafting
 
-<img src="./img/_3.png" width="300" alt="Onshape Drafting "> 
+<div align=center>
+<table>
+<tr>
+<th>car bottom</th>
+<th>car middle</th>
+<th>car up</th>
+</tr><tr>
+<td><img src="./img/2D_bottom.png" width="300" ></td> 
+<td><img src="./img/2D_mid.png" width="300" ></td> 
+<td><img src="./img/2D_up.png" width="300"></td>
+</tr>
+</table>
+</div> 
+
+- ### Physical cutting of vehicle body panels 
+<div align=center>
+<table>
+<tr>
+<th>bottom layer</th>
+<th>middle layer</th>
+<th>upper layer</th>
+</tr>
+<tr>
+<td><img src="./img/board-1.jpg" width=200></td>
+<td><img src="./img/board-2.jpg" width=200></td>
+<td><img src="./img/board-3.jpg" width=200></td>
+</tr>
+</table>
+</div>
 
 - ### 2D Printed Physical Diagram
   
