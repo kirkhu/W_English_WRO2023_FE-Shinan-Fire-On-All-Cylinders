@@ -13,7 +13,7 @@ Engineering materials
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     * [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
-    * [Steering Mechanism](./schemes/vehicle_chassis_design/README.md#ackermann_steering_geometry)
+    * [Steering Mechanism](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
     * [Introduction to Motor](./schemes/Motor/README.md)
     * [Vehicle 2D/3D Models CAD](./models/Vehicle_2D_3D/README.md)
     
