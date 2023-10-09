@@ -2,7 +2,7 @@
 
 2023WRO Future Engineers Fire On All Cylinders  
 ====
-# <div align="center">Design Porcess</div>
+# <div align="center">Build from the learner’s perspective</div>
 
 
 - In this technical document, a directory will be created based on vehicle production, and the directory titles will be hyperlinked so that viewers can access the content through links, making it easy to understand the core of the technical document and facilitate the rapid production of vehicles.
