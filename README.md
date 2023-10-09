@@ -5,7 +5,7 @@ Engineering materials
 - In this technical document, a table of contents will be created based on the scoring criteria, and the headings in the table of contents will be linked. This allows reviewers to access the articles through links, facilitating a clear understanding of the core content of the technical document and enabling efficient scoring.
 
 - ### Design Process Explanation
-  - The link below provides a design process catalog created from a designer's perspective.- [Design Process for user](./Design%20process.md)
+  - The link below provides a design process catalog created from a designer's perspective.- [Build from the learner’s perspective](./Designer_process.md)
   - 
   
 - ###  ${{\color{red} Hardware Overview }} $ 
