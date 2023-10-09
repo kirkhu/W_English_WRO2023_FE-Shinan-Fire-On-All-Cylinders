@@ -6,16 +6,16 @@ Engineering materials
 
 - ### Design Process Explanation
 - The link below provides a design process catalog created from a designer's perspective.
-- [Design Process](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/Design%20process.md)
+- [Design Process](./Design%20process.md)
   
 
 
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     - [Vehicle chassis design](./schemes/vehicle_chassis_design)
-    - [Steering Mechanism](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/vehicle_chassis_design#ackermann_steering_geometry)
-    - [Introduction to Motor](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
-    - [Vehicle 2D/3D Models CAD](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/models/Vehicle_2D_3D)
+    - [Steering Mechanism](h./schemes/vehicle_chassis_design#ackermann_steering_geometry)
+    - [Introduction to Motor](./schemes/Motor/README.md)
+    - [Vehicle 2D/3D Models CAD](./models/Vehicle_2D_3D)
     
   #### 2. Power and Sense Management
     - __Vehicle design__
