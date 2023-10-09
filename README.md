@@ -14,7 +14,7 @@ Engineering materials
   #### 1. Mobility Management
     * [Vehicle chassis design](./schemes/vehicle_chassis_design/README.md)
     * [Steering Mechanism](./schemes/vehicle_chassis_design/README.md#ackermann_steering_geometry)
-    * [Introduction to Motor](../schemes/Motor/README.md)
+    * [Introduction to Motor](./schemes/Motor/README.md)
     * [Vehicle 2D/3D Models CAD](../models/Vehicle_2D_3D/README.md)
     
   #### 2. Power and Sense Management
