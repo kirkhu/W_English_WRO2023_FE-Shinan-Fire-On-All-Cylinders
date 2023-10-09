@@ -19,45 +19,45 @@ Engineering materials
     
   #### 2. Power and Sense Management
     - __Vehicle design__
-      - [BOM Parts List](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/schemes/Parts_List#readme)
-      - [Assembly Instructions & Diagrams](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
-      - [Circuit Design](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
-      - [Hardware Fool-Proof-Design](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
+      - [BOM Parts List](./schemes/Parts_List#readme)
+      - [Assembly Instructions & Diagrams](./schemes/Assembly_Instructions/README.md)  
+      - [Circuit Design](./models/Circuit_Design/README.md)
+      - [Hardware Fool-Proof-Design](./schemes/fool-proof-design/README.md) 
     - __power Management__
-      - [Power_supply_system](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
-      - [Li-Polymer Battery Safety Notice](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
+      - [Power_supply_system](./schemes/Power_supply_system/README.md) 
+      - [Li-Polymer Battery Safety Notice](./schemes/Li-Polymer_Battery/README.md)  
    
     - __Controller Selection__
-      - [Introduce Jetson Nano ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
-      - [Introduce Raspberry pi ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
-      - [Controller Comparison ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Controller%20Selection)
+      - [Introduce Jetson Nano ](./other/Jetson%20Nano)
+      - [Introduce Raspberry pi ](./other/Raspberry_Pi)
+      - [Controller Comparison ](./other/Controller%20Selection)
     - __Sense Management__
-      - [Color sensor](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/color_sensor/README.md)
-      - [Lidar](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/Lidar/README.md)
-      - [Camera](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/schemes/Camera/README.md)
+      - [Color sensor](./schemes/color_sensor/README.md)
+      - [Lidar](./schemes/Lidar/README.md)
+      - [Camera](./schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
-    - [Introduction to OpenCV](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
-    - [Introducution to ROS](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/ROS)
+    - [Introduction to OpenCV](./other/OpenCV/README.md)
+    - [Introducution to ROS](./other/ROS)
     - __Programming__
-      - [Open Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Open_Challenge)
-      - [Obstacle Challenge Code overview](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/tree/main/src/Programming/Obstacle_Challenge)
-      - [Distinctive Pseudo code](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/src/Feature_Program/README.md)
+      - [Open Challenge Code overview](./src/Programming/Open_Challenge)
+      - [Obstacle Challenge Code overview](./src/Programming/Obstacle_Challenge)
+      - [Distinctive Pseudo code](./src/Feature_Program/README.md)
    
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and vehicle
-    - [Team Members of Introduction](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
+    - [Team Members of Introduction](./t-photos/README.md) 
 
   #### 5. Performance videos
-    - [Open Challenge](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/video/Open_Challenge/video.md)
-    - [Obstacle Challenge](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/video/Obstacle_Challenge/video.md)  
+    - [Open Challenge](./video/Open_Challenge/video.md)
+    - [Obstacle Challenge](./video/Obstacle_Challenge/video.md)  
 
   #### 6. GitHub utilization
-    - [GitHub Edit(VSCODE Edit/GIT)](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/src/GitHub_Edit/README.md)
-    - [GitHub Web Editing Languages](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/src/GitHub_Languages/README.md)  
+    - [GitHub Edit(VSCODE Edit/GIT)](./src/GitHub_Edit/README.md)
+    - [GitHub Web Editing Languages](./src/GitHub_Languages/README.md)  
 
 
   #### 7. Engineering Factor
-    - [Work Diary](https://github.com/kirkhu/WRO2023_FE-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md)
+    - [Work Diary](./other/work_diary/README.md)
 
