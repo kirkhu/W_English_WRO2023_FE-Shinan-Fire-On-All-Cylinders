@@ -1,7 +1,6 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
-====
-# <div align="center">Learner's Perspective </div> 
+## Learner's Perspective ## 
 
 - ## Hardware selection
     - [Moter choise](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
