@@ -1,7 +1,5 @@
 <div align=center> <img src="../../other/img/logo.png" width=300 alt=" logo"> </div>
 
-2023WRO Future Engineers Shinan Fire On All Cylinders  
-=====
 ## <div align="center">Software Platform Construction </div> 
 - ### System Platform Software Installation Process Diagram
 ![images](./img/software_setup.png) 
