@@ -1,13 +1,12 @@
 Engineering materials
 ====
+- Official GitHub repository for WRO TAIWAN team Fire On All Cylinders. All code, documentation, and files are located here.
+- Here are the links to the technical report content and setup instructions, organized separately for learners and evaluators, for easy access during learning or assessment. 
+- In this technical document, the directory will be established based on the scoring criteria, and the directory headings will be hyperlinked for easy access for judge or learners to navigate to the key content of the technical document, facilitating quick assessment.
 
-- Official GitHub repository for WRO TAIWAN team Shinan Fire On All Cylinders. All code, documentation, and files are located here.
-- In this technical document, a table of contents will be created based on the scoring criteria, and the headings in the table of contents will be linked. This allows reviewers to access the articles through links, facilitating a clear understanding of the core content of the technical document and enabling efficient scoring.
-
-- ### Design Process Explanation
-  - The link below provides a design process catalog created from a designer's perspective.- [Build from the learner’s perspective](./Designer_process.md)
-  - 
-  
+### [Learner's Perspective linking](https://github.com/kirkhu/WRO2023_Future-Engineers-Fire-On-All-Cylinders/blob/main/-Designer_process.md)   
+### [Judge's Perspective]
+__Located below is the content of the technical report, and a link to the build instructions.__
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
     * [Vehicle chassis design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/vehicle_chassis_design/README.md)
