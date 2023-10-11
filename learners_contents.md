@@ -1,4 +1,5 @@
-![logo](./other/img/logo.png)2023WRO Future Engineers Fire On All Cylinders  
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div> 
+2023WRO Future Engineers Fire On All Cylinders  
 ====
 # <div align="center">Learner's Perspective </div> 
 
