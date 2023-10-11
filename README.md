@@ -46,6 +46,7 @@
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and vehicle
     - [Team Members of Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
+    - [Vehicle's Photos]()  
   #### 5. Performance videos
     - [Open Challenge](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/video/Open_Challenge/video.md)
     - [Obstacle Challenge](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/video/Obstacle_Challenge/video.md)
