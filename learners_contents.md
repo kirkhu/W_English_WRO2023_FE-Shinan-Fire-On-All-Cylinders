@@ -2,7 +2,7 @@
 
 ## Learner's Perspective ## 
 
-- ### Hardware selection
+- ### Hardware Selection
     - [Controller Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/controller)
       - [Jetson Nano_Board_Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Jetson%20Nano)
       - [Raspberry Pi_Board_Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)
