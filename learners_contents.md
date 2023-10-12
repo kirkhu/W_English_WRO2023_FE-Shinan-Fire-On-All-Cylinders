@@ -1,6 +1,6 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
-## Learner's Perspective ## 
+## For Learners ## 
 
 - ### Hardware Selection
     - [Controller Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/controller)
