@@ -1,4 +1,5 @@
-<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
+<div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>  
+
 # <div align="center">Part List </div>
 <li><a href="https://www.icshop.com.tw/product-page.php?27903" target="_blank"> Raspberry Pi 4B(8G)</a></li> 
 <li><a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293d motor controler </a></li>

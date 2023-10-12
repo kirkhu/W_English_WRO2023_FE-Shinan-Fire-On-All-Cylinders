@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-# <div align="center">Li-Polymer battery Safety Notice</div> 
+# <div align="center">Li-Polymer Battery Safety Notice</div> 
 - ### Li-Polymer Battery: Hazards, Maintenance, and Composition
     - Hazards
         - Flammable

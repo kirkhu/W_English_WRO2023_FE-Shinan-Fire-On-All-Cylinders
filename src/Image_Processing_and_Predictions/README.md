@@ -1,11 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-2023WRO Future Engineers Shinan Fire On All Cylinders  
-====
-# <div align="center">Image_Processing_and_Predictions</div> 
-
+# <div align="center">Image Processing and Predictions</div> 
 ## Image Predictions
-
 ### Image processing  
 - When processing images, it is necessary to convert them to different color spaces for more efficient handling of specific tasks.  
 - We use the cv2.cvtColor function to convert the original RGB image to the HSV (Hue, Saturation, Value) color space.  
