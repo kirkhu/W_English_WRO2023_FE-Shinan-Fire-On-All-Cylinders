@@ -19,12 +19,12 @@
       - [Circuit Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
       - [Hardware Fool-Proof-Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
     - __Power Management__
-      - [Power_Supply_System](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
+      - [Power Supply System](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
       - [Li-Polymer Battery Safety Notice](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
    
     - __Controller Selection__
-      - [Jetson Nano Board_Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/Jetson%20Nano)
-      - [Raspberry_Pi_Board Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi)
+      - [Jetson Nano Board Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/Jetson%20Nano)
+      - [Raspberry Pi Board Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/Raspberry_Pi)
       - [Controller Comparison ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/Controller%20Selection)
     - __Sense Management__
       - [Color Sensor](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
