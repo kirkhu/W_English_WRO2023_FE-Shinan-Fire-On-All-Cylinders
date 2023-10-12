@@ -1,6 +1,6 @@
 <div align="center"><img src="./other/img/logo.png" width="300" alt=" logo"></div> 
 
-- This is the official GitHub repository for the WRO TAIWAN team ${{\color{red}Shinan Fire On All Cylinders.}} $ All code, documentation, and files are located here.
+- This is the official GitHub repository for the WRO TAIWAN team "__Shinan Fire On All Cylinders.__" All code, documentation, and files are located here.
 - Here you can find the links to the technical report content and setup instructions, organized separately for learners and judges, for easy access during either learning or assessment. 
 - In this technical document, the directory will be established based on the scoring criteria, and the directory headings will be hyperlinked for easy access for judges or learners to navigate to the key content of the technical document, facilitating quick assessment.  
     #### [For Learners](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/learners_contents.md)
