@@ -13,7 +13,7 @@
     * [Vehicle 2D/3D Models_in CAD](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Vehicle_2D_3D/README.md)
     
   #### 2. Power and Sense Management
-    - __Vehicle design__
+    - __Vehicle Design__
       - [BOM Parts List](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Parts_List#readme)
       - [Assembly Instructions & Diagrams](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
       - [Circuit Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
@@ -33,8 +33,8 @@
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
-    - [Introduction to OpenCV](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
-    - [Introducution to ROS](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/ROS)
+    - [OpenCV Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+    - [ROS Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/ROS)
     - [Software Platform Construction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/System_Platform_Software/README.md)
     - __Image Processing and Predictions__
       - [Image Processing]()  
