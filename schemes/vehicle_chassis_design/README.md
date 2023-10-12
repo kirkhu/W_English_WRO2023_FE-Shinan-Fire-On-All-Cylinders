@@ -1,12 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
+# <div align="center">Vehicle Chassis Design</div> 
 
-
-
-2023WRO Future Engineers Shinan Fire On All Cylinders  
-====
-# <div align="center">Vehicle Chassis Design </div> 
-
-- ## Vehicle chassis design
+- ## Vehicle Chassis Design
 |Vehicle chassis design 3D| Vehicle chassis design Entity TOP view | Vehicle chassis design Entity Down view|
 |:----:|:----:|:----:|
 |<img src="" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/car_wood_up." width="400" alt="up_view">|<img src="./img/car_wood_down." width="400" alt="down_view">|
@@ -14,7 +9,7 @@
 We replaced most of the LEGO parts on the chassis with components 3D printed through photopolymerization. This allowed us to save space and customize dimensions and shapes according to the vehicle's needs. With photopolymerization, we were able to introduce bearings in the middle to reduce friction and increase the vehicle's speed. Additionally, we transitioned the mentioned Ackermann steering mechanism to be 3D printed through photopolymerization. This freed us from the constraints of fixed LEGO part shapes, enabling us to freely adjust the Ackermann angle.
 
 
-- ###  Chassis Improvement Record
+- ###  Vehicle Chassis Improvement Record
 |First generation | Explanation  |
 |:----:|:----:|
 |<img src="./img/body_bottom_lego.png" width="400" alt="body_bottom_lego">| This is the first generation chassis assembled using LEGO and wooden boards. However, during assembly, many structural components couldn't be realized due to the constraints of LEGO specifications, such as the Ackermann steering mechanism.|
@@ -35,7 +30,7 @@ We replaced most of the LEGO parts on the chassis with components 3D printed thr
 |:----:|:----:|
 |<img src="./img/5.png" width="400" alt="body_bottom_lego">|The key change in this version is shifting the position of the servo motor from being on the left to the center. Otherwise, the left wooden board would be too thin and prone to breaking.|
 
-- ## Ackermann_steering_geometry
+- ## Ackermann Steering Geometry
 
 
   ## __Introduction to Ackermann_steering_geometry__

@@ -1,7 +1,5 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-2023WRO Future Engineers Shinan Fire On All Cylinders  
-====
 # <div align="center">Camera</div> 
 - In order to enable the vehicle to avoid obstacles accurately, we need to install a camera module on the vehicle. Since we are using a Raspberry Pi as the controller, we need to find a compatible camera module for it. To do this, we referred to the camera module used by the American team in last year's competition and compared it with other camera modules in the same series. Here is the product information:
 
