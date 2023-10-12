@@ -1,8 +1,6 @@
 <div align=center><img src="../img/logo.png" width=300></div>
 
-2023WRO Future Engineers Fire On All Cylinders  
-====
-# <div align="center">Introduction to Raspberry Pi </div> 
+# <div align="center">Raspberry Pi Board Introduction</div> 
 ### English 
 - Raspberry Pi is a small single-board computer launched by the Raspberry Pi Foundation in the UK, and it has gained widespread popularity due to its low cost, high customizability, and open-source nature. 
 - The hardware configuration of Raspberry Pi includes a processor, memory, multiple USB ports, HDMI output, and GPIO pins. 

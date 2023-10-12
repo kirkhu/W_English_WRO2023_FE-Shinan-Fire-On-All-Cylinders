@@ -1,8 +1,6 @@
  <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
- 
- 2023WRO Future Engineers Shinan Fire On All Cylinders  
-=====
-# <div align="center">Introduction to ROS</div> 
+
+# <div align="center">ROS Introduction</div> 
 - ROS (Robot Operating System) is an open-source framework designed to facilitate the development of robot applications. It provides a collection of software libraries and tools that enable seamless communication and collaboration between different components of a robotic system.
 
 - With a flexible and distributed architecture, ROS allows developers to build complex robot applications by creating modular and reusable software components known as nodes. These nodes can communicate with each other by passing messages, enabling easy integration of various functionalities.
