@@ -133,7 +133,7 @@ Maintenance Process:
 <div align=center>
 <table>
 <tr>
-<th>Secondary curing 二次硬化</th>
+<th>Secondary Curing</th>
 </tr><tr>
 <td><img src="./img/2.jpg" width=300 alt="light_again"></td>
 </tr>
