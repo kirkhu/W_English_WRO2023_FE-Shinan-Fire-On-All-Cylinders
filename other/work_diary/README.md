@@ -942,5 +942,14 @@ In the testing process, we encountered a fracture on the chassis, which was foun
 **member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **content:**
 
+This week, our vehicle often had trouble making proper turns, and we later discovered that it was due to detecting the green blocks of the next section. This resulted in the last block being recorded as green, preventing it from making the turn. Afterward, we utilized the Y-axis to determine whether to record the blocks. Since our camera's coordinate system has (0,0) at the top-left corner, a higher Y-axis value indicates closer proximity. Thus, the condition for deciding whether to record the block is whether the block's Y-axis is greater than the set value. If this condition is met, we record the block's color; if not, we don't record it.
+
+<div align=center>
+<table>
+<tr align=center><th>Diagram</th></tr>
+<tr align=center><td><img src="./img/10/camera_screen.png" width=300></td></tr>
+</table>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
