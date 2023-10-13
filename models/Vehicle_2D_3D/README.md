@@ -26,7 +26,7 @@
 <tr>
 <th>Bottom Layer </th>
 <th>Biddle Layer</th>
-<th>Bpper Layer</th>
+<th>upper Layer</th>
 </tr>
 <tr>
 <td><img src="./img/board-1.jpg" width=200></td>
