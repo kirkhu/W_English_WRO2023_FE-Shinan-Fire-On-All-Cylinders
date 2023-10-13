@@ -869,8 +869,8 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 </div>
 
 ## 2023/09/11 ~ 2023/09/17
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**Content:**
 
 This week, we started modifying the program. Due to the differences in the Raspberry Pi and Jetson Nano environments, even though both use Python, we had to make significant changes to the program. With the modifications to the vehicle and the circuitry, there were many areas in the code that required adjustments. We faced several challenges during the qualifying rounds, such as the LiDAR not detecting obstacles properly, the battery slipping can get stuck in the tire, and the light sensor being too sensitive, among other issues.
 
@@ -921,8 +921,8 @@ This week, we have completed assembling the machine and started practicing. Sinc
 
 
 ## 2023/09/25 ~ 2023/10/01
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**Content:**
 
 In the testing process, we encountered a fracture on the chassis, which was found to be due to the servo motor's shaft not being centered, resulting in a shorter gap on one side when drilling holes in the base plate. This lack of stability caused the fracture. Therefore, we made adjustments to ensure that both sides have the same gap, increasing the chassis's overall rigidity.
 
@@ -939,8 +939,8 @@ In the testing process, we encountered a fracture on the chassis, which was foun
 </div>
 
 ## 2023/10/02 ~ 2023/10/08
-**member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
-**content:**
+**Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**Content:**
 
 This week, our vehicle often had trouble making proper turns, and we later discovered that it was due to detecting the green blocks of the next section. This resulted in the last block being recorded as green, preventing it from making the turn. Afterward, we utilized the Y-axis to determine whether to record the blocks. Since our camera's coordinate system has (0,0) at the top-left corner, a higher Y-axis value indicates closer proximity. Thus, the condition for deciding whether to record the block is whether the block's Y-axis is greater than the set value. If this condition is met, we record the block's color; if not, we don't record it.
 
