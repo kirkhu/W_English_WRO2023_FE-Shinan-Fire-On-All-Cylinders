@@ -55,7 +55,7 @@
 <th>side view</th>
 <tr align="center">
 <td><img src="./img/3Dconcept.png" width=300 alt="3Dconcept"></td>
-<td><img src="./img/3D-top_view.png" width="300" alt=" /3D-top_view"></td>
+<td><img src="./img/3D-top_view.png" width="300" alt="3D-top_view"></td>
 <td><img src="./img/3D-side_view.png" width="300" alt="3D-side_view"></td>
 </tr>
 </table>
