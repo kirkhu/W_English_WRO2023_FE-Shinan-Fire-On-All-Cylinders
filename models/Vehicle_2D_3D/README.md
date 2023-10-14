@@ -86,7 +86,7 @@
 <th colspan="2"> Photocured 3D Printing</th>
 <th> Light-curing Machine</th>
 </tr><tr align="center">
-<td><img src="./img/light_curing.png" width=300 alt="photocured" ></td>
+<td><img src="./img/onshape_3D model_CAD.png" width=300 alt="photocured" ></td>
 <td><img src="./img/photoprinting3.jpg" width=300 alt="photocured" ></td>
 <td><img src="./img/3D_photoprinter.jpeg" width=300 alt="photocured" ></td>
 </tr>
