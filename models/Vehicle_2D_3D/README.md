@@ -64,9 +64,9 @@
 <div align=center>
 <table>
 <tr>
-<th colspan="2">3D Printer</th>
-</tr><tr>
-<td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
+<th>3D Printer</th>
+<tr></tr>
+<td><img src="./img/3D-printer.jpg" width="300" alt="3D-printer"> <img src="./img/3D_working.jpg" width="300" alt="3D_working"> </td>
 </tr>
 </table>
 </div>
