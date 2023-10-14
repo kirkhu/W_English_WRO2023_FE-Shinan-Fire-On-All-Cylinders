@@ -3,7 +3,7 @@
 # <div align="center">Lidar Introduction</div> 
 - Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
-    __Working principle:__
+    __Working Principle:__
   - Emitting laser pulses: Lidar emits very short laser pulses through a laser. These pulses propagate at extremely high speeds and then return after reflection.  
   - Receiving reflected signals: The receiver of the Lidar records the time it takes for the laser pulses to return and measures the intensity of the light pulses. The time and intensity information of the reflections can be used to calculate the distance and characteristics of objects from the Lidar.  
   - Data processing: The computing device of the Lidar processes the received reflection data and calculates the position, shape, and movement of objects based on the measured time and the speed of light.
@@ -41,7 +41,7 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
 - #### The types of LiDAR used in the actual testing.
 <div align="center">
     
-|  lidar D100    |  ydlidar x4  |   ydlidar x2    |      
+|  Lidar D100    |  Ydlidar x4  |   Ydlidar x2    |      
 | :----: | :----: | :----:|
 |<img src="../Assembly_Instructions/img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
 </div> 
@@ -51,8 +51,8 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
 <div align="center">
  <table>
     <tr align="center">
-    <th> lidar D100</th>
-    <th colspan="2">ydlidar X4 X2</th>
+    <th> Lidar D100</th>
+    <th colspan="2">Ydlidar X4 X2</th>
     </tr>
     <tr align="center">
     <td><img src="./img/D100.png" width = "400" height = "" alt="D100"  /></td>
@@ -63,7 +63,7 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
  
 </div> 
 
-## Lidar judging process
+## Lidar Dudging Process
 <div align=center><img src="./img/Lidar.png"></div>
 
 - The lidar and the program start simultaneously. The lidar sends values for the front, right, and left directions to the Raspberry Pi through the ROS system. The Raspberry Pi calculates the difference between the right and left values to determine the machine's current direction. Then, it adjusts the servo motor to bring the machine back to the center position.

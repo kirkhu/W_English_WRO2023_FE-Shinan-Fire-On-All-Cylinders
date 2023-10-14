@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 # <div align="center">Power Supply System</div> 
-## 電源供應圖
+## Power Supply Diagram
 - ###  Power Supply System of Summary Diagram  
 <div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
 
