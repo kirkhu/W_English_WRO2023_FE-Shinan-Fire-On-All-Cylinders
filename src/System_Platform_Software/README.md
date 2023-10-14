@@ -3,7 +3,6 @@
 ## <div align="center">Software Platform Construction </div> 
 - ### System Platform Software Installation Process Diagram
 ![images](./img/software_setup.png) 
-
     - [Raspberry Pi Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)  
     - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
       - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
