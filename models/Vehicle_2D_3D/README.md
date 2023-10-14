@@ -83,12 +83,13 @@
 <div align="center">
 <table>
 <tr align="center">
-<th colspan="2"> Photocured 3D Printing</th>
+<th colspan="2"> Photocured 3D Printing and Modles</th>
 <th> Light-curing Machine</th>
 </tr><tr align="center">
-<td><img src="./img/onshape_3D model_CAD.png" width=400 alt="photocured" ></td>
-<td><img src="./img/photoprinting3.jpg" width=200 alt="photocured" ></td>
-<td><img src="./img/3D_photoprinter.jpeg" width=300 alt="photocured" ></td>
+<td><img src="./img/onshape_3D model_CAD.png" width=400 alt="onshape_3D model_CAD" ></td>
+<td><img src="./img/front_Assembly.jpg.png" width=400 alt="front_Assembly" ></td>
+<td><img src="./img/photoprinting3.jpg" width=200 alt="photoprinting" ></td>
+<td><img src="./img/3D_photoprinter.jpeg" width=300 alt="3D_photoprinter" ></td>
 </tr>
 </table>
 </div>
