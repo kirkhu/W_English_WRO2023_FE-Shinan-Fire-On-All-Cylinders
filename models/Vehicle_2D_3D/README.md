@@ -9,9 +9,9 @@
 <table>
 <tr>
 <th>3D Vehicle Modle </th>
-<th>vehicle bottom</th>
-<th>vehicle middle</th>
-<th>vehicle top</th>
+<th>Vehicle Bottom</th>
+<th>Vehicle Middle</th>
+<th>Vehicle Top</th>
 </tr><tr>
 <td><img src="./img/Vehicle_cad.png" width="300" alt=" Vehicle_cad"></td> 
 <td><img src="./img/2D_bottom.png" width="300" alt=" 2D_bottom"></td> 
@@ -27,7 +27,7 @@
 <tr>
 <th>Bottom Layer </th>
 <th>Biddle Layer</th>
-<th>upper Layer</th>
+<th>Upper Layer</th>
 </tr>
 <tr>
 <td><img src="./img/board-1.jpg" width=200></td>
@@ -51,8 +51,8 @@
 <table>
 <tr align="center">
 <th>3D Photo file</th>
-<th>top view</th>
-<th>side view</th>
+<th>Top View</th>
+<th>Side View</th>
 <tr align="center">
 <td><img src="./img/3Dconcept.png" width=300 alt="3Dconcept"></td>
 <td><img src="./img/3D-top_view.png" width="300" alt="3D-top_view"></td>
