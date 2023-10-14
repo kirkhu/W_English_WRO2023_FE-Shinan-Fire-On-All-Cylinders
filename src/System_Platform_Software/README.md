@@ -78,7 +78,7 @@ $ sudo apt-get upgrade
 
   __Therefore, we choose Python as the programming language for the development of the self-driving vehicle.__
 
-### ${{color{red} Introduction to Mobaxterm}} $  
+  ### ${{\color{red} Mobaxterm Introduction }} $  
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
   - MobaXterm also supports simultaneous management of multiple sessions, allowing users to switch and operate different remote connections effortlessly. This tool is highly valuable for system administrators, network engineers, and developers.
