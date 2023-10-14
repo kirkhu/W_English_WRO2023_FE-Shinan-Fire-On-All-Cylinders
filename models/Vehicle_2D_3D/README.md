@@ -21,7 +21,7 @@
 </table>
 </div>
 
-- ### 2D vehicle dimension diagram 2d車車輛尺寸圖
+- ### 2D vehicle dimension diagram
 <div align=center>
 <table>
 <tr>
