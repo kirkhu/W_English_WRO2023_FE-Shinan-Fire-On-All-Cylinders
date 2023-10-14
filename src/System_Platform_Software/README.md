@@ -1,7 +1,7 @@
 <div align=center> <img src="../../other/img/logo.png" width=300 alt=" logo"> </div>
 
 ## <div align="center">Software Platform Construction </div> 
-- ### System Platform Software Installation Process Diagram  
+ ### System Platform Software Installation Process Diagram  
 ![images](./img/software_setup.png)   
  - [Raspberry Pi Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)  
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
@@ -35,7 +35,7 @@
  ```
 
 
-- ### Green Recording of Venue Environmental Value Configuration
+  ### Green Recording of Venue Environmental Value Configuration
 ![images](./img/setup_recode.png)  
 #### [ColorDetect.py](../Programming/Open_Challenge/line_color_write.py)
 - Open ColorDetect.py to start recording the values of white, orange, and blue colors, and save the values to the color_sensor.p file.
@@ -69,7 +69,7 @@
 |<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="250" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="250" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="250" alt="Display_Button_Functionality"></div>|
 </div>
 
-- ### Programming Language
+ ### Programming Language
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich standard library, allowing developers to write code quickly and efficiently.
   standard library, enabling developers to write code quickly and efficiently. 
    - Python is widely used in web development, scientific computing, data analysis, artificial intelligence, machine learning, and various other fields. It features dynamic typing, automatic garbage collection, and supports multiple platforms.
