@@ -63,10 +63,10 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 </tr>
 <tr align="center">
 <td >speed</td>
-<td >1360rpm/m</td>
-<td >620rpm/m</td>
-<td >294rpm/m</td>
-<td >220rpm/m</td>
+<td >1360rpm</td>
+<td >620rpm</td>
+<td >294rpm</td>
+<td >220rpm</td>
 </tr>
 <tr align="center"><td>torque</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr align="center">
 <td>power</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
