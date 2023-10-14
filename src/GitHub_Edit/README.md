@@ -30,8 +30,7 @@
 |<img src="./img/vscode.png" alt="vscode"  width=400/>|<img src="./img/vscode_git.png" alt="git"  width=300/>|
 </div>
 
-### ${{\color{red} Introduction to Visal Studio Code}} $  
-
+### Visal Studio Code  Introduction  
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
   - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
 
