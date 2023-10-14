@@ -52,16 +52,16 @@
 - During subsequent testing, we found that the vehicle was unable to anticipate the position of the next block while avoiding obstacles. This posed a challenge for the vehicle's obstacle avoidance strategy. As a result, we decided to modify the original camera and convert it into a wide-angle lens. Compared to the original 72-degree field of view, the wide-angle lens provides a 160-degree field of view, allowing us to anticipate the position of the next block in advance. This improvement has enhanced the vehicle's obstacle avoidance effectiveness.
 
 
-#### Wide-angle lens
+#### Wide-Angle Lens
 <div align="center">
 <table>
 <tr align="center">
-<th> Without the wide-angle lens</th> 
-<th>With the wide-angle lens</th>
+<th> Without the Wide-Angle Lens</th> 
+<th>With the Wide-Angle Lens</th>
 </tr>
 <tr align="center">
 <td><img src="./img/V2.jpeg" width=200 alt="site" ></td>
-<td><img src="./img/V2_wide_angle.jpeg" width=200 alt="site" >
+<td><img src="./img/V2_Wide_Angle.jpeg" width=200 alt="site" >
 </td>
 </tr>
 <tr align="center">
@@ -74,16 +74,16 @@
 
 - In the Raspberry Pi program, it is possible to configure the resolution of the camera module. We conducted experiments with the following common resolutions.
 
-1. 1080x640 FPS30
-2. 640x320 FPS60
-3. 320x240 FPS90
+  1. 1080x640 FPS30
+  2. 640x320 FPS60
+  3. 320x240 FPS90
 - In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
 
 
 ## The Camera Judging Process
-<div align=center><img src="./img/camera.jpg"></div>
 
 - After the program is launched, it will activate the camera, continuously capture photos, and transmit them to the main controller. The program will then use OpenCV's image recognition capabilities to detect the presence of building blocks in the photos. If building blocks are detected, it will compare the sizes of the red and green traffic signs. If the red sign is larger, the vehicle will flash to the right. If the green sign is larger, it will flash to the left. If no traffic signs are detected, the vehicle will continue moving straight.
+<div align=center><img src="./img/camera.jpg"></div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 

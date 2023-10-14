@@ -7,7 +7,6 @@
 <img src="./img/introduct_new.png" alt="Components's Position (硬體結構配置)width=400" > 
 
 - ## System Operation Process 
-![image](./img/System_operation_process.png)
 
 - The battery outputs 12V of power to the motor controller (L293D) and voltage regulator, which then controls the current to 5V before supplying power to the Raspberry Pi and various sensors.
 
@@ -20,6 +19,7 @@
 - The servo motor (MG90S) is used for controlling the direction of movement, and it utilizes PWM signals to control the rotation angle.
 
 - The motor controller (L293D) is employed to control the forward and reverse motion of the DC motors, using PWM signals to adjust the current output to the motors.
+![image](./img/System_operation_process.png)
 
 
 - ## Mechanical Structure 
