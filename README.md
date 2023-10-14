@@ -15,9 +15,10 @@
   #### 2. Power and Sense Management
     - __Vehicle Design__
       - [BOM Parts List](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Parts_List#readme)
-      - [Assembly Instructions & Diagrams](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)  
       - [Circuit Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
       - [Hardware Fool-Proof-Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
+      - [Assembly Instructions & Diagrams](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)    
+      
     - __Power Management__
       - [Power Supply System](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
       - [Li-Polymer Battery Safety Notice](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
