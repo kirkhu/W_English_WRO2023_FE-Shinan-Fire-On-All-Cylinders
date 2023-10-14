@@ -34,10 +34,36 @@
 </div> 
 
 - ## Mechanical Structure 
-
+<div align="center">
+<table>
+  <tr align="center">
+      <th>Inner Structure Top View of the Overall Apparatus </th>
+      <th>Middle Layer Structure Top View</th>
+      <th>Top View of Vehicle Chassis</th>
+      <th>Bottom View of Vehicle Chassis</th>
+  </tr>
+  <tr align="center">
+     <td><img src="./img/up.png"  width = "400" alt="Inner Structure Top View of the Overall Apparatus" >      </td>
+     <td><img src="../schemes/Assembly_Instructions/img/Middle_Layer_Structure_Top_View.png" width = "400" alt="Middle Layer Structure Top View" ></td>
+     <td><img src="./img/Vehicle%20Chassis%20Design_top_view.png" width="400" alt="Top View of Vehicle Chassis" ></td>
+     <td><img src="./img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
+  </tr>
+</table>
+</div>
 
 - ### Circuit Board
-
+<div align="center">
+<table>
+  <tr align="center">
+      <th> Circuit Board of Top View </th>
+      <th>Circuit Board of Bottom View</th>
+  </tr>
+  <tr align="center">
+     <td> <img src="../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td>
+     <td><img src="../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
+  </tr>
+</table>
+</div>
 
 
 # <div align="center">![HOME](../other/img/Home.png)[Return Home](../)</div> 
