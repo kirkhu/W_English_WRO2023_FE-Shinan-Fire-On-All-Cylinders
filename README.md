@@ -55,5 +55,5 @@
   #### 7. Engineering Factor  
     - [Work Diary](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/work_diary/README.md)
 - ### ${{\color{red} CompetitionSchedule}} $  
-# <div align="center">![Competition Schedule Gantt](./Competition_Schedule_Gantt.jpg)</div> 
+# <div align="center">![Competition Schedule Gantt](./other/img/gantt.png)</div> 
 
