@@ -37,7 +37,7 @@
   __Therefore, we have chosen VS Code as the programming tool for the self-driving vehicle.__
 
 
-- Software link：[Visal Studio Code](https://code.visualstudio.com/) 
+  Software Website：[Visal Studio Code](https://code.visualstudio.com/) 
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
