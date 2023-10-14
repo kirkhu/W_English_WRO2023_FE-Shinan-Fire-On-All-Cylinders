@@ -4,7 +4,7 @@
 
 The 2D models created for this competition are all designed using Onshape.  
 
-- ### Onshape Model Draft - Onshape
+- ### Onshape Model Draft
 <div align=center>
 <table>
 <tr>
