@@ -154,5 +154,7 @@ We initially used the differential on the left because it had complete gears. Ho
 <img src="./img/MacPher Suspension System.png" width="200" alt="">
 </div> 
 
+However, in the end, due to the less significant shock absorption effect, we decided to replace the shock absorbers and directly limit the vibration amplitude using hardware. Although this might cause the machine to shake more, the competition venue features a smooth surface, and shock absorbers couldn't provide significant benefits.
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
