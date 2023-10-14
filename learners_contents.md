@@ -46,4 +46,4 @@
     - [September](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/work_diary#20230828--20230903)
     - [October](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/work_diary#20231002--20231008)
 - ### ${{\color{red} Competition Schedule}} $  
-# <div align="center">![Gantt chart](./Competition_Schedule_Gantt.jpg)</div> 
+# <div align="center">![Gantt chart](./other/img/gantt.png)</div> 
