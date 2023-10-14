@@ -1,6 +1,6 @@
 <div align="center"><img src="../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center"> Team Members of Introduction</div>
+## <div align="center"> Team Members Introduction</div>
 - ### Team Photo  1
   Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
 
