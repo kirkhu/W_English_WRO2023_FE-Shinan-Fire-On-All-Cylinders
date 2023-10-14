@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">2D Vehicle Models</div>
+## <div align="center">__2D Vehicle Models__</div>
 
 - __The 2D models created for this competition are all designed using Onshape.__  
 
