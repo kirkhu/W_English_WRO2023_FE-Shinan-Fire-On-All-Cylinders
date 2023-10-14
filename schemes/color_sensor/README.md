@@ -5,7 +5,7 @@
 <img src="./img/TCS34725.png" alt="TCS34725" width=200 style="display: block; margin: 0 auto;" />  
 </div>
 
-- TCS34725 color sensor 
+- __TCS34725 Color Sensor__
   - In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor.
   - The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.
   - The high precision of this sensor ensures that the vehicle can accurately recognize the colors of the ground lines and execute clockwise or counterclockwise turns as needed.  
@@ -30,7 +30,7 @@
 </div>
 
 ## Color Sensor Judging Process
-<div align=center><img src="./img/color_sensor.png"></div>
+
 
   1 After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.
   
@@ -39,6 +39,7 @@
   3 At this point, comparing the color value to the midpoint between the blue and orange line values determines which line it is.
   
   4 If the value is lower than the midpoint, it's the blue line, and if it's higher, it's the orange line.
+  <div align=center><img src="./img/color_sensor.png"></div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
