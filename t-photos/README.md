@@ -3,7 +3,7 @@
 ## <div align="center"> Team Members of Introduction</div>
 - ### Team Photo  
 
-- Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
+  Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
 
 
 <div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456" alt="圖體照"  />  </div>  
