@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 # <div align="center">Work Diary </div> 
-
+  Here is the record of the process for own design and manufacturing of vehicle and components, with off the shelf electrical components, such as motors and sensors 
 ## 2023/03/19 ~ 2023/03/26  
 **Member:**  ZHAO,ZHEN-BO、LIN,JHONG-BIN、HU,YUN-RUEI  
 **Content:**  
