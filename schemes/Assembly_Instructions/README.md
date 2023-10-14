@@ -43,7 +43,7 @@
 <table>
   <tr align="center">
       <th> Circuit Board of Top View </th>
-      <th> Circuit Board of Down View </th>
+      <th> Circuit Board of Rear View </th>
   </tr>
   <tr align="center">
      <td> <img src="./img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td>
