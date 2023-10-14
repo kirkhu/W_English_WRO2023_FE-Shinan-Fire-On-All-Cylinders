@@ -79,33 +79,40 @@
 
 Reference Video：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
 
-- ##  __Gear Differential__
-  ### Reason for Selection
-  We initially used the differential on the left because it had complete gears. However, during operation, we found that it would slip, causing the vehicle to malfunction. When we replaced it with the grey differential on the right, the slipping issue was resolved.
+- ##  Gear Differential 
+    ### Lego Differential Introduction 
+    - In this competition, we chose to use a pre-made LEGO differential gear instead of making one ourselves because of its complete and well-suited structure for our needs.
+    - And we have two generations of LEGO differential gears, namely the  and the LEGO 6573 Differential Gear.
+    - LEGO 65414 Differential Gear: Assembled with one 6541328 gear and five LEGO Gear 12 Tooth Bevel 4565452.
+    - LEGO 6573 Differential Gear: Integrates a 16-tooth gear and a 24-tooth gear, both with a 5mm diameter hole in the center for accommodating a cross axle. There is a small post in the center of the differential gear, allowing for better stabilization of right-angle bevel gears. This setup also involves the combination of three LEGO Gear 12 Tooth Bevel 4565452.
+
+
+ <div align=center>
+ <table>
+ <tr align=center>
+ <th>LEGO 65414 Differential Gear</th>
+ <th>LEGO 6573 Differential Gear</th>
+ </tr><tr align=center>
+ <td><img src="./img/differential_2.png" width=250></td>
+ <td><img src="./img/differential.png" width=250></td>
+ </tr>
+ </table>
+ </div>
+
+ ### Reason for Selection 
+ - We initially used the LEGO 65414 Differential Gear, but later encountered issues with gear disengagement during operation, causing the vehicle to not function properly. Switching to the LEGO 6573 Differential Gear resolved the problem of gear disengagement.
+
 <div align="center">
 <table>
 <tr>
-<th>Commercially Available Differential Gear Set</th>
-<th>Self-Assembled Differential Gear</th>
+<th>LEGO 65414 Differential Gear</th>
+<th>LEGO 6573 Differential Gear</th>
 </tr><tr align=center>
 <td><img src="./img/LEGO_differential.jpg" width=250></td>
 <td><img src="./img/differential-1.png" width=300></td>
 </tr>
 </table>
-</div>  
-
-   ### Lego Differential Introduction
-   This differential integrates a 16-tooth gear and a 24-tooth gear, both of which have a circular hole with a 5mm diameter at their centers for accommodating a cross-axis. In the center of the differential, there is a small pillar, which allows us to better secure the right-angle mating gear.
-
- <div align=center>
- <table>
- <tr align=center>
- <th>差速器照片</th>
- </tr><tr>
- <td><img src="./img/differential.png" width=200></td>
- </tr>
- </table>
- </div>
+</div>
 
  - ##  __MacPher Suspension System__
    - We have selected this system as our suspension choice due to its advantages over the Double Wishbone Suspension System. The McPherson suspension system offers structural simplicity, ease of manufacturing, and space efficiency. Furthermore, the McPherson suspension system is extensively employed in modern vehicles, especially for front-wheel suspension. 
