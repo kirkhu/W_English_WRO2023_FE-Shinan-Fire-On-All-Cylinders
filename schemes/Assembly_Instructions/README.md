@@ -4,7 +4,7 @@
 # <div align="center">Hardware Assembly Instructions.</div>
 
 - ## Components's Position 
-<img src="./img/control_introduce.png" alt="Components's Position (硬體結構配置)width=400" > 
+<img src="./img/introduct_new.png" alt="Components's Position (硬體結構配置)width=400" > 
 
 - ## System Operation Process 
 ![image](./img/System_operation_process.png)
@@ -32,8 +32,8 @@
       <th>Bottom View of Vehicle Chassis</th>
   </tr>
   <tr align="center">
-     <td>  <img src="./img/up.png"  width = "400" alt="All vehicle up view" > </td><td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Midium vehicle uo view" ></td><td><img src="./img/Vehicle_Chassis_Design_top_view.png" width="400" alt="Top view of the vehicle chassis." ></td>
-     <td><img src="./img/Vehicle_Chassis_Design_down.png" width="400" alt="Bottom view of the vehicle chassis." ></td>
+     <td>  <img src="./img/up.png"  width = "400" alt="All vehicle up view" > </td><td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Midium vehicle uo view" ></td><td><img src="./img/down_layer_top_view.jpg" width="400" alt="Top view of the vehicle chassis." ></td>
+     <td><img src="./img/down.png" width="400" alt="Bottom view of the vehicle chassis." ></td>
   </tr>
 </table>
 </div>
