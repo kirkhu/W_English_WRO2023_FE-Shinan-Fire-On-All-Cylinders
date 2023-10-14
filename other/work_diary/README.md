@@ -945,10 +945,18 @@ In the testing process, we encountered a fracture on the chassis, which was foun
 
 This week, our vehicle often had trouble making proper turns, and we later discovered that it was due to detecting the green blocks of the next section. This resulted in the last block being recorded as green, preventing it from making the turn. Afterward, we utilized the Y-axis to determine whether to record the blocks. Since our camera's coordinate system has (0,0) at the top-left corner, a higher Y-axis value indicates closer proximity. Thus, the condition for deciding whether to record the block is whether the block's Y-axis is greater than the set value. If this condition is met, we record the block's color; if not, we don't record it.
 
+When the program is initiated, because the button is located on the circuit board and positioned beneath the camera, pressing the button without promptly retracting the hand could potentially interfere with the machine's operation. To address this issue, we have positioned the button on an extended wooden board, ensuring that even if the hand is not retracted in time, it will not disrupt the functioning of the vehicle.
+
 <div align=center>
 <table>
-<tr align=center><th>Diagram</th></tr>
-<tr align=center><td><img src="./img/10/camera_screen.png" width=300></td></tr>
+<tr align=center><th>Diagram 示意圖</th>
+<th>修改前</th>
+<th>修改後</th>
+</tr>
+<tr align=center><td><img src="./img/10/camera_screen.png" width=300></td>
+<td><img src="./img/10/old_vehicle-removebg-preview.png" width=300></td>
+<td><img src="./img/10/up.png" width=300></td>
+</tr>
 </table>
 </div>
 
