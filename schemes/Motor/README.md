@@ -22,7 +22,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td> <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
-<td>Rotation angle</td>
+<td>Rotation Angle</td>
 <td>90° MAX</td>
 <td>0~90°/180° MAX</td>
 </tr>
@@ -92,17 +92,17 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td ><img src="./img/L298N.png" width = "300"  alt="l298n" align=center /></td>
 </tr>
 <tr align="center">
-<td>Occupied area(mm)</td>
+<td>Occupied Area(mm)</td>
 <td>29.5x8</td>
 <td>43.5x43.5</td>
 </tr>
 <tr align="center">
-<td>Output voltage</td>
+<td>Output Voltage</td>
 <td>4.5V to 36V</td>
 <td>5V to 46V</td>
 </tr>
 <tr align="center">
-<td>Rated power </td>
+<td>Rated Power </td>
 <td>5W</td>
 <td>10W</td>
 </tr>
