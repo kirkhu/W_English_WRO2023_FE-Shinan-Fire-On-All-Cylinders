@@ -89,7 +89,7 @@
 <td><img src="./img/onshape_3D model_CAD.png" width=400 alt="onshape_3D model_CAD" ></td>
 <td><img src="./img/front_Assembly.jpg" width=400 alt="front_Assembly" ></td>
 <td><img src="./img/photoprinting3.jpg" width=200 alt="photoprinting" ></td>
-<td><img src="./img/3D_photoprinter.jpeg" width=300 alt="3D_photoprinter" ></td>
+<td><img src="./img/3D_photoprinter.jpeg" width=200 alt="3D_photoprinter" ></td>
 </tr>
 </table>
 </div>
@@ -152,7 +152,7 @@ The following data was obtained during the experiment when printing the Ackerman
 <th> Light-curing Machine</th>
 </tr><tr align="center">
 <td><img src="./img/all_3Dprinter.jpg" width=200 ></td>
-<td><img src="./img/3D_photoprinter.jpeg" width=250 ></td>
+<td><img src="./img/3D_photoprinter.jpg" width=250 ></td>
 </tr><tr align="">
 <td>The required printing time</br></td>
 <td>Faster</td>
