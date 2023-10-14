@@ -2,7 +2,7 @@
 
 ## <div align="center">__2D Vehicle Models__</div>
 
-- __The 2D models created for this competition are all designed using Onshape.__  
+- The 2D models created for this competition are all designed using Onshape.  
 
 - ### Onshape Model Draft - Onshape
 <div align=center>
@@ -21,15 +21,35 @@
 </table>
 </div>
 
+- ### 2D vehicle dimension diagram 2d車車輛尺寸圖
+<div align=center>
+<table>
+<tr>
+<th>Lens Holder</th>
+<th>Vehicle Bottom</th>
+<th>Vehicle Middle</th>
+<th>Vehicle Top</th>
+</tr><tr>
+<td><img src="./Vehicle_Chassis_Sizse/lens_holder_size.png" width="300" alt="lens_holder"></td> 
+<td><img src="./Vehicle_Chassis_Sizse/2D_bottom_size.png" width="300" alt=" 2D_bottom"></td> 
+<td><img src="./Vehicle_Chassis_Sizse/2D_mid_size.png" width="300" alt=" 2D_mid"></td> 
+<td><img src="./Vehicle_Chassis_Sizse/2D_top_size.png" width="300" alt=" 2D_top"></td>
+</tr>
+</table>
+</div>
+
 - ### Panels Used for Vehicle Body
 <div align=center>
 <table>
 <tr>
-<th>Bottom Layer </th>
-<th>Biddle Layer</th>
-<th>Upper Layer</th>
+<th>Lens Holder</th>
+<th>Bottom Layer</th>
+<th>Middle Layer</th>
+<th>Top Layer</th>
+
 </tr>
 <tr>
+<td><img src="./img/lens_holder.jpg" width=200></td>
 <td><img src="./img/board-1.jpg" width=200></td>
 <td><img src="./img/board-2.jpg" width=200></td>
 <td><img src="./img/board-3.jpg" width=200></td>
