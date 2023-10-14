@@ -18,12 +18,12 @@
 |<img src="./img/Obstacle_detection.png" alt="Obstacle_detection" align=center />|
 </div>
 
-### Traffic sign avoidance  
+### Traffic Sign Avoidance  
 - Using the filtered red and green color images, we obtain the X and Y coordinates, as well as the area of objects in the image. We determine which color (red or green) is closer based on the Y coordinate.  
 - Then, we calculate the error value by subtracting the X coordinate of the closer traffic sign from the desired X coordinate where we want to avoid. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
 
 
-###  Using LIDAR to center on the road
+###  Using LIDAR to Center on the Road
 - Using LIDAR to measure the distances between the object's right and left sides and the walls, we can calculate the error values for both sides.  
 - By multiplying these error values with coefficients, we can obtain the angle to center the servo motor on the road.    
 <div align="center">
