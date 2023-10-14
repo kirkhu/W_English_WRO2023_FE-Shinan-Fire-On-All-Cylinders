@@ -29,7 +29,7 @@
 </table>
 </div>
 
-## Color sensor judging process
+## Color Sensor Judging Process
 <div align=center><img src="./img/color_sensor.png"></div>
 
   1 After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.
