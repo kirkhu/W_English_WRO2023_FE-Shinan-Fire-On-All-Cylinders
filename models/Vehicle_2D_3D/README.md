@@ -66,7 +66,6 @@
 <th colspan="2">3D Printer</th>
 </tr><tr>
 <td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
-<td><img src="./img/3Dprinting2.jpg" width="300" alt=" logo"></td>
 </tr>
 </table>
 </div>
