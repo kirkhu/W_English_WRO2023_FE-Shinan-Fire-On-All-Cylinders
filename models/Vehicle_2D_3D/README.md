@@ -140,7 +140,7 @@ Maintenance Process:
 </table>
 </div>
 
-## Comparison between Stacked 3D Printing and Photocuring 堆積式3D列印與光固化的比較
+## Comparison between Stacked 3D Printing and Photocuring 
 The following data was obtained during the experiment when printing the Ackermann steering mechanism  
 
 <div align="center">
