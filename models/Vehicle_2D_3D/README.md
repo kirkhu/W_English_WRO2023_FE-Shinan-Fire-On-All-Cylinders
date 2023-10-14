@@ -111,19 +111,19 @@ Maintenance Process:
 <div align="center">
 <table>
 <tr align="center">
-<td><img src="./img/0901-1.jpg" width="250" alt="work_daily"></td>
-<td><img src="./img/0901-3.jpg" width="150" alt="work_daily"></td> 
-<td><img src="./img/0901-4.jpg" width="250" alt="work_daily"></td>
+<td><img src="./img/0901-1.jpg" width="250" ></td>
+<td><img src="./img/0901-3.jpg" width="150" ></td> 
+<td><img src="./img/0901-4.jpg" width="250" ></td>
 </tr>
 <tr align="center">
-<td><img src="./img/0901-5.jpg" width="250" alt="work_daily"></td>
-<td><img src="./img/0901-7.jpg" width="250" alt="work_daily"></td>
-<td><img src="./img/0901-6.jpg" width="250" alt="work_daily"></td>
+<td><img src="./img/0901-5.jpg" width="250" ></td>
+<td><img src="./img/0901-7.jpg" width="250" ></td>
+<td><img src="./img/0901-6.jpg" width="250" ></td>
 </tr>
 <tr>
-<td><img src="./img/0901-9.jpg" width="250" alt="work_daily"></td>
-<td><img src="./img/0901-12.jpg" width="250" alt="work_daily"></td>
-<td><img src="./img/0901-8.jpg" width="250" alt="work_daily"></td>
+<td><img src="./img/0901-9.jpg" width="250" ></td>
+<td><img src="./img/0901-12.jpg" width="250" ></td>
+<td><img src="./img/0901-8.jpg" width="250" ></td>
 </tr>
 </table>
 </div>
@@ -151,8 +151,8 @@ The following data was obtained during the experiment when printing the Ackerman
 <th> Stacked 3D Printing Machine</th>
 <th> Light-curing Machine</th>
 </tr><tr align="center">
-<td><img src="./img/all_3Dprinter.jpg" width=200 alt="photocured" ></td>
-<td><img src="./img/3D_photoprinter.jpeg" width=250 alt="photocured" ></td>
+<td><img src="./img/all_3Dprinter.jpg" width=200 ></td>
+<td><img src="./img/3D_photoprinter.jpeg" width=250 ></td>
 </tr><tr align="">
 <td>The required printing time</br></td>
 <td>Faster</td>
