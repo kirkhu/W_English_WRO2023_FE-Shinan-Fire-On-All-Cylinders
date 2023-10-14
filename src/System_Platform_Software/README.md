@@ -47,7 +47,7 @@ $ sudo apt-get upgrade
 
 <div align="center">
 
-|Record the Color values of the Venue|
+|Record the Color Values of the Venue|
 |:---:|
 |<img src="./img/detect_color.png" width="200" alt="detect_color">|
 </div>
