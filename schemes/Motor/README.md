@@ -22,17 +22,17 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td> <img src="./img/SG90.png" width = "150" height = "" alt="SG90" align=center /></td>
 </tr>
 <tr align="center">
-<td>rotation angle</td>
+<td>Rotation angle</td>
 <td>90° MAX</td>
 <td>0~90°/180° MAX</td>
 </tr>
 <tr align="center">
-<td>torque</td>
+<td>Torque</td>
 <td>2.0kg/cm</td>
 <td>1.4 kg/cm</td>
 </tr>
 <tr align="center">
-<td>speed</td>
+<td>Speed</td>
 <td>0.11s</td>
 <td>0.1S</td>
 </tr>
@@ -62,14 +62,14 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 <td ><img src="./img/JGA16-050.png" width = "150" alt="JGA16-050" /></td>
 </tr>
 <tr align="center">
-<td >speed</td>
+<td >Speed</td>
 <td >1360rpm</td>
 <td >620rpm</td>
 <td >294rpm</td>
 <td >220rpm</td>
 </tr>
-<tr align="center"><td>torque</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr align="center">
-<td>power</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
+<tr align="center"><td>Torque</td><td>4.27kg.cm</td><td>9.15kg.cm</td><td>5.2kg.cm</td><td>1.15kgcm</td></tr><tr align="center">
+<td>Power</td><td>5.4W</td><td>5.4W</td><td>4.2W</td><td>0.33W</td>
 </tr>
 </table>
 </div>
