@@ -27,13 +27,13 @@
 <td><img src="./img/V3.jpeg" width=200 alt="V3" /></td>
 </tr>
 <tr align="center">
-<td>sensor</td>
+<td>Sensor</td>
 <td>Omnivision OV547</td>
 <td>Sony IMX 219</td>
 <td>Sony IMX 708</td>
 </tr>
 <tr align="center">
-<td>sensor resolution</td>
+<td>Sensor resolution</td>
 <td>2592 * 1944 pix</td>
 <td>3280 * 2464 pix</td>
 <td>4608 * 2592 pix</td>
@@ -80,7 +80,7 @@
 - In our experiments, we found that when the camera module's resolution was set to 1080x640, the high-resolution image processing demands led to a significant amount of time being spent on block recognition, resulting in a decrease in computational efficiency. On the other hand, when the resolution was set to 320x240, the computational efficiency was extremely high, but the low resolution hindered the proper recognition of the blocks. However, when we set the resolution to 640x320, we observed that the program could successfully recognize the blocks without compromising computational efficiency, thus avoiding collisions with the blocks. Therefore, we ultimately decided to set the camera module's resolution to 640x320.
 
 
-## The camera judging process
+## The Camera Judging Process
 <div align=center><img src="./img/camera.jpg"></div>
 
 - After the program is launched, it will activate the camera, continuously capture photos, and transmit them to the main controller. The program will then use OpenCV's image recognition capabilities to detect the presence of building blocks in the photos. If building blocks are detected, it will compare the sizes of the red and green traffic signs. If the red sign is larger, the vehicle will flash to the right. If the green sign is larger, it will flash to the left. If no traffic signs are detected, the vehicle will continue moving straight.
