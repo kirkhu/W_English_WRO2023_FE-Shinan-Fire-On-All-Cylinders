@@ -1,23 +1,23 @@
 <div align=center> <img src="../../other/img/logo.png" width=300 alt=" logo"> </div>
 
 ## <div align="center">Software Platform Construction </div> 
-- ### System Platform Software Installation Process Diagram
-![images](./img/software_setup.png) 
+ ### System Platform Software Installation Process Diagram  
+![images](./img/software_setup.png)   
  - [Raspberry Pi Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)  
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
  - Using the Mobaxterm tool (__tool introduction at the bottom of this page__), you can connect to a Raspberry Pi via VNC or SSH to perform system configuration, updates, and install software such as ROS, OpenCV, and more.
 
-```
-$ sudo apt-get update  
-$ sudo apt-get upgrade   
-``` 
- - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
- - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
- - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
- - Install the PIGPIO Library to facilitate the control of the color sensor and read the field color values
- - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
+ ```
+ $ sudo apt-get update  
+ $ sudo apt-get upgrade   
+ ``` 
+  - After selecting "Interface Options," enable the Camera, SSH, VNC, and other desired features, then exit the menu.
+  - Before installing OpenCV version 4.7.0.72, you should first check whether the versions of setuptools and wheel support the installation of this specific version of OpenCV.
+  - Install ROS system version "noetic ninjemys", first set up the database, then create a workspace, proceed to install the required dependencies, and finally build the catkin workspace.
+  - Install the PIGPIO Library to facilitate the control of the color sensor and read the field color values
+  - To install the Dlidar LiDAR driver, first obtain the Lidar installation package. Then, set the USB interface permissions, install the required dependencies, compile the driver, and finally, add it to the environment variables.
 
  <div align="center">
  <table>
@@ -29,13 +29,13 @@ $ sudo apt-get upgrade
  </table>
  </div>
  
-```
-$ sudo apt-get update  
-$ sudo apt-get upgrade   
-```
+ ```
+ $ sudo apt-get update  
+ $ sudo apt-get upgrade   
+ ```
 
 
-- ### Green Recording of Venue Environmental Value Configuration
+  ### Green Recording of Venue Environmental Value Configuration
 ![images](./img/setup_recode.png)  
 #### [ColorDetect.py](../Programming/Open_Challenge/line_color_write.py)
 - Open ColorDetect.py to start recording the values of white, orange, and blue colors, and save the values to the color_sensor.p file.
@@ -69,7 +69,7 @@ $ sudo apt-get upgrade
 |<div align="center"> <img src="./img/Adjust_the_green_color_threshold.png" width="250" alt="Adjust_the_green_color_threshold"></div>|<div align="center"> <img src="./img/Adjust_the_red_color_threshold.png" width="250" alt="Adjust_the_red_color_threshold"></div>|<div align="center"> <img src="./img/Display_Button_Functionality.png" width="250" alt="Display_Button_Functionality"></div>|
 </div>
 
-- ### Programming Language
+ ### Programming Language
    - Python is a high-level, general-purpose, interpreted programming language created by Guido van Rossum in 1991. It is designed to be concise, readable, and comes with a rich standard library, allowing developers to write code quickly and efficiently.
   standard library, enabling developers to write code quickly and efficiently. 
    - Python is widely used in web development, scientific computing, data analysis, artificial intelligence, machine learning, and various other fields. It features dynamic typing, automatic garbage collection, and supports multiple platforms.
@@ -77,7 +77,7 @@ $ sudo apt-get upgrade
 
   __Therefore, we choose Python as the programming language for the development of the self-driving vehicle.__
 
-  ### ${{\color{red} Mobaxterm Introduction }} $  
+  ### Mobaxterm Introduction 
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
   - MobaXterm also supports simultaneous management of multiple sessions, allowing users to switch and operate different remote connections effortlessly. This tool is highly valuable for system administrators, network engineers, and developers.
@@ -85,6 +85,6 @@ $ sudo apt-get upgrade
   __Therefore, we have chosen MobaXterm as the remote control tool for the Raspberry Pi in the self-driving vehicle.__
 
 
-- Software link：[Mobaxterm](https://mobaxterm.mobatek.net/) 
+- Software Website：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
