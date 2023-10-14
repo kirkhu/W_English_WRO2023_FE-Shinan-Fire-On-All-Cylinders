@@ -119,20 +119,16 @@ Reference Video：[汽车转弯 没那么简单: 阿克曼转向几何是个啥�
     <tr align="center">
     <th>Big Range</th>
     <th>Small Range</th>
+    <th>Actual Application Image</th>
     </tr>
     <tr align="center">
-    <td><img src="./img/MacPherson Suspension System2.png" width = "300"  alt="big range"  /></td>
-    <td><img src="./img/MacPherson Suspension System1.png" width = "350"  alt="small range"  /></td>
+    <td><img src="./img/MacPherson Suspension System2.png" width = "250"  alt="big range"  /></td>
+    <td><img src="./img/MacPherson Suspension System1.png" width = "250"  alt="small range"  /></td>
+    <td><img src="./img/MacPher Suspension System.png" width="200" alt=""></td>
     </tr>
 </table>  
 </div> 
-
-
-<div align="center">
-
- ### Actual Application Image
-<img src="./img/MacPher Suspension System.png" width="200" alt="">
-</div> 
+ 
    Due to the smoothness of the competition venue, the shock absorbers cannot provide significant damping effect. Therefore, we have decided to omit the use of shock absorbers to reduce the complexity in vehicle fabrication.
 
 
