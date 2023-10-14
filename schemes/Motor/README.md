@@ -8,10 +8,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 - To select a servo motor among commonly available options in the market, considering factors such as weight, rotation angle, and torque, we have identified two suitable servo motors: MG90S and SG90.
 - The main difference between MG90S and SG90 lies in their front gears. The former has metal gears, while the latter has plastic gears. Since continuous rotation is often required, we opted for the MG90S due to its durability and resistance to damage.
 
- 
-#### Servo Motor
 <div align="center">
 <table>
+<tr ><th colspan="3">Servo Motor Comparison</th></tr>
 <tr align="center">
 <th rowspan="2" >Model</th>
 <th>MG90S</th>
@@ -47,8 +46,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 
 
 
-#### DC Motor
-<div align="center"><table><tr align="center">
+<div align="center"><table>
+<tr ><th colspan="3">DC Motor Comparison</th></tr>
+<tr align="center">
 <th rowspan="2" >Model</th>
 <th >JGA25 370</th>
 <th >JGA25 370</th>
@@ -79,9 +79,9 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 - When testing the operation of the motor, simply providing power does not effectively control the movement of the GA25-370 motor, making it impossible to adjust the speed. Therefore, we need to install a motor controller to regulate the speed of the DC gear motor. Currently, there are two options available in the market: the L293D chip and the L298N module. To reduce weight, we chose the smaller L293D chip. Its compact size allows us to install more sensors, thereby saving space, reducing weight, and increasing the maneuverability of the vehicle.
 
 
-#### Motor Controller
 <div align="center">
 <table>
+<tr><th colspan="3">Motor Control Comparison</th></tr>
 <tr align="center" >
 <th rowspan="2">Model</th>
 <th>L293D</th>
