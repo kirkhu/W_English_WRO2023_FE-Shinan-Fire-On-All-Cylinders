@@ -8,17 +8,18 @@
 <div align=center>
 <table>
 <tr>
-<th>Vehicle Bottom</th>
-<th>Vehicle Middle</th>
-<th>Vehicle Top</th>
+<th>3D Vehicle Modle </th>
+<th>vehicle bottom</th>
+<th>vehicle middle</th>
+<th>vehicle top</th>
 </tr><tr>
+<td><img src="./img/Vehicle_cad.png" width="300" alt=" Fritzing"></td> 
 <td><img src="./img/2D_bottom.png" width="300" alt=" Fritzing"></td> 
 <td><img src="./img/2D_mid.png" width="300" alt=" Fritzing"></td> 
 <td><img src="./img/2D_up.png" width="300" alt=" Fritzing"></td>
 </tr>
 </table>
-</div> 
-
+</div>
 
 - ### Panels Used for Vehicle Body
 <div align=center>
