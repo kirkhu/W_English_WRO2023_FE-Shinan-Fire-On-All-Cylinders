@@ -54,9 +54,9 @@
 <th>top view</th>
 <th>side view</th>
 <tr align="center">
-<td><img src="./img/3Dconcept.png" width=300 alt="file"></td>
-<td><img src="./img/3D-down.png" width="300" alt=" real"></td>
-<td><img src="./img/3D-down2.png" width="300" alt="real"></td>
+<td><img src="./img/3Dconcept.png" width=300 alt="3Dconcept"></td>
+<td><img src="./img/3D-top_view.png" width="300" alt="3D-top_view"></td>
+<td><img src="./img/3D-side_view.png" width="300" alt="3D-side_view"></td>
 </tr>
 </table>
 </div>
@@ -64,9 +64,9 @@
 <div align=center>
 <table>
 <tr>
-<th colspan="2">3D Printer</th>
-</tr><tr>
-<td><img src="./img/3Dprinting1.jpg" width="300" alt=" logo"></td>
+<th>3D Printer</th>
+<tr></tr>
+<td><img src="./img/3D-printer.jpg" width="300" alt="3D-printer"> <img src="./img/3D_working.jpg" width="300" alt="3D_working"> </td>
 </tr>
 </table>
 </div>
