@@ -6,7 +6,7 @@
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board of Top View </th><th>Circuit Board of Bottom View</th>
+      <th> Circuit Board of Top View </th><th>Circuit Board of Rear View</th>
   </tr>
   <tr align="center">
      <td> <img src="../../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td><td><img src="../../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>

@@ -4,7 +4,7 @@
 
 The 2D models created for this competition are all designed using Onshape.  
 
-- ### Onshape Model Draft - Onshape
+- ### Onshape Model Draft
 <div align=center>
 <table>
 <tr>
@@ -59,6 +59,9 @@ The 2D models created for this competition are all designed using Onshape.
 
 - ###  Operation of Laser-Cutting Machine
 <div align="center"><img src="./img/hu.jpg" width="400" alt="car_board"></div>
+
+
+
 
 ## <div align="center">3D Vehicle Models</div>
 

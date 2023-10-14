@@ -64,8 +64,8 @@ __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were i
 </div> 
 
 ## Lidar Dudging Process
+
+
+The lidar and the program start simultaneously. The lidar sends values for the front, right, and left directions to the Raspberry Pi through the ROS system. The Raspberry Pi calculates the difference between the right and left values to determine the machine's current direction. Then, it adjusts the servo motor to bring the machine back to the center position.
 <div align=center><img src="./img/Lidar.png"></div>
-
-- The lidar and the program start simultaneously. The lidar sends values for the front, right, and left directions to the Raspberry Pi through the ROS system. The Raspberry Pi calculates the difference between the right and left values to determine the machine's current direction. Then, it adjusts the servo motor to bring the machine back to the center position.
-
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  

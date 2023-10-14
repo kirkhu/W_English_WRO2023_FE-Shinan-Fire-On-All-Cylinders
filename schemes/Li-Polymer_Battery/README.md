@@ -54,8 +54,8 @@
       <div align="center">
       <table>
         <tr align="center">
-        <th>skyrc E430</th>
-        <th>skyrc imax B6C2 v2</th>
+        <th>Skyrc E430</th>
+        <th>Skyrc Imax B6C2 v2</th>
         </tr>
         <tr>
         <td><img src="./img/e430.png" width = "300"  alt="Discharging Equipment" /></td>

@@ -1,24 +1,24 @@
 <div align=center><img src="../img/logo.png" width=300></div>
 
-# <div align="center">Controller Selection </div> 
+# <div align="center">Controller Choosing </div> 
 
 We have two controller options available: Jetson Nano and Raspberry Pi. Below is an introduction to these two controller options:
 
 
-### Introduction to Jetson Nano
+## Introduction to Jetson Nano
 - Jetson Nano is a small single-board computer developed by NVIDIA, widely acclaimed for its high computational performance, high customizability, and open-source nature.
 - The hardware configuration of Jetson Nano includes a processor, memory, 4 USB ports, HDMI output, GPIO pins, and more.
 - It is suitable for various applications such as programming education in the field of education, smart home devices, autonomous vehicles, DIY projects, and more. This compact yet powerful microcomputer has become the preferred choice for electronics enthusiasts, students, and professionals alike.
 
 
 
-### Introduction to Raspberry Pi 
+## Introduction to Raspberry Pi 
 - Raspberry Pi is a small single-board computer launched by the Raspberry Pi Foundation in the UK, and it has gained widespread popularity due to its low cost, high customizability, and open-source nature. 
 - The hardware configuration of Raspberry Pi includes a processor, memory, multiple USB ports, HDMI output, and GPIO pins. 
 - It supports various operating systems such as Raspbian and Ubuntu, making it suitable for a wide range of applications, including educational programming, smart home devices, robotics, and DIY projects. This compact yet powerful microcomputer has become the top choice for electronics enthusiasts, students, and professionals alike.
 
 
-### Controller Comparsion
+## Controller Comparsion
 
 The two controllers, Jetson Nano and Raspberry Pi, have significant differences in terms of size, GFLOPs (GigaFlops, or billions of floating-point operations per second), CPU configurations, and more. Here is a specification comparison between the two:
 
@@ -59,7 +59,7 @@ The two controllers, Jetson Nano and Raspberry Pi, have significant differences 
 </table>
 </div>
 
-- After the national competition, we attempted to switch to the budget-efficient Jetson Nano. While it provided extremely fast image recognition, the reading speed of the color sensor was significantly slower. This might have been due to the heavy workload on image recognition or possibly because the I2C was also being used by the PWM controller and the DC motor controller, causing delays in color sensor readings. As a result, the vehicle often couldn't turn accurately. Consequently, we reverted to using the Raspberry Pi as the main controller. Although the image recognition speed is slower, it allows the vehicle to operate smoothly.
+After the national competition, we attempted to switch to the budget-efficient Jetson Nano. While it provided extremely fast image recognition, the reading speed of the color sensor was significantly slower. This might have been due to the heavy workload on image recognition or possibly because the I2C was also being used by the PWM controller and the DC motor controller, causing delays in color sensor readings. As a result, the vehicle often couldn't turn accurately. Consequently, we reverted to using the Raspberry Pi as the main controller. Although the image recognition speed is slower, it allows the vehicle to operate smoothly.
 
 __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
 

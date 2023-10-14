@@ -1,6 +1,6 @@
  <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-# <div align="center">ROS Introduction</div> 
+# <div align="center"> Introduction to ROS</div> 
 - ROS (Robot Operating System) is an open-source framework designed to facilitate the development of robot applications. It provides a collection of software libraries and tools that enable seamless communication and collaboration between different components of a robotic system.
 
 - With a flexible and distributed architecture, ROS allows developers to build complex robot applications by creating modular and reusable software components known as nodes. These nodes can communicate with each other by passing messages, enabling easy integration of various functionalities.
@@ -13,7 +13,7 @@
 
 
 ## Installation Steps  
-__Step1. setup ROS Database__
+__Step1. Setup ROS Database__
 ```
 $ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 $ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -23,7 +23,7 @@ $ sudo apt-get install python3-rosdep python3-rosinstall-generator python3-vcsto
 $ sudo rosdep init
 $ rosdep update
 ```
-__Step2. install ROS__
+__Step2. Install ROS__
 - __2.1 Create a working environment__
 ```
 $ cd
