@@ -29,6 +29,46 @@ __In our program, many repetitive sections of code have been written as subrouti
 - ### Detect if a turnaround is required and execute it
   - In the second round of the mission, if the color of the last obstacle is red, the third round requires reversing direction, while if it is green, the vehicle continues in the same direction.
     ```
-
+    #Determine whether the following program has been executed twice
+    for count in range(2):
+        #Determine if it's counterclockwise travel
+        # Counterclockwise direction 
+        if reverse == True: 
+            if count == 1: 
+                dodgeblock_to_line(0)
+            dodgeblock_to_timhe(2, -90)
+            dodgeblock_to_line(-90)
+            dodgeblock_to_time(2, -180)
+            dodgeblock_to_line(-180)
+            dodgeblock_to_time(2, -270)
+            # If the obstacle turns red and it is currently the second round, perform a turnaround. If it is not red or not the second round, continue driving. 
+            if record_box == 'red' and count == 1:
+                dodgeblock_to_line(-270)
+                motor.power(70)
+                red_turn(-90, 25, 0.3)
+                motor.power(50)
+                dodgeblock_to_time(1, -90)
+            else: 
+                dodgeblock_to_line(-270)
+                dodgeblock_to_time(2, 0)
+        # Clockwise direction 
+        else: 
+            if count == 1: 
+                dodgeblock_to_line(0)
+            dodgeblock_to_time(2.5, 90)
+            dodgeblock_to_line(90)
+            dodgeblock_to_time(2.5, 180)
+            dodgeblock_to_line(180)
+            dodgeblock_to_time(2.5, 270)
+            # If the obstacle turns red and it is currently the second round, perform a turnaround. If it is not red or not the second round, continue driving. 
+            if record_box == 'red' and count == 1: 
+                dodgeblock_to_line(270)
+                motor.power(70)
+                red_turn(90, 25, 0.3)
+                motor.power(50)
+                dodgeblock_to_time(1, 90)
+            else: 
+                dodgeblock_to_line(270)
+                dodgeblock_to_time(2, 0)
     ```
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
