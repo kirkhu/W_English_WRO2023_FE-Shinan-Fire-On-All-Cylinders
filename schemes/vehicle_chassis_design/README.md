@@ -4,7 +4,7 @@
 - ## __Vehicle Chassis Design__
 |3D Vehicle Chassis Design| Vehicle Chassis Top View | Vehicle Chassis Bottom View|
 |:----:|:----:|:----:|
-|<img src="./img/Vehicle chassis description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/car_wood_up.jpg" width="400" alt="up_view">|<img src="./img/car_wood_down.jpg" width="400" alt="down_view">|
+|<img src="./img/Vehicle chassis description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/down_layer_top_view.jpg" width="400" alt="up_view">|<img src="./img/down.png" width="400" alt="down_view">|
 
   We replaced most of the LEGO parts on the chassis with components 3D printed through photopolymerization. This allowed us to save space and customize dimensions and shapes according to the vehicle's needs. With photopolymerization, we were able to introduce bearings in the middle to reduce friction and increase the vehicle's speed. Additionally, we transitioned the mentioned Ackermann steering mechanism to be 3D printed through photopolymerization. This freed us from the constraints of fixed LEGO part shapes, enabling us to freely adjust the Ackermann angle.  
 
