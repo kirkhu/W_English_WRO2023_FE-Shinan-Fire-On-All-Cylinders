@@ -16,9 +16,9 @@
 <table>
 <tr align="center" >
 <th rowspan="2">Model</th> 
-<th >Raspberry pi camera Rev 1.3</th>
-<th >Raspberry pi camera Module V2</th>
-<th >Raspberry pi camera Module V3</thd>
+<th >Raspberry pi Camera Rev 1.3</th>
+<th >Raspberry pi Camera Module V2</th>
+<th >Raspberry pi Camera Module V3</thd>
 </tr>
 <tr align="center">
 
@@ -33,7 +33,7 @@
 <td>Sony IMX 708</td>
 </tr>
 <tr align="center">
-<td>Sensor resolution</td>
+<td>Sensor Resolution</td>
 <td>2592 * 1944 pix</td>
 <td>3280 * 2464 pix</td>
 <td>4608 * 2592 pix</td>
