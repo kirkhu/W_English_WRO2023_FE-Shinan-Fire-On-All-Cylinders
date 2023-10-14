@@ -3,8 +3,7 @@
 ## <div align="center">Software Platform Construction </div> 
 - ### System Platform Software Installation Process Diagram
 ![images](./img/software_setup.png) 
- - [Introduction to Raspberry Pi](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)  
- #### English
+ - [Raspberry Pi Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Raspberry_Pi)  
  - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
    - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
    - After installation, please update the operating system to ensure software compatibility.
@@ -47,7 +46,7 @@ $ sudo apt-get upgrade
 
 <div align="center">
 
-|Record the color values of the venue|
+|Record the Color Values of the Venue|
 |:---:|
 |<img src="./img/detect_color.png" width="200" alt="detect_color">|
 </div>
@@ -78,7 +77,7 @@ $ sudo apt-get upgrade
 
   __Therefore, we choose Python as the programming language for the development of the self-driving vehicle.__
 
-### ${{\color{red} Introduction to Mobaxterm}} $  
+  ### ${{\color{red} Mobaxterm Introduction }} $  
   - MobaXterm is a feature-rich cross-platform remote computing management tool. 
   - It integrates various network tools such as X11 server, remote computing, SSH, VNC, and more, providing an intuitive user interface for easy connection to remote servers in Windows environments.
   - MobaXterm also supports simultaneous management of multiple sessions, allowing users to switch and operate different remote connections effortlessly. This tool is highly valuable for system administrators, network engineers, and developers.
