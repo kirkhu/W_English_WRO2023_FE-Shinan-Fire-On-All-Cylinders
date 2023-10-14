@@ -949,9 +949,9 @@ When the program is initiated, because the button is located on the circuit boar
 
 <div align=center>
 <table>
-<tr align=center><th>Diagram 示意圖</th>
-<th>修改前</th>
-<th>修改後</th>
+<tr align=center><th>Diagram</th>
+<th>Original</th>
+<th>Revised</th>
 </tr>
 <tr align=center><td><img src="./img/10/camera_screen.png" width=300></td>
 <td><img src="./img/10/old_vehicle-removebg-preview.png" width=300></td>
