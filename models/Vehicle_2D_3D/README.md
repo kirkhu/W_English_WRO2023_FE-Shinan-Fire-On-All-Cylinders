@@ -176,7 +176,7 @@ The following data was obtained during the experiment when printing the Ackerman
 - Software Link：[On Shape](https://www.onshape.com/en/) 
 
 
-|<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/Vehicle_cad.png" width="450" alt="Vehicle_cad">|
+|<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/Vehicle_cad_onshape.png" width="450" alt="Vehicle_cad_onshape">|
 |:---:|:---:|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
