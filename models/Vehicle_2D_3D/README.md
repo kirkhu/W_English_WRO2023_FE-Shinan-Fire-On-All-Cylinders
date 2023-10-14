@@ -2,7 +2,7 @@
 
 ## <div align="center">__2D Vehicle Models__</div>
 
-- The 2D models created for this competition are all designed using Onshape.  
+The 2D models created for this competition are all designed using Onshape.  
 
 - ### Onshape Model Draft - Onshape
 <div align=center>
