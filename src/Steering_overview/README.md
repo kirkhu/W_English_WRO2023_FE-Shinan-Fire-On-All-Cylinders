@@ -29,13 +29,13 @@ if get_mid_dis > 55:
  3.Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance coefficient to calculate the error value.  
  4.Set the steering angle of the servo motor to turn in the direction of the error value, completing the avoidance of the traffic sign.
 
-  |Recognize obstacles that are closer in distance|XY coordinates of obstacles|
+  |Recognize obstacles that are closer in distance|XY Coordinates of Obstacles|
   |:---:|:---:|
-  |<div align="center"> <img src="./img/Detecting_nearby_obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
+  |<div align="center"> <img src="./img/Detecting_Nearby_Obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
 
   
 
-## slalom Steering
+## Slalom Steering
 
 - We will use the color sensor to detect the number of times the line is crossed and determine if it has exceeded the set count.
 - If the specified count is not reached, the system will continuously record the color of the nearest traffic sign until the number of line crossings is greater than or equal to the set count. At that point, it will stop recording colors.
