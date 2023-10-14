@@ -4,7 +4,7 @@
 # <div align="center">Hardware Assembly Instructions.</div>
 
 - ## Components's Position 
-<img src="./img/introduct.png" alt="Components's Position (硬體結構配置)" > 
+<img src="./img/control_introduce.png" alt="Components's Position (硬體結構配置)width=400" > 
 
 - ## System Operation Process 
 ![image](./img/System_operation_process.png)
