@@ -13,10 +13,10 @@
 <th>vehicle middle</th>
 <th>vehicle top</th>
 </tr><tr>
-<td><img src="./img/Vehicle_cad.png" width="300" alt=" Fritzing"></td> 
-<td><img src="./img/2D_bottom.png" width="300" alt=" Fritzing"></td> 
-<td><img src="./img/2D_mid.png" width="300" alt=" Fritzing"></td> 
-<td><img src="./img/2D_up.png" width="300" alt=" Fritzing"></td>
+<td><img src="./img/Vehicle_cad.png" width="300" alt=" Vehicle_cad"></td> 
+<td><img src="./img/2D_bottom.png" width="300" alt=" 2D_bottom"></td> 
+<td><img src="./img/2D_mid.png" width="300" alt=" 2D_midg"></td> 
+<td><img src="./img/2D_top.png" width="300" alt="2D_top"></td>
 </tr>
 </table>
 </div>
@@ -175,7 +175,7 @@ The following data was obtained during the experiment when printing the Ackerman
 - Software Link：[On Shape](https://www.onshape.com/en/) 
 
 
-|<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/onshpe_3d.png" width="450" alt="Vehicle_cad">|
+|<img src="./img/onshape.png" width="500" alt="Onshape">| <img src="./img/Vehicle_cad.png" width="450" alt="Vehicle_cad">|
 |:---:|:---:|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
