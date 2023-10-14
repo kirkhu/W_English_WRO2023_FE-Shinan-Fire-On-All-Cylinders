@@ -34,17 +34,17 @@
 
   ### Introduction to Ackermann Steering Geometry
 
+  - The Ackermann steering is a steering system designed for automobiles with the aim of having both front wheels pass through a single pivot point during a turn, achieving smoother turns. The term "80% Ackermann steering structure" refers to the practical implementation of about 80% of the Ackermann steering principle.
   <img src="./img/Ackermann_steering_geometry.png" width="500" alt="Ackermann_steering_geometry">
 
-  - The Ackermann steering is a steering system designed for automobiles with the aim of having both front wheels pass through a single pivot point during a turn, achieving smoother turns. The term "80% Ackermann steering structure" refers to the practical implementation of about 80% of the Ackermann steering principle.
 
-  - ### The principle of Ackermann steering is based on the following concepts:
+  - #### The principle of Ackermann steering is based on the following concepts:
 
-     - Difference in turning radii: When a vehicle makes a turn, both front wheels need to rotate at different angles so that the vehicle can pivot around a central point.
+    - Difference in turning radii: When a vehicle makes a turn, both front wheels need to rotate at different angles so that the vehicle can pivot around a central point.
 
-     - Turning angles of the two front wheels: The design of Ackermann steering ensures that both front wheels pass through a single pivot point when turning.
+    - Turning angles of the two front wheels: The design of Ackermann steering ensures that both front wheels pass through a single pivot point when turning.
 
-  - Compared to the original 0% Ackermann structure made with LEGO, the steering mechanism of the vehicle in this competition is designed based on an 80% Ackermann steering structure. It offers advantages such as reduced resistance and smoother turns. It is achieved using 3D photocuring technology. However, the most challenging issue encountered during the process is adjusting the Ackermann angle to achieve the optimal turning angle for our vehicle to navigate around obstacles.
+- Compared to the original 0% Ackermann structure made with LEGO, the steering mechanism of the vehicle in this competition is designed based on an 80% Ackermann steering structure. It offers advantages such as reduced resistance and smoother turns. It is achieved using 3D photocuring technology. However, the most challenging issue encountered during the process is adjusting the Ackermann angle to achieve the optimal turning angle for our vehicle to navigate around obstacles.
   
   - ### Why Choose an 80% Ackermann Ratio?
     In automotive design, we typically avoid choosing a 100% Ackermann ratio because it would lead to overly sensitive steering, making it difficult to control. Additionally, both excessive and insufficient Ackermann angles can result in tire wear.
@@ -52,7 +52,8 @@
     Therefore, we ultimately opted for an Ackermann angle of 80% in the steering structure design.
 
   - ### Designing an Ackermann Steering Mechanism (with 80% Ackermann Ratio) using Photopolymerization.
-    The components within the red frame are the Ackermann steering mechanism we produced using photopolymerization 3D printing and LEGO construction.
+    - The components within the red frame are the Ackermann steering mechanism we produced using photopolymerization 3D printing and LEGO construction.
+    - In the process of production and testing, we found that using LEGO components posed specification issues, preventing us from creating a structure that perfectly met our requirements. Conversely, with UV-cured printing, we could design and print according to our specific needs. Therefore, in the end, we decided to choose UV-cured printing as the material for creating this steering structure.
 
 <div align=center>
 <table>
@@ -77,10 +78,10 @@
 </table>
 </div>
 
-Reference Video：[汽车转弯 没那么简单: 阿克曼转向几何是个啥？How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
+Reference Video：[How does Ackerman steering geometry work?](https://www.youtube.com/watch?v=8AimxDPWKcM)
 
 - ##  Gear Differential 
-    ### Lego Differential Introduction 
+    ### Introduction to Lego Differential 
     - In this competition, we chose to use a pre-made LEGO differential gear instead of making one ourselves because of its complete and well-suited structure for our needs.
     - And we have two generations of LEGO differential gears, namely the  and the LEGO 6573 Differential Gear.
     - LEGO 65414 Differential Gear: Assembled with one 6541328 gear and five LEGO Gear 12 Tooth Bevel 4565452.
