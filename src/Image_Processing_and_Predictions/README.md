@@ -9,11 +9,11 @@
 
 <div align="center">
 
-|Adjusting the HSV range values for red color|Adjusting the HSV range values for green color|
+|Adjusting the HSV Range Values for Red Color|Adjusting the HSV Range Values for Green Color|
 |:----:|:----:|
 |<img src="./img/red_HSV_value_range.png" width = "350" height = "" alt="red_HSV_value_range" align=center />|<img src="./img/green_HSV_value_range.png" width = "350" height = "" alt="green_HSV_value_range" align=center />|
 
-|Obstacle detection in images|
+|Obstacle Detection in Images|
 |:----:|
 |<img src="./img/Obstacle_detection.png" alt="Obstacle_detection" align=center />|
 </div>
@@ -28,7 +28,7 @@
 - By multiplying these error values with coefficients, we can obtain the angle to center the servo motor on the road.    
 <div align="center">
   
-|LIDAR detects surrounding walls|LIDAR readings|
+|LIDAR Detects Surrounding Walls|LIDAR Readings|
 |:---:|:---:|
 |<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
 </div>
