@@ -44,8 +44,8 @@
   </tr>
   <tr align="center">
      <td><img src="./img/up.png"  width = "400" alt="Inner Structure Top View of the Overall Apparatus" >      </td>
-     <td><img src="../schemes/Assembly_Instructions/img/Middle_Layer_Structure_Top_View.png" width = "400" alt="Middle Layer Structure Top View" ></td>
-     <td><img src="./img/Vehicle%20Chassis%20Design_top_view.png" width="400" alt="Top View of Vehicle Chassis" ></td>
+     <td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" ></td>
+     <td><img src="./img/down_layer_top_view.jpg" width="400" alt="Top View of Vehicle Chassis" ></td>
      <td><img src="./img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
   </tr>
 </table>
@@ -59,8 +59,8 @@
       <th>Circuit Board of Bottom View</th>
   </tr>
   <tr align="center">
-     <td> <img src="../schemes/Assembly_Instructions/img/circuit_up.jpg" width="300" alt="circuit_up.jpg"> </td>
-     <td><img src="../schemes/Assembly_Instructions/img/circuit_lower.jpg" width="300" alt="circuit_lower.jpg"></td>
+     <td> <img src="./img/circuit_up.png" width="300" alt="circuit_up.jpg"> </td>
+     <td><img src="./img/circuit_lower.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
