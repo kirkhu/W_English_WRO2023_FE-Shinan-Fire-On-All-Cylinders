@@ -18,7 +18,7 @@ There are two ways to edit GitHub repositories: one is to edit directly on the G
 
 <div align="center"><img src="./img/github_web_edit.png" alt="github_web_edit.png"  width=300/><img src="./img/github_web_edit1.png" alt="github_web_edit.png"  width=400/></div>
 
-- ### VCode & Git
+- ### VS Code & Git
 <div align="center">
   
 |Git| Git_bash|
