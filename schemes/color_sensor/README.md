@@ -37,10 +37,10 @@ We encountered a bottleneck when using the color sensor to detect lines because 
 </div>
 
 #### Algorithm for Detecting Blue and Orange Lines Using a Color Sensor
-  1. After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.   
-  2. If the detected color value is lower than that of white(35), it indicates that it's one of the lines, either blue(15) or orange(27).  
-  3. At this point, comparing the color value to the midpoint between the blue(15) and orange(27) line values determines which line it is.  
-  4. If the value is lower than the midpoint, it's the blue line, and if it's higher, it's the orange line.
+1. After the program is started, it will first read the three original values of the field lines: blue (blue_color = 15), orange (orange_color = 27), and white (white_color = 35).
+2. Then, the light sensor will read the current color value of the field and record it in the variable color_value. If the detected color value is greater than white (35), the vehicle can move forward directly. Otherwise, it indicates that it may be one of the blue (15) or orange (27) lines.
+3. Next, the program will add the color values of blue (15) and orange (27) and then divide them by 2 to obtain the middle value of the color value.
+4. Finally, the program will use the value of color_value to determine which line it is. If color_value is lower than the middle value, it indicates that it is a blue line (15); if color_value is higher than the middle value, it indicates that it is an orange line (27). When the blue and orange lines are known first, the vehicle can be determined to go clockwise or counterclockwise.
   <div align=center><img src="./img/color_sensor.png"></div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
