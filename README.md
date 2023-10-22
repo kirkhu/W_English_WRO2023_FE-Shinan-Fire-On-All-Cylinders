@@ -32,7 +32,7 @@
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
-    - [OpenCV Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
+    - [OpenCV Introduction OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/OpenCV/README.md)
     - [ROS Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/ROS)
     - [Software Platform Construction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/System_Platform_Software/README.md)
     - __Image Processing and Predictions__
