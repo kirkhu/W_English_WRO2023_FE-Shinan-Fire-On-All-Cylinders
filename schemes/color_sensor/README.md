@@ -10,7 +10,7 @@
   - The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.
   - The high precision of this sensor ensures that the vehicle can accurately recognize the colors of the ground lines and execute clockwise or counterclockwise turns as needed.  
 </td>
- <td><img src="./img/TCS34725.png" alt="TCS34725" width="600" /> 
+ <td width=400 ><img src="./img/TCS34725.png" alt="TCS34725" width="400" /> 
 </td>
 </tr>
 </table> 
