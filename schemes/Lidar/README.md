@@ -34,7 +34,7 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 
    __Due to unfamiliarity with the usage of ydlidar x4 and ydlidar x2, there were issues with detecting obstacles, leading to missing angles. Therefore, in this competition, we decided to utilize the D100 sensor for vehicle detection and measuring the distance to the arena walls. The results obtained using this sensor met our expectations.__
 
-- #### The types of LiDAR used in the actual testing.
+- #### Performance Testing of Low-Cost LiDARs Commonly Available in the Market.
 <div align="center">
     
 |  Lidar D100    |  Ydlidar x4  |   Ydlidar x2    |      
