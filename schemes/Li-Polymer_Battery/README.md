@@ -38,7 +38,7 @@
 - ### Li-Polymer Battery Low Voltage Alarm and Charging/Discharging Equipment.  
     - #### Low Voltage Alarm
         
-        - Li-Polymer Battery Low Voltage Alarm 
+      Li-Polymer Battery Low Voltage Alarm 
 
         <div align="center">
         <table>
