@@ -59,8 +59,6 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 </div> 
 
 ## Lidar Dudging Process
-
-
-The lidar and the program start simultaneously. The lidar sends values for the front, right, and left directions to the Raspberry Pi through the ROS system. The Raspberry Pi calculates the difference between the right and left values to determine the machine's current direction. Then, it adjusts the servo motor to bring the machine back to the center position.
+When the LiDAR and program are started, the LiDAR will use the ROS system to detect the distance between the vehicle and the walls in front, right, and left sides. The distance data will be transmitted to the Raspberry Pi controller for computation and judgment. The controller will then determine which side the vehicle is leaning towards. Finally, the front steering servo motor will be adjusted to control the vehicle's movement.
 <div align=center><img src="./img/Lidar.png"></div>
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
