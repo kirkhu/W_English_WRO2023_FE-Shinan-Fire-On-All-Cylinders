@@ -1,8 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 # <div align="center"> Motor Selection</div> 
-When the vehicle is in motion, the Raspberry Pi sends speed information to the motor controller to control the rear-wheel drive DC motor. Simultaneously, the Raspberry Pi also sends messages to the servo motor of the front steering mechanism, enabling the vehicle to maneuver freely and move forward.
-
+When the vehicle is in motion, the Raspberry Pi sends speed information to __the motor controller(L293D)__ to control the __rear-wheel drive DC motor__. Simultaneously, the Raspberry Pi also sends messages to the __servo motor of the front steering mechanism__, enabling the vehicle to maneuver freely and move forward.  
 
 ### Front Steering Mechanism by Servo Motor
 - To select a servo motor among commonly available options in the market, considering factors such as weight, rotation angle, and torque, we have identified two suitable servo motors: MG90S and SG90.
