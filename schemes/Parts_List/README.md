@@ -15,21 +15,21 @@
 <li><a href="https://shopee.tw/product/17393576/2036942264?gclid=Cj0KCQjw6KunBhDxARIsAKFUGs9xoiZB_LrSF3X4XfnN1sxM-tjzbX4T2Sw9XD0c0Rfc_tkPkczAbBcaApCXEALw_wcB">Li-Polymer battery 3S Desire Power V8 11.1V 1300mAh 70C </a></li>
 <li>Amass TX60-M plug<br></li>
 <li><a href="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
-<li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color senso</a></li>
+<li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>
 <li>USB to TTL CP2102<br></li>  
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></li>
-<li>Lego 6573 Differential Gear器<br></li>
+<li>Lego 6573 Differential Gear<br></li>
 <li>695ZZ M5x13x4 bearing NSK<br></li>
-<li>iron wire 1.2mm 1.2mm絲<br></li>
+<li>iron wire 1.2mm 1.2mm<br></li>
 <li>flat cable female-to-female 40p(20x2)<br></li>
 <li>Press-fit right-angle male socket 40p(20x2)<br></li>
 <li>white socket 2p<br></li>
 <li>white socket 3p<br></li>
 <li>white socket 4p<br></li>
-<li>white socket 6p座<br></li>
+<li>white socket 6p<br></li>
 <li>female socket 2.45mm<br></li>
-<li>male socket 2.45mm 電源公座<br></li>
+<li>male socket 2.45mm<br></li>
 <li>plastic column M3x6mm column length 30mm<br></li>
 <li>plastic column M3x6mm column length 20mm<br></li>
 <li>plastic column M3x6mm column length 12mm<br></li>
@@ -39,7 +39,7 @@
 <li>Plastic Nut M3<br></li>
 <li>Internal Hexagonal Metal Screw M3x10mm<br></li>
 <li>Internal Hexagonal Metal Screw M3x12mm<br></li>
-<li>matal Nut M3 金屬螺帽(內直徑3mm)<br></li>
+<li>matal Nut M3<br></li>
 <li>Internal Phillips Head Metal Screw M2x14mm<br></li>
 <li>Internal Phillips Head Metal Screw M2x12mm<br></li>
 <li>Internal Phillips Head Metal Screw M2x4mm<br></li>
