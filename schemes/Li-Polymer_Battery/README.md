@@ -24,7 +24,7 @@
         <div align="center">
         <table>
         <tr align="center">
-        <th>Battery photo</th>
+        <th>Battery Photo</th>
         </tr>
         <tr>
         <td><img src="./img/lipo_battery.png" width = "300"  alt="Discharging Equipment"/></td>
