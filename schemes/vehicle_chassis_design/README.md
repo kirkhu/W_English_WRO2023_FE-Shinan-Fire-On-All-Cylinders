@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-# <div align="center">Vehicle Chassis Design</div> 
+# <div align="center">Vehicle Chassis Design Process</div> 
 - ## __Vehicle Chassis Design__
 |3D Vehicle Chassis Design| Vehicle Chassis Top View | Vehicle Chassis Bottom View|
 |:----:|:----:|:----:|
