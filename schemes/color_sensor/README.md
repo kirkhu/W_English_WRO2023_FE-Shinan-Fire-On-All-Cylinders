@@ -16,7 +16,7 @@
 </table> 
 </div>
   
-This is a crucial factor in the vehicle's excellent performance and victory in the competition.In conclusion, the TCS34725 color sensor is a perfect fit for the requirements of this competition.Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieve clockwise and counterclockwise turns, and enhance its performance in the competition.  
+In summary, the TCS34725 color sensor is a sensor perfectly suited for the requirements of this competition. Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieving both clockwise and counterclockwise turns. This significantly enhances the performance of the vehicle in the competition.
 
 We encountered a bottleneck when using the color sensor to detect lines because we was unsure how to write a Python program to detect the values of blue and orange lines. 
   With the guidance of my teacher, We successfully completed it.  
