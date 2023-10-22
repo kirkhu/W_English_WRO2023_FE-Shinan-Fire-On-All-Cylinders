@@ -21,7 +21,7 @@ There are two ways to edit GitHub repositories: one is to edit directly on the G
   In summary, both methods allow you to edit and synchronize files on GitHub. Online editing is suitable for simple changes, while offline editing provides more features and flexibility, making it particularly useful for handling larger projects and collaborative work. However, it's worth noting that online editing might be less intuitive when it comes to creating file folders compared to local editing. As a result, our team primarily uses local editing with online editing as a supplementary approach when editing GitHub repositories.  
  
 
-- ### Introduction to Code Editor Software-Visal Studio Code 
+- ### Introduction to Code Editor Software(Visal Studio Code) 
 
   - Visual Studio Code (often referred to as VS Code) is a free, open-source, and cross-platform code editor developed by Microsoft. It supports multiple programming languages and offers a rich set of extensions to cater to individual needs.
   - VS Code features an intuitive user interface and powerful code editing capabilities, including intelligent code completion, code navigation, debugging, and version control. It is widely embraced by developers and has become the preferred editing tool for many software development projects.
