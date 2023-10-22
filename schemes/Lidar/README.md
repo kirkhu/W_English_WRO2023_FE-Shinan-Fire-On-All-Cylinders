@@ -61,4 +61,5 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
 ## LiDAR-controlled steering detection process
 When the LiDAR and program are started, the LiDAR will use the ROS system to detect the distance between the vehicle and the walls in front, right, and left sides. The distance data will be transmitted to the Raspberry Pi controller for computation and judgment. The controller will then determine which side the vehicle is leaning towards. Finally, the front steering servo motor will be adjusted to control the vehicle's movement.
 <div align=center><img src="./img/Lidar.png"></div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
