@@ -2,7 +2,7 @@
 
 ## <div align="center">GitHub Web Editing Languages)</div> 
 
-- GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
+ GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
 
    On GitHub, commonly used and user-friendly web editing languages include:
 
