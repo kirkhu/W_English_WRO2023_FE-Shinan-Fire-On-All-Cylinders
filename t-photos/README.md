@@ -12,9 +12,9 @@
 
  </div>  
 
+- ### Funny Photo  
   This photo was taken while we were attempting to lift our classmates LIN JHONG-BIN. In fact, it was a bit difficult to lift them, and we almost dropped him.
 
-- ### Funny Photo  
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" /> </div>  
 
 ## Team Members of Introduction  
