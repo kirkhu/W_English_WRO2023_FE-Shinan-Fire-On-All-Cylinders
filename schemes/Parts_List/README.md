@@ -5,7 +5,7 @@
 <li><a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293d motor controler</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
 <li>Black motor mounting bracket<br></li>  
-<li>24-tooth Plastic gea<br></li>
+<li>24-tooth Plastic gear<br></li>
 <li><a href="https://www.amazon.com/-/zh_TW/dp/B0BFQLNDPM">MG90s servo motor</a></li>    
 <li><a href="https://www.amazon.ae/XLX-B3f-4055-Momentary-Tactile-Button/dp/B07NWDHH41">Button B3F-4055</a></li>  
 <li><a href="https://www.amazon.in/Invento-Battery-Voltage-Indicator-Checker/dp/B072V44Q5Z">Lipo battery low voltage alarm </a></li>  
