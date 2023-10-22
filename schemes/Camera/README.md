@@ -83,7 +83,7 @@
 ## The Camera Judging Process
 
 - After the program is launched, it will activate the camera, continuously capture photos, and transmit them to the main controller. The program will then use OpenCV's image recognition capabilities to detect the presence of building blocks in the photos. If building blocks are detected, it will compare the sizes of the red and green traffic signs. If the red sign is larger, the vehicle will flash to the right. If the green sign is larger, it will flash to the left. If no traffic signs are detected, the vehicle will continue moving straight.
-<div align=center><img src="./img/camera.jpg"></div>
+<div align=center><img src="./img/camera.png"></div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
