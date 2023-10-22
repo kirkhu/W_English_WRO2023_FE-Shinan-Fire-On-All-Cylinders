@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>  
 
-# <div align="center">Part List </div>
+# <div align="center">BOM Part List </div>
 <li><a href="https://www.icshop.com.tw/product-page.php?27903" target="_blank"> Raspberry Pi 4B(8G)</a></li> 
 <li><a href="https://atceiling.blogspot.com/2019/08/arduino54l293d.html" target="_blank">L293d motor controler</a></li>
 <li><a href="https://abra-electronics.com/electromechanical/motors/gear-motors/metal-gearmotors/jga25-370-series/jga25-370-24v-620rpm-jga25-370-geared-dc-motor-for-diy-projects-and-car-kits-24vdc.html">JGA25-370 620RPM DC reduction motor</a></li>  
