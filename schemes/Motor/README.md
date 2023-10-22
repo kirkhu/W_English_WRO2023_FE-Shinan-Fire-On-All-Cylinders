@@ -6,7 +6,7 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 
 ### Front Steering Mechanism by Servo Motor
 - To select a servo motor among commonly available options in the market, considering factors such as weight, rotation angle, and torque, we have identified two suitable servo motors: MG90S and SG90.
-- The main difference between MG90S and SG90 lies in their front gears. The former has metal gears, while the latter has plastic gears. Since continuous rotation is often required, we opted for the MG90S due to its durability and resistance to damage.
+- The difference between MG90S and SG90 lies in the front gears, where the former has metal gears, while the latter has plastic ones. Since we often require continuous rotation, we have chosen the MG90S due to its durability, as it is less prone to damage.
 
 <div align="center">
 <table>
