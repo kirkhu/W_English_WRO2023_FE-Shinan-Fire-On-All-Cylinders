@@ -5,7 +5,7 @@
 <div align="center">
 <table>
 <tr>  
-<td></td><img src="./img/TCS34725.png" alt="TCS34725" width=200 style="display: block; margin: 0 auto;" /> 
+<td></td><img src="./img/TCS34725.png" alt="TCS34725" width=200" /> 
 </td>
 <td>
  - In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor.
