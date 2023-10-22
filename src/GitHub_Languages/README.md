@@ -1,10 +1,9 @@
 <div align="center"><img src="../../other/img/logo.png" width=300></div>
 
 ## <div align="center">GitHub Web Editing Languages</div> 
-- GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
+GitHub web editing languages primarily refer to the programming languages used when editing on the GitHub website.GitHub offers various editing methods, allowing users to edit and manage code, documents, and other project files.  
 
-   On GitHub, commonly used and user-friendly web editing languages include:
-
+   __On GitHub, commonly used and user-friendly web editing languages include:__
  1. Markdown: Markdown is a lightweight markup language used for formatting text and easily creating structured documents. It is widely used on GitHub for writing README files, documentation, blogs, and forums.
  2. HTML: HTML is a hypertext markup language used for building web pages. With HTML, you can create the structure, content, and layout of web pages.  
   
@@ -14,8 +13,8 @@ __In the competition, in addition to other web editing languages such as CSS, Ja
 <div align="center">
 <table>
 <tr align="center" >
-<th>Markdown</th>
-<th>HTML</th>
+<th>Markdown Code</th>
+<th>HTML Code</th>
 </tr>
 <tr align="center">
 <td><img src="./img/Markdown.png" width = "500" alt="Markdown"/> </td>
@@ -24,7 +23,7 @@ __In the competition, in addition to other web editing languages such as CSS, Ja
 </table>
 </div>
 
-- #### [Markdown Document link](https://markdown.tw/#link)
-- #### [HTML Document link](https://www.w3schools.com/html/)
+#### [Markdown Document](https://markdown.tw/#link)
+#### [HTML Document](https://www.w3schools.com/html/)
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 

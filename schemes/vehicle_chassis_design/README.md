@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-# <div align="center">Vehicle Chassis Design</div> 
+# <div align="center">Vehicle Chassis Design Process</div> 
 - ## __Vehicle Chassis Design__
 |3D Vehicle Chassis Design| Vehicle Chassis Top View | Vehicle Chassis Bottom View|
 |:----:|:----:|:----:|
@@ -137,7 +137,7 @@ Reference Video：[How does Ackerman steering geometry work?](https://www.youtub
 </table>  
 </div> 
  
-   Due to the smoothness of the competition venue, the shock absorbers cannot provide significant damping effect. Therefore, we have decided to omit the use of shock absorbers to reduce the complexity in vehicle fabrication.
+   Due to the smoothness of the competition venue, the shock absorbers cannot provide significant damping effect. __Therefore, we have decided to omit the use of shock absorbers to reduce the complexity in vehicle fabrication.__
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  

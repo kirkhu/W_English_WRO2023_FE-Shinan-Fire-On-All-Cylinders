@@ -959,5 +959,11 @@ When the program is initiated, because the button is located on the circuit boar
 </table>
 </div>
 
+## 2023/10/09 ~ 2023/10/15
+**Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**Content:**
+
+This week, the hardware of the machine has been completed. Next, it's all about continuous practice, program modifications, and report writing. The report has numerous issues with both text and formatting, making it challenging to clearly distinguish the content to be expressed. Therefore, we are using an indented format to differentiate. When there are sub-items under a main item, the sub-items are indented by one level, which allows for a clear distinction of the content of different items.
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 

@@ -18,7 +18,7 @@ We have two controller options available: Jetson Nano and Raspberry Pi. Below is
 - It supports various operating systems such as Raspbian and Ubuntu, making it suitable for a wide range of applications, including educational programming, smart home devices, robotics, and DIY projects. This compact yet powerful microcomputer has become the top choice for electronics enthusiasts, students, and professionals alike.
 
 
-## Controller Comparsion
+## Controller Comparison
 
 The two controllers, Jetson Nano and Raspberry Pi, have significant differences in terms of size, GFLOPs (GigaFlops, or billions of floating-point operations per second), CPU configurations, and more. Here is a specification comparison between the two:
 
