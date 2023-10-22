@@ -14,7 +14,7 @@
     - Environmental sensing
     - Drones and aviation
     - Environmental monitoring
-    - Military applications
+    - Military applications  
     Due to its ability to provide high-precision and high-resolution data, Lidar is widely adopted in many fields, and its applications continue to expand with technological advancements.   
 <br>
 The Lidar D100 Developer Kit is composed of the Lidar LD14 as its core, accompanied by a combination of related accessories.
