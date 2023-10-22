@@ -36,7 +36,7 @@ We encountered a bottleneck when using the color sensor to detect lines because 
 </table>
 </div>
 
-## Color Sensor Judging Process  
+#### Algorithm for Detecting Blue and Orange Lines Using a Color Sensor
   1. After the program is initiated, it activates the color sensor to continuously detect the color values on the ground.   
   2. If the detected color value is lower than that of white(35), it indicates that it's one of the lines, either blue(15) or orange(27).  
   3. At this point, comparing the color value to the midpoint between the blue(15) and orange(27) line values determines which line it is.  
