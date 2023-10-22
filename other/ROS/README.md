@@ -44,7 +44,7 @@ $ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Releas
 $ source /opt/ros/noetic/setup.bash
 $ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 ```
-<small>References：<br>[ithelp](https://ithelp.ithome.com.tw/articles/10200551)  
+<small>References：[ithelp](https://ithelp.ithome.com.tw/articles/10200551)  
 References：[wikipedia](https://zh.wikipedia.org/zh-tw/%E6%A9%9F%E5%99%A8%E4%BA%BA%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1)  
 References：[Mechanical-Engineering-Magazine Issue 412](https://docs.google.com/document/d/1M4JN4CFelSwmJmYl0W2PQt0lKBieaWgcDpVNfjTycGE/edit?pli=1)</small>  
 
