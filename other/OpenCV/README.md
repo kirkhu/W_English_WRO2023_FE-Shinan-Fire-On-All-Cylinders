@@ -13,10 +13,10 @@ __This competition will utilize OpenCV for color block (red, green) recognition,
 $ Pip3 install opencv-python==4.5.3.56     
 $ sudo apt-get install python-opencv
 ```
-- Installation Reference URL: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
+- Installation Reference LINK: https://raspberrypi-guide.github.io/programming/install-opencv?fbclid=IwAR2bvEVT4ui2m6SYfdRaIj-x5LTjESRHDKW1Y9MlV1llxdvYmafAD8dQs6w
 
-<small>Source:[Wikipedia](https://zh.wikipedia.org/wiki/OpenCV)</small>
+- <small>References:[Wikipedia](https://zh.wikipedia.org/wiki/OpenCV)</small>
 
-<small>Source:[steam educational website](https://steam.oxxostudio.tw/category/python/ai/opencv.html#google_vignette)</small>
+- <small>References:[steam educational website](https://steam.oxxostudio.tw/category/python/ai/opencv.html#google_vignette)</small>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
