@@ -39,10 +39,10 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
     
 |  Lidar D100    |  Ydlidar x4  |   Ydlidar x2    |      
 | :----: | :----: | :----:|
-|<img src="./img/Lidar-D100.png" width = "250" height = "" alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" height = "" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" height = "" alt="ydlidar x2" align=center />|
+|<img src="./img/Lidar-D100.png" width = "250"  alt="lidar D100  " align=center />|<img src="./img/Lidar_X2.jpg" width = "250" alt=" ydlidar x4" align=center />|<img src="./img/Lidar_X4.jpg" width = "250" alt="ydlidar x2" align=center />|
 </div> 
 
-- #### The issues encountered with missing angles during the actual testing of ydlidar x4 and ydlidar x2 LiDAR.<br>
+- #### Missing Point Problems of LiDARs ydlidar x4, ydlidar x2, and D100
 
 <div align="center">
  <table>
@@ -51,12 +51,11 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
     <th colspan="2">Ydlidar X4 X2</th>
     </tr>
     <tr align="center">
-    <td><img src="./img/D100.png" width = "400" height = "" alt="D100"  /></td>
-    <td><img src="./img/Lidar_X2_X4_error1.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角"  /></td>
-    <td><img src="./img/Lidar_X2_X4_error.jpg" width = "400" height = "" alt="ydlidar x4 X2偵測缺角" /></td>
+    <td><img src="./img/D100.png" width = "400"  /></td>
+    <td><img src="./img/Lidar_X2_X4_error1.jpg" width = "400"  /></td>
+    <td><img src="./img/Lidar_X2_X4_error.jpg" width = "400" /></td>
     </tr>
-</table>  
- 
+</table>   
 </div> 
 
 ## Lidar Dudging Process
