@@ -28,7 +28,7 @@ There are two ways to edit GitHub repositories: one is to edit directly on the G
 
   __Therefore, we have chosen VS Code as the programming tool for the self-driving vehicle.__
 
-- Software Link：[Visal Studio Code](https://code.visualstudio.com/) 
+  - Software Link：[Visal Studio Code](https://code.visualstudio.com/) 
 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
