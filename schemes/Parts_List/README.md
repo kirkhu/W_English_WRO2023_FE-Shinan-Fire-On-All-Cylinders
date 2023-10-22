@@ -17,7 +17,7 @@
 <li><a href="https://www.amazon.com/NOYITO-DC-DC-Power-Supply-Module/dp/B07G456MS8">High Current 5A Constant Voltage Constant Current Buck Power Supply Module</a></li>  
 <li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color senso</a></li>
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>
-<li>USB to TTL CP210L<br></li>  
+<li>USB to TTL CP2102<br></li>  
 <li>ribbon cable 15 pin 30 cm spacing 0.1<br></li>
 <li>Lego 6573 Differential Gear器<br></li>
 <li>695ZZ M5x13x4 bearing NSK<br></li>
