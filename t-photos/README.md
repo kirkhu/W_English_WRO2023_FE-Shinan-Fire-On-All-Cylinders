@@ -3,13 +3,14 @@
 ## <div align="center"> Team Members Introduction</div>
 - ### Team Photo  
 
-- Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
+  Today is the first day of our team's establishment, so we took this photo as a commemoration. The location was chosen at the playground of the school where our club is located.
 
-<div align="center"><img src="./img/team_photo.jpg" width = "562" height = "456"  />  </div>  
+<div align="center">
+|<img src="./img/team_photo.jpg" width = "562" height = "456"  />|<img src="./img/teamphoto_T.jpg" width = "562" height = "456"  />|
+|:----:|:----:|
+ </div>  
 
-<div align="center"><img src="./img/teamphoto_T.jpg" width = "562" height = "456"  />  </div>  
-
-- This photo was taken while we were attempting to lift our classmates LIN JHONG-BIN. In fact, it was a bit difficult to lift them, and we almost dropped him.
+  This photo was taken while we were attempting to lift our classmates LIN JHONG-BIN. In fact, it was a bit difficult to lift them, and we almost dropped him.
 
 - ### Funny Photo  
 <div align="center"><img src="./img/funny_photo.jpg" width = "562" height = "456" /> </div>  
