@@ -22,8 +22,8 @@ When the vehicle is in motion, the Raspberry Pi sends speed information to the m
 </tr>
 <tr align="center">
 <td>Rotation Angle</td>
-<td>90° MAX</td>
-<td>0~90°/180° MAX</td>
+<td>180°/360° MAX</td>
+<td>360° MAX</td>
 </tr>
 <tr align="center">
 <td>Torque</td>
