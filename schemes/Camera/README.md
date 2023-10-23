@@ -4,10 +4,10 @@
 - In order for the vehicle to accurately avoid obstacles, a camera module needs to be installed on the vehicle to recognize the position and color of obstacles. This allows the controller to compute and control the vehicle's motors for obstacle avoidance.  
 - Since we are using a Raspberry Pi as the controller, we need to find a camera module that is compatible with it. To do this, we referenced the camera module used by the American team last year and compared it with other camera modules from the same series.
   
-__Here is the product information:__
-  1. Raspberry Pi Camera Rev 1.3(sensor:OmniVision OV5647)
-  2. Raspberry Pi Camera Module V2(sensor:Sony IMX219)
-  3. Raspberry Pi Camera Module V3(sensor:Sony IMX708)
+  __Here is the product information:__
+    1. Raspberry Pi Camera Rev 1.3(sensor:OmniVision OV5647)
+    2. Raspberry Pi Camera Module V2(sensor:Sony IMX219)
+    3. Raspberry Pi Camera Module V3(sensor:Sony IMX708)
      
 - Although the frame rate of Camera Module V3 is higher, we decided not to use it because it is not compatible with the existing Raspberry Pi operating system.  
 - The frame rate of Camera 1.3 is only 30p, while the frame rate of Camera Module V2 can reach up to 90p.  
