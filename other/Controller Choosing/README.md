@@ -20,8 +20,8 @@ Here is a specification comparison between the two:
 <td><img src="./img/raspberry_pi_4.png" width=200></td>
 </tr><tr>
 <th>Number of Pins</th>
-<th>40P</th>
-<th>40P</th>
+<td>40P</td>
+<td>40P</td>
 </tr><tr>
 <th>CPU</th>
 <td>Quad-core ARM® Cortex®-A57 MPCore</td>
