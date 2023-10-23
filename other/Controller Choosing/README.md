@@ -49,10 +49,10 @@ Here is a specification comparison between the two:
 </tr>
 </table>
 </div>
+- At the beginning of the competition, we chose the Raspberry Pi, which is more affordable and has AI image recognition capabilities, as the controller for our self-driving car. However, we found that the Raspberry Pi controller had insufficient image recognition performance.   
+- Therefore, after the national competition in Taiwan, we attempted to switch to the Jetson Nano as the controller for our self-driving car, as it offered significantly faster image recognition processing.  
+- However, after actual experiments, although the image recognition speed is very fast, the speed of reading the color sensor is very slow, which leads to the inability to make timely judgments and make correct operations, which delays the turning of the vehicle and makes the vehicle unable to drive correctly. This may be a problem of our insufficient technical capabilities.
+- To ensure it wouldn't affect upcoming competitions, we reverted to using the Raspberry Pi as the controller. Although its image recognition speed is slower, it allows the vehicle to operate reliably. Additionally, we are implementing other solutions to address the Raspberry Pi's limitations in image recognition performance.  
 
-After the national competition, we attempted to switch to the budget-efficient Jetson Nano. While it provided extremely fast image recognition, the reading speed of the color sensor was significantly slower. This might have been due to the heavy workload on image recognition or possibly because the I2C was also being used by the PWM controller and the DC motor controller, causing delays in color sensor readings. As a result, the vehicle often couldn't turn accurately. Consequently, we reverted to using the Raspberry Pi as the main controller. Although the image recognition speed is slower, it allows the vehicle to operate smoothly.
-
-__Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
-
-
+- __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
