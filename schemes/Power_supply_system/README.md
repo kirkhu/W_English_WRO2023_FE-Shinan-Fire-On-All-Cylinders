@@ -33,11 +33,11 @@
 </table>
 </div>
 
- - ### Step-Down power supply Module  Selection(降壓模組選擇)
+ - ### Step-Down Power Supply Module  Selection(降壓模組選擇)
     - The Raspberry Pi can only operate at a voltage of up to 5.2V, so we need to use a 12V-to-5V step-down power supply module to lower the voltage and prevent damage to the Raspberry Pi.
     - Initially, we used the LM2596 DC-DC adjustable step-down module because it had a digital display that could show the current output voltage. However, its maximum output current was only 3A, which couldn't meet the device's operating current, so we didn't use it.
     - Therefore, we opted for a constant voltage and constant current step-down power supply module with a maximum output current of 5A, which allows the self-driving car to operate normally. While it lacks a digital display, we can determine the current battery voltage through a low-voltage alarm, ensuring that the battery voltage is sufficient.
-    - #### Step-Down power supply Module Comparison
+    - #### Step-Down Power Supply Module Comparison
 <div align="center">
 <table with=100%>
 <tr align="center">
