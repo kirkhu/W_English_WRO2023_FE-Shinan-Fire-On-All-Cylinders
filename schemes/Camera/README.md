@@ -60,13 +60,13 @@
 <th>With the Wide-Angle Lens</th>
 </tr>
 <tr align="center">
-<td><img src="./img/V2.jpeg" width=200 alt="site" ></td>
-<td><img src="./img/V2_Wide_Angle.jpeg" width=200 alt="site" >
+<td><img src="./img/V2.jpeg" width=200  ></td>
+<td><img src="./img/V2_wide_angle.jpeg" width=200>
 </td>
 </tr>
 <tr align="center">
-<td><img src="./img/72angle.png" width=200 alt="site" ></td>
-<td> <img src="./img/160angle.png" width=200 alt="site" ></td>
+<td><img src="./img/72angle.png" width=200  ></td>
+<td> <img src="./img/160angle.png" width=200  ></td>
 </tr>
 </table>
 </div>
