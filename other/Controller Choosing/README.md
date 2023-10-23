@@ -2,9 +2,9 @@
 
 # <div align="center">Controller Choosing </div> 
 
-We have two controller options available: Jetson Nano and Raspberry Pi. Below is an introduction to these two controller options:
-
-
+- Two commonly available low-cost controllers capable of handling AI image recognition are the Jetson Nano and Raspberry Pi.
+- The following will compare these two controllers.
+- 
 ## Introduction to Jetson Nano
 - Jetson Nano is a small single-board computer developed by NVIDIA, widely acclaimed for its high computational performance, high customizability, and open-source nature.
 - The hardware configuration of Jetson Nano includes a processor, memory, 4 USB ports, HDMI output, GPIO pins, and more.
