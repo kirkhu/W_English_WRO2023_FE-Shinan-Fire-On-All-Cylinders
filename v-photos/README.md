@@ -9,26 +9,26 @@
 
   </tr>
     <tr align="center">
-    <td><img src="./img/up.png"  width = "400" alt="Top view" > </td>
-    <td><img src="./img/down.png" width = "400" alt="Bottom view " ></td>
+    <td><img src="./img/up.png"  width = "300" alt="Top view" > </td>
+    <td><img src="./img/down.png" width = "300" alt="Bottom view " ></td>
   </tr>
     <tr align="center">
     <th> Front view</th>
-    <th>Rear view </th>
+    <th> Rear view </th>
   </tr>
     </tr>
     <tr align="center">
-    <td><img src="./img/front.png" width="400" alt="Front_view" ></td>
-    <td><img src="./img/back.png" width="400" alt="Rear_view" ></td>
+    <td><img src="./img/front.png" width="300" alt="Front_view" ></td>
+    <td><img src="./img/back.png" width="300" alt="Rear_view" ></td>
   </tr>
     <tr align="center">
-    <th>Left view</th>
-    <th>Right view</th>
+    <th> Left view</th>
+    <th> Right view</th>
   </tr>
     </tr>
     <tr align="center">
-    <td><img src="./img/left.png" width = "400"  alt="Left_view"></td>
-    <td> <img src="./img/right.png" width="400" alt="Right_view" ></td>
+    <td><img src="./img/left.png" width = "300"  alt="Left_view"></td>
+    <td><img src="./img/right.png" width="300" alt="Right_view" ></td>
   </tr>
 </table>
 </div> 
@@ -37,16 +37,16 @@
 <div align="center">
 <table>
   <tr align="center">
-      <th>Inner Structure Top View of the Overall Apparatus </th>
-      <th>Middle Layer Structure Top View</th>
-      <th>Top View of Vehicle Chassis</th>
-      <th>Bottom View of Vehicle Chassis</th>
+      <th>Overall Mechanical Structure Top View</th>
+      <th>Middle-Level Mechanical Structure Top View</th>
+      <th>Vehicle Chassis Top Views</th>
+      <th>Vehicle Chassis Bottom View</th>
   </tr>
   <tr align="center">
-     <td><img src="./img/up.png"  width = "400" alt="Inner Structure Top View of the Overall Apparatus" >      </td>
-     <td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Middle Layer Structure Top View" ></td>
-     <td><img src="./img/down_layer_top_view.jpg" width="400" alt="Top View of Vehicle Chassis" ></td>
-     <td><img src="./img/down.png" width="400" alt="Bottom View of Vehicle Chassis" ></td>
+     <td><img src="./img/up.png"  width = "400" alt="Overall Mechanical Structure Top View" >      </td>
+     <td><img src="./img/Middle_Layer_Top_View.png" width = "400" alt="Middle-Level Mechanical Structure Top View" ></td>
+     <td><img src="./img/down_layer_top_view.jpg" width="400" alt="Vehicle Chassis Top View" ></td>
+     <td><img src="./img/down.png" width="400" alt="BVehicle Chassis Bottom View" ></td>
   </tr>
 </table>
 </div>
@@ -55,7 +55,7 @@
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board of Top View </th>
+      <th>Circuit Board of Top View</th>
       <th>Circuit Board of Bottom View</th>
   </tr>
   <tr align="center">
