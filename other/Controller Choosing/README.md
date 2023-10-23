@@ -49,6 +49,7 @@ Here is a specification comparison between the two:
 </tr>
 </table>
 </div>
+
 - At the beginning of the competition, we chose the Raspberry Pi, which is more affordable and has AI image recognition capabilities, as the controller for our self-driving car. However, we found that the Raspberry Pi controller had insufficient image recognition performance.   
 - Therefore, after the national competition in Taiwan, we attempted to switch to the Jetson Nano as the controller for our self-driving car, as it offered significantly faster image recognition processing.  
 - However, after actual experiments, although the image recognition speed is very fast, the speed of reading the color sensor is very slow, which leads to the inability to make timely judgments and make correct operations, which delays the turning of the vehicle and makes the vehicle unable to drive correctly. This may be a problem of our insufficient technical capabilities.
