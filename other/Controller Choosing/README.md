@@ -55,5 +55,5 @@ Here is a specification comparison between the two:
 - However, after actual experiments, although the image recognition speed is very fast, the speed of reading the color sensor is very slow, which leads to the inability to make timely judgments and make correct operations, which delays the turning of the vehicle and makes the vehicle unable to drive correctly. This may be a problem of our insufficient technical capabilities.
 - To ensure it wouldn't affect upcoming competitions, we reverted to using the Raspberry Pi as the controller. Although its image recognition speed is slower, it allows the vehicle to operate reliably. Additionally, we are implementing other solutions to address the Raspberry Pi's limitations in image recognition performance.  
 
-- __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
+ __Therefore, we ultimately chose to use a Raspberry Pi as our primary controller.__
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
