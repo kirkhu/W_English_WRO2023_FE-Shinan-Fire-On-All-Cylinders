@@ -40,7 +40,7 @@
 
 
 ### Flowchart for the Configuration of Green Recording of Venue Environmental Value
- ![Flowchart for the Configuration of Green Recording of Venue Environmental Value](../../System_Platform%20_Software/img/setup_recode.png)  
+ ![Flowchart for the Configuration of Green Recording of Venue Environmental Value](../../System_Platform_Software/img/setup_recode.png)  
 
 ## [vehicle_function.py](./vehicle_function.py)
 - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.

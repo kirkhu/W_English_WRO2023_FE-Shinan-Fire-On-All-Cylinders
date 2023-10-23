@@ -1,7 +1,7 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
 ## <div align="center">Distinctive Pseudo Code</div>
-__In our program, many repetitive sections of code have been written as subroutines to facilitate debugging and simplify program complexity. And perhaps the most distinctive feature in the program is the avoidance of code blocks resembling building blocks. Here is the excerpt of the program content.__
+In our program, many repetitive sections of code have been written as subroutines to facilitate debugging and simplify program complexity. And perhaps the most distinctive feature in the program is the avoidance of code blocks resembling building blocks. Here is the excerpt of the program content.
 - ### Avoid obstacles until the field line is detected
   - This segment of the code will continuously detect if a line is detected. If detected, it will exit and perform a turn.
     ```
@@ -13,7 +13,7 @@ __In our program, many repetitive sections of code have been written as subrouti
             #Placing a 0.001-second pause within the loop is intended to regulate the loop's execution speed, preventing an overall increase in the program's execution time
             time.sleep(0.001)
     ```   
-- ### Translation in English: Avoid obstacles until the time is up
+- ###  Avoid obstacles until the Time is Up
   - Since the camera cannot detect obstacles on the sides, turning back directly to the center of the road could lead to a collision with the obstacle. Therefore, it is necessary to continue moving forward for a certain duration until the obstacle is completely avoided.
     ```
     def dodgeblock_to_time(set_time, set):
