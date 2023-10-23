@@ -12,35 +12,34 @@ Here is a specification comparison between the two:
 <div align=center>
 <table>
 <tr>
-<th rowspan="2" width=300>圖片</th>
+<th rowspan="2" width=300>Photo</th>
 <th>Nvidia Jetson Nano</th>
 <th>Raspberry Pi 4B</th>
 </tr><tr>
 <td><img src="./img/jeston_nano.png" width=200></td>
 <td><img src="./img/raspberry_pi_4.png" width=200></td>
 </tr><tr>
-<th>Number of Pins 針腳數量</th>
-<td>40P</td>
-<td>40P</td>
+<th>Number of Pins</th>
+<th>40P</th>
+<th>40P</th>
 </tr><tr>
 <th>CPU</th>
-<td>四核心 ARM® Cortex®-A57 MPCore 處理器</td>
-<td>1.5GHz 64 位四核 ARM Cortex-A72 CPU</td>
+<td>Quad-core ARM® Cortex®-A57 MPCore</td>
+<td>1.5GHz 64-bit Quad-core ARM Cortex-A72 CPU</td>
 </tr><tr>
 <th>GPU</th>
-<td>NVIDIA Maxwell™ 架構配備 128 個 NVIDIA CUDA® 核心</td>
-<td>博通 VideoCore VI；H.265（4kp60 解碼）、<br>H264（1080p60 解碼、1080p30 編碼）
-OpenGL ES 3.1、Vulkan 1.0</td>
+<td>NVIDIA Maxwell™ architecture with 128 NVIDIA CUDA®  cores</td>
+<td>Broadcom VideoCore VI<br> H.265 (4kp60 decode)<br> H264 (1080p60 decode, 1080p30 encode) OpenGL ES 3.1<br> Vulkan 1.0</td>
 </tr><tr>
-<th>Storage Space 儲存空間</th>
+<th>Storage Spac</th>
 <td>4 GB 64-bit LPDDR4</td>
 <td>8GB LPDDR4-3200 SDRAM</td>
 </tr><tr>
-<th>Built-in Bluetooth and Wireless WiFi Connectivity內建藍芽與無線WIFI連接</th>
-<td>需外接</td>
-<td>有內建</td>
+<th>Built-in Bluetooth and Wireless WiFi Connectivity</th>
+<td>Requires external Bluetooth and wireless WiFi connectivity</td>
+<td>Built-in</td>
 </tr><tr>
-<th>Gflops(每秒浮點運算次數)</th>
+<th>Gflops</th>
 <td>472</td>
 <td>13.5</td>
 </tr><tr>
