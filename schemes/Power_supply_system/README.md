@@ -5,7 +5,7 @@
 <div align="center"><img src="./img/Power_supply_system.png" width="600"></div>
 
 - ###  Physical Connection Diagram of Power Supply System 
-<div align="center"><img src="./img/Power_supply_system of Summary diagram1.png" width="600"></div>
+<div align="center"><img src="./img/Power_supply_system of Summary diagram.png" width="600"></div>
 
 - ### Power supply system operation Instruction
   Each type of device operates at its respective working voltage, as explained below:
