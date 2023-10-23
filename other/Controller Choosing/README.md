@@ -44,8 +44,8 @@ Here is a specification comparison between the two:
 <td>13.5</td>
 </tr><tr>
 <th>Price</th>
-<th>Expensive</th>
-<th>Cheap</th>  
+<td>Expensive</td>
+<td>Cheap</td>  
 </tr>
 </table>
 </div>
