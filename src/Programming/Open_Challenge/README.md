@@ -31,7 +31,7 @@
     ![Field Environment Value Recording Configuration Workflow](../../System_Platform_Software/img/setup_recode.png)   
    
     ### [line_color_write.py](./line_color_write.py)
-    - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the "save_file" directory.
+    - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the __"save_file"__ directory.
 
  
     ### [save_file](./save_file)
