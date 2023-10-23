@@ -11,8 +11,8 @@
      
 - Although the frame rate of Camera Module V3 is higher, we decided not to use it because it is not compatible with the existing Raspberry Pi operating system.  
 - The frame rate of Camera 1.3 is only 30p, while the frame rate of Camera Module V2 can reach up to 90p.  
-- Through experimentation, we found that the Camera Module V2 version also delivers excellent recognition performance. Therefore, we have ultimately chosen the Camera Module V2 as the AI recognition camera module for our self-driving car.
-- 
+- Through experimentation, we found that the Camera Module V2 version also delivers excellent recognition performance. Therefore, we have ultimately chosen the Camera Module V2 as the AI recognition camera module for our self-driving car. 
+
 #### Camera Module
 <div align="center">
 <table>
