@@ -1,6 +1,6 @@
 <div align=center><img src="../img/logo.png" width=300></div>
 
-# <div align="center">Controller Choosing </div> 
+# <div align="center">Controller Selection </div> 
 
 - Two commonly available low-cost controllers capable of handling AI image recognition are the Jetson Nano and Raspberry Pi.
 - They are suitable for various applications, including programming education in the field of education, smart home devices, self-driving cars, DIY projects, and more. This compact yet powerful microcomputer has become the top choice for electronics enthusiasts, students, and professionals.  
