@@ -22,7 +22,6 @@
    from sensor_msgs.msg import LaserScan  #ROS Data Structure Definitions
 ```
 <div align="center">
-<img src="../img/modles.png" width="300" alt="Mobaxterm_SSH_python">
 </div>
  <table>
  <tr align="center">
