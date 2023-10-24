@@ -42,4 +42,5 @@
   - The circuit diagrams created for this competition are all designed using Fritzing.
   - Software link：[Fritzing](https://fritzing.org/)  
 <div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing">   <img src="./img/frtzing1.png" width="500" alt=" Fritzing"></div>  
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
