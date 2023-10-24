@@ -55,7 +55,7 @@
 
       
     - #### Obstacle Challenge Flow Chart
-      ![flowchart_obstacle](../img/obstacle_img.jpg)  
+      ![flowchart_obstacle](../img/flowchart_obstacle.png)  
       - #### [vehicle_function.py](./vehicle_function.py)
         - "vehicle_function.py," which is the program library used in this competition, provides custom functions for vehicle movement, image recognition, color recognition, and controlling servo motors. These custom functions simplify complex procedures into subroutines for ease of debugging.
   

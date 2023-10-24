@@ -52,7 +52,7 @@
         - These numerical data are used for image processing, image recognition, and determining whether the next turn is reached or whether to walk forward or backward.
    
     - #### Open Challenge Program Operation Flowchart
-     ![flowchart_open](../img/open_challange_img.jpg)
+     ![flowchart_open](../img/flowchart_open.png)
      
       - #### [vehicle_function.py](./vehicle_function.py)
         - "vehicle_function.py," which is the program library used in this competition, provides custom functions for vehicle movement, image recognition, color recognition, and controlling servo motors. These custom functions simplify complex procedures into subroutines for ease of debugging.
