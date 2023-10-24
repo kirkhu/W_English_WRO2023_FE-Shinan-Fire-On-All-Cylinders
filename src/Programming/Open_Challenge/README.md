@@ -46,7 +46,7 @@
       - #### [Open_Challenge.py](./Open_Challenge.py)
         - The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
 
-   - #### Open Challenge Program Operation Flowchart Description
+ - ### Open Challenge Program Operation Flowchart Description
      - The LiDAR will start up with the program, and the program will read LiDAR data indefinitely.  
      - The vehicle program system will first initialize, setting the DC motor speed to 0, the servo motor angle to 0, and the turn direction to counterclockwise by default.  
      - After the switch button is pressed, the DC motor speed is set to 90%. If the lap number is 0 and the LiDAR right side is greater than 120cm, the vehicle will turn clockwise. Otherwise, it will skip. When the distance in front is less than 60, the vehicle will turn.  
