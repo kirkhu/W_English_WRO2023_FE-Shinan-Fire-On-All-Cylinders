@@ -25,7 +25,7 @@
       <th>Circuit Diagram</th><th>PCB Layouts</th><th>Circuit Schematic</th>
   </tr>
   <tr align="center">
-     <td><img src="./img/Circuit_Diagram.png" width="300" alt="Circuit Diagram"></td><td><img src="./img/PCB_Diagram.png" width="300" alt="PCB Diagram"></td><td><img src="./img/Circuit_Wiring_Diagram.png" width="300" alt="Circuit Wiring Diagram"></td>
+     <td><img src="./img/Circuit_Diagram.png" width="300" alt="Circuit Diagram"></td><td><img src="./img/PCB_Diagram.png" width="300" alt="PCB Layouts"></td><td><img src="./img/Circuit_Wiring_Diagram.png" width="300" alt="Circuit Schematic"></td>
   </tr>
 </table>
 </div>
