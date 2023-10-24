@@ -9,7 +9,7 @@
    import pigpio       #Raspberry Pi I/O Control Function Library
    import time         #Time Module
    import smbus        #I2C Manage  Module
-   import struct       #Binary Data Packing and Unpacking Modul
+   import struct       #Binary Data Packing and Unpacking Module
    import os           #System Information Reading Module 
    import math         #Mathematical Calculation Module
    import cv2          #OpenCV  Module
