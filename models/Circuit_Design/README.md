@@ -25,7 +25,7 @@
       <th>Circuit Diagram</th><th>PCB Diagram</th><th>Circuit Wiring Diagram</th>
   </tr>
   <tr align="center">
-     <td><img src="./img/simulation_2.png" width="300" alt="Circuit Diagram"></td><td><img src="./img/simulation.png" width="300" alt="PCB Diagram"></td><td><img src="./img/Altium Designer.png" width="300" alt="Circuit Wiring Diagram"></td>
+     <td><img src="./img/Circuit Diagram.png" width="300" alt="Circuit Diagram"></td><td><img src="./img/PCB Diagram.png" width="300" alt="PCB Diagram"></td><td><img src="./img/Circuit Wiring Diagram.png" width="300" alt="Circuit Wiring Diagram"></td>
   </tr>
 </table>
 </div>
