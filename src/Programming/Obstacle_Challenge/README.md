@@ -57,12 +57,12 @@
     - #### Obstacle Challenge Flow Chart
      ![flowchart_obstacle](../img/obstacle_img.jpg)
 
-    - #### [vehicle_function.py](./vehicle_function.py)
-      - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.  
+     - #### [vehicle_function.py](./vehicle_function.py)
+       - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.  
   
-    - #### [Obstacle_Challenge.py](./Obstacle_Challenge.py)  
-      - The main purpose of "Obstacle_Challenge.py" is to control a vehicle. It combines data from color sensors, LIDAR sensors, and image recognition techniques to drive the vehicle's motors, enabling it to navigate and avoid obstacles, accomplishing specific mission objectives.  
-       
+     - #### [Obstacle_Challenge.py](./Obstacle_Challenge.py)  
+       - The main purpose of "Obstacle_Challenge.py" is to control a vehicle. It combines data from color sensors, LIDAR sensors, and image recognition techniques to drive the vehicle's motors, enabling it to navigate and avoid obstacles, accomplishing specific mission objectives.  
+
 - ### Obstacle Challenge Program Operation Flowchart Description
   - Activate the program along with the LiDAR. After activation, the program will read the values from the LiDAR and color sensor, as well as capture photos from the camera. When the button is pressed, the DC motor speed will be set to 60%, and it will continue to move forward until the color sensor detects a line. It will execute a turn and check if it has turned 12 times. If it has, it will end; if not, it will continue to repeat the process of moving forward and checking for wall turns.  
   - __Subroutine Description:__   
