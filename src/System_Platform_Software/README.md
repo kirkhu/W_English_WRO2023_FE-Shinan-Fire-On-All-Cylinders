@@ -27,12 +27,6 @@
  <tr align="center"></tr>
  </table>
  </div>
- 
- ```
- $ sudo apt-get update  
- $ sudo apt-get upgrade   
- ```
-
 
   ### Green Recording of Venue Environmental Value Configuration
 ![images](./img/setup_recode.png)  
