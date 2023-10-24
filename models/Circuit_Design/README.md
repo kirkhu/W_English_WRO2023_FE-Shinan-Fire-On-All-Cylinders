@@ -2,14 +2,18 @@
 
 ## <div align="center">Circuit Schematic Drawing </div>
 
-- ### Circuit Board 
+ - In the design of self-driving car circuits, we used the Fritzing circuit software to draw circuit diagrams according to the functions required by self-driving cars. This method allows construction workers to follow the drawings and reduce errors.
+ - The circuit board for the self-driving car is not a finished product that we purchased. Instead, we soldered it ourselves using a phenolic universal board, according to the circuit diagram we designed in advance.
+ - Power and signal are two essential parts of self-driving car circuits. Power provides electricity to the circuit, while signal transmits data. Designing socket methods around the circuit board can facilitate the connection of sensors or batteries, which can improve the flexibility and scalability of the circuit.
+   
+ - #### Circuit Board
 <div align="center">
 <table>
   <tr align="center">
-      <th> Circuit Board Top View </th><th>Circuit Board Rear View</th>
+      <th> Circuit Board Top View</th><th>Circuit Board Button View</th>
   </tr>
   <tr align="center">
-     <td> <img src="../../v-photos/img/circuit_up.png" width="300" alt="circuit_up.jpg"> </td><td><img src="../../v-photos/img/circuit_lower.png" width="300" alt="circuit_lower.jpg"></td>
+     <td> <img src="../../v-photos/img/circuit_up.png" width="300" alt="circuit_up"> </td><td><img src="../../v-photos/img/circuit_lower.png" width="300" alt="circuit_lower.jpg"></td>
   </tr>
 </table>
 </div>
@@ -21,26 +25,21 @@
       <th>Circuit Diagram</th><th>PCB Diagram</th><th>Circuit Wiring Diagram</th>
   </tr>
   <tr align="center">
-     <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium Designer.png" width="500" alt="Circuit schematic drawing"></td>
+     <td><img src="./img/sensor_placement_diagram.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/circuit_wiring_diagram.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium_Designer.png" width="500" alt="Circuit schematic drawing"></td>
   </tr>
 </table>
 </div>
 
-## Explanation of Circuit Principles
-
-Welding is mainly based on the PCB configuration diagram, where yellow lines represent single-core wires, and blue lines represent jumpers. Jumpers can prevent two single-core wires from touching and causing damage to sensors, batteries, or the main unit.
-
-Circuit Diagram Introduction:
-In the top-left corner is the battery socket, which is connected first to a switch and then to a voltage regulator. This arrangement allows us to achieve the effect of powering on using the switch. The four-pin socket on the right side is for the color sensor, responsible for outputting voltage to the color sensor and receiving I2C signals. The four-pin socket on the left is for the DC motor, providing power. The three-pin socket in the bottom-right corner is for the servo motor, providing power and transmitting PWM signals to control the servo motor.
-
-### Introduction to Fritzing
-- Fritzing is a convenient and user-friendly tool that can be used to draw circuit diagrams for self-driving cars, and it does not require any software installation. Fritzing provides a variety of electronic components and modules, which users can simply drag and drop onto the canvas to quickly create and design their circuit diagrams. This makes it particularly suitable for beginners or those unfamiliar with complex circuit design software.
-- In addition to circuit diagrams, Fritzing also allows users to create schematics, breadboard views, and even design custom PCB (Printed Circuit Board) layouts. This comprehensive feature set makes it a valuable tool for prototyping and educational purposes. 
-- After drawing the circuit diagram using Fritzing, it becomes convenient to solder the circuit on a breadboard following the diagram. This reduces the error rate and allows for easy corrections.
-- Software link：[Fritzing](https://fritzing.org/) 
-- The circuit diagrams created for this competition are all designed using Fritzing.
-<div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing">   <img src="./img/frtzing1.png" width="500" alt=" Fritzing"></div>
-
-
-
+- ### Fritzing Introduction
+  - Fritzing is a free and open-source electronic design automation (EDA) software. It provides a graphical user interface (GUI) for designing electronic circuits and circuit boards. Fritzing also includes a breadboard simulator, which allows users to test their circuits before building them.  
+  - Fritzing is a popular choice for hobbyists and beginners, as it is easy to use and does not require any prior knowledge of electronics. It is also used by professional engineers for prototyping and designing electronic circuits.
+  - Fritzing has a number of features that make it a powerful tool for electronic design, including:  
+    - A large library of electronic components, including resistors, capacitors, transistors, and integrated circuits (ICs).  
+    - A breadboard simulator that allows users to test circuits before building them.  
+    - A PCB (printed circuit board) designer that allows users to create custom circuit boards.   
+    - A schematic editor that allows users to create circuit diagrams.
+  - In general, Fritzing is a very useful tool for a variety of electronic design applications. It is a good choice for hobbyists and beginners because it is easy to use and powerful. It is also a good choice for professional engineers because it has a wide range of features.
+  - The circuit diagrams created for this competition are all designed using Fritzing.
+  - Software link：[Fritzing](https://fritzing.org/)  
+<div align="center"><img src="./img/Fritzing.png" width="500" alt=" Fritzing">   <img src="./img/frtzing1.png" width="500" alt=" Fritzing"></div>  
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
