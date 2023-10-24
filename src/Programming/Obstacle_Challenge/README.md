@@ -46,8 +46,8 @@
      - #### [line_color_write.py](./line_color_write.py)
        - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the "save_file" directory.       
        
-     - #### [HSV_Test.py](./HSV_Test.py)
-       - The main purpose of the 'HSV_Test.py' program is to adjust HSV range values for color filtering. Users can configure the HSV range values for green and red and save these settings in files named 'HSV_Green.p' and 'HSV_Red.p,' which are stored in the 'save_file' folder.
+     - #### [HSV_Detect.py](./HSV_Detect.py)
+       - The main purpose of the 'HSV_Detect.py' program is to adjust HSV range values for color filtering. Users can configure the HSV range values for green and red and save these settings in files named 'HSV_Green.p' and 'HSV_Red.p,' which are stored in the 'save_file' folder.
 
      - #### [save_file](./save_file)
        - The function of the 'save_file' folder is to store color values related to the white area of the field, orange lines, and blue lines.
