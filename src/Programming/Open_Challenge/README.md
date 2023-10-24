@@ -43,8 +43,8 @@
       - #### [vehicle_function.py](./vehicle_function.py)
         - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.
 
-    ### [Open_Challenge.py](./Open_Challenge.py)
-    - The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
+      - #### [Open_Challenge.py](./Open_Challenge.py)
+        - The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
 
    - ### Open Challenge Program Operation Flowchart Description
      - The LiDAR will start up with the program, and the program will read LiDAR data indefinitely.  
