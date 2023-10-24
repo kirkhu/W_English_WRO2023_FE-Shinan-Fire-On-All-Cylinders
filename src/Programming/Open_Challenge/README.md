@@ -2,12 +2,26 @@
 
 ## <div align="center">Open Challenge Code Overview</div> 
  - In the competition, vehicle control involves complex operations such as image recognition, color identification, distance detection, motor rotation, and vehicle steering. All of these are implemented using the __Python__ programming language.
- - Through the built-in SSH or VNC functionality in Mobaxterm or using RealVNC, we can easily connect to the Raspberry Pi, access its editor interface, carry out programming tasks, and perform real-time execution tests.
-
+ - Through the built-in SSH or VNC functionality in Mobaxterm or using RealVNC, we can easily connect to the Raspberry Pi, access its editor interface, carry out programming tasks, and perform real-time execution tests.  
+ - The libraries introduced in this competition program are as follows.
+```
+   #Import the required modules
+   import pigpio       #Raspberry Pi I/O Control Function Library
+   import time         #Time Module
+   import smbus        #I2C Manage  Module
+   import struct       #Binary Data Packing and Unpacking Modul
+   import os           #System Information Reading Module 
+   import math         #Mathematical Calculation Module
+   import cv2          #OpenCV  Module
+   import threading    #Multithread Management  Module
+   import pickle       #Serialization/Deserialization Modul
+   import rospy        #ROS Python Commands Module
+   import numpy as np  #Multidimensional Arrays and Matrix Operations Module
+   import signal       #Exception Handling Module
+   from sensor_msgs.msg import LaserScan  #ROS Data Structure Definitions
+```  
 <div align="center">
-<img src="../img/modles.png" width="300" alt="Mobaxterm_SSH_python">
 </div>
-
  <div align="center">
  <table>
  <tr align="center">
