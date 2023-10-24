@@ -29,7 +29,7 @@
  </div>
 
   ### Green Recording of Venue Environmental Value Configuration
-![images](./img/setup_recode.png)  
+![images](./img/setup_recode_obstacle.png)  
 #### [ColorDetect.py](../Programming/Open_Challenge/line_color_write.py)
 - Open ColorDetect.py to start recording the values of white, orange, and blue colors, and save the values to the color_sensor.p file.
 - Press the button to start recording the blue line. Move the color sensor back and forth over the white area of the field to record the minimum value of that area. Press the button again to stop recording and save the value of the white area to the color_sensor.p file.
