@@ -69,8 +69,10 @@
                 
          __1.Vehicle Lane Centering Subroutine：__  
           The vehicle continuously monitors the current program execution time. If the time exceeds the set limit, it checks whether the distances on the left and right sides of the LIDAR are within the range of 0 to 100 cm. If they are within this range, it calculates the difference between the right-side distance and the left-side distance and sends the result to the servo motor for centering. If the distances are not within this range, it checks whether the right-side distance from the LIDAR is between 0 to 120 cm. If it is, it uses the left-side value in the algorithm; otherwise, it uses the right-side value. Finally, the calculated value is output to the servo motor as the centering angle.
+       
          __2.Vehicle Turning Subroutine:__  
-          When the vehicle reaches the turning point, it will turn based on the angle of the turn until it completes the turn.  
+          When the vehicle reaches the turning point, it will turn based on the angle of the turn until it completes the turn.
+       
          __3.Vehicle Wall Detection Subroutine:__    
           This action continuously checks if the distance in front is less than 65cm while moving forward. During straight-line movement, it also performs road centering until it detects a wall to initiate a turn.
 
