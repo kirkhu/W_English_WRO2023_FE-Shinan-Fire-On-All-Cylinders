@@ -25,7 +25,7 @@
       <th>Circuit Diagram</th><th>PCB Diagram</th><th>Circuit Wiring Diagram</th>
   </tr>
   <tr align="center">
-     <td><img src="./img/sensor_placement_diagram.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/circuit_wiring_diagram.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium_Designer.png" width="500" alt="Circuit schematic drawing"></td>
+     <td><img src="./img/simulation_2.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/simulation.png" width="500" alt="Circuit schematic drawing"></td><td><img src="./img/Altium_Designer.png" width="500" alt="Circuit schematic drawing"></td>
   </tr>
 </table>
 </div>
