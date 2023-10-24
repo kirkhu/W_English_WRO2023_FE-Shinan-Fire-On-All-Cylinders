@@ -55,8 +55,7 @@
 
       
     - #### Obstacle Challenge Flow Chart
-     ![flowchart_obstacle](../img/obstacle_img.jpg)
-
+      ![flowchart_obstacle](../img/obstacle_img.jpg)  
       - #### [vehicle_function.py](./vehicle_function.py)
         - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.  
   
