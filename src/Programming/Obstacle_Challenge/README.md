@@ -65,15 +65,16 @@
 - ### Obstacle Challenge Program Operation Flowchart Description
   - Activate the program along with the LiDAR. After activation, the program will read the values from the LiDAR and color sensor, as well as capture photos from the camera. When the button is pressed, the DC motor speed will be set to 60%, and it will continue to move forward until the color sensor detects a line. It will execute a turn and check if it has turned 12 times. If it has, it will end; if not, it will continue to repeat the process of moving forward and checking for wall turns.  
   - __Subroutine Description:__   
-    __1.Subroutine for Determining the Sequence of Blue and Orange Lines and Deciding Vehicle Steering：__    
+
+    __1. Determining Vehicle Turn Direction Based on Blue and Orange Lines Subroutine：__    
     While the vehicle is in motion, if the color sensor detects a value lower than that of white (35), it indicates the presence of a blue line (15) or an orange line (27). Subsequently, the program calculates the midpoint value between the two lines as (15+27)/2 to determine the color of the line. If the value is lower than 21, it signifies the detection of a blue line, and the turning direction is set to counterclockwise. If the value is higher than 21, it signifies the detection of an orange line, and the turning direction is set to clockwise.
     
-    __2.Subroutine for Detecting the Presence of Obstacles and Controlling the Vehicle to Center：__    
+    __2. Vehicle Lane Centering Subroutine：__    
    While driving, it continuously checks whether the value read by the color sensor is greater than that of white (35). If it is, the vehicle continues moving forward. It also checks for the presence of obstacles in front. If an obstacle is detected, it performs the action to avoid the obstacle. If no obstacle is detected, it proceeds to center the Lidar. Lidar centering involves calculating the values on the left and right sides, subtracting the right value from the left value, and passing it to the servo motor to control the direction.
 
-    __3.Subroutine for Vehicle Avoidance of Obstacles:__  
+    __3. Vehicle Avoiding Obstacles Subroutine:__  
     It determines which has a larger area, the red block or the green block. If the red block is larger, it controls the servo motor to steer to the right and avoid the red block. If the green block is larger, it controls the servo motor to steer to the left and avoid the green block.
     
-    __4.Subroutine for Vehicle Turning Actions：__ Continue turning until the specified angle is reached.
+    __4. Vehicle Turning Subroutine：__ Continue turning until the specified angle is reached.
     
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
