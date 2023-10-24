@@ -66,11 +66,11 @@
      - After the switch button is pressed, the DC motor speed is set to 90%. If the lap number is 0 and the LiDAR right side is greater than 120cm, the vehicle will turn clockwise. Otherwise, it will skip. When the distance in front is less than 60, the vehicle will turn.  
      - The program will continuously check if it has finished three laps. If not, it will detect if the current lap is finished. If not, it will determine if it is the second lap. If so, it will determine if the distance in front is greater than 60. If yes, it will continue to go straight until it is less than 60, then turn. After turning, it will go straight for a distance, otherwise the LiDAR may miscalculate and turn early.  
      - __Description of other actions:__         
-         __1.Keep going straight until the time is over：__  
-       The machine continuously reads the current time (referring to the program execution time). If the time exceeds the set time, it checks whether the distance on the left and right sides of the Lidar is greater than 0 and less than 100cm. If within this range, it subtracts the right-side value from the left-side value and then sends the result to the servo motor for centering calibration. If it's not within the range, it checks if the distance on the right side of the Lidar is between 0 and 120cm. If it is, it sends the left-side value to an algorithm; otherwise, it sends the right-side value. Finally, the value is output to the servo motor as the centering angle.  
-         __2.Turn action:__  
-         When the machine reaches the turn, it will turn based on the turning angle until it has completely turned the corner.  
-         __3.Continue to go straight until the front wall is detected:__    
-         This action will continuously detect if the distance in front is less than 65cm. In the process of going straight, it will also center the road until it detects the wall and turns.  
+         __1.Using Lidar for Vehicle Centering During Travel：__  
+          The vehicle continuously monitors the current program execution time. If the time exceeds the set limit, it checks whether the distances on the left and right sides of the LIDAR are within the range of 0 to 100 cm. If they are within this range, it calculates the difference between the right-side distance and the left-side distance and sends the result to the servo motor for centering. If the distances are not within this range, it checks whether the right-side distance from the LIDAR is between 0 to 120 cm. If it is, it uses the left-side value in the algorithm; otherwise, it uses the right-side value. Finally, the calculated value is output to the servo motor as the centering angle.
+         __2.Vehicle Turning Action:__  
+          When the vehicle reaches the turning point, it will turn based on the angle of the turn until it completes the turn.  
+         __3.The vehicle repeatedly moves forward and checks whether it has detected a wall in front:__    
+          This action continuously checks if the distance in front is less than 65cm while moving forward. During straight-line movement, it also performs road centering until it detects a wall to initiate a turn.
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../../)</div>  
