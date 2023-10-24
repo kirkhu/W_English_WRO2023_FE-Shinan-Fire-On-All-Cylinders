@@ -30,18 +30,18 @@
    - ### Field Environment Value Recording Configuration Workflow
     ![Field Environment Value Recording Configuration Workflow](../../System_Platform_Software/img/setup_recode.png)   
    
-    ### [line_color_write.py](./line_color_write.py)
-    - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the __"save_file"__ directory.
-
+     ### [line_color_write.py](./line_color_write.py)
+     - The main functionality of the "line_color_write.py" program is to read the color values of white areas, orange lines, and blue lines, and save these values to a file named "color_sensor.p". Additionally, the program stores this file in the __"save_file"__ directory.
  
-    ### [save_file](./save_file)
-    - The function of the 'save_file' folder is to store color values related to the white area of the field, orange lines, and blue lines.
-    - These numerical data are used for image processing, image recognition, and determining whether the next turn is reached or whether to walk forward or backward.
-   - ### Open Challenge Program Operation Flowchart
-    ![flowchart_open](../img/open_challange_img.jpg)
-    
-    ### [vehicle_function.py](./vehicle_function.py)
-    - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.
+  
+     ### [save_file](./save_file)
+     - The function of the 'save_file' folder is to store color values related to the white area of the field, orange lines, and blue lines.
+     - These numerical data are used for image processing, image recognition, and determining whether the next turn is reached or whether to walk forward or backward.
+    - ### Open Challenge Program Operation Flowchart
+     ![flowchart_open](../img/open_challange_img.jpg)
+     
+     ### [vehicle_function.py](./vehicle_function.py)
+     - "vehicle_function.py" is a library primarily designed to provide a variety of custom functions for controlling a vehicle. It utilizes a Raspberry Pi along with various sensors and devices to implement functions such as vehicle movement, image recognition, color identification, and servo motor control.
 
     ### [Open_Challenge.py](./Open_Challenge.py)
     - The main functionality of "Open_Challenge.py" is to control a vehicle. It combines data from color sensors and LIDAR sensors to drive the vehicle's motors and perform steering maneuvers. Its objective is to enable the vehicle to accurately complete three laps around the designated course in both clockwise and counterclockwise directions, accomplishing a specific task goal.
