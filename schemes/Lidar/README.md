@@ -17,7 +17,7 @@
          - Environmental monitoring
          - Military applications  
 
-         The Lidar D100 Developer Kit is centered around the LD14 Lidar sensor core, complemented with a set of related accessories, and employs triangulation technology.
+      The Lidar D100 Developer Kit is centered around the LD14 Lidar sensor core, complemented with a set of related accessories, and employs triangulation technology.
 
     - __Product Specifications__
       - Detection Range: 360 degrees
