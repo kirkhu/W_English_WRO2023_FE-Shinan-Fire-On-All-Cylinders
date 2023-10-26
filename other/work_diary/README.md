@@ -969,7 +969,7 @@ This week, the hardware of the machine has been completed. Next, it's all about 
 **Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
 **Content:**
 
-This week, we started making the final adjustments. Only two weeks left before the competition, we are speeding up our work and starting to prepare the paper materials. We are using PowerPoint to create them because PowerPoint allows us to freely arrange the data we need to present. Although there is a lot of data, it can be made neat and tidy through layout, and will not be too cluttered and cause the image to be untidy.
+This week, we started making final adjustments. With only two weeks left before the competition, we started to speed up our work and began to write paper materials. We used PowerPoint to create them because PowerPoint allows for free layout, so we could fit all the necessary data into them. Although there was a lot of data, it could be well-organized through layout and would not be cluttered.
 
 <div align="center">
 <img src="./img/10/10-16.png" width=300>
