@@ -77,6 +77,6 @@
   __Therefore, we chose Mobaxterm as the remote control programming tool for the Raspberry Pi in our self-driving vehicle.__
 
 
-- Software Website：[Mobaxterm](https://mobaxterm.mobatek.net/) 
+  - Software Website：[Mobaxterm](https://mobaxterm.mobatek.net/) 
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
