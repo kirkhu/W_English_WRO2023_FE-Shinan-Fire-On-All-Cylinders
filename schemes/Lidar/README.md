@@ -69,6 +69,6 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
          
          |LIDAR Detects Surrounding Walls|LIDAR Readings|
          |:---:|:---:|
-         |<img src="../../src/Image_Processing_and_Predictions/img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="../../src/Image_Processing_and_Predictions/img/LIDAR_readings.png" width = "300" alt="LIDAR_Detecting_Walls" align=center />|
+         |<img src="./img/LIDAR_Detecting_Walls.png" width = "350" alt="LIDAR_Detecting_Walls" align=center />|<img src="./img/LIDAR_readings.png" width = "300" alt="LIDAR_readings" align=center />|
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
