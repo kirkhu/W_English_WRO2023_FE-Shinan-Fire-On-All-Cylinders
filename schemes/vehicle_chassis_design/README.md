@@ -115,7 +115,7 @@ Reference Video：[How does Ackerman steering geometry work?](https://www.youtub
 </table>
 </div>
 
- - ##  __MacPher Suspension System__
+ - ##  __MacPherson Suspension System__
    - We have selected this system as our suspension choice due to its advantages over the Double Wishbone Suspension System. The McPherson suspension system offers structural simplicity, ease of manufacturing, and space efficiency. Furthermore, the McPherson suspension system is extensively employed in modern vehicles, especially for front-wheel suspension. 
     The main components of the system include:
      - Spring: Typically a combination of springs and shock absorbers, connecting the wheels and the body of the vehicle, absorbing vibrations and impacts from uneven road surfaces.
