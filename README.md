@@ -41,7 +41,7 @@
     - __Programming__
       - [Open Challenge Code Overview OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code Overview OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge)
-      - [Distinctive Pseudo Code OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Feature_Program/README.md)
+      - [Distinctive Pseudo Code OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Distinctive_Pseudo_Code/README.md)
 - ### ${{\color{red} Other}} $
   #### 4. Pictures – Team and Vehicle
     - [Team Members Introduction OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/t-photos/README.md) 
