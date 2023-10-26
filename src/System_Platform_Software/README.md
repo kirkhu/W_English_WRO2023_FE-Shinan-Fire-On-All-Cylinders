@@ -31,19 +31,15 @@
 - ### Record Field Environment Values
   - In practice, we pre-record the color values of the blue, orange lines, white areas, and block colors in the field into the 'color_sensor.p' file. This is done to facilitate the use of these values during the actual competition, enhancing recognition accuracy and saving preparation time for the official race.  
   - #### Field Environment Value Recording Configuration Workflow
- ![images](./img/setup_recode_obstacle.png)  
+    ![images](./img/setup_recode_obstacle.png)  
   - #### [line_color_write.py](../Programming/Open_Challenge/line_color_write.py)
     - "The 'line_color_write.py" program is primarily designed to read the color values of white, orange, and blue colors in the competition field and record these values into the 'color_sensor.p' file within the 'save_file' data.
     - When the program is running, use the button on the vehicle to aim the color sensor at the blue, orange lines, and white areas on the field, moving back and forth. Press the button to record the lowest value in that area and save it in the 'color_sensor.p' file.
     - The 'color_sensor.p' file records the values of various colors in the competition field, and through program calculations, these values can be utilized in the official competition, making it convenient for retrieval and saving preparation time.
 
-
-<div align="center">
-
-|The Color Values of the Field in the 'color_sensor.p' File|
-|:---:|
-|<img src="./img/detect_color.png" width="200" alt="detect_color">|
-</div>
+      |The Color Values of the Field in the 'color_sensor.p' File|
+      |:---:|
+      |<img src="./img/detect_color.png" width="200" alt="detect_color">|
 
   - #### [HSV_Detect.py](../Programming/Obstacle_Challenge/HSV_Test.py)
     - The "HSV_Detect.py" program primarily reads the color values of the blocks on the field and records these values in the "HSV_Green.p" and "HSV_Red.p" files within the "save_file" data directory.  
