@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center"> Lidar </div> 
+## <div align="center"> Lidar Selection </div> 
  - ### Lidar Introduction
     Lidar, also known as Light Detection and Ranging, is a technology that uses laser pulses to measure distances and create maps. Lidar systems typically consist of lasers, receivers, computing devices, and navigation systems.
 
@@ -59,11 +59,12 @@ One problem with the D100 Lidar is its detection frequency, which is 2300 Hz, co
       </div> 
 
 - ### LiDAR-Controlled Steering Detection Process
-   When the LiDAR and program are started, the LiDAR will use the ROS system to detect the distance between the vehicle and the walls in front, right, and left sides. The distance data will be transmitted to the Raspberry Pi controller for computation and judgment. The controller will then determine which side the vehicle is leaning towards. It will also transmit the steering value to the front steering servo motor to control the vehicle's travel and steering.
-<div align=center><img src="./img/Lidar.png"></div>
+   When the LiDAR and program are started, the LiDAR will use the ROS system to detect the distance between the vehicle and the walls in front, right, and left sides. The distance data will be transmitted to the Raspberry Pi controller for computation and judgment. The controller will then determine which side the vehicle is leaning towards. It will also transmit the steering value to the front steering servo motor to control the vehicle's travel and steering.  
+
+   <img src="./img/Lidar.png">  
 
    - ###  Using LIDAR to center on the road
-       - Using LIDAR to measure the distances between the object's right and left sides and the walls, we can calculate the error values for both sides.  
+      - Using LIDAR to measure the distances between the object's right and left sides and the walls, we can calculate the error values for both sides.  
       - By multiplying these error values with coefficients, we can obtain the angle to center the servo motor on the road.  
          
          |LIDAR Detects Surrounding Walls|LIDAR Readings|
