@@ -61,7 +61,8 @@
         - "Open_Challenge.py" is the main program responsible for controlling the self-driving car. It reads the values detected by the color sensor and LIDAR sensor to drive the car's motors and control its steering. Its purpose is to enable the vehicle to accurately navigate the track in both clockwise and counterclockwise directions to complete the mission. 
 
  - ### Open Challenge Program Operation Flowchart Description
-     - The LiDAR will start up with the program, and the program will read LiDAR data indefinitely.  
+     - The LiDAR will start up with the program, and the program will read LiDAR data indefinitely.   
+         [Wall-Steering@Steering_overview](../../Image_Processing_and_Steering/Steering_overview#wall-steering)
      - The vehicle program system will first initialize, setting the DC motor speed to 0, the servo motor angle to 0, and the turn direction to counterclockwise by default.  
      - After the switch button is pressed, the DC motor speed is set to 90%. If the lap number is 0 and the LiDAR right side is greater than 120cm, the vehicle will turn clockwise. Otherwise, it will skip. When the distance in front is less than 60, the vehicle will turn.  
      - The program will continuously check if it has finished three laps. If not, it will detect if the current lap is finished. If not, it will determine if it is the second lap. If so, it will determine if the distance in front is greater than 60. If yes, it will continue to go straight until it is less than 60, then turn. After turning, it will go straight for a distance, otherwise the LiDAR may miscalculate and turn early.  
