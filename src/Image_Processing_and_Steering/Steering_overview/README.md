@@ -2,8 +2,8 @@
 
 ## <div align="center">Steering Overview</div> 
 
-- #### Llidar Steering
-    - Perform wall navigation. First, read one side of the LiDAR to check if the distance is greater than 100 cm. If the LiDAR on the right side reads a distance greater than 100 cm, it indicates clockwise movement; otherwise, it indicates counterclockwise movement.
+- #### Wall Steering
+    - While the vehicle is moving, it reads whether one side of the LiDAR walls is more than 100 cm away. If the right LiDAR reads a distance exceeding 100 cm, it indicates clockwise motion; otherwise, it is counterclockwise, and the vehicle performs a steering maneuver.
     - After determining the travel direction, read the distance between the LiDAR and the wall ahead. When the distance between the LiDAR and the wall is less than 55 cm, execute the turning action.
     - program code:
         ```
@@ -19,17 +19,17 @@
         |:---:|
         |<div align="center"> <img src="./img/read_lidar.png" width="300" alt="Detecting_nearby_obstacles"></div>|
 
-- #### Pillar Steering
-    - Use filtered red and green images to obtain the X and Y coordinates, as well as the area of the image.  
+- #### Obstacle Avoidance
+    - While the vehicle is in motion, the camera lens transmits the video to the controller (Raspberry Pi), which performs calculations to obtain the X and Y coordinates and area of the objects in the image.
     - We will complete the avoidance of traffic signs through the following steps:  
         1. Use the Y coordinates to determine which block has a larger Y coordinate, indicating that it is closer.  
         2. Determine the color of the closer traffic sign and obtain its X coordinate.  
         3. Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance coefficient to calculate the error value.  
         4. Set the steering angle of the servo motor to turn in the direction of the error value, completing the avoidance of the traffic sign.
 
-        |Recognize Obstacles that are Closer in Distance|XY Coordinates of Obstacles|
-        |:---:|:---:|
-        |<div align="center"> <img src="./img/Detecting_Nearby_Obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
+  |Recognize Obstacles that are Closer in Distance|XY Coordinates of Obstacles|
+  |:---:|:---:|
+  |<div align="center"> <img src="./img/Detecting_nearby_obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
 
   
 
