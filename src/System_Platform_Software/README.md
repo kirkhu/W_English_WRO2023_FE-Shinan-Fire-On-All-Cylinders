@@ -2,7 +2,7 @@
 
 ## <div align="center">Software Platform Construction </div> 
 - ### Installing System Software Required for Self-Driving Cars 
- - #### System Platform Software Installation Process Diagram  
+  - #### System Platform Software Installation Process Diagram  
    ![images](./img/software_setup.png)     
    - When installing PI OS, select "Raspberry Pi OS (Legacy)" for installation.
       - Software link：[Raspberry Pi](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) 
