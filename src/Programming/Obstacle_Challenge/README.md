@@ -63,7 +63,11 @@
         - "Obstacle_Challenge.py" is the main program responsible for controlling the self-driving car. It reads the values detected by the color sensor, LIDAR sensor, and image recognition technology to drive the car's motors and achieve the goal of avoiding obstacles and completing specific tasks.
 
 - ### Obstacle Challenge Program Operation Flowchart Description
-  - Activate the program along with the LiDAR. After activation, the program will read the values from the LiDAR and color sensor, as well as capture photos from the camera. When the button is pressed, the DC motor speed will be set to 60%, and it will continue to move forward until the color sensor detects a line. It will execute a turn and check if it has turned 12 times. If it has, it will end; if not, it will continue to repeat the process of moving forward and checking for wall turns.  
+  - After the vehicle starts, the program reads values from the LiDAR, color sensor, and captures images from the camera. Once the button is pressed, the program sets the DC motor speed to 60% and the vehicle continues moving forward. It keeps moving forward until the color sensor detects a line, at which point it initiates a turn. The program then checks whether it has completed 12 turns; if it has, the program ends. If not, it continues repeating the cycle of moving forward, avoiding obstacles, and turning when a wall is detected.  
+  - During the course of driving, the images captured by the camera undergo processing to obtain the X and Y coordinates, as well as the area of objects within the frame.  
+  - Subsequently, by subtracting the X-coordinate of the nearer traffic sign from the X-coordinate of our intended target to avoid, we calculate an error value. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
+  - When the vehicle is in its second lap and encounters a green traffic signal at the end, it continues to proceed according to the regulations.
+  - When the vehicle is in its second lap and encounters a red traffic signal at the end, it will turn around in the starting area, and then follow the regulations, completing 12 wall-turns before ending the program.
   - __Subroutine Description:__   
 
     __1. Determining Vehicle Turn Direction Based on Blue and Orange Lines Subroutine：__    
