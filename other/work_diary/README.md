@@ -965,5 +965,15 @@ When the program is initiated, because the button is located on the circuit boar
 
 This week, the hardware of the machine has been completed. Next, it's all about continuous practice, program modifications, and report writing. The report has numerous issues with both text and formatting, making it challenging to clearly distinguish the content to be expressed. Therefore, we are using an indented format to differentiate. When there are sub-items under a main item, the sub-items are indented by one level, which allows for a clear distinction of the content of different items.
 
+## 2023/10/16 ~ 2023/10/22
+**Member:** ZHAO,ZHEN-BO、LIN,JHONG-BIN、Hu,Yun-Ruei  
+**Content:**
+
+This week, we started making the final adjustments. With only two weeks left before the competition, we are speeding up our work and starting to prepare the paper materials. We are using PowerPoint to create them because PowerPoint allows us to freely arrange the data we need to present. Although there is a lot of data, it can be made neat and tidy through layout, and will not be too cluttered and cause the image to be untidy.
+
+<div align="center">
+<img src="./img/10/10-16.png" width=300>
+</div>
+
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div> 
 
