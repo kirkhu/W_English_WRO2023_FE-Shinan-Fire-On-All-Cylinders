@@ -36,8 +36,8 @@
     - [ROS Introduction OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/other/ROS)
     - [Software Platform Construction OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/System_Platform_Software/README.md)
     - __Image Processing and Predictions__
-      - [Image Processing](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Image_Processing_and_Predictions/README.md#image-processing)  
-      - [Steering Overview](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Image_Processing_and_Predictions/README.md#traffic-sign-avoidance) 
+      - [Image Processing](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Image_Processing/README.md#image-processing)  
+      - [Steering Overview](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Steering_overview/README.md#traffic-sign-avoidance) 
     - __Programming__
       - [Open Challenge Code Overview OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Programming/Open_Challenge)
       - [Obstacle Challenge Code Overview OK](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/src/Programming/Obstacle_Challenge)
