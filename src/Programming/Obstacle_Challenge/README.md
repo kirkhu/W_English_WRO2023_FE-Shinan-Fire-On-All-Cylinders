@@ -65,7 +65,7 @@
 - ### Obstacle Challenge Program Operation Flowchart Description
   - After the vehicle starts, the program reads values from the LiDAR, color sensor, and captures images from the camera. Once the button is pressed, the program sets the DC motor speed to 60% and the vehicle continues moving forward. It keeps moving forward until the color sensor detects a line, at which point it initiates a turn. The program then checks whether it has completed 12 turns; if it has, the program ends. If not, it continues repeating the cycle of moving forward, avoiding obstacles, and turning when a wall is detected.   
      [Wall-Steering@Steering_overview](../../Image_Processing_and_Steering/Steering_overview#wall-steering)  
-    - During the course of driving, the images captured by the camera undergo processing to obtain the X and Y coordinates, as well as the area of objects within the frame.  
+  - During the course of driving, the images captured by the camera undergo processing to obtain the X and Y coordinates, as well as the area of objects within the frame.  
    [Image_Processing](../../Image_Processing_and_Steering/Image_Processing/)     
   - Subsequently, by subtracting the X-coordinate of the nearer traffic sign from the X-coordinate of our intended target to avoid, we calculate an error value. Finally, we set this error value as the angle for the servo motor to turn, completing the avoidance maneuver around the traffic sign.  
     [obstacle-avoidance@Steering_overview](../../Image_Processing_and_Steering/Steering_overview#obstacle-avoidance)  
