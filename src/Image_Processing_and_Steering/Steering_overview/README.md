@@ -1,4 +1,4 @@
-<div align=center> <img src="../../other/img/logo.png" width=300 alt=" logo"> </div>
+<div align=center> <img src="../../../other/img/logo.png" width=300 alt=" logo"> </div>
 
 ## <div align="center">Steering Overview</div> 
 
@@ -43,6 +43,6 @@
     |:---:|
     |<div align="center"> <img src="./img/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
 
-# <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
+# <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../)</div>  
 
 
