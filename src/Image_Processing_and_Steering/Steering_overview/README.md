@@ -35,9 +35,10 @@
 
  ### Slalom Steering
 
-  - We will use the color sensor to detect the number of times the line is crossed and determine if it has exceeded the set count.
-  - If the specified count is not reached, the system will continuously record the color of the nearest traffic sign until the number of line crossings is greater than or equal to the set count. At that point, it will stop recording colors.
-  - After recording the color of the nearest traffic sign, the program will determine if the color is red. If the sign color is red, the system will set the servo motor angle for a right turn and continue turning until the vehicle is facing the specified direction. If the nearest traffic sign color is not red, the vehicle will continue moving forward.  
+  - We will use a color sensor to count the number of times the track lines are passed, to determine if it has entered the last area of the second lap.
+  - Therefore, if the count reaches 7 times, it means that the car has entered the last area of the second lap.
+  - If the car reaches the last area of the second lap, the system will use the camera to continuously record the color of the nearest traffic sign until the car leaves the area. At this point, the traffic sign color will no longer be recorded.
+  - If the color of the last traffic sign in the last area of the second lap is green, the car will continue to go straight. If the color of the sign is red, the car will turn around in the next area (starting area).
     
     |Display the Number of Lines and the Color of the Nearest Traffic Sign|
     |:---:|
