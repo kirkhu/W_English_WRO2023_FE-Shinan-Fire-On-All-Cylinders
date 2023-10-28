@@ -2,32 +2,32 @@
 
 # <div align="center">Vehicle Chassis Design Process</div> 
 - ## __Vehicle Chassis Design__
-|3D Vehicle Chassis Design| Vehicle Chassis Top View | Vehicle Chassis Bottom View|
-|:----:|:----:|:----:|
-|<img src="./img/Vehicle chassis description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/down_layer_top_view.jpg" width="400" alt="up_view">|<img src="./img/down.png" width="400" alt="down_view">|
+  |3D Vehicle Chassis Design| Vehicle Chassis Top View | Vehicle Chassis Bottom View|
+  |:----:|:----:|:----:|
+  |<img src="./img/Vehicle chassis description.png" width="400" alt="vehicle_chassis_design_3D">|<img src="./img/down_layer_top_view.jpg" width="400" alt="up_view">|<img src="./img/down.png" width="400" alt="down_view">|
 
   We replaced most of the LEGO parts on the chassis with components 3D printed through photopolymerization. This allowed us to save space and customize dimensions and shapes according to the vehicle's needs. With photopolymerization, we were able to introduce bearings in the middle to reduce friction and increase the vehicle's speed. Additionally, we transitioned the mentioned Ackermann steering mechanism to be 3D printed through photopolymerization. This freed us from the constraints of fixed LEGO part shapes, enabling us to freely adjust the Ackermann angle.  
 
 - ### Chassis Improvement Record
-|First Prototype | Explanation 說明 |
-|:----:|:----:|
-|<img src="./img/body_bottom_lego.png" width="400" alt="body_bottom_lego">| This is the first prototype of the chassis assembled using LEGO and wooden boards. However, during assembly, many structural components couldn't be realized due to the constraints of LEGO specifications, such as the Ackermann steering mechanism.|
+  |First Prototype | Explanation 說明 |
+  |:----:|:----:|
+  |<img src="./img/body_bottom_lego.png" width="400" alt="body_bottom_lego">| This is the first prototype of the chassis assembled using LEGO and wooden boards. However, during assembly, many structural components couldn't be realized due to the constraints of LEGO specifications, such as the Ackermann steering mechanism.|
 
-|Second Prototype| Explanation 說明 |
-|:----:|:----:|
-|<img src="./img/_2.png" width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
+  |Second Prototype| Explanation 說明 |
+  |:----:|:----:|
+  |<img src="./img/_2.png" width="500" alt="body_bottom_lego">| To ensure smoother wheel rotation, we incorporated bearings. We utilized a photopolymerization-based 3D printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
 
-|Third Prototype | Explanation 說明 |
-|:----:|:----:|
-|<img src="./img/3.png" width="700" alt="body_bottom_lego">| We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
+  |Third Prototype | Explanation 說明 |
+  |:----:|:----:|
+  |<img src="./img/3.png" width="700" alt="body_bottom_lego">| We attempted to create an integrated chassis structure through 3D printing. The advantage we considered was that it eliminates the need to assemble it in separate parts, making the model more compact. However, later we discovered that the 3D printed base was quite fragile and prone to breaking.|
 
-|Fourth Prototype | Explanation 說明 |
-|:----:|:----:|
-|<img src="./img/4.png" width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
+  |Fourth Prototype | Explanation 說明 |
+  |:----:|:----:|
+  |<img src="./img/4.png" width="500" alt="body_bottom_lego">| Due to the fragility of the 3D printed material, we reverted back to using the original wooden board material. Additionally, we adjusted the placement of the servo motor to lower its position, thus reducing the center of gravity and enhancing stability.|
 
-|Final Build | Explanation 說明 |
-|:----:|:----:|
-|<img src="./img/5.png" width="400" alt="body_bottom_lego">| The key change in this edition is shifting the position of the servo motor from being on the left side to being in the center. Otherwise, the left wooden board would be too thin and prone to breaking.|
+  |Final Build | Explanation 說明 |
+  |:----:|:----:|
+  |<img src="./img/5.png" width="400" alt="body_bottom_lego">| The key change in this edition is shifting the position of the servo motor from being on the left side to being in the center. Otherwise, the left wooden board would be too thin and prone to breaking.|
 
 - ## __Ackermann Steering Geometry__
 
