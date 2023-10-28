@@ -9,10 +9,10 @@
 <ul>
   <li>The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.</li>
   <li>The TCS34725 color sensor has two primary functions on the vehicle:</li>
-     <ol>
-     <li>It can count laps around the track by detecting the blue and orange lines on the field.</li>
-     <li>By detecting the sequence of blue and orange lines through the color sensor, it can determine whether the vehicle is currently moving in a clockwise or counterclockwise direction. This information is used by the program to calculate the number of clockwise and counterclockwise turns, ensuring that the vehicle can smoothly return to the starting area after completing 3 laps.</li>
-   </ol>
+  <ol>
+  <li>It can count laps around the track by detecting the blue and orange lines on the field.</li>
+  <li>By detecting the sequence of blue and orange lines through the color sensor, it can determine whether the vehicle is currently moving in a clockwise or counterclockwise direction. This information is used by the program to calculate the number of clockwise and counterclockwise turns, ensuring that the vehicle can smoothly return to the starting area after completing 3 laps.</li>
+  </ol>
 </ul>
 </td>
  <td width=250 ><img src="./img/TCS34725.png" alt="TCS34725" width="250" /> 
