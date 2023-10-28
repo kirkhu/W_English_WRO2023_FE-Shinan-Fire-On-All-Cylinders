@@ -9,7 +9,7 @@
   #### 1. Mobility Management
     * [Vehicle 2D/3D Models in CAD](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Vehicle_2D_3D/README.md)
     * [Motor Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
-    * [Vehicle Chassis Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Vehicle_Chassis_Design/README.md)
+    * [Vehicle Chassis Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/VVehicle_Chassis_Design/README.md)
 
     
   #### 2. Power and Sense Management
