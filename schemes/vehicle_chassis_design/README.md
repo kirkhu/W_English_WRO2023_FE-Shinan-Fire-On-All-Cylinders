@@ -74,7 +74,7 @@
     <th>Assembled Using Photocured PartsAssembling Parts Produced with a SLA 3D Printer</th>
     </tr><tr>
     <td><img src="./img/Vehicle Chassis Design_top_view_circle.png" width=250></td>
-    <td><img src="./img/car_wood_up-removebg-preview.png"></td>
+    <td align=center><img src="./img/car_wood_up-removebg-preview.png"></td>
     </tr>
     </table>
     </div>
