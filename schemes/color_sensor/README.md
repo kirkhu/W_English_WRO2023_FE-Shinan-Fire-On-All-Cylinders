@@ -6,10 +6,14 @@
 <table>
 <tr>  
 <td>
- <li>In the competition, vehicles need to demonstrate more functionalities than just turning. To achieve clockwise and counterclockwise turns, we must equip the vehicle with a color sensor to detect the colors of the lines on the ground and make appropriate judgments accordingly. Therefore, we must be particularly cautious in selecting the color sensor. </li>
- <li>The TCS34725 color sensor can count laps by detecting the blue and orange lines on the track.</li> 
- <li>The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.</li> 
- <li>The high precision of this sensor ensures that the vehicle can accurately recognize the colors of the ground lines and execute clockwise or counterclockwise turns as needed.  </li>
+<ul>
+  <li>The TCS34725 color sensor has been chosen because it meets all the requirements of this competition. Firstly, it possesses outstanding sensing capabilities, allowing it to quickly and accurately identify the colors of the ground lines. Secondly, the sensor is thin and compact, enabling it to be placed close to the ground without interfering with the vehicle's movements.</li>
+  <li>The TCS34725 color sensor has two primary functions on the vehicle:</li>
+     <ol>
+     <li>It can count laps around the track by detecting the blue and orange lines on the field.</li>
+     <li>By detecting the sequence of blue and orange lines through the color sensor, it can determine whether the vehicle is currently moving in a clockwise or counterclockwise direction. This information is used by the program to calculate the number of clockwise and counterclockwise turns, ensuring that the vehicle can smoothly return to the starting area after completing 3 laps.</li>
+   </ol>
+</ul>
 </td>
  <td width=250 ><img src="./img/TCS34725.png" alt="TCS34725" width="250" /> 
 </td>
@@ -17,11 +21,10 @@
 </table> 
 </div>
   
-In summary, the TCS34725 color sensor is a sensor perfectly suited for the requirements of this competition. Its slim design and highly accurate color recognition capabilities enable the vehicle to adapt flexibly to changes in ground lines, achieving both clockwise and counterclockwise turns. This significantly enhances the performance of the vehicle in the competition.
-
 We encountered a bottleneck when using the color sensor to detect lines because we was unsure how to write a Python program to detect the values of blue and orange lines. 
-  With the guidance of my teacher, We successfully completed it.  
-- __The partial code is as follows:__
+        
+With the guidance of my teacher, We successfully completed it.  
+ __The partial code is as follows:__
 
 <div align="center" width=100%>
 <table >
