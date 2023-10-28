@@ -133,7 +133,7 @@
     </div>
 
 
-  - #### Stereolithography (SLA) 3D Printer
+  - #### Maintenance for Stereolithography (SLA) 3D Printer
     A stereolithography 3D printer may become unusable due to resin clogs if it is not regularly maintained, so it needs periodic cleaning. To understand how to maintain the machine, we sought advice from a senior student, who graciously gave us a hands-on demonstration.
 
     __Maintenance Process:__
