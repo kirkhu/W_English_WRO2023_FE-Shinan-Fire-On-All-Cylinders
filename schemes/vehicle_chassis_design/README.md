@@ -4,7 +4,7 @@
 
 - ### Vehicle Chassis Design
   - The vehicle chassis used in this competition is self-designed and developed.
-  - The vehicle chassis uses the Ackermann steering mechanism to facilitate vehicle obstacle avoidance and U-turning.
+  - We incorporated the Ackermann Steering Geometry into the chassis mechanism to facilitate obstacle avoidance and U-turning of the vehicle.
   - The following table shows the 3D models and finished products of the vehicle chassis.
 
 
