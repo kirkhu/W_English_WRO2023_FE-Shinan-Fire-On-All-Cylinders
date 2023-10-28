@@ -190,7 +190,7 @@
    </div>
 
   - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer
-        The following data was obtained during the experiment when printing the Ackermann steering mechanism. 
+    The following data was obtained during the experiment when printing the Ackermann steering mechanism. 
         <div align="center">
         <table>
         <tr align="center">
