@@ -65,7 +65,7 @@
     - The Ackermann steering geometry components within the red box in the bottom-right diagram are assembled from self-produced plastic parts using a Stereolithography (SLA) 3D Printer.
     - Assembling the steering system with LEGO bricks can save costs and time, while using a Stereolithography (SLA) 3D printer to manufacture plastic parts can enhance precision and customization.
     - During the process of production and testing, we found that using LEGO bricks was limited by the original specifications, making it difficult to create a structure that perfectly suited our needs. In contrast, utilizing a Stereolithography (SLA) 3D Printer to produce the Ackermann steering geometry components allowed for customization in size and shape, giving us the flexibility to design and print according to our specific requirements. 
-    - __As a result, we ultimately decided to use the SLA 3D Printer to manufacture the Ackermann steering geometry components for the vehicle's steering mechanism.__"
+    - __As a result, we ultimately decided to use the SLA 3D Printer to manufacture the Ackermann steering geometry components for the vehicle's steering mechanism.__
 
     <div align=center>
     <table>
