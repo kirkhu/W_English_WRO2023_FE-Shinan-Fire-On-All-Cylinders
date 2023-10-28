@@ -39,10 +39,14 @@
   - Therefore, if the count reaches 7 times, it means that the car has entered the last area of the second lap.
   - If the car reaches the last area of the second lap, the system will use the camera to continuously record the color of the nearest traffic sign until the car leaves the area. At this point, the traffic sign color will no longer be recorded.
   - If the color of the last traffic sign in the last area of the second lap is green, the car will continue to go straight. If the color of the sign is red, the car will turn around in the next area (starting area).
-    
-    |Display the Number of Lines and the Color of the Nearest Traffic Sign|
-    |:---:|
-    |<div align="center"> <img src="./img/detect_last_obstacle.png" width="300" alt="Obstacle_XY_coordinates"></div>|
+
+ <div align="center">
+
+|Display the number of lines and the color of the nearest traffic sign|Camera detects the color of the nearest traffic sign|
+|:---:|:---:
+|<div align="center"> <img src="./img/detect_last_obstacle.png" width="300" alt="detect_last_obstacle"></div>|<div align="center"> <img src="./img/camera_detects_color.png" width="300" alt="camera_detects_color"></div>|
+
+</div>
 
 # <div align="center">![HOME](../../../other/img/Home.png)[Return Home](../../)</div>  
 
