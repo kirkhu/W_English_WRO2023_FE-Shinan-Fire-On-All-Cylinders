@@ -240,7 +240,7 @@
 
     </tr><tr>
       <td><img src="./Vehicle_Chassis_Sizse/Front_Assembly_size.png" width="300" alt="Front Assembly"></td> 
-      <td><img src="./Vehicle_Chassis_Sizse/Steering Knuckle_size.png" width="300" alt="Steering Knuckle"></td> 
+      <td><img src="./Vehicle_Chassis_Sizse/Steering Kunckle_size.png" width="300" alt="Steering Knuckle"></td> 
       <td><img src="./Vehicle_Chassis_Sizse/center_Bearing_Holder_size.png" width="300" alt="center_Bearing_Holder_size"></td>
       <td><img src="./Vehicle_Chassis_Sizse/outer_bearing_Holder_size.png" width="300" alt="out_Bearing_Holder_size"></td>
       </tr>
@@ -257,7 +257,7 @@
 
       </tr><tr>
       <td><img src="./img/Fornt_Assembly.png" width="400" alt="Front Assembly"></td> 
-      <td><img src="./img/Steering_Kunckle.png" width="300" alt="Steering Kunckle"></td> 
+      <td><img src="./img/Steering_Kunckle.png" width="300" alt="Steering Knuckle"></td> 
       <td><img src="./img/Bearing_Holder.png" width="300" alt="Bearing Holder"></td>
       </tr>
       </table>
