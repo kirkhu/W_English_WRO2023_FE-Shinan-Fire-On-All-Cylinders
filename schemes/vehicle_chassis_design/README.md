@@ -60,7 +60,7 @@
     - In theory, this design is the optimal choice for smooth and efficient turns. However, it may lead to excessive tire wear. Therefore, in automobile design, a 100% Ackermann ratio is usually not chosen. Compared to a 100% Ackermann ratio, an 80% Ackermann ratio allows for smoother, more predictable turns, improves maneuverability, and reduces tire wear.
 
 
-  - #### Producing Ackermann steering geometry components (80% Ackermann angle) using Stereolithography (SLA) 3D Printer."
+  - #### Producing Ackermann steering geometry components (80% Ackermann angle) using Stereolithography (SLA) 3D Printer
     - The Ackermann steering geometry components within the red box in the bottom-left diagram are assembled using LEGO bricks.
     - The Ackermann steering geometry components within the red box in the bottom-right diagram are assembled from self-produced plastic parts using a Stereolithography (SLA) 3D Printer.
     - Assembling the steering system with LEGO bricks can save costs and time, while using a Stereolithography (SLA) 3D printer to manufacture plastic parts can enhance precision and customization.
