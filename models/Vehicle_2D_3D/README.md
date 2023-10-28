@@ -177,19 +177,19 @@
     </table>
     </div>
 
-    - Because the photocured parts are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing, making the parts harder and less susceptible to deformation, which could affect the vehicle's movement.  
+  - Because the photocured parts are somewhat soft, we need to expose them to ultraviolet (UV) light for secondary curing, making the parts harder and less susceptible to deformation, which could affect the vehicle's movement.  
 
-    <div align=center>
-    <table>
-    <tr>
-    <th>Secondary Curing</th>
-    </tr><tr>
-    <td><img src="./img/curing_again.jpg" width=300 alt="light_again"></td>
-    </tr>
-    </table>
-    </div>
+  <div align=center>
+   <table>
+   <tr>
+   <th>Secondary Curing</th>
+   </tr><tr>
+   <td><img src="./img/curing_again.jpg" width=300 alt="light_again"></td>
+   </tr>
+   </table>
+   </div>
 
-    - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer
+  - #### Comparison between Stacked 3D Printer and  Stereolithography (SLA) 3D Printer
         The following data was obtained during the experiment when printing the Ackermann steering mechanism. 
         <div align="center">
         <table>
