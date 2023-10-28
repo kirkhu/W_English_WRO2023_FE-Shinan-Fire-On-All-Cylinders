@@ -233,8 +233,8 @@
       <div align=center>
       <table>
       <tr>
-      <th>Fornt Assembly</th>
-      <th>Steering Kunckle</th>
+      <th>Front Assembly</th>
+      <th>Steering Knuckle</th>
       <th>Center Bearing Holder</th>
       <th>Out Bearing Holder</th>
 
@@ -251,8 +251,8 @@
       <div align=center>
       <table>
       <tr>
-      <th>Fornt Assembly</th>
-      <th>Steering Kunckle</th>
+      <th>Front Assembly</th>
+      <th>Steering Knuckle</th>
       <th>Bearing Holder</th>
 
       </tr><tr>
