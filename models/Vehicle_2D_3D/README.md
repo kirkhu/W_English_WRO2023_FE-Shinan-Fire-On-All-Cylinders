@@ -67,7 +67,7 @@
         </table>
         </div> 
 
-    - #### Vehicle body wooden panels produced using a Laser Cutting Machine
+    - #### Vehicle Body Wooden Panels Produced Using a Laser Cutting Machine
         <div align=center>
         <table>
         <tr>
