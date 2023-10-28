@@ -159,7 +159,7 @@ Maintenance Process:
 <tr>
 <th>Secondary Curing</th>
 </tr><tr>
-<td><img src="./img/2.jpg" width=300 alt="light_again"></td>
+<td><img src="./img/curing_again.jpg" width=300 alt="light_again"></td>
 </tr>
 </table>
 </div>
