@@ -26,7 +26,7 @@
 
         |Second Prototype| Explanation|
         |:----:|:----|
-        |<img src="./img/2.png" width="500" alt="body_bottom_lego">|To ensure smoother wheel rotation, we incorporated bearings. We utilized a Stereolithography (SLA) 3D Printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
+        |<img src="./img/2-1.png" width="500" alt="body_bottom_lego">|To ensure smoother wheel rotation, we incorporated bearings. We utilized a Stereolithography (SLA) 3D Printer to create the bearing mounts, which were then accurately aligned with corresponding holes cut into the wooden board.|
 
         |Third Prototype | Explanation|
         |:----:|:----|
