@@ -645,8 +645,8 @@ if get_mid_dis > 55:
   - [Open Challenge all Width speed 50%](https://youtu.be/OUg0x4Qdc0)  
 
  __Open Challenge__
-  - [Obstacle Challenge speed 50% ](https://youtu.b/Jo7555gfXG8)
-  - [Obstacle Challenge speed 70% ](https://youtu.b/iCmcXbACizY)
+  - [Obstacle Challenge speed 50% ](https://youtu.be/Jo7555gfXG)
+  - [Obstacle Challenge speed 70% ](https://youtu.be/iCmcXbACiz)
 
 __Team Members' Practice Status__
 
