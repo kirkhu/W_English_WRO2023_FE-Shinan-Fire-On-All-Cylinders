@@ -12,4 +12,4 @@ The following video showcases the vehicle design and mission testing process.
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
-> from kirk@snjh.tc.edu.tw
+
