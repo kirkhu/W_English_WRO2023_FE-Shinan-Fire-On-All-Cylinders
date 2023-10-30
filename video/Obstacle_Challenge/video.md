@@ -1,22 +1,34 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-2023WRO Future Engineers Shinan Fire On All Cylinders  
-=====
+## <div align="center">Testing Video of Self-Driving Car in Obstacle Challenge</div>
 
- - ### Explanation to Obstacle Challenge
+- #### 第二圈最後一個交通號誌是綠色號誌(需迴轉) The last traffic light on the second lap is a green signal.(No need to turn around ) 
 
-    - The mission race is based on the qualification race with the addition of the obstacle avoidance task. The mission requirements are as follows:  
-        - If the obstacle ahead is a red block, the robot needs to pass it on the left side.  
-        - If the obstacle ahead is a green block, the robot needs to pass it on the right side.  
-        - The robot must not push the blocks out of the designated circle.  
-        - Additionally, if the last block in the second lap is red, the robot should reverse its direction in the third lap. If the last block is green, the direction remains unchanged.
+  以下為車輛在第二圈最後一個交通號誌是綠色的測試影片。  
+  Here is a test video of a vehicle on the second lap, with the last traffic light being green. 
 
+|第二圈最後一個交通號誌是綠色號誌 The last traffic light on the second lap is a green signal.|
+|:---:|
+|[![Obstacle Challenge noRed@Shinan-Fire-On-All-Cylinders](./img/Obstacle_Challenge_noRed.jpg)](https://youtu.be/DJtCfLO1X_A "Obstacle Challenge noRed@Shinan-Fire-On-All-Cylinders")|
+
+- #### 第二圈最後一個交通號誌是紅色號誌(需迴轉) The last traffic light on the second lap is red.(Need to turn around)  
+
+  以下是第二圈最後一個是紅色號誌在不同位置的測試影片。  
+  Here are test videos of the last traffic light being red in different positions on the second lap.  
+
+|At Position 1|At Position 2|At Position 3|
+|:---:|:---:|:---:|
+|[![Obstacle Challenge Red1@Shinan-Fire-On-All-Cylinders](./img/Obstacle_Challenge_Red1.png)](https://youtu.be/1W0Gnmo7FZM "Obstacle Challenge Red1@Shinan-Fire-On-All-Cylinders")|[![Obstacle Challenge Red2@Shinan-Fire-On-All-Cylinders](./img/Obstacle_Challenge_Red2.png)](https://youtu.be/fHehasALiVo "Obstacle Challenge Red2@Shinan-Fire-On-All-Cylinders")|[![Obstacle Challenge Red3@Shinan-Fire-On-All-Cylinders](./img/Obstacle_Challenge_Red3.png)](https://youtu.be/uEku-8vA7zQ "Obstacle Challenge Red3@Shinan-Fire-On-All-Cylinders")|
+
+
+
+ - ### Explanation to Obstacle Challenge(任務賽講解) 
 
 <div align="center">
   
-
-### <div align="center">Obstacle Challenge of Demonstration Video
+[![Shina_Fire_On_Al_%20Cyliders](./img/Shina_Fire_On_Al_%20Cyliders.png)](https://youtu.be/7WiBLkQUE0Q "Shina_Fire_On_Al_%20Cyliders")
+</div>
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
-
+> from kirk@snjh.tc.edu.tw
