@@ -36,4 +36,4 @@
 |[![Open Challange Countclockwise](./img/Open_Challenge_Clockwise.jpg)](https://youtu.be/rzolv8BAnoE "Open Challange Countclockwise") |[![Open Challange Countclockwise](./img/Open_Challenge_CounterClockwise.jpg)](https://youtu.be/HQ7YA0zPUbA "Open Challange Countclockwise")|
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
-> from kirk@snjh.tc.edu.tw
+
