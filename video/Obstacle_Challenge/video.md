@@ -2,18 +2,16 @@
 
 ## <div align="center">Testing Video of Self-Driving Car in Obstacle Challenge</div>
 
-- #### 第二圈最後一個交通號誌是綠色號誌(需迴轉) The last traffic light on the second lap is a green signal.(No need to turn around ) 
+- #### The last traffic light on the second lap is a green signal.(No need to turn around ) 
 
-  以下為車輛在第二圈最後一個交通號誌是綠色的測試影片。  
   Here is a test video of a vehicle on the second lap, with the last traffic light being green. 
 
-|第二圈最後一個交通號誌是綠色號誌 The last traffic light on the second lap is a green signal.|
+|The last traffic light on the second lap is a green signal.|
 |:---:|
 |[![Obstacle Challenge noRed@Shinan-Fire-On-All-Cylinders](./img/Obstacle_Challenge_noRed.jpg)](https://youtu.be/DJtCfLO1X_A "Obstacle Challenge noRed@Shinan-Fire-On-All-Cylinders")|
 
-- #### 第二圈最後一個交通號誌是紅色號誌(需迴轉) The last traffic light on the second lap is red.(Need to turn around)  
+- #### The last traffic light on the second lap is red.(Need to turn around)  
 
-  以下是第二圈最後一個是紅色號誌在不同位置的測試影片。  
   Here are test videos of the last traffic light being red in different positions on the second lap.  
 
 |At Position 1|At Position 2|At Position 3|
@@ -22,7 +20,7 @@
 
 
 
- - ### Explanation to Obstacle Challenge(任務賽講解) 
+ - ### Explanation to Obstacle Challenge
 
 <div align="center">
   
@@ -31,4 +29,3 @@
 
 # <div align="center">![HOME](../../other/img/Home.png)[Return Home](../../)</div>  
 
-> from kirk@snjh.tc.edu.tw
