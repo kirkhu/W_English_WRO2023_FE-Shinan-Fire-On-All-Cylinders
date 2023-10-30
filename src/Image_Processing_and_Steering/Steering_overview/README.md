@@ -27,11 +27,14 @@
    3. Subtract the desired avoidance coordinate from the X coordinate of the closer  traffic sign and then multiply it by the avoidance coefficient to calculate the error value.  
    4. Set the steering angle of the servo motor to turn in the direction of the error value, completing the avoidance of the traffic sign.
 
+<div align=center>
+
   |Recognize Obstacles that are Closer in Distance|XY Coordinates of Obstacles|
   |:---:|:---:|
   |<div align="center"> <img src="./img/Detecting_nearby_obstacles.png" width="400" alt="Detecting_nearby_obstacles"></div>|<div align="center"> <img src="./img/Obstacle_XY_coordinates.png" width="250" alt="Obstacle_XY_coordinates"></div>|
 
-  
+</div>  
+
 
  ### Slalom Steering
 
