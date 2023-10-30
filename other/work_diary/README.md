@@ -637,16 +637,16 @@ if get_mid_dis > 55:
 </table>
 
   __Open Challenge__
-  - [Open Challenge full narrow speed 70%](https://youtu.be/QtpuHt05MD)
-  - [Open Challenge full anrrow speed 50%](https://youtu.be/QaYUrrdAtE)
-  - [Open Challenge half width and half narrow speed 70%](https://youtu.be/pcTpH8QgJF)
-  - [Open Challenge half width and half narrow speed 50%](https://youtu.be/7HdWxfWPfW)
-  - [Open Challenge all width speed 70%](https://youtu.be/MA1k2P87LE)
-  - [Open Challenge all Width speed 50%](https://youtu.be/OUg0x4Qdc0)  
+  - [Open Challenge full narrow speed 70%](https://youtu.be/QtpuHt05MDg)
+  - [Open Challenge full anrrow speed 50%](https://youtu.be/QaYUrrdAtE8)
+  - [Open Challenge half width and half narrow speed 70%](https://youtu.be/pcTpH8QgJFU)
+  - [Open Challenge half width and half narrow speed 50%](https://youtu.be/7HdWxfWPfWc)
+  - [Open Challenge all width speed 70%](https://youtu.be/MA1k2P87LdE)
+  - [Open Challenge all Width speed 50%](https://youtu.be/OUg0x4Qdc0c)  
 
  __Open Challenge__
-  - [Obstacle Challenge speed 50% ](https://youtu.be/Jo7555gfXG)
-  - [Obstacle Challenge speed 70% ](https://youtu.be/iCmcXbACiz)
+  - [Obstacle Challenge speed 50% ](https://youtu.be/Jo7555gfXG8)
+  - [Obstacle Challenge speed 70% ](https://youtu.be/iCmcXbACizY)
 
 __Team Members' Practice Status__
 
