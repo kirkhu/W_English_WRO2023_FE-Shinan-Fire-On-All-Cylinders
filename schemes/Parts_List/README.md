@@ -18,18 +18,18 @@
 <li><a href="https://www.amazon.com/-/zh_TW/TCS34725/dp/B0BBLXXJ4Q">TCS34725 RGB color sensor</a></li>
 <li><a href="https://www.robotshop.com/products/ldrobot-d100-lidar-kit">Lidar D100</a></li>
 <li>USB to TTL CP2102<br></li>  
-<li>ribbon cable 15 pin 30 cm spacing 0.1<br></li>
+<li>Ribbon cable 15 pin 30 cm spacing 0.1<br></li>
 <li>Lego 6573 Differential Gear<br></li>
 <li>695ZZ M5x13x4 bearing NSK<br></li>
-<li>iron wire 1.2mm 1.2mm<br></li>
-<li>flat cable female-to-female 40p(20x2)<br></li>
+<li>Iron wire 1.2mm 1.2mm<br></li>
+<li>Flat cable female-to-female 40p(20x2)<br></li>
 <li>Press-fit right-angle male socket 40p(20x2)<br></li>
 <li>white socket 2p<br></li>
 <li>white socket 3p<br></li>
 <li>white socket 4p<br></li>
 <li>white socket 6p<br></li>
-<li>female socket 2.45mm<br></li>
-<li>male socket 2.45mm<br></li>
+<li>Female socket 2.45mm<br></li>
+<li>Male socket 2.45mm<br></li>
 <li>plastic column M3x6mm column length 30mm<br></li>
 <li>plastic column M3x6mm column length 20mm<br></li>
 <li>plastic column M3x6mm column length 12mm<br></li>
@@ -43,7 +43,7 @@
 <li>Internal Phillips Head Metal Screw M2x14mm<br></li>
 <li>Internal Phillips Head Metal Screw M2x12mm<br></li>
 <li>Internal Phillips Head Metal Screw M2x4mm<br></li>
-<li>matal Nut M2<br></li>
+<li>Matal Nut M2<br></li>
 <li>Cross recessed round head Metal screw M2x10mm<br></li>
 <li>pegboard 30x48 hole 90x150 mm<br></li>
 <li>Light Curing Resin UV-604<br></li>
