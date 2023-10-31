@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
 
-## <div align="center">Hardware Assembly Instructions</div>
+## <div align="center">Hardware Assembly Instructions & Wiring Diagrams</div>
 - ### Hardware Configuration of Electronic Equipment
 
   - The combination of electronic equipment configuration with the vehicle chassis structure forms a self-driving car.
