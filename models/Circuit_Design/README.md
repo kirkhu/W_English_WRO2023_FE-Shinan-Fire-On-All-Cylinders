@@ -1,6 +1,6 @@
 <div align="center"><img src="../../other/img/logo.png" width="300" alt=" logo"></div>
-
-## <div align="center">Circuit Schematic Drawing </div>
+## <div align="center">Circuit Design </div>
+- ### Circuit Schematic Drawing
 
  - In the design of self-driving car circuits, we used the Fritzing circuit software to draw circuit diagrams according to the functions required by self-driving cars. This method allows construction workers to follow the drawings and reduce errors.
  - The circuit board for the self-driving car is not a finished product that we purchased. Instead, we soldered it ourselves using a phenolic universal board, according to the circuit diagram we designed in advance.
