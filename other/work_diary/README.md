@@ -689,7 +689,7 @@ __Team Members' Practice Status__
 </tr>
 <td>
 
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1691907166/video_to_markdown/images/youtube--VrU3wQa6h5M-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/VrU3wQa6h5M "video")</td>
+[![video](https://i.ytimg.com/vi/EAkR-t_6i7g/maxresdefault.jpg)](https://youtu.be/EAkR-t_6i7g "video")</td>
 </table>
 </div>
 
@@ -863,7 +863,7 @@ Today, we started learning how to use the stereolithography 3D printer and how t
 <tr>
 <th>Secondary curing</th>
 </tr><tr>
-<td><img src="../../models/Vehicle_2D_3D/img/2.jpg" width=300 alt="light_again"></td>
+<td><img src="../../models/Vehicle_2D_3D/img/curing_again.jpg" width=300 alt="light_again"></td>
 </tr>
 </table>
 </div>
