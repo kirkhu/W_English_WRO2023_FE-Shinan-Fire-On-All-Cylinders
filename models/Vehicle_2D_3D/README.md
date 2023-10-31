@@ -102,7 +102,7 @@
     </table>
     
     <table>
-    <tr align="center"><th colspan="3">The 3D Model and Physical Prototype of the Vehicle Chassis Designed for this Competition<th></tr>
+    <tr align="center"><th colspan="4">The 3D Model and Physical Prototype of the Vehicle Chassis Designed for this Competition<th></tr>
     <tr align="center">
     <td>3D Photo File</td>
     <td>Top View</td>
