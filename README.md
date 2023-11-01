@@ -7,28 +7,28 @@
 ## Rubric for Judging Engineering Documentation 
 - ###  ${{\color{red} Hardware Overview }} $ 
   #### 1. Mobility Management
-    * [Vehicle 2D/3D Models in CAD](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Vehicle_2D_3D/README.md)
-    * [Motor Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
-    * [Vehicle Chassis Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Vehicle_Chassis_Design/README.md)
+    * [1-1 Vehicle 2D/3D Models in CAD](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Vehicle_2D_3D/README.md)
+    * [1-2 Motor Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Motor/README.md)
+    * [1-3 Vehicle Chassis Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Vehicle_Chassis_Design/README.md)
 
     
   #### 2. Power and Sense Management
     - __Vehicle Design__
-      - [BOM Parts List](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Parts_List#readme)
-      - [Circuit Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
-      - [Hardware Poka-Yoke Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
-      - [Assembly Instructions & Wiring Diagrams](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)    
+      - [2-1-1 BOM Parts List](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Parts_List#readme)
+      - [2-1-2 Circuit Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/models/Circuit_Design/README.md)
+      - [2-1-3 Hardware Poka-Yoke Design](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/fool-proof-design/README.md) 
+      - [2-1-4 Assembly Instructions & Wiring Diagrams](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Assembly_Instructions/README.md)    
       
     - __Power Management__
-      - [Power Supply System](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
-      - [Li-Polymer Battery Low Voltage Alarm and Charging Equipment](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
+      - [2-2-1 Power Supply System](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Power_supply_system/README.md) 
+      - [2-2-2 Li-Polymer Battery Low Voltage Alarm and Charging Equipment](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Li-Polymer_Battery/README.md)  
    
     - __Controller Selection__
-      - [Controller Comparison](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Controller_Choosing)
+      - [2-3-1 Controller Comparison](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main/other/Controller_Choosing)
     - __Sense Management__
-      - [Color Sensor Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
-      - [Lidar Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
-      - [Camera Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
+      - [2-4-1 Color Sensor Introduction](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/color_sensor/README.md)
+      - [2-4-2 Lidar Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Lidar/README.md)
+      - [2-4-3 Camera Selection](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/blob/main/schemes/Camera/README.md)
   
 - ### ${{\color{red} Software Overview }} $ 
   #### 3. Obstacle Management
