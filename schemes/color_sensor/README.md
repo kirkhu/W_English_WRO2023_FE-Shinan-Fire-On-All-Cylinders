@@ -26,6 +26,38 @@ We encountered a bottleneck when using the color sensor to detect lines because 
 With the guidance of my teacher, We successfully completed it.  
  __The partial code is as follows:__
 
+ ''''
+class TCS34725():
+    def __init__(self):
+        self.enable_selection()
+        self.time_selection()
+        self.gain_selection()
+    def enable_selection(self):
+        """Select the ENABLE register configuration from the given provided values"""
+        ENABLE_CONFIGURATION = (TCS34725_REG_ENABLE_AEN | TCS34725_REG_ENABLE_PON)
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ENABLE | TCS34725_COMMAND_BIT, ENABLE_CONFIGURATION)
+    def time_selection(self):
+        """Select the ATIME register configuration from the given provided values"""
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_ATIME | TCS34725_COMMAND_BIT, TCS34725_REG_ATIME_2_4)
+        """Select the WTIME register configuration from the given provided values"""
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_WTIME | TCS34725_COMMAND_BIT, TCS34725_REG_WTIME_2_4)
+    def gain_selection(self):
+        """Select the gain register configuration from the given provided values"""
+        bus.write_byte_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CONTROL | TCS34725_COMMAND_BIT, TCS34725_REG_CONTROL_AGAIN_1)
+    def readluminance(self):
+        """Read data back from TCS34725_REG_CDATAL(0x94), 8 bytes, with TCS34725_COMMAND_BIT, (0x80)
+        cData LSB, cData MSB, Red LSB, Red MSB, Green LSB, Green MSB, Blue LSB, Blue MSB"""
+        data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8 )        
+        # Convert the data
+        cData = data[1] * 256 + data[0]
+        red = data[3] * 256 + data[2]
+        green = data[5] * 256 + data[4]
+        blue = data[7] * 256 + data[6]        
+# Calculate luminance
+        luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
+        return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
+ ''''
+
 <div align="center" width=100%>
 <table >
 <tr align="center">
