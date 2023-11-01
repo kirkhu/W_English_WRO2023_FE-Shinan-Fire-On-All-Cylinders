@@ -69,9 +69,6 @@ data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | T
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 ```
-![image](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/assets/128333488/3e4aaa24-69fc-4b84-90dd-42c91de13b7b)
-
-
 - #### Algorithm for Detecting Blue and Orange Lines Using a Color Sensor
   1. After the program is started, it will first read the three original values of the field lines: blue (blue_color = 15), orange (orange_color = 27), and white (white_color = 35).
   2. Then, the light sensor will read the current color value of the field and record it in the variable color_value. If the detected color value is greater than white (35), the vehicle can move forward directly. Otherwise, it indicates that it may be one of the blue (15) or orange (27) lines.
