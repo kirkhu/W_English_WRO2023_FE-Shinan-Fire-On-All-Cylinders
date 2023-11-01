@@ -115,7 +115,7 @@
     - 293D is a dual H-bridge DC motor driver IC that can be used to control two DC motors.
     - Wide operating voltage range: 4.5V to 36V.
     - Output current: 600 mA (continuous) and 1.2 A (peak) per channel.
-    - Output voltage range: 3 V to 36 V.
+    - Output voltage range: 3 V to 36 V.  
     __Uses in Competition：__  
     - Drive the vehicle forward and backward by controlling the JGA25-370 DC gear motor
     </td>
