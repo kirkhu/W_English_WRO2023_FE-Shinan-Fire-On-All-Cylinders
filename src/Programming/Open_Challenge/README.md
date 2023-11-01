@@ -1,6 +1,8 @@
 <div align=center> <img src="../../../other/img/logo.png" width = 300 alt=" logo"> </div>
 
 ## <div align="center">Open Challenge Code Overview</div> 
+ 
+ - ####  Program Libraries
  - In the competition, vehicle control involves complex operations such as image recognition, color identification, distance detection, motor rotation, and vehicle steering. All of these are implemented using the __Python__ programming language.
  - Through the built-in SSH or VNC functionality in Mobaxterm or using RealVNC, we can easily connect to the Raspberry Pi, access its editor interface, carry out programming tasks, and perform real-time execution tests.  
  - The libraries introduced in this competition program are as follows.
