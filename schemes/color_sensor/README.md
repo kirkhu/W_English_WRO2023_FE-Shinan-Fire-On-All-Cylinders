@@ -25,7 +25,7 @@ We encountered a bottleneck when using the color sensor to detect lines because 
         
 With the guidance of my teacher, We successfully completed it.  
  __The partial code is as follows:__
-#### Function
+  #### Function
 ```
 class TCS34725():
     def __init__(self):
@@ -57,7 +57,7 @@ class TCS34725():
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 ``` 
-#### Snippet of Code  
+  #### Snippet of Code  
 ```
 data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8 )        
         # Convert the data
