@@ -48,12 +48,12 @@ class TCS34725():
         """Read data back from TCS34725_REG_CDATAL(0x94), 8 bytes, with TCS34725_COMMAND_BIT, (0x80)
         cData LSB, cData MSB, Red LSB, Red MSB, Green LSB, Green MSB, Blue LSB, Blue MSB"""
         data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8 )        
-  //# Convert the data
+  # Convert the data
         cData = data[1] * 256 + data[0]
         red = data[3] * 256 + data[2]
         green = data[5] * 256 + data[4]
         blue = data[7] * 256 + data[6]        
-  //# Calculate luminance
+  # Calculate luminance
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 ``` 
