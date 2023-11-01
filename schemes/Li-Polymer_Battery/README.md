@@ -13,7 +13,8 @@
     </tr>
    </table>
    </div>
-    - #### Charging/Discharging Equipment
+   
+  - #### Charging/Discharging Equipment
       <div align="center">
       <table>
         <tr align="center">
