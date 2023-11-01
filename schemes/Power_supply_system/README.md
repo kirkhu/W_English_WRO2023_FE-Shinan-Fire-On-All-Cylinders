@@ -12,7 +12,7 @@
   - Powered by a lithium-polymer battery, it provides 11.1V, simultaneously serving as the working voltage for the 12V-to-5V step-down power supply module and the L293D motor control chip to drive the 12V DC motors.
   - The step-down power supply module reduces 11.1V to 5V, supplying the working voltage to the 5V Raspberry Pi, 5V color sensor, 5V L293D motor controller, and 5V servo motors.
   - The Raspberry Pi, in turn, supplies 5V as the working voltage for the Lidar and camera module.  - 
-- ###  Battery Selection 電池選擇
+- ###  Battery Selection
   - As the vehicle requires continuous movement, it was necessary to switch the power source to batteries. Considering that the motors require a voltage of 12V to operate, we chose a 12V battery with a current rating of 3A.
   - There are two common battery options: lithium-ion batteries (18650) and lithium-polymer batteries (3S). However, due to the heavier weight and larger size of 18650 batteries, we opted for the compact and lightweight lithium-polymer battery.
   - #### Battery Comparison
@@ -33,7 +33,7 @@
 </table>
 </div>
 
- - ### Step-Down Power Supply Module  Selection(降壓模組選擇)
+ - ### Step-Down Power Supply Module  Selection
     - The Raspberry Pi can only operate at a voltage of up to 5.2V, so we need to use a 12V-to-5V step-down power supply module to lower the voltage and prevent damage to the Raspberry Pi.
     - Initially, we used the LM2596 DC-DC adjustable step-down module because it had a digital display that could show the current output voltage. However, its maximum output current was only 3A, which couldn't meet the device's operating current, so we didn't use it.
     - Therefore, we opted for a constant voltage and constant current step-down power supply module with a maximum output current of 5A, which allows the self-driving car to operate normally. While it lacks a digital display, we can determine the current battery voltage through a low-voltage alarm, ensuring that the battery voltage is sufficient.
