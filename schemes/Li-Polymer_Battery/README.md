@@ -25,10 +25,7 @@
       1. Insufficient internal battery charge, leading to the inability of chemical reactions within the battery to proceed normally, resulting in a loss of battery capacity.
       2. Excessive internal battery charge, causing the breakdown of the battery's electrolyte and, in turn, damaging the battery.
       3. Storing the battery in a high-temperature or high-humidity environment, accelerating the chemical reactions within the battery and causing damage to the battery.
-    - Therefore, when lithium polymer batteries are not in use for an extended period, it is important to consider the following:
-      1. Regularly check the battery's charge level and recharge it in a timely manner.
-      2. Avoid storing the battery in high-temperature or high-humidity environments.
-      3. Use a charge/discharge device to discharge the battery to around 3.2V in order to extend the battery's lifespan.
+
       <div align="center">
       <table>
         <tr align="center">
