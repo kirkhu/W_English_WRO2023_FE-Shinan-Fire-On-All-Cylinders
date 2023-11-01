@@ -14,9 +14,10 @@
         if get_mid_dis > 55:
             servo.angle(-40)
         ```
-        |LiDAR Readings|
-        |:---:|
-        |<div align="center"> <img src="./img/read_lidar.png" width="300" alt="Detecting_nearby_obstacles"></div>|
+    
+    |LiDAR Readings|
+    |:---:|
+    |<div align="center"> <img src="./img/read_lidar.png" width="300" alt="Detecting_nearby_obstacles"></div>|
 
 ### Obstacle Avoidance
  - While the vehicle is in motion, the camera lens transmits the video to the controller (Raspberry Pi), which performs calculations to obtain the X and Y coordinates and area of the objects in the image.
