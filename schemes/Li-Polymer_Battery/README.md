@@ -6,7 +6,7 @@
    <div align="center">
    <table>
    <tr>
-   <td>The main purpose of installing a low voltage alarm is to prevent the battery from reaching a critically low level, thereby avoiding abnormal vehicle operation or potential damage to the battery. Therefore, when the battery voltage drops below a specific threshold, the low voltage alarm will sound, alerting the user to pay attention and replace the battery promptly if necessary.  
+   <td>The primary purpose of installing a low voltage alarm is to prevent the battery from reaching a critically low voltage, thereby avoiding abnormal vehicle operation or battery damage. Therefore, when the battery voltage drops below a specific threshold, the low voltage alarm will sound an alert, reminding the user to take notice or promptly replace the battery to prevent any disruptions to the ongoing race.  
         
    </td>
    <td><img src="./img/low_voltage_alarm.png" width = "500"  alt="low_voltage_alarm" align="center" /></td>
