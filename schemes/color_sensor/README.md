@@ -26,7 +26,7 @@ We encountered a bottleneck when using the color sensor to detect lines because 
 With the guidance of my teacher, We successfully completed it.  
  __The partial code is as follows:__
 
- '''
+ ''''
 class TCS34725():
     def __init__(self):
         self.enable_selection()
@@ -53,10 +53,10 @@ class TCS34725():
         red = data[3] * 256 + data[2]
         green = data[5] * 256 + data[4]
         blue = data[7] * 256 + data[6]        
-# Calculate luminance
+  '# Calculate luminance
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
- '''
+ ''''
 
 <div align="center" width=100%>
 <table >
