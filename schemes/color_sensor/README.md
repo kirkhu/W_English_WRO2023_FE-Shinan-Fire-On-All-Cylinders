@@ -25,7 +25,7 @@ We encountered a bottleneck when using the color sensor to detect lines because 
         
 With the guidance of my teacher, We successfully completed it.  
  __The partial code is as follows:__
-
+#### Function
 ```
 class TCS34725():
     def __init__(self):
@@ -57,20 +57,20 @@ class TCS34725():
         luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
         return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
 ``` 
+#### Snippet of Code  
+```
+data = bus.read_i2c_block_data(TCS34725_DEFAULT_ADDRESS, TCS34725_REG_CDATAL | TCS34725_COMMAND_BIT, 8 )        
+        # Convert the data
+        cData = data[1] * 256 + data[0]
+        red = data[3] * 256 + data[2]
+        green = data[5] * 256 + data[4]
+        blue = data[7] * 256 + data[6]        
+# Calculate luminance
+        luminance = (-0.32466 * red) + (1.57837 * green) + (-0.73191 * blue)
+        return {'c' : cData, 'r' : red, 'g' : green, 'b' : blue, 'l' : luminance}
+```
+![image](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/assets/128333488/3e4aaa24-69fc-4b84-90dd-42c91de13b7b)
 
-<div align="center" width=100%>
-<table >
-<tr align="center">
-  <th>Snippet of Code</th> 
-  <th>Function</th>
-</tr>
-<tr>
-  <td><img src="./img/TCS34725_code.png" alt="TCS34725" width=500/ > </td>
-  <td><img src="./img/TCS34725_code_class.png" alt="TCS34725" width=500 />
-  </td>  
-  </tr>
-</table>
-</div>
 
 - #### Algorithm for Detecting Blue and Orange Lines Using a Color Sensor
   1. After the program is started, it will first read the three original values of the field lines: blue (blue_color = 15), orange (orange_color = 27), and white (white_color = 35).
