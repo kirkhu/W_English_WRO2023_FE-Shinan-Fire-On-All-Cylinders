@@ -14,7 +14,7 @@
    </table>
    </div>
    
-  - #### Charging/Discharging Equipment
+  - #### Battery Charging/Discharging Equipment
       <div align="center">
       <table>
         <tr align="center">
