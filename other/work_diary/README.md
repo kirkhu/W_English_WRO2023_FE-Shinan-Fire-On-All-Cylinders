@@ -404,7 +404,7 @@ During subsequent testing, we discovered that the vehicle was unable to predict 
 
 - By using VS Code along with Git to edit our technical documentation, we can effectively manage potential conflicts and improve collaboration. The advantages of this approach include easy version control, immediate notifications to editors when conflicts arise due to simultaneous edits, and the ability for editors who upload data later to merge conflicts by comparing the data. This way, we can ensure a smoother and more efficient process when working on the technical documentation.
 
-[github Homepage : https://github.com/kirkhu/WRO2023_Future-Engineers-Shinan-Fire-On-All-Cylinders/tree/main](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main)
+[github Homepage ](https://github.com/kirkhu/WRO2023_FE-Shinan-Fire-On-All-Cylinders/tree/main)
 
 <div align="center">
 <table>
