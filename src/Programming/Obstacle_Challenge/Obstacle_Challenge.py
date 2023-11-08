@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 #Import the required modules(匯入所需的模組)
 from vehicle_function import*
 
@@ -28,29 +29,33 @@ color_sensor = TCS34725()
 #Using methods and properties defined in the tools class(使用tools類別內部定義的方法和屬性)
 mapping = tools()
 
-
+#全域變數定義(不更動)
+RADIAN_TO_DEGREES = 180000/3141.59
+lidar_data = 0
+lidar_run = False
 thread_run = True
-reverse = True
-color = 0
-k = 0
+thread_DC = True
 green_lower = 0
 green_upper = 0
 red_lower = 0
 red_upper = 0
 line_middle = 0
-color_direction_middle = 0
-white_color = 0
-Final_Direction = -270
-record_box = ''
-count = 0
-round_count = 0
-line_count = 0
-RADIAN_TO_DEGREES = 180000/3141.59
-lidar_data = 0
-lidar_run = False
-#====================================
-lidar_kp = 0.8
-dodgeblock_kp = 0.1
+turn_left_dis = -1
+turn_right_dis = -1
+servo_control_angle = 0
+record_block = 'None'
+direction = 'None'
+return_block_color = 'None'
+start_pleace = 0
+
+#參數調整(調整參數)
+dodgeblock_kp = 0.18
+center_kp = 0.8
+max_power = 60
+min_power = 55
+
+def handler(signum, frame):
+    exit(0)
 
 #Activate the LiDAR(啟動lidar)
 def lidar_callback(data):
@@ -83,22 +88,22 @@ def lidar_get_distance(set):
                 right = ranges
     return int(left), int(mid), int(right) ,i
 
-def line_color_read():#Read values of the blue line and orange line(讀取藍線與橘線數值)
+#Read values of the blue line and orange line(讀取藍線與橘線數值)
+def line_color_read():
     global line_middle, color_direction_middle, white_color
-    with open('save_file/color_sensor.p', mode='rb') as f:
+    with open('/home/pi/Desktop/final/save_file/color_sensor.p', mode='rb') as f:
         file = pickle.load(f)
     blue_color = file['Blue']
     orange_color = file['Orange']
     white_color = file['white']
-    color_direction_middle = (blue_color + orange_color) / 2
+    color_direction_middle = (blue_color + orange_color) / 2 
     line_middle = (white_color + orange_color) / 2
-    print('orange:' + str(orange_color))
+    print('\norange:' + str(orange_color))
     print('blue:' + str(blue_color))
     print('white:' + str(white_color))
-    print('direction_middle:', color_direction_middle)
+    print('\ndirection_middle:', color_direction_middle)
     print('line middle:', line_middle)
-    print('=======================')
-
+    
 #Read obstacle HSV values(讀取障礙物HSV數值)
 def block_color_read():
     global green_lower, green_upper, red_lower, red_upper
@@ -106,15 +111,14 @@ def block_color_read():
         file = pickle.load(f)
     g_lower = file['Lower']
     g_upper = file['Upper']
-    print('Green_Lower:' + str(g_lower))
+    print('\nGreen_Lower:' + str(g_lower))
     print('Green_Upper:' + str(g_upper))
-    
     with open('save_file/HSV_Red.p', mode='rb') as f:
         file = pickle.load(f)
     r_lower = file['Lower']
     r_upper = file['Upper']
-    print('Red_Lower:' + str(r_lower))
-    print('Red_Upper:' + str(r_upper))
+    print('\nRed_Lower:' + str(r_lower))
+    print('Red_Upper:' + str(r_upper) + '\n')
     
     red_lower = np.array(r_lower, np.uint8) 
     red_upper = np.array(r_upper, np.uint8)
@@ -128,217 +132,289 @@ def color_read():
         color = color_sensor.readluminance()['c']
         time.sleep(0.01)
 
-#Controlling DC Motors for Vehicles Using a Keyboard(使用鍵盤控制車輛直流馬達)
-def car_control():
-    while thread_run:
-        if opencv_detect.get_keyboard() == ord('w'):
-            motor.power(50)
-        elif opencv_detect.get_keyboard() == ord('s'):
-            motor.power(0)
-        time.sleep(0.1)
-
-#Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
-def dodgeblock_to_line(set):
-    while color > line_middle:
-        dodgeblock_control(set)
-        time.sleep(0.001)
-
-#Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
-def dodgeblock_to_time(set_time, set):
-    set_reset = time.time()
-    while time.time() - set_reset < set_time:
-        dodgeblock_control(set)
-        time.sleep(0.001)
+#=======================任務執行程序=======================
 
 #Recognize Clockwise and Counterclockwise(辨識順逆時針)
-def direction_detect():
-    global reverse, line_count
-    print('direction detect')
+def start_to_NoWall():
+    global gyro_offset, turn_direction, reverse_direction, direction
+    left_dis=50
+    right_dis=50
+    while left_dis < 200 and right_dis < 200:
+        left_dis, right_dis, gyro_angle = dodge_control(0)
+    print('left:', left_dis, ' right:', right_dis, '\n')
+
+    #判斷順時針或逆時針
+    if left_dis > right_dis:
+        #逆時針
+        print('turn left\n')
+        direction = 'counterclockwise'
+        gyro_offset = 0 #陀螺儀微調
+        #正旋轉方向
+        turn_direction = [-90, -180, -270, 0, 
+                          -90, -180, -270, 0, 
+                          -90, -180, -270
+                          ]
+        #反轉旋轉方向
+        reverse_direction = [180, -90, 0, 90]
+    else:
+        #順時針
+        print('turn right\n')
+        direction = 'clockwise'
+        gyro_offset = 0 #陀螺儀微調
+        #正旋轉方向
+        turn_direction = [90, 180, 270, 0,
+                          90, 180, 270, 0,
+                          90, 180, 270
+                          ]
+        #反轉旋轉方向
+        reverse_direction = [180, 90, 0, -90]
+
+#Avoid obstacles until the field line is detected(閃避障礙物直到測到場地線)
+def dodge_to_line(set_gyro):
     while color > line_middle:
-        dodgeblock_control(0)
-    low_color = 100
-    while color < line_middle:
-        dodgeblock_control(0)
-        if color < low_color:
-            low_color = color
-    line_count = 1
-    if low_color < color_direction_middle:
-        print('blue line')
-        print('Low:', low_color)
-    else:
-        reverse = False
-        print('orange line')
-        print('Low:', low_color)
+        left_dis, right_dis, gyro_angle = dodge_control(set_gyro)
+    print(color)
 
-#Lidar Road Centering(光達道路置中)
-def center_control(set):
-    left, mid, right = lidar_get_distance(set)
-    if left > 0 and right > 0:
-        center_error = (right - left) / 1.8
-    elif left > 0:
-        center_error = 48 - left
-    else:
-        center_error = right - 48
-    servo.angle(center_error * lidar_kp)
-
-#Rotating motion(迴轉動作)
-def red_turn(set, set_range, set_time):
-    while range_y > set_range:
-        servo.angle(-35)
-    time = time.time()
-    while time.time() - time < set_time:
-        left, mid, right= lidar_get_distance(set)
-        center_error = (right - left) / 1.8
-        servo.angle(center_error * lidar_kp)
+#Translation in English: Avoid obstacles until the time is up(閃避障礙物直到時間到)
+def dodge_to_time(set_gyro, set_time):
+    reset = time.time()
+    while time.time() - reset < set_time:
+        left_dis, right_dis, gyro_angle = turn_dodge_control(set_gyro)
         
-#Record the number of passes through the venue's finish line(紀錄經過場地線次數)                
-def number_line():
-    global line_count ,round_count
-    if reverse == True:
-        while thread_run:
-            print("wait line")
-            while color > line_middle and thread_run:
-                time.sleep(0.001)
-            if line_count + 1 == 4:
-                line_count = 0
-                round_count += 1
-            else:
-                line_count += 1
-            print('round:', round_count, 'line:', line_count)
-            time.sleep(2.3)
-        print('end')
+#Rotating motion(迴轉動作)
+def reverse():
+    global record_block, servo_control_angle, max_power, min_power, turn_left_dis, turn_right_dis
+    while color > line_middle:
+        left_dis, right_dis, gyro_angle = dodge_control(0)
+    while color < line_middle:
+        left_dis, right_dis, gyro_angle = dodge_control(0)
+    while color > line_middle:
+        left_dis, right_dis, gyro_angle = dodge_control(0)
+        if opencv_detect.get_red_y() > 290:
+            return_block_color = 'red'
+            record_block = 'red'
+        elif opencv_detect.get_green_y() > 290:
+            return_block_color = 'green'
+            record_block = 'green'
+        else:
+            return_block_color ='None'
+            record_block = 'None'
+    #判斷正前方有沒有積木
+    if not return_block_color =='None':
+        #有積木
+        max_power = 60
+        min_power = 55
+        print('find block\n')
+        #繼續閃避到接近下一個走道方向
+        gyro_angle = 100
+        while abs(gyro_angle) > 20:
+            left_dis, right_dis, gyro_angle = dodge_control(0)
+        #繼續閃避到積木消失
+        while opencv_detect.get_red_y() > 0 or opencv_detect.get_green_y() > 0:
+            left_dis, right_dis, gyro_angle = dodge_control(0)
+        #繼續走一小段距離,必面太早轉彎撞到積木
+        reset = time.time()
+        while time.time() - reset < 0.8:
+            left_dis, right_dis, gyro_angle = dodge_control(0)
+            turn_left_dis = left_dis
+            turn_right_dis = right_dis
+        print('\nreturn block color:', return_block_color, '\n')
     else:
-        while thread_run:
-            print("wait line")
-            while color > line_middle and thread_run:
-                time.sleep(0.001)
-            if line_count + 1 == 4:
-                line_count = 0
-                round_count += 1
-            else:
-                line_count += 1
-            print('round:', round_count, 'line:', line_count)
-            time.sleep(2.3)
-        print('end')
-
-def handler(signum, frame):
-    exit(0)
-
-#==========main==============
+        max_power = 35
+        min_power = 35
+        #沒積木
+        print('not find block\n')
+        gyro_angle = 100
+        while abs(gyro_angle) > 5:
+            left_dis, right_dis, gyro_angle = dodge_control(0)
+        if direction == 'clockwise':
+            #順時針
+            print('順時針')
+            right_dis = 250
+            while right_dis > 200 or right_dis < 0:
+                left_dis, right_dis, mid_dis, gyro = lidar_get_distance(0)
+                turn_left_dis = left_dis
+                turn_right_dis = right_dis
+                servo_control_angle = gyro * gyro_kp
+                servo.angle(-servo_control_angle)
+            reset = time.time()
+            right_dis = 250
+            while time.time() - reset < 0.15:
+                left_dis, right_dis, mid_dis,gyro = lidar_get_distance(0)
+                servo_control_angle = gyro * gyro_kp
+                turn_left_dis = left_dis
+                turn_right_dis = right_dis
+                servo.angle(-servo_control_angle)
+                if right_dis > 200 or right_dis < 0:
+                    reset = time.time()
+                if opencv_detect.get_red_y() > 0:
+                    record_block = 'red'
+                elif opencv_detect.get_green_y() > 0:
+                    record_block = 'green'
+                else:
+                    record_block = 'None'
+        else:
+            #逆時針
+            max_power = 35
+            min_power = 35
+            left_dis = 250
+            while left_dis > 200 or left_dis < 0:
+                left_dis, right_dis, mid_dis, gyro = lidar_get_distance(0)
+                turn_left_dis = left_dis
+                turn_right_dis = right_dis 
+                servo_control_angle = gyro * gyro_kp
+                servo.angle(-servo_control_angle)
+            reset = time.time()
+            left_dis = 250
+            while time.time() - reset < 0.15:
+                left_dis, right_dis, mid_dis, gyro = lidar_get_distance(0)
+                print('left:', left_dis,'right:', right_dis)
+                servo_control_angle = gyro * gyro_kp
+                servo.angle(-servo_control_angle)
+                turn_left_dis = left_dis
+                turn_right_dis = right_dis
+                if left_dis > 200 or left_dis < 0:
+                    reset = time.time()
+                if opencv_detect.get_red_y() > 0:
+                    record_block = 'red'
+                elif opencv_detect.get_green_y() > 0:
+                    record_block = 'green'
+                else:
+                    record_block = 'None'
+    #判斷當下離兩側牆壁哪邊比較遠
+    if record_block == 'red':
+        max_power = 80
+        min_power = 60
+        if turn_left_dis > turn_right_dis:
+            print('左轉')
+            servo_control_angle = -50
+            servo.angle(50)
+        else:
+            print('右轉')
+            servo_control_angle = 50
+            servo.angle(-50)
+        print('left:', turn_left_dis, 'right:', turn_right_dis)
+        gyro_error = 100
+        while abs(gyro_error) > 40:
+            gyro_error = gyro_relative(reverse_direction[0]) 
+              
+#Controlling DC Motors for Vehicles(控制車輛直流馬達)
+def power_control():
+    global min_power, max_power
+    motor.power(70)
+    time.sleep(0.4)
+    while thread_DC:
+        power_error = tools.constrain(servo_control_angle, -50, 50)
+        motor.power(tools.mapping(abs(power_error), 0, 50, min_power, max_power))
+        time.sleep(0.05)
+#=======================main=======================
 try:
-    color_read_thread = threading.Thread(target = color_read)
-    car_control_thread = threading.Thread(target = car_control)
-    number_line_thread = threading.Thread(target = number_line)
-
-    line_color_read()
-    block_color_read()
-    opencv_detect = opencv_recognition(red_lower, red_upper, green_lower, green_upper)#opencv¼v¹³¿ëÃÑ¥\¯à©w¸q»Pªì©l¤Æopencv¥\¯à
-    opencv_detect.start()
-    color_read_thread.start()
-    car_control_thread.start()
-    number_line_thread.start()
+    signal.signal(signal.SIGINT, handler)
+    #ROS 雷達程序啟動
     rospy.init_node('listener', anonymous=True)
     rospy.Subscriber("/scan", LaserScan, lidar_callback)
-    signal.signal(signal.SIGINT, handler)
-    print('ros callback ...')
+    print('\nROS init')
     while not lidar_run:
         pass
-    print('ros running...\n')
-    servo.angle(0)
-    print('waitting start ...')
-    button_state = 1
-    while button_state == 1 and not opencv_detect.get_keyboard() == ord('g') and not opencv_detect.get_keyboard() == ord('c'):
-        button_state = button.raw_value()
-        time.sleep(0.05)
-        #center_control(0)
-        left, mid, right = lidar_get_distance(0)
-#         print('left:', left, ' mid:', mid, ' right:', right)
-    print('start run')
-    motor.power(60)
+    print('ROS connected')
 
-    direction_detect()
-    for count in range(2):
-        if reverse == True:
-            if count == 1:
-                dodgeblock_to_line(0)
-            dodgeblock_to_time(2, -90)
-            dodgeblock_to_line(-90)
-            dodgeblock_to_time(2, -180)
-            dodgeblock_to_line(-180)
-            dodgeblock_to_time(2, -270)
-            if record_box == 'red' and count == 1:
-                dodgeblock_to_line(-270)
-                motor.power(70)
-                red_turn(-90, 25, 0.3)
-                motor.power(50)
-                dodgeblock_to_time(1, -90)
-            else:
-                dodgeblock_to_line(-270)
-                dodgeblock_to_time(2, 0)
-        else:
-            if count == 1:
-                dodgeblock_to_line(0)
-            dodgeblock_to_time(2.5, 90)
-            dodgeblock_to_line(90)
-            dodgeblock_to_time(2.5, 180)
-            dodgeblock_to_line(180)
-            dodgeblock_to_time(2.5, 270)
-            if record_box == 'red' and count == 1:
-                dodgeblock_to_line(270)
-                motor.power(70)
-                red_turn(90, 25, 0.3)
-                motor.power(50)
-                dodgeblock_to_time(1, 90)
-            else:
-                dodgeblock_to_line(270)
-                dodgeblock_to_time(2, 0)
+    time.sleep(1)
+    gyro_sensor.setExternalCrystalUse(True)
 
-    if reverse == True:
-        if record_box == 'red':
-            dodgeblock_to_line(-90)
-            dodgeblock_to_time(2.5, 0)
-            dodgeblock_to_line(0)
-            dodgeblock_to_time(2.5, 90)
-            dodgeblock_to_line(90)
-            dodgeblock_to_time(2, 180)
-        else:
-            dodgeblock_to_line(0)
-            dodgeblock_to_time(2.5, -90)
-            dodgeblock_to_line(-90)
-            dodgeblock_to_time(2.5, -180)
-            dodgeblock_to_line(-180)
-            dodgeblock_to_time(2.5, -270)
-            dodgeblock_to_line(-270)
-            dodgeblock_to_time(2, 0)
-    else:
-        if record_box == 'red':
-            dodgeblock_to_line(90)
-            dodgeblock_to_time(2.5, 0)
-            dodgeblock_to_line(0)
-            dodgeblock_to_time(2.5, -90)
-            dodgeblock_to_line(-90)
-            dodgeblock_to_time(2, -180)
-        else:
-            dodgeblock_to_line(0)
-            dodgeblock_to_time(2.5, 90)
-            dodgeblock_to_line(90)
-            dodgeblock_to_time(2.5, 180)
-            dodgeblock_to_line(180)
-            dodgeblock_to_time(2.5, 270)
-            dodgeblock_to_line(270)
-            dodgeblock_to_time(2, 0)
-    brakes = time.time()
-    while time.time() - brakes < 1:
-        motor.power(-20)
+    #讀取記憶體數據
+    line_color_read()
+    block_color_read()
+
+    #opencv程序啟動
+    opencv_detect = opencv_recognition(red_lower, red_upper, green_lower, green_upper)
+    opencv_detect.start()
+
+    #定義平行化執行序
+    color_read_thread = threading.Thread(target = color_read)
+    power_thread = threading.Thread(target = power_control)
+    color_read_thread.start()
+    gyro_read_thread.start()
+
+    #直流馬達初始化
     motor.power(0)
+
+    #伺服馬達初始化
+    servo.angle(30)
+    time.sleep(0.5)
+    servo.angle(-30)
+    time.sleep(0.5)
     servo.angle(0)
+    time.sleep(0.5)
     
+    #開啟LED燈
+    LED.green_on()
+    LED.red_on()
+    
+    #等待按鈕啟動
+    button_state = 1
+    while button_state == 1 and not opencv_detect.get_keyboard() == ord('g'):
+        button_state = button.raw_value()
+        left, right, mid, gyro = lidar_get_distance(0)
+        print('left:', left, ' right:', right, ' mid:', mid, ' gyro:', gyro)
+        #print('fps:', opencv_detect.get_program_fps())
+        # print('green_y:', opencv_detect.get_green_y(), 'red_y:', opencv_detect.get_red_y())
+        time.sleep(0.05)
+    
+    power_thread.start()
+    print('\n=========================\n')
+
+    #出發直到兩側某一牆壁消失
+    start_to_NoWall()
+    for i in range(7):
+        print('count:', i)
+        dodge_to_time(turn_direction[i], 2)
+        dodge_to_line(turn_direction[i])
+        
+    #判斷是否需要迴轉
+    reverse()
+    print('\nlast block color:', record_block, '\n')
+    if record_block == 'red':
+        max_power = 60
+        min_power = 55
+        dodge_to_line(reverse_direction[0])
+        for i in range(3):
+            print('count:', i)
+            dodge_to_time(reverse_direction[i + 1], 1.8)
+            dodge_to_line(reverse_direction[i + 1])
+        #進入終點
+        dodge_to_time(reverse_direction[0], 0.1)
+        dodge_to_line(reverse_direction[0])
+        dodge_to_time(reverse_direction[0], 1.3)
+    else:
+        #最後一顆積木偵測為綠色積木，同方向完成最後一圈
+        max_power = 60
+        min_power = 55
+        dodge_to_line(turn_direction[3])
+        for i in range(3):
+            print('count:', i)
+            dodge_to_time(turn_direction[i + 4], 1.8)
+            dodge_to_line(turn_direction[i + 4])
+        #進入終點
+        dodge_to_time(0, 0.1)
+        dodge_to_line(0)
+        dodge_to_time(0, 1.3)
+    #煞車
+    thread_DC = False
+    power_thread.join()
+    brakes = time.time()
+    while time.time() - brakes < 0.5:
+        motor.power(-50)
+
 finally:
     print('\nshutdown')
+    if thread_DC:
+        thread_DC = False
+        power_thread.join()
     motor.power(0)
     servo.angle(0)
+    LED.green_off()
+    LED.red_off()
     thread_run = False
     color_read_thread.join()
-    car_control_thread.join()
-    number_line_thread.join()
-    opencv_detect.shutdown()#Close OpenCV window(opencv關閉視窗)
+    gyro_read_thread.join()
+    opencv_detect.shutdown()
